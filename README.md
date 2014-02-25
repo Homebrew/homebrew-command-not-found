@@ -21,10 +21,10 @@ The program 'when' is currently not installed. You can install it by typing:
 
 ## Install
 
-Download `handle.sh` and source it somewhere in your `.bashrc`:
+Download `handler.sh` and source it somewhere in your `.bashrc`:
 
 ```sh
-. /path/to/handle.sh
+. /path/to/handler.sh
 ```
 
 ## Contributing
