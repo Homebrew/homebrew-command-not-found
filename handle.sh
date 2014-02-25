@@ -25,7 +25,7 @@
     # </from Linux Journal>
 
     local path="$(brew --prefix)/Library/Formula"
-    local f=$(\grep -lI -e "bin\.install..*$1" $path/*.rb 2>/dev/null)
+    local f=$(\grep -lI -E "bin\.install..*\b$1\b" $path/*.rb 2>/dev/null)
 
     if [ -z "$f" ]; then
         echo $"$1: command not found"
