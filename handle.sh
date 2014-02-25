@@ -6,7 +6,7 @@
 # Author: Baptiste Fontaine
 # URL: https://github.com/bfontaine/brew-command-not-found
 # License: MIT
-# Version: 0.1.0
+# Version: 0.1.1
 # 
 
 [ ! -z "$(which brew)" ] && command_not_found_handle() {
