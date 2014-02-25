@@ -4,6 +4,7 @@
 # Usage: Source it somewhere in your .bashrc
 #
 # Author: Baptiste Fontaine
+# URL: https://github.com/bfontaine/brew-command-not-found
 # License: MIT
 # Version: 0.1.0
 # 
