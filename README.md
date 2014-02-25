@@ -1,11 +1,11 @@
 # brew-command-not-found
 
-This project try to reproduce Ubuntu’s `command-not-found` for homebrew users
+This project try to reproduce Ubuntu’s `command-not-found` for Homebrew users
 on OSX.
 
-On a Ubuntu, when you try to use a command that doesn’t exist locally but is
-available through a package, Bash will suggest you a command to install this
-package. Using this script, you can replicate this behavior on OSX:
+On Ubuntu, when you try to use a command that doesn’t exist locally but is
+available through a package, Bash will suggest you a command to install it.
+Using this script, you can replicate this feature on OSX:
 
 ```
 # on Ubuntu
@@ -21,11 +21,13 @@ The program 'when' is currently not installed. You can install it by typing:
 
 ## Install
 
-Download `handler.sh` and source it somewhere in your `.bashrc`:
+Download [`handler.sh`][handler] and source it somewhere in your `.bashrc`:
 
 ```sh
 . /path/to/handler.sh
 ```
+
+[handler]: https://raw.github.com/bfontaine/brew-command-not-found/master/handler.sh
 
 ## Contributing
 
