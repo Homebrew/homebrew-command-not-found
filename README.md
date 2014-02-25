@@ -29,6 +29,10 @@ Download [`handler.sh`][handler] and source it somewhere in your `.bashrc`:
 
 [handler]: https://raw.github.com/bfontaine/brew-command-not-found/master/handler.sh
 
+### Requirements
+
+This tool only supports Bash for now.
+
 ## Contributing
 
 Feel free to make a pull-request if you want to add MacPort or Fink support!
