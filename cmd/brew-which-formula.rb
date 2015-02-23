@@ -18,11 +18,11 @@ LIST_PATH = File.expand_path("#{File.dirname(__FILE__)}/../executables.txt")
 
 def matches(cmd)
   # We use 'grep' here not to read the whole file
-  `grep #{Shellwords.escape cmd} #{LIST_PATH}`.chomp.split(/\n/)
+  `grep #{Shellwords.escape cmd} #{LIST_PATH} 2>/dev/null`.chomp.split(/\n/)
 end
 
 def which_formula(cmd)
-  cmd.downcase!
+  cmd = cmd.downcase
 
   (matches cmd).each do |m|
     formula, cmds = m.split(":", 2)
