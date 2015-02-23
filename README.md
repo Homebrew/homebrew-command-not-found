@@ -1,4 +1,4 @@
-# brew-command-not-found
+# homebrew-command-not-found
 
 This project try to reproduce Ubuntu’s `command-not-found` for Homebrew users
 on OSX.
