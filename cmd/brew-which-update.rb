@@ -23,10 +23,10 @@ def make_db(base=nil)
   base = {} if base.nil?
 
   Dir["#{HOMEBREW_CELLAR}/*"].each do |d|
-    formula = d.split("/")[-1].strip.downcase
+    formula = d.split("/")[-1].strip
     base[formula] ||= []
 
-    Dir["#{d}/*/bin/*"].uniq do |path|
+    Dir["#{d}/*/bin/*"].uniq.each do |path|
       next unless File.executable? path
       base[formula] << path.split("/")[-1].strip
     end
