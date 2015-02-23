@@ -26,7 +26,7 @@ def make_db(base=nil)
     formula = d.split("/")[-1].strip
     base[formula] ||= []
 
-    Dir["#{d}/*/bin/*"].uniq.each do |path|
+    Dir["#{d}/*/{bin,sbin}/*"].uniq.each do |path|
       next unless File.executable? path
       base[formula] << path.split("/")[-1].strip
     end
