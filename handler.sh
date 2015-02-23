@@ -1,4 +1,4 @@
-# 
+#
 # brew-command-not-found script for OS X
 #
 # Usage: Source it somewhere in your .bashrc
@@ -6,7 +6,7 @@
 # Author: Baptiste Fontaine
 # URL: https://github.com/bfontaine/homebrew-command-not-found
 # License: MIT
-# Version: 0.2.0-alpha
+# Version: 0.2.0
 # 
 
 [ ! -z "$(which brew)" ] && command_not_found_handle() {
