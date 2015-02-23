@@ -18,7 +18,7 @@ LIST_PATH = File.expand_path("#{File.dirname(__FILE__)}/../executables.txt")
 
 def matches(cmd)
   # We use 'grep' here not to read the whole file
-  `grep #{Shellwords.escape cmd} #{LIST_PATH} 2>/dev/null`.chomp.split(/\n/)
+  `grep -m 1 #{Shellwords.escape cmd} #{LIST_PATH} 2>/dev/null`.chomp.split(/\n/)
 end
 
 def which_formula(cmd)
