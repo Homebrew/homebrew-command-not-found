@@ -6,25 +6,29 @@ acpica:acpibin acpidump acpiexamples acpiexec acpihelp acpinames acpisrc acpixtr
 adobe-air-sdk:aasdoc acompc adl adt amxmlc asdoc compc fdb fontswf mxmlc optimizer swcdepends swfdump
 adplug:adplugdb
 aescrypt:aescrypt aesget
+aeskeyfind:aeskeyfind
 afflib:affcat affcompare affconvert affcopy affcrypto affdiskprint affinfo affix affrecover affsegment affsign affstats affuse affverify affxml
 aha:aha
 ant:ant antRun antRun.pl complete-ant-cmd.pl runant.pl runant.py
 antiword:antiword
 antlr:antlr4 grun
+apr:apr-1-config
 archey:archey
 argp-standalone:
 aria2:aria2c
-arping:
+arping:arping
 asciidoc:a2x a2x.py asciidoc asciidoc.py
 aspcud:aspcud cudf2lp
 aspell:aspell aspell-import precat preunzip prezip prezip-bin pspell-config run-with-aspell word-list-compress
 at-spi2-atk:
 at-spi2-core:
+atf:atf-sh
 atk:
 atkmm:
 audiofile:sfconvert sfinfo
 autoconf:autoconf autoheader autom4te autoreconf autoscan autoupdate ifnames
 automake:aclocal aclocal-1.15 automake automake-1.15
+babl:
 base64:base64
 bash-completion:
 bash:bash bashbug
@@ -54,12 +58,14 @@ cassandra:cassandra cassandra-cli cqlsh debug-cql nodetool sstablekeys sstablelo
 catdoc:catdoc catppt wordview xls2csv
 cbmbasic:cbmbasic
 cereal:
+cfengine:cf-agent cf-execd cf-key cf-monitord cf-promises cf-runagent cf-serverd cf-upgrade rpmvercmp
 cgal:cgal_create_cmake_script cgal_create_CMakeLists cgal_make_macosx_app
 cgdb:cgdb
 checkbashisms:checkbashisms
 chicken:chicken chicken-bug chicken-install chicken-profile chicken-status chicken-uninstall csc csi
 chktex:chktex chkweb deweb
-clamav:clamav-config clambc clamconf clamdscan clamdtop clamscan clamsubmit freshclam sigtool
+chruby:chruby-exec
+clamav:clamav-config clambc clamconf clamdscan clamdtop clamscan clamsubmit freshclam sigtool clamd
 clasp:clasp
 clib:clib clib-install clib-search
 clisp:clisp clisp-link
@@ -72,26 +78,32 @@ clutter-gst:
 clutter:
 cmake:ccmake cmake cmakexbuild cpack ctest
 cmatrix:cmatrix
+coda-cli:coda
 cogl:
+colorsvn:colorsvn
 composer:composer
 confuse:
 coreutils:g[ gbase64 gbasename gcat gchcon gchgrp gchmod gchown gchroot gcksum gcomm gcp gcsplit gcut gdate gdd gdf gdir gdircolors gdirname gdu gecho genv gexpand gexpr gfactor gfalse gfmt gfold ggroups ghead ghostid gid ginstall gjoin gkill glink gln glogname gls gmd5sum gmkdir gmkfifo gmknod gmktemp gmv gnice gnl gnohup gnproc gnumfmt god gpaste gpathchk gpinky gpr gprintenv gprintf gptx gpwd greadlink grealpath grm grmdir gruncon gseq gsha1sum gsha224sum gsha256sum gsha384sum gsha512sum gshred gshuf gsleep gsort gsplit gstat gstdbuf gstty gsum gsync gtac gtail gtee gtest gtimeout gtouch gtr gtrue gtruncate gtsort gtty guname gunexpand guniq gunlink guptime gusers gvdir gwc gwho gwhoami gyes
 cowsay:cowsay cowthink
 cppcheck:cppcheck cppcheck-htmlreport
 cppunit:cppunit-config DllPlugInTester
+cproto:cproto
+crash:crash.sh
 cscope:cscope ocs
+curaengine:CuraEngine
 curl:curl curl-config
 curlish:curlish
 cv:cv
 d-bus:dbus-cleanup-sockets dbus-daemon dbus-launch dbus-monitor dbus-run-session dbus-send dbus-uuidgen
 daemontools:envdir envuidgid fghack multilog pgrphack readproctitle setlock setuidgid softlimit supervise svc svok svscan svscanboot svstat tai64n tai64nlocal
 datomic:datomic datomic-repl datomic-repl-jline datomic-rest datomic-shell datomic-transactor
+dbus-glib:dbus-binding-tool
 dcraw:dcraw
 deja-gnu:runtest
 dialog:dialog
 diff-pdf:diff-pdf
 dirmngr:dirmngr dirmngr-client
-dnsmasq:
+dnsmasq:dnsmasq
 docbook-xsl:dbtoepub
 docbook2x:db2x_manxml db2x_texixml db2x_xsltproc docbook2man docbook2texi sgml2xml-isoent utf8trans
 docbook:
@@ -101,13 +113,18 @@ dwdiff:dwdiff dwfilter
 dynamips:dynamips nvram_export
 ec2-api-tools:ec2-accept-vpc-peering-connection ec2-activate-license ec2-add-group ec2-add-keypair ec2-allocate-address ec2-assign-private-ip-addresses ec2-associate-address ec2-associate-dhcp-options ec2-associate-route-table ec2-attach-classic-link-vpc ec2-attach-internet-gateway ec2-attach-network-interface ec2-attach-volume ec2-attach-vpn-gateway ec2-authorize ec2-bundle-instance ec2-cancel-bundle-task ec2-cancel-conversion-task ec2-cancel-export-task ec2-cancel-reserved-instances-listing ec2-cancel-spot-instance-requests ec2-cmd ec2-confirm-product-instance ec2-copy-image ec2-copy-snapshot ec2-create-customer-gateway ec2-create-dhcp-options ec2-create-group ec2-create-image ec2-create-instance-export-task ec2-create-internet-gateway ec2-create-keypair ec2-create-network-acl ec2-create-network-acl-entry ec2-create-network-interface ec2-create-placement-group ec2-create-reserved-instances-listing ec2-create-route ec2-create-route-table ec2-create-snapshot ec2-create-spot-datafeed-subscription ec2-create-subnet ec2-create-tags ec2-create-volume ec2-create-vpc ec2-create-vpc-peering-connection ec2-create-vpn-connection ec2-create-vpn-connection-route ec2-create-vpn-gateway ec2-deactivate-license ec2-delete-customer-gateway ec2-delete-dhcp-options ec2-delete-disk-image ec2-delete-group ec2-delete-internet-gateway ec2-delete-keypair ec2-delete-network-acl ec2-delete-network-acl-entry ec2-delete-network-interface ec2-delete-placement-group ec2-delete-route ec2-delete-route-table ec2-delete-snapshot ec2-delete-spot-datafeed-subscription ec2-delete-subnet ec2-delete-tags ec2-delete-volume ec2-delete-vpc ec2-delete-vpc-peering-connection ec2-delete-vpn-connection ec2-delete-vpn-connection-route ec2-delete-vpn-gateway ec2-deregister ec2-describe-account-attributes ec2-describe-addresses ec2-describe-availability-zones ec2-describe-bundle-tasks ec2-describe-classic-link-instances ec2-describe-conversion-tasks ec2-describe-customer-gateways ec2-describe-dhcp-options ec2-describe-export-tasks ec2-describe-group ec2-describe-image-attribute ec2-describe-images ec2-describe-instance-attribute ec2-describe-instance-status ec2-describe-instances ec2-describe-internet-gateways ec2-describe-keypairs ec2-describe-licenses ec2-describe-network-acls ec2-describe-network-interface-attribute ec2-describe-network-interfaces ec2-describe-placement-groups ec2-describe-regions ec2-describe-reserved-instances ec2-describe-reserved-instances-listings ec2-describe-reserved-instances-modifications ec2-describe-reserved-instances-offerings ec2-describe-route-tables ec2-describe-snapshot-attribute ec2-describe-snapshots ec2-describe-spot-datafeed-subscription ec2-describe-spot-instance-requests ec2-describe-spot-price-history ec2-describe-subnets ec2-describe-tags ec2-describe-volume-attribute ec2-describe-volume-status ec2-describe-volumes ec2-describe-vpc-attribute ec2-describe-vpc-classic-link ec2-describe-vpc-peering-connections ec2-describe-vpcs ec2-describe-vpn-connections ec2-describe-vpn-gateways ec2-detach-classic-link-vpc ec2-detach-internet-gateway ec2-detach-network-interface ec2-detach-volume ec2-detach-vpn-gateway ec2-disable-vgw-route-propagation ec2-disable-vpc-classic-link ec2-disassociate-address ec2-disassociate-route-table ec2-enable-vgw-route-propagation ec2-enable-volume-io ec2-enable-vpc-classic-link ec2-fingerprint-key ec2-get-console-output ec2-get-password ec2-import-instance ec2-import-keypair ec2-import-volume ec2-migrate-image ec2-modify-image-attribute ec2-modify-instance-attribute ec2-modify-network-interface-attribute ec2-modify-reserved-instances ec2-modify-snapshot-attribute ec2-modify-subnet-attribute ec2-modify-volume-attribute ec2-modify-vpc-attribute ec2-monitor-instances ec2-purchase-reserved-instances-offering ec2-reboot-instances ec2-register ec2-reject-vpc-peering-connection ec2-release-address ec2-replace-network-acl-association ec2-replace-network-acl-entry ec2-replace-route ec2-replace-route-table-association ec2-report-instance-status ec2-request-spot-instances ec2-reset-image-attribute ec2-reset-instance-attribute ec2-reset-network-interface-attribute ec2-reset-snapshot-attribute ec2-resume-import ec2-revoke ec2-run-instances ec2-start-instances ec2-stop-instances ec2-terminate-instances ec2-unassign-private-ip-addresses ec2-unmonitor-instances ec2-upload-disk-image ec2-version ec2actlic ec2addcgw ec2adddopt ec2addgrp ec2addigw ec2addixt ec2addkey ec2addnacl ec2addnae ec2addnic ec2addpcx ec2addpgrp ec2addrt ec2addrtb ec2addsds ec2addsnap ec2addsubnet ec2addtag ec2addvgw ec2addvol ec2addvpc ec2addvpn ec2allocaddr ec2apcx ec2apip ec2assocaddr ec2assocdopt ec2assocrtb ec2attachcl ec2attigw ec2attnic ec2attvgw ec2attvol ec2auth ec2bundle ec2caril ec2cbun ec2cct ec2cim ec2cpi ec2cpimg ec2cpsnap ec2crril ec2csir ec2cvcr ec2cxt ec2daa ec2daddr ec2datt ec2daz ec2dbun ec2dcgw ec2dcli ec2dct ec2ddi ec2ddopt ec2deactlic ec2delcgw ec2deldopt ec2delgrp ec2deligw ec2delkey ec2delnacl ec2delnae ec2delnic ec2delpcx ec2delpgrp ec2delrt ec2delrtb ec2delsds ec2delsnap ec2delsubnet ec2deltag ec2delvgw ec2delvol ec2delvpc ec2delvpn ec2dereg ec2detachcl ec2detigw ec2detnic ec2detvgw ec2detvol ec2dgrp ec2diatt ec2digw ec2dim ec2dimatt ec2din ec2dinatt ec2dins ec2disablecl ec2disaddr ec2disrtb ec2dkey ec2dlic ec2dnacl ec2dnic ec2dnicatt ec2dpcx ec2dpgrp ec2dre ec2dri ec2dril ec2drim ec2drio ec2drp ec2drtb ec2dsds ec2dsir ec2dsnap ec2dsnapatt ec2dsph ec2dsubnet ec2dtag ec2dva ec2dvcl ec2dvcr ec2dvgw ec2dvol ec2dvolatt ec2dvpc ec2dvpn ec2dvs ec2dxt ec2enablecl ec2erp ec2evio ec2fp ec2gcons ec2gpass ec2ii ec2iin ec2ikey ec2iv ec2ivol ec2kill ec2matt ec2miatt ec2mim ec2mimatt ec2min ec2minatt ec2mnicatt ec2mri ec2msnapatt ec2msubnetatt ec2mva ec2mvolatt ec2prio ec2ratt ec2reboot ec2reg ec2reladdr ec2rep ec2repnaclassoc ec2repnae ec2reprt ec2reprtbassoc ec2revoke ec2riatt ec2rim ec2rimatt ec2rinatt ec2rnicatt ec2rpcx ec2rsi ec2rsnapatt ec2run ec2start ec2stop ec2tag ec2udi ec2umin ec2upip ec2ver
 ecm:ecm unecm
+eet:eet
+eina:
 einstein:einstein
 elasticsearch:elasticsearch elasticsearch.in.sh plugin
 elb-tools:elb-apply-security-groups-to-lb elb-associate-route53-hosted-zone elb-attach-lb-to-subnets elb-cmd elb-configure-healthcheck elb-create-app-cookie-stickiness-policy elb-create-lb elb-create-lb-cookie-stickiness-policy elb-create-lb-listeners elb-create-lb-policy elb-delete-lb elb-delete-lb-listeners elb-delete-lb-policy elb-deregister-instances-from-lb elb-describe-instance-health elb-describe-lb-attributes elb-describe-lb-policies elb-describe-lb-policy-types elb-describe-lbs elb-detach-lb-from-subnets elb-disable-zones-for-lb elb-disassociate-route53-hosted-zone elb-enable-zones-for-lb elb-modify-lb-attributes elb-register-instances-with-lb elb-set-lb-listener-ssl-cert elb-set-lb-policies-for-backend-server elb-set-lb-policies-of-listener elb-version
 emacs:ebrowse emacs emacs-24.4 emacsclient etags grep-changelog
+enca:enca enconv
 enchant:enchant enchant-lsmod
+enet:
 erlang:ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
 euler-py:euler
+evas:evas_cserve evas_cserve_tool
 exiftool:exiftool
 faac:faac
 faad2:faad
@@ -121,17 +138,20 @@ flac:flac metaflac
 flex:flex flex++
 fontconfig:fc-cache fc-cat fc-list fc-match fc-pattern fc-query fc-scan fc-validate
 fortune:fortune strfile unstr
+frag_find:frag_find hash_t_test
 freetype:freetype-config
 freexl:
 frei0r:
 fribidi:fribidi
 fswatch:fswatch fswatch-run fswatch-run-bash fswatch-run-zsh
+fwknop:fwknop
 gawk:awk gawk gawk-4.1.1 igawk
 gcc:c++-4.9 cpp-4.9 g++-4.9 gcc-4.9 gcc-ar-4.9 gcc-nm-4.9 gcc-ranlib-4.9 gcov-4.9 gfortran gfortran-4.9 x86_64-apple-darwin14.0.0-c++-4.9 x86_64-apple-darwin14.0.0-g++-4.9 x86_64-apple-darwin14.0.0-gcc-4.9 x86_64-apple-darwin14.0.0-gcc-4.9.2 x86_64-apple-darwin14.0.0-gcc-ar-4.9 x86_64-apple-darwin14.0.0-gcc-nm-4.9 x86_64-apple-darwin14.0.0-gcc-ranlib-4.9 x86_64-apple-darwin14.0.0-gfortran-4.9
 gd:annotate bdftogd gd2copypal gd2togif gd2topng gdcmpgif gdlib-config gdparttopng gdtopng giftogd2 pngtogd pngtogd2 webpng
 gdal:epsg_tr.py esri2wkt.py gcps2vec.py gcps2wld.py gdal-config gdal2tiles.py gdal2xyz.py gdal_auth.py gdal_calc.py gdal_contour gdal_edit.py gdal_fillnodata.py gdal_grid gdal_merge.py gdal_polygonize.py gdal_proximity.py gdal_rasterize gdal_retile.py gdal_sieve.py gdal_translate gdaladdo gdalbuildvrt gdalchksum.py gdalcompare.py gdaldem gdalenhance gdalident.py gdalimport.py gdalinfo gdallocationinfo gdalmanage gdalmove.py gdalserver gdalsrsinfo gdaltindex gdaltransform gdalwarp mkgraticule.py nearblack ogr2ogr ogrinfo ogrlineref ogrtindex pct2rgb.py rgb2pct.py testepsg
 gdbm:gdbm_dump gdbm_load gdbmtool
 gdk-pixbuf:gdk-pixbuf-csource gdk-pixbuf-pixdata gdk-pixbuf-query-loaders
+gearman:gearadmin gearman
 geos:geos-config
 gettext:autopoint envsubst gettext gettext.sh gettextize msgattrib msgcat msgcmp msgcomm msgconv msgen msgexec msgfilter msgfmt msggrep msginit msgmerge msgunfmt msguniq ngettext recode-sr-latin xgettext
 getxbook:getabook getbnbook getgbook getxbookgui
@@ -142,6 +162,7 @@ gifsicle:gifdiff gifsicle
 gistit:gistit
 git-cola:cola git-cola git-dag
 git-extras:git-alias git-archive-file git-back git-bug git-changelog git-commits-since git-contrib git-count git-create-branch git-delete-branch git-delete-merged-branches git-delete-submodule git-delete-tag git-effort git-extras git-feature git-fork git-fresh-branch git-gh-pages git-graft git-ignore git-info git-line-summary git-local-commits git-lock git-locked git-missing git-obliterate git-pr git-pull-request git-rebase-patch git-refactor git-release git-rename-tag git-repl git-reset-file git-root git-setup git-show-tree git-squash git-summary git-touch git-undo git-unlock
+git-gerrit:gerrit gerrit-cherry-pick git-gerrit
 git:git git-credential-osxkeychain git-cvsserver git-receive-pack git-shell git-subtree git-upload-archive git-upload-pack gitk
 glew:glewinfo visualinfo
 glib-networking:
@@ -150,6 +171,7 @@ glibmm:
 glm:
 gmp4:
 gmp:
+gnatsd:gnatsd
 gnome-common:gnome-autogen.sh gnome-doc-common
 gnome-doc-utils:gnome-doc-prepare gnome-doc-tool xml2po
 gnu-getopt:getopt
@@ -161,11 +183,13 @@ gnuplot:gnuplot
 gnutls:danetool gnutls-certtool gnutls-cli gnutls-cli-debug gnutls-serv ocsptool psktool srptool
 go:go gofmt
 gobject-introspection:g-ir-annotation-tool g-ir-compiler g-ir-generate g-ir-scanner
+goffice:
 gource:gource
 gperf:gperf
 gpg-agent:gpg-agent
 gpgme:gpgme-config gpgme-tool
 gpp:gpp
+gputils:gpasm gpdasm gplib gplink gpstrip gpvc gpvo
 graphviz:acyclic bcomps ccomps circo cluster dijkstra dot dot2gxl dot_builtins edgepaint fdp gc gml2gv graphml2gv gv2gml gv2gxl gvcolor gvgen gvmap gvpack gvpr gxl2dot gxl2gv mm2gv neato nop osage patchwork prune sccmap sfdp tred twopi unflatten
 grep:gegrep gfgrep ggrep
 gringo:clingo gringo
@@ -173,11 +197,13 @@ groff:addftinfo afmtodit chem eqn eqn2graph gdiffmk glilypond gperl gpinyin grap
 gsettings-desktop-schemas:
 gsl:gsl-config gsl-histogram gsl-randist
 gst-plugins-base:gst-device-monitor-1.0 gst-discoverer-1.0 gst-play-1.0
+gst-plugins-ugly:
 gstreamer:gst-inspect-1.0 gst-launch-1.0 gst-typefind-1.0
 gti:gti
 gtk+3:gtk-encode-symbolic-svg gtk-launch gtk-query-immodules-3.0 gtk3-demo gtk3-demo-application gtk3-icon-browser gtk3-update-icon-cache gtk3-widget-factory
 gtk+:gtk-builder-convert gtk-demo gtk-query-immodules-2.0 gtk-update-icon-cache
 gtk-doc:gtkdoc-check gtkdoc-depscan gtkdoc-fixxref gtkdoc-mkdb gtkdoc-mkhtml gtkdoc-mkman gtkdoc-mkpdf gtkdoc-mktmpl gtkdoc-rebase gtkdoc-scan gtkdoc-scangobj gtkdocize
+gtkmm:
 gtksourceview:
 gvp:gvp
 gzip:gunzip gzexe gzip uncompress zcat zcmp zdiff zegrep zfgrep zforce zgrep zless zmore znew
@@ -188,19 +214,24 @@ heroku-toolbelt:heroku
 hexedit:hexedit
 hicolor-icon-theme:
 homer:homer
+html-xml-utils:asc2xml hxaddid hxcite hxcite-mkbib hxclean hxcopy hxcount hxextract hxincl hxindex hxmkbib hxmultitoc hxname2id hxnormalize hxnsxml hxnum hxpipe hxprintlinks hxprune hxref hxremove hxselect hxtabletrans hxtoc hxuncdata hxunent hxunpipe hxunxmlns hxwls hxxmlns xml2asc
 htop-osx:htop
 hub:hub
 hwloc:hwloc-annotate hwloc-assembler hwloc-assembler-remote hwloc-bind hwloc-calc hwloc-compress-dir hwloc-diff hwloc-distances hwloc-distrib hwloc-info hwloc-ls hwloc-patch hwloc-ps lstopo lstopo-no-graphics
-icu4c:derb genbrk gencfu gencnval gendict genrb icu-config icuinfo makeconv pkgdata uconv
+icu4c:derb genbrk gencfu gencnval gendict genrb icu-config icuinfo makeconv pkgdata uconv genccode gencmn gennorm2 gensprep icupkg
 id3lib:id3convert id3cp id3info id3tag
 id3v2:id3v2
 imagemagick:animate compare composite conjure convert display identify import Magick++-config Magick-config MagickCore-config MagickWand-config mogrify montage stream Wand-config
+imlib2:imlib2-config imlib2_bumpmap imlib2_colorspace imlib2_conv imlib2_grab imlib2_poly imlib2_show imlib2_test imlib2_view
 intltool:intltool-extract intltool-merge intltool-prepare intltool-update intltoolize
+ios-sim:ios-sim
+irrtoolset:peval rpslcheck rtconfig
 irssi:botti irssi
 isl011:
 isl:
 itstool:itstool
 iwc:iwc
+jam:jam mkjambase
 jansson:
 jasmin:jasmin
 jasper:imgcmp imginfo jasper tmrdemo
@@ -210,11 +241,13 @@ jpeg:cjpeg djpeg jpegtran rdjpgcom wrjpgcom
 jpegoptim:jpegoptim
 jscoverage:jscoverage jscoverage-server
 jsdoc3:jsdoc
+jslint4java:jslint4java
 json-c:
 json-glib:json-glib-format json-glib-validate
 jsonpp:jsonpp
 kakasi:atoc_conv kakasi kakasi-config mkkanwa rdic_conv wx2_conv
-knock:knock
+kes:es
+knock:knock knockd
 kvazaar:kvazaar
 lame:lame
 lcab:lcab
@@ -223,20 +256,28 @@ ledit:ledit
 leiningen:lein
 lftp:lftp lftpget
 libao:
+libarchive:bsdcpio bsdtar
+libart:libart2-config
 libass:
 libassuan:libassuan-config
 libav:avconv avprobe
 libbinio:
 libbpg:bpgdec bpgenc
 libcaca:caca-config cacaclock cacademo cacafire cacaplay cacaserver cacaview img2txt
+libcouchbase:cbc cbc-admin cbc-bucket-create cbc-bucket-delete cbc-cat cbc-cp cbc-create cbc-decr cbc-hash cbc-incr cbc-lock cbc-mcflush cbc-pillowfight cbc-rm cbc-stats cbc-unlock cbc-verbosity cbc-verify cbc-version cbc-view
 libcroco:croco-0.6-config csslint-0.6
-libdnet:dnet-config
+libdc1394:
+libdnet:dnet-config dnet
+libdvbpsi:
 libelf:
 libevent:event_rpcgen.py
 libexif:
 libffi:
 libgcrypt:dumpsexp hmac256 libgcrypt-config mpicalc
 libgeotiff:applygeo geotifcp listgeo makegeo
+libglade:libglade-convert
+libgnomecanvas:
+libgnomecanvasmm:
 libgpg-error:gpg-error gpg-error-config
 libgsf:gsf gsf-office-thumbnailer gsf-vba-dump
 libical:
@@ -249,12 +290,15 @@ libmagic:
 libmp3splt:
 libmpc:
 libnet:libnet-config
+libnfc:nfc-anticol nfc-dep-initiator nfc-dep-target nfc-emulate-forum-tag2 nfc-emulate-forum-tag4 nfc-emulate-tag nfc-emulate-uid nfc-list nfc-mfclassic nfc-mfsetuid nfc-mfultralight nfc-poll nfc-read-forum-tag3 nfc-relay nfc-relay-picc nfc-scan-device pn53x-diagnose pn53x-sam pn53x-tamashell
 libnxml:
 libogg:
 libotr:otr_mackey otr_modify otr_parse otr_readforge otr_remac otr_sesskeys
 libpcl:
 libpng:libpng-config libpng16-config png-fix-itxt pngfix
 libquvi:
+libressl:openssl
+librevenge:
 librsvg:rsvg-convert
 libsigc++:
 libsigsegv:
@@ -266,17 +310,24 @@ libtiff:bmp2tiff fax2ps fax2tiff gif2tiff pal2rgb ppm2tiff ras2tiff raw2tiff rgb
 libtool:glibtool glibtoolize
 libusb-compat:libusb-config
 libusb:
+libvisio:vsd2raw vsd2text vsd2xhtml vss2raw vss2text vss2xhtml
 libvo-aacenc:
 libvorbis:
 libvpx:
 libwmf:libwmf-config libwmf-fontmap wmf2eps wmf2fig wmf2gd wmf2svg
+libwpd:wpd2html wpd2raw wpd2text
+libwpg:wpg2raw wpg2svg wpg2svgbatch.pl
 libxml2:xml2-config xmlcatalog xmllint
 libyaml:
 lightning:
+links:links
 little-cms2:jpgicc linkicc psicc tificc transicc
 little-cms:icc2ps icclink icctrans jpegicc tiffdiff tifficc wtpt
 llvm33:bugpoint-3.3 c-index-test-3.3 clang++-3.3 clang-3.3 clang-check-3.3 clang-format-3.3 clang-tblgen-3.3 cpp11-migrate-3.3 llc-3.3 lli-3.3 llvm-ar-3.3 llvm-as-3.3 llvm-bcanalyzer-3.3 llvm-config-3.3 llvm-cov-3.3 llvm-diff-3.3 llvm-dis-3.3 llvm-dwarfdump-3.3 llvm-extract-3.3 llvm-link-3.3 llvm-mc-3.3 llvm-mcmarkup-3.3 llvm-nm-3.3 llvm-objdump-3.3 llvm-prof-3.3 llvm-ranlib-3.3 llvm-readobj-3.3 llvm-rtdyld-3.3 llvm-size-3.3 llvm-stress-3.3 llvm-symbolizer-3.3 llvm-tblgen-3.3 macho-dump-3.3 opt-3.3
 llvm:bugpoint count FileCheck llc lli lli-child-target llvm-ar llvm-as llvm-bcanalyzer llvm-config llvm-cov llvm-diff llvm-dis llvm-dwarfdump llvm-extract llvm-link llvm-mc llvm-mcmarkup llvm-nm llvm-objdump llvm-profdata llvm-ranlib llvm-readobj llvm-rtdyld llvm-size llvm-stress llvm-symbolizer llvm-tblgen macho-dump not opt
+lmdb:mdb_copy mdb_dump mdb_load mdb_stat
+logrotate:logrotate
+logstash:logstash
 logtalk:bplgt cxlgt eclipselgt gplgt lgt2html lgt2md lgt2pdf lgt2txt lgt2xml logtalk_backend_select logtalk_tester logtalk_user_setup logtalk_version_select lplgt qplgt quintuslgt sicstuslgt swilgt xsblgt xsbmtlgt yaplgt
 lolcode:lci
 loudmouth:
@@ -284,6 +335,7 @@ lrzsz:lrb lrx lrz lsb lsx lsz rz sz
 lua:lua lua-5.2 lua5.2 luac luac-5.2 luac5.2
 lzlib:
 lzo:
+mackup:mackup
 macvim:gview gvim gvimdiff gvimex mview mvim mvimdiff mvimex
 mad:
 makedepend:makedepend
@@ -305,7 +357,7 @@ most:most
 mp3check:mp3check
 mp3val:mp3val
 mpfr:
-mtr:
+mtr:mtr
 multitail:multitail
 mvb:mvb
 myman:myman myman-0.7.1 myman.command
@@ -429,7 +481,7 @@ texi2html:texi2html
 texinfo:info infokey install-info makeinfo pdftexi2dvi pod2texi texi2any texi2dvi texi2pdf texindex
 theora:
 tinysvm:svm_classify svm_learn svm_model
-tmpwatch:
+tmpwatch:tmpwatch
 tmux:tmux
 tnote:tnote
 tree:tree
