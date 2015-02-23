@@ -1,7 +1,7 @@
 #! /usr/bin/env ruby
 # -*- coding: UTF-8 -*-
 
-# brew-which: prints the formula which provides the given binary
+# brew-which-formula: prints the formula which provides the given binary
 #
 # Usage:
 #
