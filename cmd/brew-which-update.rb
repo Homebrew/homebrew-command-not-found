@@ -58,5 +58,11 @@ Usage:
   exit 1
 end
 
-db = make_db(read_db db_filename)
+# 1. get the existing DB
+orig = File.file?(db_filename) ? read_db(db_filename) : {}
+
+# 2. update it
+db = make_db orig
+
+# 3. save it
 save_db(db, db_filename)
