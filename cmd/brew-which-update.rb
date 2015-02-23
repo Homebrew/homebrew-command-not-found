@@ -8,8 +8,6 @@
 #   brew which-update <DB file>
 #
 
-CELLAR_PREFIX = "#{HOMEBREW_PREFIX}/Cellar"
-
 def read_db(filename)
   exes = {}
 
@@ -24,7 +22,7 @@ end
 def make_db(base=nil)
   base = {} if base.nil?
 
-  Dir["#{CELLAR_PREFIX}/*"].each do |d|
+  Dir["#{HOMEBREW_CELLAR}/*"].each do |d|
     formula = d.split("/")[-1].strip.downcase
     base[formula] ||= []
 
