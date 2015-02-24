@@ -45,6 +45,7 @@ aqbanking:aqbanking-cli aqbanking-config aqebics-tool aqhbci-tool4 hbcixml3
 arangodb:arangob arangodump arangoimp arangoirb arangorestore arangosh foxx-manager arango-dfdb arangod
 archey:archey
 argp-standalone:
+argtable:
 argus-clients:argusclientbug ra rabins racluster raconvert racount radark radecode radump raevent rafilteraddr ragraph ragrep rahisto rahosts ralabel ranonymize rapath rapolicy raports rarpwatch raservices rasort rasplit rastream rastrip ratemplate ratimerange ratop rauserdata radium
 argus:argus-lsof argus-snmp argus-vmstat argusbug argus
 aria2:aria2c
@@ -158,12 +159,14 @@ cgdb:cgdb
 cgrep:cgrep
 chapel:chpl
 cheat:cheat
+check:checkmk
 checkbashisms:checkbashisms
 chibi-scheme:chibi-doc chibi-ffi chibi-scheme snow-chibi
 chicken:chicken chicken-bug chicken-install chicken-profile chicken-status chicken-uninstall csc csi
 chinadns-c:chinadns
 chktex:chktex chkweb deweb
 chmlib:chm_http enum_chmLib enumdir_chmLib extract_chmLib test_chmLib
+chromaprint:fpcalc
 chruby:chruby-exec
 chuck:chuck
 clamav:clamav-config clambc clamconf clamdscan clamdtop clamscan clamsubmit freshclam sigtool clamd
@@ -495,182 +498,478 @@ id3ed:id3ed
 id3lib:id3convert id3cp id3info id3tag
 id3v2:id3v2
 ideviceinstaller:ideviceinstaller
+idris:idris idris-c idris-javascript idris-node
+ike-scan:ike-scan psk-crack
+ilmbase:
+imagejs:imagejs
 imagemagick:animate compare composite conjure convert display identify import Magick++-config Magick-config MagickCore-config MagickWand-config mogrify montage stream Wand-config
+imap-uw:dmail mailutil tmail imapd ipop2d ipop3d
+imapfilter:imapfilter
+imapsync:imapsync
 imlib2:imlib2-config imlib2_bumpmap imlib2_colorspace imlib2_conv imlib2_grab imlib2_poly imlib2_show imlib2_test imlib2_view
+influxdb:influxdb
 iniparser:
+inspircd:inspircd
+internetarchive:ia
 intltool:intltool-extract intltool-merge intltool-prepare intltool-update intltoolize
+iojs:iojs node
 ios-sim:ios-sim
+ios-webkit-debug-proxy:ios_webkit_debug_proxy
+iozone:iozone
+ipbt:ipbt
+ipe:ipe ipe6upgrade ipeextract iperender ipescript ipetoipe ipeview
+iperf3:iperf3
+ipmiutil:idiscover ievents ipmiutil ialarms icmd iconfig ifirewall ifru ifwum igetevent ihealth ihpm ilan ipicmg ipmi_port ireset isel iseltime isensor iserial isol iwdt
+ipsumdump:ipaggcreate ipaggmanip ipsumdump
+ircd-hybrid:ircd mkpasswd respond
+ircii:irc irc-20141122 ircbug ircflush
+irrlicht:
 irrtoolset:peval rpslcheck rtconfig
 irssi:botti irssi
 isl011:
 isl:
 itstool:itstool
 iwc:iwc
+jack:jack_alias jack_bufsize jack_connect jack_disconnect jack_evmon jack_freewheel jack_impulse_grabber jack_iodelay jack_latent_client jack_load jack_load_test jack_lsp jack_metro jack_midi_dump jack_midiseq jack_midisine jack_monitor_client jack_netsource jack_property jack_samplerate jack_server_control jack_session_notify jack_showtime jack_simple_client jack_simple_session_client jack_transport_client jack_unload jack_wait jackd
+jags:jags
 jam:jam mkjambase
 jansson:
 jasmin:jasmin
 jasper:imgcmp imginfo jasper tmrdemo
 jbig2dec:jbig2dec
+jemalloc:jemalloc-pprof jemalloc.sh
+jigdo:jigdo jigdo-file jigdo-lite jigdo-mirror
+john-jumbo:john
 jp2a:jp2a
+jpeg-turbo:cjpeg djpeg jpegtran rdjpgcom tjbench wrjpgcom
 jpeg:cjpeg djpeg jpegtran rdjpgcom wrjpgcom
 jpegoptim:jpegoptim
+jq:jq
+jrnl:jrnl
 jscoverage:jscoverage jscoverage-server
 jsdoc3:jsdoc
 jslint4java:jslint4java
 json-c:
 json-glib:json-glib-format json-glib-validate
+jsoncpp:
 jsonpp:jsonpp
+juju-quickstart:juju-quickstart
+juju:juju juju-metadata
+julius:accept_check.dSYM adinrec.dSYM adintool.dSYM dfa_determinize.dSYM dfa_minimize.dSYM generate-ngram.dSYM generate.dSYM gram2sapixml.pl jclient.pl jcontrol.dSYM julius.dSYM libjulius-config libsent-config mkbingram.dSYM mkbinhmm.dSYM mkbinhmmlist.dSYM mkgshmm mkss.dSYM nextword.dSYM yomi2voca.pl
+juman:juman
 kakasi:atoc_conv kakasi kakasi-config mkkanwa rdic_conv wx2_conv
+keepassc:keepassc keepassc-agent keepassc-server
 kes:es
 knock:knock knockd
+kore:kore
 ktoblzcheck:ktoblzcheck
+kubernetes-cli:kubecfg kubectl kubernetes
 kvazaar:kvazaar
+kytea:api-example kytea train-kytea
+kyua:kyua
+lablgtk:gdk_pixbuf_mlsource lablgtk2
 lame:lame
+lastfmlib:
+lastpass-cli:lpass
+launchdns:launchdns
 lcab:lcab
 lcov:gendesc genhtml geninfo genpng lcov
+ldapvi:ldapvi
+ldc:ldc2 ldmd2
 ldns:drill ldns-config
+ledger:ledger
 ledit:ledit
 leiningen:lein
+lensfun:g-lensfun-update-data lensfun-add-adapter lensfun-update-data
+leptonica:convertfilestopdf convertfilestops convertformat convertsegfilestopdf convertsegfilestops converttopdf converttops fileinfo printimage printsplitimage printtiff splitimage2pdf xtractprotos
+lesstif:motif-config mwm mxmkmf uil xmbind
+leveldb:leveldbutil
+lfe:lfe lfe-first-try lfe-test lfec lfescript
 lftp:lftp lftpget
+lib3ds:3dsdump lib3ds-config
+libaacs:aacs_info
+libagg:
+libantlr3c:
 libao:
 libarchive:bsdcpio bsdtar
 libart:libart2-config
 libass:
 libassuan:libassuan-config
+libatomic_ops:
 libav:avconv avprobe
+libb2:
+libbind:
 libbinio:
+libbluray:bd_info
 libbpg:bpgdec bpgenc
+libbs2b:bs2bconvert bs2bstream
+libbson:
+libbtbb:btaptap
 libcaca:caca-config cacaclock cacademo cacafire cacaplay cacaserver cacaview img2txt
+libcapn:
+libcddb:cddb_query
+libcdio:cd-drive cd-info cd-read cdda-player iso-info iso-read mmc-tool
+libcec:cec-client
+libcello:
 libcmph:cmph
+libcoap:coap-client coap-server
 libconfig:
 libcouchbase:cbc cbc-admin cbc-bucket-create cbc-bucket-delete cbc-cat cbc-cp cbc-create cbc-decr cbc-hash cbc-incr cbc-lock cbc-mcflush cbc-pillowfight cbc-rm cbc-stats cbc-unlock cbc-verbosity cbc-verify cbc-version cbc-view
+libcppa:
 libcroco:croco-0.6-config csslint-0.6
+libcsv:
+libcue:
+libcuefile:
+libdap:dap-config dap-config-pkgconfig getdap
 libdc1394:
+libdca:dcadec dtsdec extract_dca extract_dts
+libdiscid:
+libdmtx:
 libdnet:dnet-config dnet
+libdrawtext:
+libdshconfig:
+libdsk:apriboot dskdump dskform dskid dskscan dsktrans dskutil md3serial
+libdv:dubdv dvconnect encodedv
 libdvbpsi:
+libdvdcss:
+libdvdnav:
+libdvdread:
+libebml:
+libebur128:
+libechonest:
 libelf:
+libepoxy:
+libestr:
+libetonyek:key2raw key2text key2xhtml numbers2csv numbers2raw numbers2text pages2html pages2raw pages2text
 libev:
 libevent:event_rpcgen.py
+libewf:ewfacquire ewfacquirestream ewfdebug ewfexport ewfinfo ewfmount ewfrecover ewfverify
 libexif:
+libextractor:extract
+libfaketime:faketime
 libffi:
+libfishsound:
+libfixbuf:
+libflowmanager:
+libforensic1394:
+libfreefare:mifare-classic-format mifare-classic-read-ndef mifare-classic-write-ndef mifare-desfire-access mifare-desfire-create-ndef mifare-desfire-ev1-configure-ats mifare-desfire-ev1-configure-default-key mifare-desfire-ev1-configure-random-uid mifare-desfire-format mifare-desfire-info mifare-desfire-read-ndef mifare-desfire-write-ndef mifare-ultralight-info
+libfreenect:fakenect fakenect-record freenect-chunkview freenect-cpp_pcview freenect-cppview freenect-glpclview freenect-glview freenect-hiview freenect-micview freenect-regview freenect-tiltdemo freenect-wavrecord
+libftdi0:baud_test bitbang bitbang2 bitbang_cbus bitbang_ft2232 find_all libftdi-config serial_test simple
+libftdi:libftdi1-config
+libgadu:
+libgaiagraphics:
 libgcrypt:dumpsexp hmac256 libgcrypt-config mpicalc
+libgda:gda-list-config gda-list-config-5.0 gda-list-server-op gda-list-server-op-5.0 gda-sql gda-sql-5.0 gda-test-connection-5.0
+libgee:
 libgeotiff:applygeo geotifcp listgeo makegeo
+libgetdata:checkdirfile dirfile2ascii
+libgfshare:gfcombine gfsplit
+libgit2-glib:
+libgit2:
 libglade:libglade-convert
+libglademm:
 libgnomecanvas:
 libgnomecanvasmm:
 libgpg-error:gpg-error gpg-error-config
 libgphoto2:gphoto2-config gphoto2-port-config
+libgroove:
 libgsf:gsf gsf-office-thumbnailer gsf-vba-dump
+libgsm:toast
+libgtop:libgtop_daemon2 libgtop_server2
+libgxps:xpstopdf xpstopng xpstops xpstosvg
+libharu:
+libhdhomerun:hdhomerun_config
+libhid:libhid-detach-device
 libical:
+libicns:icns2png icontainer2icns png2icns
 libiconv:iconv
 libid3tag:
+libident:
+libidl:libIDL-config-2
 libidn:idn
 libimobiledevice:idevice_id idevicebackup idevicebackup2 idevicecrashreport idevicedate idevicedebug idevicedebugserverproxy idevicediagnostics ideviceenterrecovery ideviceimagemounter ideviceinfo idevicename idevicenotificationproxy idevicepair ideviceprovision idevicescreenshot idevicesyslog
+libinfinity:infinoted-0.6
+libiomp:
+libiptcdata:iptc
+libiscsi:iscsi-inq iscsi-ls iscsi-readcapacity16 iscsi-swp
+libjson-rpc-cpp:jsonrpcstub
+libkate:katalyzer katedec KateDJ kateenc
+libkml:
 libksba:ksba-config
+liblacewing:
+liblas:las2las las2ogr las2txt lasblock lasinfo liblas-config ts2las txt2las
+liblastfm:
+liblinear:predict train
+liblo:oscdump oscsend
+liblockfile:dotlockfile
+liblqr:
+libltc:
+liblunar:
 liblwgeom:
+libmaa:
 libmagic:
+libmarisa:marisa-benchmark marisa-build marisa-common-prefix-search marisa-dump marisa-lookup marisa-predictive-search marisa-reverse-lookup
+libmatroska:
+libmaxminddb:mmdblookup
+libmemcached:memcapable memcat memcp memdump memerror memexist memflush memparse memping memrm memslap memstat memtouch
+libmetalink:
+libmicrohttpd:
+libmikmod:libmikmod-config
+libming:dbl2png listaction listaction_d listfdb listjpeg listmp3 listswf listswf_d makefdb makeswf ming-config png2dbl raw2adpcm swftocxx swftoperl swftophp swftopython swftotcl
+libmms:
+libmodbus:
+libmodplug:
+libmongoclient:
+libmonome:monomeserial
+libmowgli:
 libmp3splt:
 libmpc:
+libmpd:
 libmpdclient:
+libmpeg2:corrupt_mpeg2 extract_mpeg2 mpeg2dec
+libmrss:
+libmspub:pub2raw pub2xhtml
+libmtp:mtp-albumart mtp-albums mtp-connect mtp-delfile mtp-detect mtp-emptyfolders mtp-files mtp-filetree mtp-folders mtp-format mtp-getfile mtp-getplaylist mtp-newfolder mtp-newplaylist mtp-playlists mtp-reset mtp-sendfile mtp-sendtr mtp-thumb mtp-tracks mtp-trexist
+libmusicbrainz:
+libmxml:mxmldoc
+libnatpmp:natpmpc
 libnet:libnet-config
 libnfc:nfc-anticol nfc-dep-initiator nfc-dep-target nfc-emulate-forum-tag2 nfc-emulate-forum-tag4 nfc-emulate-tag nfc-emulate-uid nfc-list nfc-mfclassic nfc-mfsetuid nfc-mfultralight nfc-poll nfc-read-forum-tag3 nfc-relay nfc-relay-picc nfc-scan-device pn53x-diagnose pn53x-sam pn53x-tamashell
+libnice:sdp-example simple-example stunbdc stund threaded-example
+libnids:
+libntlm:
 libnxml:
+liboauth:
+libodfgen:
+libofx:ofx2qif ofxdump
 libogg:
+liboil:oil-bugreport
+libopendkim:opendkim-genkey opendkim-genzone opendkim-testadsp opendkim-testkey opendkim-testmsg
+libopennet:
+liboping:noping oping
+libosip:
 libotr:otr_mackey otr_modify otr_parse otr_readforge otr_remac otr_sesskeys
+libowfat:
+libp11:
+libpano:panoinfo PTAInterpolate PTblender PTcrop PTinfo PTmasker PTmender PToptimizer PTroller PTtiff2psd PTtiffdump PTuncrop
 libpcl:
+libpgm:
 libplist:plistutil
 libpng:libpng-config libpng16-config png-fix-itxt pngfix
+libpointing:
+libpoker-eval:
+libpqxx:pqxx-config
+libpst:lspst nick2ldif pst2ldif readpst
+libpuzzle:puzzle-diff
+libqglviewer:
+libquicktime:lqt_transcode lqtremux qt2text qtdechunk qtdump qtinfo qtrechunk qtstreamize qtyuv4toyuv
 libquvi:
+libqxt:
+librasterlite:rasterlite_grid rasterlite_load rasterlite_pyramid rasterlite_tool rasterlite_topmost
+libraw:4channels dcraw_emu dcraw_half half_mt mem_image multirender_test postprocessing_benchmark raw-identify simple_dcraw unprocessed_raw
+librcsc:librcsc-config librcscenv rcg2txt rcgrenameteam rcgresultprinter rcgreverse rcgverconv rcgversion rclmscheduler rclmtableprinter
 libre:
+libreadline-java:
 librem:
+libreplaygain:
+libresample:
 libressl:openssl
 librevenge:
 librsvg:rsvg-convert
 librsync:rdiff
+librtlsdr:rtl_adsb rtl_eeprom rtl_fm rtl_power rtl_sdr rtl_tcp rtl_test
 libsamplerate:sndfile-resample
+libsass:
+libscrypt:
+libsecret:secret-tool
+libshout:
 libsigc++:
 libsigsegv:
+libslax:gt oxtradoc slax-config slaxproc
+libsmf:smfsh
+libsmi:smicache smidiff smidump smilint smiquery smistrip smixlate
 libsndfile:sndfile-cmp sndfile-concat sndfile-convert sndfile-deinterleave sndfile-info sndfile-interleave sndfile-metadata-get sndfile-metadata-set sndfile-play sndfile-regtest sndfile-salvage
 libsodium:
 libsoup:
 libspatialite:
+libspiro:
+libssh2:
+libssh:
+libstfl:
+libstrophe:
+libstxxl:stxxl_tool
+libsvg-cairo:
+libsvg:
+libsvm:svm-predict svm-scale svm-train
+libswiften:swiften-config
+libtar:libtar
 libtasn1:asn1Coding asn1Decoding asn1Parser
+libtecla:enhance
+libtermkey:
+libtess2:
+libtextcat:createfp
 libtiff:bmp2tiff fax2ps fax2tiff gif2tiff pal2rgb ppm2tiff ras2tiff raw2tiff rgb2ycbcr thumbnail tiff2bw tiff2pdf tiff2ps tiff2rgba tiffcmp tiffcp tiffcrop tiffdither tiffdump tiffinfo tiffmedian tiffset tiffsplit
+libtins:
+libtomcrypt:
+libtommath:
 libtool:glibtool glibtoolize
+libtorrent-rasterbar:
+libtrace:traceanon traceconvert tracediff traceends tracefilter tracemerge tracepktdump tracereplay tracereport tracertstats tracesplit tracesplit_dir tracestats tracesummary tracetop tracetopends wandiocat
 libunistring:
 libunwind-headers:
+libupnp:
 libusb-compat:libusb-config
 libusb:
+libusrsctp:
+libutf:
+libuv:
+libuvc:
+libvbucket:vbucketkeygen vbuckettool
+libvidstab:
+libvirt:virsh virt-host-validate virt-pki-validate virt-xml-validate libvirtd virtlockd
 libvisio:vsd2raw vsd2text vsd2xhtml vss2raw vss2text vss2xhtml
 libvo-aacenc:
+libvoikko:voikkogc voikkohyphenate voikkospell
 libvorbis:
 libvpx:
+libwbxml:wbxml2xml xml2wbxml
+libwebsockets:libwebsockets-test-client libwebsockets-test-echo libwebsockets-test-fraggle libwebsockets-test-ping libwebsockets-test-server libwebsockets-test-server-extpoll
 libwmf:libwmf-config libwmf-fontmap wmf2eps wmf2fig wmf2gd wmf2svg
 libwpd:wpd2html wpd2raw wpd2text
 libwpg:wpg2raw wpg2svg wpg2svgbatch.pl
+libwps:wks2csv wks2raw wks2text wps2html wps2raw wps2text
+libxc:xc-info
+libxdiff:
+libxmi:
+libxml++:
 libxml2:xml2-config xmlcatalog xmllint
 libxmlsec1:xmlsec1 xmlsec1-config
+libxmp:
 libxslt:xslt-config xsltproc
+libxspf:xspf_check xspf_strip
 libyaml:
+libyubikey:modhex ykgenerate ykparse
+libzdb:
 libzip:zipcmp zipmerge ziptorrent
 lightning:
+lighttpd:lighttpd lighttpd-angel
 links:links
 little-cms2:jpgicc linkicc psicc tificc transicc
 little-cms:icc2ps icclink icctrans jpegicc tiffdiff tifficc wtpt
+lldpd:lldpcli lldpctl lldpd
 llvm33:bugpoint-3.3 c-index-test-3.3 clang++-3.3 clang-3.3 clang-check-3.3 clang-format-3.3 clang-tblgen-3.3 cpp11-migrate-3.3 llc-3.3 lli-3.3 llvm-ar-3.3 llvm-as-3.3 llvm-bcanalyzer-3.3 llvm-config-3.3 llvm-cov-3.3 llvm-diff-3.3 llvm-dis-3.3 llvm-dwarfdump-3.3 llvm-extract-3.3 llvm-link-3.3 llvm-mc-3.3 llvm-mcmarkup-3.3 llvm-nm-3.3 llvm-objdump-3.3 llvm-prof-3.3 llvm-ranlib-3.3 llvm-readobj-3.3 llvm-rtdyld-3.3 llvm-size-3.3 llvm-stress-3.3 llvm-symbolizer-3.3 llvm-tblgen-3.3 macho-dump-3.3 opt-3.3
 llvm:bugpoint count FileCheck llc lli lli-child-target llvm-ar llvm-as llvm-bcanalyzer llvm-config llvm-cov llvm-diff llvm-dis llvm-dwarfdump llvm-extract llvm-link llvm-mc llvm-mcmarkup llvm-nm llvm-objdump llvm-profdata llvm-ranlib llvm-readobj llvm-rtdyld llvm-size llvm-stress llvm-symbolizer llvm-tblgen macho-dump not opt
 lmdb:mdb_copy mdb_dump mdb_load mdb_stat
+lnav:lnav
+lockrun:lockrun
+log4shib:log4shib-config
+logcheck:logcheck-test logcheck logtail logtail2
 logrotate:logrotate
 logstash:logstash
 logtalk:bplgt cxlgt eclipselgt gplgt lgt2html lgt2md lgt2pdf lgt2txt lgt2xml logtalk_backend_select logtalk_tester logtalk_user_setup logtalk_version_select lplgt qplgt quintuslgt sicstuslgt swilgt xsblgt xsbmtlgt yaplgt
 lolcode:lci
 loudmouth:
+lout:lout prg2lout
 lrzsz:lrb lrx lrz lsb lsx lsz rz sz
+lsh:lcp lsftp lsh lsh-authorize lsh-decode-key lsh-decrypt-key lsh-export-key lsh-keygen lsh-make-seed lsh-upgrade lsh-upgrade-key lsh-writekey lshg srp-gen ssh-conv lsh-execuv lsh-pam-checkpw lshd sftp-server
+lsyncd:lsyncd
+ltl2ba:ltl2ba
 lua51:lua-5.1 lua5.1 luac-5.1 luac5.1
 lua:lua lua-5.2 lua5.2 luac luac-5.2 luac5.2
+luabind:
+luajit:luajit luajit-2.0.3
+lutok:
+lv2:lv2specgen.py
+lz4:lz4 lz4c lz4cat
+lzip:lzip
 lzlib:
 lzo:
 mackup:mackup
 macvim:gview gvim gvimdiff gvimex mview mvim mvimdiff mvimex
 mad:
+magit:
 makedepend:makedepend
+makefile2graph:make2graph makefile2graph
+malaga:malaga mallex malmake malrul malsym
 mat:mat mat-gui
 matplotlib:
 maven:mvn mvnDebug mvnyjp
+mawk:mawk
 mbelib:
 mcrypt:libmcrypt-config mcrypt mdecrypt
+md5deep:hashdeep md5deep sha1deep sha256deep tigerdeep whirlpooldeep
 md5sha1sum:md5sum ripemd160sum sha1sum
+mdk:gmixvm mixasm mixguile mixvm
+mdp:mdp
 mdr:mdr
 mecab-ipadic:
 mecab:mecab mecab-config
+media-info:mediainfo
+megatools:megadf megadl megaget megals megamkdir megamv megaput megareg megarm megasync
 meld:meld
+memcached:memcached
+memo:memo
 menhir:menhir
 mercurial:hg
 metaproxy:metaproxy metaproxy-config
+metashell:clang_metashell metashell
 mhash:
+miniupnpc:external-ip upnpc
+minuit2:
+mitmproxy:mitmdump mitmproxy
 mkcue:mkcue
+mkvtoolnix:mkvextract mkvinfo mkvmerge mkvpropedit
+moc:mocp
+monetdb:mclient monetdb monetdbd mserver5 msqldump stethoscope tomograph
+mongo-c:mongoc-stat
 mongodb:bsondump mongo mongod mongodump mongoexport mongofiles mongoimport mongooplog mongoperf mongorestore mongos mongosniff mongostat mongotop
+monit:monit
 mono:al al2 caspol cccheck ccrewrite cert-sync cert2spc certmgr chktrust crlupdate csharp disco dmcs dtd2rng dtd2xsd gacutil gacutil2 genxs gmcs httpcfg ikdasm ilasm installvst lc macpack makecert mconfig mcs mdassembler mdbrebase mdoc mdoc-assemble mdoc-export-html mdoc-export-msxdoc mdoc-update mdoc-validate mdvalidater mkbundle mod mono mono-api-info mono-boehm mono-cil-strip mono-configuration-crypto mono-find-provides mono-find-requires mono-heapviz mono-service mono-service2 mono-sgen mono-shlib-cop mono-test-install mono-xmltool monodis monodocer monodocs2html monodocs2slashdoc monograph monolinker monop monop2 mozroots mprof-report nunit-console nunit-console2 nunit-console4 pdb2mdb pedump permview peverify prj2make resgen resgen2 secutil setreg sgen signcode sn soapsuds sqlmetal sqlsharp svcutil wsdl wsdl2 xbuild xsd
 monotone:mtn mtn-cleanup mtnopt
 moon-buggy:moon-buggy
 moreutils:chronic combine errno ifdata ifne isutf8 lckdo mispipe parallel pee sponge ts vidir vipe zrun
+mosquitto:mosquitto_passwd mosquitto_pub mosquitto_sub mosquitto
 most:most
+mozjpeg:cjpeg djpeg jpegtran rdjpgcom tjbench wrjpgcom
+mp3cat:mp3cat mp3dirclean mp3http mp3log mp3log-conf mp3stream-conf
 mp3check:mp3check
+mp3info:mp3info
+mp3splt:mp3splt
 mp3val:mp3val
+mp4v2:mp4art mp4chaps mp4extract mp4file mp4info mp4subtitle mp4tags mp4track mp4trackdump
 mpd:mpd
 mpfr:
+mpg123:mpg123 mpg123-id3dump mpg123-strip out123
+mpich2:hydra_nameserver hydra_persist hydra_pmi_proxy mpic++ mpicc mpichversion mpicxx mpiexec mpiexec.hydra mpif77 mpif90 mpifort mpirun mpivars parkill
+mplayer:mencoder mplayer
+mplayershell:mps
+mpssh:mpssh
+mpw:mpw
+mruby:mirb mrbc mruby mruby-strip
 msgpack:
 msktutil:msktutil
+msmtp:msmtp
 mtr:mtr
+mu:mu
+multimarkdown:mmd mmd2all mmd2odf mmd2opml mmd2pdf mmd2rtf mmd2tex multimarkdown
 multitail:multitail
 mvb:mvb
 myman:myman myman-0.7.1 myman.command
 mysql-proxy:mysql-binlog-dump mysql-myisam-dump mysql-proxy
+mysql-sandbox:deploy_to_remote_sandboxes.sh low_level_make_sandbox make_multiple_custom_sandbox make_multiple_sandbox make_replication_sandbox make_sandbox make_sandbox_from_installed make_sandbox_from_source msandbox msb sbtool test_sandbox
 mysql:innochecksum msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_client_test_embedded mysql_config mysql_config_editor mysql_convert_table_format mysql_embedded mysql_find_rows mysql_fix_extensions mysql_install_db mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysql_zap mysqladmin mysqlbinlog mysqlbug mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest mysqltest_embedded perror replace resolve_stack_dump resolveip
+nacl:
+nagios-plugins:check_apt check_breeze check_by_ssh check_clamd check_cluster check_dhcp check_dig check_disk check_disk_smb check_dns check_dummy check_file_age check_flexlm check_ftp check_hpjd check_http check_icmp check_ifoperstatus check_ifstatus check_imap check_ircd check_jabber check_ldap check_ldaps check_load check_log check_mailq check_mrtg check_mrtgtraf check_nagios check_nntp check_nntps check_nt check_ntp check_ntp_peer check_ntp_time check_nwstat check_oracle check_overcr check_ping check_pop check_procs check_real check_rpc check_sensors check_simap check_smtp check_snmp check_spop check_ssh check_ssmtp check_tcp check_time check_udp check_ups check_users check_wave negate urlize utils.pm utils.sh
+nailgun:ng ng-server
+nanomsg:nanocat nn_bus nn_pair nn_pub nn_pull nn_push nn_rep nn_req nn_respondent nn_sub nn_surveyor
+nasm:ldrdf nasm ndisasm rdf2bin rdf2com rdf2ihx rdf2ith rdf2srec rdfdump rdflib rdx
+ncmpcpp:ncmpcpp
 ncurses-2048:2048
 neon:neon-config
 netcat:nc netcat
+netpbm:411toppm anytopnm asciitopgm atktopbm avstopam bioradtopgm bmptopnm bmptoppm brushtopbm cameratopam cistopbm cmuwmtopbm ddbugtopbm escp2topbm eyuvtoppm fiascotopnm fitstopnm fstopgm g3topbm gemtopbm gemtopnm giftopnm gouldtoppm hdifftopam hipstopgm hpcdtoppm icontopbm ilbmtoppm imgtoppm infotopam jbigtopnm jpeg2ktopam jpegtopnm leaftoppm lispmtopgm macptopbm manweb mdatopbm mgrtopbm mrftopbm mtvtoppm neotoppm palmtopnm pamaddnoise pamarith pambackground pambayer pamchannel pamcomp pamcrater pamcut pamdeinterlace pamdepth pamdice pamditherbw pamedge pamendian pamenlarge pamexec pamfile pamfix pamfixtrunc pamflip pamfunc pamgauss pamgradient pamlookup pammasksharpen pammixinterlace pammosaicknit pamoil pampaintspill pamperspective pampick pampop9 pamrecolor pamrgbatopng pamrubber pamscale pamseq pamshadedrelief pamsharpmap pamsharpness pamsistoaglyph pamslice pamsplit pamstack pamstereogram pamstretch pamstretch-gen pamsumm pamsummcol pamthreshold pamtilt pamtoavs pamtodjvurle pamtofits pamtogif pamtohdiff pamtohtmltbl pamtojpeg2k pamtompfont pamtooctaveimg pamtopam pamtopdbimg pamtopfm pamtopnm pamtosrf pamtosvg pamtotga pamtotiff pamtouil pamtowinicon pamtoxvmini pamundice pamvalidate pamwipeout pbmclean pbmlife pbmmake pbmmask pbmminkowski pbmpage pbmpscale pbmreduce pbmtext pbmtextps pbmto10x pbmto4425 pbmtoascii pbmtoatk pbmtobbnbg pbmtocis pbmtocmuwm pbmtodjvurle pbmtoepsi pbmtoepson pbmtoescp2 pbmtog3 pbmtogem pbmtogo pbmtoibm23xx pbmtoicon pbmtolj pbmtoln03 pbmtolps pbmtomacp pbmtomatrixorbital pbmtomda pbmtomgr pbmtomrf pbmtonokia pbmtopgm pbmtopi3 pbmtopk pbmtoplot pbmtoppa pbmtopsg3 pbmtoptx pbmtosunicon pbmtowbmp pbmtox10bm pbmtoxbm pbmtoybm pbmtozinc pbmupc pc1toppm pcdovtoppm pcxtoppm pdbimgtopam pfmtopam pgmabel pgmbentley pgmcrater pgmdeshadow pgmedge pgmenhance pgmhist pgmkernel pgmmake pgmmedian pgmminkowski pgmmorphconv pgmnoise pgmnorm pgmoil pgmramp pgmslice pgmtexture pgmtofs pgmtolispm pgmtopbm pgmtopgm pgmtoppm pi1toppm pi3topbm picttoppm pjtoppm pktopbm pngtopam pngtopnm pnmalias pnmarith pnmcat pnmcolormap pnmcomp pnmconvol pnmcrop pnmcut pnmdepth pnmenlarge pnmfile pnmflip pnmgamma pnmhisteq pnmhistmap pnmindex pnminterp pnminvert pnmmargin pnmmercator pnmmontage pnmnlfilt pnmnoraw pnmnorm pnmpad pnmpaste pnmpsnr pnmquant pnmquantall pnmremap pnmrotate pnmscale pnmscalefixed pnmshear pnmsmooth pnmsplit pnmstitch pnmtile pnmtoddif pnmtofiasco pnmtofits pnmtojbig pnmtojpeg pnmtopalm pnmtopclxl pnmtoplainpnm pnmtopng pnmtopnm pnmtops pnmtorast pnmtorle pnmtosgi pnmtosir pnmtotiff pnmtotiffcmyk pnmtoxwd ppm3d ppmbrighten ppmchange ppmcie ppmcolormask ppmcolors ppmdcfont ppmddumpfont ppmdim ppmdist ppmdither ppmdmkfont ppmdraw ppmfade ppmflash ppmforge ppmglobe ppmhist ppmlabel ppmmake ppmmix ppmnorm ppmntsc ppmpat ppmquant ppmquantall ppmrainbow ppmrelief ppmrough ppmshadow ppmshift ppmspread ppmtoacad ppmtoapplevol ppmtoarbtxt ppmtoascii ppmtobmp ppmtoeyuv ppmtogif ppmtoicr ppmtoilbm ppmtojpeg ppmtoleaf ppmtolj ppmtomap ppmtomitsu ppmtompeg ppmtoneo ppmtopcx ppmtopgm ppmtopi1 ppmtopict ppmtopj ppmtopjxl ppmtoppm ppmtopuzz ppmtorgb3 ppmtosixel ppmtospu ppmtoterm ppmtouil ppmtowinicon ppmtoxpm ppmtoyuv ppmtoyuvsplit ppmtv ppmwheel psidtopgm pstopnm qrttoppm rasttopnm rawtopgm rawtoppm rgb3toppm rlatopam rletopnm sbigtopgm sgitopnm sirtopnm sldtoppm spctoppm spottopgm sputoppm srftopam sunicontopnm svgtopam tgatoppm thinkjettopbm tifftopnm wbmptopbm winicontopam winicontoppm xbmtopbm ximtoppm xpmtoppm xvminitoppm xwdtopnm ybmtopbm yuvsplittoppm yuvtoppm zeisstopnm
 nettle:nettle-hash nettle-lfib-stream pkcs1-conv sexp-conv
+newlisp:newlisp newlisp-10.6.2 newlisp-edit newlispdoc
 newt:whiptail
 nikto:nikto
 nimrod:nim nimrod
@@ -683,6 +982,7 @@ nvm:
 objective-caml:ocaml ocamlbuild ocamlbuild.byte ocamlbuild.native ocamlc ocamlc.opt ocamlcp ocamldebug ocamldep ocamldep.opt ocamldoc ocamldoc.opt ocamllex ocamllex.opt ocamlmklib ocamlmktop ocamlobjinfo ocamlopt ocamlopt.opt ocamloptp ocamlprof ocamlrun ocamlrund ocamlyacc
 onepass:1pass
 opam:opam opam-admin opam-installer
+open-sp:onsgmls osgmlnorm ospam ospcat ospent osx
 opencore-amr:
 openjpeg:image_to_j2k j2k_dump j2k_to_image
 openssl:c_rehash openssl
@@ -733,6 +1033,7 @@ python3:2to3-3.4 easy_install-3.4 idle3 idle3.4 pip3 pip3.4 pydoc3 pydoc3.4 pyth
 python:2to3 2to3-2 2to3-2.7 easy_install easy_install-2.7 idle idle2 idle2.7 pip pip2 pip2.7 pydoc pydoc2 pydoc2.7 python python-config python2 python2-config python2.7 python2.7-config pythonw pythonw2 pythonw2.7 smtpd.py smtpd2.7.py smtpd2.py
 qca:mozcerts qcatool
 qdbm:cbcodec cbtest crmgr crtest crtsv dpmgr dptest dptsv hvmgr hvtest odidx odmgr odtest qmttest rlmgr rltest vlmgr vltest vltsv
+qjson:
 qt:lconvert lrelease lupdate macdeployqt moc qcollectiongenerator qdoc3 qhelpgenerator qmake qmlplugindump qt3to4 rcc uic xmlpatterns xmlpatternsvalidator
 quvi:quvi
 ragel:ragel
@@ -745,6 +1046,7 @@ rcs:ci co ident merge rcs rcsclean rcsdiff rcsmerge rlog
 re2c:re2c
 readline:
 reattach-to-user-namespace:reattach-to-user-namespace
+rebar:rebar
 redis:redis-benchmark redis-check-aof redis-check-dump redis-cli redis-sentinel redis-server
 redland:rdfproc redland-config redland-db-upgrade
 remake:remake
@@ -752,6 +1054,7 @@ rename:rename
 rfc:rfc
 rgbds:rgbasm rgbfix rgblink
 rlwrap:rlwrap
+rocksdb:
 rogue:rogue
 rpm2cpio:rpm2cpio.pl
 rrdtool:rrdcached rrdcgi rrdcreate rrdinfo rrdtool rrdupdate
@@ -788,6 +1091,7 @@ sl:sl
 slimerjs:slimerjs
 sloccount:ada_count asm_count awk_count break_filelist c_count cobol_count compute_all compute_sloc_lang count_extensions count_unknown_ext csh_count erlang_count exp_count f90_count fortran_count generic_count get_sloc get_sloc_details haskell_count java_count jsp_count lex_count lexcount1 lisp_count make_filelists makefile_count ml_count modula3_count objc_count pascal_count perl_count php_count print_sum python_count ruby_count sed_count sh_count show_filecount sloccount sql_count tcl_count
 smlnj:heap2asm heap2exec ml-antlr ml-build ml-burg ml-lex ml-makedepend ml-nlffigen ml-ulex ml-yacc sml
+snappy:
 source-highlight:check-regexp cpp2html java2html source-highlight source-highlight-esc.sh source-highlight-settings src-hilite-lesspipe.sh
 sox:play rec sox soxi
 speex:speexdec speexenc
@@ -801,6 +1105,7 @@ stlviewer:stlviewer
 stoken:stoken
 subversion:svn svnadmin svndumpfilter svnlook svnmucc svnrdump svnserve svnsync svnversion
 suite-sparse:
+suomi-malaga-voikko:
 swi-prolog:swipl swipl-ld swipl-rc
 swig:ccache-swig swig
 syncthing:syncthing
@@ -833,6 +1138,7 @@ unittest-cpp:
 unixodbc:dltest isql iusql odbc_config odbcinst slencheck
 unrar:unrar
 up:up
+uriparser:uriparse
 usbmuxd:iproxy
 vim:ex rview rvim view vim vimdiff vimtutor xxd
 vitetris:tetris
@@ -850,6 +1156,7 @@ wtf:wtf
 wv:wvAbw wvCleanLatex wvConvert wvDocBook wvDVI wvHtml wvLatex wvMime wvPDF wvPS wvRTF wvSummary wvText wvVersion wvWare wvWml
 wxmac:wx-config wxrc wxrc-3.0
 x264:x264
+xapian:copydatabase delve quest simpleexpand simpleindex simplesearch xapian-check xapian-chert-update xapian-compact xapian-config xapian-inspect xapian-metadata xapian-progsrv xapian-replicate xapian-replicate-server xapian-tcpsrv
 xmlformat:xmlformat
 xmlstarlet:xml xmlstarlet
 xmlto:xmlif xmlto
