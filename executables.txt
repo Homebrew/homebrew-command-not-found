@@ -614,58 +614,118 @@ elb-tools:elb-apply-security-groups-to-lb elb-associate-route53-hosted-zone elb-
 elinks:elinks
 elixir-build:elixir-build exenv-install exenv-uninstall json
 elixir:elixir elixirc iex mix
+emacs-clang-complete-async:clang-complete
 emacs:ebrowse emacs emacs-24.4 emacsclient etags grep-changelog
 embryo:embryo_cc
 emscripten:em++ em-config emar emcc emcmake emconfigure emlink.py emmake emranlib emrun emscons
 enca:enca enconv
+encfs:encfs encfsctl encfssh
 enchant:enchant enchant-lsmod
 enet:
+engine_pkcs11:
+enscript:diffpp enscript mkafmmap over sliceprint states
 entr:entr reload-browser
 envv:envv
+eot-utils:eotinfo mkeot
 epeg:epeg
+epic5:epic5 epic5-1.1.6
+eprover:checkproof e_axfilter e_ltb_runner eground ekb_create ekb_delete ekb_ginsert ekb_insert epclextract eproof eproof_ram eprover
+epsilon:epsilon start_epsilon_nodes.pl stop_epsilon_nodes.pl
 epstool:epstool
+epubcheck:epubcheck
 erlang:ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
+esniper:esniper
+esound:esd esd-config esdcat esdctl esdfilt esdloop esdmon esdplay esdrec esdsample
+espeak:espeak
 etcd:etcd
+etcdctl:etcdctl
 etl:ETL-config
 ettercap:ettercap etterfilter etterlog
 euca2ools:euare-accountaliascreate euare-accountaliasdelete euare-accountaliaslist euare-accountcreate euare-accountdel euare-accountdelpolicy euare-accountgetpolicy euare-accountgetsummary euare-accountlist euare-accountlistpolicies euare-accountuploadpolicy euare-getldapsyncstatus euare-groupaddpolicy euare-groupadduser euare-groupcreate euare-groupdel euare-groupdelpolicy euare-groupgetpolicy euare-grouplistbypath euare-grouplistpolicies euare-grouplistusers euare-groupmod euare-groupremoveuser euare-groupuploadpolicy euare-instanceprofileaddrole euare-instanceprofilecreate euare-instanceprofiledel euare-instanceprofilegetattributes euare-instanceprofilelistbypath euare-instanceprofilelistforrole euare-instanceprofileremoverole euare-roleaddpolicy euare-rolecreate euare-roledel euare-roledelpolicy euare-rolegetattributes euare-rolegetpolicy euare-rolelistbypath euare-rolelistpolicies euare-roleupdateassumepolicy euare-roleuploadpolicy euare-servercertdel euare-servercertgetattributes euare-servercertlistbypath euare-servercertmod euare-servercertupload euare-useraddcert euare-useraddkey euare-useraddloginprofile euare-useraddpolicy euare-usercreate euare-usercreatecert euare-userdeactivatemfadevice euare-userdel euare-userdelcert euare-userdelkey euare-userdelloginprofile euare-userdelpolicy euare-userenablemfadevice euare-usergetattributes euare-usergetinfo euare-usergetloginprofile euare-usergetpolicy euare-userlistbypath euare-userlistcerts euare-userlistgroups euare-userlistkeys euare-userlistmfadevices euare-userlistpolicies euare-usermod euare-usermodcert euare-usermodkey euare-usermodloginprofile euare-userresyncmfadevice euare-userupdateinfo euare-useruploadpolicy euca-allocate-address euca-associate-address euca-associate-route-table euca-attach-volume euca-authorize euca-bundle-and-upload-image euca-bundle-image euca-bundle-instance euca-bundle-vol euca-cancel-bundle-task euca-cancel-conversion-task euca-confirm-product-instance euca-copy-image euca-create-group euca-create-image euca-create-keypair euca-create-network-acl euca-create-network-acl-entry euca-create-route euca-create-route-table euca-create-snapshot euca-create-subnet euca-create-tags euca-create-volume euca-create-vpc euca-delete-bundle euca-delete-disk-image euca-delete-group euca-delete-keypair euca-delete-network-acl euca-delete-network-acl-entry euca-delete-route euca-delete-route-table euca-delete-snapshot euca-delete-subnet euca-delete-tags euca-delete-volume euca-delete-vpc euca-deregister euca-describe-addresses euca-describe-availability-zones euca-describe-bundle-tasks euca-describe-conversion-tasks euca-describe-group euca-describe-groups euca-describe-image-attribute euca-describe-images euca-describe-instance-attribute euca-describe-instance-status euca-describe-instance-types euca-describe-instances euca-describe-keypairs euca-describe-network-acls euca-describe-regions euca-describe-route-tables euca-describe-snapshot-attribute euca-describe-snapshots euca-describe-subnets euca-describe-tags euca-describe-volumes euca-describe-vpcs euca-detach-volume euca-disassociate-address euca-disassociate-route-table euca-download-and-unbundle euca-download-bundle euca-fingerprint-key euca-get-console-output euca-get-password euca-get-password-data euca-import-instance euca-import-keypair euca-import-volume euca-install-image euca-modify-image-attribute euca-modify-instance-attribute euca-modify-instance-type euca-modify-snapshot-attribute euca-monitor-instances euca-reboot-instances euca-register euca-release-address euca-replace-network-acl-association euca-replace-network-acl-entry euca-replace-route euca-replace-route-table-association euca-reset-image-attribute euca-reset-instance-attribute euca-reset-snapshot-attribute euca-resume-import euca-revoke euca-run-instances euca-start-instances euca-stop-instances euca-terminate-instances euca-unbundle euca-unbundle-stream euca-unmonitor-instances euca-upload-bundle euca-version euform-cancel-update-stack euform-create-stack euform-delete-stack euform-describe-stack-events euform-describe-stack-resource euform-describe-stack-resources euform-describe-stacks euform-get-template euform-list-stack-resources euform-list-stacks euform-update-stack euform-validate-template eulb-apply-security-groups-to-lb eulb-attach-lb-to-subnets eulb-configure-healthcheck eulb-create-app-cookie-stickiness-policy eulb-create-lb eulb-create-lb-cookie-stickiness-policy eulb-create-lb-listeners eulb-create-lb-policy eulb-delete-lb eulb-delete-lb-listeners eulb-delete-lb-policy eulb-deregister-instances-from-lb eulb-describe-instance-health eulb-describe-lb-policies eulb-describe-lb-policy-types eulb-describe-lbs eulb-detach-lb-from-subnets eulb-disable-zones-for-lb eulb-enable-zones-for-lb eulb-register-instances-with-lb eulb-set-lb-listener-ssl-cert eulb-set-lb-policies-for-backend-server eulb-set-lb-policies-of-listener euscale-create-auto-scaling-group euscale-create-launch-config euscale-create-or-update-tags euscale-delete-auto-scaling-group euscale-delete-launch-config euscale-delete-notification-configuration euscale-delete-policy euscale-delete-scheduled-action euscale-delete-tags euscale-describe-account-limits euscale-describe-adjustment-types euscale-describe-auto-scaling-groups euscale-describe-auto-scaling-instances euscale-describe-auto-scaling-notification-types euscale-describe-launch-configs euscale-describe-metric-collection-types euscale-describe-notification-configurations euscale-describe-policies euscale-describe-process-types euscale-describe-scaling-activities euscale-describe-scheduled-actions euscale-describe-tags euscale-describe-termination-policy-types euscale-disable-metrics-collection euscale-enable-metrics-collection euscale-execute-policy euscale-put-notification-configuration euscale-put-scaling-policy euscale-put-scheduled-update-group-action euscale-resume-processes euscale-set-desired-capacity euscale-set-instance-health euscale-suspend-processes euscale-terminate-instance-in-auto-scaling-group euscale-update-auto-scaling-group euwatch-delete-alarms euwatch-describe-alarm-history euwatch-describe-alarms euwatch-describe-alarms-for-metric euwatch-disable-alarm-actions euwatch-enable-alarm-actions euwatch-get-stats euwatch-list-metrics euwatch-put-data euwatch-put-metric-alarm euwatch-set-alarm-state
 euler-py:euler
 evas:evas_cserve evas_cserve_tool
+eventlog:
+exempi:exempi
+exenv:elixir-local-exec exenv
 exiftags:exifcom exiftags exiftime
 exiftool:exiftool
 exim:exicyclog exigrep exim exim-4.85-3 exim_checkaccess exim_ctl exim_dbmbuild exim_dumpdb exim_fixdb exim_lock exim_tidydb eximstats exinext exipick exiqgrep exiqsumm exiwhat
+exiv2:exiv2
+exodriver:
 expat:xmlwf
+ext2fuse:ext2fuse
+ext4fuse:ext4fuse
+eye-d3:eyeD3
+ezlupdate:ezlupdate
+ezstream:ezstream ezstream-file.sh
 f3:f3read f3write
 faac:faac
 faad2:faad
 fabric:fab
+fail2ban:fail2ban-client fail2ban-regex fail2ban-server
 fakeroot:faked fakeroot
 fantom:fan fanlaunch fanp fanr fansh fansubstitute fant flux jstub msvcr100.dll msvcr71.dll
+fasd:fasd
+fastjar:fastjar grepjar
+fatsort:fatsort
+fb-adb:fb-adb
+fb-client:fb
+fbida:exiftran
+fcgi:cgi-fcgi
+fcgiwrap:fcgiwrap
+fcrackzip:fcrackzip zipinfo
+fdclone:fd fdsh
 fdk-aac:
+fdupes:fdupes
+fetch-crl:clean-crl fetch-crl
 fex:fex
 ffe:ffe
+ffmbc:ffmbc ffprobe-bc
 ffmpeg2theora:ffmpeg2theora
 ffmpeg:ffmpeg ffprobe ffserver
+ffmpegthumbnailer:ffmpegthumbnailer
 ffts:
 fftw:fftw-wisdom fftw-wisdom-to-conf fftwf-wisdom fftwl-wisdom
 fibjs:fibjs
+ficy:fIcy fPls fResync
 fig:fig
 figlet:chkfont figlet figlist showfigfonts
+finatra:finatra
 findutils:gfind glocate goldfind gupdatedb gxargs
 fio:fio fio-dedupe fio-genzipf fio2gnuplot fio_generate_plots genfio
 fish:fish fish_indent fish_pager fishd mimedb
+fits:fits fits-ngserver
 fizsh:fizsh
+flac123:flac123
 flac:flac metaflac
+flactag:checkflac discid flactag ripdataflac ripflac
+flake:flake
+flashrom:flashrom
+flasm:flasm
 flatbuffers:flatc
+flawfinder:flawfinder
+fleet-db:fleetdb-server
 fleetctl:fleetctl
 flex:flex flex++
 flickcurl:flickcurl flickcurl-config flickrdf
+flow-tools:flow-capture flow-cat flow-dscan flow-expire flow-export flow-fanout flow-filter flow-gen flow-header flow-import flow-log2rrd flow-mask flow-merge flow-nfilter flow-print flow-receive flow-report flow-rpt2rrd flow-rptfmt flow-send flow-split flow-stat flow-tag flow-xlate
 flow:flow
+flowgrind:flowgrind flowgrind-stop flowgrindd
+fltk:fltk-config fluid
 fluid-synth:fluidsynth
+flvmeta:flvmeta
+flvstreamer:flvstreamer rtmpsrv rtmpsuck streams
+fmdiff:filemerge fmdiff fmdiff3 fmmerge fmresolve
+fon-flash-cli:fon-flash
+fondu:fondu ufond
 fontconfig:fc-cache fc-cat fc-list fc-match fc-pattern fc-query fc-scan fc-validate
 fontforge:fontforge fontimage fontlint sfddiff
+fop:fop
+forego:forego
+foremost:foremost
 fortune:fortune strfile unstr
 fossil:fossil
+fourstore:4s-admin 4s-backend 4s-backend-copy 4s-backend-destroy 4s-backend-info 4s-backend-passwd 4s-backend-setup 4s-boss 4s-cluster-copy 4s-cluster-create 4s-cluster-destroy 4s-cluster-file-backup 4s-cluster-info 4s-cluster-start 4s-cluster-stop 4s-delete-model 4s-dump 4s-file-backup 4s-httpd 4s-import 4s-info 4s-query 4s-restore 4s-size 4s-ssh-all 4s-ssh-all-parallel 4s-update
 fping:fping fping6
 frag_find:frag_find hash_t_test
 freeipmi:bmc-config bmc-device bmc-info bmc-watchdog ipmi-chassis ipmi-chassis-config ipmi-config ipmi-console ipmi-dcmi ipmi-detect ipmi-fru ipmi-locate ipmi-oem ipmi-pef-config ipmi-pet ipmi-ping ipmi-power ipmi-raw ipmi-sel ipmi-sensors ipmi-sensors-config ipmiconsole ipmidetect ipmidetectd ipmimonitoring ipmiping ipmipower ipmiseld pef-config rmcp-ping rmcpping
@@ -1194,7 +1254,7 @@ little-cms2:jpgicc linkicc psicc tificc transicc
 little-cms:icc2ps icclink icctrans jpegicc tiffdiff tifficc wtpt
 lldpd:lldpcli lldpctl lldpd
 llvm33:bugpoint-3.3 c-index-test-3.3 clang++-3.3 clang-3.3 clang-check-3.3 clang-format-3.3 clang-tblgen-3.3 cpp11-migrate-3.3 llc-3.3 lli-3.3 llvm-ar-3.3 llvm-as-3.3 llvm-bcanalyzer-3.3 llvm-config-3.3 llvm-cov-3.3 llvm-diff-3.3 llvm-dis-3.3 llvm-dwarfdump-3.3 llvm-extract-3.3 llvm-link-3.3 llvm-mc-3.3 llvm-mcmarkup-3.3 llvm-nm-3.3 llvm-objdump-3.3 llvm-prof-3.3 llvm-ranlib-3.3 llvm-readobj-3.3 llvm-rtdyld-3.3 llvm-size-3.3 llvm-stress-3.3 llvm-symbolizer-3.3 llvm-tblgen-3.3 macho-dump-3.3 opt-3.3
-llvm:bugpoint count FileCheck llc lli lli-child-target llvm-ar llvm-as llvm-bcanalyzer llvm-config llvm-cov llvm-diff llvm-dis llvm-dwarfdump llvm-extract llvm-link llvm-mc llvm-mcmarkup llvm-nm llvm-objdump llvm-profdata llvm-ranlib llvm-readobj llvm-rtdyld llvm-size llvm-stress llvm-symbolizer llvm-tblgen macho-dump not opt
+llvm:bugpoint count FileCheck llc lli lli-child-target llvm-ar llvm-as llvm-bcanalyzer llvm-config llvm-cov llvm-diff llvm-dis llvm-dwarfdump llvm-extract llvm-link llvm-mc llvm-mcmarkup llvm-nm llvm-objdump llvm-profdata llvm-ranlib llvm-readobj llvm-rtdyld llvm-size llvm-stress llvm-symbolizer llvm-tblgen macho-dump not opt c-index-test clang clang++ clang-format clang-tblgen clang-apply-replacements clang-check clang-modernize clang-query clang-tidy pp-trace scan-build scan-view
 lmdb:mdb_copy mdb_dump mdb_load mdb_stat
 lnav:lnav
 lockrun:lockrun
@@ -1503,6 +1563,7 @@ rfc:rfc
 rfcdiff:rfcdiff
 rgbds:rgbasm rgbfix rgblink
 riemann-client:riemann-client
+rlog:
 rlwrap:rlwrap
 rocket:actool rkt
 rocksdb:
@@ -1691,6 +1752,7 @@ ucommon:args car commoncpp-config keywait mdsum pdetach scrub-files sockaddr uco
 ucspi-tcp:addcr argv0 date@ delcr finger@ fixcrio http@ mconnect mconnect-io rblsmtpd recordio tcpcat tcpclient tcprules tcprulescheck tcpserver who@
 ucspi-tools:socks tlsc
 ufraw:ufraw-batch
+unac:unaccent
 unarj:unarj
 unbound:unbound unbound-anchor unbound-checkconf unbound-control unbound-control-setup unbound-host
 uncrustify:uncrustify
@@ -1756,6 +1818,7 @@ xlslib:
 xml-coreutils:xml-awk xml-cat xml-cp xml-cut xml-echo xml-file xml-find xml-fixtags xml-fmt xml-grep xml-head xml-less xml-ls xml-mv xml-paste xml-printf xml-rm xml-sed xml-strings xml-unecho xml-wc
 xml-security-c:c14n checksig cipher siginf templatesign txfmout xklient xtest
 xmlformat:xmlformat
+xmlrpc-c:xmlrpc-c-config
 xmlstarlet:xml xmlstarlet
 xmlto:xmlif xmlto
 xmltoman:xmlmantohtml xmltoman
