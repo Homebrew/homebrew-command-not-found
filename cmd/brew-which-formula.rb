@@ -25,8 +25,10 @@ def which_formula(cmd)
   cmd = cmd.downcase
 
   (matches cmd).each do |m|
-    formula, cmds = m.split(":", 2)
-    puts formula if !formula.nil? && !cmds.nil? && cmds.include?(cmd)
+    formula, cmds_text = m.split(":", 2)
+    next if formula.nil? || cmds_text.nil?
+    cmds = cmds_text.split(" ")
+    puts formula if !cmds.nil? && cmds.include?(cmd)
   end
 end
 
