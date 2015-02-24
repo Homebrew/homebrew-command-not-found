@@ -2,57 +2,106 @@ a2ps:a2ps card composeglyphs fixnt fixps ogonkify pdiff psmandup psset texi2dvi4
 a52dec:a52dec extract_a52
 aacgain:aacgain
 aalib:aafire aainfo aalib-config aasavefont aatest
+aamath:aamath
+aardvark_shell_utils:filebase fileext realpath
 abcde:abcde abcde-musicbrainz-tool cddb-tool
+abcl:abcl
 abcm2ps:abcm2ps
 abcmidi:abc2abc abc2midi abcmatch mftext midi2abc midicopy yaps
 abduco:abduco
+abi-compliance-checker:abi-compliance-checker
 abnfgen:abnfgen
 abook:abook
 ace:
+aces_container:
 ack:ack
 acme:acme
 acpica:acpibin acpidump acpiexamples acpiexec acpihelp acpinames acpisrc acpixtract iasl
 activemq-cpp:activemqcpp-config example
+activemq:activemq activemq-admin
+admesh:admesh
 adns:adnsheloex adnshost adnslogres adnsresfilter
 adobe-air-sdk:aasdoc acompc adl adt amxmlc asdoc compc fdb fontswf mxmlc optimizer swcdepends swfdump
 adplug:adplugdb
+advancecomp:advdef advmng advpng advzip
 aescrypt-packetizer:paescrypt paescrypt_keygen
 aescrypt:aescrypt aesget
 aeskeyfind:aeskeyfind
 aespipe:aespipe
 afflib:affcat affcompare affconvert affcopy affcrypto affdiskprint affinfo affix affrecover affsegment affsign affstats affuse affverify affxml
+afio:afio
 afl-fuzz:afl-clang afl-clang++ afl-fuzz afl-g++ afl-gcc afl-plot afl-showmap
+afsctool:afsctool
+aften:aften wavfilter wavinfo wavrms
+afuse:afuse afuse-avahissh
 agda:agda agda-mode epic
 aget:aget
+aggregate:aggregate aggregate-ios
 aha:aha
+ahcpd:ahcpd
+aiccu:aiccu
+aircrack-ng:aircrack-ng airdecap-ng airdecloak-ng ivstools kstats makeivs-ng packetforge-ng airbase-ng airdriver-ng aireplay-ng airmon-ng airodump-ng airodump-ng-oui-update airserv-ng airtun-ng
+akka:akka
+alac:alac
+aldo:aldo
+algol68g:a68g
 align:align width
 alpine:alpine pico pilot rpdump rpload
 amap:amap amap6 amapcrap
+amtterm:amtterm amttool
 analog:analog
+android-platform-tools:adb fastboot
+android-sdk:aapt adb aidl android ddms dexdump dmtracedump draw9patch dx emulator emulator-arm emulator-x86 etc1tool fastboot hierarchyviewer hprof-conv lint llvm-rs-cc mksdcard monitor monkeyrunner traceview zipalign
 ansible:ansible ansible-doc ansible-galaxy ansible-playbook ansible-pull ansible-vault
 ansifilter:ansifilter
+ant-contrib:
 ant:ant antRun antRun.pl complete-ant-cmd.pl runant.pl runant.py
 antiword:antiword
 antlr:antlr4 grun
 anttweakbar:
+aoeui:aoeui asdfg
+apache-forrest:forrest
+apache-opennlp:opennlp
+apache-spark:beeline compute-classpath.sh load-spark-env.sh pyspark run-example spark-class spark-shell spark-sql spark-submit utils.sh
+apachetop:apachetop
 ape:aped
+apg:apg apgbfm
+apgdiff:apgdiff
 apib:apib apibmon
+apktool:apktool
 apngasm:apngasm
+apollo:apollo
+app-engine-java-sdk:appcfg.sh dev_appserver.sh endpoints.sh google_sql.sh run_java.sh
+apparix:apparix
+appscale-tools:appscale appscale-add-instances appscale-add-keypair appscale-describe-instances appscale-gather-logs appscale-get-property appscale-relocate-app appscale-remove-app appscale-reset-pwd appscale-run-instances appscale-set-property appscale-terminate-instances appscale-upload-app
 apr-util:apu-1-config
 apr:apr-1-config
+apt-cacher-ng:apt-cacher-ng
+apt-dater:apt-dater
 aptly:aptly
 aqbanking:aqbanking-cli aqbanking-config aqebics-tool aqhbci-tool4 hbcixml3
 arangodb:arangob arangodump arangoimp arangoirb arangorestore arangosh foxx-manager arango-dfdb arangod
 archey:archey
+archivemount:archivemount
 argp-standalone:
 argtable:
 argus-clients:argusclientbug ra rabins racluster raconvert racount radark radecode radump raevent rafilteraddr ragraph ragrep rahisto rahosts ralabel ranonymize rapath rapolicy raports rarpwatch raservices rasort rasplit rastream rastrip ratemplate ratimerange ratop rauserdata radium
 argus:argus-lsof argus-snmp argus-vmstat argusbug argus
+argyll-cms:applycal average cb2ti3 cctiff ccxxmake chartread collink colprof colverify dispcal dispread dispwin extracticc extractttag fakeCMY fakeread greytiff iccdump iccgamut icclu illumread invprofcheck kodak2ti3 mppcheck mpplu mppprof oeminst printcal printtarg profcheck refine revfix scanin spec2cie specplot splitti3 spotread synthcal synthread targen tiffgamut timage txt2ti3 viewgam xicclu
 aria2:aria2c
+arm:arm
+arp-scan:arp-fingerprint arp-scan get-iab get-oui
+arp-sk:arp-sk
 arping:arping
+arpoison:arpoison
 arpon:arpon
+arss:arss
+artifactory:artifactory.default artifactory.sh
+ascii:ascii
 asciidoc:a2x a2x.py asciidoc asciidoc.py
 asciinema:asciinema
+asciitex:asciiTeX
+asm6:asm6
 asn1c:asn1c crfc2asn1.pl enber unber
 aspcud:aspcud cudf2lp
 aspell:aspell aspell-import precat preunzip prezip prezip-bin pspell-config run-with-aspell word-list-compress
@@ -60,9 +109,12 @@ assimp:assimp
 astyle:astyle
 at-spi2-atk:
 at-spi2-core:
+atdtool:atdtool
+aterm:atdiff atreverse atrmannos atsum baf2taf baf2trm baffle dicttoc taf2baf taf2trm termsize trm2baf trm2taf trmcat
 atf:atf-sh
 atk:
 atkmm:
+atomicparsley:AtomicParsley
 atool:acat adiff als apack arepack atool aunpack
 ats2-postiats:patscc patsopt
 audiofile:sfconvert sfinfo
@@ -1351,6 +1403,7 @@ ttyrec:ttyplay ttyrec ttytime
 tutum:tutum
 two-lame:twolame
 txt2man:bookman src2man txt2man
+txt2tags:txt2tags
 typesafe-activator:activator
 u-boot-tools:mkimage
 ucommon:args car commoncpp-config keywait mdsum pdetach scrub-files sockaddr ucommon-config zerofill
