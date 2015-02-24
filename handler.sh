@@ -26,7 +26,7 @@
 
     # </from Linux Journal>
 
-    local f=$(brew which $cmd 2>/dev/null | head -n 1)
+    local f=$(brew which-formula $cmd 2>/dev/null | head -n 1)
 
     if [ -z "$f" ]; then
         echo $"$1: command not found"
