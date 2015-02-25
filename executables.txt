@@ -1012,6 +1012,7 @@ hicolor-icon-theme:
 hidapi:
 hilite:hilite
 hiredis:
+hive:beeline ext hive hive-config.sh hiveserver2 metatool schematool
 hoedown:hoedown
 homer:homer
 honcho:honcho
@@ -1610,6 +1611,7 @@ malbolge:malbolge
 man2html:man2html
 mapnik:mapnik-config mapnik-speed-check shapeindex upgrade_map_xml.py
 mariadb:aria_chk aria_dump_log aria_ftdump aria_pack aria_read_log innochecksum msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_config mysql_convert_table_format mysql_find_rows mysql_fix_extensions mysql_install_db mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysql_zap mysqlaccess mysqladmin mysqlbinlog mysqlbug mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest mytop perror rcmysql replace resolve_stack_dump resolveip
+markdown:markdown
 marst:macvt marst
 masscan:masscan
 mat:mat mat-gui
@@ -2157,21 +2159,30 @@ qt:lconvert lrelease lupdate macdeployqt moc qcollectiongenerator qdoc3 qhelpgen
 qtfaststart:qt-faststart
 qtplay:qtplay
 quantlib:quantlib-config quantlib-test-suite
-quassel:
+quassel:quassel quasselclient quasselcore
+quazip:qztest
 queequeg:qq
 quilt:guards quilt
+quotatool:quotatool
 quvi:quvi
 qwt:
+qwtpolar:
+qxmpp:
+r3:
 rabbitmq-c:amqp-consume amqp-declare-queue amqp-delete-queue amqp-get amqp-publish
 rabbitmq:rabbitmq-defaults rabbitmq-env rabbitmq-plugins rabbitmq-server rabbitmqadmin rabbitmqctl
+radamsa:radamsa
 radare2:r2 r2agent rabin2 radare2 radiff2 rafind2 ragg2 ragg2-cc rahash2 rarun2 rasm2 rax2
 ragel:ragel
+rainbarf:rainbarf
 rakudo-star:moar nqp-m p6doc p6doc-index p6doc-index-m p6doc-m panda panda-m perl6 perl6-debug-m perl6-m ufo ufo-m
 rancid:agmrancid alogin anlogin anrancid arancid arrancid avologin avorancid blogin brancid cat5rancid clogin complogin control_rancid cssrancid dllogin elogin erancid f10rancid f5rancid flogin fnlogin fnrancid hlogin hpuifilter hrancid htlogin htrancid jerancid jlogin lg.cgi lgform.cgi mrancid mrvlogin mtlogin mtrancid nlogin nrancid nslogin nsrancid nxrancid par prancid rancid rancid-cvs rancid-fe rancid-run rivlogin rivrancid rrancid srancid tlogin tntlogin tntrancid trancid xilogin xirancid xrancid zrancid
 randomize-lines:rl
+ranger:ranger
 raptor:rapper
 rarian:rarian-example rarian-sk-config rarian-sk-extract rarian-sk-gen-uuid rarian-sk-get-cl rarian-sk-get-content-list rarian-sk-get-extended-content-list rarian-sk-get-scripts rarian-sk-install rarian-sk-migrate rarian-sk-preinstall rarian-sk-rebuild rarian-sk-update scrollkeeper-config scrollkeeper-extract scrollkeeper-gen-seriesid scrollkeeper-get-cl scrollkeeper-get-content-list scrollkeeper-get-extended-content-list scrollkeeper-get-index-from-docpath scrollkeeper-get-toc-from-docpath scrollkeeper-get-toc-from-id scrollkeeper-install scrollkeeper-preinstall scrollkeeper-rebuilddb scrollkeeper-uninstall scrollkeeper-update
 rasqal:rasqal-config roqet
+rats:rats
 rbenv-aliases:rbenv-alias rbenv-unalias
 rbenv-binstubs:rbenv-bundles
 rbenv-bundle-exec:
@@ -2188,163 +2199,336 @@ rbenv-vars:rbenv-vars
 rbenv-whatis:rbenv-whatis
 rbenv:rbenv ruby-local-exec
 rcs:ci co ident merge rcs rcsclean rcsdiff rcsmerge rlog
+rcssserver:rcg2xml rcgconvert rcgsplit rcsoccersim rcssclient rcsslogplayer rcssmonitor rcssserver
+rdate:rdate
+rdfind:rdfind
+rdiff-backup:rdiff-backup rdiff-backup-statistics
+rds-command-line-tools:rds rds-add-option-to-option-group rds-add-source-identifier-to-subscription rds-add-tag-to-resource rds-authorize-db-security-group-ingress rds-copy-db-snapshot rds-create-db-instance rds-create-db-instance-read-replica rds-create-db-parameter-group rds-create-db-security-group rds-create-db-snapshot rds-create-db-subnet-group rds-create-event-subscription rds-create-option-group rds-delete-db-instance rds-delete-db-parameter-group rds-delete-db-security-group rds-delete-db-snapshot rds-delete-db-subnet-group rds-delete-event-subscription rds-delete-option-group rds-describe-db-engine-versions rds-describe-db-instances rds-describe-db-log-files rds-describe-db-parameter-groups rds-describe-db-parameters rds-describe-db-security-groups rds-describe-db-snapshots rds-describe-db-subnet-groups rds-describe-engine-default-parameters rds-describe-event-categories rds-describe-event-subscriptions rds-describe-events rds-describe-option-group-options rds-describe-option-groups rds-describe-orderable-db-instance-options rds-describe-reserved-db-instances rds-describe-reserved-db-instances-offerings rds-download-db-logfile rds-list-tags-for-resource rds-modify-db-instance rds-modify-db-parameter-group rds-modify-db-subnet-group rds-modify-event-subscription rds-promote-read-replica rds-purchase-reserved-db-instances-offering rds-reboot-db-instance rds-remove-option-from-option-group rds-remove-source-identifier-from-subscription rds-remove-tags-from-resource rds-reset-db-parameter-group rds-restore-db-instance-from-db-snapshot rds-restore-db-instance-to-point-in-time rds-revoke-db-security-group-ingress rds-update-option-in-option-group rds-version rds-watch-db-logfile
+rdup:rdup rdup-simple rdup-tr rdup-up
 re2c:re2c
 readline:
 readosm:
 reattach-to-user-namespace:reattach-to-user-namespace
+reaver:reaver wash
 rebar:rebar
 reclass:reclass reclass-ansible reclass-salt
 recode:recode
+recoverjpeg:recoverjpeg recovermov remove-duplicates sort-pictures
 recutils:csv2rec rec2csv recdel recfix recfmt recinf recins recsel recset
 redis:redis-benchmark redis-check-aof redis-check-dump redis-cli redis-sentinel redis-server
 redland:rdfproc redland-config redland-db-upgrade
+redo:redo redo-always redo-ifchange redo-ifcreate redo-ood redo-sources redo-stamp redo-targets redo-unlocked
 redshift:redshift
+redsocks:redsocks
+redstore:redstore
+regex-opt:regex-opt
+regina-rexx:regina regina-config rexx rxqueue rxstack
+regldg:regldg
 remake:remake
+remctl:remctl remctld
 remind:cm2rem.tcl rem rem2ps remind tkremind
+ren:ren
 rename:rename
 renameutils:deurlname icmd icp imv qcmd qcp qmv
+reop:reop
+repl:repl
+repo:repo
+reposurgeon:repodiffer repopuller reposurgeon
+rest-shell:rest-shell
 restund:restund
+resty:pp pypp resty
 rethinkdb:rethinkdb
+rexster-console:rexster-console
 rfc:rfc
 rfcdiff:rfcdiff
+rfcmarkup:rfcmarkup
+rfcstrip:rfcstrip
 rgbds:rgbasm rgbfix rgblink
+rhash:ed2k-link gost-hash has160-hash magnet-link rhash sfv-hash tiger-hash tth-hash whirlpool-hash
+rhino:rhino
+riak:riak riak-admin riak-debug search-cmd
 riemann-client:riemann-client
+riemann:riemann
 rig:rig
+rinetd:rinetd
 ringojs:ringo ringo-admin ringo-doc ringo-web
+ripmime:ripmime
+rkflashtool:rkcrc rkflashtool rkmisc rkpad rkparameters rkparametersblock rkunpack rkunsign
+rkhunter:rkhunter
 rlog:
 rlwrap:rlwrap
 rmate:rmate
 rmcast:mcastproxy rmchat
+rmtrash:rmtrash
 rnv:arx rnv rvp xsdck
+robodoc:robodoc robohdrs
+rock:rock
 rocket:actool rkt
 rocksdb:
 rogue:rogue
 rolldice:rolldice
+roundup:roundup
 rp:rp-osx
+rpg:rpg rpg-sh-setup
+rpl:rpl
 rpm2cpio:rpm2cpio.pl
+rpm:gendiff multiarch-dispatch multiarch-platform rpm rpm2cpio rpmbuild rpmconstant
 rrdtool:rrdcached rrdcgi rrdcreate rrdinfo rrdtool rrdupdate
+rsense:rsense
+rsnapshot:rsnapshot rsnapshot-diff
+rssh:rssh
+rsstail:rsstail
+rsyslog:msggen rsyslog_diag_hostname rsyslogd zpipe
+rt-audio:
+rtf2latex2e:rtf2latex2e
 rtmpdump:rtmpdump rtmpgw rtmpsrv rtmpsuck
+rtorrent:rtorrent
 rtpbreak:rtpbreak
 rubber:rubber rubber-info rubber-pipe
 ruby-build:rbenv-install rbenv-uninstall ruby-build
+ruby-install:ruby-install
 ruby:erb gem irb rake rdoc ri ruby
+runcocoa:runc runcocoa
 runit:chpst runit runit-init runsv runsvchdir runsvdir sv svlogd utmpset
 rust:rust-lldb rustc rustdoc
+rzip:runzip rzip
 s-lang:slsh
 s3-backer:s3backer
 s3cmd:s3cmd
+s3sync:S3.rb s3cmd.rb s3config.rb s3sync.rb s3try.rb thread_generator.rb
 safe-rm:safe-rm
 saltstack:salt salt-api salt-call salt-cloud salt-cp salt-key salt-master salt-minion salt-run salt-ssh salt-syndic salt-unity
+sam2p:sam2p sam2p_pdf_scale.pl
 samba:eventlogadm findsmb net nmblookup ntlm_auth pdbedit profiles rpcclient sharesec smbcacls smbclient smbcontrol smbcquotas smbget smbpasswd smbspool smbstatus smbta-util smbtar smbtree tdbbackup tdbdump tdbrestore tdbtool testparm nmbd smbd swat
 sane-backends:gamma4scanimage sane-config sane-find-scanner scanimage saned
+sary:mksary sary
 sassc:sassc
+savana:sav
+saxon-b:
 saxon:saxon
 sbcl:sbcl
 sblim-sfcc:
 sbt:sbt
+sbuild:sbuild
+sc68:as68 debug68 info68 sc68 sc68-config sourcer68 unice68
 scala:fsc scala scalac scaladoc scalap
+scalaenv:scalaenv scalaenv-install
+scalastyle:scalastyle
+scale2x:scalerx scalex
+scamper:sc_ally sc_analysis_dump sc_attach sc_ipiddump sc_speedtrap sc_tracediff sc_warts2json sc_warts2pcap sc_warts2text sc_wartscat sc_wartsdump sc_wartsfix scamper
 scheme48:scheme-r5rs scheme-srfi-7 scheme48 scheme48-config
 schroedinger:
 scm-manager:scm-cli-client scm-server
 scons:scons scons-time sconsign
 screenbrightness:screenbrightness
 screenfetch:screenfetch
+screenresolution:screenresolution
 scrollkeeper:scrollkeeper-config scrollkeeper-extract scrollkeeper-gen-seriesid scrollkeeper-get-cl scrollkeeper-get-content-list scrollkeeper-get-extended-content-list scrollkeeper-get-index-from-docpath scrollkeeper-get-toc-from-docpath scrollkeeper-get-toc-from-id scrollkeeper-install scrollkeeper-preinstall scrollkeeper-rebuilddb scrollkeeper-uninstall scrollkeeper-update
+scrub:scrub
 scrypt:scrypt
+scsh:scsh
+sdcc:as2gbmap makebin packihx s51 savr sdar sdas390 sdas6808 sdas8051 sdasgb sdasrab sdasstm8 sdastlcs90 sdasz80 sdcc sdcclib sdcdb sdcpp sdld sdld6808 sdldgb sdldz80 sdnm sdobjcopy sdranlib shc08 sst7 sstm8 sz80
+sdcv:sdcv
+sdf:
+sdhash:sdhash
 sdl2:sdl2-config
+sdl2_gfx:
 sdl2_image:
 sdl2_mixer:
+sdl2_net:
 sdl2_ttf:
 sdl:sdl-config
 sdl_gfx:
 sdl_image:
 sdl_mixer:
+sdl_net:
+sdl_rtf:
+sdl_sound:playsound playsound_simple
 sdl_ttf:
+sec:sec
+seexpr:asciiCalc asciiGraph imageSynth
+selecta:selecta
+selenium-server-standalone:selenium-server
+sendemail:sendEmail
+ser2net:ser2net
 serd:serdi
 serf:
+serialosc:serialoscd
+sersniff:sersniff
+setweblocthumb:setWeblocThumb
+sf-pwgen:sf-pwgen
 sfcgal:sfcgal-config
+sflowtool:sflowtool
 sfml:
+sgrep:sgrep
 shadowsocks-libev:ss-local ss-tunnel
+shakespeare:spl2c
 shapelib:dbfadd dbfcreate dbfdump shpadd shpcreate shpdump shprewind shptreedump
+shared-mime-info:update-mime-database
+shell.fm:shell-fm
 shellcheck:shellcheck
+shellinabox:shellinaboxd
 shiboken:shiboken
+shivavg:
 shmcat:shmcat
+shmux:shmux
 shntool:shncat shncmp shnconv shncue shnfix shngen shnhash shninfo shnjoin shnlen shnpad shnsplit shnstrip shntool shntrim
+shocco:shocco
+shorten:shorten
+shrewsoft-vpn-client:ikec iked
+shtool:shtool shtoolize
+shunit2:shunit2
 sickbeard:sickbeard
 siege:bombardment siege siege.config siege2csv.pl
 signify-osx:signify
 signing-party:caff gpg-key2ps gpg-mailkeys gpglist gpgparticipants gpgsigs keyanalyze keylookup pgp-clean pgp-fixkey pgpring process_keys sig2dot
 silc-client:silc
 silk:mapsid num2dot rwaddrcount rwallformats rwappend rwbag rwbagbuild rwbagcat rwbagtool rwcat rwcombine rwcompare rwcount rwcut rwdedupe rwfglob rwfileinfo rwfilter rwgeoip2ccmap rwgroup rwidsquery rwip2cc rwipfix2silk rwmatch rwnetmask rwp2yaf2silk rwpcut rwpdedupe rwpdu2silk rwpmapbuild rwpmapcat rwpmaplookup rwpmatch rwptoflow rwrandomizeip rwrecgenerator rwresolve rwrtd2split rwscan rwscanquery rwset rwsetbuild rwsetcat rwsetmember rwsettool rwsilk2ipfix rwsiteinfo rwsort rwsplit rwstats rwswapbytes rwtotal rwtuc rwuniq silk_config flowcap rwflowappend rwflowpack rwguess rwpackchecker rwpollexec rwreceiver rwsender
+simgrid:graphicator simgrid-colorizer simgrid_update_xml smpicc smpicxx smpirun tesh
+simh:altair altairz80 eclipse gri h316 hp2100 i1401 i1620 i7094 ibm1130 id16 id32 lgp nova pdp1 pdp10 pdp11 pdp15 pdp4 pdp7 pdp8 pdp9 s3 sds swtp6800mp-a swtp6800mp-a2 vax vax780
 simple-amqp-client:
+simple-tiles:
+since:since
 sip:sip
+sipcalc:sipcalc
+sipp:sipp
 sipsak:sipsak
+sisc-scheme:sisc
+sispmctl:sispmctl
 ski:ski
+skinny:skinny
+skipfish:skipfish
+skktools:skkdic-count skkdic-expr skkdic-expr2 skkdic-sort
+skytools:data_maintainer3 londiste3 pgqd qadmin queue_mover3 queue_splitter3 scriptmgr3 simple_consumer3 simple_local_consumer3 skytools_upgrade3 walmgr3
 sl:sl
+sleepwatcher:sleepwatcher
 sleuthkit:blkcalc blkcat blkls blkstat fcat ffind fiwalk fls fsstat hfind icat ifind ils img_cat img_stat istat jcat jls jpeg_extract mactime mmcat mmls mmstat sigfind sorter srch_strings tsk_comparedir tsk_gettimes tsk_loaddb tsk_recover
 slimerjs:slimerjs
 sloccount:ada_count asm_count awk_count break_filelist c_count cobol_count compute_all compute_sloc_lang count_extensions count_unknown_ext csh_count erlang_count exp_count f90_count fortran_count generic_count get_sloc get_sloc_details haskell_count java_count jsp_count lex_count lexcount1 lisp_count make_filelists makefile_count ml_count modula3_count objc_count pascal_count perl_count php_count print_sum python_count ruby_count sed_count sh_count show_filecount sloccount sql_count tcl_count
+slony:slon slonik slony_logshipper
 slowhttptest:slowhttptest
 slrn:slrn slrnpull
 slurm:slurm
 smake:smake
 smali:baksmali smali
+smartmontools:smartctl smartd update-smart-drivedb
+smartypants:smartypants
 smlnj:heap2asm heap2exec ml-antlr ml-build ml-burg ml-lex ml-makedepend ml-nlffigen ml-ulex ml-yacc sml
 snappy:
 snappystream:
+snapraid:snapraid
 sngrep:sngrep
+snobol4:sdb sdb-1.5 snobol4 snobol4-1.5
 snort:snort u2boat u2spewfoo
 snow:snow
+snownews:opml2snow snow2opml snownews
+sntop:sntop
 snzip:snzip
 socat:filan procan socat
+soccerwindow2:soccerwindow2 soccerwindow2-qt4 sswindow2
+soci:
+sofia-sip:addrinfo localinfo sip-date sip-dig sip-options stunc
 solid:
+solr:solr
+somagic-tools:somagic-extract-firmware
+somagic:somagic-capture somagic-init
+sonar-runner:sonar-runner
+sonar:sonar
 sord:sord_validate sordi
+sound-touch:soundstretch
 source-highlight:check-regexp cpp2html java2html source-highlight source-highlight-esc.sh source-highlight-settings src-hilite-lesspipe.sh
 sourcekitten:sourcekitten
 sox:play rec sox soxi
+spark:spark
+sparkey:bench sparkey
 spatialindex:
+spatialite-gui:spatialite_gui
 spatialite-tools:exif_loader shp_doctor spatialite spatialite_convert spatialite_dxf spatialite_gml spatialite_network spatialite_osm_filter spatialite_osm_map spatialite_osm_net spatialite_osm_raw spatialite_tool spatialite_xml_collapse spatialite_xml_load spatialite_xml_print
+spawn-fcgi:spawn-fcgi
 spdylay:shrpx spdycat spdyd
 speech-tools:align bcat ch_lab ch_track ch_utt ch_wave design_filter dp na_play na_record ngram_build ngram_test ols ols_test pda pitchmark scfg_make scfg_parse scfg_test scfg_train sig2fv sigfilter siod spectgen tilt_analysis tilt_synthesis viterbi wagon wagon_test wfst_build wfst_run wfst_train xml_parser
+speedtest_cli:speedtest-cli speedtest_cli
 speex:speexdec speexenc
 sphinx:indexer indextool searchd spelldump wordbreaker
 spidermonkey:js js-config
 spim:spim
 spin:ispin spin
 spiped:spipe spiped
+splint:splint
 spoof-mac:spoof-mac
+spring-loaded:
+spring-roo:org.apache.felix.framework-4.4.1.jar org.springframework.roo.bootstrap-1.3.0.RELEASE.jar roo
 sproxy:sproxy
+sqlcipher:sqlcipher
 sqlite:sqlite3
 sqlitebrowser:sqlitebrowser
+sqliteman:sqliteman
 sqlmap:sqlmap sqlmap.py
+sqoop:configure-sqoop configure-sqoop.cmd sqoop sqoop-codegen sqoop-create-hive-table sqoop-eval sqoop-export sqoop-help sqoop-import sqoop-import-all-tables sqoop-job sqoop-list-databases sqoop-list-tables sqoop-merge sqoop-metastore sqoop-version sqoop.cmd start-metastore.sh stop-metastore.sh
 sqsh:sqsh
 sqtop:sqtop
+squashfs:mksquashfs unsquashfs
 squid:purge squidclient squid
 squirrel:sq
 sratom:
 src:src
+srecord:srec_cat srec_cmp srec_info
+srmio:srmcmd srmdump srmsync
 srtp:
 ssdb:ssdb-bench ssdb-dump ssdb-ins.sh ssdb-repair ssdb-server
 ssdeep:ssdeep
+ssed:ssed
 ssh-copy-id:ssh-copy-id
+sshfs:sshfs
+sshguard:sshguard
+sshrc:sshrc
+sshuttle:sshuttle
 ssldump:ssldump
+sslh:sslh sslh-fork sslh-select
 sslmate:sslmate
+sslscan:sslscan
+ssss:ssss-combine ssss-split
 sstp-client:sstpc
+stanford-parser:lexparser-gui.sh lexparser-lang-train-test.sh lexparser-lang.sh lexparser.sh
+stash-cli:stash
+stgit:stg
+stk:treesed
+stklos:stklos stklos-compile stklos-config stklos-genlex stklos-pkg stklos-script
 stlink:st-flash st-info st-term st-util
 stlviewer:stlviewer
 stoken:stoken
+storm:storm
 stormssh:storm
+stow:chkstow stow
+streamripper:streamripper
+stress:stress
 strongswan:charon-cmd ipsec pki swanctl
 stunnel:stunnel stunnel3
+stuntman:stunclient stunserver stuntestcode
+style-check:style-check.rb
+sub2srt:sub2srt
 subliminal:subliminal
+submarine:submarine
+subnetcalc:subnetcalc
 subversion:svn svnadmin svndumpfilter svnlook svnmucc svnrdump svnserve svnsync svnversion
 suite-sparse:
 suomi-malaga-voikko:
 surfraw:opensearch-discover opensearch-genquery sr surfraw surfraw-update-path
+suricata:suricata suricatasc
 svdlibc:svd
+svg2pdf:svg2pdf
+svg2png:svg2png
+svtplay-dl:svtplay-dl
+swaks:swaks
+swatchbooker:sbconvert sbconvertor swatchbooker swatchbooker_w32_postinst.py
+swfmill:swfmill
+swftools:as3compile font2swf gif2swf jpeg2swf pdf2swf png2swf swfbbox swfc swfcombine swfdump swfextract swfrender swfstrings wav2swf
 swi-prolog:swipl swipl-ld swipl-rc
 swig:ccache-swig swig
+swish-e:swish-filter-test swish-config swish-e
+switchaudio-osx:SwitchAudioSource
 sword:diatheke imp2gbs imp2ld imp2vs installmgr mkfastmod mod2imp mod2osis mod2vpl mod2zmod osis2mod tei2mod vpl2mod vs2osisref vs2osisreftxt xml2gbs
+syck:
 sync_gateway:sync_gateway
 syncthing:syncthing
 synfig:synfig synfig-config
@@ -2358,63 +2542,143 @@ t1lib:type1afm
 t1utils:t1ascii t1asm t1binary t1disasm t1mac t1unmac
 ta-lib:ta-lib-config ta_regtest
 taglib:taglib-config
+talk-filters:austro b1ff brooklyn chef cockney drawl dubya fudd funetak jethro jive kraut pansy pirate postmodern redneck valspeak warez wrap
 talloc:
+tarsnap:tarsnap tarsnap-keygen tarsnap-keymgmt tarsnap-keyregen tarsnap-recrypt
+task-spooler:ts
 task:task
+taskd:taskd taskdctl
 tbb:
+tcc:tcc tiny_libmaker
 tcl-tk:dtplite nns nnsd nnslog page pt tcldocstrip tclsh tclsh8.6 wish wish8.6
+tclap:
+tcpflow:tcpflow
 tcping:tcping
 tcpreplay:tcpbridge tcpcapinfo tcpprep tcpreplay tcpreplay-edit tcprewrite
+tcpsplit:tcpsplit
+tcptrace:tcptrace
+tcptraceroute:tcptraceroute
+tcptrack:tcptrack
+tcptunnel:tcptunnel
+tcsh:tcsh
 teapot:teapot
+tee-clc:tf
+teem:gprobe ilk miter mrender nrrdSanity overrgb puller tend unu vprobe
+teensy_loader_cli:teensy_loader_cli
+tegh:tegh
+telepathy-gabble:
 telepathy-glib:
+telepathy-idle:
+telepathy-mission-control:mc-tool mc-wait-for-name
+tenyr:tas tld tsim
+term:term
 terminal-notifier:terminal-notifier
+termrec:proxyrec termcat termplay termrec termtime
+termshare:termshare
 terraform:terraform terraform-provider-atlas terraform-provider-aws terraform-provider-cloudflare terraform-provider-cloudstack terraform-provider-consul terraform-provider-digitalocean terraform-provider-dnsimple terraform-provider-google terraform-provider-heroku terraform-provider-mailgun terraform-provider-null terraform-provisioner-file terraform-provisioner-local-exec terraform-provisioner-remote-exec
 tesseract:ambiguous_words classifier_tester cntraining combine_tessdata dawg2wordlist mftraining shapeclustering tesseract unicharset_extractor wordlist2dawg
+testdisk:fidentify photorec testdisk
+tevent:
+texapp:texapp
 texi2html:texi2html
 texinfo:info infokey install-info makeinfo pdftexi2dvi pod2texi texi2any texi2dvi texi2pdf texindex
+texwrapper:texwrapper
 thc-pptp-bruter:thc-pptp-bruter
 the_platinum_searcher:pt
 the_silver_searcher:ag
+theharvester:theharvester
 theora:
 thrift:thrift
+thrulay:thrulay thrulayd
 ticcutils:
 tidyp:tidyp
 tiff2png:tiff2png
 tig:tig
+tika:tika tika-rest-server
 timbl:timbl
+timedog:timedog
+timelimit:timelimit
 timidity:timidity
 tinc:tincd
+tintin:tt++
+tiny-fugue:tf
+tinycdb:cdb
+tinyproxy:tinyproxy
+tinyscheme:scheme
 tinysvm:svm_classify svm_learn svm_model
+tinyxml2:
 tinyxml:
 tippecanoe:tippecanoe
+titan-server:titan titan-rexster-console
+tivodecode:tdcat tivodecode
+tkdiff:tkdiff
+tlassemble:tlassemble
+tlsdate:tlsdate tlsdate-helper
+tmpreaper:tmpreaper
 tmpwatch:tmpwatch
+tmux-cssh:tmux-cssh
 tmux-mem-cpu-load:tmux-mem-cpu-load
 tmux:tmux
+tn5250:5250keys lp5250d scs2ascii scs2pdf scs2ps tn5250 xt5250
+tnef:tnef
 tnote:tnote
+todo-txt:todo.sh
 tofrodos:fromdos todos
+toilet:toilet
 tokyo-cabinet:tcamgr tcamttest tcatest tcbmgr tcbmttest tcbtest tcfmgr tcfmttest tcftest tchmgr tchmttest tchtest tctmgr tctmttest tcttest tcucodec tcumttest tcutest
+tokyo-dystopia:dystmgr dysttest lapumgr laputest tcqmgr tcqtest tcwmgr tcwtest
+tokyo-tyrant:tcrmgr tcrmttest tcrtest ttserver ttulmgr ttultest ttservctl
 tomcat-native:
 tomcat:catalina
+tomee-jax-rs:tomee-jax-rs-startup
+tomee-plume:tomee-plume-startup
+tomee-plus:tomee-plus-startup
+tomee-webprofile:tomee-webprofile-startup
 topgit:tg
 tor:tor tor-gencert tor-resolve torify
+torrentcheck:torrentcheck
 torsocks:torsocks
+tpl:
 tpp:tpp
+tracebox:
+tractorgen:tractorgen
 trafficserver:traffic_cop traffic_line traffic_logcat traffic_logstats traffic_manager traffic_sac traffic_server traffic_top trafficserver tspush tstop tsxs
 trafshow:trafshow
+trang:trang
+transcrypt:transcrypt
 translate-toolkit:build_firefox.sh build_tmdb buildxpi.py csv2po csv2tbx get_moz_enUS.py html2po ical2po ini2po json2po junitmsgfmt moz2po odf2xliff oo2po oo2xliff php2po po2csv po2html po2ical po2ini po2json po2moz po2oo po2php po2prop po2rc po2sub po2symb po2tiki po2tmx po2ts po2txt po2web2py po2wordfast po2xliff poclean pocommentclean pocompendium pocompile poconflicts pocount podebug pofilter pogrep pomerge pomigrate2 popuretext poreencode porestructure posegment posplit poswap pot2po poterminology pretranslate prop2po rc2po sub2po symb2po tiki2po tmserver ts2po txt2po web2py2po xliff2odf xliff2oo xliff2po
+transmission:
+trash:trash
 tre:agrep
 tree:tree
+treecc:treecc
+treeline:treeline
+truecrack:truecrack
+tsung:tsplot tsung tsung-recorder
+tta:tta
+ttf2eot:ttf2eot
+ttf2pt1:ttf2pt1
 ttfautohint:ttfautohint
 tth:latex2gif ps2gif ps2png tth
+tty-clock:tty-clock
 ttyrec:ttyplay ttyrec ttytime
+tup:tup
 tutum:tutum
 two-lame:twolame
 txt2man:bookman src2man txt2man
 txt2tags:txt2tags
 typesafe-activator:activator
+typespeed:typespeed
 u-boot-tools:mkimage
+uade:mod2ogg2.sh uade123
+ucl:
 ucommon:args car commoncpp-config keywait mdsum pdetach scrub-files sockaddr ucommon-config zerofill
 ucspi-tcp:addcr argv0 date@ delcr finger@ fixcrio http@ mconnect mconnect-io rblsmtpd recordio tcpcat tcpclient tcprules tcprulescheck tcpserver who@
 ucspi-tools:socks tlsc
+udns:dnsget rblcheck
+udptunnel:udptunnel
+udpxy:udpxrec udpxy
+udunits:udunits2
 ufraw:ufraw-batch
 unac:unaccent
 unar:lsar unar
@@ -2426,7 +2690,9 @@ unittest-cpp:
 unixodbc:dltest isql iusql odbc_config odbcinst slencheck
 unrar:unrar
 up:up
+upx:upx
 uriparser:uriparse
+urlview:urlview
 uru:uru_rt
 usbmuxd:iproxy
 userspace-rcu:
@@ -2436,6 +2702,8 @@ v8:d8 lineprocessor mksnapshot process v8
 vala:vala vala-0.26 vala-gen-introspect vala-gen-introspect-0.26 valac valac-0.26 vapicheck vapicheck-0.26 vapigen vapigen-0.26
 valabind:valabind valabind-cc
 vavrdiasm:vavrdisasm
+vcodex:vcformat vczip
+vcprompt:vcprompt
 vcsh:vcsh
 vde:dpipe slirpvde unixcmd unixterm vde_autolink vde_cryptcab vde_l3 vde_over_ns vde_pcapplug vde_plug vde_plug2tap vde_switch vdecmd vdekvm vdeq vdeqemu vdeterm wirefilter
 vegeta:vegeta
@@ -2446,20 +2714,36 @@ vf:
 vifm:vifm vifm-pause vifmrc-converter
 vilistextum:vilistextum
 vim:ex rview rvim view vim vimdiff vimtutor xxd
+vimpager:vimcat vimpager
 vip:vip
 virtualhost.sh:virtualhost.sh
 visionmedia-watch:watch
 vit:
 vitetris:tetris
+vmalloc:
+vnstat:vnstat vnstatd vnstati
+vnu:vnu
+vobcopy:vobcopy
 volatility:vol.py
 voldemort:rebalance-cluster-expansion.sh rebalance-new-zoned-cluster.sh rebalance-shuffle.sh rebalance-zone-expansion.sh rebalance-zone-shrinkage.sh repeat-junit-test.sh repeat-junit.sh run-class.sh vadmin.sh voldemort-admin-tool.sh voldemort-convert-bdb.sh voldemort-coordinator-admin.sh voldemort-coordinator.sh voldemort-performance-tool.sh voldemort-prod-server.sh voldemort-scala-shell.sh voldemort-server.sh voldemort-shell.sh voldemort-stop.sh voldemort-thin-client-shell.sh
 vowpal-wabbit:active_interactor library_example spanning_tree vw
 vpcs:vpcs
 vrpn:client_and_server forward last_of_sequence sample_analog sample_server test_analogfly test_auxiliary_logger test_freespace test_logging test_loopback test_mutexServer test_peerMutex test_radamec_spi test_rumble test_vrpn testimager_server testSharedObjectServer textServer vrpn_HID_device_watcher vrpn_server
+vte3:vte2_90
+vte:vte
+vttest:vttest
+w-calc:wcalc
+w3m:w3m w3mman
+wait_on:wait_on
 wakatime-cli:wakatime
+wakeonlan:wakeonlan
+waon:waon
 watch:watch
 watchman:watchman
+wavpack:wavpack wvgain wvunpack
+wbox:wbox
 wdiff:mdiff unify wdiff wdiff2
+web100clt:
 webkit2png:webkit2png
 webp:cwebp dwebp vwebp webpmux
 webradioscrobbler:webradioscrobbler
@@ -2467,6 +2751,7 @@ weechat:weechat weechat-curses
 weighttp:weighttp
 wellington:wt
 wget:wget
+wgetpaste:wgetpaste
 when:when
 whereami:whereami
 why3:why3
@@ -2506,6 +2791,7 @@ xmp:xmp
 xplanet:xplanet
 xplanetfx:xplanetFX
 xrootd:cconfig cmsd cns_ssi frm_admin frm_purged frm_xfragent frm_xfrd mpxstats wait41 xprep xrd xrdadler32 XrdCnsd xrdcopy xrdcp xrdcp-old xrdfs xrdgsiproxy xrdmapc xrdpwdadmin xrdsssadmin xrdstagetool xrootd xrootd-config
+xsane:xsane
 xsw:xsw xsw2jpeg xsw2pdf xsw2png xswconv
 xtail:xtail
 xtitle:xtitle
@@ -2521,25 +2807,47 @@ yash:yash
 yasm:vsyasm yasm ytasm
 yaws:yaws
 yaz:yaz-asncomp yaz-client yaz-config yaz-iconv yaz-icu yaz-illclient yaz-json-parse yaz-marcdump yaz-url yaz-ztest zoomsh
+yaze-ag:cdm cpm yaze yaze_bin z80
 yazpp:yazpp-config
+yconalyzer:yconalyzer
+ydict:ydict ydict.py
+yeti:yeti
 ykclient:ykclient
 ykpers:ykchalresp ykinfo ykpersonalize
 yle-dl:yle-dl
 youtube-dl:youtube-dl
 yubico-piv-tool:yubico-piv-tool
 yuicompressor:yuicompressor
+yydecode:yydecode
+z80asm:z80asm
+z80dasm:z80dasm
 z:
 zabbix:zabbix_get zabbix_sender zabbix_agent zabbix_agentd zabbix_proxy zabbix_server
 zbackup:zbackup
+zbar:zbarimg
+zdelta:zdc zdu
+zebra:idzebra-abs2dom idzebra-config-2.0 zebraidx zebraidx-2.0 zebrasrv zebrasrv-2.0
 zenity:gdialog zenity
 zeromq:curve_keygen
+zile:zile
+zinc:zinc
+zint:zint zint-qt
 zlib:
+zmap:zmap
 znc:znc znc-buildmod
 zookeeper:cli_mt cli_st load_gen zkCleanup zkCli zkServer
+zopfli:zopfli
 zorba:testdriver xqdb zorba
+zpaq:zpaq
+zpython:
+zsh-completions:
+zsh-history-substring-search:
+zsh-lovers:
+zsh-syntax-highlighting:
 zsh:zsh zsh-5.0.7
 zshdb:zshdb
 zssh:zssh ztelnet
 zsync:zsync zsyncmake
 zurl:zurl
+zxcc:zxas zxc zxcc zxlibr zxlink
 zzuf:zzcat zzuf
