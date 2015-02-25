@@ -820,6 +820,7 @@ git-cola:cola git-cola git-dag
 git-crypt:git-crypt
 git-encrypt:gitcrypt
 git-extras:git-alias git-archive-file git-back git-bug git-changelog git-commits-since git-contrib git-count git-create-branch git-delete-branch git-delete-merged-branches git-delete-submodule git-delete-tag git-effort git-extras git-feature git-fork git-fresh-branch git-gh-pages git-graft git-ignore git-info git-line-summary git-local-commits git-lock git-locked git-missing git-obliterate git-pr git-pull-request git-rebase-patch git-refactor git-release git-rename-tag git-repl git-reset-file git-root git-setup git-show-tree git-squash git-summary git-touch git-undo git-unlock
+git-fixup:
 git-flow-avh:git-flow
 git-flow-clone:git-flow-clone
 git-flow:git-flow
@@ -1042,6 +1043,7 @@ hyperspec:
 i2util:aespasswd pfstore
 iat:iat
 ical-buddy:icalBuddy
+icarus-verilog:iverilog iverilog-vpi vvp
 icbirc:icbirc
 icdiff:git-icdiff icdiff
 icecast:icecast
@@ -1060,95 +1062,195 @@ idnits:idnits
 idris:idris idris-c idris-javascript idris-node
 ievms:ievms
 ifstat:ifstat
-iftop:
+iftop:iftop
+ifuse:ifuse
 ike-scan:ike-scan psk-crack
 ilmbase:
 imagejs:imagejs
 imagemagick:animate compare composite conjure convert display identify import Magick++-config Magick-config MagickCore-config MagickWand-config mogrify montage stream Wand-config
+imagesnap:imagesnap
+imageworsener:imagew
 imap-uw:dmail mailutil tmail imapd ipop2d ipop3d
 imapfilter:imapfilter
 imapsync:imapsync
 imlib2:imlib2-config imlib2_bumpmap imlib2_colorspace imlib2_conv imlib2_grab imlib2_poly imlib2_show imlib2_test imlib2_view
 influxdb:influxdb
 iniparser:
+innoextract:innoextract
+innotop:innotop
 inspircd:inspircd
+intercal:convickt ick
 internetarchive:ia
 intltool:intltool-extract intltool-merge intltool-prepare intltool-update intltoolize
+iodine:iodine iodined
 iojs:iojs node
+ioke:dokgen ioke ispec
+ioping:ioping
+ios-class-guard:ios-class-guard
 ios-sim:ios-sim
 ios-webkit-debug-proxy:ios_webkit_debug_proxy
 iozone:iozone
+ip_relay:ip_relay
 ipbt:ipbt
+ipcalc:ipcalc
 ipe:ipe ipe6upgrade ipeextract iperender ipescript ipetoipe ipeview
 iperf3:iperf3
+iperf:iperf
+iphotoexport:iphotoexport
+ipinfo:ipinfo ipmatch
+ipmitool:ipmitool ipmievd
 ipmiutil:idiscover ievents ipmiutil ialarms icmd iconfig ifirewall ifru ifwum igetevent ihealth ihpm ilan ipicmg ipmi_port ireset isel iseltime isensor iserial isol iwdt
+iprint:i
 ipsumdump:ipaggcreate ipaggmanip ipsumdump
+ipv6calc:ipv6calc ipv6loganon ipv6logconv ipv6logstats
+ipv6toolkit:addr6 flow6 frag6 icmp6 jumbo6 na6 ni6 ns6 ra6 rd6 rs6 scan6 tcp6
 ircd-hybrid:ircd mkpasswd respond
 ircii:irc irc-20141122 ircbug ircflush
 irrlicht:
 irrtoolset:peval rpslcheck rtconfig
 irssi:botti irssi
+isc-dhcp:omshell dhclient dhcpd dhcrelay
 isl011:
 isl:
+iso-codes:
+ispc:ispc
+ispell:buildhash defmt-c defmt-sh findaffix icombine ijoin ispell munchlist tryaffix
+isync:get-cert isync mbsync mdconvert
+itex2mml:itex2MML
 itpp:itpp-config
 itstool:itstool
+ivy:ivy
 iwc:iwc
 jack:jack_alias jack_bufsize jack_connect jack_disconnect jack_evmon jack_freewheel jack_impulse_grabber jack_iodelay jack_latent_client jack_load jack_load_test jack_lsp jack_metro jack_midi_dump jack_midiseq jack_midisine jack_monitor_client jack_netsource jack_property jack_samplerate jack_server_control jack_session_notify jack_showtime jack_simple_client jack_simple_session_client jack_transport_client jack_unload jack_wait jackd
 jags:jags
+jailkit:jk_uchroot jk_addjailuser jk_check jk_chrootlaunch jk_chrootsh jk_cp jk_init jk_jailuser jk_list jk_lsh jk_procmailwrapper jk_socketd jk_update
 jam:jam mkjambase
 jansson:
 jasmin:jasmin
 jasper:imgcmp imginfo jasper tmrdemo
+javarepl:javarepl
+jbake:jbake
 jbig2dec:jbig2dec
+jbig2enc:jbig2 pdf.py
+jbigkit:jbgtopbm jbgtopbm85 pbmtojbg pbmtojbg85
+jboss-as:
+jboss-forge:forge
+jcal:jcal jdate
+jed:jed jed-script
 jemalloc:jemalloc-pprof jemalloc.sh
+jena:arq infer iri juuid nquads ntriples qparse rdfcat rdfcompare rdfcopy rdfparse rdfxml riot rset rsparql rupdate schemagen sparql tdbbackup tdbdump tdbloader tdbloader2 tdbloader2worker tdbquery tdbstats tdbupdate trig turtle uparse update utf8 wwwdec wwwenc
+jenkins:jenkins jenkins-cli
+jenv:jenv
+jerm:jerm tiocdtr
+jetty-runner:jetty-runner
+jetty:jetty
+jhead:jhead
+jhiccup:jHiccup jHiccupPlotter
 jigdo:jigdo jigdo-file jigdo-lite jigdo-mirror
+jing:jing
+jless:jless jlessecho jlesskey
+jmeter:jmeter
+jmxtrans:jmxtrans
+jnettop:jnettop
+joe:jmacs joe jpico jstar rjoe termidx
 john-jumbo:john
+john:john
+jove:jove teachjove
 jp2a:jp2a
 jpeg-turbo:cjpeg djpeg jpegtran rdjpgcom tjbench wrjpgcom
 jpeg:cjpeg djpeg jpegtran rdjpgcom wrjpgcom
+jpeginfo:jpeginfo
 jpegoptim:jpegoptim
 jq:jq
 jrnl:jrnl
+jruby:jast jgem jirb jirb_swing jrake jrdoc jri jruby jruby.bash jruby.sh jrubyc jtestrb
+js-test-driver:js-test-driver
+jsawk:jsawk
 jscoverage:jscoverage jscoverage-server
 jsdoc3:jsdoc
+jshon:jshon
 jslint4java:jslint4java
+jsmin:jsmin
 json-c:
 json-glib:json-glib-format json-glib-validate
+json_spirit:
 jsoncpp:
 jsonpp:jsonpp
+jsvc:jsvc
+judy:
+juise:juise juise-config
 juju-quickstart:juju-quickstart
 juju:juju juju-metadata
 julius:accept_check.dSYM adinrec.dSYM adintool.dSYM dfa_determinize.dSYM dfa_minimize.dSYM generate-ngram.dSYM generate.dSYM gram2sapixml.pl jclient.pl jcontrol.dSYM julius.dSYM libjulius-config libsent-config mkbingram.dSYM mkbinhmm.dSYM mkbinhmmlist.dSYM mkgshmm mkss.dSYM nextword.dSYM yomi2voca.pl
 juman:juman
+jvmtop:jvmtop
+jython:jython
+kafka:kafka-console-consumer.sh kafka-console-producer.sh kafka-consumer-offset-checker.sh kafka-consumer-perf-test.sh kafka-mirror-maker.sh kafka-preferred-replica-election.sh kafka-producer-perf-test.sh kafka-reassign-partitions.sh kafka-replay-log-producer.sh kafka-replica-verification.sh kafka-run-class.sh kafka-server-start.sh kafka-server-stop.sh kafka-simple-consumer-shell.sh kafka-topics.sh windows zookeeper-server-start.sh zookeeper-server-stop.sh zookeeper-shell.sh
 kakasi:atoc_conv kakasi kakasi-config mkkanwa rdic_conv wx2_conv
+kawa:kawa
+kdiff3:kdiff3
 keepassc:keepassc keepassc-agent keepassc-server
 kes:es
+kestrel:kestrel
+kettle:pdicarte pdikitchen pdipan
+keybase:keybase
+keychain:keychain
+kimwitu++:kc++
+kite:build_kdocs ikt kdb kite
+kjell:kjell
 knock:knock knockd
+knot:kdig khost knsec3hash knsupdate knotc knotd
+known_hosts:known_hosts
+konoha:konoha minikonoha
 kore:kore
+kqwait:kqwait
+ksh:ksh ksh93
 ktoblzcheck:ktoblzcheck
 kubernetes-cli:kubecfg kubectl kubernetes
 kvazaar:kvazaar
+kyoto-cabinet:kccachetest kcdirmgr kcdirtest kcforestmgr kcforesttest kcgrasstest kchashmgr kchashtest kclangctest kcpolymgr kcpolytest kcprototest kcstashtest kctreemgr kctreetest kcutilmgr kcutiltest
+kyoto-tycoon:ktremotemgr ktremotetest ktserver kttimedmgr kttimedtest ktutilmgr ktutilserv ktutiltest
 kytea:api-example kytea train-kytea
 kyua:kyua
+l-smash:boxdumper muxer remuxer timelineeditor
 lablgtk:gdk_pixbuf_mlsource lablgtk2
 lame:lame
+languagetool:languagetool languagetool-gui languagetool-server
+lasi:
+lastfmfpclient:lastfmfpclient
 lastfmlib:
 lastpass-cli:lpass
+laszip:laszip-config laszippertest
+latex-mk:ieee-copyout latex-mk
+latex2html:latex2html pstoimg texexpand
+latex2rtf:latex2png latex2rtf
+launch4j:launch4j
 launchdns:launchdns
+lbdb:lbdb-fetchaddr lbdb_dotlock lbdbq nodelist2lbdb
+lbzip2:lbunzip2 lbzcat lbzip2
 lcab:lcab
+lcdproc:fortune.pl iosock.pl lcdexec lcdident.pl lcdmetar.pl lcdproc lcdvc tail.pl x11amp.pl LCDd
+lci:lci
 lcov:gendesc genhtml geninfo genpng lcov
+lcrack:lcrack
 ldapvi:ldapvi
 ldc:ldc2 ldmd2
 ldns:drill ldns-config
+leafnode:leafnode-version newsq applyfilter checkgroups fetchnews leafnode texpire
 ledger:ledger
 ledit:ledit
+legit:legit
 leiningen:lein
+lemon:lemon
 lensfun:g-lensfun-update-data lensfun-add-adapter lensfun-update-data
 leptonica:convertfilestopdf convertfilestops convertformat convertsegfilestopdf convertsegfilestops converttopdf converttops fileinfo printimage printsplitimage printtiff splitimage2pdf xtractprotos
+lesspipe:code2color lesspipe.sh sxw2txt tarcolor
 lesstif:motif-config mwm mxmkmf uil xmbind
 leveldb:leveldbutil
 lfe:lfe lfe-first-try lfe-test lfec lfescript
+lft:lft whob
 lftp:lftp lftpget
+lha:lha
 lib3ds:3dsdump lib3ds-config
 libaacs:aacs_info
 libagg:
@@ -1169,6 +1271,7 @@ libbs2b:bs2bconvert bs2bstream
 libbson:
 libbtbb:btaptap
 libcaca:caca-config cacaclock cacademo cacafire cacaplay cacaserver cacaview img2txt
+libcanberra:
 libcapn:
 libcddb:cddb_query
 libcdio:cd-drive cd-info cd-read cdda-player iso-info iso-read mmc-tool
@@ -1183,6 +1286,7 @@ libcroco:croco-0.6-config csslint-0.6
 libcsv:
 libcue:
 libcuefile:
+libdaemon:
 libdap:dap-config dap-config-pkgconfig getdap
 libdc1394:
 libdca:dcadec dtsdec extract_dca extract_dts
@@ -1303,6 +1407,7 @@ libnids:
 libntlm:
 libnxml:
 liboauth:
+libodbc++:
 libodfgen:
 libofx:ofx2qif ofxdump
 libogg:
@@ -1310,6 +1415,7 @@ liboil:oil-bugreport
 libopendkim:opendkim-genkey opendkim-genzone opendkim-testadsp opendkim-testkey opendkim-testmsg
 libopennet:
 liboping:noping oping
+libopkele:
 libosip:
 libotr:otr_mackey otr_modify otr_parse otr_readforge otr_remac otr_sesskeys
 libowfat:
@@ -1324,6 +1430,7 @@ libpoker-eval:
 libpqxx:pqxx-config
 libpst:lspst nick2ldif pst2ldif readpst
 libpuzzle:puzzle-diff
+libqalculate:qalc
 libqglviewer:
 libquicktime:lqt_transcode lqtremux qt2text qtdechunk qtdump qtinfo qtrechunk qtstreamize qtyuv4toyuv
 libquvi:
@@ -1377,6 +1484,7 @@ libtomcrypt:
 libtommath:
 libtool:glibtool glibtoolize
 libtorrent-rasterbar:
+libtorrent:
 libtrace:traceanon traceconvert tracediff traceends tracefilter tracemerge tracepktdump tracereplay tracereport tracertstats tracesplit tracesplit_dir tracestats tracesummary tracetop tracetopends wandiocat
 libunistring:
 libunwind-headers:
@@ -1414,10 +1522,17 @@ libyaml:
 libyubikey:modhex ykgenerate ykparse
 libzdb:
 libzip:zipcmp zipmerge ziptorrent
+lifelines:btedit dbverify llexec llines
 lightning:
 lighttpd:lighttpd lighttpd-angel
+lilv:lilv-bench lv2info lv2ls
 lilypond:abc2ly convert-ly etf2ly guile guile-config guile-snarf guile-tools lilymidi lilypond lilypond-book lilypond-invoke-editor lilysong midi2ly musicxml2ly
+link-grammar:link-parser
+linklint:linklint
 links:links
+liquibase:liquibase
+liquidprompt:
+litmus:litmus
 little-cms2:jpgicc linkicc psicc tificc transicc
 little-cms:icc2ps icclink icctrans jpegicc tiffdiff tifficc wtpt
 lldpd:lldpcli lldpctl lldpd
@@ -1426,15 +1541,25 @@ llvm:bugpoint count FileCheck llc lli lli-child-target llvm-ar llvm-as llvm-bcan
 lmdb:mdb_copy mdb_dump mdb_load mdb_stat
 lnav:lnav
 lockrun:lockrun
+log4c:log4c-config
+log4cplus:
+log4cpp:log4cpp-config
+log4cxx:
 log4shib:log4shib-config
 logcheck:logcheck-test logcheck logtail logtail2
 logrotate:logrotate
+logstalgia:logstalgia
 logstash:logstash
 logtalk:bplgt cxlgt eclipselgt gplgt lgt2html lgt2md lgt2pdf lgt2txt lgt2xml logtalk_backend_select logtalk_tester logtalk_user_setup logtalk_version_select lplgt qplgt quintuslgt sicstuslgt swilgt xsblgt xsbmtlgt yaplgt
 lolcode:lci
+lorem:lorem
 loudmouth:
 lout:lout prg2lout
+lpc21isp:lpc21isp
+lrdf:
+lrzip:lrunzip lrzcat lrzip lrztar lrzuntar
 lrzsz:lrb lrx lrz lsb lsx lsz rz sz
+lsdvd:lsdvd
 lsh:lcp lsftp lsh lsh-authorize lsh-decode-key lsh-decrypt-key lsh-export-key lsh-keygen lsh-make-seed lsh-upgrade lsh-upgrade-key lsh-writekey lshg srp-gen ssh-conv lsh-execuv lsh-pam-checkpw lshd sftp-server
 lsyncd:lsyncd
 ltl2ba:ltl2ba
@@ -1442,125 +1567,276 @@ lua51:lua-5.1 lua5.1 luac-5.1 luac5.1
 lua:lua lua-5.2 lua5.2 luac luac-5.2 luac5.2
 luabind:
 luajit:luajit luajit-2.0.3
+luarocks:luarocks luarocks-5.2 luarocks-admin luarocks-admin-5.2
+luciddb:lucidDbServer sqllineClient sqllineEngine
 lutok:
+luvit:luvit
 lv2:lv2specgen.py
+lwtools:lwar lwasm lwlink lwobjdump
+lxsplit:lxsplit
+lynis:lynis
+lynx:lynx
 lz4:lz4 lz4c lz4cat
 lzip:lzip
 lzlib:
 lzo:
+lzop:lzop
+mac-robber:mac-robber
 mackup:mackup
 macvim:gview gvim gvimdiff gvimex mview mvim mvimdiff mvimex
 mad:
+madplay:abxtest madplay
 magit:
+mahout:mahout
+mailcheck:mailcheck
+mailutils:dotlock frm from mail mailutils-config messages mimeview movemail readmsg sieve comsatd imap4d maidag pop3d
+mairix:mairix
 makedepend:makedepend
 makefile2graph:make2graph makefile2graph
+makeicns:makeicns
+makensis:makensis
+makepp:makepp makepp_build_cache_control makeppbuiltin makeppclean makeppgraph makeppinfo makepplog makeppreplay mpp mppb mppbcc mppc mppg mppi mppl mppr
+makeself:makeself
+mal4s:mal4s
 malaga:malaga mallex malmake malrul malsym
+malbolge:malbolge
+man2html:man2html
+mapnik:mapnik-config mapnik-speed-check shapeindex upgrade_map_xml.py
+marst:macvt marst
+masscan:masscan
 mat:mat mat-gui
+matlab2tikz:
 matplotlib:
+maven-shell:mvnsh
 maven:mvn mvnDebug mvnyjp
 mawk:mawk
 mbelib:
+mboxgrep:mboxgrep
+mcabber:mcabber
+mcpp:mcpp
 mcrypt:libmcrypt-config mcrypt mdecrypt
 md5deep:hashdeep md5deep sha1deep sha256deep tigerdeep whirlpooldeep
 md5sha1sum:md5sum ripemd160sum sha1sum
+mda-lv2:
+mdbtools:mdb-array mdb-export mdb-header mdb-hexdump mdb-parsecsv mdb-prop mdb-schema mdb-sql mdb-tables mdb-ver
+mdf2iso:mdf2iso
 mdk:gmixvm mixasm mixguile mixvm
 mdp:mdp
 mdr:mdr
+mdxmini:mdxplay
 mecab-ipadic:
+mecab-jumandic:
+mecab-ko-dic:
+mecab-ko:mecab mecab-config
+mecab-unidic:
 mecab:mecab mecab-config
 media-info:mediainfo
+megacmd:megacmd
 megatools:megadf megadl megaget megals megamkdir megamv megaput megareg megarm megasync
 meld:meld
+memcache-top:memcache-top
 memcached:memcached
+memcacheq:memcacheq
 memo:memo
+memtester:memtester
 menhir:menhir
 mercurial:hg
+mercury:c2init canonical_grade info_to_mdb mcov mdb mdb.bat mdemangle mdice mdprof mdprof_cgi mdprof_create_feedback mdprof_dump mdprof_report_feedback mdprof_test mercury.bat mercury_compile mercury_config mercury_profile mercury_update_interface mfiltercc mfilterjavac mgnuc mkfifo_using_mknod mkinit mkinit_erl ml mmake mmc mprof mprof.bat mprof_merge_runs mslice mtags mtc mtc_diff mtc_union prepare_install_dir vpath_find
+mergelog:mergelog zmergelog
+mesos:mesos mesos-cat mesos-execute mesos-local mesos-log mesos-ps mesos-resolve mesos-scp mesos-tail mesos-daemon.sh mesos-master mesos-slave mesos-start-cluster.sh mesos-start-masters.sh mesos-start-slaves.sh mesos-stop-cluster.sh mesos-stop-masters.sh mesos-stop-slaves.sh
 metaproxy:metaproxy metaproxy-config
 metashell:clang_metashell metashell
+mfcuk:mfcuk
+mfoc:mfoc
 mftrace:gf2pbm mftrace
+mg:mg
 mhash:
+midgard2:midgard2-query midgard2-schema
+midicsv:csvmidi midicsv
+midnight-commander:mc mcdiff mcedit mcview
+mighttpd2:mighty mighty-mkindex mightyctl
+mimms:mimms
+minbif:minbif
+minicom:ascii-xfr minicom runscript xminicom
+minidjvu:minidjvu
+minidlna:minidlnad
+minimodem:minimodem
+minisat:minisat
 miniupnpc:external-ip upnpc
+minizinc:flatzinc fzn2xcsp fzn2xml fzn_cpx minizinc mzn-g12cpx mzn-g12fd mzn-g12lazy mzn-g12mip mzn-g12sat mzn2fzn solns2dzn solns2out xml2fzn
+minizip:
 minuit2:
+miredo:teredo-mire miredo miredo-checkconf miredo-server
 mitie:ner_example ner_stream relation_extraction_example
 mitmproxy:mitmdump mitmproxy
+mjpegtools:anytovcd.sh jpeg2yuv lav2avi.sh lav2mpeg lav2wav lav2yuv lavaddwav lavinfo lavpipe lavtc.sh lavtrans matteblend.flt mjpeg_simd_helper mp2enc mpeg2enc mpegtranscode mplex multiblend.flt pgmtoy4m pnmtoy4m ppmtoy4m transist.flt y4mblack y4mcolorbars y4mdenoise y4mhist y4minterlace y4mivtc y4mscaler y4mshift y4mspatialfilter y4mstabilizer y4mtopnm y4mtoppm y4mtoyuv y4munsharp ypipe yuv2lav yuv4mpeg yuvcorrect yuvcorrect_tune yuvdeinterlace yuvdenoise yuvfps yuvinactive yuvkineco yuvmedianfilter yuvscaler yuvycsnoise yuyvtoy4m
+mkclean:mkclean mkcleanreg mkWDclean
 mkcue:mkcue
+mksh:mksh
+mktorrent:mktorrent
+mkvalidator:mkvalidator
+mkvdts2ac3:mkvdts2ac3
 mkvtoolnix:mkvextract mkvinfo mkvmerge mkvpropedit
+mlt:melt
+mm-common:mm-common-prepare
+mmix:mmix mmixal mmmix mmotype
+mmsrip:mmsrip
+mmv:mad mcp mln mmv
+mobile-shell:mosh mosh-client mosh-server
 moc:mocp
+moco:moco
+modman:modman
+modules:
+mogenerator:mogenerator
+mon:mon
 monetdb:mclient monetdb monetdbd mserver5 msqldump stethoscope tomograph
 mongo-c:mongoc-stat
 mongodb:bsondump mongo mongod mongodump mongoexport mongofiles mongoimport mongooplog mongoperf mongorestore mongos mongosniff mongostat mongotop
+mongoose:mongoose
+mongrel2:m2sh mongrel2 procer
+mongroup:mongroup
 monit:monit
+monkeysphere:monkeysphere openpgp2pem openpgp2spki openpgp2ssh pem2openpgp monkeysphere-authentication monkeysphere-host
 mono:al al2 caspol cccheck ccrewrite cert-sync cert2spc certmgr chktrust crlupdate csharp disco dmcs dtd2rng dtd2xsd gacutil gacutil2 genxs gmcs httpcfg ikdasm ilasm installvst lc macpack makecert mconfig mcs mdassembler mdbrebase mdoc mdoc-assemble mdoc-export-html mdoc-export-msxdoc mdoc-update mdoc-validate mdvalidater mkbundle mod mono mono-api-info mono-boehm mono-cil-strip mono-configuration-crypto mono-find-provides mono-find-requires mono-heapviz mono-service mono-service2 mono-sgen mono-shlib-cop mono-test-install mono-xmltool monodis monodocer monodocs2html monodocs2slashdoc monograph monolinker monop monop2 mozroots mprof-report nunit-console nunit-console2 nunit-console4 pdb2mdb pedump permview peverify prj2make resgen resgen2 secutil setreg sgen signcode sn soapsuds sqlmetal sqlsharp svcutil wsdl wsdl2 xbuild xsd
 monotone:mtn mtn-cleanup mtnopt
+montage:mAdd mAddExec mArchiveExec mArchiveGet mArchiveList mBackground mBestImage mBgExec mBgModel mCatMap mConcatFit mConvert mCoverageCheck mDAG mDAGFiles mDAGGalacticPlane mDAGTbls mDiff mDiffExec mDiffFit mDiffFitExec mExamine mExec mExecTG mFitExec mFitplane mFixHdr mFixNaN mFlattenExec mGetHdr mGridExec mHdr mHdrCheck mHdrtbl mImgtbl mJPEG mMakeHdr mMakeImg mNotify mNotifyTG mOverlaps mPix2Coord mPresentation mProject mProjectPP mProjExec mPutHdr mQuickSearch mRotate mShrink mShrinkHdr mSubimage mSubset mTANHdr mTblExec mTblSort mTileHdr mTileImage
 moon-buggy:moon-buggy
 moreutils:chronic combine errno ifdata ifne isutf8 lckdo mispipe parallel pee sponge ts vidir vipe zrun
 mosquitto:mosquitto_passwd mosquitto_pub mosquitto_sub mosquitto
 most:most
+movgrab:movgrab
+mozilla-addon-sdk:cfx
 mozjpeg:cjpeg djpeg jpegtran rdjpgcom tjbench wrjpgcom
+mp3blaster:mp3blaster mp3tag nmixer splay
 mp3cat:mp3cat mp3dirclean mp3http mp3log mp3log-conf mp3stream-conf
 mp3check:mp3check
+mp3fs:mp3fs
+mp3gain:mp3gain
 mp3info:mp3info
 mp3splt:mp3splt
 mp3val:mp3val
+mp3wrap:mp3wrap
 mp4v2:mp4art mp4chaps mp4extract mp4file mp4info mp4subtitle mp4tags mp4track mp4trackdump
+mpack:mpack munpack
+mpck:mpck
 mpd:mpd
+mpdas:mpdas
+mpdscribble:mpdscribble
+mpdviz:mpdviz
+mpegdemux:mpegdemux
+mpfi:
 mpfr:
 mpg123:mpg123 mpg123-id3dump mpg123-strip out123
+mpg321:mpg321
+mpgtx:mpgcat mpgdemux mpginfo mpgjoin mpgsplit mpgtx tagmp3
 mpich2:hydra_nameserver hydra_persist hydra_pmi_proxy mpic++ mpicc mpichversion mpicxx mpiexec mpiexec.hydra mpif77 mpif90 mpifort mpirun mpivars parkill
 mplayer:mencoder mplayer
 mplayershell:mps
+mpop:mpop
 mpssh:mpssh
 mpw:mpw
 mr:mr webcheckout
+mrtg:cfgmaker indexmaker mrtg mrtg-traffic-sum rateup
 mruby:mirb mrbc mruby mruby-strip
+msdl:msdl
 msgpack:
+msitools:msibuild msidiff msidump msiextract msiinfo wixl wixl-heat
 msktutil:msktutil
 msmtp:msmtp
+mspdebug:mspdebug
 mtr:mtr
 mu:mu
 multimarkdown:mmd mmd2all mmd2odf mmd2opml mmd2pdf mmd2rtf mmd2tex multimarkdown
 multitail:multitail
+muparser:
 mupdf-tools:mudraw mujstest mutool
+musepack:mpc2sv8 mpcchap mpccut mpcdec mpcenc mpcgain wavcmp
+mussh:mussh
+mutt:flea mutt muttbug pgpewrap pgpring smime_keys
 mvb:mvb
+mvptree:
 myman:myman myman-0.7.1 myman.command
+mysql-connector-c++:
+mysql-connector-odbc:myodbc-installer
 mysql-proxy:mysql-binlog-dump mysql-myisam-dump mysql-proxy
 mysql-sandbox:deploy_to_remote_sandboxes.sh low_level_make_sandbox make_multiple_custom_sandbox make_multiple_sandbox make_replication_sandbox make_sandbox make_sandbox_from_installed make_sandbox_from_source msandbox msb sbtool test_sandbox
+mysql-search-replace:srdb
 mysql:innochecksum msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_client_test_embedded mysql_config mysql_config_editor mysql_convert_table_format mysql_embedded mysql_find_rows mysql_fix_extensions mysql_install_db mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysql_zap mysqladmin mysqlbinlog mysqlbug mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest mysqltest_embedded perror replace resolve_stack_dump resolveip
+mytop:mytop
 nacl:
 nagios-plugins:check_apt check_breeze check_by_ssh check_clamd check_cluster check_dhcp check_dig check_disk check_disk_smb check_dns check_dummy check_file_age check_flexlm check_ftp check_hpjd check_http check_icmp check_ifoperstatus check_ifstatus check_imap check_ircd check_jabber check_ldap check_ldaps check_load check_log check_mailq check_mrtg check_mrtgtraf check_nagios check_nntp check_nntps check_nt check_ntp check_ntp_peer check_ntp_time check_nwstat check_oracle check_overcr check_ping check_pop check_procs check_real check_rpc check_sensors check_simap check_smtp check_snmp check_spop check_ssh check_ssmtp check_tcp check_time check_udp check_ups check_users check_wave negate urlize utils.pm utils.sh
+nagios:nagios nagiostats
 nailgun:ng ng-server
+namazu:adnmz bnamazu gcnmz kwnmz lnnmz mailutime mknmz namazu nmz-config nmzcat nmzegrep nmzgrep nmzmerge rfnmz vfnmz
+namebench:namebench namebench.py
 nanomsg:nanocat nn_bus nn_pair nn_pub nn_pull nn_push nn_rep nn_req nn_respondent nn_sub nn_surveyor
+nanopb-generator:nanopb_generator protoc-gen-nanopb
+nant:nant
 nasm:ldrdf nasm ndisasm rdf2bin rdf2com rdf2ihx rdf2ith rdf2srec rdfdump rdflib rdx
+naturaldocs:NaturalDocs
+nave:nave
+nbimg:nbimg
+ncdc:ncdc
+ncdu:ncdu
+ncftp:ncftp ncftpbatch ncftpbookmarks ncftpget ncftpls ncftpput ncftpspooler
+ncmpc:ncmpc
 ncmpcpp:ncmpcpp
+ncp:ncp npoll npush
+ncrack:ncrack
 ncurses-2048:2048
+ndpi:ndpiReader
+neo4j:neo4j neo4j-shell
 neon:neon-config
+nesc:nescc nescc-mig nescc-ncg nescc-wiring
+net-snmp:agentxtrap encode_keychange fixproc ipf-mod.pl mib2c mib2c-update net-snmp-cert net-snmp-config net-snmp-create-v3-user snmp-bridge-mib snmpbulkget snmpbulkwalk snmpcheck snmpconf snmpdelta snmpdf snmpget snmpgetnext snmpinform snmpnetstat snmpset snmpstatus snmptable snmptest snmptranslate snmptrap snmpusm snmpvacm snmpwalk tkmib traptoemail snmpd snmptrapd
+net6:
+netcat6:nc6
 netcat:nc netcat
 netpbm:411toppm anytopnm asciitopgm atktopbm avstopam bioradtopgm bmptopnm bmptoppm brushtopbm cameratopam cistopbm cmuwmtopbm ddbugtopbm escp2topbm eyuvtoppm fiascotopnm fitstopnm fstopgm g3topbm gemtopbm gemtopnm giftopnm gouldtoppm hdifftopam hipstopgm hpcdtoppm icontopbm ilbmtoppm imgtoppm infotopam jbigtopnm jpeg2ktopam jpegtopnm leaftoppm lispmtopgm macptopbm manweb mdatopbm mgrtopbm mrftopbm mtvtoppm neotoppm palmtopnm pamaddnoise pamarith pambackground pambayer pamchannel pamcomp pamcrater pamcut pamdeinterlace pamdepth pamdice pamditherbw pamedge pamendian pamenlarge pamexec pamfile pamfix pamfixtrunc pamflip pamfunc pamgauss pamgradient pamlookup pammasksharpen pammixinterlace pammosaicknit pamoil pampaintspill pamperspective pampick pampop9 pamrecolor pamrgbatopng pamrubber pamscale pamseq pamshadedrelief pamsharpmap pamsharpness pamsistoaglyph pamslice pamsplit pamstack pamstereogram pamstretch pamstretch-gen pamsumm pamsummcol pamthreshold pamtilt pamtoavs pamtodjvurle pamtofits pamtogif pamtohdiff pamtohtmltbl pamtojpeg2k pamtompfont pamtooctaveimg pamtopam pamtopdbimg pamtopfm pamtopnm pamtosrf pamtosvg pamtotga pamtotiff pamtouil pamtowinicon pamtoxvmini pamundice pamvalidate pamwipeout pbmclean pbmlife pbmmake pbmmask pbmminkowski pbmpage pbmpscale pbmreduce pbmtext pbmtextps pbmto10x pbmto4425 pbmtoascii pbmtoatk pbmtobbnbg pbmtocis pbmtocmuwm pbmtodjvurle pbmtoepsi pbmtoepson pbmtoescp2 pbmtog3 pbmtogem pbmtogo pbmtoibm23xx pbmtoicon pbmtolj pbmtoln03 pbmtolps pbmtomacp pbmtomatrixorbital pbmtomda pbmtomgr pbmtomrf pbmtonokia pbmtopgm pbmtopi3 pbmtopk pbmtoplot pbmtoppa pbmtopsg3 pbmtoptx pbmtosunicon pbmtowbmp pbmtox10bm pbmtoxbm pbmtoybm pbmtozinc pbmupc pc1toppm pcdovtoppm pcxtoppm pdbimgtopam pfmtopam pgmabel pgmbentley pgmcrater pgmdeshadow pgmedge pgmenhance pgmhist pgmkernel pgmmake pgmmedian pgmminkowski pgmmorphconv pgmnoise pgmnorm pgmoil pgmramp pgmslice pgmtexture pgmtofs pgmtolispm pgmtopbm pgmtopgm pgmtoppm pi1toppm pi3topbm picttoppm pjtoppm pktopbm pngtopam pngtopnm pnmalias pnmarith pnmcat pnmcolormap pnmcomp pnmconvol pnmcrop pnmcut pnmdepth pnmenlarge pnmfile pnmflip pnmgamma pnmhisteq pnmhistmap pnmindex pnminterp pnminvert pnmmargin pnmmercator pnmmontage pnmnlfilt pnmnoraw pnmnorm pnmpad pnmpaste pnmpsnr pnmquant pnmquantall pnmremap pnmrotate pnmscale pnmscalefixed pnmshear pnmsmooth pnmsplit pnmstitch pnmtile pnmtoddif pnmtofiasco pnmtofits pnmtojbig pnmtojpeg pnmtopalm pnmtopclxl pnmtoplainpnm pnmtopng pnmtopnm pnmtops pnmtorast pnmtorle pnmtosgi pnmtosir pnmtotiff pnmtotiffcmyk pnmtoxwd ppm3d ppmbrighten ppmchange ppmcie ppmcolormask ppmcolors ppmdcfont ppmddumpfont ppmdim ppmdist ppmdither ppmdmkfont ppmdraw ppmfade ppmflash ppmforge ppmglobe ppmhist ppmlabel ppmmake ppmmix ppmnorm ppmntsc ppmpat ppmquant ppmquantall ppmrainbow ppmrelief ppmrough ppmshadow ppmshift ppmspread ppmtoacad ppmtoapplevol ppmtoarbtxt ppmtoascii ppmtobmp ppmtoeyuv ppmtogif ppmtoicr ppmtoilbm ppmtojpeg ppmtoleaf ppmtolj ppmtomap ppmtomitsu ppmtompeg ppmtoneo ppmtopcx ppmtopgm ppmtopi1 ppmtopict ppmtopj ppmtopjxl ppmtoppm ppmtopuzz ppmtorgb3 ppmtosixel ppmtospu ppmtoterm ppmtouil ppmtowinicon ppmtoxpm ppmtoyuv ppmtoyuvsplit ppmtv ppmwheel psidtopgm pstopnm qrttoppm rasttopnm rawtopgm rawtoppm rgb3toppm rlatopam rletopnm sbigtopgm sgitopnm sirtopnm sldtoppm spctoppm spottopgm sputoppm srftopam sunicontopnm svgtopam tgatoppm thinkjettopbm tifftopnm wbmptopbm winicontopam winicontoppm xbmtopbm ximtoppm xpmtoppm xvminitoppm xwdtopnm ybmtopbm yuvsplittoppm yuvtoppm zeisstopnm
+netperf:netperf netserver
 nettle:nettle-hash nettle-lfib-stream pkcs1-conv sexp-conv
 newlisp:newlisp newlisp-10.6.2 newlisp-edit newlispdoc
 newsbeuter:newsbeuter podbeuter
 newt:whiptail
+nexus:nexus
+nfcutils:lsnfc
 nghttp2:deflatehd h2load inflatehd nghttp nghttpd nghttpx
 nginx:nginx
 ngircd:ngircd
+ngrok:ngrok
+ngspice:cmpp ngmakeidx ngmultidec ngnutmeg ngproc2mod ngsconvert ngspice
+nickle:nickle
+nicovideo-dl:nicovideo-dl
 nikto:nikto
 nimrod:nim nimrod
+ninja-ide:ninja-ide
 ninja:ninja
 ninvaders:nInvaders
 nkf:nkf
+nload:nload
 nmap:ncat ndiff nmap nping
 node:node
+nodebrew:nodebrew
+nodenv:nodenv
+normalize:normalize normalize-mp3 normalize-ogg
 notmuch:notmuch
+noweb:cpif nodefs noindex noroff noroots notangle nountangle noweave noweb nuweb2noweb
 npth:npth-config
+nrg2iso:nrg2iso
 nrpe:nrpe check_nrpe
 nsd:nsd nsd-checkconf nsd-checkzone nsd-control nsd-control-setup
 nspr:nspr-config
 nsq:nsq_pubsub nsq_stat nsq_tail nsq_to_file nsq_to_http nsq_to_nsq nsqadmin nsqd nsqlookupd to_nsq
 nss:addbuiltin atob baddbdir bltest btoa certcgi certutil checkcert chktest cmsutil conflict crlutil crmftest dbtest derdump dertimetest digest encodeinttest fipstest httpserv listsuites makepqg mangle modutil multinit nonspr10 nss-config ocspclnt ocspresp oidcalc p7content p7env p7sign p7verify pk11gcmtest pk11mode pk12util pk1sign pkix-errcodes pp pwdecrypt remtest rsaperf sdrtest secmodtest selfserv shlibsign signtool signver ssltap strsclnt symkeyutil tstclnt vfychain vfyserv
+ntfs-3g:lowntfs-3g ntfs-3g ntfs-3g.probe ntfs-3g.secaudit ntfs-3g.usermap ntfscat ntfscluster ntfscmp ntfsfix ntfsinfo ntfsls mkfs.ntfs mkntfs mount_ntfs ntfsclone ntfscp ntfslabel ntfsresize ntfsundelete
+ntl:
+ntopng:ntopng
 num-utils:average bound interval normalize numgrep numprocess numsum random range round
 numpy:f2py2.7
 nut:al175 apcsmart apcsmart-old apcupsd-ups bcmxcp belkin belkinunv bestfcom bestfortress bestuferrups bestups blazer_ser clone clone-outlet dummy-ups etapro everups gamatronic genericups isbmex ivtscd liebert liebert-esp2 macosx-ups masterguard metasys mge-shut mge-utalk microdowell nutdrv_qx oldmge-shut oneac optiups powercom powerpanel rhino riello_ser safenet skel solis tripplite tripplitesu upsc upscmd upscode2 upslog upsrw upssched-cmd victronups upsd upsdrvctl upsmon upssched
+nutcracker:nutcracker
 nuttcp:nuttcp
+nvi:
 nvm:
 nzbget:nzbget nzbgetd
 objective-caml:ocaml ocamlbuild ocamlbuild.byte ocamlbuild.native ocamlc ocamlc.opt ocamlcp ocamldebug ocamldep ocamldep.opt ocamldoc ocamldoc.opt ocamllex ocamllex.opt ocamlmklib ocamlmktop ocamlobjinfo ocamlopt ocamlopt.opt ocamloptp ocamlprof ocamlrun ocamlrund ocamlyacc
@@ -1632,6 +1908,7 @@ phantomjs:phantomjs
 php55:pear peardev pecl phar phar.phar php php-cgi php-config phpize
 phpmyadmin:
 physfs:test_physfs
+picocom:picocom
 pidgin:finch pidgin
 pigz:pigz unpigz
 pinentry-mac:pinentry-mac
@@ -1672,6 +1949,7 @@ pstoedit:pstoedit
 pstree:pstree
 psutils:epsffit extractres fixdlsrps fixfmps fixmacps fixpsditps fixpspps fixscribeps fixtpps fixwfwps fixwpps fixwwps getafm includeres psbook psmerge psnup psresize psselect pstops showchar
 pth:pth-config
+pulseaudio:esdcompat pacat pacmd pactl pamon paplay parec parecord pasuspender pulseaudio
 pup:pup
 pure:pure
 putty:plink pscp psftp puttygen
@@ -1775,6 +2053,7 @@ scrollkeeper:scrollkeeper-config scrollkeeper-extract scrollkeeper-gen-seriesid 
 scrypt:scrypt
 sdl2:sdl2-config
 sdl2_image:
+sdl2_mixer:
 sdl2_ttf:
 sdl:sdl-config
 sdl_gfx:
@@ -1842,6 +2121,7 @@ sqsh:sqsh
 sqtop:sqtop
 squid:purge squidclient squid
 squirrel:sq
+sratom:
 src:src
 srtp:
 ssdb:ssdb-bench ssdb-dump ssdb-ins.sh ssdb-repair ssdb-server
@@ -1946,6 +2226,7 @@ up:up
 uriparser:uriparse
 uru:uru_rt
 usbmuxd:iproxy
+userspace-rcu:
 uudeview:minews uudeview uuenview
 uwsgi:uwsgi
 v8:d8 lineprocessor mksnapshot process v8
