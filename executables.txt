@@ -142,6 +142,7 @@ avidemux:avidemux avidemux_cli avidemux_jobs
 aview:aaflip asciiview aview
 avra:avra
 avrdude:avrdude
+avro-c:avroappend avrocat avromod avropipe
 avro-cpp:avrogencpp
 avro-tools:avro-tools
 aws-cfn-tools:cfn-cancel-update-stack cfn-cmd cfn-create-stack cfn-delete-stack cfn-describe-stack-events cfn-describe-stack-resource cfn-describe-stack-resources cfn-describe-stacks cfn-get-template cfn-list-stack-resources cfn-list-stacks cfn-update-stack cfn-validate-template cfn-version
@@ -645,6 +646,7 @@ euca2ools:euare-accountaliascreate euare-accountaliasdelete euare-accountaliasli
 euler-py:euler
 evas:evas_cserve evas_cserve_tool
 eventlog:
+ex-vi:edit ex vedit vi view
 exempi:exempi
 exenv:elixir-local-exec exenv
 exiftags:exifcom exiftags exiftime
@@ -664,6 +666,7 @@ faad2:faad
 fabric:fab
 fail2ban:fail2ban-client fail2ban-regex fail2ban-server
 fakeroot:faked fakeroot
+falcon:falcon falcon-conf falconeer.fal falconenv.sh faldisass faldoc fallc.fal falpack falrun faltest icomp.sh
 fantom:fan fanlaunch fanp fanr fansh fansubstitute fant flux jstub msvcr100.dll msvcr71.dll
 fasd:fasd
 fastjar:fastjar grepjar
@@ -680,6 +683,7 @@ fdupes:fdupes
 fetch-crl:clean-crl fetch-crl
 fex:fex
 ffe:ffe
+ffind:ffind
 ffmbc:ffmbc ffprobe-bc
 ffmpeg2theora:ffmpeg2theora
 ffmpeg:ffmpeg ffprobe ffserver
@@ -990,6 +994,7 @@ hardlink:hardlink
 harfbuzz:hb-ot-shape-closure hb-shape hb-view
 hashcash:hashcash sha1
 hashpump:hashpump
+hbase:get-active-master.rb graceful_stop.sh hbase hbase-cleanup.sh hbase-common.sh hbase-config.sh hbase-daemon.sh hbase-daemons.sh hbase-jruby hirb.rb local-master-backup.sh local-regionservers.sh master-backup.sh region_mover.rb region_status.rb regionservers.sh replication rolling-restart.sh shutdown_regionserver.rb start-hbase.sh stop-hbase.sh test thread-pool.rb zookeepers.sh
 headphones:headphones
 hello:hello
 help2man:help2man
@@ -1461,6 +1466,7 @@ libsmi:smicache smidiff smidump smilint smiquery smistrip smixlate
 libsndfile:sndfile-cmp sndfile-concat sndfile-convert sndfile-deinterleave sndfile-info sndfile-interleave sndfile-metadata-get sndfile-metadata-set sndfile-play sndfile-regtest sndfile-salvage
 libsodium:
 libsoup:
+libsoxr:
 libspatialite:
 libspiro:
 libssh2:
@@ -1522,6 +1528,7 @@ libyaml:
 libyubikey:modhex ykgenerate ykparse
 libzdb:
 libzip:zipcmp zipmerge ziptorrent
+libzzip:unzip-mem unzzip unzzipcat unzzipcat-mem unzzipcat-seeko unzzipdir unzzipdir-mem zzcat zzdir zzxorcat zzxorcopy zzxordir
 lifelines:btedit dbverify llexec llines
 lightning:
 lighttpd:lighttpd lighttpd-angel
@@ -1602,6 +1609,7 @@ malaga:malaga mallex malmake malrul malsym
 malbolge:malbolge
 man2html:man2html
 mapnik:mapnik-config mapnik-speed-check shapeindex upgrade_map_xml.py
+mariadb:aria_chk aria_dump_log aria_ftdump aria_pack aria_read_log innochecksum msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_config mysql_convert_table_format mysql_find_rows mysql_fix_extensions mysql_install_db mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysql_zap mysqlaccess mysqladmin mysqlbinlog mysqlbug mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest mytop perror rcmysql replace resolve_stack_dump resolveip
 marst:macvt marst
 masscan:masscan
 mat:mat mat-gui
@@ -1756,7 +1764,9 @@ mutt:flea mutt muttbug pgpewrap pgpring smime_keys
 mvb:mvb
 mvptree:
 myman:myman myman-0.7.1 myman.command
+mysql++:
 mysql-connector-c++:
+mysql-connector-c:my_print_defaults mysql_config perror
 mysql-connector-odbc:myodbc-installer
 mysql-proxy:mysql-binlog-dump mysql-myisam-dump mysql-proxy
 mysql-sandbox:deploy_to_remote_sandboxes.sh low_level_make_sandbox make_multiple_custom_sandbox make_multiple_sandbox make_replication_sandbox make_sandbox make_sandbox_from_installed make_sandbox_from_source msandbox msb sbtool test_sandbox
@@ -1836,97 +1846,216 @@ numpy:f2py2.7
 nut:al175 apcsmart apcsmart-old apcupsd-ups bcmxcp belkin belkinunv bestfcom bestfortress bestuferrups bestups blazer_ser clone clone-outlet dummy-ups etapro everups gamatronic genericups isbmex ivtscd liebert liebert-esp2 macosx-ups masterguard metasys mge-shut mge-utalk microdowell nutdrv_qx oldmge-shut oneac optiups powercom powerpanel rhino riello_ser safenet skel solis tripplite tripplitesu upsc upscmd upscode2 upslog upsrw upssched-cmd victronups upsd upsdrvctl upsmon upssched
 nutcracker:nutcracker
 nuttcp:nuttcp
-nvi:
+nvi:nex nvi nview
 nvm:
+nylon:nylon
 nzbget:nzbget nzbgetd
+oath-toolkit:oathtool pskctool
+objc-codegenutils:objc-assetgen objc-colordump objc-identifierconstants
+objc-run:objc-run
 objective-caml:ocaml ocamlbuild ocamlbuild.byte ocamlbuild.native ocamlc ocamlc.opt ocamlcp ocamldebug ocamldep ocamldep.opt ocamldoc ocamldoc.opt ocamllex ocamllex.opt ocamlmklib ocamlmktop ocamlobjinfo ocamlopt ocamlopt.opt ocamloptp ocamlprof ocamlrun ocamlrund ocamlyacc
 ocamlsdl:
+ocp:ocp ocp-0.1.21 ocp-curses ultrafix.sh
+ocrad:ocrad
 ode:ode-config
 odo:odo
 odt2txt:
+offline-imap:offlineimap
+oggz:oggz oggz-chop oggz-codecs oggz-comment oggz-diff oggz-dump oggz-info oggz-known-codecs oggz-merge oggz-rip oggz-scan oggz-sort oggz-validate
+ogmtools:dvdxchap ogmcat ogmdemux ogminfo ogmmerge ogmsplit
+ohcount:ohcount
 ola:ola_artnet ola_dev_info ola_dmxconsole ola_dmxmonitor ola_e131 ola_patch ola_plugin_info ola_plugin_state ola_rdm_discover ola_rdm_get ola_rdm_set ola_recorder ola_set_dmx ola_set_priority ola_streaming_client ola_timecode ola_trigger ola_uni_info ola_uni_merge ola_uni_name ola_uni_stats ola_usbpro olad rdmpro_sniffer usbpro_firmware
+olsrd:olsrd
+omega:dbi2omega htdig2omega mbox2omega omindex scriptindex
+omniorb:catior convertior genior nameclt omkdepend omnicpp omniidl omniidlrun.py omniMapper omniNames
+ondir:ondir
 onepass:1pass
+onetime:onetime
 oniguruma:onig-config
 opam:opam opam-admin opam-installer
+open-babel:babel obabel obchiral obconformer obenergy obfit obgen obgrep obminimize obprobe obprop obrotamer obrotate obspectrophore roundtrip
+open-cobol:cob-config cobc cobcrun
+open-mesh:Analyzer commandlineAdaptiveSubdivider commandlineDecimater commandlineSubdivider DecimaterGui Dualizer mconvert mkbalancedpm ProgViewer QtViewer Smoothing SubdividerGui Synthesizer
 open-mpi:mpic++ mpic++-vt mpicc mpicc-vt mpicxx mpicxx-vt mpiexec mpif77 mpif77-vt mpif90 mpif90-vt mpifort mpifort-vt mpirun ompi-clean ompi-ps ompi-server ompi-top ompi_info opal_wrapper orte-clean orte-info orte-ps orte-server orte-top ortecc orted orterun otfaux otfcompress otfconfig otfdecompress otfinfo otfmerge otfmerge-mpi otfprint otfprofile otfprofile-mpi otfshrink vtc++ vtcc vtcxx vtf77 vtf90 vtfilter vtfilter-mpi vtfiltergen vtfiltergen-mpi vtfort vtrun vtsetup vtunify vtunify-mpi vtwrapper
+open-ocd:openocd
 open-scene-graph:osgarchive osgconv osgfilecache osgversion osgviewer present3D
 open-sp:onsgmls osgmlnorm ospam ospcat ospent osx
+open-vcdiff:vcdiff
 open-zwave:MinOZW
+openal-soft:alsoft-config makehrtf openal-info
+opencbm:cbmcopy cbmctrl cbmformat cbmforng cbmlinetester cbmread cbmrpm41 cbmwrite d64copy d82copy frm_analyzer imgcopy opencbm_plugin_helper_tools samplelibtransf
 opencc:opencc opencc_dict
+opencolorio:ociobakelut ociocheck
 openconnect:openconnect
 opencore-amr:
+opendetex:delatex detex
 openexr:exrenvmap exrheader exrmakepreview exrmaketiled exrmultipart exrmultiview exrstdattr
 openh264:
 openhmd:simple
 openjpeg:image_to_j2k j2k_dump j2k_to_image
+openlitespeed:litespeed lshttpd lswsctrl lswsctrl.open openlitespeed
 openrtsp:live555MediaServer live555ProxyServer MPEG2TransportStreamIndexer openRTSP playSIP registerRTSPStream sapWatch testAMRAudioStreamer testDVVideoStreamer testH264VideoStreamer testH264VideoToTransportStream testH265VideoStreamer testH265VideoToTransportStream testMKVStreamer testMP3Receiver testMP3Streamer testMPEG1or2AudioVideoStreamer testMPEG1or2ProgramToTransportStream testMPEG1or2Splitter testMPEG1or2VideoReceiver testMPEG1or2VideoStreamer testMPEG2TransportReceiver testMPEG2TransportStreamer testMPEG2TransportStreamTrickPlay testMPEG4VideoStreamer testOggStreamer testOnDemandRTSPServer testRelay testReplicator testRTSPClient testWAVAudioStreamer vobStreamer
+opensaml:samlsign
+opensc:cardos-tool cryptoflex-tool dnie-tool eidenv iasecc-tool netkey-tool openpgp-tool opensc-explorer opensc-tool piv-tool pkcs11-tool pkcs15-crypt pkcs15-init pkcs15-tool sc-hsm-tool westcos-tool
+openslide:openslide-quickhash1sum openslide-show-properties openslide-write-png
+openslp:slptool slpd
 openssl:c_rehash openssl
+openvpn:openvpn
 openwsman:openwsmand
+ophcrack:ophcrack
 optipng:optipng
+opus-tools:opusdec opusenc opusinfo
 opus:
+opusfile:
 orbit:ior-decode-2 linc-cleanup-sockets orbit-idl-2 orbit2-config typelib-dump
 orc:orc-bugreport orcc
+ori:ori oridbg orifs orisync
 orientdb:orientdb orientdb-console orientdb-gremlin
 orpie:orpie orpie-curses-keys
+ortp:
+oscats:
 osh:osh sh6
+osm-pbf:
+osm2pgrouting:osm2pgrouting
 osm2pgsql:nodecachefilereader osm2pgsql
+osmosis:osmosis
 osquery:osqueryd osqueryi
+osslsigncode:osslsigncode
 ossp-uuid:uuid uuid-config
 osxutils:cpath fileinfo getfcomment geticon getvolume google hfsdata lsmac mkalias osxutils rcmac setfcomment setfctypes setfflags seticon setlabel setsuffix setvolume trash wiki wsupdate
 owamp:owampd owfetch owping owstats owtvec owup powstream
+owfs:owdir owexist owexternal owftpd owget owhttpd owmon owpresent owread owserver owtap owwrite
+p0f:p0f
 p11-kit:p11-kit
 p7zip:7z 7za 7zr
 pacvim:pacvim
+pakchois:
+pam_yubico:ykpamcfg
 pandoc-citeproc:pandoc-citeproc
 pandoc:pandoc
 pango:pango-querymodules pango-view
 pangomm:
 pangox-compat:
+paperkey:paperkey
+paps:paps
+paq8px:paq8px
 par2tbb:par2 par2create par2repair par2verify
 par:par
+parallel:niceload parallel sem sql
 parrot:parrot parrot-nqp parrot-ops2c parrot-prove parrot_config parrot_nci_thunk_gen pbc_disassemble pbc_dump pbc_merge pbc_to_exe winxed
+partio:partattr partconv partinfo partview
 pass:pass
 passenger:passenger passenger-config passenger-install-apache2-module passenger-install-nginx-module passenger-memory-stats passenger-status
+pastebinit:pastebinit
 patchutils:combinediff dehtmldiff editdiff espdiff filterdiff fixcvsdiff flipdiff grepdiff interdiff lsdiff recountdiff rediff splitdiff unwrapdiff
+pax-construct:pax-add-repository pax-clone pax-create-bundle pax-create-module pax-create-project pax-embed-jar pax-import-bundle pax-move-bundle pax-provision pax-remove-bundle pax-update pax-validate pax-wrap-jar
+pax-runner:pax-runner
 pazpar2:pazpar2
 pbc:
+pbrt:bsdftest exravg exrdiff pbrt
+pbzip2:pbunzip2 pbzcat pbzip2
+pcal:pcal
+pce:pbit pce-ibmpc pce-img pce-macplus pce-rc759 pce-sim405 pce-sim6502 pce-simarm pce-sims32 pfdc
+pcre++:pcre++-config
 pcre2:pcre2-config pcre2grep pcre2test
 pcre:pcre-config pcregrep pcretest
 pcsc-lite:pcsc-spy pcscd
+pdal:pc2pc pcequal pcinfo pcpipeline pcquery pdal-config
+pdf-redact-tools:pdf-redact-tools
 pdf2htmlex:pdf2htmlEX
+pdf2json:pdf2json
+pdfcrack:pdfcrack
+pdfgrep:pdfgrep
+pdfjam:pdf180 pdf270 pdf90 pdfbook pdfflip pdfjam pdfjam-pocketmod pdfjam-slides3up pdfjam-slides6up pdfjoin pdfnup pdfpun
 pdflib-lite:pdfimage pdflib-config text2pdf
+pdksh:ksh
 pdns:pdns_control pdnssec zone2json zone2ldap zone2sql pdns_server
+pdnsd:pdnsd pdnsd-ctl
 pdnsrec:rec_control pdns_recursor
+pdsh:dshbak pdcp pdsh rpdcp
 pebble-sdk:pebble
 peco:peco
+peervpn:peervpn
+peg-markdown:peg-markdown
+perceptualdiff:perceptualdiff
+percona-server:innochecksum msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_client_test_embedded mysql_config mysql_config_editor mysql_convert_table_format mysql_embedded mysql_find_rows mysql_fix_extensions mysql_install_db mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysql_zap mysqladmin mysqlbinlog mysqlbug mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest mysqltest_embedded perror ps_tokudb_admin replace resolve_stack_dump resolveip
+percona-toolkit:pt-align pt-archiver pt-config-diff pt-deadlock-logger pt-diskstats pt-duplicate-key-checker pt-fifo-split pt-find pt-fingerprint pt-fk-error-logger pt-heartbeat pt-index-usage pt-ioprofile pt-kill pt-mext pt-mysql-summary pt-online-schema-change pt-pmp pt-query-digest pt-show-grants pt-sift pt-slave-delay pt-slave-find pt-slave-restart pt-stalk pt-summary pt-table-checksum pt-table-sync pt-table-usage pt-upgrade pt-variable-advisor pt-visual-explain
+perl-build:perl-build plenv-install plenv-uninstall
+perl:a2p c2ph config_data corelist cpan enc2xs find2perl h2ph h2xs instmodsh json_pp libnetcfg perl perl5.20.1 perlbug perldoc perlivp perlthanks piconv pl2pm pod2html pod2man pod2text pod2usage podchecker podselect prove psed pstruct ptar ptardiff ptargrep s2p shasum splain xsubpp zipdetails
 perlmagick:
+pev:ofs2rva pedis pehash pepack peres pescan pesec pestr readpe rva2ofs
+pex:pex
+pg_top:pg_top
 pgbadger:pgbadger
+pgbouncer:mkauth.py pgbouncer
 pgcli:pgcli
+pgdbf:pgdbf
+pgformatter:pg_format
+pgpdump:pgpdump
 pgpool-ii:pcp_attach_node pcp_detach_node pcp_node_count pcp_node_info pcp_pool_status pcp_proc_count pcp_proc_info pcp_promote_node pcp_recovery_node pcp_stop_pgpool pcp_systemdb_info pcp_watchdog_info pg_md5 pgpool
 pgrouting:
+pgtap:pg_prove pg_tapgen prove
+pgtune:pgtune
 phantomjs:phantomjs
+phash:
+phoon:phoon
+phoronix-test-suite:phoronix-test-suite
 php55:pear peardev pecl phar phar.phar php php-cgi php-config phpize
 phpmyadmin:
 physfs:test_physfs
+pianobar:pianobar
+pianod:piano pianod runmix
+picoc:picoc
 picocom:picocom
+picolisp:picolisp
+pidcat:pidcat
 pidgin:finch pidgin
+pidof:pidof
+pig:pig
 pigz:pigz unpigz
+pike:pike
 pinentry-mac:pinentry-mac
 pinentry:pinentry pinentry-curses
+pipebench:pipebench
+pipemeter:pipemeter
+pit:pit
+pius:pius pius-keyring-mgr pius-party-worksheet
 pixman:
+pixz:pixz
+pk:pk
 pkcs11-helper:
 pkg-config:pkg-config
+pktanon:pktanon
+plan9port:9
+plantuml:plantuml
 platypus:platypus
+plenv:plenv
+plod:plod
 plotutils:double graph hersheydemo ode pic2plot plot plotfont spline tek2plot
+plowshare:plowdel plowdown plowlist plowprobe plowup
 plt-racket:racket raco
+plustache:
+plzip:plzip
 pmars:pmars
+pmccabe:codechanges decomment pmccabe vifn
+pmd:pmd
+pmdmini:pmdplay
+pms:pms
+png++:
 png2ico:png2ico
+pngcheck:pngcheck
 pngcrush:pngcrush
+pngnq:pngcomp pngnq
 pngpaste:pngpaste
 pngquant:pngquant
 poco:cpspc cpspcd f2cpsp f2cpspd
+podiff:podiff
+podofo:
 points2grid:points2grid
+polarssl:aescrypt2 benchmark cert_app cert_req cert_write crl_app crypt_and_hash dh_client dh_genprime dh_server gen_entropy gen_key gen_random_ctr_drbg gen_random_havege generic_sum key_app md5sum mpi_demo pem2der pk_decrypt pk_encrypt pk_sign pk_verify req_app rsa_decrypt rsa_encrypt rsa_genkey rsa_sign rsa_verify selftest sha1sum sha2sum ssl_cert_test ssl_client1 ssl_client2 ssl_fork_server ssl_mail_client ssl_pthread_server ssl_server ssl_test strerror
 polipo:polipo
+polygen:polygen
+polyml:poly polyc polyimport
 ponysay-tool:
 ponysay:ponysay ponysay-tool ponythink
 ponythink:
@@ -1934,56 +2063,101 @@ poppler:pdfdetach pdffonts pdfimages pdfinfo pdfseparate pdftocairo pdftohtml pd
 popt:
 portaudio:
 portmidi:
+poster:poster
 postgis:create_undef.pl pgsql2shp postgis_proc_upgrade.pl postgis_restore.pl profile_intersects.pl raster2pgsql shp2pgsql test_estimation.pl test_geography_estimation.pl test_geography_joinestimation.pl test_joinestimation.pl
+postgres-xc:ecpg gtm gtm_ctl gtm_proxy makesgml initdb initgtm postgres postmaster clusterdb createdb createlang createuser dropdb droplang dropuser oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_resetxlog pg_restore pg_standby pg_test_fsync pg_upgrade pgbench pgxc_clean psql reindexdb vacuumdb vacuumlo
 postgresql:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivexlog pg_recvlogical pg_resetxlog pg_restore pg_standby pg_test_fsync pg_test_timing pg_upgrade pg_xlogdump pgbench pltcl_delmod pltcl_listmod pltcl_loadmod postgres postmaster psql reindexdb vacuumdb vacuumlo
+postmark:postmark
 potrace:mkbitmap potrace
+pound:pound poundctl
+povray:povray
+pow:pow
 powerman:pm powerman httppower plmpower powermand vpcd
+pplatex:ppdflatex pplatex
+ppss:ppss
+predictionio:pio
+premake:premake4
+primesieve:primesieve
+prips:prips
 privoxy:privoxy
+probatron4j:probatron
 proctools:pfind pgrep pkill
 profanity:profanity
+proftpd:ftpasswd ftpcount ftpdctl ftpmail ftpquota ftptop ftpwho prxs ftpscrub ftpshut in.proftpd proftpd
+proguard:proguard
 proj:cs2cs geod nad2bin proj
+proof-general:coqtags isartags legotags proofgeneral
 protobuf-c:protoc-c
 protobuf:protoc
+proxychains-ng:proxychains4
 proxytunnel:proxytunnel
+ps2eps:bbox ps2eps
+psftools:fnt2psf fnts2fon fon2fnts psf2fnt bbc2psf cpi2psf cpicomp cpidcomp mda2psf page2cp2 psf2bbc psf2bdf psf2bsd psf2inc psf2pbms psf2raw psf2txt psf2wof psf2wyse psf2xbm psf2zx psfjoin psfmerge psfpages psfs2cpi psfxform raw2psf txt2psf wof2psf wyse2psf zx2psf
+psgrep:psgrep
+psqlodbc:
 pstoedit:pstoedit
 pstree:pstree
 psutils:epsffit extractres fixdlsrps fixfmps fixmacps fixpsditps fixpspps fixscribeps fixtpps fixwfwps fixwpps fixwwps getafm includeres psbook psmerge psnup psresize psselect pstops showchar
+ptex:ptxinfo
 pth:pth-config
+ptunnel:ptunnel
+puf:puf
+pulledpork:pulledpork.pl
 pulseaudio:esdcompat pacat pacmd pactl pamon paplay parec parecord pasuspender pulseaudio
 pup:pup
+pure-ftpd:pure-pw pure-pwconvert pure-statsdecode pure-authd pure-ftpd pure-ftpwho pure-mrtginfo pure-quotacheck pure-uploadscript
 pure:pure
+putmail-queue:putmail_dequeue.py putmail_enqueue.py
+putmail:putmail putmail.py
 putty:plink pscp psftp puttygen
 pv:pv
 pwgen:pwgen
+pwnat:pwnat
 pwntools:asm constgrep cyclic disasm elfdiff elfpatch hex phd shellcraft unhex
+pwsafe:pwsafe
+pxz:pxz
 py2cairo:
 pyenv-ccache:
 pyenv-virtualenv:pyenv-activate pyenv-deactivate pyenv-sh-activate pyenv-sh-deactivate pyenv-virtualenv pyenv-virtualenv-init pyenv-virtualenv-prefix pyenv-virtualenvs
 pyenv-virtualenvwrapper:pyenv-sh-virtualenvwrapper pyenv-sh-virtualenvwrapper_lazy pyenv-virtualenvwrapper pyenv-virtualenvwrapper_lazy
 pyenv-which-ext:
 pyenv:pyenv pyenv-install pyenv-uninstall python-build python-local-exec
+pyexiv2:
+pygobject3:
 pygobject:pygobject-codegen-2.0
 pygtk:pygtk-codegen-2.0 pygtk-demo
+pygtkglext:
 pygtksourceview:
+pylucene:
 pypy3:easy_install_pypy3 pip_pypy3 pypy3
 pypy:easy_install_pypy pip_pypy pypy
 pyqt5:pylupdate5 pyrcc5 pyuic5
 pyqt:pylupdate4 pyrcc4 pyuic4
+pyqwt:
+pyside-tools:pyside-lupdate pyside-rcc pyside-uic
 pyside:
 python3:2to3-3.4 easy_install-3.4 idle3 idle3.4 pip3 pip3.4 pydoc3 pydoc3.4 python3 python3-config python3.4 python3.4-config python3.4m python3.4m-config pyvenv pyvenv-3.4
 python:2to3 2to3-2 2to3-2.7 easy_install easy_install-2.7 idle idle2 idle2.7 pip pip2 pip2.7 pydoc pydoc2 pydoc2.7 python python-config python2 python2-config python2.7 python2.7-config pythonw pythonw2 pythonw2.7 smtpd.py smtpd2.7.py smtpd2.py
 qbs:qbs qbs-config qbs-config-ui qbs-qmltypes qbs-setup-qt qbs-setup-toolchains
 qca:mozcerts qcatool
+qcachegrind:qcachegrind
 qd:qd-config
 qdbm:cbcodec cbtest crmgr crtest crtsv dpmgr dptest dptsv hvmgr hvtest odidx odmgr odtest qmttest rlmgr rltest vlmgr vltest vltsv
 qemu:qemu-img qemu-io qemu-nbd qemu-system-aarch64 qemu-system-alpha qemu-system-arm qemu-system-cris qemu-system-i386 qemu-system-lm32 qemu-system-m68k qemu-system-microblaze qemu-system-microblazeel qemu-system-mips qemu-system-mips64 qemu-system-mips64el qemu-system-mipsel qemu-system-moxie qemu-system-or32 qemu-system-ppc qemu-system-ppc64 qemu-system-ppcemb qemu-system-s390x qemu-system-sh4 qemu-system-sh4eb qemu-system-sparc qemu-system-sparc64 qemu-system-tricore qemu-system-unicore32 qemu-system-x86_64 qemu-system-xtensa qemu-system-xtensaeb
+qi:qi
+qiv:qiv
 qjson:
+qpdf:fix-qdf qpdf zlib-flate
 qprint:qprint
 qrencode:qrencode
 qscintilla2:
+qstat:qstat
 qt5:lconvert lrelease lupdate macchangeqt macdeployqt moc qcollectiongenerator qdoc qhelpconverter qhelpgenerator qlalr qmake qml1plugindump qmlbundle qmleasing qmlimportscanner qmllint qmlmin qmlplugindump qmlprofiler qmlscene qmltestrunner qtdiag qtpaths rcc syncqt.pl uic xmlpatterns xmlpatternsvalidator
 qt:lconvert lrelease lupdate macdeployqt moc qcollectiongenerator qdoc3 qhelpgenerator qmake qmlplugindump qt3to4 rcc uic xmlpatterns xmlpatternsvalidator
+qtfaststart:qt-faststart
+qtplay:qtplay
 quantlib:quantlib-config quantlib-test-suite
+quassel:
 queequeg:qq
 quilt:guards quilt
 quvi:quvi
@@ -1994,10 +2168,24 @@ radare2:r2 r2agent rabin2 radare2 radiff2 rafind2 ragg2 ragg2-cc rahash2 rarun2 
 ragel:ragel
 rakudo-star:moar nqp-m p6doc p6doc-index p6doc-index-m p6doc-m panda panda-m perl6 perl6-debug-m perl6-m ufo ufo-m
 rancid:agmrancid alogin anlogin anrancid arancid arrancid avologin avorancid blogin brancid cat5rancid clogin complogin control_rancid cssrancid dllogin elogin erancid f10rancid f5rancid flogin fnlogin fnrancid hlogin hpuifilter hrancid htlogin htrancid jerancid jlogin lg.cgi lgform.cgi mrancid mrvlogin mtlogin mtrancid nlogin nrancid nslogin nsrancid nxrancid par prancid rancid rancid-cvs rancid-fe rancid-run rivlogin rivrancid rrancid srancid tlogin tntlogin tntrancid trancid xilogin xirancid xrancid zrancid
+randomize-lines:rl
 raptor:rapper
+rarian:rarian-example rarian-sk-config rarian-sk-extract rarian-sk-gen-uuid rarian-sk-get-cl rarian-sk-get-content-list rarian-sk-get-extended-content-list rarian-sk-get-scripts rarian-sk-install rarian-sk-migrate rarian-sk-preinstall rarian-sk-rebuild rarian-sk-update scrollkeeper-config scrollkeeper-extract scrollkeeper-gen-seriesid scrollkeeper-get-cl scrollkeeper-get-content-list scrollkeeper-get-extended-content-list scrollkeeper-get-index-from-docpath scrollkeeper-get-toc-from-docpath scrollkeeper-get-toc-from-id scrollkeeper-install scrollkeeper-preinstall scrollkeeper-rebuilddb scrollkeeper-uninstall scrollkeeper-update
 rasqal:rasqal-config roqet
+rbenv-aliases:rbenv-alias rbenv-unalias
+rbenv-binstubs:rbenv-bundles
+rbenv-bundle-exec:
+rbenv-bundler-ruby-version:rbenv-bundler-ruby-version
+rbenv-bundler:rbenv-bundler
 rbenv-communal-gems:rbenv-communal-gem-home rbenv-communize rbenv-sequester
+rbenv-ctags:rbenv-ctags
+rbenv-default-gems:
+rbenv-gem-rehash:
+rbenv-gemset:rbenv-gemset
+rbenv-readline:
+rbenv-use:rbenv-sh-use
 rbenv-vars:rbenv-vars
+rbenv-whatis:rbenv-whatis
 rbenv:rbenv ruby-local-exec
 rcs:ci co ident merge rcs rcsclean rcsdiff rcsmerge rlog
 re2c:re2c
@@ -2006,6 +2194,7 @@ readosm:
 reattach-to-user-namespace:reattach-to-user-namespace
 rebar:rebar
 reclass:reclass reclass-ansible reclass-salt
+recode:recode
 recutils:csv2rec rec2csv recdel recfix recfmt recinf recins recsel recset
 redis:redis-benchmark redis-check-aof redis-check-dump redis-cli redis-sentinel redis-server
 redland:rdfproc redland-config redland-db-upgrade
@@ -2020,22 +2209,33 @@ rfc:rfc
 rfcdiff:rfcdiff
 rgbds:rgbasm rgbfix rgblink
 riemann-client:riemann-client
+rig:rig
+ringojs:ringo ringo-admin ringo-doc ringo-web
 rlog:
 rlwrap:rlwrap
+rmate:rmate
+rmcast:mcastproxy rmchat
+rnv:arx rnv rvp xsdck
 rocket:actool rkt
 rocksdb:
 rogue:rogue
+rolldice:rolldice
+rp:rp-osx
 rpm2cpio:rpm2cpio.pl
 rrdtool:rrdcached rrdcgi rrdcreate rrdinfo rrdtool rrdupdate
 rtmpdump:rtmpdump rtmpgw rtmpsrv rtmpsuck
 rtpbreak:rtpbreak
 rubber:rubber rubber-info rubber-pipe
+ruby-build:rbenv-install rbenv-uninstall ruby-build
 ruby:erb gem irb rake rdoc ri ruby
+runit:chpst runit runit-init runsv runsvchdir runsvdir sv svlogd utmpset
 rust:rust-lldb rustc rustdoc
 s-lang:slsh
+s3-backer:s3backer
 s3cmd:s3cmd
 safe-rm:safe-rm
 saltstack:salt salt-api salt-call salt-cloud salt-cp salt-key salt-master salt-minion salt-run salt-ssh salt-syndic salt-unity
+samba:eventlogadm findsmb net nmblookup ntlm_auth pdbedit profiles rpcclient sharesec smbcacls smbclient smbcontrol smbcquotas smbget smbpasswd smbspool smbstatus smbta-util smbtar smbtree tdbbackup tdbdump tdbrestore tdbtool testparm nmbd smbd swat
 sane-backends:gamma4scanimage sane-config sane-find-scanner scanimage saned
 sassc:sassc
 saxon:saxon
@@ -2179,6 +2379,7 @@ thrift:thrift
 ticcutils:
 tidyp:tidyp
 tiff2png:tiff2png
+tig:tig
 timbl:timbl
 timidity:timidity
 tinc:tincd
@@ -2193,9 +2394,11 @@ tofrodos:fromdos todos
 tokyo-cabinet:tcamgr tcamttest tcatest tcbmgr tcbmttest tcbtest tcfmgr tcfmttest tcftest tchmgr tchmttest tchtest tctmgr tctmttest tcttest tcucodec tcumttest tcutest
 tomcat-native:
 tomcat:catalina
+topgit:tg
 tor:tor tor-gencert tor-resolve torify
 torsocks:torsocks
 tpp:tpp
+trafficserver:traffic_cop traffic_line traffic_logcat traffic_logstats traffic_manager traffic_sac traffic_server traffic_top trafficserver tspush tstop tsxs
 trafshow:trafshow
 translate-toolkit:build_firefox.sh build_tmdb buildxpi.py csv2po csv2tbx get_moz_enUS.py html2po ical2po ini2po json2po junitmsgfmt moz2po odf2xliff oo2po oo2xliff php2po po2csv po2html po2ical po2ini po2json po2moz po2oo po2php po2prop po2rc po2sub po2symb po2tiki po2tmx po2ts po2txt po2web2py po2wordfast po2xliff poclean pocommentclean pocompendium pocompile poconflicts pocount podebug pofilter pogrep pomerge pomigrate2 popuretext poreencode porestructure posegment posplit poswap pot2po poterminology pretranslate prop2po rc2po sub2po symb2po tiki2po tmserver ts2po txt2po web2py2po xliff2odf xliff2oo xliff2po
 tre:agrep
@@ -2243,6 +2446,10 @@ vf:
 vifm:vifm vifm-pause vifmrc-converter
 vilistextum:vilistextum
 vim:ex rview rvim view vim vimdiff vimtutor xxd
+vip:vip
+virtualhost.sh:virtualhost.sh
+visionmedia-watch:watch
+vit:
 vitetris:tetris
 volatility:vol.py
 voldemort:rebalance-cluster-expansion.sh rebalance-new-zoned-cluster.sh rebalance-shuffle.sh rebalance-zone-expansion.sh rebalance-zone-shrinkage.sh repeat-junit-test.sh repeat-junit.sh run-class.sh vadmin.sh voldemort-admin-tool.sh voldemort-convert-bdb.sh voldemort-coordinator-admin.sh voldemort-coordinator.sh voldemort-performance-tool.sh voldemort-prod-server.sh voldemort-scala-shell.sh voldemort-server.sh voldemort-shell.sh voldemort-stop.sh voldemort-thin-client-shell.sh
@@ -2260,6 +2467,7 @@ weechat:weechat weechat-curses
 weighttp:weighttp
 wellington:wt
 wget:wget
+when:when
 whereami:whereami
 why3:why3
 wine:function_grep.pl msiexec notepad regedit regsvr32 widl wine wine.bin wineboot winebuild winecfg wineconsole winecpp winedbg winedump winefile wineg++ winegcc winemaker winemine winepath wineserver wmc wrc
@@ -2269,6 +2477,8 @@ with-readline:with-readline
 wkhtmltopdf:wkhtmltoimage wkhtmltopdf
 wordnet:wishwn wn wnb
 writerperfect:wks2ods wpd2odt wpg2odg wps2odt
+wrk:wrk
+wry:wry
 wslay:
 wsmancli:wseventmgr wsman
 wtf:wtf
@@ -2285,8 +2495,10 @@ xerces-c:CreateDOMDocument DOMCount DOMPrint EnumVal PParse PSVIWriter Redirect 
 xlslib:
 xml-coreutils:xml-awk xml-cat xml-cp xml-cut xml-echo xml-file xml-find xml-fixtags xml-fmt xml-grep xml-head xml-less xml-ls xml-mv xml-paste xml-printf xml-rm xml-sed xml-strings xml-unecho xml-wc
 xml-security-c:c14n checksig cipher siginf templatesign txfmout xklient xtest
+xml-tooling-c:
 xmlformat:xmlformat
 xmlrpc-c:xmlrpc-c-config
+xmlsh:xmlsh
 xmlstarlet:xml xmlstarlet
 xmlto:xmlif xmlto
 xmltoman:xmlmantohtml xmltoman
@@ -2294,6 +2506,9 @@ xmp:xmp
 xplanet:xplanet
 xplanetfx:xplanetFX
 xrootd:cconfig cmsd cns_ssi frm_admin frm_purged frm_xfragent frm_xfrd mpxstats wait41 xprep xrd xrdadler32 XrdCnsd xrdcopy xrdcp xrdcp-old xrdfs xrdgsiproxy xrdmapc xrdpwdadmin xrdsssadmin xrdstagetool xrootd xrootd-config
+xsw:xsw xsw2jpeg xsw2pdf xsw2png xswconv
+xtail:xtail
+xtitle:xtitle
 xvid:
 xz:lzcat lzcmp lzdiff lzegrep lzfgrep lzgrep lzless lzma lzmadec lzmainfo lzmore unlzma unxz xz xzcat xzcmp xzdec xzdiff xzegrep xzfgrep xzgrep xzless xzmore
 yacas:yacas ytxt2tex
@@ -2307,6 +2522,7 @@ yasm:vsyasm yasm ytasm
 yaws:yaws
 yaz:yaz-asncomp yaz-client yaz-config yaz-iconv yaz-icu yaz-illclient yaz-json-parse yaz-marcdump yaz-url yaz-ztest zoomsh
 yazpp:yazpp-config
+ykclient:ykclient
 ykpers:ykchalresp ykinfo ykpersonalize
 yle-dl:yle-dl
 youtube-dl:youtube-dl
@@ -2325,4 +2541,5 @@ zsh:zsh zsh-5.0.7
 zshdb:zshdb
 zssh:zssh ztelnet
 zsync:zsync zsyncmake
+zurl:zurl
 zzuf:zzcat zzuf
