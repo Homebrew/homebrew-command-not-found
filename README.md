@@ -59,7 +59,7 @@ used by Bash when you try a command that doesn’t exist. The function calls
 `brew which-formula` on your command, and if it finds a match it’ll print it to
 you. If not, you’ll get an error as expected.
 
-Over [2000 formulae][progress] have been imported in the database, representing
-more than 8100 different commands (67% of the main Homebrew repo).
+Over [2900 formulae][progress] have been imported in the database, representing
+more than 10600 different commands (97% of the main Homebrew repo).
 
 [progress]: https://github.com/bfontaine/homebrew-command-not-found/wiki/Progress
