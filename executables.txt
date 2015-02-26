@@ -2647,7 +2647,7 @@ trafshow:trafshow
 trang:trang
 transcrypt:transcrypt
 translate-toolkit:build_firefox.sh build_tmdb buildxpi.py csv2po csv2tbx get_moz_enUS.py html2po ical2po ini2po json2po junitmsgfmt moz2po odf2xliff oo2po oo2xliff php2po po2csv po2html po2ical po2ini po2json po2moz po2oo po2php po2prop po2rc po2sub po2symb po2tiki po2tmx po2ts po2txt po2web2py po2wordfast po2xliff poclean pocommentclean pocompendium pocompile poconflicts pocount podebug pofilter pogrep pomerge pomigrate2 popuretext poreencode porestructure posegment posplit poswap pot2po poterminology pretranslate prop2po rc2po sub2po symb2po tiki2po tmserver ts2po txt2po web2py2po xliff2odf xliff2oo xliff2po
-transmission:
+transmission:transmission-cli transmission-create transmission-daemon transmission-edit transmission-remote transmission-show
 trash:trash
 tre:agrep
 tree:tree
@@ -2661,9 +2661,12 @@ ttf2pt1:ttf2pt1
 ttfautohint:ttfautohint
 tth:latex2gif ps2gif ps2png tth
 tty-clock:tty-clock
+ttylog:ttylog
 ttyrec:ttyplay ttyrec ttytime
+ttytter:ttytter
 tup:tup
 tutum:tutum
+twemcache:
 two-lame:twolame
 txt2man:bookman src2man txt2man
 txt2tags:txt2tags
@@ -2671,10 +2674,12 @@ typesafe-activator:activator
 typespeed:typespeed
 u-boot-tools:mkimage
 uade:mod2ogg2.sh uade123
+uchardet:uchardet
 ucl:
 ucommon:args car commoncpp-config keywait mdsum pdetach scrub-files sockaddr ucommon-config zerofill
 ucspi-tcp:addcr argv0 date@ delcr finger@ fixcrio http@ mconnect mconnect-io rblsmtpd recordio tcpcat tcpclient tcprules tcprulescheck tcpserver who@
 ucspi-tools:socks tlsc
+udis86:udcli
 udns:dnsget rblcheck
 udptunnel:udptunnel
 udpxy:udpxrec udpxy
@@ -2685,11 +2690,20 @@ unar:lsar unar
 unarj:unarj
 unbound:unbound unbound-anchor unbound-checkconf unbound-control unbound-control-setup unbound-host
 uncrustify:uncrustify
+unfs3:unfsd
+unifdef:unifdef unifdefall
 unison:unison
 unittest-cpp:
+unittest:
 unixodbc:dltest isql iusql odbc_config odbcinst slencheck
+unoconv:unoconv
+unp:ucat unp
+unpaper:unpaper
 unrar:unrar
+unrtf:unrtf
+unshield:unshield
 up:up
+uptimed:uprecords uptimed
 upx:upx
 uriparser:uriparse
 urlview:urlview
@@ -2701,7 +2715,12 @@ uwsgi:uwsgi
 v8:d8 lineprocessor mksnapshot process v8
 vala:vala vala-0.26 vala-gen-introspect vala-gen-introspect-0.26 valac valac-0.26 vapicheck vapicheck-0.26 vapigen vapigen-0.26
 valabind:valabind valabind-cc
+varnish:varnishadm varnishhist varnishlog varnishncsa varnishstat varnishtest varnishtop varnishd
+vassh:vassh vassh.sh vasshin
+vault-cli:vlt
 vavrdiasm:vavrdisasm
+vbindiff:vbindiff
+vcdimager:cdxa2mpeg vcd-info vcdimager vcdxbuild vcdxgen vcdxminfo vcdxrip
 vcodex:vcformat vczip
 vcprompt:vcprompt
 vcsh:vcsh
@@ -2711,24 +2730,40 @@ vera++:vera++
 verilator:verilator verilator_bin verilator_bin_dbg verilator_profcfunc
 vert.x:vertx
 vf:
+vgmstream:vgmstream
 vifm:vifm vifm-pause vifmrc-converter
 vilistextum:vilistextum
 vim:ex rview rvim view vim vimdiff vimtutor xxd
 vimpager:vimcat vimpager
+vimpc:vimpc
 vip:vip
 virtualhost.sh:virtualhost.sh
+virtualpg:
+virtuoso:inifile isql isqlw virt_mail virtuoso-t
 visionmedia-watch:watch
+visitors:visitors
+visualnetkit:visualnetkit
 vit:
 vitetris:tetris
 vmalloc:
+vncsnapshot:vncpasswd vncsnapshot
 vnstat:vnstat vnstatd vnstati
 vnu:vnu
 vobcopy:vobcopy
 volatility:vol.py
 voldemort:rebalance-cluster-expansion.sh rebalance-new-zoned-cluster.sh rebalance-shuffle.sh rebalance-zone-expansion.sh rebalance-zone-shrinkage.sh repeat-junit-test.sh repeat-junit.sh run-class.sh vadmin.sh voldemort-admin-tool.sh voldemort-convert-bdb.sh voldemort-coordinator-admin.sh voldemort-coordinator.sh voldemort-performance-tool.sh voldemort-prod-server.sh voldemort-scala-shell.sh voldemort-server.sh voldemort-shell.sh voldemort-stop.sh voldemort-thin-client-shell.sh
+voltdb:csvloader exporttofile sqlcmd voltadmin voltcompiler voltdb
+voms:voms-proxy-destroy voms-proxy-fake voms-proxy-info voms-proxy-init voms-proxy-list voms
+vorbis-tools:ogg123 oggdec oggenc ogginfo vcut vorbiscomment
+vorbisgain:vorbisgain
 vowpal-wabbit:active_interactor library_example spanning_tree vw
 vpcs:vpcs
+vpnc:cisco-decrypt pcf2vpnc vpnc vpnc-disconnect
+vramsteg:vramsteg
 vrpn:client_and_server forward last_of_sequence sample_analog sample_server test_analogfly test_auxiliary_logger test_freespace test_logging test_loopback test_mutexServer test_peerMutex test_radamec_spi test_rumble test_vrpn testimager_server testSharedObjectServer textServer vrpn_HID_device_watcher vrpn_server
+vsftpd:vsftpd
+vstr:
+vtclock:vtclock
 vte3:vte2_90
 vte:vte
 vttest:vttest
@@ -2742,56 +2777,90 @@ watch:watch
 watchman:watchman
 wavpack:wavpack wvgain wvunpack
 wbox:wbox
+wdfs:wdfs
 wdiff:mdiff unify wdiff wdiff2
 web100clt:
+webalizer:
+webfs:webfsd
 webkit2png:webkit2png
 webp:cwebp dwebp vwebp webpmux
 webradioscrobbler:webradioscrobbler
 weechat:weechat weechat-curses
 weighttp:weighttp
 wellington:wt
+wemux:wemux
 wget:wget
 wgetpaste:wgetpaste
+whatmask:whatmask
 when:when
 whereami:whereami
+whirr:whirr
+whitedb:indextool stresstest wgdb
+whohas:whohas
 why3:why3
+wifi-password:wifi-password
+wiggle:wiggle
+wildfly-as:
+wimlib:mkwinpeimg wimappend wimapply wimcapture wimdelete wimdir wimexport wimextract wiminfo wimjoin wimlib-imagex wimmount wimmountrw wimoptimize wimsplit wimunmount wimupdate wimverify
 wine:function_grep.pl msiexec notepad regedit regsvr32 widl wine wine.bin wineboot winebuild winecfg wineconsole winecpp winedbg winedump winefile wineg++ winegcc winemaker winemine winepath wineserver wmc wrc
+winetricks:winetricks
+winexe:
 wireshark:capinfos captype dftest dumpcap editcap mergecap randpkt rawshark reordercap text2pcap tshark
 wirouter_keyrec:wirouterkeyrec wr_iwlist.sh
 with-readline:with-readline
 wkhtmltopdf:wkhtmltoimage wkhtmltopdf
+wla-dx:wla-6502 wla-6510 wla-65816 wla-65c02 wla-gb wla-huc6280 wla-spc700 wla-z80 wlab wlad wlalink
 wordnet:wishwn wn wnb
+wordplay:wordplay
+wput:wdel wput
 writerperfect:wks2ods wpd2odt wpg2odg wps2odt
+wrk-trello:wrk
 wrk:wrk
 wry:wry
 wslay:
 wsmancli:wseventmgr wsman
 wtf:wtf
+wv2:wv2-config
 wv:wvAbw wvCleanLatex wvConvert wvDocBook wvDVI wvHtml wvLatex wvMime wvPDF wvPS wvRTF wvSummary wvText wvVersion wvWare wvWml
+wwwoffle:wwwoffle wwwoffle-fsck wwwoffle-gunzip wwwoffle-gzip wwwoffle-hash wwwoffle-ls wwwoffle-mv wwwoffle-read wwwoffle-rm wwwoffle-tools wwwoffle-write wwwoffled
 wxmac:wx-config wxrc wxrc-3.0
 wxpython:
+wy60:wy60
 wyrd:wyrd
+x11vnc:x11vnc
 x264:x264
 x265:x265
 xa:file65 ldo65 printcbm reloc65 uncpk xa
 xapian:copydatabase delve quest simpleexpand simpleindex simplesearch xapian-check xapian-chert-update xapian-compact xapian-config xapian-inspect xapian-metadata xapian-progsrv xapian-replicate xapian-replicate-server xapian-tcpsrv
+xar:xar
+xaric:xaric
+xastir:callpass testdbfawk xastir xastir_udp_client
+xbee-comm:xbfwup
+xcproj:xcproj
 xctool:xctool
+xdelta:xdelta3
 xerces-c:CreateDOMDocument DOMCount DOMPrint EnumVal PParse PSVIWriter Redirect SAX2Count SAX2Print SAXCount SAXPrint SCMPrint SEnumVal StdInParse XInclude
 xlslib:
 xml-coreutils:xml-awk xml-cat xml-cp xml-cut xml-echo xml-file xml-find xml-fixtags xml-fmt xml-grep xml-head xml-less xml-ls xml-mv xml-paste xml-printf xml-rm xml-sed xml-strings xml-unecho xml-wc
 xml-security-c:c14n checksig cipher siginf templatesign txfmout xklient xtest
 xml-tooling-c:
+xmlcatmgr:xmlcatmgr
 xmlformat:xmlformat
 xmlrpc-c:xmlrpc-c-config
 xmlsh:xmlsh
 xmlstarlet:xml xmlstarlet
 xmlto:xmlif xmlto
 xmltoman:xmlmantohtml xmltoman
+xmount:xmount
 xmp:xmp
+xorriso:osirrox xorrecord xorriso xorriso-tcltk xorrisofs
 xplanet:xplanet
 xplanetfx:xplanetFX
+xqilla:xqilla
 xrootd:cconfig cmsd cns_ssi frm_admin frm_purged frm_xfragent frm_xfrd mpxstats wait41 xprep xrd xrdadler32 XrdCnsd xrdcopy xrdcp xrdcp-old xrdfs xrdgsiproxy xrdmapc xrdpwdadmin xrdsssadmin xrdstagetool xrootd xrootd-config
 xsane:xsane
+xspin:xspin
+xstow:merge-info xstow
 xsw:xsw xsw2jpeg xsw2pdf xsw2png xswconv
 xtail:xtail
 xtitle:xtitle
@@ -2801,7 +2870,9 @@ yacas:yacas ytxt2tex
 yaf:airdaemon filedaemon getFlowKeyHash ipfixDump yaf yafcollect yafMeta2Pcap yafscii
 yajl:json_reformat json_verify
 yamcha:yamcha yamcha-config yamcha-mkmodel
+yamdi:yamdi
 yaml-cpp:
+yap:yap
 yara:yara yarac
 yash:yash
 yasm:vsyasm yasm ytasm
