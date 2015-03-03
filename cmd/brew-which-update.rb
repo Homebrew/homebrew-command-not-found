@@ -11,69 +11,67 @@
 require "formula"
 require "pathname"
 
-def read_db(filename)
-  exes = {}
+class ExecutablesDB
+  def initialize(filename)
+    @filename = filename
+    @exes = {}
 
-  File.new(filename).each do |line|
-    formula, exes_line = line.split(":")
-    (exes[formula] ||= []).concat exes_line.split(" ")
+    if File.file? @filename
+      File.new(@filename).each do |line|
+        formula, exes_line = line.split(":")
+        (@exes[formula] ||= []).concat exes_line.split(" ")
+      end
+    end
   end
 
-  exes
-end
+  def update!
+    Formula.each do |f|
+      tap = f.tap? && f.tap !~ %r(^homebrew/)
+      name = tap ? "#{f.tap}/#{f.name}" : f.name
 
-def make_db(base=nil)
-  base = {} if base.nil?
+      if File.directory? f.prefix
+        @exes[name] ||= []
 
-  Formula.each do |f|
-    tap = f.tap? && f.tap !~ %r(^homebrew/)
-    name = tap ? "#{f.tap}/#{f.name}" : f.name
-
-    if File.directory? f.prefix
-      base[name] ||= []
-
-      Dir["#{f.prefix}/{bin,sbin}/*"].uniq.each do |path|
-        next unless File.executable? path
-        base[name] << Pathname.new(path).basename.to_s
-      end
-
-      base[name].uniq!
-    end
-
-    # this could be removed in the future when all tapped formulae have been
-    # migrated to the new prefixed format. Also not sure how this work with
-    # conflicting formulae (e.g. "foo" and "someone/sometap/foo").
-    if tap
-      if !base[name]
-        if base[f.name]
-          base[name] = base[f.name]
-          base.delete f.name
-          puts "Moving #{f.name} => #{name}"
+        Dir["#{f.prefix}/{bin,sbin}/*"].uniq.each do |path|
+          next unless File.executable? path
+          @exes[name] << Pathname.new(path).basename.to_s
         end
-      elsif base[name] == base[f.name]
-        base.delete f.name
-        puts "Removing #{f.name} (#{name} already present)"
+
+        @exes[name].uniq!
+      end
+
+      # this could be removed in the future when all tapped formulae have been
+      # migrated to the new prefixed format. Also not sure how this work with
+      # conflicting formulae (e.g. "foo" and "someone/sometap/foo").
+      if tap
+        if !@exes[name]
+          if @exes[f.name]
+            @exes[name] = @exes[f.name]
+            @exes.delete f.name
+            puts "Moving #{f.name} => #{name}"
+          end
+        elsif @exes[name] == @exes[f.name]
+          @exes.delete f.name
+          puts "Removing #{f.name} (#{name} already present)"
+        end
       end
     end
   end
 
-  base
-end
+  def save!
+    ordered_db = @exes.map do |formula, exs|
+      "#{formula}:#{exs.uniq.join(" ")}\n"
+    end.sort
 
-def save_db(db, filename)
-  ordered_db = db.map do |formula, exes|
-    "#{formula}:#{exes.uniq.join(" ")}\n"
-  end.sort
-
-  File.open(filename, "w") do |f|
-    ordered_db.each do |line|
-      f.write(line)
+    File.open(@filename, "w") do |f|
+      ordered_db.each do |line|
+        f.write(line)
+      end
     end
   end
 end
 
-db_filename = ARGV.named.first
-if db_filename.nil?
+if ARGV.named.empty?
   puts <<-EOS
 Usage:
 
@@ -83,11 +81,6 @@ Usage:
   exit 1
 end
 
-# 1. get the existing DB
-orig = File.file?(db_filename) ? read_db(db_filename) : {}
-
-# 2. update it
-db = make_db orig
-
-# 3. save it
-save_db(db, db_filename)
+db = ExecutablesDB.new ARGV.named.first
+db.update!
+db.save!
