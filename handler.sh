@@ -30,8 +30,9 @@
 
     if [ -z "$txt" ]; then
         echo $"$cmd: command not found"
-        return 127
+    else
+        echo "$txt"
     fi
 
-    echo "$txt"
+    return 127
 }
