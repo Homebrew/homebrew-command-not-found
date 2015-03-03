@@ -78,6 +78,8 @@ def which_formula(cmd, explain=false)
     formula if !cmds.nil? && cmds.include?(cmd)
   end.compact
 
+  return if formulae.empty?
+
   if explain
     explain_formulae_install(cmd, formulae)
   else
