@@ -14,6 +14,7 @@ require "shellwords"
 # brew
 require "extend/ARGV.rb"
 
+TAP_RE = %r(^.+?/[^/]+)
 LIST_PATH = File.expand_path("#{File.dirname(__FILE__)}/../executables.txt")
 
 def matches(cmd)
@@ -22,11 +23,31 @@ def matches(cmd)
   `grep #{Shellwords.escape cmd} #{LIST_PATH} 2>/dev/null`.chomp.split(/\n/)
 end
 
-# Print a small text explaining how to get 'cmd' by installing 'formula'
+def tapped?(tap)
+  (HOMEBREW_LIBRARY/"Taps/#{tap}").directory?
+end
+
+def get_tap(formula)
+  formula[TAP_RE]
+end
+
+# Filter a list of formulae by removing those from an untapped tap
+def remove_not_tapped(formulae)
+  formulae.select { |f| !f.include?("/") || tapped?(get_tap f) }
+end
+
+# Print a small text explaining how to get 'cmd' by installing 'formula'. Note
+# that it'll still suggest to install the formula if it's already installed but
+# unlinked.
 def explain_formula_install(cmd, formula)
+  instructions = []
+  tap = get_tap formula
+  instructions << "brew tap #{tap}" if tap && !tapped?(tap)
+  instructions << "brew install #{formula}"
+
   puts <<-EOS
 The program '#{cmd}' is currently not installed. You can install it by typing:
-  brew install #{formula}
+  #{instructions * "\n  "}
   EOS
 end
 
@@ -34,10 +55,13 @@ end
 # formulae.
 def explain_formulae_install(cmd, formulae)
   return explain_formula_install(cmd, formulae.first) if formulae.size == 1
-  puts <<-EOS
-The program '#{cmd}' can be found in the following formulae:
-  * #{formulae * "\n  * "}
-Try: brew install <selected formula>
+  # we don't support external formulae here for now since we'd need to explain
+  # how to tap everything.
+  formulae = remove_not_tapped(formulae)
+  puts <<-EOS.undent
+    The program '#{cmd}' can be found in the following formulae:
+      * #{formulae * "\n      * "}
+    Try: brew install <selected formula>
   EOS
 end
 
