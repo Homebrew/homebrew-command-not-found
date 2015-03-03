@@ -26,14 +26,12 @@
 
     # </from Linux Journal>
 
-    local f=$(brew which-formula $cmd 2>/dev/null | head -n 1)
+    local txt=$(brew which-formula --explain $cmd 2>/dev/null)
 
-    if [ -z "$f" ]; then
-        echo $"$1: command not found"
+    if [ -z "$txt" ]; then
+        echo $"$cmd: command not found"
         return 127
     fi
 
-    echo $"The program '$cmd' is currently not installed. You can install it by typing:"
-    echo $"  brew install $f"
-
+    echo "$txt"
 }
