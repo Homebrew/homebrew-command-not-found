@@ -8,6 +8,8 @@
 #   brew which-update <DB file>
 #
 
+require "formula"
+
 def read_db(filename)
   exes = {}
 
@@ -23,7 +25,12 @@ def make_db(base=nil)
   base = {} if base.nil?
 
   Dir["#{HOMEBREW_CELLAR}/*"].each do |d|
-    formula = d.split("/")[-1].strip
+    name = d.split("/")[-1].strip
+
+    f = Formula[name] rescue next
+
+    formula = f.tap? && f.tap !~ %r(^homebrew/) ? "#{f.tap}/#{name}" : name
+
     base[formula] ||= []
 
     Dir["#{d}/*/{bin,sbin}/*"].uniq.each do |path|
