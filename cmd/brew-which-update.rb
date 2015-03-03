@@ -9,6 +9,7 @@
 #
 
 require "formula"
+require "pathname"
 
 def read_db(filename)
   exes = {}
@@ -24,18 +25,35 @@ end
 def make_db(base=nil)
   base = {} if base.nil?
 
-  Dir["#{HOMEBREW_CELLAR}/*"].each do |d|
-    name = d.split("/")[-1].strip
+  Formula.each do |f|
+    tap = f.tap? && f.tap !~ %r(^homebrew/)
+    name = tap ? "#{f.tap}/#{f.name}" : f.name
 
-    f = Formula[name] rescue next
+    if File.directory? f.prefix
+      base[name] ||= []
 
-    formula = f.tap? && f.tap !~ %r(^homebrew/) ? "#{f.tap}/#{name}" : name
+      Dir["#{f.prefix}/{bin,sbin}/*"].uniq.each do |path|
+        next unless File.executable? path
+        base[name] << Pathname.new(path).basename.to_s
+      end
 
-    base[formula] ||= []
+      base[name].uniq!
+    end
 
-    Dir["#{d}/*/{bin,sbin}/*"].uniq.each do |path|
-      next unless File.executable? path
-      base[formula] << path.split("/")[-1].strip
+    # this could be removed in the future when all tapped formulae have been
+    # migrated to the new prefixed format. Also not sure how this work with
+    # conflicting formulae (e.g. "foo" and "someone/sometap/foo").
+    if tap
+      if !base[name]
+        if base[f.name]
+          base[name] = base[f.name]
+          base.delete f.name
+          puts "Moving #{f.name} => #{name}"
+        end
+      elsif base[name] == base[f.name]
+        base.delete f.name
+        puts "Removing #{f.name} (#{name} already present)"
+      end
     end
   end
 
