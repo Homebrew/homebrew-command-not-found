@@ -26,7 +26,7 @@ class ExecutablesDB
 
   def update!
     Formula.each do |f|
-      tap = f.tap? && f.tap !~ %r(^homebrew/)
+      tap = f.tap? #&& f.tap !~ %r(^homebrew/)
       name = tap ? "#{f.tap}/#{f.name}" : f.name
 
       if File.directory? f.prefix
