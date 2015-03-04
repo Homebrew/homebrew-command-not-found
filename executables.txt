@@ -1018,9 +1018,11 @@ hive:beeline ext hive hive-config.sh hiveserver2 metatool schematool
 hoedown:hoedown
 homebrew/homebrew-apache/ab:ab
 homebrew/homebrew-binary/adobe-air-sdk:aasdoc acompc adl adt amxmlc asdoc compc fdb fontswf mxmlc optimizer swcdepends swfdump
+homebrew/homebrew-binary/appswitch:appswitch
 homebrew/homebrew-boneyard/catdoc:catdoc catppt wordview xls2csv
 homebrew/homebrew-boneyard/jscoverage:jscoverage jscoverage-server
 homebrew/homebrew-boneyard/wkhtmltopdf:wkhtmltoimage wkhtmltopdf
+homebrew/homebrew-dupes/apple-gcc42:c++-4.2 cpp-4.2 g++-4.2 gcc-4.2 gcov-4.2 gfortran-4.2 i686-apple-darwin11-cpp-4.2.1 i686-apple-darwin11-g++-4.2.1 i686-apple-darwin11-gcc-4.2.1 i686-apple-darwin11-gfortran-4.2.1
 homebrew/homebrew-dupes/gperf:gperf
 homebrew/homebrew-dupes/grep:gegrep gfgrep ggrep
 homebrew/homebrew-dupes/groff:addftinfo afmtodit chem eqn eqn2graph gdiffmk glilypond gperl gpinyin grap2graph grn grodvi groff groffer grog grolbp grolj4 gropdf grops grotty hpftodit indxbib lkbib lookbib mmroff neqn nroff pdfmom pdfroff pfbtops pic pic2graph post-grohtml pre-grohtml preconv refer roff2dvi roff2html roff2pdf roff2ps roff2text roff2x soelim tbl tfmtodit troff
@@ -1029,6 +1031,7 @@ homebrew/homebrew-dupes/libiconv:iconv
 homebrew/homebrew-dupes/tcl-tk:dtplite nns nnsd nnslog page pt tcldocstrip tclsh tclsh8.6 wish wish8.6
 homebrew/homebrew-dupes/zlib:
 homebrew/homebrew-games/abuse:abuse abuse-tool
+homebrew/homebrew-games/angband:angband
 homebrew/homebrew-games/einstein:einstein
 homebrew/homebrew-games/moon-buggy:moon-buggy
 homebrew/homebrew-games/myman:myman myman-0.7.1 myman.command
@@ -1151,10 +1154,16 @@ homebrew/homebrew-science/abyss:ABYSS abyss-align abyss-bloom abyss-bloom-dist.m
 homebrew/homebrew-science/adam:adam
 homebrew/homebrew-science/adol-c:
 homebrew/homebrew-science/alglib:
-homebrew/homebrew-science/amos:
+homebrew/homebrew-science/amos:ace2contig agp2amos amos2ace amos2frg amos2mates amos2sq AMOScmp AMOScmp-shortReads AMOScmp-shortReads-alignmentTrimmed amosvalidate analyze-read-depth analyzeSNPs arachne2ctg arachne2scaff arrive arrive2 asmQC asmQC2 assembleRNAs astats bank-clean bank-combine bank-mapping bank-report bank-transact bank-tutorial bank-unlock bank2contig bank2coverage bank2fasta bank2lib bank2scaff benchmark2arachne benchmark2ca benchmark2mates benchmark2ta benchmark_qual benchmark_seq blasr2coords blat2nucmer Bundler ca2ctg ca2mates ca2scaff ca2singletons ca2ta casm-breaks casm-layout castats cavalidate cestat-cov cgb2ctg Chainer clk clusterSnps contig-cmp contig2contig coords2cam count-kmers count-qmers ctg2fasta ctg2umdcontig ctgovl cvgChop cvgStat delta2clr delta2cvg dumpContigsAsReads dumpFeatures dumpmates dumpreads excl_seqs extractContig fasta_select_len fasta_to_fastq fastq_rename fastq_to_fasta_fast fastqqc filter_contig filter_seq FilterEdgesByCluster filterfrg find-duplicate-reads find-query-breaks find-tandem find_ends findChimeras findMissingMates findTcovSnp fixfastq fixfrg fixlib FRCurve frg-umd-merge frg2fasta frg2fastq frg2ta gap-links gccontent gene_asm genome-complexity genome-complexity-fast getFRCvalues getlengths getN50 goBambus2 grow-readbank hash-overlap insert-sizes iterate Joiner kmer-count kmer-cov kmer-cov-plot kmers ktrimfrg library-histogram Linearize list-linked-contigs listcontigreads listGCContent listReadPlacedStatus listSingletonMates listSurrogates load-overlaps loadFeatures make-consensus make-consensus_poly MarkRepeats merge-contigs message-count message-extract message-validate Minimo minimus minimus2 minimus2-blat missing-reads normalizeScaffold nucmer2ovl nucmerAnnotate olapsFromContig OrientContigs OutputMotifs OutputResults OutputScaffolds overlap-align ovl-degr-dist ovl2OVL parsecasm partitionBank phd2afg postCAqc preassembleFrgs preTA printScaff pullTArchive pyrosim qmer-filter read-cov-plot readinfo2cam recallConsensus renameReads rerunMultiTest resetFragLibrary revFasta revScaffold runAmos runMultiTest running-cmp runTA runTest scaff2fasta scaffoldRange2Ungapped select-reads show-ma-asm sim-cover-depth sim-cover2 sim-shotgun simple-overlap simpleContigLoader simplifyLibraries singles sort2 stats summarizeMultiTest suspiciousfeat2region ta2ace tab2ovls tagsum-reduce tandemCollapse tarchive2amos tarchive2ca tigger tiling2cam toAmos toAmos_new toArachne trace_comment trace_comments trace_convert trace_scf_dump trace_seq translate-fasta trimByOvl trimends trimfrg untangle updateBankPositions updateClrRanges updateDeltaClr updateLibSizes vecfix verify-layout
+homebrew/homebrew-science/ann:ann2fig ann_sample ann_test
+homebrew/homebrew-science/aragorn:aragorn
+homebrew/homebrew-science/armadillo:
+homebrew/homebrew-science/arow++:arow_learn arow_test
+homebrew/homebrew-science/arpack:
 homebrew/homebrew-science/colpack:
 homebrew/homebrew-science/hdf5:gif2h5 h52gif h5cc h5copy h5debug h5diff h5dump h5import h5jam h5ls h5mkgrp h5perf_serial h5redeploy h5repack h5repart h5stat h5unjam
 homebrew/homebrew-science/hwloc:hwloc-annotate hwloc-assembler hwloc-assembler-remote hwloc-bind hwloc-calc hwloc-compress-dir hwloc-diff hwloc-distances hwloc-distrib hwloc-info hwloc-ls hwloc-patch hwloc-ps lstopo lstopo-no-graphics
+homebrew/homebrew-science/libsequence:
 homebrew/homebrew-science/mummer:nucmer promer run-mummer1 run-mummer3
 homebrew/homebrew-science/suite-sparse:
 homebrew/homebrew-science/veclibfort:
