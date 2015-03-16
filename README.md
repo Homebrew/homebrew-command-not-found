@@ -25,7 +25,7 @@ First, tap this repository:
 
     brew tap bfontaine/command-not-found
 
-Then source the `handler.sh` script in your `.bashrc`:
+Then source the `handler.sh` script in your `.bashrc`(bash) or `.zshrc`(zsh):
 
     . $(brew --prefix)/Library/Taps/bfontaine/homebrew-command-not-found/handler.sh
 
