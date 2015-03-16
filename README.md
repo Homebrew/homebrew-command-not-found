@@ -40,10 +40,6 @@ The 0.2.0 version changed how it works. If you’d like to keep your existing
 handler script, it’s fine, it’ll continue to work. If instead you’d like to
 upgrade to 0.2.0 just remove it and follow the install instructions above.
 
-### Requirements
-
-This tool only supports Bash for now.
-
 ## How does it work?
 
 When you tap the repo you’ll get two more `brew` commands: `brew which-formula`
