@@ -43,6 +43,7 @@ class ExecutablesDB
       # this could be removed in the future when all tapped formulae have been
       # migrated to the new prefixed format. Also not sure how this work with
       # conflicting formulae (e.g. "foo" and "someone/sometap/foo").
+      # TODO use #{HOMEBREW_LIBRARY}/tap_migrations.rb
       if tap
         if !@exes[name]
           if @exes[f.name]
@@ -50,9 +51,9 @@ class ExecutablesDB
             @exes.delete f.name
             puts "Moving #{f.name} => #{name}"
           end
-        elsif @exes[name] == @exes[f.name]
-          @exes.delete f.name
-          puts "Removing #{f.name} (#{name} already present)"
+        #elsif @exes[name] == @exes[f.name]
+        #  @exes.delete f.name
+        #  puts "Removing #{f.name} (#{name} already present)"
         end
       end
     end
