@@ -839,6 +839,7 @@ git-gerrit:gerrit gerrit-cherry-pick git-gerrit
 git-imerge:git-imerge
 git-integration:git-integration
 git-latexdiff:git-latexdiff
+git-lfs:git-lfs
 git-multipush:git-multipush
 git-now:git-now
 git-number:git-id git-list git-number
@@ -976,7 +977,6 @@ gtkspell3:
 gtmess:gtmess gtmess-notify gtmess_w
 gts:delaunay gts-config gts2dxf gts2oogl gts2stl gtscheck gtscompare gtstemplate happrox stl2gts transform
 guile:guild guile guile-config guile-snarf guile-tools
-guilt:guilt
 gupnp-av:
 gupnp:gupnp-binding-tool
 gvp:gvp
@@ -1022,11 +1022,13 @@ homebrew/homebrew-binary/adobe-air-sdk:aasdoc acompc adl adt amxmlc asdoc compc 
 homebrew/homebrew-binary/appswitch:appswitch
 homebrew/homebrew-boneyard/catdoc:catdoc catppt wordview xls2csv
 homebrew/homebrew-boneyard/git-flow-clone:git-flow-clone
+homebrew/homebrew-boneyard/guilt:guilt
 homebrew/homebrew-boneyard/jscoverage:jscoverage jscoverage-server
 homebrew/homebrew-boneyard/wkhtmltopdf:wkhtmltoimage wkhtmltopdf
 homebrew/homebrew-dupes/apple-gcc42:c++-4.2 cpp-4.2 g++-4.2 gcc-4.2 gcov-4.2 gfortran-4.2 i686-apple-darwin11-cpp-4.2.1 i686-apple-darwin11-g++-4.2.1 i686-apple-darwin11-gcc-4.2.1 i686-apple-darwin11-gfortran-4.2.1
 homebrew/homebrew-dupes/awk:awk
 homebrew/homebrew-dupes/bzip2:bunzip2 bzcat bzcmp bzdiff bzegrep bzfgrep bzgrep bzip2 bzip2recover bzless bzmore
+homebrew/homebrew-dupes/expect:autoexpect autopasswd cryptdir decryptdir dislocate expect ftp-rfc kibitz lpunlock mkpasswd multixterm passmass rftp rlogin-cwd timed-read timed-run tknewsbiff tkpasswd unbuffer weather xkibitz xpstat
 homebrew/homebrew-dupes/file-formula:file
 homebrew/homebrew-dupes/gdb:gdb
 homebrew/homebrew-dupes/gperf:gperf
@@ -1366,6 +1368,8 @@ homebrew/homebrew-science/superlu_dist:
 homebrew/homebrew-science/symphony:clp symphony
 homebrew/homebrew-science/tasr:TASR
 homebrew/homebrew-science/tbl2asn:tbl2asn
+homebrew/homebrew-science/ticcutils:
+homebrew/homebrew-science/timbl:timbl
 homebrew/homebrew-science/tisean:randomize_auto_exp_random randomize_autop_exp_random randomize_spikeauto_exp_random randomize_spikespec_exp_event randomize_uneven_exp_random tisean-addnoise tisean-ar-model tisean-ar-run tisean-arima-model tisean-autocor tisean-av-d2 tisean-boxcount tisean-c1 tisean-c2d tisean-c2g tisean-c2naive tisean-c2t tisean-choose tisean-cluster tisean-compare tisean-corr tisean-d2 tisean-delay tisean-endtoend tisean-events tisean-extrema tisean-false_nearest tisean-fsle tisean-ghkss tisean-henon tisean-histogram tisean-ikeda tisean-intervals tisean-lazy tisean-lfo-ar tisean-lfo-run tisean-lfo-test tisean-lorenz tisean-low121 tisean-lyap_k tisean-lyap_r tisean-lyap_spec tisean-lzo-gm tisean-lzo-run tisean-lzo-test tisean-makenoise tisean-mem_spec tisean-mutual tisean-notch tisean-nrlazy tisean-nstat_z tisean-pc tisean-pca tisean-poincare tisean-polyback tisean-polynom tisean-polynomp tisean-polypar tisean-predict tisean-project tisean-rbf tisean-recurr tisean-resample tisean-rescale tisean-rms tisean-sav_gol tisean-spectrum tisean-spikeauto tisean-spikespec tisean-stp tisean-surrogates tisean-timerev tisean-upo tisean-upoembed tisean-wiener1 tisean-wiener2 tisean-xc2 tisean-xcor tisean-xrecur tisean-xzero
 homebrew/homebrew-science/trinity:Trinity
 homebrew/homebrew-science/uproc:uproc-detailed uproc-dna uproc-export uproc-import uproc-makedb uproc-orf uproc-prot
@@ -2454,6 +2458,7 @@ pplatex:ppdflatex pplatex
 ppss:ppss
 predictionio:pio
 premake:premake4
+prettyping:prettyping
 primesieve:primesieve
 prips:prips
 privoxy:privoxy
