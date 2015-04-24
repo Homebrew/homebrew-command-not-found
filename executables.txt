@@ -171,7 +171,6 @@ batik:batik batik-rasterizer batik-ttf2svg
 bats:bats
 bazaar:bzr
 bbcolors:bbcolors
-bbcp:bbcp
 bbe:bbe
 bbftp-client:bbftp bbftpstatus
 bchunk:bchunk
@@ -564,7 +563,6 @@ doxymacs:doxymacs_parser
 dpkg:dpkg dpkg-architecture dpkg-buildflags dpkg-buildpackage dpkg-checkbuilddeps dpkg-deb dpkg-distaddfile dpkg-divert dpkg-genchanges dpkg-gencontrol dpkg-gensymbols dpkg-maintscript-helper dpkg-mergechangelogs dpkg-name dpkg-parsechangelog dpkg-query dpkg-scanpackages dpkg-scansources dpkg-shlibdeps dpkg-source dpkg-split dpkg-statoverride dpkg-trigger dpkg-vendor
 drake:drake
 drip:drip
-dromeaudio:DromeAudioPlayer
 dropbear:dbclient dropbearconvert dropbearkey dropbear
 dsd:dsd
 dsh:dsh
@@ -1074,7 +1072,9 @@ homebrew/homebrew-games/rom-tools:chdman jedutil ldplayer ldresample ldverify nl
 homebrew/homebrew-games/ski:ski
 homebrew/homebrew-games/ume:ume
 homebrew/homebrew-games/vitetris:tetris
+homebrew/homebrew-headonly/bbcp:bbcp
 homebrew/homebrew-headonly/cv:cv
+homebrew/homebrew-headonly/dromeaudio:DromeAudioPlayer
 homebrew/homebrew-headonly/smpeg:glmovie gtv plaympeg smpeg-config
 homebrew/homebrew-php/behat:behat
 homebrew/homebrew-php/boris:boris
@@ -1966,7 +1966,7 @@ lsh:lcp lsftp lsh lsh-authorize lsh-decode-key lsh-decrypt-key lsh-export-key ls
 lsyncd:lsyncd
 ltl2ba:ltl2ba
 lua51:lua-5.1 lua5.1 luac-5.1 luac5.1
-lua:lua lua-5.2 lua5.2 luac luac-5.2 luac5.2
+lua:lua lua-5.2 lua5.2 luac luac-5.2 luac5.2 luarocks-5.2 luarocks-admin-5.2
 luabind:
 luajit:luajit luajit-2.0.3
 luarocks:luarocks luarocks-5.2 luarocks-admin luarocks-admin-5.2
@@ -2204,6 +2204,7 @@ newsbeuter:newsbeuter podbeuter
 newt:whiptail
 nexus:nexus
 nfcutils:lsnfc
+nfdump:nfanon nfcapd nfdump nfexpire nfreplay
 nghttp2:deflatehd h2load inflatehd nghttp nghttpd nghttpx
 nginx:nginx
 ngircd:ngircd
