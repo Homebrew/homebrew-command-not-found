@@ -27,8 +27,7 @@ First, tap this repository:
 
 Then source the `handler.sh` script in your `.bashrc`(bash) or `.zshrc`(zsh):
 
-    . $(brew --prefix)/Library/Taps/bfontaine/homebrew-command-not-found/handler.sh
-
+    eval "$(brew command-not-found-init)"
 
 ### Upgrade from 0.1.1
 
