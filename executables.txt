@@ -487,7 +487,6 @@ darkhttpd:darkhttpd
 darkstat:darkstat
 dash:dash
 dasm:dasm ftohex
-datamash:datamash
 dateutils:dadd dconv ddiff dgrep dround dseq dtest strptime
 datomic:datomic datomic-repl datomic-repl-jline datomic-rest datomic-shell datomic-transactor
 davix:davix-get davix-http davix-ls davix-mkdir davix-mv davix-put davix-rm
@@ -874,6 +873,7 @@ giter8:g8
 gitfs:gitfs
 github-release:github-release
 gitslave:gits
+gitup:gitup
 gl2ps:
 glassfish:
 glbinding:
@@ -1049,6 +1049,7 @@ homebrew/homebrew-boneyard/jscoverage:jscoverage jscoverage-server
 homebrew/homebrew-boneyard/libqxt:
 homebrew/homebrew-boneyard/luarocks:luarocks luarocks-5.2 luarocks-admin luarocks-admin-5.2
 homebrew/homebrew-boneyard/pure:pure
+homebrew/homebrew-boneyard/shell.fm:shell-fm
 homebrew/homebrew-boneyard/wkhtmltopdf:wkhtmltoimage wkhtmltopdf
 homebrew/homebrew-dupes/apple-gcc42:c++-4.2 cpp-4.2 g++-4.2 gcc-4.2 gcov-4.2 gfortran-4.2 i686-apple-darwin11-cpp-4.2.1 i686-apple-darwin11-g++-4.2.1 i686-apple-darwin11-gcc-4.2.1 i686-apple-darwin11-gfortran-4.2.1
 homebrew/homebrew-dupes/awk:awk
@@ -1085,6 +1086,7 @@ homebrew/homebrew-games/moon-buggy:moon-buggy
 homebrew/homebrew-games/myman:myman myman-0.7.1 myman.command
 homebrew/homebrew-games/nethack4:nethack4
 homebrew/homebrew-games/ninvaders:nInvaders
+homebrew/homebrew-games/omega:dbi2omega htdig2omega mbox2omega omindex scriptindex
 homebrew/homebrew-games/ppsspp:PPSSPPSDL
 homebrew/homebrew-games/residualvm:residualvm
 homebrew/homebrew-games/rogue:rogue
@@ -1272,6 +1274,7 @@ homebrew/homebrew-science/corset:corset corset_fasta_ID_changer
 homebrew/homebrew-science/cppad:
 homebrew/homebrew-science/cuba:
 homebrew/homebrew-science/daligner:daligner HPCdaligner HPCmapper LAcat LAcheck LAmerge LAshow LAsort LAsplit
+homebrew/homebrew-science/datamash:datamash
 homebrew/homebrew-science/dgtal:
 homebrew/homebrew-science/edirect:econtact edirect.pl edirutil efetch efilter einfo elink enotify epost eproxy esearch espell esummary join-into-groups-of nquire sort-uniq-count sort-uniq-count-rank word-at-a-time xtract
 homebrew/homebrew-science/emboss:aaindexextract abiview acdc acdgalaxy acdlog acdpretty acdtable acdtrace acdvalid aligncopy aligncopypair antigenic assemblyget backtranambig backtranseq banana biosed btwisted cachedas cachedbfetch cacheebeyesearch cacheensembl cai chaos charge checktrans chips cirdna codcmp codcopy coderet compseq cons consambig cpgplot cpgreport cusp cutgextract cutseq dan dbiblast dbifasta dbiflat dbigcg dbtell dbxcompress dbxedam dbxfasta dbxflat dbxgcg dbxobo dbxreport dbxresource dbxstat dbxtax dbxuncompress degapseq density descseq diffseq distmat dotmatcher dotpath dottup dreg drfinddata drfindformat drfindid drfindresource drget drtext edamdef edamhasinput edamhasoutput edamisformat edamisid edamname edialign einverted embossdata embossupdate embossversion emma emowse entret epestfind eprimer3 eprimer32 equicktandem est2genome etandem extractalign extractfeat extractseq featcopy featmerge featreport feattext findkm freak fuzznuc fuzzpro fuzztran garnier geecee getorf godef goname helixturnhelix hmoment iep infoalign infoassembly infobase inforesidue infoseq isochore jaspextract jaspscan jembossctl lindna listor makenucseq makeprotseq marscan maskambignuc maskambigprot maskfeat maskseq matcher megamerger merger msbar mwcontam mwfilter needle needleall newcpgreport newcpgseek newseq nohtml noreturn nospace notab notseq nthseq nthseqset octanol oddcomp ontocount ontoget ontogetcommon ontogetdown ontogetobsolete ontogetroot ontogetsibs ontogetup ontoisobsolete ontotext palindrome pasteseq patmatdb patmatmotifs pepcoil pepdigest pepinfo pepnet pepstats pepwheel pepwindow pepwindowall plotcon plotorf polydot preg prettyplot prettyseq primersearch printsextract profit prophecy prophet prosextract pscan psiphi rebaseextract recoder redata refseqget remap restover restrict revseq runJemboss.sh seealso seqcount seqmatchall seqret seqretsetall seqretsplit seqxref seqxrefget servertell showalign showdb showfeat showorf showpep showseq showserver shuffleseq sigcleave silent sirna sixpack sizeseq skipredundant skipseq splitsource splitter stretcher stssearch supermatcher syco taxget taxgetdown taxgetrank taxgetspecies taxgetup tcode textget textsearch tfextract tfm tfscan tmap tranalign transeq trimest trimseq trimspace twofeat union urlget variationget vectorstrip water whichdb wobble wordcount wordfinder wordmatch wossdata wossinput wossname wossoperation wossoutput wossparam wosstopic xmlget xmltext yank
@@ -1836,6 +1839,7 @@ libmxml:mxmldoc
 libnatpmp:natpmpc
 libnet:libnet-config
 libnfc:nfc-anticol nfc-dep-initiator nfc-dep-target nfc-emulate-forum-tag2 nfc-emulate-forum-tag4 nfc-emulate-tag nfc-emulate-uid nfc-list nfc-mfclassic nfc-mfsetuid nfc-mfultralight nfc-poll nfc-read-forum-tag3 nfc-relay nfc-relay-picc nfc-scan-device pn53x-diagnose pn53x-sam pn53x-tamashell
+libnfs:nfs-ls
 libnice:sdp-example simple-example stunbdc stund threaded-example
 libnids:
 libntlm:
@@ -2296,7 +2300,6 @@ ogmtools:dvdxchap ogmcat ogmdemux ogminfo ogmmerge ogmsplit
 ohcount:ohcount
 ola:ola_artnet ola_dev_info ola_dmxconsole ola_dmxmonitor ola_e131 ola_patch ola_plugin_info ola_plugin_state ola_rdm_discover ola_rdm_get ola_rdm_set ola_recorder ola_set_dmx ola_set_priority ola_streaming_client ola_timecode ola_trigger ola_uni_info ola_uni_merge ola_uni_name ola_uni_stats ola_usbpro olad rdmpro_sniffer usbpro_firmware
 olsrd:olsrd
-omega:dbi2omega htdig2omega mbox2omega omindex scriptindex
 omniorb:catior convertior genior nameclt omkdepend omnicpp omniidl omniidlrun.py omniMapper omniNames
 ondir:ondir
 onepass:1pass
@@ -2805,7 +2808,6 @@ shadowsocks-libev:ss-local ss-tunnel
 shakespeare:spl2c
 shapelib:dbfadd dbfcreate dbfdump shpadd shpcreate shpdump shprewind shptreedump
 shared-mime-info:update-mime-database
-shell.fm:shell-fm
 shellcheck:shellcheck
 shellinabox:shellinaboxd
 shiboken:shiboken
