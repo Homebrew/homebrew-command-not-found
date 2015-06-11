@@ -12,6 +12,8 @@ require "formula"
 require "pathname"
 
 class ExecutablesDB
+  attr_accessor :exes
+
   def initialize(filename)
     @filename = filename
     @exes = {}
@@ -29,7 +31,7 @@ class ExecutablesDB
       tap = f.tap? #&& f.tap !~ %r(^homebrew/)
       name = tap ? "#{f.tap}/#{f.name}" : f.name
 
-      if File.directory? f.prefix
+      if f.installed?
         @exes[name] ||= []
 
         Dir["#{f.prefix}/{bin,sbin}/*"].uniq.each do |path|
@@ -40,20 +42,12 @@ class ExecutablesDB
         @exes[name].uniq!
       end
 
-      # this could be removed in the future when all tapped formulae have been
-      # migrated to the new prefixed format. Also not sure how this work with
-      # conflicting formulae (e.g. "foo" and "someone/sometap/foo").
-      # TODO use #{HOMEBREW_LIBRARY}/tap_migrations.rb
       if tap
-        if !@exes[name]
-          if @exes[f.name]
-            @exes[name] = @exes[f.name]
-            @exes.delete f.name
-            puts "Moving #{f.name} => #{name}"
-          end
-        #elsif @exes[name] == @exes[f.name]
-        #  @exes.delete f.name
-        #  puts "Removing #{f.name} (#{name} already present)"
+        origin = f.name
+        if !@exes[name] && @exes[origin]
+          @exes[name] = @exes[origin]
+          @exes.delete origin
+          puts "Moving #{origin} => #{name}"
         end
       end
     end
@@ -72,16 +66,20 @@ class ExecutablesDB
   end
 end
 
-if ARGV.named.empty?
-  puts <<-EOS
-Usage:
+# This variable should never be defined, I put it in my ~/.irbrc so requiring
+# this file in `irb` doesn't run this code block
+unless $BFN_IRB
+  if ARGV.named.empty?
+    puts <<-EOS
+  Usage:
 
-    brew-which-update <DB file>
+      brew-which-update <DB file>
 
-  EOS
-  exit 1
+    EOS
+    exit 1
+  end
+
+  db = ExecutablesDB.new ARGV.named.first
+  db.update!
+  db.save!
 end
-
-db = ExecutablesDB.new ARGV.named.first
-db.update!
-db.save!
