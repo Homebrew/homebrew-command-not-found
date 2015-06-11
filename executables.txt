@@ -270,7 +270,7 @@ cabextract:cabextract
 cabocha:cabocha cabocha-config
 cadaver:cadaver
 cadubi:cadubi
-cairo:cairo-trace cairo-sphinx
+cairo:cairo-sphinx cairo-trace
 cairomm:
 calabash:calabash
 calc:calc
@@ -799,13 +799,13 @@ gawk:awk gawk gawk-4.1.3 igawk
 gbdfed:gbdfed
 gcab:gcab
 gcal:gcal gcal2txt tcal txt2gcal
-gcc:c++-4.9 cpp-4.9 g++-4.9 gcc-4.9 gcc-ar-4.9 gcc-nm-4.9 gcc-ranlib-4.9 gcov-4.9 gfortran gfortran-4.9 x86_64-apple-darwin14.0.0-c++-4.9 x86_64-apple-darwin14.0.0-g++-4.9 x86_64-apple-darwin14.0.0-gcc-4.9 x86_64-apple-darwin14.0.0-gcc-4.9.2 x86_64-apple-darwin14.0.0-gcc-ar-4.9 x86_64-apple-darwin14.0.0-gcc-nm-4.9 x86_64-apple-darwin14.0.0-gcc-ranlib-4.9 x86_64-apple-darwin14.0.0-gfortran-4.9 c++-5 cpp-5 g++-5 gcc-5 gcc-ar-5 gcc-nm-5 gcc-ranlib-5 gcov-5 gcov-tool-5 gfortran-5 x86_64-apple-darwin14.3.0-c++-5 x86_64-apple-darwin14.3.0-g++-5 x86_64-apple-darwin14.3.0-gcc-5 x86_64-apple-darwin14.3.0-gcc-5.1.0 x86_64-apple-darwin14.3.0-gcc-ar-5 x86_64-apple-darwin14.3.0-gcc-nm-5 x86_64-apple-darwin14.3.0-gcc-ranlib-5 x86_64-apple-darwin14.3.0-gfortran-5
+gcc:c++-5 cpp-5 g++-5 gcc-5 gcc-ar-5 gcc-nm-5 gcc-ranlib-5 gcov-5 gcov-tool-5 gfortran gfortran-5 x86_64-apple-darwin14.3.0-c++-5 x86_64-apple-darwin14.3.0-g++-5 x86_64-apple-darwin14.3.0-gcc-5 x86_64-apple-darwin14.3.0-gcc-5.1.0 x86_64-apple-darwin14.3.0-gcc-ar-5 x86_64-apple-darwin14.3.0-gcc-nm-5 x86_64-apple-darwin14.3.0-gcc-ranlib-5 x86_64-apple-darwin14.3.0-gfortran-5
 gconf:gconf-merge-tree gconftool-2 gsettings-data-convert gsettings-schema-convert
 gcore:gcore
 gcovr:gcovr
 gcsfuse:gcsfuse gcsfuse_mount_helper
 gcutil:gcutil
-gd:annotate bdftogd gd2copypal gd2togif gd2topng gdcmpgif gdlib-config gdparttopng gdtopng giftogd2 pngtogd pngtogd2 webpng
+gd:annotate bdftogd gdcmpgif gdlib-config gdtopng pngtogd webpng
 gdal-grass:
 gdal:epsg_tr.py esri2wkt.py gcps2vec.py gcps2wld.py gdal-config gdal2tiles.py gdal2xyz.py gdal_auth.py gdal_calc.py gdal_contour gdal_edit.py gdal_fillnodata.py gdal_grid gdal_merge.py gdal_polygonize.py gdal_proximity.py gdal_rasterize gdal_retile.py gdal_sieve.py gdal_translate gdaladdo gdalbuildvrt gdalchksum.py gdalcompare.py gdaldem gdalenhance gdalident.py gdalimport.py gdalinfo gdallocationinfo gdalmanage gdalmove.py gdalserver gdalsrsinfo gdaltindex gdaltransform gdalwarp mkgraticule.py nearblack ogr2ogr ogrinfo ogrlineref ogrtindex pct2rgb.py rgb2pct.py testepsg
 gdbm:gdbm_dump gdbm_load gdbmtool
@@ -834,7 +834,7 @@ getxbook:getabook getbnbook getgbook getxbookgui
 gflags:gflags_completions.sh
 gforth:gforth gforth-0.7.3 gforth-fast gforth-fast-0.7.3 gforth-itc gforth-itc-0.7.3 gforthmi gforthmi-0.7.3 vmgen vmgen-0.7.3
 gh:gh
-ghc:ghc ghc-7.8.4 ghc-pkg ghc-pkg-7.8.4 ghci ghci-7.8.4 haddock haddock-ghc-7.8.4 hp2ps hpc hsc2hs runghc runghc-7.8.4 runhaskell ghc-7.10.1 ghc-pkg-7.10.1 ghci-7.10.1 haddock-ghc-7.10.1 runghc-7.10.1
+ghc:ghc ghc-7.10.1 ghc-pkg ghc-pkg-7.10.1 ghci ghci-7.10.1 haddock haddock-ghc-7.10.1 hp2ps hpc hsc2hs runghc runghc-7.10.1 runhaskell
 ghi:ghi
 ghostscript:dvipdf eps2eps font2c gs gsbj gsc gsdj gsdj500 gslj gslp gsnd gsx lprsetup.sh pdf2dsc pdf2ps pf2afm pfbtopfa pphs printafm ps2ascii ps2epsi ps2pdf ps2pdf12 ps2pdf13 ps2pdf14 ps2pdfwr ps2ps ps2ps2 unix-lpr.sh wftopfa
 gibbslda:lda
@@ -851,7 +851,7 @@ git-cal:git-cal
 git-cola:cola git-cola git-dag
 git-crypt:git-crypt
 git-encrypt:gitcrypt
-git-extras:git-alias git-archive-file git-back git-bug git-changelog git-commits-since git-contrib git-count git-create-branch git-delete-branch git-delete-merged-branches git-delete-submodule git-delete-tag git-effort git-extras git-feature git-fork git-fresh-branch git-gh-pages git-graft git-ignore git-info git-line-summary git-local-commits git-lock git-locked git-missing git-obliterate git-pr git-pull-request git-rebase-patch git-refactor git-release git-rename-tag git-repl git-reset-file git-root git-setup git-show-tree git-squash git-summary git-touch git-undo git-unlock git-authors git-chore git-delta git-guilt git-merge-into git-merge-repo git-rscp git-scp git-show-merged-branches git-show-unmerged-branches
+git-extras:git-alias git-archive-file git-authors git-back git-bug git-changelog git-chore git-commits-since git-contrib git-count git-create-branch git-delete-branch git-delete-merged-branches git-delete-submodule git-delete-tag git-delta git-effort git-extras git-feature git-fork git-fresh-branch git-gh-pages git-graft git-guilt git-ignore git-info git-line-summary git-local-commits git-lock git-locked git-merge-into git-merge-repo git-missing git-obliterate git-pr git-pull-request git-rebase-patch git-refactor git-release git-rename-tag git-repl git-reset-file git-root git-rscp git-scp git-setup git-show-merged-branches git-show-tree git-show-unmerged-branches git-squash git-summary git-touch git-undo git-unlock
 git-fixup:
 git-flow-avh:git-flow
 git-flow:git-flow
@@ -921,10 +921,10 @@ gnupg2:addgnupghome applygnupgdefaults gpg-connect-agent gpg2 gpgconf gpgkey2ssh
 gnupg:gpg gpg-zip gpgsplit gpgv
 gnuplot:gnuplot
 gnustep-make:
-gnutls:danetool gnutls-certtool gnutls-cli gnutls-cli-debug gnutls-serv ocsptool psktool srptool
+gnutls:gnutls-certtool gnutls-cli gnutls-cli-debug gnutls-serv ocsptool psktool srptool
 go-app-engine-32:appcfg.py bulkload_client.py bulkloader.py dev_appserver.py download_appstats.py goapp
 go-app-engine-64:appcfg.py bulkload_client.py bulkloader.py dev_appserver.py download_appstats.py goapp
-go:go gofmt godoc
+go:go godoc gofmt
 goaccess:goaccess
 gobject-introspection:g-ir-annotation-tool g-ir-compiler g-ir-generate g-ir-scanner
 gocr:gocr gocr.tcl
@@ -1230,7 +1230,7 @@ homebrew/homebrew-php/phpmyadmin:
 homebrew/homebrew-php/phpunit:phpunit
 homebrew/homebrew-python/matplotlib-basemap:
 homebrew/homebrew-python/matplotlib:
-homebrew/homebrew-python/numpy:f2py2.7 f2py
+homebrew/homebrew-python/numpy:f2py
 homebrew/homebrew-python/pillow:pilconvert.py pildriver.py pilfile.py pilfont.py pilprint.py
 homebrew/homebrew-python/pygame:
 homebrew/homebrew-science/a5:a5_pipeline.pl
@@ -1991,7 +1991,7 @@ litmus:litmus
 little-cms2:jpgicc linkicc psicc tificc transicc
 little-cms:icc2ps icclink icctrans jpegicc tiffdiff tifficc wtpt
 lldpd:lldpcli lldpctl lldpd
-llvm:bugpoint count FileCheck llc lli lli-child-target llvm-ar llvm-as llvm-bcanalyzer llvm-config llvm-cov llvm-diff llvm-dis llvm-dwarfdump llvm-extract llvm-link llvm-mc llvm-mcmarkup llvm-nm llvm-objdump llvm-profdata llvm-ranlib llvm-readobj llvm-rtdyld llvm-size llvm-stress llvm-symbolizer llvm-tblgen macho-dump not opt c-index-test clang clang++ clang-format clang-tblgen clang-apply-replacements clang-check clang-modernize clang-query clang-tidy pp-trace scan-build scan-view llvm-c-test llvm-dsymutil llvm-lto llvm-vtabledump obj2yaml verify-uselistorder yaml2obj
+llvm:bugpoint llc lli llvm-ar llvm-as llvm-bcanalyzer llvm-c-test llvm-config llvm-cov llvm-diff llvm-dis llvm-dsymutil llvm-dwarfdump llvm-extract llvm-link llvm-lto llvm-mc llvm-mcmarkup llvm-nm llvm-objdump llvm-profdata llvm-ranlib llvm-readobj llvm-rtdyld llvm-size llvm-stress llvm-symbolizer llvm-tblgen llvm-vtabledump macho-dump obj2yaml opt verify-uselistorder yaml2obj
 lmdb:mdb_copy mdb_dump mdb_load mdb_stat
 lnav:lnav
 lockrun:lockrun
@@ -2018,7 +2018,7 @@ lsh:lcp lsftp lsh lsh-authorize lsh-decode-key lsh-decrypt-key lsh-export-key ls
 lsyncd:lsyncd
 ltl2ba:ltl2ba
 lua51:lua-5.1 lua5.1 luac-5.1 luac5.1
-lua:lua lua-5.2 lua5.2 luac luac-5.2 luac5.2 luarocks-5.2 luarocks-admin-5.2 luarocks luarocks-admin
+lua:lua lua-5.2 lua5.2 luac luac-5.2 luac5.2 luarocks luarocks-5.2 luarocks-admin luarocks-admin-5.2
 luabind:
 luajit:luajit luajit-2.0.4
 luciddb:lucidDbServer sqllineClient sqllineEngine
@@ -2063,7 +2063,7 @@ masscan:masscan
 mat:mat mat-gui
 matlab2tikz:
 maven-shell:mvnsh
-maven:mvn mvnDebug mvnyjp mvn.cmd mvnDebug.cmd
+maven:mvn mvn.cmd mvnDebug mvnDebug.cmd mvnyjp
 mawk:mawk
 mbelib:
 mboxgrep:mboxgrep

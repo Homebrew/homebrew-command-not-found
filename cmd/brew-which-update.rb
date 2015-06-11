@@ -31,8 +31,9 @@ class ExecutablesDB
       tap = f.tap? #&& f.tap !~ %r(^homebrew/)
       name = tap ? "#{f.tap}/#{f.name}" : f.name
 
+      # TODO check that the formula is not outdated
       if f.installed?
-        @exes[name] ||= []
+        @exes[name] = []
 
         Dir["#{f.prefix}/{bin,sbin}/*"].uniq.each do |path|
           next unless File.executable? path
