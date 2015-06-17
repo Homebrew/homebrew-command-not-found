@@ -26,22 +26,22 @@ class ExecutablesDB
     end
   end
 
+  def update_from(name, path)
+    @exes[name] = []
+    Dir["#{path}/{bin,sbin}/*"].uniq.each do |f|
+      next unless File.executable? f
+      @exes[name] << Pathname.new(f).basename.to_s
+    end
+    @exes[name].uniq!
+  end
+
   def update!
     Formula.each do |f|
       tap = f.tap? #&& f.tap !~ %r(^homebrew/)
       name = tap ? "#{f.tap}/#{f.name}" : f.name
 
       # TODO check that the formula is not outdated
-      if f.installed?
-        @exes[name] = []
-
-        Dir["#{f.prefix}/{bin,sbin}/*"].uniq.each do |path|
-          next unless File.executable? path
-          @exes[name] << Pathname.new(path).basename.to_s
-        end
-
-        @exes[name].uniq!
-      end
+      update_from name, f.prefix if f.installed?
 
       if tap
         origin = f.name
@@ -63,6 +63,16 @@ class ExecutablesDB
       ordered_db.each do |line|
         f.write(line)
       end
+    end
+  end
+
+  def add_from_bottle name
+    f = Formula[name]
+    abort "Formula #{name} has no bottle" unless f.bottled?
+
+    f.bottle.fetch
+    f.bottle.resource.stage do
+      update_from f.full_name, Dir["*"].first
     end
   end
 end
