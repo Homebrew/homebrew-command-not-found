@@ -198,6 +198,7 @@ bfontaine/homebrew-utils/mvb:mvb
 bfontaine/homebrew-utils/ncurses-2048:2048
 bfontaine/homebrew-utils/pmars:pmars
 bfontaine/homebrew-utils/rfc:rfc
+bfontaine/homebrew-utils/smuggler:
 bfontaine/homebrew-utils/up:up
 bgpq3:bgpq3
 bgrep:bgrep
@@ -809,7 +810,7 @@ gcore:gcore
 gcovr:gcovr
 gcsfuse:gcsfuse gcsfuse_mount_helper
 gcutil:gcutil
-gd:annotate bdftogd gdcmpgif gdlib-config gdtopng pngtogd webpng
+gd:annotate bdftogd gd2copypal gd2togif gd2topng gdcmpgif gdlib-config gdparttopng gdtopng giftogd2 pngtogd pngtogd2 webpng
 gdal-grass:
 gdal:epsg_tr.py esri2wkt.py gcps2vec.py gcps2wld.py gdal-config gdal2tiles.py gdal2xyz.py gdal_auth.py gdal_calc.py gdal_contour gdal_edit.py gdal_fillnodata.py gdal_grid gdal_merge.py gdal_polygonize.py gdal_proximity.py gdal_rasterize gdal_retile.py gdal_sieve.py gdal_translate gdaladdo gdalbuildvrt gdalchksum.py gdalcompare.py gdaldem gdalenhance gdalident.py gdalimport.py gdalinfo gdallocationinfo gdalmanage gdalmove.py gdalserver gdalsrsinfo gdaltindex gdaltransform gdalwarp mkgraticule.py nearblack ogr2ogr ogrinfo ogrlineref ogrtindex pct2rgb.py rgb2pct.py testepsg
 gdbm:gdbm_dump gdbm_load gdbmtool
@@ -845,6 +846,7 @@ gibbslda:lda
 gibo:gibo
 gifify:gifify
 giflib:gif2epsn gif2ps gif2rgb gifasm gifbg gifburst gifclip gifclrmp gifcolor gifcomb gifcompose giffiltr giffix gifflip gifhisto gifinfo gifinter gifinto gifovly gifpos gifrotat gifrsize gifspnge giftext gifwedge icon2gif raw2gif rgb2gif text2gif
+giflossy:gifdiff gifsicle
 gifsicle:gifdiff gifsicle
 ginac:ginac-excompiler ginsh viewgar
 gist:gist
@@ -993,6 +995,7 @@ gtk+:gtk-builder-convert gtk-demo gtk-query-immodules-2.0 gtk-update-icon-cache
 gtk-doc:gtkdoc-check gtkdoc-depscan gtkdoc-fixxref gtkdoc-mkdb gtkdoc-mkhtml gtkdoc-mkman gtkdoc-mkpdf gtkdoc-mktmpl gtkdoc-rebase gtkdoc-scan gtkdoc-scangobj gtkdocize
 gtk-engines:
 gtk-gnutella:gtk-gnutella
+gtk-mac-integration:
 gtk-murrine-engine:
 gtkdatabox:
 gtkextra:
@@ -1633,7 +1636,7 @@ juman:juman
 jvgrep:jvgrep
 jvmtop:jvmtop
 jython:jython
-kafka:kafka-console-consumer.sh kafka-console-producer.sh kafka-consumer-offset-checker.sh kafka-consumer-perf-test.sh kafka-mirror-maker.sh kafka-preferred-replica-election.sh kafka-producer-perf-test.sh kafka-reassign-partitions.sh kafka-replay-log-producer.sh kafka-replica-verification.sh kafka-run-class.sh kafka-server-start.sh kafka-server-stop.sh kafka-simple-consumer-shell.sh kafka-topics.sh windows zookeeper-server-start.sh zookeeper-server-stop.sh zookeeper-shell.sh
+kafka:kafka-console-consumer.sh kafka-console-producer.sh kafka-consumer-offset-checker.sh kafka-consumer-perf-test.sh kafka-mirror-maker.sh kafka-preferred-replica-election.sh kafka-producer-perf-test.sh kafka-reassign-partitions.sh kafka-replay-log-producer.sh kafka-replica-verification.sh kafka-run-class.sh kafka-server-start.sh kafka-server-stop.sh kafka-simple-consumer-shell.sh kafka-topics.sh zookeeper-server-start.sh zookeeper-server-stop.sh zookeeper-shell.sh
 kafkacat:kafkacat
 kakasi:atoc_conv kakasi kakasi-config mkkanwa rdic_conv wx2_conv
 kanif:kaget kanif kaput kash
@@ -1778,6 +1781,7 @@ libfixbuf:
 libflowmanager:
 libforensic1394:
 libfreefare:mifare-classic-format mifare-classic-read-ndef mifare-classic-write-ndef mifare-desfire-access mifare-desfire-create-ndef mifare-desfire-ev1-configure-ats mifare-desfire-ev1-configure-default-key mifare-desfire-ev1-configure-random-uid mifare-desfire-format mifare-desfire-info mifare-desfire-read-ndef mifare-desfire-write-ndef mifare-ultralight-info
+libfreehand:fh2raw fh2svg fh2text
 libfreenect:fakenect fakenect-record freenect-chunkview freenect-cpp_pcview freenect-cppview freenect-glpclview freenect-glview freenect-hiview freenect-micview freenect-regview freenect-tiltdemo freenect-wavrecord
 libftdi0:baud_test bitbang bitbang2 bitbang_cbus bitbang_ft2232 find_all libftdi-config serial_test simple
 libftdi:libftdi1-config
