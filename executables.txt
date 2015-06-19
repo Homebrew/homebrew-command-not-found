@@ -811,7 +811,7 @@ gcore:gcore
 gcovr:gcovr
 gcsfuse:gcsfuse gcsfuse_mount_helper
 gcutil:gcutil
-gd:annotate bdftogd gdcmpgif gdlib-config gdtopng pngtogd webpng
+gd:annotate bdftogd gd2copypal gd2togif gd2topng gdcmpgif gdlib-config gdparttopng gdtopng giftogd2 pngtogd pngtogd2 webpng
 gdal-grass:
 gdal:epsg_tr.py esri2wkt.py gcps2vec.py gcps2wld.py gdal-config gdal2tiles.py gdal2xyz.py gdal_auth.py gdal_calc.py gdal_contour gdal_edit.py gdal_fillnodata.py gdal_grid gdal_merge.py gdal_polygonize.py gdal_proximity.py gdal_rasterize gdal_retile.py gdal_sieve.py gdal_translate gdaladdo gdalbuildvrt gdalchksum.py gdalcompare.py gdaldem gdalenhance gdalident.py gdalimport.py gdalinfo gdallocationinfo gdalmanage gdalmove.py gdalserver gdalsrsinfo gdaltindex gdaltransform gdalwarp mkgraticule.py nearblack ogr2ogr ogrinfo ogrlineref ogrtindex pct2rgb.py rgb2pct.py testepsg
 gdbm:gdbm_dump gdbm_load gdbmtool
@@ -2563,6 +2563,7 @@ proguard:proguard
 proj:cs2cs geod nad2bin proj
 proof-general:coqtags isartags legotags proofgeneral
 protobuf-c:protoc-c
+protobuf-swift:protoc-gen-swift
 protobuf:protoc
 proxychains-ng:proxychains4
 proxytunnel:proxytunnel
@@ -2922,6 +2923,7 @@ sourcekitten:sourcekitten
 sox:play rec sox soxi
 spark:spark
 sparkey:bench sparkey
+sparse:cgcc sparse
 spatialindex:
 spatialite-gui:spatialite_gui
 spatialite-tools:exif_loader shp_doctor spatialite spatialite_convert spatialite_dxf spatialite_gml spatialite_network spatialite_osm_filter spatialite_osm_map spatialite_osm_net spatialite_osm_raw spatialite_tool spatialite_xml_collapse spatialite_xml_load spatialite_xml_print
