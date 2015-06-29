@@ -25,7 +25,7 @@ First, tap this repository:
 
     brew tap bfontaine/command-not-found
 
-Then source the `handler.sh` script in your `.bashrc`(bash) or `.zshrc`(zsh):
+Then source the handler script in your `.bashrc`(bash) or `.zshrc`(zsh):
 
     eval "$(brew command-not-found-init)"
 
