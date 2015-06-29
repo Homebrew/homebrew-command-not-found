@@ -30,7 +30,7 @@ aeskeyfind:aeskeyfind
 aespipe:aespipe
 afflib:affcat affcompare affconvert affcopy affcrypto affdiskprint affinfo affix affrecover affsegment affsign affstats affuse affverify affxml
 afio:afio
-afl-fuzz:afl-clang afl-clang++ afl-fuzz afl-g++ afl-gcc afl-plot afl-showmap
+afl-fuzz:afl-clang afl-clang++ afl-cmin afl-fuzz afl-g++ afl-gcc afl-gotcpu afl-plot afl-showmap afl-tmin afl-whatsup
 afsctool:afsctool
 aften:aften wavfilter wavinfo wavrms
 afuse:afuse afuse-avahissh
@@ -41,7 +41,7 @@ aha:aha
 ahcpd:ahcpd
 aiccu:aiccu
 aircrack-ng:aircrack-ng airdecap-ng airdecloak-ng ivstools kstats makeivs-ng packetforge-ng airbase-ng airdriver-ng aireplay-ng airmon-ng airodump-ng airodump-ng-oui-update airserv-ng airtun-ng
-akka:akka
+akka:akka akka-cluster
 alac:alac
 aldo:aldo
 algernon:algernon
@@ -49,9 +49,11 @@ algol68g:a68g
 align:align width
 allegro:
 alpine:alpine pico pilot rpdump rpload
+alure:alurecdplay alureplay alurestream
 amap:amap amap6 amapcrap
 amtterm:amtterm amttool
 analog:analog
+android-ndk:ndk-build ndk-gdb ndk-stack
 android-platform-tools:adb fastboot
 android-sdk:aapt adb aidl android ddms dexdump dmtracedump draw9patch dx emulator emulator-arm emulator-x86 etc1tool fastboot hierarchyviewer hprof-conv lint llvm-rs-cc mksdcard monitor monkeyrunner traceview zipalign
 ansible:ansible ansible-doc ansible-galaxy ansible-playbook ansible-pull ansible-vault
@@ -64,12 +66,13 @@ antlr:antlr4 grun
 anttweakbar:
 aoeui:aoeui asdfg
 apache-archiva:archiva
-apache-drill:drill_dumpcat runbit sqlline
+apache-drill:drill-conf drill-config.sh drill-embedded drill-localhost drillbit.sh dumpcat hadoop-excludes.txt runbit sqlline sqlline.bat submit_plan
 apache-forrest:forrest
 apache-opennlp:opennlp
-apache-spark:beeline compute-classpath.sh load-spark-env.sh pyspark run-example spark-class spark-shell spark-sql spark-submit utils.sh
+apache-spark:load-spark-env.sh pyspark run-example spark-beeline spark-class spark-shell spark-sql spark-submit sparkR
 apachetop:apachetop
 ape:aped
+apel:
 apg:apg apgbfm
 apgdiff:apgdiff
 apib:apib apibmon
@@ -85,7 +88,7 @@ apt-cacher-ng:apt-cacher-ng
 apt-dater:apt-dater
 aptly:aptly
 aqbanking:aqbanking-cli aqbanking-config aqebics-tool aqhbci-tool4 hbcixml3
-arangodb:arangob arangodump arangoimp arangoirb arangorestore arangosh foxx-manager arango-dfdb arangod
+arangodb:arangob arangodump arangoimp arangorestore arangosh foxx-manager arango-dfdb arangod
 archey:archey
 archivemount:archivemount
 argp-standalone:
@@ -151,9 +154,9 @@ avro-c:avroappend avrocat avromod avropipe
 avro-cpp:avrogencpp
 avro-tools:avro-tools
 aws-cfn-tools:cfn-cancel-update-stack cfn-cmd cfn-create-stack cfn-delete-stack cfn-describe-stack-events cfn-describe-stack-resource cfn-describe-stack-resources cfn-describe-stacks cfn-get-template cfn-list-stack-resources cfn-list-stacks cfn-update-stack cfn-validate-template cfn-version
-aws-cloudsearch:cs-cmd cs-configure-access-policies cs-configure-fields cs-configure-from-sdf cs-configure-ranking cs-configure-text-options cs-create-domain cs-delete-domain cs-describe-domain cs-generate-sdf cs-index-documents cs-post-sdf
+aws-cloudsearch:cs-cmd cs-configure-from-batches cs-import-documents
 aws-elasticache:elasticache elasticache-authorize-cache-security-group-ingress elasticache-copy-snapshot elasticache-create-cache-cluster elasticache-create-cache-parameter-group elasticache-create-cache-security-group elasticache-create-cache-subnet-group elasticache-create-replication-group elasticache-create-snapshot elasticache-delete-cache-cluster elasticache-delete-cache-parameter-group elasticache-delete-cache-security-group elasticache-delete-cache-subnet-group elasticache-delete-replication-group elasticache-delete-snapshot elasticache-describe-cache-clusters elasticache-describe-cache-engine-versions elasticache-describe-cache-parameter-groups elasticache-describe-cache-parameters elasticache-describe-cache-security-groups elasticache-describe-cache-subnet-groups elasticache-describe-engine-default-parameters elasticache-describe-events elasticache-describe-replication-groups elasticache-describe-reserved-cache-nodes elasticache-describe-reserved-cache-nodes-offerings elasticache-describe-snapshots elasticache-modify-cache-cluster elasticache-modify-cache-parameter-group elasticache-modify-cache-subnet-group elasticache-modify-replication-group elasticache-purchase-reserved-cache-nodes-offering elasticache-reboot-cache-cluster elasticache-reset-cache-parameter-group elasticache-revoke-cache-security-group-ingress elasticache-version
-aws-elasticbeanstalk:eb jp
+aws-elasticbeanstalk:eb
 aws-sns-cli:sns-add-permission sns-cmd sns-confirm-subscription sns-create-topic sns-delete-topic sns-get-subscription-attributes sns-get-topic-attributes sns-list-subscriptions sns-list-subscriptions-by-topic sns-list-topics sns-publish sns-remove-permission sns-set-subscription-attributes sns-set-topic-attributes sns-subscribe sns-unsubscribe sns-version
 awscli:aws aws.cmd aws_completer aws_zsh_completer.sh
 awsenv:awsenv
@@ -166,6 +169,7 @@ bacula-fd:bacula bacula-fd bconsole btraceback
 bagit:bag
 balance:balance
 bam:bam
+bar:bar
 baresip:baresip
 base64:base64
 basex:basex basexclient basexgui basexhttp basexhttpstop basexserver basexserverstop
@@ -208,7 +212,7 @@ bibclean:bibclean bibclean-2.16
 bibtex2html:aux2bib bib2bib bibtex2html
 bibtexconv:bibtexconv bibtexconv-odt
 bibutils:bib2xml biblatex2xml copac2xml ebi2xml end2xml endx2xml isi2xml med2xml modsclean ris2xml wordbib2xml xml2ads xml2bib xml2end xml2isi xml2ris xml2wordbib
-bigdata:bigdata startNSS
+bigdata:bigdata
 bigloo:bglafile bgldepend bgljas bgljfile bglmake bglmco bglpp bglprof bgltags bigloo bigloo4.1a
 bind:bind9-config delv dig host isc-config.sh nslookup nsupdate arpaname ddns-confgen dnssec-checkds dnssec-coverage dnssec-dsfromkey dnssec-importkey dnssec-keyfromlabel dnssec-keygen dnssec-revoke dnssec-settime dnssec-signzone dnssec-verify genrandom isc-hmac-fixup lwresd named named-checkconf named-checkzone named-compilezone named-journalprint named-rrchecker nsec3hash rndc rndc-confgen tsig-keygen
 bindfs:bindfs
@@ -273,6 +277,7 @@ cabal-install:cabal
 cabextract:cabextract
 cabocha:cabocha cabocha-config
 cadaver:cadaver
+caddy:caddy
 cadubi:cadubi
 cairo:cairo-sphinx cairo-trace
 cairomm:
@@ -286,11 +291,13 @@ camlp5:camlp5 camlp5o camlp5o.opt camlp5r camlp5r.opt camlp5sch mkcamlp5 mkcamlp
 capnp:capnp capnpc capnpc-c++ capnpc-capnp
 capstone:
 carthage:carthage
+cask:cask
 caskroom/homebrew-cask/brew-cask:brew-cask
 casperjs:casperjs
 cassandra:cassandra cassandra-cli cqlsh debug-cql nodetool sstablekeys sstableloader sstablescrub sstableupgrade
 cattle:
 caudec:caudec decaude
+cayley:cayley
 cbmbasic:cbmbasic
 cc65:ar65 ca65 ca65html cc65 cl65 co65 da65 grc ld65 od65
 ccache:ccache
@@ -326,7 +333,7 @@ cgal:cgal_create_cmake_script cgal_create_CMakeLists cgal_make_macosx_app
 cgdb:cgdb
 cgrep:cgrep
 cgvg:cg vg
-chapel:chpl
+chapel:chpl chpl-ipe chpldoc
 charm-tools:charm charm-add charm-create charm-generate charm-get charm-getall charm-help charm-info charm-list charm-promulgate charm-proof charm-review charm-review-queue charm-search charm-subscribers charm-test charm-unpromulgate charm-update charm-version juju-charm
 chcase:chcase
 cheat:cheat
@@ -361,12 +368,13 @@ cksfv:cksfv
 clamav:clamav-config clambc clamconf clamdscan clamdtop clamscan clamsubmit freshclam sigtool clamd
 clamz:clamz
 clang-format:clang-format git-clang-format
-clang-omp:clang-omp
+clang-omp:clang-omp clang-omp++
 clasp:clasp
 class-dump:class-dump
 classads:classad_functional_tester classad_functional_tester_ns classad_version classad_version_ns cxi cxi_ns
 clean:clean
 clens:
+cless:cless
 clhep:Cast-config clhep-config Evaluator-config Exceptions-config GenericFunctions-config Geometry-config Matrix-config Random-config RandomObjects-config RefCount-config Units-config Utility-config Vector-config
 clib:clib clib-install clib-search
 cliclick:cliclick
@@ -615,7 +623,7 @@ e2fsprogs:chattr compile_et lsattr mk_cmds uuidgen badblocks blkid debugfs dumpe
 easy-git:eg
 ebook-tools:einfo lit2epub
 ec2-ami-tools:ec2-ami-tools-version ec2-bundle-image ec2-bundle-vol ec2-delete-bundle ec2-download-bundle ec2-migrate-bundle ec2-migrate-manifest ec2-unbundle ec2-upload-bundle
-ec2-api-tools:ec2-accept-vpc-peering-connection ec2-activate-license ec2-add-group ec2-add-keypair ec2-allocate-address ec2-assign-private-ip-addresses ec2-associate-address ec2-associate-dhcp-options ec2-associate-route-table ec2-attach-classic-link-vpc ec2-attach-internet-gateway ec2-attach-network-interface ec2-attach-volume ec2-attach-vpn-gateway ec2-authorize ec2-bundle-instance ec2-cancel-bundle-task ec2-cancel-conversion-task ec2-cancel-export-task ec2-cancel-reserved-instances-listing ec2-cancel-spot-instance-requests ec2-cmd ec2-confirm-product-instance ec2-copy-image ec2-copy-snapshot ec2-create-customer-gateway ec2-create-dhcp-options ec2-create-group ec2-create-image ec2-create-instance-export-task ec2-create-internet-gateway ec2-create-keypair ec2-create-network-acl ec2-create-network-acl-entry ec2-create-network-interface ec2-create-placement-group ec2-create-reserved-instances-listing ec2-create-route ec2-create-route-table ec2-create-snapshot ec2-create-spot-datafeed-subscription ec2-create-subnet ec2-create-tags ec2-create-volume ec2-create-vpc ec2-create-vpc-peering-connection ec2-create-vpn-connection ec2-create-vpn-connection-route ec2-create-vpn-gateway ec2-deactivate-license ec2-delete-customer-gateway ec2-delete-dhcp-options ec2-delete-disk-image ec2-delete-group ec2-delete-internet-gateway ec2-delete-keypair ec2-delete-network-acl ec2-delete-network-acl-entry ec2-delete-network-interface ec2-delete-placement-group ec2-delete-route ec2-delete-route-table ec2-delete-snapshot ec2-delete-spot-datafeed-subscription ec2-delete-subnet ec2-delete-tags ec2-delete-volume ec2-delete-vpc ec2-delete-vpc-peering-connection ec2-delete-vpn-connection ec2-delete-vpn-connection-route ec2-delete-vpn-gateway ec2-deregister ec2-describe-account-attributes ec2-describe-addresses ec2-describe-availability-zones ec2-describe-bundle-tasks ec2-describe-classic-link-instances ec2-describe-conversion-tasks ec2-describe-customer-gateways ec2-describe-dhcp-options ec2-describe-export-tasks ec2-describe-group ec2-describe-image-attribute ec2-describe-images ec2-describe-instance-attribute ec2-describe-instance-status ec2-describe-instances ec2-describe-internet-gateways ec2-describe-keypairs ec2-describe-licenses ec2-describe-network-acls ec2-describe-network-interface-attribute ec2-describe-network-interfaces ec2-describe-placement-groups ec2-describe-regions ec2-describe-reserved-instances ec2-describe-reserved-instances-listings ec2-describe-reserved-instances-modifications ec2-describe-reserved-instances-offerings ec2-describe-route-tables ec2-describe-snapshot-attribute ec2-describe-snapshots ec2-describe-spot-datafeed-subscription ec2-describe-spot-instance-requests ec2-describe-spot-price-history ec2-describe-subnets ec2-describe-tags ec2-describe-volume-attribute ec2-describe-volume-status ec2-describe-volumes ec2-describe-vpc-attribute ec2-describe-vpc-classic-link ec2-describe-vpc-peering-connections ec2-describe-vpcs ec2-describe-vpn-connections ec2-describe-vpn-gateways ec2-detach-classic-link-vpc ec2-detach-internet-gateway ec2-detach-network-interface ec2-detach-volume ec2-detach-vpn-gateway ec2-disable-vgw-route-propagation ec2-disable-vpc-classic-link ec2-disassociate-address ec2-disassociate-route-table ec2-enable-vgw-route-propagation ec2-enable-volume-io ec2-enable-vpc-classic-link ec2-fingerprint-key ec2-get-console-output ec2-get-password ec2-import-instance ec2-import-keypair ec2-import-volume ec2-migrate-image ec2-modify-image-attribute ec2-modify-instance-attribute ec2-modify-network-interface-attribute ec2-modify-reserved-instances ec2-modify-snapshot-attribute ec2-modify-subnet-attribute ec2-modify-volume-attribute ec2-modify-vpc-attribute ec2-monitor-instances ec2-purchase-reserved-instances-offering ec2-reboot-instances ec2-register ec2-reject-vpc-peering-connection ec2-release-address ec2-replace-network-acl-association ec2-replace-network-acl-entry ec2-replace-route ec2-replace-route-table-association ec2-report-instance-status ec2-request-spot-instances ec2-reset-image-attribute ec2-reset-instance-attribute ec2-reset-network-interface-attribute ec2-reset-snapshot-attribute ec2-resume-import ec2-revoke ec2-run-instances ec2-start-instances ec2-stop-instances ec2-terminate-instances ec2-unassign-private-ip-addresses ec2-unmonitor-instances ec2-upload-disk-image ec2-version ec2actlic ec2addcgw ec2adddopt ec2addgrp ec2addigw ec2addixt ec2addkey ec2addnacl ec2addnae ec2addnic ec2addpcx ec2addpgrp ec2addrt ec2addrtb ec2addsds ec2addsnap ec2addsubnet ec2addtag ec2addvgw ec2addvol ec2addvpc ec2addvpn ec2allocaddr ec2apcx ec2apip ec2assocaddr ec2assocdopt ec2assocrtb ec2attachcl ec2attigw ec2attnic ec2attvgw ec2attvol ec2auth ec2bundle ec2caril ec2cbun ec2cct ec2cim ec2cpi ec2cpimg ec2cpsnap ec2crril ec2csir ec2cvcr ec2cxt ec2daa ec2daddr ec2datt ec2daz ec2dbun ec2dcgw ec2dcli ec2dct ec2ddi ec2ddopt ec2deactlic ec2delcgw ec2deldopt ec2delgrp ec2deligw ec2delkey ec2delnacl ec2delnae ec2delnic ec2delpcx ec2delpgrp ec2delrt ec2delrtb ec2delsds ec2delsnap ec2delsubnet ec2deltag ec2delvgw ec2delvol ec2delvpc ec2delvpn ec2dereg ec2detachcl ec2detigw ec2detnic ec2detvgw ec2detvol ec2dgrp ec2diatt ec2digw ec2dim ec2dimatt ec2din ec2dinatt ec2dins ec2disablecl ec2disaddr ec2disrtb ec2dkey ec2dlic ec2dnacl ec2dnic ec2dnicatt ec2dpcx ec2dpgrp ec2dre ec2dri ec2dril ec2drim ec2drio ec2drp ec2drtb ec2dsds ec2dsir ec2dsnap ec2dsnapatt ec2dsph ec2dsubnet ec2dtag ec2dva ec2dvcl ec2dvcr ec2dvgw ec2dvol ec2dvolatt ec2dvpc ec2dvpn ec2dvs ec2dxt ec2enablecl ec2erp ec2evio ec2fp ec2gcons ec2gpass ec2ii ec2iin ec2ikey ec2iv ec2ivol ec2kill ec2matt ec2miatt ec2mim ec2mimatt ec2min ec2minatt ec2mnicatt ec2mri ec2msnapatt ec2msubnetatt ec2mva ec2mvolatt ec2prio ec2ratt ec2reboot ec2reg ec2reladdr ec2rep ec2repnaclassoc ec2repnae ec2reprt ec2reprtbassoc ec2revoke ec2riatt ec2rim ec2rimatt ec2rinatt ec2rnicatt ec2rpcx ec2rsi ec2rsnapatt ec2run ec2start ec2stop ec2tag ec2udi ec2umin ec2upip ec2ver
+ec2-api-tools:ec2-accept-vpc-peering-connection ec2-activate-license ec2-add-group ec2-add-keypair ec2-allocate-address ec2-assign-private-ip-addresses ec2-associate-address ec2-associate-dhcp-options ec2-associate-route-table ec2-attach-classic-link-vpc ec2-attach-internet-gateway ec2-attach-network-interface ec2-attach-volume ec2-attach-vpn-gateway ec2-authorize ec2-bundle-instance ec2-cancel-bundle-task ec2-cancel-conversion-task ec2-cancel-export-task ec2-cancel-reserved-instances-listing ec2-cancel-spot-instance-requests ec2-cmd ec2-confirm-product-instance ec2-copy-image ec2-copy-snapshot ec2-create-customer-gateway ec2-create-dhcp-options ec2-create-group ec2-create-image ec2-create-instance-export-task ec2-create-internet-gateway ec2-create-keypair ec2-create-network-acl ec2-create-network-acl-entry ec2-create-network-interface ec2-create-placement-group ec2-create-reserved-instances-listing ec2-create-route ec2-create-route-table ec2-create-snapshot ec2-create-spot-datafeed-subscription ec2-create-subnet ec2-create-tags ec2-create-volume ec2-create-vpc ec2-create-vpc-endpoint ec2-create-vpc-peering-connection ec2-create-vpn-connection ec2-create-vpn-connection-route ec2-create-vpn-gateway ec2-deactivate-license ec2-delete-customer-gateway ec2-delete-dhcp-options ec2-delete-disk-image ec2-delete-group ec2-delete-internet-gateway ec2-delete-keypair ec2-delete-network-acl ec2-delete-network-acl-entry ec2-delete-network-interface ec2-delete-placement-group ec2-delete-route ec2-delete-route-table ec2-delete-snapshot ec2-delete-spot-datafeed-subscription ec2-delete-subnet ec2-delete-tags ec2-delete-volume ec2-delete-vpc ec2-delete-vpc-endpoints ec2-delete-vpc-peering-connection ec2-delete-vpn-connection ec2-delete-vpn-connection-route ec2-delete-vpn-gateway ec2-deregister ec2-describe-account-attributes ec2-describe-addresses ec2-describe-availability-zones ec2-describe-bundle-tasks ec2-describe-classic-link-instances ec2-describe-conversion-tasks ec2-describe-customer-gateways ec2-describe-dhcp-options ec2-describe-export-tasks ec2-describe-group ec2-describe-image-attribute ec2-describe-images ec2-describe-instance-attribute ec2-describe-instance-status ec2-describe-instances ec2-describe-internet-gateways ec2-describe-keypairs ec2-describe-licenses ec2-describe-network-acls ec2-describe-network-interface-attribute ec2-describe-network-interfaces ec2-describe-placement-groups ec2-describe-prefix-lists ec2-describe-regions ec2-describe-reserved-instances ec2-describe-reserved-instances-listings ec2-describe-reserved-instances-modifications ec2-describe-reserved-instances-offerings ec2-describe-route-tables ec2-describe-snapshot-attribute ec2-describe-snapshots ec2-describe-spot-datafeed-subscription ec2-describe-spot-instance-requests ec2-describe-spot-price-history ec2-describe-subnets ec2-describe-tags ec2-describe-volume-attribute ec2-describe-volume-status ec2-describe-volumes ec2-describe-vpc-attribute ec2-describe-vpc-classic-link ec2-describe-vpc-endpoint-services ec2-describe-vpc-endpoints ec2-describe-vpc-peering-connections ec2-describe-vpcs ec2-describe-vpn-connections ec2-describe-vpn-gateways ec2-detach-classic-link-vpc ec2-detach-internet-gateway ec2-detach-network-interface ec2-detach-volume ec2-detach-vpn-gateway ec2-disable-vgw-route-propagation ec2-disable-vpc-classic-link ec2-disassociate-address ec2-disassociate-route-table ec2-enable-vgw-route-propagation ec2-enable-volume-io ec2-enable-vpc-classic-link ec2-fingerprint-key ec2-get-console-output ec2-get-password ec2-import-instance ec2-import-keypair ec2-import-volume ec2-migrate-image ec2-modify-image-attribute ec2-modify-instance-attribute ec2-modify-network-interface-attribute ec2-modify-reserved-instances ec2-modify-snapshot-attribute ec2-modify-subnet-attribute ec2-modify-volume-attribute ec2-modify-vpc-attribute ec2-modify-vpc-endpoint ec2-monitor-instances ec2-purchase-reserved-instances-offering ec2-reboot-instances ec2-register ec2-reject-vpc-peering-connection ec2-release-address ec2-replace-network-acl-association ec2-replace-network-acl-entry ec2-replace-route ec2-replace-route-table-association ec2-report-instance-status ec2-request-spot-instances ec2-reset-image-attribute ec2-reset-instance-attribute ec2-reset-network-interface-attribute ec2-reset-snapshot-attribute ec2-resume-import ec2-revoke ec2-run-instances ec2-start-instances ec2-stop-instances ec2-terminate-instances ec2-unassign-private-ip-addresses ec2-unmonitor-instances ec2-upload-disk-image ec2-version ec2actlic ec2addcgw ec2adddopt ec2addgrp ec2addigw ec2addixt ec2addkey ec2addnacl ec2addnae ec2addnic ec2addpcx ec2addpgrp ec2addrt ec2addrtb ec2addsds ec2addsnap ec2addsubnet ec2addtag ec2addvgw ec2addvol ec2addvpc ec2addvpn ec2allocaddr ec2apcx ec2apip ec2assocaddr ec2assocdopt ec2assocrtb ec2attachcl ec2attigw ec2attnic ec2attvgw ec2attvol ec2auth ec2bundle ec2caril ec2cbun ec2cct ec2cim ec2cpi ec2cpimg ec2cpsnap ec2crril ec2csir ec2cvcr ec2cve ec2cxt ec2daa ec2daddr ec2datt ec2daz ec2dbun ec2dcgw ec2dcli ec2dct ec2ddi ec2ddopt ec2deactlic ec2delcgw ec2deldopt ec2delgrp ec2deligw ec2delkey ec2delnacl ec2delnae ec2delnic ec2delpcx ec2delpgrp ec2delrt ec2delrtb ec2delsds ec2delsnap ec2delsubnet ec2deltag ec2delvgw ec2delvol ec2delvpc ec2delvpce ec2delvpn ec2dereg ec2detachcl ec2detigw ec2detnic ec2detvgw ec2detvol ec2dgrp ec2diatt ec2digw ec2dim ec2dimatt ec2din ec2dinatt ec2dins ec2disablecl ec2disaddr ec2disrtb ec2dkey ec2dlic ec2dnacl ec2dnic ec2dnicatt ec2dpcx ec2dpgrp ec2dpl ec2dre ec2dri ec2dril ec2drim ec2drio ec2drp ec2drtb ec2dsds ec2dsir ec2dsnap ec2dsnapatt ec2dsph ec2dsubnet ec2dtag ec2dva ec2dvcl ec2dvcr ec2dve ec2dves ec2dvgw ec2dvol ec2dvolatt ec2dvpc ec2dvpn ec2dvs ec2dxt ec2enablecl ec2erp ec2evio ec2fp ec2gcons ec2gpass ec2ii ec2iin ec2ikey ec2iv ec2ivol ec2kill ec2matt ec2miatt ec2mim ec2mimatt ec2min ec2minatt ec2mnicatt ec2mri ec2msnapatt ec2msubnetatt ec2mva ec2mve ec2mvolatt ec2prio ec2ratt ec2reboot ec2reg ec2reladdr ec2rep ec2repnaclassoc ec2repnae ec2reprt ec2reprtbassoc ec2revoke ec2riatt ec2rim ec2rimatt ec2rinatt ec2rnicatt ec2rpcx ec2rsi ec2rsnapatt ec2run ec2start ec2stop ec2tag ec2udi ec2umin ec2upip ec2ver
 ecasound:ecaconvert ecafixdc ecalength ecamonitor ecanormalize ecaplay ecasignalview ecasound libecasound-config libecasoundc-config
 echoping:echoping
 echoprint-codegen:echoprint-codegen
@@ -2047,7 +2055,7 @@ lsdvd:lsdvd
 lsh:lcp lsftp lsh lsh-authorize lsh-decode-key lsh-decrypt-key lsh-export-key lsh-keygen lsh-make-seed lsh-upgrade lsh-upgrade-key lsh-writekey lshg srp-gen ssh-conv lsh-execuv lsh-pam-checkpw lshd sftp-server
 lsyncd:lsyncd
 ltl2ba:ltl2ba
-lua51:lua-5.1 lua5.1 luac-5.1 luac5.1
+lua51:lua-5.1 lua5.1 luac-5.1 luac5.1 luarocks-5.1 luarocks-admin-5.1
 lua:lua lua-5.2 lua5.2 luac luac-5.2 luac5.2 luarocks luarocks-5.2 luarocks-admin luarocks-admin-5.2
 luabind:
 luajit:luajit luajit-2.0.4
@@ -2360,7 +2368,7 @@ opam:opam opam-admin opam-installer
 open-babel:babel obabel obchiral obconformer obenergy obfit obgen obgrep obminimize obprobe obprop obrotamer obrotate obspectrophore roundtrip
 open-cobol:cob-config cobc cobcrun
 open-mesh:Analyzer commandlineAdaptiveSubdivider commandlineDecimater commandlineSubdivider DecimaterGui Dualizer mconvert mkbalancedpm ProgViewer QtViewer Smoothing SubdividerGui Synthesizer
-open-mpi:mpic++ mpic++-vt mpicc mpicc-vt mpicxx mpicxx-vt mpiexec mpif77 mpif77-vt mpif90 mpif90-vt mpifort mpifort-vt mpirun ompi-clean ompi-ps ompi-server ompi-top ompi_info opal_wrapper orte-clean orte-info orte-ps orte-server orte-top ortecc orted orterun otfaux otfcompress otfconfig otfdecompress otfinfo otfmerge otfmerge-mpi otfprint otfprofile otfprofile-mpi otfshrink vtc++ vtcc vtcxx vtf77 vtf90 vtfilter vtfilter-mpi vtfiltergen vtfiltergen-mpi vtfort vtrun vtsetup vtunify vtunify-mpi vtwrapper
+open-mpi:mpic++ mpic++-vt mpicc mpicc-vt mpicxx mpicxx-vt mpiexec mpif77 mpif77-vt mpif90 mpif90-vt mpifort mpifort-vt mpirun ompi-clean ompi-ps ompi-server ompi-top ompi_info opal_wrapper orte-clean orte-info orte-ps orte-server orte-top ortecc orted orterun otfaux otfcompress otfconfig otfdecompress otfinfo otfmerge otfmerge-mpi otfprint otfprofile otfprofile-mpi otfshrink vtc++ vtcc vtcxx vtf77 vtf90 vtfilter vtfilter-mpi vtfiltergen vtfiltergen-mpi vtfort vtjava vtrun vtsetup vtunify vtunify-mpi vtwrapper
 open-ocd:openocd
 open-scene-graph:osgarchive osgconv osgfilecache osgversion osgviewer present3D
 open-sp:onsgmls osgmlnorm ospam ospcat ospent osx
