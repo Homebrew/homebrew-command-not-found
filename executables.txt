@@ -480,6 +480,7 @@ csync:csync
 ctags:ctags
 ctail:ctail
 ctemplate:diff_tpl_auto_escape make_tpl_varnames_h template-converter
+ctl:ctlrender exr_ctl_exr exrdpx
 ctorrent:ctorrent
 ctunnel:ctunnel
 cuetools:cuebreakpoints cueconvert cueprint cuetag.sh
@@ -489,6 +490,7 @@ curaengine:CuraEngine
 curl:curl curl-config
 curlish:curlish
 curlpp:curlpp-config
+cutter:cut-diff cutter
 cuty_capt:CutyCapt
 cv:cv
 cvc4:cvc4
@@ -499,8 +501,8 @@ cvsutils:cvschroot cvsco cvsdiscard cvsdo cvspurge cvstrim cvsu
 cvsync:cvscan cvsup2cvsync cvsync cvsync2cvsup cvsyncd rcscan rcscmp
 cweb:ctangle cweave
 cxxtest:cxxtestgen
-cyassl:cyassl-config
-czmq:czmq_selftest makecert
+cyassl:wolfssl-config
+czmq:makecert
 d-bus:dbus-cleanup-sockets dbus-daemon dbus-launch dbus-monitor dbus-run-session dbus-send dbus-uuidgen
 daemon:daemon
 daemonize:daemonize
@@ -510,7 +512,9 @@ dante:socksify sockd
 daq:daq-modules-config
 dar:dar dar_cp dar_manager dar_slave dar_xform
 darcs:darcs
+dark-mode:dark-mode
 darkhttpd:darkhttpd
+darkice:darkice
 darkstat:darkstat
 dash:dash
 dasm:dasm ftohex
@@ -522,9 +526,10 @@ dbacl:bayesol dbacl hmine hypex mailcross mailfoot mailinspect mailtoe
 dbus-glib:dbus-binding-tool
 dc3dd:dc3dd
 dcal:dcal
+dcd:dcd-client dcd-server
 dcfldd:dcfldd
 dcled:dcled
-dcmtk:dcm2pdf dcm2pnm dcm2xml dcmcjpeg dcmcjpls dcmconv dcmcrle dcmdjpeg dcmdjpls dcmdrle dcmdspfn dcmdump dcmftest dcmgpdir dcmj2pnm dcml2pnm dcmmkcrv dcmmkdir dcmmklut dcmodify dcmp2pgm dcmprscp dcmprscu dcmpschk dcmpsmk dcmpsprt dcmpsrcv dcmpssnd dcmqridx dcmqrscp dcmqrti dcmquant dcmscale dcmsign dcod2lum dconvlum dsr2html dsr2xml dsrdump dump2dcm echoscu findscu img2dcm movescu pdf2dcm storescp storescu termscu wlmscpfs xml2dcm xml2dsr
+dcmtk:dcm2pdf dcm2pnm dcm2xml dcmcjpeg dcmcjpls dcmconv dcmcrle dcmdata_tests dcmdjpeg dcmdjpls dcmdrle dcmdspfn dcmdump dcmftest dcmgpdir dcmj2pnm dcml2pnm dcmmkcrv dcmmkdir dcmmklut dcmnet_tests dcmodify dcmp2pgm dcmprscp dcmprscu dcmpschk dcmpsmk dcmpsprt dcmpsrcv dcmpssnd dcmqridx dcmqrscp dcmqrti dcmquant dcmrecv dcmrt_tests dcmscale dcmsend dcmsign dcmsr_tests dcod2lum dconvlum drtdump drttest dsr2html dsr2xml dsrdump dump2dcm echoscu findscu getscu img2dcm mkreport movescu ofstd_tests pdf2dcm preplock readoviw readwlst storescp storescu termscu wlmscpfs writwlst xml2dcm xml2dsr
 dcraw:dcraw
 ddar:ddar
 ddate:ddate
@@ -533,6 +538,7 @@ ddrescue:ddrescue ddrescuelog
 debianutils:ischroot run-parts tempfile
 deheader:deheader
 deis:deis
+deisctl:deisctl
 deja-gnu:runtest
 delta:delta multidelta topformflat
 denominator:denominator
@@ -540,7 +546,7 @@ depqbf:depqbf
 detox:detox inline-detox
 devil:ilur
 devtodo:devtodo tda tdd tde tdl tdr todo
-dex2jar:d2j-apk-sign d2j-asm-verify d2j-decrpyt-string d2j-dex-asmifier d2j-dex-dump d2j-dex2jar d2j-init-deobf d2j-jar-access d2j-jar-remap d2j-jar2dex d2j-jar2jasmin d2j-jasmin2jar dex-dump dex2jar
+dex2jar:d2j-baksmali d2j-dex-recompute-checksum d2j-dex2jar d2j-dex2smali d2j-jar2dex d2j-jar2jasmin d2j-jasmin2jar d2j-smali d2j-std-apk d2j_invoke
 dex:dex
 dfc:dfc
 dfu-programmer:dfu-programmer
@@ -548,15 +554,18 @@ dfu-util:dfu-prefix dfu-suffix dfu-util
 dhcpdump:dhcpdump
 dhcping:dhcping
 dhex:dhex
-dialog:dialog
+di:di mi
+dialog:dialog dialog-config
 dict:colorit dict dict_lookup dictdplugin-config dictfmt dictfmt_index2suffix dictfmt_index2word dictl dictunformat dictzip dictd
 diction:diction style
 dieharder:dieharder
 diff-pdf:diff-pdf
 diffuse:diffuse
+dirac:BMPtoRGB create_dirac_testfile.pl dirac_decoder dirac_encoder dirac_instrumentation RGBtoBMP RGBtoUYVY RGBtoYUV411 RGBtoYUV420 RGBtoYUV422 RGBtoYUV444 UYVYtoRGB UYVYtoYUV422 YUV411toRGB YUV420Down2x2 YUV420ItoYUV422I YUV420pt75filter YUV420toRGB YUV420toYUV422 YUV422ItoYUV420I YUV422toRGB YUV422toUYVY YUV422toYUV420 YUV444toRGB
 dircproxy:dircproxy dircproxy-crypt
 direnv:direnv
 dirmngr:dirmngr dirmngr-client
+dirt:dirt
 disco:ddfs disco
 discodex:discodex discodexcli.py
 discount:makepage markdown mkd2html theme
@@ -570,7 +579,7 @@ djview4:
 djvu2pdf:djvu2pdf
 djvulibre:any2djvu bzz c44 cjb2 cpaldjvu csepdjvu ddjvu djvm djvmcvt djvudigital djvudump djvuextract djvumake djvups djvused djvuserve djvutoxml djvutxt djvuxmlparser
 dmalloc:dmalloc
-dmd:catdoc ddemangle detab dmd rdmd tolf
+dmd:catdoc ddemangle detab dmd dustmite rdmd tolf
 dmtx-utils:dmtxquery dmtxread dmtxwrite
 dns2tcp:dns2tcpc dns2tcpd
 dnscrypt-proxy:hostip dnscrypt-proxy
@@ -584,6 +593,8 @@ dnstracer:dnstracer
 docbook-xsl:dbtoepub
 docbook2x:db2x_manxml db2x_texixml db2x_xsltproc docbook2man docbook2texi sgml2xml-isoent utf8trans
 docbook:
+docker-machine:docker-machine
+docker-swarm:docker-swarm
 docker:docker
 dockutil:dockutil
 doitlive:doitlive
@@ -594,7 +605,7 @@ doubledown:doubledown doubledown-fsevents doubledown-inotify
 dovecot:doveadm doveconf dsync dovecot
 doxygen:doxygen
 doxymacs:doxymacs_parser
-dpkg:dpkg dpkg-architecture dpkg-buildflags dpkg-buildpackage dpkg-checkbuilddeps dpkg-deb dpkg-distaddfile dpkg-divert dpkg-genchanges dpkg-gencontrol dpkg-gensymbols dpkg-maintscript-helper dpkg-mergechangelogs dpkg-name dpkg-parsechangelog dpkg-query dpkg-scanpackages dpkg-scansources dpkg-shlibdeps dpkg-source dpkg-split dpkg-statoverride dpkg-trigger dpkg-vendor
+dpkg:dpkg dpkg-architecture dpkg-buildflags dpkg-buildpackage dpkg-checkbuilddeps dpkg-deb dpkg-distaddfile dpkg-divert dpkg-genchanges dpkg-gencontrol dpkg-gensymbols dpkg-maintscript-helper dpkg-mergechangelogs dpkg-name dpkg-parsechangelog dpkg-query dpkg-scanpackages dpkg-scansources dpkg-shlibdeps dpkg-source dpkg-split dpkg-statoverride dpkg-trigger dpkg-vendor update-alternatives
 drake:drake
 drip:drip
 dropbear:dbclient dropbearconvert dropbearkey dropbear
@@ -605,6 +616,7 @@ dtach:dtach
 dtc:convert-dtsv0 dtc dtdiff fdtdump fdtget fdtput
 dterm:dterm
 dtrx:dtrx
+dub:dub
 duck:duck
 duff:duff
 duo_unix:login_duo
@@ -1591,7 +1603,7 @@ itex2mml:itex2MML
 itpp:itpp-config
 itstool:itstool
 ivy:ivy
-jack:jack_alias jack_bufsize jack_connect jack_disconnect jack_evmon jack_freewheel jack_impulse_grabber jack_iodelay jack_latent_client jack_load jack_load_test jack_lsp jack_metro jack_midi_dump jack_midiseq jack_midisine jack_monitor_client jack_netsource jack_property jack_samplerate jack_server_control jack_session_notify jack_showtime jack_simple_client jack_simple_session_client jack_transport_client jack_unload jack_wait jackd
+jack:jack_alias jack_bufsize jack_connect jack_disconnect jack_evmon jack_freewheel jack_impulse_grabber jack_iodelay jack_latent_client jack_load jack_load_test jack_lsp jack_metro jack_midi_dump jack_midiseq jack_midisine jack_monitor_client jack_netsource jack_property jack_rec jack_samplerate jack_server_control jack_session_notify jack_showtime jack_simple_client jack_simple_session_client jack_transport_client jack_unload jack_wait jackd
 jags:jags
 jailkit:jk_uchroot jk_addjailuser jk_check jk_chrootlaunch jk_chrootsh jk_cp jk_init jk_jailuser jk_list jk_lsh jk_procmailwrapper jk_socketd jk_update
 jam:jam mkjambase
