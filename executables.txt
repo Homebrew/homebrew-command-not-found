@@ -876,7 +876,8 @@ get-flash-videos:get_flash_videos
 getdns:
 getmail:getmail getmail_fetch getmail_maildir getmail_mbox
 gettext:autopoint envsubst gettext gettext.sh gettextize msgattrib msgcat msgcmp msgcomm msgconv msgen msgexec msgfilter msgfmt msggrep msginit msgmerge msgunfmt msguniq ngettext recode-sr-latin xgettext
-getxbook:getabook getbnbook getgbook getxbookgui
+getxbook:getabook getbnbook getgbook
+gexiv2:
 gflags:gflags_completions.sh
 gforth:gforth gforth-0.7.3 gforth-fast gforth-fast-0.7.3 gforth-itc gforth-itc-0.7.3 gforthmi gforthmi-0.7.3 vmgen vmgen-0.7.3
 gh:gh
@@ -900,11 +901,12 @@ git-cola:cola git-cola git-dag
 git-crypt:git-crypt
 git-encrypt:gitcrypt
 git-extras:git-alias git-archive-file git-authors git-back git-bug git-changelog git-chore git-commits-since git-contrib git-count git-create-branch git-delete-branch git-delete-merged-branches git-delete-submodule git-delete-tag git-delta git-effort git-extras git-feature git-fork git-fresh-branch git-gh-pages git-graft git-guilt git-ignore git-info git-line-summary git-local-commits git-lock git-locked git-merge-into git-merge-repo git-missing git-obliterate git-pr git-pull-request git-rebase-patch git-refactor git-release git-rename-tag git-repl git-reset-file git-root git-rscp git-scp git-setup git-show-merged-branches git-show-tree git-show-unmerged-branches git-squash git-summary git-touch git-undo git-unlock
-git-fixup:
+git-fixup:git-fixup
 git-flow-avh:git-flow
 git-flow:git-flow
 git-ftp:git-ftp
 git-gerrit:gerrit gerrit-cherry-pick git-gerrit
+git-hooks:git-hooks
 git-imerge:git-imerge
 git-integration:git-integration
 git-latexdiff:git-latexdiff
@@ -914,11 +916,13 @@ git-now:git-now
 git-number:git-id git-list git-number
 git-octopus:git-octopus
 git-open:git-open
+git-plus:git-multi git-old-branches git-relation
 git-review:git-review
 git-sh:git-sh
 git-ssh:git-ssh
 git-stree:git-stree
 git-subrepo:git-subrepo
+git-test:git-test
 git-tf:git-tf
 git-tracker:git-tracker
 git-url-sub:git-url-sub
@@ -989,6 +993,7 @@ gost:gost
 gosu:gosu
 gotags:gotags
 gource:gource
+gpac:MP42TS MP4Box MP4Client
 gpg-agent:gpg-agent
 gpgme:gpgme-config gpgme-tool
 gphoto2:gphoto2
@@ -996,13 +1001,15 @@ gplcver:cver
 gpm:gpm
 gpp:gpp
 gpsbabel:gpsbabel
+gpsd:gpsctl gpsdecode gpspipe gpxlogger lcdgps gpsd gpsdctl
+gpsim:gpsim
 gptfdisk:cgdisk fixparts gdisk sgdisk
 gptsync:gptsync showpart
 gputils:gpasm gpdasm gplib gplink gpstrip gpvc gpvo
 gqlplus:gqlplus
 gqview:gqview
 gradle:gradle
-grails:grails startGrails
+grails:grails
 grap:grap
 graphicsmagick:gm GraphicsMagick++-config GraphicsMagick-config GraphicsMagickWand-config
 graphviz:acyclic bcomps ccomps circo cluster dijkstra dot dot2gxl dot_builtins edgepaint fdp gc gml2gv graphml2gv gv2gml gv2gxl gvcolor gvgen gvmap gvpack gvpr gxl2dot gxl2gv mm2gv neato nop osage patchwork prune sccmap sfdp tred twopi unflatten
@@ -1740,7 +1747,7 @@ lcov:gendesc genhtml geninfo genpng lcov
 lcrack:lcrack
 ldapvi:ldapvi
 ldc:ldc2 ldmd2
-ldns:drill ldns-config
+ldns:drill ldns-chaos ldns-compare-zones ldns-config ldns-dane ldns-dpa ldns-gen-zone ldns-key2ds ldns-keyfetcher ldns-keygen ldns-mx ldns-notify ldns-nsec3-hash ldns-read-zone ldns-resolver ldns-revoke ldns-rrsig ldns-signzone ldns-test-edns ldns-testns ldns-update ldns-verify-zone ldns-version ldns-walk ldns-zcat ldns-zsplit ldnsd
 leafnode:leafnode-version newsq applyfilter checkgroups fetchnews leafnode texpire
 ledger:ledger
 ledit:ledit
