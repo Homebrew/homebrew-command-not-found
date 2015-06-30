@@ -1664,7 +1664,7 @@ jlog:jlog_change_endian jlog_sanity_check jlogctl jlogtail
 jmeter:jmeter
 jmxtrans:jmxtrans
 jnettop:jnettop
-joe:jmacs joe jpico jstar rjoe termidx
+joe:jmacs joe jpico jstar rjoe stringify termidx
 john-jumbo:john
 john:john
 jooby-bootstrap:jooby
@@ -1728,8 +1728,9 @@ kore:kore
 kotlin-compiler:kotlinc kotlinc-js kotlinc-jvm
 kqwait:kqwait
 ksh:ksh ksh93
+kstart:k5start krenew
 ktoblzcheck:ktoblzcheck
-kubernetes-cli:kubecfg kubectl kubernetes
+kubernetes-cli:kubectl kubernetes
 kvazaar:kvazaar
 kyoto-cabinet:kccachetest kcdirmgr kcdirtest kcforestmgr kcforesttest kcgrasstest kchashmgr kchashtest kclangctest kcpolymgr kcpolytest kcprototest kcstashtest kctreemgr kctreetest kcutilmgr kcutiltest
 kyoto-tycoon:ktremotemgr ktremotetest ktserver kttimedmgr kttimedtest ktutilmgr ktutilserv ktutiltest
@@ -1756,10 +1757,11 @@ lcdf-typetools:cfftot1 mmafm mmpfb otfinfo otftotfm t1dotlessj t1lint t1rawafm t
 lcdproc:fortune.pl iosock.pl lcdexec lcdident.pl lcdmetar.pl lcdproc lcdvc tail.pl x11amp.pl LCDd
 lci:lci
 lcov:gendesc genhtml geninfo genpng lcov
-lcrack:lcrack
+lcrack:lcrack lcrack_mktbl lcrack_mkword lcrack_regex
 ldapvi:ldapvi
 ldc:ldc2 ldmd2
 ldns:drill ldns-chaos ldns-compare-zones ldns-config ldns-dane ldns-dpa ldns-gen-zone ldns-key2ds ldns-keyfetcher ldns-keygen ldns-mx ldns-notify ldns-nsec3-hash ldns-read-zone ldns-resolver ldns-revoke ldns-rrsig ldns-signzone ldns-test-edns ldns-testns ldns-update ldns-verify-zone ldns-version ldns-walk ldns-zcat ldns-zsplit ldnsd
+le:le
 leafnode:leafnode-version newsq applyfilter checkgroups fetchnews leafnode texpire
 ledger:ledger
 ledit:ledit
@@ -1806,7 +1808,7 @@ libcello:
 libcmph:cmph
 libcoap:coap-client coap-server
 libconfig:
-libcouchbase:cbc cbc-admin cbc-bucket-create cbc-bucket-delete cbc-cat cbc-cp cbc-create cbc-decr cbc-hash cbc-incr cbc-lock cbc-mcflush cbc-pillowfight cbc-rm cbc-stats cbc-unlock cbc-verbosity cbc-verify cbc-version cbc-view
+libcouchbase:cbc cbc-admin cbc-bucket-create cbc-bucket-delete cbc-bucket-flush cbc-cat cbc-connstr cbc-create cbc-decr cbc-hash cbc-incr cbc-lock cbc-mcflush cbc-n1ql cbc-n1qlback cbc-observe cbc-observe-seqno cbc-pillowfight cbc-rm cbc-stats cbc-strerror cbc-unlock cbc-verbosity cbc-version cbc-view cbc-write-config
 libcppa:
 libcroco:croco-0.6-config csslint-0.6
 libcsv:
@@ -1839,6 +1841,7 @@ libev:
 libevent:event_rpcgen.py
 libewf:ewfacquire ewfacquirestream ewfdebug ewfexport ewfinfo ewfmount ewfrecover ewfverify
 libexif:
+libexosip:sip_reg
 libextractor:extract
 libfaketime:faketime
 libffi:
@@ -1941,7 +1944,7 @@ libodfgen:
 libofx:ofx2qif ofxdump
 libogg:
 liboil:oil-bugreport
-libopendkim:opendkim-genkey opendkim-genzone opendkim-testadsp opendkim-testkey opendkim-testmsg
+libopendkim:opendkim-genkey opendkim-genzone opendkim-testkey opendkim-testmsg
 libopennet:
 liboping:noping oping
 libopkele:
