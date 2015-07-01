@@ -2592,6 +2592,7 @@ pit:pit
 pius:pius pius-keyring-mgr pius-party-worksheet
 pixman:
 pixz:pixz
+pjproject:pjsua
 pk:pk
 pkcrack:extract findkey makekey pkcrack zipdecrypt
 pkcs11-helper:
@@ -2605,7 +2606,8 @@ platypus:platypus
 plenv:plenv
 plod:plod
 plotutils:double graph hersheydemo ode pic2plot plot plotfont spline tek2plot
-plowshare:plowdel plowdown plowlist plowprobe plowup
+plowshare:plowdel plowdown plowlist plowmod plowprobe plowup
+plplot:plserver pltcl pltek
 plt-racket:racket raco
 plustache:
 plzip:plzip
@@ -2615,14 +2617,14 @@ pmdmini:pmdplay
 pms:pms
 png++:
 png2ico:png2ico
-pngcheck:pngcheck
+pngcheck:png-fix-IDAT-windowsize pngcheck pngsplit
 pngcrush:pngcrush
 pngnq:pngcomp pngnq
 pngpaste:pngpaste
 pngquant:pngquant
 poco:cpspc cpspcd f2cpsp f2cpspd
 podiff:podiff
-podofo:
+podofo:podofobox podofocolor podofocountpages podofocrop podofoencrypt podofogc podofoimg2pdf podofoimgextract podofoimpose podofoincrementalupdates podofomerge podofopages podofopdfinfo podofotxt2pdf podofotxtextract podofouncompress podofoxmp
 points2grid:points2grid
 polarssl:aescrypt2 benchmark cert_app cert_req cert_write crl_app crypt_and_hash dh_client dh_genprime dh_server gen_entropy gen_key gen_random_ctr_drbg gen_random_havege generic_sum key_app md5sum mpi_demo pem2der pk_decrypt pk_encrypt pk_sign pk_verify req_app rsa_decrypt rsa_encrypt rsa_genkey rsa_sign rsa_verify selftest sha1sum sha2sum ssl_cert_test ssl_client1 ssl_client2 ssl_fork_server ssl_mail_client ssl_pthread_server ssl_server ssl_test strerror
 polipo:polipo
@@ -2638,7 +2640,7 @@ portaudio:
 portmidi:
 poster:poster
 postgis:create_undef.pl pgsql2shp postgis_proc_upgrade.pl postgis_restore.pl profile_intersects.pl raster2pgsql shp2pgsql test_estimation.pl test_geography_estimation.pl test_geography_joinestimation.pl test_joinestimation.pl
-postgres-xc:ecpg gtm gtm_ctl gtm_proxy makesgml initdb initgtm postgres postmaster clusterdb createdb createlang createuser dropdb droplang dropuser oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_resetxlog pg_restore pg_standby pg_test_fsync pg_upgrade pgbench pgxc_clean psql reindexdb vacuumdb vacuumlo
+postgres-xc:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg gtm gtm_ctl gtm_proxy initdb initgtm makesgml oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_resetxlog pg_restore pg_standby pg_test_fsync pg_upgrade pgbench pgxc_clean postgres postmaster psql reindexdb vacuumdb vacuumlo
 postgresql:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivexlog pg_recvlogical pg_resetxlog pg_restore pg_standby pg_test_fsync pg_test_timing pg_upgrade pg_xlogdump pgbench pltcl_delmod pltcl_listmod pltcl_loadmod postgres postmaster psql reindexdb vacuumdb vacuumlo
 postmark:postmark
 potrace:mkbitmap potrace
@@ -2661,7 +2663,7 @@ proctools:pfind pgrep pkill
 procyon-decompiler:procyon-decompiler
 profanity:profanity
 proftpd:ftpasswd ftpcount ftpdctl ftpmail ftpquota ftptop ftpwho prxs ftpscrub ftpshut in.proftpd proftpd
-proguard:proguard
+proguard:proguard proguardgui
 proj:cs2cs geod nad2bin proj
 proof-general:coqtags isartags legotags proofgeneral
 protobuf-c:protoc-c
@@ -2670,9 +2672,10 @@ protobuf:protoc
 proxychains-ng:proxychains4
 proxytunnel:proxytunnel
 ps2eps:bbox ps2eps
-psftools:fnt2psf fnts2fon fon2fnts psf2fnt bbc2psf cpi2psf cpicomp cpidcomp mda2psf page2cp2 psf2bbc psf2bdf psf2bsd psf2inc psf2pbms psf2raw psf2txt psf2wof psf2wyse psf2xbm psf2zx psfjoin psfmerge psfpages psfs2cpi psfxform raw2psf txt2psf wof2psf wyse2psf zx2psf
+psftools:bbc2psf cpi2psf cpicomp cpidcomp fnt2psf fnts2fon fon2fnts mda2psf page2cp2 psf2bbc psf2bdf psf2bsd psf2fnt psf2inc psf2pbms psf2raw psf2txt psf2wof psf2wyse psf2xbm psf2zx psfjoin psfmerge psfpages psfs2cpi psfxform raw2psf txt2psf wof2psf wyse2psf zx2psf
 psgrep:psgrep
 psqlodbc:
+pssh:pnuke prsync pscp pslurp pssh pssh-askpass
 pstoedit:pstoedit
 pstree:pstree
 psutils:epsffit extractres fixdlsrps fixfmps fixmacps fixpsditps fixpspps fixscribeps fixtpps fixwfwps fixwpps fixwwps getafm includeres psbook psmerge psnup psresize psselect pstops showchar
@@ -2685,6 +2688,7 @@ pulseaudio:esdcompat pacat pacmd pactl pamon paplay parec parecord pasuspender p
 pup:pup
 pure-ftpd:pure-pw pure-pwconvert pure-statsdecode pure-authd pure-ftpd pure-ftpwho pure-mrtginfo pure-quotacheck pure-uploadscript
 purescript:psc psc-docs psc-hierarchy psc-make psci
+pushpin:m2adapter pushpin pushpin-handler pushpin-proxy pushpin-publish
 putmail-queue:putmail_dequeue.py putmail_enqueue.py
 putmail:putmail putmail.py
 putty:plink pscp psftp puttygen
@@ -2695,7 +2699,9 @@ pwntools:asm constgrep cyclic disasm elfdiff elfpatch hex phd shellcraft unhex
 pwsafe:pwsafe
 pxz:pxz
 py2cairo:
+py3cairo:
 pyenv-ccache:
+pyenv-pip-migrate:pyenv-migrate
 pyenv-virtualenv:pyenv-activate pyenv-deactivate pyenv-sh-activate pyenv-sh-deactivate pyenv-virtualenv pyenv-virtualenv-init pyenv-virtualenv-prefix pyenv-virtualenvs
 pyenv-virtualenvwrapper:pyenv-sh-virtualenvwrapper pyenv-sh-virtualenvwrapper_lazy pyenv-virtualenvwrapper pyenv-virtualenvwrapper_lazy
 pyenv-which-ext:
@@ -2717,7 +2723,7 @@ pyside:
 python3:2to3-3.4 easy_install-3.4 idle3 idle3.4 pip3 pip3.4 pydoc3 pydoc3.4 python3 python3-config python3.4 python3.4-config python3.4m python3.4m-config pyvenv pyvenv-3.4
 python:2to3 2to3-2 2to3-2.7 easy_install easy_install-2.7 idle idle2 idle2.7 pip pip2 pip2.7 pydoc pydoc2 pydoc2.7 python python-config python2 python2-config python2.7 python2.7-config pythonw pythonw2 pythonw2.7 smtpd.py smtpd2.7.py smtpd2.py
 q:q
-qbs:qbs qbs-config qbs-config-ui qbs-qmltypes qbs-setup-qt qbs-setup-toolchains
+qbs:qbs qbs-config qbs-config-ui qbs-qmltypes qbs-setup-android qbs-setup-qt qbs-setup-toolchains
 qca:mozcerts qcatool
 qcachegrind:qcachegrind
 qd:qd-config
@@ -2730,7 +2736,7 @@ qprint:qprint
 qrencode:qrencode
 qscintilla2:
 qstat:qstat
-qt5:lconvert lrelease lupdate macchangeqt macdeployqt moc qcollectiongenerator qdoc qhelpconverter qhelpgenerator qlalr qmake qml1plugindump qmlbundle qmleasing qmlimportscanner qmllint qmlmin qmlplugindump qmlprofiler qmlscene qmltestrunner qtdiag qtpaths rcc syncqt.pl uic xmlpatterns xmlpatternsvalidator
+qt5:lconvert lrelease lupdate macchangeqt macdeployqt moc qcollectiongenerator qdbus qdbuscpp2xml qdbusxml2cpp qdoc qhelpconverter qhelpgenerator qlalr qmake qml1plugindump qmlbundle qmleasing qmlimportscanner qmllint qmlmin qmlplugindump qmlprofiler qmlscene qmltestrunner qtdiag qtpaths rcc syncqt.pl uic xmlpatterns xmlpatternsvalidator
 qt:lconvert lrelease lupdate macdeployqt moc qcollectiongenerator qdoc3 qhelpgenerator qmake qmlplugindump qt3to4 rcc uic xmlpatterns xmlpatternsvalidator
 qtfaststart:qt-faststart
 qtplay:qtplay
@@ -2739,6 +2745,7 @@ quantlib:quantlib-config quantlib-test-suite
 quassel:quassel quasselclient quasselcore
 quazip:qztest
 queequeg:qq
+quex:quex
 quilt:guards quilt
 quotatool:quotatool
 quvi:quvi
@@ -2753,7 +2760,7 @@ radare2:r2 r2agent rabin2 radare2 radiff2 rafind2 ragg2 ragg2-cc rahash2 rarun2 
 ragel:ragel
 rainbarf:rainbarf
 rakudo-star:moar nqp-m p6doc p6doc-index p6doc-index-m p6doc-m panda panda-m perl6 perl6-debug-m perl6-m ufo ufo-m
-rancid:agmrancid alogin anlogin anrancid arancid arrancid avologin avorancid blogin brancid cat5rancid clogin complogin control_rancid cssrancid dllogin elogin erancid f10rancid f5rancid flogin fnlogin fnrancid hlogin hpuifilter hrancid htlogin htrancid jerancid jlogin lg.cgi lgform.cgi mrancid mrvlogin mtlogin mtrancid nlogin nrancid nslogin nsrancid nxrancid par prancid rancid rancid-cvs rancid-fe rancid-run rivlogin rivrancid rrancid srancid tlogin tntlogin tntrancid trancid xilogin xirancid xrancid zrancid
+rancid:agmrancid alogin anlogin arancid arrancid avologin avorancid blogin brancid cat5rancid clogin complogin control_rancid cssrancid dllogin elogin erancid f10rancid f5rancid flogin fnlogin fnrancid hlogin hpuifilter hrancid htlogin htrancid jerancid jlogin lg.cgi lgform.cgi mrancid mrvlogin mtlogin mtrancid nlogin nrancid nslogin nsrancid panlogin par plogin rancid rancid-cvs rancid-fe rancid-run rivlogin rivrancid rrancid srancid tlogin trancid wlogin xilogin xirancid xrancid zrancid
 randomize-lines:rl
 ranger:ranger
 rapidjson:
@@ -2776,13 +2783,15 @@ rbenv-use:rbenv-sh-use
 rbenv-vars:rbenv-vars
 rbenv-whatis:rbenv-whatis
 rbenv:rbenv ruby-local-exec
+rc:rc
 rcs:ci co ident merge rcs rcsclean rcsdiff rcsmerge rlog
 rcssserver:rcg2xml rcgconvert rcgsplit rcsoccersim rcssclient rcsslogplayer rcssmonitor rcssserver
 rdate:rdate
 rdfind:rdfind
 rdiff-backup:rdiff-backup rdiff-backup-statistics
-rds-command-line-tools:rds rds-add-option-to-option-group rds-add-source-identifier-to-subscription rds-add-tag-to-resource rds-authorize-db-security-group-ingress rds-copy-db-snapshot rds-create-db-instance rds-create-db-instance-read-replica rds-create-db-parameter-group rds-create-db-security-group rds-create-db-snapshot rds-create-db-subnet-group rds-create-event-subscription rds-create-option-group rds-delete-db-instance rds-delete-db-parameter-group rds-delete-db-security-group rds-delete-db-snapshot rds-delete-db-subnet-group rds-delete-event-subscription rds-delete-option-group rds-describe-db-engine-versions rds-describe-db-instances rds-describe-db-log-files rds-describe-db-parameter-groups rds-describe-db-parameters rds-describe-db-security-groups rds-describe-db-snapshots rds-describe-db-subnet-groups rds-describe-engine-default-parameters rds-describe-event-categories rds-describe-event-subscriptions rds-describe-events rds-describe-option-group-options rds-describe-option-groups rds-describe-orderable-db-instance-options rds-describe-reserved-db-instances rds-describe-reserved-db-instances-offerings rds-download-db-logfile rds-list-tags-for-resource rds-modify-db-instance rds-modify-db-parameter-group rds-modify-db-subnet-group rds-modify-event-subscription rds-promote-read-replica rds-purchase-reserved-db-instances-offering rds-reboot-db-instance rds-remove-option-from-option-group rds-remove-source-identifier-from-subscription rds-remove-tags-from-resource rds-reset-db-parameter-group rds-restore-db-instance-from-db-snapshot rds-restore-db-instance-to-point-in-time rds-revoke-db-security-group-ingress rds-update-option-in-option-group rds-version rds-watch-db-logfile
+rds-command-line-tools:rds rds-add-option-to-option-group rds-add-source-identifier-to-subscription rds-add-tag-to-resource rds-apply-pending-maintenance-action rds-authorize-db-security-group-ingress rds-copy-db-parameter-group rds-copy-db-snapshot rds-copy-option-group rds-create-db-instance rds-create-db-instance-read-replica rds-create-db-parameter-group rds-create-db-security-group rds-create-db-snapshot rds-create-db-subnet-group rds-create-event-subscription rds-create-option-group rds-delete-db-instance rds-delete-db-parameter-group rds-delete-db-security-group rds-delete-db-snapshot rds-delete-db-subnet-group rds-delete-event-subscription rds-delete-option-group rds-describe-account-attributes rds-describe-certificates rds-describe-db-engine-versions rds-describe-db-instances rds-describe-db-log-files rds-describe-db-parameter-groups rds-describe-db-parameters rds-describe-db-security-groups rds-describe-db-snapshots rds-describe-db-subnet-groups rds-describe-engine-default-parameters rds-describe-event-categories rds-describe-event-subscriptions rds-describe-events rds-describe-option-group-options rds-describe-option-groups rds-describe-orderable-db-instance-options rds-describe-pending-maintenance-actions rds-describe-reserved-db-instances rds-describe-reserved-db-instances-offerings rds-download-db-logfile rds-list-tags-for-resource rds-modify-db-instance rds-modify-db-parameter-group rds-modify-db-subnet-group rds-modify-event-subscription rds-promote-read-replica rds-purchase-reserved-db-instances-offering rds-reboot-db-instance rds-remove-option-from-option-group rds-remove-source-identifier-from-subscription rds-remove-tags-from-resource rds-reset-db-parameter-group rds-restore-db-instance-from-db-snapshot rds-restore-db-instance-to-point-in-time rds-revoke-db-security-group-ingress rds-update-option-in-option-group rds-version rds-watch-db-logfile
 rdup:rdup rdup-simple rdup-tr rdup-up
+re2:
 re2c:re2c
 readline:
 readosm:
@@ -2798,6 +2807,7 @@ redis-leveldb:redis-leveldb
 redis:redis-benchmark redis-check-aof redis-check-dump redis-cli redis-sentinel redis-server
 redland:rdfproc redland-config redland-db-upgrade
 redo:redo redo-always redo-ifchange redo-ifcreate redo-ood redo-sources redo-stamp redo-targets redo-unlocked
+redpen:redpen
 redshift:redshift
 redsocks:redsocks
 redstore:redstore
@@ -2814,7 +2824,7 @@ renameutils:deurlname icmd icp imv qcmd qcp qmv
 reop:reop
 repl:repl
 repo:repo
-reposurgeon:repodiffer repopuller reposurgeon
+reposurgeon:repodiffer reposurgeon repotool
 rest-shell:rest-shell
 restund:restund
 resty:pp pypp resty
@@ -2852,7 +2862,7 @@ rp:rp-osx
 rpg:rpg rpg-sh-setup
 rpl:rpl
 rpm2cpio:rpm2cpio.pl
-rpm:gendiff multiarch-dispatch multiarch-platform rpm rpm2cpio rpmbuild rpmconstant
+rpm:gendiff rpm rpm2cpio rpmbuild rpmconstant
 rrdtool:rrdcached rrdcgi rrdcreate rrdinfo rrdtool rrdupdate
 rsense:rsense
 rsnapshot:rsnapshot rsnapshot-diff
@@ -2871,7 +2881,9 @@ ruby-install:ruby-install
 ruby:erb gem irb rake rdoc ri ruby
 runcocoa:runc runcocoa
 runit:chpst runit runit-init runsv runsvchdir runsvdir sv svlogd utmpset
-rust:rust-lldb rustc rustdoc
+rush:rushlast rushwho rush
+rust:cargo rust-lldb rustc rustdoc
+ry:ry
 rzip:runzip rzip
 s-lang:slsh
 s3-backer:s3backer
@@ -2906,6 +2918,7 @@ scons:scons scons-time sconsign
 screenbrightness:screenbrightness
 screenfetch:screenfetch
 screenresolution:screenresolution
+scriptcs:scriptcs
 scrollkeeper:scrollkeeper-config scrollkeeper-extract scrollkeeper-gen-seriesid scrollkeeper-get-cl scrollkeeper-get-content-list scrollkeeper-get-extended-content-list scrollkeeper-get-index-from-docpath scrollkeeper-get-toc-from-docpath scrollkeeper-get-toc-from-id scrollkeeper-install scrollkeeper-preinstall scrollkeeper-rebuilddb scrollkeeper-uninstall scrollkeeper-update
 scrub:scrub
 scrypt:scrypt
