@@ -2502,6 +2502,7 @@ pangox-compat:
 paperkey:paperkey
 paps:paps
 paq8px:paq8px
+par2:par2 par2create par2repair par2verify
 par2tbb:par2 par2create par2repair par2verify
 par:par
 parallel:niceload parallel sem sql
@@ -2525,7 +2526,7 @@ pcre++:pcre++-config
 pcre2:pcre2-config pcre2grep pcre2test
 pcre:pcre-config pcregrep pcretest
 pcsc-lite:pcsc-spy pcscd
-pdal:pc2pc pcequal pcinfo pcpipeline pcquery pdal-config
+pdal:pdal pdal-config
 pdf-redact-tools:pdf-redact-tools
 pdf-tools:
 pdf2htmlex:pdf2htmlEX
@@ -2536,7 +2537,7 @@ pdfgrep:pdfgrep
 pdfjam:pdf180 pdf270 pdf90 pdfbook pdfflip pdfjam pdfjam-pocketmod pdfjam-slides3up pdfjam-slides6up pdfjoin pdfnup pdfpun
 pdflib-lite:pdfimage pdflib-config text2pdf
 pdftohtml:pdftohtml
-pdksh:ksh
+pdksh:pdksh
 pdns:pdns_control pdnssec zone2json zone2ldap zone2sql pdns_server
 pdnsd:pdnsd pdnsd-ctl
 pdnsrec:rec_control pdns_recursor
@@ -2544,11 +2545,12 @@ pebble-sdk:pebble
 peco:peco
 peervpn:peervpn
 peg-markdown:peg-markdown
+peg:leg peg
 perceptualdiff:perceptualdiff
 percona-server:innochecksum msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_client_test_embedded mysql_config mysql_config_editor mysql_convert_table_format mysql_embedded mysql_find_rows mysql_fix_extensions mysql_install_db mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysql_zap mysqladmin mysqlbinlog mysqlbug mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest mysqltest_embedded perror ps_tokudb_admin replace resolve_stack_dump resolveip
 percona-toolkit:pt-align pt-archiver pt-config-diff pt-deadlock-logger pt-diskstats pt-duplicate-key-checker pt-fifo-split pt-find pt-fingerprint pt-fk-error-logger pt-heartbeat pt-index-usage pt-ioprofile pt-kill pt-mext pt-mysql-summary pt-online-schema-change pt-pmp pt-query-digest pt-show-grants pt-sift pt-slave-delay pt-slave-find pt-slave-restart pt-stalk pt-summary pt-table-checksum pt-table-sync pt-table-usage pt-upgrade pt-variable-advisor pt-visual-explain
 perl-build:perl-build plenv-install plenv-uninstall
-perl:a2p c2ph config_data corelist cpan enc2xs find2perl h2ph h2xs instmodsh json_pp libnetcfg perl perl5.20.1 perlbug perldoc perlivp perlthanks piconv pl2pm pod2html pod2man pod2text pod2usage podchecker podselect prove psed pstruct ptar ptardiff ptargrep s2p shasum splain xsubpp zipdetails
+perl:a2p c2ph config_data corelist cpan enc2xs find2perl h2ph h2xs instmodsh json_pp libnetcfg perl perl5.20.2 perlbug perldoc perlivp perlthanks piconv pl2pm pod2html pod2man pod2text pod2usage podchecker podselect prove psed pstruct ptar ptardiff ptargrep s2p shasum splain xsubpp zipdetails
 perlmagick:
 pev:ofs2rva pedis pehash pepack peres pescan pesec pestr readpe rva2ofs
 pex:pex
@@ -2558,6 +2560,7 @@ pgbouncer:mkauth.py pgbouncer
 pgcli:pgcli
 pgdbf:pgdbf
 pgformatter:pg_format
+pgloader:pgloader
 pgpdump:pgpdump
 pgpool-ii:pcp_attach_node pcp_detach_node pcp_node_count pcp_node_info pcp_pool_status pcp_proc_count pcp_proc_info pcp_promote_node pcp_recovery_node pcp_stop_pgpool pcp_systemdb_info pcp_watchdog_info pg_md5 pgpool
 pgrouting:
@@ -2580,6 +2583,7 @@ pig:pig
 pigz:pigz unpigz
 pike:pike
 pillar:pillar
+pincaster:event_rpcgen.py pincaster
 pinentry-mac:pinentry-mac
 pinentry:pinentry pinentry-curses
 pipebench:pipebench
