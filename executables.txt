@@ -3208,7 +3208,7 @@ texwrapper:texwrapper
 thc-pptp-bruter:thc-pptp-bruter
 the_platinum_searcher:pt
 the_silver_searcher:ag
-thefuck:thefuck
+thefuck:thefuck thefuck-alias
 theharvester:theharvester
 theora:
 thrift:thrift
@@ -3266,9 +3266,9 @@ torsocks:torsocks
 tpl:
 tpp:tpp
 trace2html:trace2html
-tracebox:
+tracebox:luatracebox tracebox
 tractorgen:tractorgen
-trafficserver:traffic_cop traffic_line traffic_logcat traffic_logstats traffic_manager traffic_sac traffic_server traffic_top trafficserver tspush tstop tsxs
+trafficserver:traffic_cop traffic_crashlog traffic_ctl traffic_layout traffic_line traffic_logcat traffic_logstats traffic_manager traffic_sac traffic_server traffic_top traffic_via trafficserver tspush tstop tsxs
 trafshow:trafshow
 trang:trang
 transcrypt:transcrypt
@@ -3279,6 +3279,7 @@ tre:agrep
 tree:tree
 treecc:treecc
 treeline:treeline
+trr:trr_format trr_update
 truecrack:truecrack
 tsung:tsplot tsung tsung-recorder
 tta:tta
@@ -3293,7 +3294,7 @@ ttytter:ttytter
 tup:tup
 tutum:tutum
 tvnamer:tvnamer
-twemcache:
+twemcache:twemcache
 two-lame:twolame
 txt2man:bookman src2man txt2man
 txt2tags:txt2tags
@@ -3318,6 +3319,7 @@ unarj:unarj
 unbound:unbound unbound-anchor unbound-checkconf unbound-control unbound-control-setup unbound-host
 uncrustify:uncrustify
 unfs3:unfsd
+uni2ascii:ascii2uni u2a uni2ascii
 unifdef:unifdef unifdefall
 unison:unison
 unittest-cpp:
@@ -3337,9 +3339,11 @@ urlview:urlview
 uru:uru_rt
 usbmuxd:iproxy
 userspace-rcu:
+utimer:utimer
 uudeview:minews uudeview uuenview
 uwsgi:uwsgi
-v8:d8 lineprocessor mksnapshot process v8
+v8:d8 mksnapshot process v8
+v:v
 vala:vala vala-0.28 vala-gen-introspect vala-gen-introspect-0.28 valac valac-0.28 vapicheck vapicheck-0.28 vapigen vapigen-0.28
 valabind:valabind valabind-cc
 validns:validns
@@ -3356,10 +3360,11 @@ vcsh:vcsh
 vde:dpipe slirpvde unixcmd unixterm vde_autolink vde_cryptcab vde_l3 vde_over_ns vde_pcapplug vde_plug vde_plug2tap vde_switch vdecmd vdekvm vdeq vdeqemu vdeterm wirefilter
 vegeta:vegeta
 vera++:vera++
-verilator:verilator verilator_bin verilator_bin_dbg verilator_profcfunc
+verilator:verilator verilator_bin verilator_bin_dbg verilator_coverage verilator_coverage_bin_dbg verilator_profcfunc
 vert.x:vertx
 vf:
 vgmstream:vgmstream
+vice:c1541 cartconv petcat vice-launcher.sh x128 x64 x64dtv x64sc xcbm2 xcbm5x0 xpet xplus4 xvic
 vifm:vifm vifm-pause vifmrc-converter
 vilistextum:vilistextum
 vim:ex rview rvim view vim vimdiff vimtutor xxd
@@ -3372,7 +3377,7 @@ virtuoso:inifile isql isqlw virt_mail virtuoso-t
 visionmedia-watch:watch
 visitors:visitors
 visualnetkit:visualnetkit
-vit:
+vit:vit
 vmalloc:
 vncsnapshot:vncpasswd vncsnapshot
 vnstat:vnstat vnstatd vnstati
