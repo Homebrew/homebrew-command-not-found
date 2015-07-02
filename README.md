@@ -58,5 +58,5 @@ used by Bash when you try a command that doesn’t exist. The function calls
 `brew which-formula` on your command, and if it finds a match it’ll print it to
 you. If not, you’ll get an error as expected.
 
-Over 3500 formulae have been imported in the database, representing more than
-13500 different commands (95% of the main Homebrew repo + some taps).
+Over 3560 formulae have been imported in the database, representing more than
+14300 different commands (99% of the main Homebrew repo + some taps).
