@@ -25,9 +25,9 @@ First, tap this repository:
 
     brew tap bfontaine/command-not-found
 
-Then source the handler script in your `.bashrc`(bash) or `.zshrc`(zsh):
+Then add following line to your `.bashrc`(bash) or `.zshrc`(zsh):
 
-    eval "$(brew command-not-found-init)"
+    if brew command command-not-found-init > /dev/null; then eval "$(brew command-not-found-init)"; fi
 
 ### Upgrade from 0.1.1
 
