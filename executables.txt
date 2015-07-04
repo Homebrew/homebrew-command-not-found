@@ -1014,6 +1014,7 @@ gradle:gradle
 grails:grails
 grap:grap
 graphicsmagick:gm GraphicsMagick++-config GraphicsMagick-config GraphicsMagickWand-config
+graphite2:gr2fonttest
 graphviz:acyclic bcomps ccomps circo cluster dijkstra dot dot2gxl dot_builtins edgepaint fdp gc gml2gv graphml2gv gv2gml gv2gxl gvcolor gvgen gvmap gvpack gvpr gxl2dot gxl2gv mm2gv neato nop osage patchwork prune sccmap sfdp tred twopi unflatten
 grass:gem64 grass64
 grc:grc grcat
@@ -1381,7 +1382,7 @@ homebrew/homebrew-science/gmt4:backtracker binlegs blockmean blockmedian blockmo
 homebrew/homebrew-science/grabix:grabix
 homebrew/homebrew-science/h5utils:h5fromtxt h5topng h5totxt h5tovtk
 homebrew/homebrew-science/harvest-tools:harvesttools
-homebrew/homebrew-science/hdf5:gif2h5 h52gif h5cc h5copy h5debug h5diff h5dump h5import h5jam h5ls h5mkgrp h5perf_serial h5redeploy h5repack h5repart h5stat h5unjam
+homebrew/homebrew-science/hdf5:gif2h5 h52gif h5c++ h5cc h5copy h5debug h5diff h5dump h5import h5jam h5ls h5mkgrp h5perf_serial h5redeploy h5repack h5repart h5stat h5unjam
 homebrew/homebrew-science/hmmer:alimask hmmalign hmmbuild hmmc2 hmmconvert hmmemit hmmfetch hmmlogo hmmpgmd hmmpress hmmscan hmmsearch hmmsim hmmstat jackhmmer nhmmer nhmmscan phmmer
 homebrew/homebrew-science/htsbox:htsbox
 homebrew/homebrew-science/htslib:bgzip htsfile tabix
@@ -1390,6 +1391,7 @@ homebrew/homebrew-science/hypre:
 homebrew/homebrew-science/idba:idba idba_hybrid idba_tran idba_tran_test idba_ud
 homebrew/homebrew-science/igvtools:igvtools
 homebrew/homebrew-science/infernal:cmalign cmbuild cmcalibrate cmconvert cmemit cmfetch cmpress cmscan cmsearch cmstat
+homebrew/homebrew-science/insighttoolkit:itkTestDriver
 homebrew/homebrew-science/jellyfish-1.1:jellyfish
 homebrew/homebrew-science/jellyfish:jellyfish
 homebrew/homebrew-science/kat:dist_analysis.py kat kat_comp_reads.sh
@@ -1503,6 +1505,7 @@ homebrew/homebrew-versions/cloog018:cloog
 homebrew/homebrew-versions/gcc49:c++-4.9 cpp-4.9 g++-4.9 gcc-4.9 gcc-ar-4.9 gcc-nm-4.9 gcc-ranlib-4.9 gcov-4.9 x86_64-apple-darwin14.3.0-c++-4.9 x86_64-apple-darwin14.3.0-g++-4.9 x86_64-apple-darwin14.3.0-gcc-4.9 x86_64-apple-darwin14.3.0-gcc-4.9.2 x86_64-apple-darwin14.3.0-gcc-ar-4.9 x86_64-apple-darwin14.3.0-gcc-nm-4.9 x86_64-apple-darwin14.3.0-gcc-ranlib-4.9
 homebrew/homebrew-versions/gmp4:
 homebrew/homebrew-versions/isl011:
+homebrew/homebrew-versions/libdvdcss12:
 homebrew/homebrew-versions/libmpc08:
 homebrew/homebrew-versions/llvm33:bugpoint-3.3 c-index-test-3.3 clang++-3.3 clang-3.3 clang-check-3.3 clang-format-3.3 clang-tblgen-3.3 cpp11-migrate-3.3 llc-3.3 lli-3.3 llvm-ar-3.3 llvm-as-3.3 llvm-bcanalyzer-3.3 llvm-config-3.3 llvm-cov-3.3 llvm-diff-3.3 llvm-dis-3.3 llvm-dwarfdump-3.3 llvm-extract-3.3 llvm-link-3.3 llvm-mc-3.3 llvm-mcmarkup-3.3 llvm-nm-3.3 llvm-objdump-3.3 llvm-prof-3.3 llvm-ranlib-3.3 llvm-readobj-3.3 llvm-rtdyld-3.3 llvm-size-3.3 llvm-stress-3.3 llvm-symbolizer-3.3 llvm-tblgen-3.3 macho-dump-3.3 opt-3.3
 homebrew/homebrew-versions/mpfr2:
@@ -2547,6 +2550,7 @@ pdksh:pdksh
 pdns:pdns_control pdnssec zone2json zone2ldap zone2sql pdns_server
 pdnsd:pdnsd pdnsd-ctl
 pdnsrec:rec_control pdns_recursor
+pdsh:dshbak pdcp pdsh rpdcp
 pebble-sdk:pebble
 peco:peco
 peervpn:peervpn
@@ -2726,8 +2730,8 @@ pyqt:pylupdate4 pyrcc4 pyuic4
 pyqwt:
 pyside-tools:pyside-lupdate pyside-rcc pyside-uic
 pyside:
-python3:2to3-3.4 easy_install-3.4 idle3 idle3.4 pip3 pip3.4 pydoc3 pydoc3.4 python3 python3-config python3.4 python3.4-config python3.4m python3.4m-config pyvenv pyvenv-3.4
-python:2to3 2to3-2 2to3-2.7 easy_install easy_install-2.7 idle idle2 idle2.7 pip pip2 pip2.7 pydoc pydoc2 pydoc2.7 python python-config python2 python2-config python2.7 python2.7-config pythonw pythonw2 pythonw2.7 smtpd.py smtpd2.7.py smtpd2.py
+python3:2to3-3.4 easy_install-3.4 idle3 idle3.4 pip3 pip3.4 pydoc3 pydoc3.4 python3 python3-config python3.4 python3.4-config python3.4m python3.4m-config pyvenv pyvenv-3.4 wheel3
+python:2to3 2to3-2 2to3-2.7 easy_install easy_install-2.7 idle idle2 idle2.7 pip pip2 pip2.7 pydoc pydoc2 pydoc2.7 python python-config python2 python2-config python2.7 python2.7-config pythonw pythonw2 pythonw2.7 smtpd.py smtpd2.7.py smtpd2.py wheel
 q:q
 qbs:qbs qbs-config qbs-config-ui qbs-qmltypes qbs-setup-android qbs-setup-qt qbs-setup-toolchains
 qca:mozcerts qcatool
