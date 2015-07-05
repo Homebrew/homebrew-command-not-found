@@ -23,7 +23,7 @@ The program 'when' is currently not installed. You can install it by typing:
 
 First, tap this repository:
 
-    brew tap bfontaine/command-not-found
+    brew tap homebrew/command-not-found
 
 Then add following line to your `.bashrc`(bash) or `.zshrc`(zsh):
 
