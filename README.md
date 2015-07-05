@@ -1,5 +1,7 @@
 # homebrew-command-not-found
 
+[![Build Status](https://travis-ci.org/Homebrew/homebrew-command-not-found.svg?branch=master)](https://travis-ci.org/Homebrew/homebrew-command-not-found)
+
 This project tries to reproduce Ubuntu’s `command-not-found` for Homebrew users
 on OSX.
 
