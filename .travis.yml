@@ -1,5 +1,8 @@
 language: bash
+before_script:
+  - "sudo apt-get install zsh"
 script:
   - bash -n handler.sh
+  - zsh -n handler.sh
 notifications:
   email: false
