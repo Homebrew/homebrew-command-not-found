@@ -31,9 +31,8 @@ def get_tap(formula)
   formula[TAP_RE]
 end
 
-# Filter a list of formulae by removing those from an untapped tap
-def remove_not_tapped(formulae)
-  formulae.select { |f| !f.include?("/") || tapped?(get_tap f) }
+def short_name(formula)
+  formula.sub(/homebrew\/homebrew-/, "homebrew/")
 end
 
 # Print a small text explaining how to get 'cmd' by installing 'formula'. Note
@@ -42,7 +41,7 @@ end
 def explain_formula_install(cmd, formula)
   puts <<-EOS
 The program '#{cmd}' is currently not installed. You can install it by typing:
-  brew install #{formula}
+  brew install #{short_name formula}
   EOS
 end
 
@@ -50,9 +49,7 @@ end
 # formulae.
 def explain_formulae_install(cmd, formulae)
   return explain_formula_install(cmd, formulae.first) if formulae.size == 1
-  # we don't support external formulae here for now since we'd need to explain
-  # how to tap everything.
-  formulae = remove_not_tapped(formulae)
+  formulae.map! { |f| short_name f }
   puts <<-EOS.undent
     The program '#{cmd}' can be found in the following formulae:
       * #{formulae * "\n      * "}
