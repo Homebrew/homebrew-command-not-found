@@ -40,14 +40,9 @@ end
 # that it'll still suggest to install the formula if it's already installed but
 # unlinked.
 def explain_formula_install(cmd, formula)
-  instructions = []
-  tap = get_tap formula
-  instructions << "brew tap #{tap}" if tap && !tapped?(tap)
-  instructions << "brew install #{formula}"
-
   puts <<-EOS
 The program '#{cmd}' is currently not installed. You can install it by typing:
-  #{instructions * "\n  "}
+  brew install #{formula}
   EOS
 end
 
