@@ -1,10 +1,10 @@
 #
 # brew-command-not-found script for OS X
 #
-# Usage: Source it somewhere in your .bashrc(bash) or .zshrc(zsh)
+# Usage: Source it somewhere in your .bashrc (bash) or .zshrc (zsh)
 #
 # Author: Baptiste Fontaine
-# URL: https://github.com/bfontaine/homebrew-command-not-found
+# URL: https://github.com/Homebrew/homebrew-command-not-found
 # License: MIT
 # Version: 0.2.0
 #
