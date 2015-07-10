@@ -1305,6 +1305,8 @@ homebrew/homebrew-php/php56-redland:
 homebrew/homebrew-php/php56-sundown:
 homebrew/homebrew-php/php56-xhprof:
 homebrew/homebrew-php/php56:pear peardev pecl phar phar.phar php php-cgi php-config phpize php-fpm php56-fpm
+homebrew/homebrew-php/php70-lzf:
+homebrew/homebrew-php/php70:pear peardev pecl phar phar.phar php php-cgi php-config phpize php-fpm php70-fpm
 homebrew/homebrew-php/phpmyadmin:
 homebrew/homebrew-php/phpunit:phpunit
 homebrew/homebrew-python/matplotlib-basemap:
@@ -2102,6 +2104,7 @@ log4cpp:log4cpp-config
 log4cxx:
 log4shib:log4shib-config
 logcheck:logcheck-test logcheck logtail logtail2
+logentries:le
 logrotate:logrotate
 logstalgia:logstalgia
 logstash:logstash
@@ -2152,6 +2155,7 @@ makedepend:makedepend
 makefile2graph:make2graph makefile2graph
 makeicns:makeicns
 makensis:makensis
+makepkg:cleanupdelta makepkg makepkg-template pacman pacman-db-upgrade pacman-key pacman-optimize pacsort pactree pkgdelta repo-add repo-elephant repo-remove testdb testpkg vercmp
 makepp:makepp makepp_build_cache_control makeppbuiltin makeppclean makeppgraph makeppinfo makepplog makeppreplay mpp mppb mppbcc mppc mppg mppi mppl mppr
 makeself:makeself
 mal4s:mal4s
@@ -2471,7 +2475,7 @@ openh264:
 openhmd:simple
 openjpeg:image_to_j2k j2k_dump j2k_to_image
 openlitespeed:litespeed lshttpd lswsctrl lswsctrl.open openlitespeed
-openrtsp:live555MediaServer live555ProxyServer MPEG2TransportStreamIndexer openRTSP playSIP registerRTSPStream sapWatch testAMRAudioStreamer testDVVideoStreamer testH264VideoStreamer testH264VideoToTransportStream testH265VideoStreamer testH265VideoToTransportStream testMKVStreamer testMP3Receiver testMP3Streamer testMPEG1or2AudioVideoStreamer testMPEG1or2ProgramToTransportStream testMPEG1or2Splitter testMPEG1or2VideoReceiver testMPEG1or2VideoStreamer testMPEG2TransportReceiver testMPEG2TransportStreamer testMPEG2TransportStreamTrickPlay testMPEG4VideoStreamer testOggStreamer testOnDemandRTSPServer testRelay testReplicator testRTSPClient testWAVAudioStreamer vobStreamer
+openrtsp:live555MediaServer live555ProxyServer MPEG2TransportStreamIndexer openRTSP playSIP registerRTSPStream sapWatch vobStreamer
 opensaml:samlsign
 opensc:cardos-tool cryptoflex-tool dnie-tool eidenv iasecc-tool netkey-tool openpgp-tool opensc-explorer opensc-tool piv-tool pkcs11-tool pkcs15-crypt pkcs15-init pkcs15-tool sc-hsm-tool westcos-tool
 openslide:openslide-quickhash1sum openslide-show-properties openslide-write-png
@@ -3013,6 +3017,7 @@ sipp:sipp
 sipsak:sipsak
 sisc-scheme:sisc
 sispmctl:sispmctl
+sjk:sjk
 skinny:skinny yo
 skipfish:skipfish
 skktools:skkdic-count skkdic-expr skkdic-expr2 skkdic-sort
