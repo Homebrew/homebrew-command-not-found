@@ -1570,15 +1570,218 @@ homebrew/homebrew-science/xraylib:xraylib
 homebrew/homebrew-science/yaggo:yaggo
 homebrew/homebrew-science/yeppp:
 homebrew/homebrew-science/zoltan:
+homebrew/homebrew-versions/android-ndk-r10c:ndk-build ndk-gdb ndk-stack
+homebrew/homebrew-versions/android-ndk-r9d:ndk-build ndk-gdb ndk-stack
+homebrew/homebrew-versions/ansible14:ansible ansible-doc ansible-galaxy ansible-playbook ansible-pull
+homebrew/homebrew-versions/ansible18:ansible ansible-doc ansible-galaxy ansible-playbook ansible-pull ansible-vault
+homebrew/homebrew-versions/antlr2:antlr2
+homebrew/homebrew-versions/apache-spark121:beeline compute-classpath.sh load-spark-env.sh pyspark run-example spark-class spark-shell spark-sql spark-submit utils.sh
+homebrew/homebrew-versions/appledoc22:appledoc
+homebrew/homebrew-versions/astyle204:astyle
+homebrew/homebrew-versions/autoconf213:autoconf213 autoheader213 autoreconf213 autoscan213 autoupdate213 ifnames213
+homebrew/homebrew-versions/autoconf264:autoconf264 autoheader264 autom4te264 autoreconf264 autoscan264 autoupdate264 ifnames264
+homebrew/homebrew-versions/automake112:aclocal112 aclocal112-1.12 automake112 automake112-1.12
+homebrew/homebrew-versions/bash-completion2:
+homebrew/homebrew-versions/bind99:bind9-config dig host isc-config.sh nslookup nsupdate arpaname ddns-confgen dnssec-checkds dnssec-coverage dnssec-dsfromkey dnssec-importkey dnssec-keyfromlabel dnssec-keygen dnssec-revoke dnssec-settime dnssec-signzone dnssec-verify genrandom isc-hmac-fixup lwresd named named-checkconf named-checkzone named-compilezone named-journalprint nsec3hash rndc rndc-confgen
 homebrew/homebrew-versions/bison27:bison yacc
+homebrew/homebrew-versions/boost149:
+homebrew/homebrew-versions/boost150:
+homebrew/homebrew-versions/boost155:
+homebrew/homebrew-versions/boot2docker133:boot2docker
+homebrew/homebrew-versions/boot2docker141:boot2docker
+homebrew/homebrew-versions/camlp5-606:camlp5 camlp5o camlp5o.opt camlp5r camlp5r.opt camlp5sch mkcamlp5 mkcamlp5.opt ocpp5
+homebrew/homebrew-versions/cassandra-0.6:cassandra cassandra-cli cassandra.in.sh clustertool json2sstable nodeprobe nodetool sstable2json sstablekeys stop-server
+homebrew/homebrew-versions/cassandra10:cassandra cassandra-cli cassandra.in.sh cqlsh cqlshrc.sample json2sstable nodetool sstable2json sstablekeys sstableloader stop-server
+homebrew/homebrew-versions/cassandra12:cassandra cassandra-cli cassandra.in.sh cqlsh debug-cql json2sstable nodetool sstable2json sstablekeys sstableloader sstablescrub sstablesplit sstableupgrade stop-server
+homebrew/homebrew-versions/cassandra20:cassandra cassandra-cli cassandra.in.sh cqlsh debug-cql json2sstable nodetool sstable2json sstablekeys sstableloader sstablescrub sstablesplit sstableupgrade stop-server
+homebrew/homebrew-versions/clojure14:clj
+homebrew/homebrew-versions/cloog-ppl015:cloog
 homebrew/homebrew-versions/cloog018:cloog
+homebrew/homebrew-versions/cmake28:ccmake cmake cmakexbuild cpack ctest
+homebrew/homebrew-versions/cmake30:ccmake cmake cmakexbuild cpack ctest
+homebrew/homebrew-versions/cmake31:ccmake cmake cmakexbuild cpack ctest
+homebrew/homebrew-versions/coq83:coq-tex coq_makefile coqc coqchk coqchk.opt coqdep coqdoc coqmktop coqtop coqtop.byte coqtop.opt coqwc gallina
+homebrew/homebrew-versions/cvsps2:cvsps
+homebrew/homebrew-versions/docker133:docker
+homebrew/homebrew-versions/docker141:docker
+homebrew/homebrew-versions/docker150:docker
+homebrew/homebrew-versions/doxygen1831:doxygen
+homebrew/homebrew-versions/drush4:drush
+homebrew/homebrew-versions/drush5:drush
+homebrew/homebrew-versions/duplicity06:duplicity rdiffdir
+homebrew/homebrew-versions/eigen2:
+homebrew/homebrew-versions/elasticsearch-0.20:elasticsearch elasticsearch.in.sh plugin
+homebrew/homebrew-versions/elasticsearch090:elasticsearch elasticsearch.in.sh plugin
+homebrew/homebrew-versions/elasticsearch11:elasticsearch elasticsearch.in.sh plugin
+homebrew/homebrew-versions/elasticsearch12:elasticsearch elasticsearch.in.sh plugin
+homebrew/homebrew-versions/elasticsearch13:elasticsearch elasticsearch.in.sh plugin
+homebrew/homebrew-versions/elasticsearch14:elasticsearch elasticsearch.in.sh plugin
+homebrew/homebrew-versions/erlang-r13:dialyzer epmd erl erlc escript run_erl to_erl typer
+homebrew/homebrew-versions/erlang-r14:dialyzer epmd erl erlc escript run_erl run_test to_erl typer
+homebrew/homebrew-versions/erlang-r15:ct_run dialyzer epmd erl erlc escript run_erl run_test to_erl typer
+homebrew/homebrew-versions/erlang-r16:ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
+homebrew/homebrew-versions/gawk3:awk gawk gawk-3.1.8 igawk pgawk pgawk-3.1.8
+homebrew/homebrew-versions/gcc45:c++-4.5 cpp-4.5 g++-4.5 gcc-4.5 gccbug-4.5 gcov-4.5 x86_64-apple-darwin14.1.0-c++-4.5 x86_64-apple-darwin14.1.0-g++-4.5 x86_64-apple-darwin14.1.0-gcc-4.5 x86_64-apple-darwin14.1.0-gcc-4.5.4
+homebrew/homebrew-versions/gcc46:c++-4.6 cpp-4.6 g++-4.6 gcc-4.6 gcov-4.6 x86_64-apple-darwin14.1.0-c++-4.6 x86_64-apple-darwin14.1.0-g++-4.6 x86_64-apple-darwin14.1.0-gcc-4.6 x86_64-apple-darwin14.1.0-gcc-4.6.4
+homebrew/homebrew-versions/gcc47:c++-4.7 cpp-4.7 g++-4.7 gcc-4.7 gcc-ar-4.7 gcc-nm-4.7 gcc-ranlib-4.7 gcov-4.7 x86_64-apple-darwin14.1.0-c++-4.7 x86_64-apple-darwin14.1.0-g++-4.7 x86_64-apple-darwin14.1.0-gcc-4.7 x86_64-apple-darwin14.1.0-gcc-4.7.4 x86_64-apple-darwin14.1.0-gcc-ar-4.7 x86_64-apple-darwin14.1.0-gcc-nm-4.7 x86_64-apple-darwin14.1.0-gcc-ranlib-4.7
+homebrew/homebrew-versions/gcc48:c++-4.8 cpp-4.8 g++-4.8 gcc-4.8 gcc-ar-4.8 gcc-nm-4.8 gcc-ranlib-4.8 gcov-4.8 x86_64-apple-darwin14.3.0-c++-4.8 x86_64-apple-darwin14.3.0-g++-4.8 x86_64-apple-darwin14.3.0-gcc-4.8 x86_64-apple-darwin14.3.0-gcc-4.8.4 x86_64-apple-darwin14.3.0-gcc-ar-4.8 x86_64-apple-darwin14.3.0-gcc-nm-4.8 x86_64-apple-darwin14.3.0-gcc-ranlib-4.8
 homebrew/homebrew-versions/gcc49:c++-4.9 cpp-4.9 g++-4.9 gcc-4.9 gcc-ar-4.9 gcc-nm-4.9 gcc-ranlib-4.9 gcov-4.9 x86_64-apple-darwin14.3.0-c++-4.9 x86_64-apple-darwin14.3.0-g++-4.9 x86_64-apple-darwin14.3.0-gcc-4.9 x86_64-apple-darwin14.3.0-gcc-4.9.2 x86_64-apple-darwin14.3.0-gcc-ar-4.9 x86_64-apple-darwin14.3.0-gcc-nm-4.9 x86_64-apple-darwin14.3.0-gcc-ranlib-4.9
+homebrew/homebrew-versions/gcc5:c++-5 cpp-5 g++-5 gcc-5 gcc-ar-5 gcc-nm-5 gcc-ranlib-5 gcov-5 gcov-tool-5 x86_64-apple-darwin14.3.0-c++-5 x86_64-apple-darwin14.3.0-g++-5 x86_64-apple-darwin14.3.0-gcc-5 x86_64-apple-darwin14.3.0-gcc-5.1.0 x86_64-apple-darwin14.3.0-gcc-ar-5 x86_64-apple-darwin14.3.0-gcc-nm-5 x86_64-apple-darwin14.3.0-gcc-ranlib-5
+homebrew/homebrew-versions/gdal111:epsg_tr.py esri2wkt.py gcps2vec.py gcps2wld.py gdal-config gdal2tiles.py gdal2xyz.py gdal_auth.py gdal_calc.py gdal_contour gdal_edit.py gdal_fillnodata.py gdal_grid gdal_merge.py gdal_polygonize.py gdal_proximity.py gdal_rasterize gdal_retile.py gdal_sieve.py gdal_translate gdaladdo gdalbuildvrt gdalchksum.py gdalcompare.py gdaldem gdalenhance gdalident.py gdalimport.py gdalinfo gdallocationinfo gdalmanage gdalmove.py gdalserver gdalsrsinfo gdaltindex gdaltransform gdalwarp mkgraticule.py nearblack ogr2ogr ogrinfo ogrlineref ogrtindex pct2rgb.py rgb2pct.py testepsg
+homebrew/homebrew-versions/gecode373:fz mzn-gecode
+homebrew/homebrew-versions/giflib5:gif2raw gif2rgb gifbuild gifclrmp gifecho giffix gifinto giftext giftool
+homebrew/homebrew-versions/git-tf-2.0.2:git-tf
+homebrew/homebrew-versions/glfw2:
+homebrew/homebrew-versions/glfw3:
 homebrew/homebrew-versions/gmp4:
+homebrew/homebrew-versions/gnupg21:addgnupghome applygnupgdefaults dirmngr dirmngr-client g13 gpg-agent gpg-connect-agent gpg2 gpgconf gpgkey2ssh gpgparsemail gpgsm gpgsm-gencert.sh gpgtar gpgv2 kbxutil symcryptrun watchgnupg
+homebrew/homebrew-versions/gnuplot4:gnuplot
+homebrew/homebrew-versions/gnutls34:gnutls-certtool gnutls-cli gnutls-cli-debug gnutls-serv ocsptool psktool srptool
+homebrew/homebrew-versions/go12:go godoc gofmt
+homebrew/homebrew-versions/go13:go godoc gofmt
+homebrew/homebrew-versions/gradle110:gradle
+homebrew/homebrew-versions/gradle112:gradle
+homebrew/homebrew-versions/gradle16:gradle
+homebrew/homebrew-versions/gradle18:gradle
+homebrew/homebrew-versions/gradle20:gradle
+homebrew/homebrew-versions/gradle21:gradle
+homebrew/homebrew-versions/gradle221:gradle
+homebrew/homebrew-versions/grails13:grails grails-debug startGrails
+homebrew/homebrew-versions/grails20:grails grails-debug startGrails
+homebrew/homebrew-versions/grails21:grails grails-debug startGrails
+homebrew/homebrew-versions/grails223:grails grails-debug startGrails
+homebrew/homebrew-versions/grails224:grails grails-debug startGrails
+homebrew/homebrew-versions/grails22:grails grails-debug startGrails
+homebrew/homebrew-versions/grails23:grails grails-debug startGrails
+homebrew/homebrew-versions/gsl114:gsl-config gsl-histogram gsl-randist
+homebrew/homebrew-versions/gst-ffmpeg010:
+homebrew/homebrew-versions/gst-plugins-bad010:
+homebrew/homebrew-versions/gst-plugins-base010:gst-discoverer-0.10 gst-visualise-0.10
+homebrew/homebrew-versions/gst-plugins-good010:
+homebrew/homebrew-versions/gst-plugins-ugly010:
+homebrew/homebrew-versions/gst-python010:
+homebrew/homebrew-versions/gst-rtsp010:
+homebrew/homebrew-versions/gstreamer010:gst-feedback gst-feedback-0.10 gst-inspect gst-inspect-0.10 gst-launch gst-launch-0.10 gst-typefind gst-typefind-0.10 gst-xmlinspect gst-xmlinspect-0.10 gst-xmllaunch gst-xmllaunch-0.10
+homebrew/homebrew-versions/guile18:guile guile-config guile-snarf guile-tools
+homebrew/homebrew-versions/hadoop0202:hadoop hadoop-config.sh hadoop-daemon.sh hadoop-daemons.sh slaves.sh start-all.sh start-balancer.sh start-dfs.sh start-mapred.sh stop-all.sh stop-balancer.sh stop-dfs.sh stop-mapred.sh
+homebrew/homebrew-versions/hadoop121:hadoop hadoop-config.sh hadoop-daemon.sh hadoop-daemons.sh slaves.sh start-all.sh start-balancer.sh start-dfs.sh start-jobhistoryserver.sh start-mapred.sh stop-all.sh stop-balancer.sh stop-dfs.sh stop-jobhistoryserver.sh stop-mapred.sh task-controller
+homebrew/homebrew-versions/hadoop25:container-executor hadoop hdfs mapred test-container-executor yarn distribute-exclude.sh hadoop-daemon.sh hadoop-daemons.sh hdfs-config.sh httpfs.sh mr-jobhistory-daemon.sh refresh-namenodes.sh slaves.sh start-all.sh start-balancer.sh start-dfs.sh start-secure-dns.sh start-yarn.sh stop-all.sh stop-balancer.sh stop-dfs.sh stop-secure-dns.sh stop-yarn.sh yarn-daemon.sh yarn-daemons.sh
+homebrew/homebrew-versions/hdf4:gif2hdf hdf24to8 hdf2gif hdf2jpeg hdf8to24 hdfcomp hdfed hdfimport hdfls hdfpack hdftopal hdftor8 hdfunpac hdiff hdp hrepack hrepack_check jpeg2hdf ncgen paltohdf r8tohdf ristosds vmake vshow
+homebrew/homebrew-versions/hive010:ext hive hive-config.sh metatool
+homebrew/homebrew-versions/imagemagick-ruby186:animate compare composite conjure convert display identify import Magick-config MagickCore-config MagickWand-config mogrify montage stream Wand-config
 homebrew/homebrew-versions/isl011:
+homebrew/homebrew-versions/isl012:
+homebrew/homebrew-versions/isl014:
+homebrew/homebrew-versions/jboss-as5:
+homebrew/homebrew-versions/jboss-forge1:forge
+homebrew/homebrew-versions/jenkins-lts:jenkins-lts jenkins-lts-cli
+homebrew/homebrew-versions/jetty8:jetty jetty-cygwin jetty-xinetd
+homebrew/homebrew-versions/jpeg6b:cjpeg djpeg jpegtran rdjpgcom wrjpgcom
+homebrew/homebrew-versions/jpeg9:cjpeg djpeg jpegtran rdjpgcom wrjpgcom
+homebrew/homebrew-versions/json-c010:
+homebrew/homebrew-versions/jython253:jython
+homebrew/homebrew-versions/ledger26:ledger
+homebrew/homebrew-versions/leptonica169:adaptmaptest adaptnorm_reg affine_reg alltests_reg alphaops_reg alphaxform_reg arithtest barcodetest baselinetest bilinear_reg binarize_reg bincompare binmorph1_reg binmorph2_reg binmorph3_reg binmorph4_reg binmorph5_reg blend2_reg blend_reg blendcmaptest blendtest1 buffertest byteatest ccbordtest cctest1 ccthin1_reg ccthin2_reg cmapquant_reg coloring_reg colormask_reg colormorphtest colorquant_reg colorseg_reg colorsegtest colorspacetest compare_reg comparepages comparetest compfilter_reg conncomp_reg contrasttest conversion_reg convertfilestopdf convertfilestops convertformat convertsegfilestopdf convertsegfilestops converttogray converttops convolve_reg convolvetest cornertest croptext dewarp_reg dewarptest1 dewarptest2 dewarptest3 digitprep1 distance_reg dithertest dna_reg dwalineargen dwamorph1_reg dwamorph2_reg edgetest enhance_reg equal_reg expand_reg extrema_reg falsecolortest fcombautogen fhmtauto_reg fhmtautogen fileinfo findpattern1 findpattern2 findpattern3 findpattern_reg flipdetect_reg flipselgen fmorphauto_reg fmorphautogen fpix_reg fpixcontours gammatest genfonts gifio_reg graphicstest grayfill_reg graymorph1_reg graymorph2_reg graymorphtest grayquant_reg hardlight_reg heap_reg histotest inserttest ioformats_reg iotest jbcorrelation jbrankhaus jbwords kernel_reg lineremoval listtest livre_adapt livre_hmt livre_makefigs livre_orient livre_pageseg livre_seedgen livre_tophat locminmax_reg logicops_reg lowaccess_reg maketile maze_reg misctest1 modifyhuesat morphseq_reg morphtest1 mtifftest numa_reg numaranktest otsutest1 otsutest2 overlap_reg pagesegtest1 pagesegtest2 paint_reg paintmask_reg partitiontest pdfiotest pdfseg_reg pixa1_reg pixa2_reg pixaatest pixadisp_reg pixalloc_reg pixcomp_reg pixmem_reg pixserial_reg pixtile_reg plottest pngio_reg printimage printsplitimage printtiff projection_reg projective_reg psio_reg psioseg_reg pta_reg ptra1_reg ptra2_reg quadtreetest rank_reg rankbin_reg rankhisto_reg ranktest rasterop_reg rasteropip_reg reducetest removecmap renderfonts rotate1_reg rotate2_reg rotatefastalt rotateorth_reg rotateorthtest1 rotatetest1 runlengthtest scale_reg scaleandtile scaletest1 scaletest2 seedfilltest seedspread_reg selio_reg sharptest shear2_reg shear_reg sheartest showedges skew_reg skewtest smallpix_reg smoothedge_reg snapcolortest sorttest splitcomp_reg splitimage2pdf string_reg subpixel_reg sudokutest textlinemask threshnorm_reg translate_reg trctest viewertest warper_reg warpertest watershedtest wordsinorder writemtiff writetext_reg xformbox_reg xtractprotos xvdisp yuvtest
+homebrew/homebrew-versions/libcouchbase1:cbc cbc-cat cbc-cp cbc-create cbc-flush cbc-receive cbc-rm cbc-send cbc-stats cbc-verify cbc-version
 homebrew/homebrew-versions/libdvdcss12:
+homebrew/homebrew-versions/libgee08:
+homebrew/homebrew-versions/libmongoclient-legacy:
 homebrew/homebrew-versions/libmpc08:
+homebrew/homebrew-versions/libotr4:otr_mackey otr_modify otr_parse otr_readforge otr_remac otr_sesskeys
+homebrew/homebrew-versions/libpng12:libpng-config libpng12-config
+homebrew/homebrew-versions/libpqxx3:pqxx-config
+homebrew/homebrew-versions/libuv0:
+homebrew/homebrew-versions/libxml278:xml2-config xmlcatalog xmllint
+homebrew/homebrew-versions/llvm-gcc28:llvm-c++ llvm-cpp llvm-g++ llvm-gcc llvm-gccbug llvm-gcov llvm-gfortran x86_64-apple-darwin10-cpp-4.2.1 x86_64-apple-darwin10-gcc-4.2.1 x86_64-apple-darwin10-llvm-c++ x86_64-apple-darwin10-llvm-cpp x86_64-apple-darwin10-llvm-g++ x86_64-apple-darwin10-llvm-gcc x86_64-apple-darwin10-llvm-gfortran
 homebrew/homebrew-versions/llvm33:bugpoint-3.3 c-index-test-3.3 clang++-3.3 clang-3.3 clang-check-3.3 clang-format-3.3 clang-tblgen-3.3 cpp11-migrate-3.3 llc-3.3 lli-3.3 llvm-ar-3.3 llvm-as-3.3 llvm-bcanalyzer-3.3 llvm-config-3.3 llvm-cov-3.3 llvm-diff-3.3 llvm-dis-3.3 llvm-dwarfdump-3.3 llvm-extract-3.3 llvm-link-3.3 llvm-mc-3.3 llvm-mcmarkup-3.3 llvm-nm-3.3 llvm-objdump-3.3 llvm-prof-3.3 llvm-ranlib-3.3 llvm-readobj-3.3 llvm-rtdyld-3.3 llvm-size-3.3 llvm-stress-3.3 llvm-symbolizer-3.3 llvm-tblgen-3.3 macho-dump-3.3 opt-3.3
+homebrew/homebrew-versions/llvm34:bugpoint-3.4 c-index-test-3.4 clang++-3.4 clang-3.4 clang-apply-replacements-3.4 clang-check-3.4 clang-format-3.4 clang-modernize-3.4 clang-tblgen-3.4 clang-tidy-3.4 llc-3.4 lli-3.4 lli-child-target-3.4 llvm-ar-3.4 llvm-as-3.4 llvm-bcanalyzer-3.4 llvm-config-3.4 llvm-cov-3.4 llvm-diff-3.4 llvm-dis-3.4 llvm-dwarfdump-3.4 llvm-extract-3.4 llvm-link-3.4 llvm-mc-3.4 llvm-mcmarkup-3.4 llvm-nm-3.4 llvm-objdump-3.4 llvm-ranlib-3.4 llvm-readobj-3.4 llvm-rtdyld-3.4 llvm-size-3.4 llvm-stress-3.4 llvm-symbolizer-3.4 llvm-tblgen-3.4 macho-dump-3.4 opt-3.4 pp-trace-3.4
+homebrew/homebrew-versions/llvm35:bugpoint-3.5 c-index-test-3.5 clang++-3.5 clang-3.5 clang-apply-replacements-3.5 clang-check-3.5 clang-format-3.5 clang-modernize-3.5 clang-query-3.5 clang-tblgen-3.5 clang-tidy-3.5 count-3.5 FileCheck-3.5 llc-3.5 lli-3.5 lli-child-target-3.5 llvm-ar-3.5 llvm-as-3.5 llvm-bcanalyzer-3.5 llvm-config-3.5 llvm-cov-3.5 llvm-diff-3.5 llvm-dis-3.5 llvm-dwarfdump-3.5 llvm-extract-3.5 llvm-link-3.5 llvm-mc-3.5 llvm-mcmarkup-3.5 llvm-nm-3.5 llvm-objdump-3.5 llvm-profdata-3.5 llvm-ranlib-3.5 llvm-readobj-3.5 llvm-rtdyld-3.5 llvm-size-3.5 llvm-stress-3.5 llvm-symbolizer-3.5 llvm-tblgen-3.5 macho-dump-3.5 not-3.5 opt-3.5 pp-trace-3.5
+homebrew/homebrew-versions/llvm36:bugpoint-3.6 c-index-test-3.6 clang++-3.6 clang-3.6 clang-apply-replacements-3.6 clang-check-3.6 clang-format-3.6 clang-modernize-3.6 clang-query-3.6 clang-rename-3.6 clang-tblgen-3.6 clang-tidy-3.6 count-3.6 FileCheck-3.6 llc-3.6 lli-3.6 lli-child-target-3.6 llvm-ar-3.6 llvm-as-3.6 llvm-bcanalyzer-3.6 llvm-config-3.6 llvm-cov-3.6 llvm-diff-3.6 llvm-dis-3.6 llvm-dsymutil-3.6 llvm-dwarfdump-3.6 llvm-extract-3.6 llvm-link-3.6 llvm-mc-3.6 llvm-mcmarkup-3.6 llvm-nm-3.6 llvm-objdump-3.6 llvm-profdata-3.6 llvm-ranlib-3.6 llvm-readobj-3.6 llvm-rtdyld-3.6 llvm-size-3.6 llvm-stress-3.6 llvm-symbolizer-3.6 llvm-tblgen-3.6 llvm-vtabledump-3.6 macho-dump-3.6 not-3.6 obj2yaml-3.6 opt-3.6 pp-trace-3.6 scan-build-3.6 scan-view-3.6 verify-uselistorder-3.6 yaml2obj-3.6
+homebrew/homebrew-versions/log4cplus10:
+homebrew/homebrew-versions/lua53:lua-5.3 lua5.3 luac-5.3 luac5.3 luarocks-5.3 luarocks-admin-5.3
+homebrew/homebrew-versions/maven2:mvn mvnDebug
+homebrew/homebrew-versions/maven30:mvn mvnDebug mvnyjp
+homebrew/homebrew-versions/maven31:mvn mvnDebug mvnyjp
+homebrew/homebrew-versions/maven32:mvn mvnDebug mvnyjp
+homebrew/homebrew-versions/mkvtoolnix58:mkvextract mkvinfo mkvmerge mkvpropedit
+homebrew/homebrew-versions/mongodb24:bsondump mongo mongod mongodump mongoexport mongofiles mongoimport mongooplog mongoperf mongorestore mongos mongosniff mongostat mongotop
+homebrew/homebrew-versions/mongodb26:bsondump mongo mongod mongodump mongoexport mongofiles mongoimport mongooplog mongoperf mongorestore mongos mongosniff mongostat mongotop
 homebrew/homebrew-versions/mpfr2:
+homebrew/homebrew-versions/mysql51:innochecksum msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_config mysql_convert_table_format mysql_find_rows mysql_fix_extensions mysql_fix_privilege_tables mysql_install_db mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysql_zap mysqlaccess mysqladmin mysqlbinlog mysqlbug mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest perror replace resolve_stack_dump resolveip
+homebrew/homebrew-versions/mysql55:innochecksum msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_config mysql_convert_table_format mysql_find_rows mysql_fix_extensions mysql_install_db mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysql_zap mysqladmin mysqlbinlog mysqlbug mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest perror replace resolve_stack_dump resolveip
+homebrew/homebrew-versions/nasm21106:ldrdf nasm ndisasm rdf2bin rdf2com rdf2ihx rdf2ith rdf2srec rdfdump rdflib rdx
+homebrew/homebrew-versions/nettle3:nettle-hash nettle-lfib-stream nettle-pbkdf2 pkcs1-conv sexp-conv
+homebrew/homebrew-versions/node010:node
+homebrew/homebrew-versions/node06:node node-waf
+homebrew/homebrew-versions/node08:node node-waf
+homebrew/homebrew-versions/objective-caml312:camlp4 camlp4boot camlp4o camlp4o.opt camlp4of camlp4of.opt camlp4oof camlp4oof.opt camlp4orf camlp4orf.opt camlp4prof camlp4r camlp4r.opt camlp4rf camlp4rf.opt labltk mkcamlp4 ocaml ocamlbrowser ocamlbuild ocamlbuild.byte ocamlbuild.native ocamlc ocamlc.opt ocamlcp ocamldebug ocamldep ocamldep.opt ocamldoc ocamldoc.opt ocamllex ocamllex.opt ocamlmklib ocamlmktop ocamlobjinfo ocamlopt ocamlopt.opt ocamlprof ocamlrun ocamlyacc
+homebrew/homebrew-versions/open-mpi16:mpic++ mpic++-vt mpicc mpicc-vt mpicxx mpicxx-vt mpiexec mpif77 mpif77-vt mpif90 mpif90-vt mpirun ompi-clean ompi-iof ompi-probe ompi-profiler ompi-ps ompi-server ompi-top ompi_info opal_wrapper orte-bootproxy.sh orte-clean orte-iof orte-ps orte-top orte_wrapper_script ortec++ ortecc orted orterun otfaux otfcompress otfconfig otfdecompress otfinfo otfmerge otfmerge-mpi otfprint otfprofile otfprofile-mpi otfshrink vtc++ vtcc vtcxx vtf77 vtf90 vtfilter vtfilter-mpi vtfiltergen vtfiltergen-mpi vtfort vtrun vtsetup vtsetup.jar vtunify vtunify-mpi vtwrapper
+homebrew/homebrew-versions/openjpeg20:opj_compress opj_decompress opj_dump
+homebrew/homebrew-versions/openjpeg21:opj_compress opj_decompress opj_dump
+homebrew/homebrew-versions/openssl098:c_rehash openssl
+homebrew/homebrew-versions/openssl101:c_rehash openssl
+homebrew/homebrew-versions/pandoc-citeproc05:pandoc-citeproc
+homebrew/homebrew-versions/pandoc1131:pandoc
+homebrew/homebrew-versions/percona-server55:innochecksum msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_config mysql_convert_table_format mysql_find_rows mysql_fix_extensions mysql_install_db mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysql_zap mysqladmin mysqlbinlog mysqlbug mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest perror replace resolve_stack_dump resolveip
+homebrew/homebrew-versions/perl514:a2p c2ph config_data corelist cpan cpan2dist cpanp cpanp-run-perl dprofpp enc2xs find2perl h2ph h2xs instmodsh json_pp libnetcfg perl perl5.14.4 perlbug perldoc perlivp perlthanks piconv pl2pm pod2html pod2latex pod2man pod2text pod2usage podchecker podselect prove psed pstruct ptar ptardiff ptargrep s2p shasum splain xsubpp
+homebrew/homebrew-versions/perl516:a2p c2ph config_data corelist cpan cpan2dist cpanp cpanp-run-perl enc2xs find2perl h2ph h2xs instmodsh json_pp libnetcfg perl perl5.16.3 perlbug perldoc perlivp perlthanks piconv pl2pm pod2html pod2latex pod2man pod2text pod2usage podchecker podselect prove psed pstruct ptar ptardiff ptargrep s2p shasum splain xsubpp zipdetails
+homebrew/homebrew-versions/perl518:a2p c2ph config_data corelist cpan cpan2dist cpanp cpanp-run-perl enc2xs find2perl h2ph h2xs instmodsh json_pp libnetcfg perl perl5.18.2 perlbug perldoc perlivp perlthanks piconv pl2pm pod2html pod2latex pod2man pod2text pod2usage podchecker podselect prove psed pstruct ptar ptardiff ptargrep s2p shasum splain xsubpp zipdetails
+homebrew/homebrew-versions/phantomjs17:phantomjs
+homebrew/homebrew-versions/phantomjs182:phantomjs
+homebrew/homebrew-versions/phantomjs192:phantomjs
+homebrew/homebrew-versions/phantomjs198:phantomjs
+homebrew/homebrew-versions/play12:play
+homebrew/homebrew-versions/play13:play
+homebrew/homebrew-versions/play22:play
+homebrew/homebrew-versions/postgis15:create_undef.pl new_postgis_restore.pl pgsql2shp postgis_proc_upgrade.pl postgis_restore.pl profile_intersects.pl shp2pgsql test_estimation.pl test_geography_estimation.pl test_geography_joinestimation.pl test_joinestimation.pl
+homebrew/homebrew-versions/postgresql8:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg initdb pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_resetxlog pg_restore pltcl_delmod pltcl_listmod pltcl_loadmod postgres postmaster psql reindexdb vacuumdb vacuumlo
+homebrew/homebrew-versions/postgresql91:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_resetxlog pg_restore pg_standby pg_test_fsync pg_upgrade pgbench pltcl_delmod pltcl_listmod pltcl_loadmod postgres postmaster psql reindexdb vacuumdb vacuumlo
+homebrew/homebrew-versions/postgresql92:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_receivexlog pg_resetxlog pg_restore pg_standby pg_test_fsync pg_test_timing pg_upgrade pgbench pltcl_delmod pltcl_listmod pltcl_loadmod postgres postmaster psql reindexdb vacuumdb vacuumlo
+homebrew/homebrew-versions/postgresql93:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivexlog pg_resetxlog pg_restore pg_standby pg_test_fsync pg_test_timing pg_upgrade pg_xlogdump pgbench pltcl_delmod pltcl_listmod pltcl_loadmod postgres postmaster psql reindexdb vacuumdb vacuumlo
+homebrew/homebrew-versions/postgresql9:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg initdb oid2name pg_archivecleanup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_resetxlog pg_restore pg_standby pg_upgrade pgbench pltcl_delmod pltcl_listmod pltcl_loadmod postgres postmaster psql reindexdb vacuumdb vacuumlo
+homebrew/homebrew-versions/povray36:povray
+homebrew/homebrew-versions/ppl011:ppl-config
+homebrew/homebrew-versions/ppl10:ppl-config
+homebrew/homebrew-versions/protobuf240a:protoc
+homebrew/homebrew-versions/protobuf241:protoc
+homebrew/homebrew-versions/protobuf250:protoc
+homebrew/homebrew-versions/protobuf260:protoc
+homebrew/homebrew-versions/qt52:lconvert lrelease lupdate macchangeqt macdeployqt moc qcollectiongenerator qdoc qhelpconverter qhelpgenerator qmake qml1plugindump qmlbundle qmlimportscanner qmlmin qmlplugindump qmlprofiler qmlscene qmltestrunner qtpaths rcc syncqt.pl uic xmlpatterns xmlpatternsvalidator
+homebrew/homebrew-versions/rabbitmq30:rabbitmq-defaults rabbitmq-env rabbitmq-plugins rabbitmq-server rabbitmqadmin rabbitmqctl
+homebrew/homebrew-versions/raptor1:rapper raptor-config
+homebrew/homebrew-versions/redis1310:redis-benchmark redis-check-dump redis-cli redis-server
+homebrew/homebrew-versions/redis24:redis-benchmark redis-check-aof redis-check-dump redis-cli redis-server
+homebrew/homebrew-versions/redis26:redis-benchmark redis-check-aof redis-check-dump redis-cli redis-server
+homebrew/homebrew-versions/redis28:redis28-benchmark redis28-check-aof redis28-check-dump redis28-cli redis28-sentinel redis28-server
+homebrew/homebrew-versions/ruby182:erb irb rdoc ri ruby testrb
+homebrew/homebrew-versions/ruby186:erb irb rdoc ri ruby testrb
+homebrew/homebrew-versions/ruby187:erb irb rdoc ri ruby testrb
+homebrew/homebrew-versions/ruby193:erb gem irb rake rdoc ri ruby testrb
+homebrew/homebrew-versions/ruby20:erb gem irb rake rdoc ri ruby testrb
+homebrew/homebrew-versions/ruby21:erb gem irb rake rdoc ri ruby testrb
+homebrew/homebrew-versions/scala210:fsc scala scalac scaladoc scalap
+homebrew/homebrew-versions/scala29:fsc scala scalac scaladoc scalap
+homebrew/homebrew-versions/solr14:solr14
+homebrew/homebrew-versions/solr36:solr36
+homebrew/homebrew-versions/solr4:solr4
+homebrew/homebrew-versions/sonar4:sonar
+homebrew/homebrew-versions/squid2:RunCache squidclient squid
+homebrew/homebrew-versions/subversion16:svn svnadmin svndumpfilter svnlook svnserve svnsync svnversion
+homebrew/homebrew-versions/subversion17:svn svnadmin svndumpfilter svnlook svnrdump svnserve svnsync svnversion
+homebrew/homebrew-versions/swig2:ccache-swig swig
+homebrew/homebrew-versions/swig304:ccache-swig swig
+homebrew/homebrew-versions/syncthing010:syncthing
+homebrew/homebrew-versions/thrift090:thrift
+homebrew/homebrew-versions/tomcat6:catalina.sh daemon.sh digest.sh setclasspath.sh shutdown.sh startup.sh tool-wrapper.sh version.sh
+homebrew/homebrew-versions/tomcat7:catalina
+homebrew/homebrew-versions/unison232:unison
+homebrew/homebrew-versions/unison240:unison
+homebrew/homebrew-versions/v8-315:d8 lineprocessor mksnapshot preparser process v8
+homebrew/homebrew-versions/varnish3:varnishadm varnishhist varnishlog varnishncsa varnishreplay varnishsizes varnishstat varnishtest varnishtop varnishd
+homebrew/homebrew-versions/virtuoso616:inifile isql isqlw virt_mail virtuoso-t
+homebrew/homebrew-versions/zeromq22:
+homebrew/homebrew-versions/zeromq32:
+homebrew/homebrew-versions/zeromq3:
 homebrew/homebrew-x11/atari++:atari++
 homebrew/homebrew-x11/gupnp-tools:gssdp-discover gupnp-av-cp gupnp-network-light gupnp-universal-cp gupnp-upload
 homebrew/homebrew-x11/meld:meld
