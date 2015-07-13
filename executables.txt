@@ -269,7 +269,7 @@ bvi:bmore bvedit bvi bview
 bwctl:bwctl bwctld bwping bwtraceroute
 bwm-ng:bwm-ng
 byacc:byacc
-byobu:byobu byobu-config byobu-ctrl-a byobu-disable byobu-disable-prompt byobu-enable byobu-enable-prompt byobu-export byobu-janitor byobu-keybindings byobu-launch byobu-launcher byobu-launcher-install byobu-launcher-uninstall byobu-layout byobu-prompt byobu-quiet byobu-reconnect-sockets byobu-screen byobu-select-backend byobu-select-profile byobu-select-session byobu-shell byobu-silent byobu-status byobu-status-detail byobu-tmux byobu-ugraph byobu-ulevel col1 ctail wifi-status
+byobu:byobu byobu-config byobu-ctrl-a byobu-disable byobu-disable-prompt byobu-enable byobu-enable-prompt byobu-export byobu-janitor byobu-keybindings byobu-launch byobu-launcher byobu-launcher-install byobu-launcher-uninstall byobu-layout byobu-prompt byobu-quiet byobu-reconnect-sockets byobu-screen byobu-select-backend byobu-select-profile byobu-select-session byobu-shell byobu-silent byobu-status byobu-status-detail byobu-tmux byobu-ugraph byobu-ulevel col1 ctail vigpg wifi-status
 bzr-fastimport:
 c-ares:
 c-kermit:ckermit.ini kermit kermit-sshsub
@@ -429,6 +429,7 @@ compface:compface uncompface
 concurrencykit:
 confuse:
 conserver:console conserver
+consul:consul
 contacts:contacts
 convertlit:clit
 convmv:convmv
@@ -762,7 +763,7 @@ finatra:finatra
 findbugs:fb findbugs
 findutils:gfind glocate goldfind gupdatedb gxargs
 fio:fio fio-dedupe fio-genzipf fio2gnuplot fio_generate_plots genfio
-fish:fish fish_indent fish_pager fishd mimedb
+fish:fish fish_indent mimedb
 fits:fits fits-ngserver
 fizsh:fizsh
 flac123:flac123
@@ -1122,6 +1123,7 @@ homebank:homebank
 homebrew/homebrew-apache/ab:ab
 homebrew/homebrew-binary/adobe-air-sdk:aasdoc acompc adl adt amxmlc asdoc compc fdb fontswf mxmlc optimizer swcdepends swfdump
 homebrew/homebrew-binary/appswitch:appswitch
+homebrew/homebrew-binary/ddptools:cdtinfo cue2ddp ddpinfo
 homebrew/homebrew-boneyard/catdoc:catdoc catppt wordview xls2csv
 homebrew/homebrew-boneyard/dupx:dupx
 homebrew/homebrew-boneyard/git-flow-clone:git-flow-clone
@@ -1187,6 +1189,7 @@ homebrew/homebrew-headonly/bbcp:bbcp
 homebrew/homebrew-headonly/cv:cv
 homebrew/homebrew-headonly/dromeaudio:DromeAudioPlayer
 homebrew/homebrew-headonly/smpeg:glmovie gtv plaympeg smpeg-config
+homebrew/homebrew-php/adminer:
 homebrew/homebrew-php/behat:behat
 homebrew/homebrew-php/boris:boris
 homebrew/homebrew-php/box:box
@@ -1199,6 +1202,7 @@ homebrew/homebrew-php/drush:drush
 homebrew/homebrew-php/envoy:envoy
 homebrew/homebrew-php/ezcomponents:
 homebrew/homebrew-php/foreman:foreman
+homebrew/homebrew-php/igbinary:
 homebrew/homebrew-php/libsphinxclient:
 homebrew/homebrew-php/pdepend:pdepend
 homebrew/homebrew-php/pharcc:pharcc
@@ -1233,6 +1237,7 @@ homebrew/homebrew-php/php53-jsmin:
 homebrew/homebrew-php/php53-judy:
 homebrew/homebrew-php/php53-leveldb:
 homebrew/homebrew-php/php53-libevent:
+homebrew/homebrew-php/php53-memcached:
 homebrew/homebrew-php/php53-mongo:
 homebrew/homebrew-php/php53-mosquitto:
 homebrew/homebrew-php/php53-msgpack:
@@ -1286,27 +1291,65 @@ homebrew/homebrew-php/php53-zenddebugger:
 homebrew/homebrew-php/php53-zmq:
 homebrew/homebrew-php/php53-zookeeper:
 homebrew/homebrew-php/php53:pear peardev pecl phar phar.phar php php-cgi php-config phpize php-fpm php53-fpm
+homebrew/homebrew-php/php54-amqp:
 homebrew/homebrew-php/php54-blitz:
+homebrew/homebrew-php/php54-igbinary:
+homebrew/homebrew-php/php54-intl:
 homebrew/homebrew-php/php54-ioncubeloader:
 homebrew/homebrew-php/php54-jsmin:
+homebrew/homebrew-php/php54-mcrypt:
+homebrew/homebrew-php/php54-memcached:
 homebrew/homebrew-php/php54-opcache:
+homebrew/homebrew-php/php54-pcntl:
+homebrew/homebrew-php/php54-pdo-dblib:
+homebrew/homebrew-php/php54-pdo-pgsql:
+homebrew/homebrew-php/php54-pspell:
+homebrew/homebrew-php/php54-tidy:
 homebrew/homebrew-php/php54-xhprof:
 homebrew/homebrew-php/php54:pear peardev pecl phar phar.phar php php-cgi php-config phpize php-fpm php54-fpm
+homebrew/homebrew-php/php55-amqp:
 homebrew/homebrew-php/php55-blitz:
+homebrew/homebrew-php/php55-igbinary:
+homebrew/homebrew-php/php55-intl:
 homebrew/homebrew-php/php55-ioncubeloader:
 homebrew/homebrew-php/php55-jsmin:
+homebrew/homebrew-php/php55-mcrypt:
+homebrew/homebrew-php/php55-memcached:
 homebrew/homebrew-php/php55-opcache:
+homebrew/homebrew-php/php55-pcntl:
+homebrew/homebrew-php/php55-pdo-dblib:
+homebrew/homebrew-php/php55-pdo-pgsql:
+homebrew/homebrew-php/php55-pspell:
+homebrew/homebrew-php/php55-tidy:
 homebrew/homebrew-php/php55-xhprof:
 homebrew/homebrew-php/php55:pear peardev pecl phar phar.phar php php-cgi php-config phpize php-fpm php55-fpm
+homebrew/homebrew-php/php56-amqp:
 homebrew/homebrew-php/php56-blitz:
+homebrew/homebrew-php/php56-igbinary:
+homebrew/homebrew-php/php56-intl:
 homebrew/homebrew-php/php56-ioncubeloader:
 homebrew/homebrew-php/php56-jsmin:
+homebrew/homebrew-php/php56-mcrypt:
+homebrew/homebrew-php/php56-memcached:
 homebrew/homebrew-php/php56-opcache:
+homebrew/homebrew-php/php56-pcntl:
+homebrew/homebrew-php/php56-pdo-dblib:
+homebrew/homebrew-php/php56-pdo-pgsql:
+homebrew/homebrew-php/php56-pspell:
 homebrew/homebrew-php/php56-redland:
 homebrew/homebrew-php/php56-sundown:
+homebrew/homebrew-php/php56-tidy:
 homebrew/homebrew-php/php56-xhprof:
 homebrew/homebrew-php/php56:pear peardev pecl phar phar.phar php php-cgi php-config phpize php-fpm php56-fpm
+homebrew/homebrew-php/php70-intl:
 homebrew/homebrew-php/php70-lzf:
+homebrew/homebrew-php/php70-mcrypt:
+homebrew/homebrew-php/php70-opcache:
+homebrew/homebrew-php/php70-pcntl:
+homebrew/homebrew-php/php70-pdo-dblib:
+homebrew/homebrew-php/php70-pdo-pgsql:
+homebrew/homebrew-php/php70-pspell:
+homebrew/homebrew-php/php70-tidy:
 homebrew/homebrew-php/php70:pear peardev pecl phar phar.phar php php-cgi php-config phpize php-fpm php70-fpm
 homebrew/homebrew-php/phpmyadmin:
 homebrew/homebrew-php/phpunit:phpunit
@@ -1733,6 +1776,7 @@ kettle:pdicarte pdikitchen pdipan
 keybase:keybase
 keychain:keychain
 khal:ikhal khal
+khard:davcontroller khard
 kibana:kibana
 kimwitu++:kc++
 kitchen-sync:ks ks_mysql
@@ -2944,6 +2988,7 @@ scrollkeeper:scrollkeeper-config scrollkeeper-extract scrollkeeper-gen-seriesid 
 scrub:scrub
 scrypt:scrypt
 scsh:scsh
+scw:scw
 sdcc:as2gbmap makebin packihx s51 savr sdar sdas390 sdas6808 sdas8051 sdasgb sdasrab sdasstm8 sdastlcs90 sdasz80 sdcc sdcclib sdcdb sdcpp sdld sdld6808 sdldgb sdldz80 sdnm sdobjcopy sdranlib shc08 sst7 sstm8 sz80
 sdcv:sdcv
 sdf:
@@ -3390,7 +3435,7 @@ vert.x:vertx
 vf:
 vgmstream:vgmstream
 vice:c1541 cartconv petcat vice-launcher.sh x128 x64 x64dtv x64sc xcbm2 xcbm5x0 xpet xplus4 xvic
-vifm:vifm vifm-pause vifmrc-converter
+vifm:vifm vifm-convert-dircolors vifm-pause vifmrc-converter
 vilistextum:vilistextum
 vim:ex rview rvim view vim vimdiff vimtutor xxd
 vimpager:vimcat vimpager
