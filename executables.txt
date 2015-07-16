@@ -868,7 +868,7 @@ gdrive:drive
 gearman:gearadmin gearman gearmand
 gecode:fzn-gecode mzn-gecode
 gedit:gedit gnome-text-editor
-gegl:gegl
+gegl:2geglbuffer gegl gegl-convert gegl-imgcmp gegl-slicer gegl-tester geglbuffer-add-image geglbuffer-clock hello-world
 genders:nodeattr
 gengetopt:gengetopt
 genstats:genstats
@@ -1799,13 +1799,81 @@ homebrew/homebrew-versions/zeromq22:
 homebrew/homebrew-versions/zeromq32:
 homebrew/homebrew-versions/zeromq3:
 homebrew/homebrew-x11/atari++:atari++
+homebrew/homebrew-x11/bochs:bochs bximage
+homebrew/homebrew-x11/cardpeek:cardpeek
+homebrew/homebrew-x11/cwm:cwm
+homebrew/homebrew-x11/ddd:ddd
+homebrew/homebrew-x11/dmenu:dmenu dmenu_run stest
+homebrew/homebrew-x11/dwm:dwm
+homebrew/homebrew-x11/dzen2:dzen2
+homebrew/homebrew-x11/easy-tag:easytag
+homebrew/homebrew-x11/eiffelstudio:compile_all ec ecb estudio finish_freezing iron syntax_updater vision2_demo
+homebrew/homebrew-x11/feh:feh
+homebrew/homebrew-x11/fox:adie calculator fox-config PathFinder reswrap shutterbug
+homebrew/homebrew-x11/freerdp:xfreerdp
+homebrew/homebrew-x11/geany:geany
+homebrew/homebrew-x11/geda-gaf:convert_sym garchive gattrib gmk_sym gnetlist grenum gsch2pcb gschem gschlas gsymcheck gsymfix gxyrs olib pads_backannotate pcb_backannotate refdes_renum sarlacc_schem sarlacc_sym schdiff smash_megafile sw2asc tragesym
+homebrew/homebrew-x11/geeqie:geeqie
+homebrew/homebrew-x11/geoclue:
+homebrew/homebrew-x11/gerbv:gerbv
+homebrew/homebrew-x11/ggobi:ggobi
+homebrew/homebrew-x11/giblib:giblib-config
+homebrew/homebrew-x11/gimp:gimp gimp-2.8 gimp-console gimp-console-2.8 gimptool-2.0
+homebrew/homebrew-x11/glade:glade-3
+homebrew/homebrew-x11/gnumeric:gnumeric gnumeric-1.12.22 ssconvert ssdiff ssgrep ssindex
+homebrew/homebrew-x11/gobby:gobby-0.5
+homebrew/homebrew-x11/grace:convcal fdf2fit gracebat grconvert xmgrace
+homebrew/homebrew-x11/gsmartcontrol:gsmartcontrol gsmartcontrol-root
+homebrew/homebrew-x11/gtk-chtheme:gtk-chtheme
+homebrew/homebrew-x11/gtksourceviewmm3:
+homebrew/homebrew-x11/gtksourceviewmm:
+homebrew/homebrew-x11/gtkwave:evcd2vcd fst2vcd fstminer ghwdump gtkwave lxt2miner lxt2vcd rtlbrowse shmidcat twinwave vcd2fst vcd2lxt vcd2lxt2 vcd2vzt vermin vzt2vcd vztminer
 homebrew/homebrew-x11/gupnp-tools:gssdp-discover gupnp-av-cp gupnp-network-light gupnp-universal-cp gupnp-upload
+homebrew/homebrew-x11/hatari:atari-hd-image gst2ascii hatari hatari_profile.py hatariui hmsa zip2st
+homebrew/homebrew-x11/hexchat:hexchat
+homebrew/homebrew-x11/i3:i3 i3-config-wizard i3-dmenu-desktop i3-dump-log i3-input i3-migrate-config-to-v4 i3-msg i3-nagbar i3-save-tree i3-sensible-editor i3-sensible-pager i3-sensible-terminal i3-with-shmlog i3bar
+homebrew/homebrew-x11/imake:ccmakedep cleanlinks imake makeg mergelib mkdirhier mkhtmlindex revpath xmkmf
+homebrew/homebrew-x11/inkscape:inkscape inkview
+homebrew/homebrew-x11/kernagic:kernagic
+homebrew/homebrew-x11/klavaro:klavaro
+homebrew/homebrew-x11/libnotify:notify-send
+homebrew/homebrew-x11/libxkbcommon:
 homebrew/homebrew-x11/meld:meld
+homebrew/homebrew-x11/mesalib-glw:
+homebrew/homebrew-x11/mit-scheme:bchscheme mit-scheme mit-scheme-c scheme
+homebrew/homebrew-x11/morse:morse
+homebrew/homebrew-x11/mscgen:mscgen
+homebrew/homebrew-x11/mupdf:mudraw mujstest mupdf-x11 mupdf-x11-curl mutool
+homebrew/homebrew-x11/pari:gp gp-2.7 gphelp tex2mail
+homebrew/homebrew-x11/pcb:Merge_dimPCBPS MergePCBPS pcb
+homebrew/homebrew-x11/pdf2image:pdf2image pdffonts pdfimages pdfinfo pdftops pdftotext
 homebrew/homebrew-x11/pdf2svg:pdf2svg
+homebrew/homebrew-x11/pgplot:pgbind pgxwin_server
+homebrew/homebrew-x11/rdesktop:rdesktop
+homebrew/homebrew-x11/rxvt-unicode:urxvt urxvtc urxvtd
+homebrew/homebrew-x11/scantailor:scantailor scantailor-cli
+homebrew/homebrew-x11/smartsim:smartsim
+homebrew/homebrew-x11/sptk:acep acorr agcep amcep average b2mc bcp bcut bell c2acr c2ir c2ndps c2sp cat2 cdist clip dct decimate delay delta df2 dfs dmp ds dtw echo2 excite extract fd fdrw fft fft2 fftcep fftr fftr2 fig frame freqt gc2gc gcep glogsp glsadf gmm gmmp gnorm grlogsp grpdelay gseries gwave histogram idct ifft ifft2 ifftr ignorm impulse imsvq interpolate ivq lbg levdur linear_intpl lmadf lpc lpc2c lpc2lsp lpc2par lsp2lpc lsp2sp lspcheck lspdf ltcdf mc2b mcep merge mfcc mgc2mgc mgc2mgclsp mgc2sp mgcep mgclsp2mgc mgclsp2sp mglsadf minmax mlpg mlsacheck mlsadf msvq nan ndps2c norm0 nrand par2lpc pca pcas phase pitch poledf psgr ramp raw2wav rawtowav reverse rmse root_pol sin smcep snr sopr spec step swab symmetrize train transpose uels ulaw us us16 uscd vc vopr vq vstat vsum wav2raw wavjoin wavsplit window x2x xgr zcross zerodf
+homebrew/homebrew-x11/startup-notification:
 homebrew/homebrew-x11/swi-prolog:swipl swipl-ld swipl-rc
+homebrew/homebrew-x11/sxiv:sxiv
+homebrew/homebrew-x11/sylpheed:sylpheed
+homebrew/homebrew-x11/tabbed:tabbed
+homebrew/homebrew-x11/terminator:remotinator terminator
+homebrew/homebrew-x11/threadscope:ghc-events threadscope
+homebrew/homebrew-x11/tiger-vnc:vncviewer
+homebrew/homebrew-x11/transmission-remote-gtk:transmission-remote-gtk
+homebrew/homebrew-x11/wcm:wcm
+homebrew/homebrew-x11/wmctrl:wmctrl
+homebrew/homebrew-x11/x3270:x3270 x3270if
 homebrew/homebrew-x11/xchat:xchat
+homebrew/homebrew-x11/xdotool:xdotool
+homebrew/homebrew-x11/xdu:xdu
 homebrew/homebrew-x11/xournal:xournal
+homebrew/homebrew-x11/xpa:xpaaccess xpaget xpainfo xpamb xpans xpaset
+homebrew/homebrew-x11/xplot:tcpdump2xplot xplot
 homebrew/homebrew-x11/xspringies:xspringies
+homebrew/homebrew-x11/yarp:yarp yarp-config yarpdatadumper yarpdev yarphear yarpidl_rosmsg yarpidl_thrift yarpmanager-console yarpros yarprun yarpserver yarpserver2 yarpserver3
 homebrew/homebrew-x11/zenity:gdialog zenity
 honcho:honcho
 honeyd:honeyd honeydctl honeydstats hsniff
