@@ -1537,51 +1537,98 @@ homebrew/homebrew-science/abyss:ABYSS abyss-align abyss-bloom abyss-bloom-dist.m
 homebrew/homebrew-science/ace-corrector:ace
 homebrew/homebrew-science/adam:adam
 homebrew/homebrew-science/adol-c:
+homebrew/homebrew-science/alembic:abcconvert abcecho abcechobounds abcstitcher SimpleAbcViewer
 homebrew/homebrew-science/alglib:
 homebrew/homebrew-science/amos:ace2contig agp2amos amos2ace amos2frg amos2mates amos2sq AMOScmp AMOScmp-shortReads AMOScmp-shortReads-alignmentTrimmed amosvalidate analyze-read-depth analyzeSNPs arachne2ctg arachne2scaff arrive arrive2 asmQC asmQC2 assembleRNAs astats bank-clean bank-combine bank-mapping bank-report bank-transact bank-tutorial bank-unlock bank2contig bank2coverage bank2fasta bank2lib bank2scaff benchmark2arachne benchmark2ca benchmark2mates benchmark2ta benchmark_qual benchmark_seq blasr2coords blat2nucmer Bundler ca2ctg ca2mates ca2scaff ca2singletons ca2ta casm-breaks casm-layout castats cavalidate cestat-cov cgb2ctg Chainer clk clusterSnps contig-cmp contig2contig coords2cam count-kmers count-qmers ctg2fasta ctg2umdcontig ctgovl cvgChop cvgStat delta2clr delta2cvg dumpContigsAsReads dumpFeatures dumpmates dumpreads excl_seqs extractContig fasta_select_len fasta_to_fastq fastq_rename fastq_to_fasta_fast fastqqc filter_contig filter_seq FilterEdgesByCluster filterfrg find-duplicate-reads find-query-breaks find-tandem find_ends findChimeras findMissingMates findTcovSnp fixfastq fixfrg fixlib FRCurve frg-umd-merge frg2fasta frg2fastq frg2ta gap-links gccontent gene_asm genome-complexity genome-complexity-fast getFRCvalues getlengths getN50 goBambus2 grow-readbank hash-overlap insert-sizes iterate Joiner kmer-count kmer-cov kmer-cov-plot kmers ktrimfrg library-histogram Linearize list-linked-contigs listcontigreads listGCContent listReadPlacedStatus listSingletonMates listSurrogates load-overlaps loadFeatures make-consensus make-consensus_poly MarkRepeats merge-contigs message-count message-extract message-validate Minimo minimus minimus2 minimus2-blat missing-reads normalizeScaffold nucmer2ovl nucmerAnnotate olapsFromContig OrientContigs OutputMotifs OutputResults OutputScaffolds overlap-align ovl-degr-dist ovl2OVL parsecasm partitionBank phd2afg postCAqc preassembleFrgs preTA printScaff pullTArchive pyrosim qmer-filter read-cov-plot readinfo2cam recallConsensus renameReads rerunMultiTest resetFragLibrary revFasta revScaffold runAmos runMultiTest running-cmp runTA runTest scaff2fasta scaffoldRange2Ungapped select-reads show-ma-asm sim-cover-depth sim-cover2 sim-shotgun simple-overlap simpleContigLoader simplifyLibraries singles sort2 stats summarizeMultiTest suspiciousfeat2region ta2ace tab2ovls tagsum-reduce tandemCollapse tarchive2amos tarchive2ca tigger tiling2cam toAmos toAmos_new toArachne trace_comment trace_comments trace_convert trace_scf_dump trace_seq translate-fasta trimByOvl trimends trimfrg untangle updateBankPositions updateClrRanges updateDeltaClr updateLibSizes vecfix verify-layout
+homebrew/homebrew-science/analysis:compute descPoly extractCoding Fexact gestimator HBKpermute kimura80 MKtest polydNdS rsq sharedPoly snntest translateCoding
+homebrew/homebrew-science/andi:andi
 homebrew/homebrew-science/ann:ann2fig ann_sample ann_test
 homebrew/homebrew-science/aragorn:aragorn
+homebrew/homebrew-science/arb:
+homebrew/homebrew-science/aribas:aribas
 homebrew/homebrew-science/armadillo:
 homebrew/homebrew-science/arow++:arow_learn arow_test
 homebrew/homebrew-science/arpack:
+homebrew/homebrew-science/art:aln2bed.pl art_454 art_illumina art_profiler_454 art_profiler_illumina art_SOLiD combinedAvg.pl empDist.pl fastqReadAvg.pl map2bed.pl summation.pl
+homebrew/homebrew-science/artemis:act art dnaplotter
+homebrew/homebrew-science/ascii_plots:cor curve hist scatter summary
 homebrew/homebrew-science/asl:miniampl
+homebrew/homebrew-science/astral:astral
 homebrew/homebrew-science/ate-pairing:
+homebrew/homebrew-science/atomic-pseudopotential-engine:ape ape-run_regression_test.pl ape-run_testsuite
 homebrew/homebrew-science/atpdec:atpdec
 homebrew/homebrew-science/atram:
 homebrew/homebrew-science/augustus:augustus
 homebrew/homebrew-science/bact:bact_classify bact_learn bact_mkmodel
-homebrew/homebrew-science/bali-phy:alignment-cat alignment-chop-internal alignment-compare alignment-consensus alignment-convert alignment-draw alignment-find alignment-find-conserved alignment-gild alignment-identity alignment-indices alignment-info alignment-max alignment-median alignment-thin alignment-translate alignments-diff analyze-rates bali-phy bali-phy-sge bp-analyze.pl cut-range draw-graph draw-tree joint-indels joint-parsimony mctree-mean-lengths model_P partitions-supported path-graph pickout statreport stats-cat stats-merge stats-select subsample tree-mean-lengths tree-partitions tree-reroot trees-bootstrap trees-consensus trees-distances trees-pair-distances trees-to-SRQ
+homebrew/homebrew-science/bali-phy:alignment-cat alignment-chop-internal alignment-compare alignment-consensus alignment-convert alignment-draw alignment-find alignment-find-conserved alignment-gild alignment-identity alignment-indices alignment-info alignment-max alignment-median alignment-thin alignment-translate alignments-diff analyze-rates bali-phy bali-phy-pkg bali-phy-sge bp-analyze.pl cut-range draw-graph draw-tree joint-indels joint-parsimony mctree-mean-lengths model_P partitions-supported path-graph pickout statreport stats-cat stats-merge stats-select subsample tree-mean-lengths tree-partitions tree-reroot trees-bootstrap trees-consensus trees-distances trees-pair-distances trees-to-SRQ
 homebrew/homebrew-science/bamhash:bamhash_checksum_bam bamhash_checksum_fastq
-homebrew/homebrew-science/bamtools:bamtools bamtools-2.3.0
+homebrew/homebrew-science/bamtools:bamtools bamtools-2.4.0
 homebrew/homebrew-science/bamutil:bam
 homebrew/homebrew-science/barrnap:barrnap
+homebrew/homebrew-science/bcalm:bcalm
 homebrew/homebrew-science/bcftools:bcftools plot-vcfstats vcfutils.pl
 homebrew/homebrew-science/beagle:
 homebrew/homebrew-science/beast:beast beauti loganalyser logcombiner treeannotator treestat
 homebrew/homebrew-science/bedops:bam2bed bam2bed_gnuParallel bam2bed_sge bam2starch bam2starch_gnuParallel bam2starch_sge bedextract bedmap bedops closest-features convert2bed gff2bed gff2starch gtf2bed gtf2starch gvf2bed gvf2starch psl2bed psl2starch rmsk2bed rmsk2starch sam2bed sam2starch sort-bed starch starchcat starchcluster_gnuParallel starchcluster_sge unstarch vcf2bed vcf2starch wig2bed wig2starch
 homebrew/homebrew-science/bedtools:annotateBed bamToBed bamToFastq bed12ToBed6 bedpeToBam bedToBam bedToIgv bedtools closestBed clusterBed complementBed coverageBed expandCols fastaFromBed flankBed genomeCoverageBed getOverlap groupBy intersectBed linksBed mapBed maskFastaFromBed mergeBed multiBamCov multiIntersectBed nucBed pairToBed pairToPair randomBed shuffleBed slopBed sortBed subtractBed tagBam unionBedGraphs windowBed windowMaker
+homebrew/homebrew-science/beetl:align-corrector-strings arrayBWT.sh beetl beetl-bwt beetl-compare beetl-convert beetl-correct beetl-extend beetl-index beetl-search beetl-unbwt beetlflow-tumour-normal-filter.sh convertMetagenomicRangesToTaxa findTaxa genomesToSingleSeq makeBWTSkew mergeBacteria OldBeetl parseMetagenomeOutput
 homebrew/homebrew-science/bfc:bfc hash2cnt
 homebrew/homebrew-science/bioawk:bioawk
 homebrew/homebrew-science/biobloomtools:biobloomcategorizer biobloommaker
-homebrew/homebrew-science/blast:align_format_unit_test bdbloader_unit_test blast_format_unit_test blast_formatter blast_services_unit_test blast_unit_test blastdb_aliastool blastdb_format_unit_test blastdbcheck blastdbcmd blastdbcp blastinput_unit_test blastn blastp blastx convert2blastmask datatool deltablast dustmasker gene_info_reader gene_info_unit_test legacy_blast.pl makeblastdb makembindex makeprofiledb project_tree_builder psiblast rpsblast rpstblastn seedtop segmasker seqdb_demo seqdb_perf seqdb_unit_test tblastn tblastx update_blastdb.pl windowmasker windowmasker_2.2.22_adapter.py writedb_unit_test
+homebrew/homebrew-science/biocgal:align bfastconvert bowtie2convert cgal
+homebrew/homebrew-science/bioformats-cpp:bf-test
+homebrew/homebrew-science/biopp:
+homebrew/homebrew-science/blast:aalookup_unit_test aascan_unit_test align_format_unit_test bdbloader_unit_test bl2seq_unit_test blast_format_unit_test blast_formatter blast_services_unit_test blast_unit_test blastdb_aliastool blastdb_format_unit_test blastdbcheck blastdbcmd blastdbcp blastdiag_unit_test blastengine_unit_test blastextend_unit_test blastfilter_unit_test blasthits_unit_test blastinput_unit_test blastn blastoptions_unit_test blastp blastsetup_unit_test blastx convert2blastmask datatool delta_unit_test deltablast dustmasker gapinfo_unit_test gencode_singleton_unit_test gene_info_reader gene_info_unit_test hspfilter_besthit_unit_test hspfilter_culling_unit_test hspstream_unit_test legacy_blast.pl linkhsp_unit_test makeblastdb makembindex makeprofiledb msa2pssm_unit_test ntlookup_unit_test ntscan_unit_test optionshandle_unit_test phiblast_unit_test prelimsearch_unit_test project_tree_builder psibl2seq_unit_test psiblast psiblast_iteration_unit_test psiblast_unit_test pssmcreate_unit_test pssmenginefreqratios_unit_test querydata_unit_test queryinfo_unit_test redoalignment_unit_test remote_blast_unit_test rps_unit_test rpsblast rpstblastn scoreblk_unit_test search_strategy_unit_test seedtop segmasker seqdb_demo seqdb_perf seqdb_unit_test seqinfosrc_unit_test seqsrc_unit_test setupfactory_unit_test split_query_unit_test subj_ranges_unit_test tblastn tblastx traceback_unit_test tracebacksearch_unit_test uniform_search_unit_test update_blastdb.pl version_reference_unit_test windowmasker windowmasker_2.2.22_adapter.py writedb_unit_test
 homebrew/homebrew-science/blat:blat faToNib faToTwoBit gfClient gfServer nibFrag pslPretty pslReps pslSort twoBitInfo twoBitToFa
-homebrew/homebrew-science/bowtie:bowtie bowtie-build bowtie-inspect
+homebrew/homebrew-science/blis:
+homebrew/homebrew-science/bowtie2:bowtie2 bowtie2-align-l bowtie2-align-s bowtie2-build bowtie2-build-l bowtie2-build-s bowtie2-inspect bowtie2-inspect-l bowtie2-inspect-s
+homebrew/homebrew-science/bowtie:bowtie bowtie-align-l bowtie-align-s bowtie-build bowtie-build-l bowtie-build-s bowtie-inspect bowtie-inspect-l bowtie-inspect-s
+homebrew/homebrew-science/bpel2owfn:bpel2owfn
 homebrew/homebrew-science/bpipe:bg-bpipe bpipe bpipe-pbspro.sh bpipe-slurm.sh bpipe-torque.sh
+homebrew/homebrew-science/butterflow:butterflow
 homebrew/homebrew-science/bwa:bwa
+homebrew/homebrew-science/bwtdisk:bwte text_conv text_count text_rev unbwti
+homebrew/homebrew-science/cantera:ck2cti csvdiff ctml_writer mixmaster setup_cantera
+homebrew/homebrew-science/cap3:cap3 formcon
+homebrew/homebrew-science/ccfits:cookbook
+homebrew/homebrew-science/cd-hit:cd-hit cd-hit-2d cd-hit-2d-para.pl cd-hit-454 cd-hit-div cd-hit-div.pl cd-hit-est cd-hit-est-2d cd-hit-para.pl clstr2tree.pl clstr2txt.pl clstr2xml.pl clstr_cut.pl clstr_merge.pl clstr_merge_noorder.pl clstr_quality_eval.pl clstr_quality_eval_by_link.pl clstr_reduce.pl clstr_renumber.pl clstr_rep.pl clstr_reps_faa_rev.pl clstr_rev.pl clstr_select.pl clstr_select_rep.pl clstr_size_histogram.pl clstr_size_stat.pl clstr_sort_by.pl clstr_sort_prot_by.pl clstr_sql_tbl.pl clstr_sql_tbl_sort.pl make_multi_seq.pl plot_2d.pl plot_len1.pl psi-cd-hit-2d-g1.pl psi-cd-hit-2d.pl psi-cd-hit-local.pl psi-cd-hit.pl
+homebrew/homebrew-science/cddlib:adjacency adjacency_gmp allfaces allfaces_gmp fourier fourier_gmp lcdd lcdd_gmp projection projection_gmp redcheck redcheck_gmp scdd scdd_gmp testcdd1 testcdd1_gmp testcdd2 testcdd2_gmp testlp1 testlp1_gmp testlp2 testlp2_gmp testlp3 testlp3_gmp testshoot testshoot_gmp
 homebrew/homebrew-science/cdo:cdo
+homebrew/homebrew-science/cdsclient:abibcode aclient aclient_cgi catcat find2mass find2mass6x find2massi find_cats find_cats.gz find_gen find_gen1 findacro findcat findcmc14 findenis findenis1 findenis2 findenis3 findglimpse findgsc findgsc1.1 findgsc1.2 findgsc1.3 findgsc2.2 findgsc2.3 findkic findmc2 findmc_irsf findnomad1 findpmm1 findpmm2 findppmx findppmxl findsage findsdss3 findsdss4 findsdss5 findsdss6 findsdss7 findsdss8 findtycab finducac1 finducac2 finducac3 findusnoa1 findusnoa2 findusnob1 findwise findwisep lscat sesame simbib simref vizquery wwwget
 homebrew/homebrew-science/celera-assembler:runCA
 homebrew/homebrew-science/ceres-solver:
 homebrew/homebrew-science/cgns:cgnscheck cgnscompress cgnsconvert cgnsdiff cgnslist cgnsnames cgnsupdate
+homebrew/homebrew-science/circos:circos
 homebrew/homebrew-science/ckon:ckon
+homebrew/homebrew-science/clark:CLARK CLARK-l getAbundance getConfidenceDensity getfilesToTaxNodes getGInTaxID getTargetsDef
+homebrew/homebrew-science/clblas:client testPerfWrapper tune
+homebrew/homebrew-science/clfft:clFFT-client clFFT-client-2.4.0
+homebrew/homebrew-science/clonalframeml:ClonalFrameML
 homebrew/homebrew-science/clustal-omega:clustalo
 homebrew/homebrew-science/clustal-w:clustalw2
+homebrew/homebrew-science/cminpack:
+homebrew/homebrew-science/cmor:
+homebrew/homebrew-science/coinmp:cbc clp
 homebrew/homebrew-science/colpack:
 homebrew/homebrew-science/corset:corset corset_fasta_ID_changer
 homebrew/homebrew-science/cppad:
+homebrew/homebrew-science/crfsuite:crfsuite
+homebrew/homebrew-science/crlibm:crlibm_blindtest crlibm_generate_test_vectors crlibm_soaktest crlibm_testperf crlibm_testval
 homebrew/homebrew-science/cuba:
+homebrew/homebrew-science/cufflinks:compress_gtf cuffcompare cuffdiff cufflinks cuffmerge cuffnorm cuffquant gffread gtf_to_sam
+homebrew/homebrew-science/cvblob:
+homebrew/homebrew-science/cytoscape:cytoscape
+homebrew/homebrew-science/dadadodo:dadadodo
 homebrew/homebrew-science/daligner:daligner HPCdaligner HPCmapper LAcat LAcheck LAmerge LAshow LAsort LAsplit
+homebrew/homebrew-science/data-science-toolbox:dumbplot explain pbc Rio Rio-mds Rio-pca Rio-scatter sample scrape unpack
 homebrew/homebrew-science/datamash:datamash
+homebrew/homebrew-science/dazz_db:Catrack DAM2fasta DB2fasta DB2quiva DBdust DBrm DBshow DBsplit DBstats fasta2DAM fasta2DB quiva2DB simulator
+homebrew/homebrew-science/dealii:mesh_converter
+homebrew/homebrew-science/delly:delly
+homebrew/homebrew-science/dextractor:dexqv dexta dextract undexqv undexta
 homebrew/homebrew-science/dgtal:
+homebrew/homebrew-science/diamond:diamond
+homebrew/homebrew-science/dotwrp:
 homebrew/homebrew-science/edirect:econtact edirect.pl edirutil efetch efilter einfo elink enotify epost eproxy esearch espell esummary join-into-groups-of nquire sort-uniq-count sort-uniq-count-rank word-at-a-time xtract
 homebrew/homebrew-science/emboss:aaindexextract abiview acdc acdgalaxy acdlog acdpretty acdtable acdtrace acdvalid aligncopy aligncopypair antigenic assemblyget backtranambig backtranseq banana biosed btwisted cachedas cachedbfetch cacheebeyesearch cacheensembl cai chaos charge checktrans chips cirdna codcmp codcopy coderet compseq cons consambig cpgplot cpgreport cusp cutgextract cutseq dan dbiblast dbifasta dbiflat dbigcg dbtell dbxcompress dbxedam dbxfasta dbxflat dbxgcg dbxobo dbxreport dbxresource dbxstat dbxtax dbxuncompress degapseq density descseq diffseq distmat dotmatcher dotpath dottup dreg drfinddata drfindformat drfindid drfindresource drget drtext edamdef edamhasinput edamhasoutput edamisformat edamisid edamname edialign einverted embossdata embossupdate embossversion emma emowse entret epestfind eprimer3 eprimer32 equicktandem est2genome etandem extractalign extractfeat extractseq featcopy featmerge featreport feattext findkm freak fuzznuc fuzzpro fuzztran garnier geecee getorf godef goname helixturnhelix hmoment iep infoalign infoassembly infobase inforesidue infoseq isochore jaspextract jaspscan jembossctl lindna listor makenucseq makeprotseq marscan maskambignuc maskambigprot maskfeat maskseq matcher megamerger merger msbar mwcontam mwfilter needle needleall newcpgreport newcpgseek newseq nohtml noreturn nospace notab notseq nthseq nthseqset octanol oddcomp ontocount ontoget ontogetcommon ontogetdown ontogetobsolete ontogetroot ontogetsibs ontogetup ontoisobsolete ontotext palindrome pasteseq patmatdb patmatmotifs pepcoil pepdigest pepinfo pepnet pepstats pepwheel pepwindow pepwindowall plotcon plotorf polydot preg prettyplot prettyseq primersearch printsextract profit prophecy prophet prosextract pscan psiphi rebaseextract recoder redata refseqget remap restover restrict revseq runJemboss.sh seealso seqcount seqmatchall seqret seqretsetall seqretsplit seqxref seqxrefget servertell showalign showdb showfeat showorf showpep showseq showserver shuffleseq sigcleave silent sirna sixpack sizeseq skipredundant skipseq splitsource splitter stretcher stssearch supermatcher syco taxget taxgetdown taxgetrank taxgetspecies taxgetup tcode textget textsearch tfextract tfm tfscan tmap tranalign transeq trimest trimseq trimspace twofeat union urlget variationget vectorstrip water whichdb wobble wordcount wordfinder wordmatch wossdata wossinput wossname wossoperation wossoutput wossparam wosstopic xmlget xmltext yank
 homebrew/homebrew-science/etsf_io:etsf_io
@@ -1609,8 +1656,8 @@ homebrew/homebrew-science/gmt4:backtracker binlegs blockmean blockmedian blockmo
 homebrew/homebrew-science/grabix:grabix
 homebrew/homebrew-science/h5utils:h5fromtxt h5topng h5totxt h5tovtk
 homebrew/homebrew-science/harvest-tools:harvesttools
-homebrew/homebrew-science/hdf5:gif2h5 h52gif h5c++ h5cc h5copy h5debug h5diff h5dump h5import h5jam h5ls h5mkgrp h5perf_serial h5redeploy h5repack h5repart h5stat h5unjam
-homebrew/homebrew-science/hmmer:alimask hmmalign hmmbuild hmmc2 hmmconvert hmmemit hmmfetch hmmlogo hmmpgmd hmmpress hmmscan hmmsearch hmmsim hmmstat jackhmmer nhmmer nhmmscan phmmer
+homebrew/homebrew-science/hdf5:gif2h5 h52gif h5c++ h5copy h5debug h5diff h5dump h5import h5jam h5ls h5mkgrp h5pcc h5perf h5perf_serial h5redeploy h5repack h5repart h5stat h5unjam ph5diff
+homebrew/homebrew-science/hmmer:alimask hmmalign hmmbuild hmmc2 hmmconvert hmmemit hmmerfm-exactmatch hmmfetch hmmlogo hmmpgmd hmmpress hmmscan hmmsearch hmmsim hmmstat jackhmmer makehmmerdb nhmmer nhmmscan phmmer
 homebrew/homebrew-science/htsbox:htsbox
 homebrew/homebrew-science/htslib:bgzip htsfile tabix
 homebrew/homebrew-science/hwloc:hwloc-annotate hwloc-assembler hwloc-assembler-remote hwloc-bind hwloc-calc hwloc-compress-dir hwloc-diff hwloc-distances hwloc-distrib hwloc-info hwloc-ls hwloc-patch hwloc-ps lstopo lstopo-no-graphics
@@ -1625,6 +1672,8 @@ homebrew/homebrew-science/kat:dist_analysis.py kat kat_comp_reads.sh
 homebrew/homebrew-science/kmc:kmc kmc_dump
 homebrew/homebrew-science/kmergenie:kmergenie
 homebrew/homebrew-science/libccd:
+homebrew/homebrew-science/libdivsufsort:
+homebrew/homebrew-science/liblbfgs:
 homebrew/homebrew-science/libsbml:
 homebrew/homebrew-science/libsequence:
 homebrew/homebrew-science/lighter:lighter
@@ -1651,6 +1700,8 @@ homebrew/homebrew-science/nonpareil:nonpareil
 homebrew/homebrew-science/novoalign:isnovoindex novo2paf novoalign novoalignCS novoalignCSMPI novoalignMPI novobarcode novoindex novomethyl novope2bed.pl novorun.pl novosort novoutil
 homebrew/homebrew-science/nxtrim:mergeReads nxtrim
 homebrew/homebrew-science/openblas:
+homebrew/homebrew-science/opencascade:DRAWEXE
+homebrew/homebrew-science/opencv:opencv_annotation opencv_createsamples opencv_haartraining opencv_performance opencv_traincascade
 homebrew/homebrew-science/orocos-kdl:
 homebrew/homebrew-science/p4est:p4est_balance_seeds p4est_bricks p4est_loadconn p4est_mesh p4est_points p4est_read_conn p4est_simple p4est_step1 p4est_step2 p4est_step3 p4est_step4 p4est_timings p4est_write_conn p8est_balance_seeds p8est_bricks p8est_loadconn p8est_mesh p8est_periodicity p8est_points p8est_read_conn p8est_read_tetgen p8est_simple p8est_step1 p8est_step2 p8est_step3 p8est_step4 p8est_timings p8est_tsearch p8est_write_conn sc_b64dec sc_b64enc sc_bspline sc_bspline_per sc_dmatrix sc_function sc_logging sc_options sc_warp
 homebrew/homebrew-science/pagan:pagan
@@ -1662,6 +1713,7 @@ homebrew/homebrew-science/parsnp:parsnp
 homebrew/homebrew-science/pastix:pastix-conf
 homebrew/homebrew-science/pathvisio:pathvisio
 homebrew/homebrew-science/pear:pear
+homebrew/homebrew-science/petsc:
 homebrew/homebrew-science/phylip:clique consense contml contrast dnacomp dnadist dnainvar dnaml dnamlk dnamove dnapars dnapenny dollop dolmove dolpenny drawgram drawtree factor fitch gendist kitsch mix move neighbor pars penny proml promlk protdist protpars restdist restml retree seqboot treedist
 homebrew/homebrew-science/picard-tools:picard
 homebrew/homebrew-science/poa:make_pscores.pl poa
@@ -1690,6 +1742,7 @@ homebrew/homebrew-science/seqan:
 homebrew/homebrew-science/seqdb:seqdb seqdb-compress seqdb-extract seqdb-mount seqdb-profile
 homebrew/homebrew-science/seqtk:seqtk
 homebrew/homebrew-science/sickle:sickle
+homebrew/homebrew-science/slepc:
 homebrew/homebrew-science/slicot:
 homebrew/homebrew-science/snap-aligner:snap
 homebrew/homebrew-science/snap:cds-trainer.pl exonpairs fathom forge hmm-assembler.pl hmm-info noncoding-trainer.pl patch-hmm.pl snap zff2gff3.pl
@@ -1723,6 +1776,7 @@ homebrew/homebrew-science/wcstools:addpix bincat char2sp conpix cphead crlf delh
 homebrew/homebrew-science/wfdb:a2m ad2m ahaconvert ahaecg2mit ann2rr annxml bxb calsig coherence ecgeval edf2mit epicmp fft fir gqfuse gqpost gqrs heaxml hrfft hrlomb hrmem hrplot hrstats ihr log10 lomb m2a makeid md2a memse mfilt mit2edf mit2wav mrgann mxm nguess nst parsescp plot2d plot3d plotstm pnwlogin pscgen pschart psfd rdann rdedfann rdsamp readid revise rr2ann rxr sampfreq sigamp sigavg signame signum skewedit snip sortann sqrs sqrs125 stepdet sumann sumstats tach time2sec wabp wav2mit wfdb-config wfdb2mat wfdbcat wfdbcollate wfdbdesc wfdbmap wfdbsignals wfdbtime wfdbwhich wqrs wrann wrsamp xform xmlann xmlhea
 homebrew/homebrew-science/wxmaxima:wxmaxima
 homebrew/homebrew-science/xbyak:
+homebrew/homebrew-science/xmi-msim:xmimsim xmimsim-conv xmimsim-db xmimsim-harvester xmimsim-pymca xmsi2xrmc xmso2csv xmso2htm xmso2spe xmso2svg xmso2xmsi
 homebrew/homebrew-science/xraylib:xraylib
 homebrew/homebrew-science/yaggo:yaggo
 homebrew/homebrew-science/yeppp:
