@@ -23,25 +23,13 @@ def matches(cmd)
   `grep #{Shellwords.escape cmd} #{LIST_PATH} 2>/dev/null`.chomp.split(/\n/)
 end
 
-def tapped?(tap)
-  (HOMEBREW_LIBRARY/"Taps/#{tap}").directory?
-end
-
-def get_tap(formula)
-  formula[TAP_RE]
-end
-
-def short_name(formula)
-  formula.sub(/homebrew\/homebrew-/, "homebrew/")
-end
-
 # Print a small text explaining how to get 'cmd' by installing 'formula'. Note
 # that it'll still suggest to install the formula if it's already installed but
 # unlinked.
 def explain_formula_install(cmd, formula)
   puts <<-EOS
 The program '#{cmd}' is currently not installed. You can install it by typing:
-  brew install #{short_name formula}
+  brew install #{formula}
   EOS
 end
 
@@ -49,7 +37,6 @@ end
 # formulae.
 def explain_formulae_install(cmd, formulae)
   return explain_formula_install(cmd, formulae.first) if formulae.size == 1
-  formulae.map! { |f| short_name f }
   puts <<-EOS.undent
     The program '#{cmd}' can be found in the following formulae:
       * #{formulae * "\n      * "}
