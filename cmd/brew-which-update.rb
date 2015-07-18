@@ -38,7 +38,7 @@ class ExecutablesDB
   def update!
     Formula.each do |f|
       tap = f.tap? #&& f.tap !~ %r(^homebrew/)
-      name = tap ? "#{f.tap}/#{f.name}" : f.name
+      name = f.full_name
 
       # TODO check that the formula is not outdated
       update_from name, f.prefix if f.installed?
