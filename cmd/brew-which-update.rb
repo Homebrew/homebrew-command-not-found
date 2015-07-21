@@ -37,13 +37,13 @@ class ExecutablesDB
 
   def update!
     Formula.each do |f|
-      tap = f.tap? #&& f.tap !~ %r(^homebrew/)
+      next if f.tap? && !f.tap.include?("omebrew/")
       name = f.full_name
 
       # TODO check that the formula is not outdated
       update_from name, f.prefix if f.installed?
 
-      if tap
+      if f.tap?
         origin = f.name
         if !@exes[name] && @exes[origin]
           @exes[name] = @exes[origin]
