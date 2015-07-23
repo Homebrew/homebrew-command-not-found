@@ -25,6 +25,9 @@ end
 # that it'll still suggest to install the formula if it's already installed but
 # unlinked.
 def explain_formula_install(cmd, formula)
+  require "formula"
+  f = Formula[formula]
+  return if f.installed?
   puts <<-EOS
 The program '#{cmd}' is currently not installed. You can install it by typing:
   brew install #{formula}
