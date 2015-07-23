@@ -28,6 +28,7 @@ def explain_formula_install(cmd, formula)
   require "formula"
   f = Formula[formula]
   return if f.installed?
+  return if f.requirements.any? { |r| r.required? && !r.satisfied? }
   puts <<-EOS
 The program '#{cmd}' is currently not installed. You can install it by typing:
   brew install #{formula}
