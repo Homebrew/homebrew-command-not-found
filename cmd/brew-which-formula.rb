@@ -9,8 +9,6 @@
 #
 #
 
-require "shellwords"
-
 # brew
 require "extend/ARGV.rb"
 
@@ -19,8 +17,8 @@ LIST_PATH = File.expand_path("#{File.dirname(__FILE__)}/../executables.txt")
 
 def matches(cmd)
   # We use 'grep' here to speed up our search
-  # TODO: benchmark subshell+grep vs. reading the file line-by-line in Ruby
-  `grep #{Shellwords.escape cmd} #{LIST_PATH} 2>/dev/null`.chomp.split(/\n/)
+  # TODO: benchmark grep vs. reading the file line-by-line in Ruby
+  Utils.popen_read("grep", cmd, LIST_PATH).chomp.split(/\n/)
 end
 
 # Print a small text explaining how to get 'cmd' by installing 'formula'. Note
