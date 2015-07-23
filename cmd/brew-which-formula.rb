@@ -26,9 +26,11 @@ end
 # unlinked.
 def explain_formula_install(cmd, formula)
   require "formula"
-  f = Formula[formula]
-  return if f.installed?
-  return if f.requirements.any? { |r| r.required? && !r.satisfied? }
+  f = Formula[formula] rescue nil
+  unless f.nil?
+    return if f.installed?
+    return if f.requirements.any? { |r| r.required? && !r.satisfied? }
+  end
   puts <<-EOS
 The program '#{cmd}' is currently not installed. You can install it by typing:
   brew install #{formula}
