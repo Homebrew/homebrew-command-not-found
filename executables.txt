@@ -1191,6 +1191,7 @@ homebrew/dupes/heimdal:afslog bsearch compile_et ftp gsstool heimtools hxtool id
 homebrew/dupes/krb5:compile_et gss-client k5srvutil kadmin kdestroy kinit klist kpasswd krb5-config kswitch ktutil kvno sclient sim_client uuclient gss-server kadmin.local kadmind kdb5_util kprop kpropd kproplog krb5-send-pr krb5kdc sim_server sserver uuserver
 homebrew/dupes/lapack:
 homebrew/dupes/less:less lessecho lesskey
+homebrew/dupes/libedit:
 homebrew/dupes/libiconv:iconv
 homebrew/dupes/libpcap:pcap-config
 homebrew/dupes/m4:m4
@@ -1528,6 +1529,7 @@ homebrew/php/php54-binpack:
 homebrew/php/php54-blitz:
 homebrew/php/php54-boxwood:
 homebrew/php/php54-chdb:
+homebrew/php/php54-couchbase:
 homebrew/php/php54-crypto:
 homebrew/php/php54-dbase:
 homebrew/php/php54-dbus:
@@ -1630,6 +1632,7 @@ homebrew/php/php55-binpack:
 homebrew/php/php55-blitz:
 homebrew/php/php55-boxwood:
 homebrew/php/php55-chdb:
+homebrew/php/php55-couchbase:
 homebrew/php/php55-crypto:
 homebrew/php/php55-dbase:
 homebrew/php/php55-dbus:
@@ -1876,6 +1879,7 @@ homebrew/science/adam:adam
 homebrew/science/adol-c:
 homebrew/science/alembic:abcconvert abcecho abcechobounds abcstitcher SimpleAbcViewer
 homebrew/science/alglib:
+homebrew/science/alpscore:
 homebrew/science/amos:ace2contig agp2amos amos2ace amos2frg amos2mates amos2sq AMOScmp AMOScmp-shortReads AMOScmp-shortReads-alignmentTrimmed amosvalidate analyze-read-depth analyzeSNPs arachne2ctg arachne2scaff arrive arrive2 asmQC asmQC2 assembleRNAs astats bank-clean bank-combine bank-mapping bank-report bank-transact bank-tutorial bank-unlock bank2contig bank2coverage bank2fasta bank2lib bank2scaff benchmark2arachne benchmark2ca benchmark2mates benchmark2ta benchmark_qual benchmark_seq blasr2coords blat2nucmer Bundler ca2ctg ca2mates ca2scaff ca2singletons ca2ta casm-breaks casm-layout castats cavalidate cestat-cov cgb2ctg Chainer clk clusterSnps contig-cmp contig2contig coords2cam count-kmers count-qmers ctg2fasta ctg2umdcontig ctgovl cvgChop cvgStat delta2clr delta2cvg dumpContigsAsReads dumpFeatures dumpmates dumpreads excl_seqs extractContig fasta_select_len fasta_to_fastq fastq_rename fastq_to_fasta_fast fastqqc filter_contig filter_seq FilterEdgesByCluster filterfrg find-duplicate-reads find-query-breaks find-tandem find_ends findChimeras findMissingMates findTcovSnp fixfastq fixfrg fixlib FRCurve frg-umd-merge frg2fasta frg2fastq frg2ta gap-links gccontent gene_asm genome-complexity genome-complexity-fast getFRCvalues getlengths getN50 goBambus2 grow-readbank hash-overlap insert-sizes iterate Joiner kmer-count kmer-cov kmer-cov-plot kmers ktrimfrg library-histogram Linearize list-linked-contigs listcontigreads listGCContent listReadPlacedStatus listSingletonMates listSurrogates load-overlaps loadFeatures make-consensus make-consensus_poly MarkRepeats merge-contigs message-count message-extract message-validate Minimo minimus minimus2 minimus2-blat missing-reads normalizeScaffold nucmer2ovl nucmerAnnotate olapsFromContig OrientContigs OutputMotifs OutputResults OutputScaffolds overlap-align ovl-degr-dist ovl2OVL parsecasm partitionBank phd2afg postCAqc preassembleFrgs preTA printScaff pullTArchive pyrosim qmer-filter read-cov-plot readinfo2cam recallConsensus renameReads rerunMultiTest resetFragLibrary revFasta revScaffold runAmos runMultiTest running-cmp runTA runTest scaff2fasta scaffoldRange2Ungapped select-reads show-ma-asm sim-cover-depth sim-cover2 sim-shotgun simple-overlap simpleContigLoader simplifyLibraries singles sort2 stats summarizeMultiTest suspiciousfeat2region ta2ace tab2ovls tagsum-reduce tandemCollapse tarchive2amos tarchive2ca tigger tiling2cam toAmos toAmos_new toArachne trace_comment trace_comments trace_convert trace_scf_dump trace_seq translate-fasta trimByOvl trimends trimfrg untangle updateBankPositions updateClrRanges updateDeltaClr updateLibSizes vecfix verify-layout
 homebrew/science/analysis:compute descPoly extractCoding Fexact gestimator HBKpermute kimura80 MKtest polydNdS rsq sharedPoly snntest translateCoding
 homebrew/science/andi:andi
@@ -2106,6 +2110,7 @@ homebrew/science/masurca:add_missing_mates.pl addSurrogatesToFrgctg.perl addSurr
 homebrew/science/mathgl:mgl_example mgl_glut_example mglconv
 homebrew/science/mathomatic:matho matho-mult matho-pascal matho-primes matho-sum matho-sumsq mathomatic primorial rmath
 homebrew/science/maxima:maxima rmaxima xmaxima
+homebrew/science/mbsystem:mb7k2jstar mb7k2ss mb7kpreprocess mbabsorption mbareaclean mbauvloglist mbauvnavusbl mbbackangle mbclean mbcopy mbctdlist mbdatalist mbdefaults mbdumpesf mbedit mbeditviz mbextractsegy mbfilter mbformat mbgetesf mbgrdviz mbgrid mbhistogram mbhsdump mbhysweeppreprocess mbinfo mbinsreprocess mbkongsbergpreprocess mblevitus mblist mbm_arc2grd mbm_bpr mbm_copy mbm_grd2arc mbm_grd2geovrml mbm_grd3dplot mbm_grdcut mbm_grdinfo mbm_grdplot mbm_grdtiff mbm_grid mbm_histplot mbm_makedatalist mbm_makesvp mbm_multicopy mbm_multidatalist mbm_multiprocess mbm_plot mbm_route2mission mbm_stat mbm_utm mbm_xbt mbm_xyplot mbmosaic mbnavadjust mbnavadjustmerge mbnavedit mbnavlist mbneptune2esf mbotps mbpreprocess mbprocess mbrollbias mbrolltimelag mbroutetime mbrphsbias mbsegygrid mbsegyinfo mbsegylist mbsegypsd mbset mbsslayout mbstripnan mbsvplist mbsvpselect mbswplspreprocess mbtime mbvelocitytool
 homebrew/science/mcl:clm clmformat clxdo mcl mclblastline mclcm mclpipeline mcx mcxarray mcxassemble mcxdeblast mcxdump mcxi mcxload mcxmap mcxrand mcxsubs
 homebrew/science/megahit:megahit megahit_asm_core megahit_sdbg_build megahit_toolkit
 homebrew/science/megam:megam megam.opt
@@ -2260,6 +2265,7 @@ homebrew/science/seqdb:seqdb seqdb-compress seqdb-extract seqdb-mount seqdb-prof
 homebrew/science/seqtk:seqtk
 homebrew/science/sextractor:ldactoasc sex
 homebrew/science/sga:sga sga-align sga-asqg2dot.pl sga-astat.py sga-bam2de.pl sga-beetl-index.pl sga-call-variants.pl sga-deinterleave.pl sga-diffCalls.pl sga-joinedpe sga-mergeDriver.pl sga-popcat.pl sga-preqc-report.py sga-rename.pl sga-variant-filters.pl sga-vcf-dedup.pl
+homebrew/science/shogun:shogun
 homebrew/science/shrimp:fasta2fastq gmapper gmapper-cs gmapper-ls mergesam prettyprint prettyprint-cs prettyprint-ls probcalc probcalc_mp shrimp2sam shrimp_var
 homebrew/science/sickle:sickle
 homebrew/science/sigrok-cli:sigrok-cli
@@ -2330,6 +2336,7 @@ homebrew/science/velvet:velvetg velveth
 homebrew/science/viennarna:Kinfold RNA2Dfold RNAaliduplex RNAalifold RNAcofold RNAdistance RNAduplex RNAeval RNAfold RNAforester RNAheat RNAinverse RNALalifold RNALfold RNApaln RNAparconv RNApdist RNAPKplex RNAplex RNAplfold RNAplot RNAsnoop RNAsubopt RNAup
 homebrew/science/vips7:batch_crop batch_image_convert batch_rubber_sheet light_correct shrink_width vips vips-7.42 vipsedit vipsheader vipsprofile vipsthumbnail
 homebrew/science/vips:batch_crop batch_image_convert batch_rubber_sheet light_correct shrink_width vips vips-8.0 vipsedit vipsheader vipsprofile vipsthumbnail
+homebrew/science/vislcg3:cg-comp cg-conv cg-proc cg3-autobin.pl vislcg3
 homebrew/science/visp:visp-config
 homebrew/science/voro++:voro++
 homebrew/science/vtk5:vtkEncodeString vtkpython vtkWrapHierarchy vtkWrapPython vtkWrapPythonInit
@@ -2463,6 +2470,7 @@ homebrew/versions/hdf4:gif2hdf hdf24to8 hdf2gif hdf2jpeg hdf8to24 hdfcomp hdfed 
 homebrew/versions/hive010:ext hive hive-config.sh metatool
 homebrew/versions/hive011:beeline ext hive hive-config.sh hiveserver2 metatool
 homebrew/versions/imagemagick-ruby186:animate compare composite conjure convert display identify import Magick-config MagickCore-config MagickWand-config mogrify montage stream Wand-config
+homebrew/versions/influxdb08:influxdb
 homebrew/versions/isl011:
 homebrew/versions/isl012:
 homebrew/versions/isl014:
@@ -2906,6 +2914,7 @@ laszip:laszip-config laszippertest
 latex2html:latex2html pstoimg texexpand
 latex2rtf:latex2png latex2rtf
 launch4j:launch4j
+launch:launch
 launchdns:launchdns
 lbdb:lbdb-fetchaddr lbdb_dotlock lbdbq nodelist2lbdb
 lbzip2:lbunzip2 lbzcat lbzip2
