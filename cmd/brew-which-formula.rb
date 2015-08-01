@@ -9,7 +9,7 @@
 #
 #
 
-# brew
+require "formula"
 require "extend/ARGV.rb"
 
 TAP_RE = %r(^.+?/[^/]+)
@@ -21,16 +21,16 @@ def matches(cmd)
   Utils.popen_read("grep", cmd, LIST_PATH).chomp.split(/\n/)
 end
 
+def reject_formula?(name)
+  f = Formula[name] rescue nil
+  f.nil? || f.installed? || f.requirements.any? { |r| r.required? && !r.satisfied? }
+end
+
 # Print a small text explaining how to get 'cmd' by installing 'formula'. Note
 # that it'll still suggest to install the formula if it's already installed but
 # unlinked.
 def explain_formula_install(cmd, formula)
-  require "formula"
-  f = Formula[formula] rescue nil
-  unless f.nil?
-    return if f.installed?
-    return if f.requirements.any? { |r| r.required? && !r.satisfied? }
-  end
+  return if reject_formula? formula
   puts <<-EOS
 The program '#{cmd}' is currently not installed. You can install it by typing:
   brew install #{formula}
@@ -40,6 +40,8 @@ end
 # Print a small text explaining how to get 'cmd' by installing one of the given
 # formulae.
 def explain_formulae_install(cmd, formulae)
+  formulae.reject! { |f| reject_formula? f }
+  return if formulae.empty?
   return explain_formula_install(cmd, formulae.first) if formulae.size == 1
   puts <<-EOS.undent
     The program '#{cmd}' can be found in the following formulae:
