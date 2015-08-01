@@ -18,8 +18,9 @@ homebrew_command_not_found_handle() {
     # <from Linux Journal>
     #   http://www.linuxjournal.com/content/bash-command-not-found
 
-    # do not run when inside Midnight Commander or within a Pipe
-    if test -n "$MC_SID" -o ! -t 1 ; then
+    # do not run when inside Midnight Commander or within a Pipe, except if on
+    # Travis-CI
+    if test -z "$CONTINUOUS_INTEGRATION" && test -n "$MC_SID" -o ! -t 1 ; then
         [ -n "$BASH_VERSION" ] && \
             TEXTDOMAIN=command-not-found echo $"$cmd: command not found"
         return 127

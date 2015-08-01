@@ -4,5 +4,6 @@ before_script:
 script:
   - bash -n handler.sh
   - zsh -n handler.sh
+  - bash test.sh
 notifications:
   email: false
