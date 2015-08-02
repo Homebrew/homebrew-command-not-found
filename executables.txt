@@ -193,6 +193,7 @@ berkeley-db4:db_archive db_checkpoint db_deadlock db_dump db_hotbackup db_load d
 berkeley-db:db_archive db_checkpoint db_deadlock db_dump db_hotbackup db_load db_log_verify db_printlog db_recover db_replicate db_stat db_tuner db_upgrade db_verify
 betty:betty
 bfg:bfg
+bgpdump:bgpdump
 bgpq3:bgpq3
 bgrep:bgrep
 bib-tool:bibtool
@@ -791,6 +792,7 @@ fourstore:4s-admin 4s-backend 4s-backend-copy 4s-backend-destroy 4s-backend-info
 fpc:bin2obj chmcmd chmls data2inc delp fd2pascal fpc fpclasschart fpcmake fpcmkcfg fpcres fpcreslipo fpcsubst fpdoc fppkg fprcp h2pas h2paspp instantfpc makeskel mkarmins mkx86ins pas2fpm pas2ut plex postw32 ppcx64 ppdep ppudump ppufiles ppumove ptop pyacc rmcvsdir rstconv unitdiff
 fping:fping fping6
 fpp:fpp
+fq:fq_rcvr fq_sndr fqc fqtool fqd
 frag_find:frag_find hash_t_test
 fragroute:fragroute fragtest
 freealut:freealut-config
@@ -981,7 +983,6 @@ google-app-engine:_php_runtime.py _python_runtime.py api_server.py appcfg.py bul
 google-perftools:pprof
 google-sparsehash:
 google-sql-tool:google_sql
-googlecl:google
 goolabs:goolabs
 gost:gost
 gosu:gosu
@@ -1136,6 +1137,7 @@ homebrew/binary/subgit:subgit
 homebrew/boneyard/catdoc:catdoc catppt wordview xls2csv
 homebrew/boneyard/dupx:dupx
 homebrew/boneyard/git-flow-clone:git-flow-clone
+homebrew/boneyard/googlecl:google
 homebrew/boneyard/gtkglarea:
 homebrew/boneyard/guilt:guilt
 homebrew/boneyard/jscoverage:jscoverage jscoverage-server
@@ -2080,7 +2082,7 @@ homebrew/science/gubbins:gubbins gubbins_drawer.py run_gubbins.py
 homebrew/science/h5utils:h5fromtxt h5topng h5totxt h5tovtk
 homebrew/science/harry:harry
 homebrew/science/harvest-tools:harvesttools
-homebrew/science/hdf5:gif2h5 h52gif h5c++ h5copy h5debug h5diff h5dump h5import h5jam h5ls h5mkgrp h5pcc h5perf h5perf_serial h5redeploy h5repack h5repart h5stat h5unjam ph5diff
+homebrew/science/hdf5:gif2h5 h52gif h5c++ h5cc h5copy h5debug h5diff h5dump h5import h5jam h5ls h5mkgrp h5perf_serial h5redeploy h5repack h5repart h5stat h5unjam
 homebrew/science/healpix:alm2map_cxx anafast_cxx calc_powspec hotspots_cxx hpxtest map2tga median_filter_cxx mult_alm rotalm_cxx smoothing_cxx syn_alm_cxx udgrade_cxx udgrade_harmonic_cxx
 homebrew/science/hisat:hisat hisat-align-l hisat-align-s hisat-build hisat-build-l hisat-build-s hisat-inspect hisat-inspect-l hisat-inspect-s
 homebrew/science/hlaminer:blastall formatdb HLAminer.pl parseXMLblast.old parseXMLblast.pl
@@ -3925,6 +3927,7 @@ ptex:ptxinfo
 pth:pth-config
 ptunnel:ptunnel
 puf:puf
+pugixml:
 pulledpork:pulledpork.pl
 pulseaudio:esdcompat pacat pacmd pactl pamon paplay parec parecord pasuspender pulseaudio
 pup:pup
