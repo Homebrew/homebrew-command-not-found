@@ -93,7 +93,7 @@ argp-standalone:
 argtable:
 argus-clients:argusclientbug ra rabins racluster raconvert racount radark radecode radump raevent rafilteraddr ragraph ragrep rahisto rahosts ralabel ranonymize rapath rapolicy raports rarpwatch raservices rasort rasplit rastream rastrip ratemplate ratimerange ratop rauserdata radium
 argus:argus-lsof argus-snmp argus-vmstat argusbug argus
-argyll-cms:applycal average cb2ti3 cctiff ccxxmake chartread collink colprof colverify dispcal dispread dispwin extracticc extractttag fakeCMY fakeread greytiff iccdump iccgamut icclu illumread invprofcheck kodak2ti3 mppcheck mpplu mppprof oeminst printcal printtarg profcheck refine revfix scanin spec2cie specplot splitti3 spotread synthcal synthread targen tiffgamut timage txt2ti3 viewgam xicclu
+argyll-cms:applycal average cb2ti3 cctiff ccxxmake chartread collink colprof colverify dispcal dispread dispwin extracticc extractttag fakeCMY fakeread greytiff iccdump iccgamut icclu illumread invprofcheck kodak2ti3 ls2ti3 mppcheck mpplu mppprof oeminst printcal printtarg profcheck refine revfix scanin spec2cie specplot splitti3 spotread synthcal synthread targen tiffgamut timage txt2ti3 viewgam xicclu
 aria2:aria2c
 arm:arm
 arp-scan:arp-fingerprint arp-scan get-iab get-oui
@@ -972,7 +972,7 @@ gnupg2:addgnupghome applygnupgdefaults gpg-connect-agent gpg2 gpgconf gpgkey2ssh
 gnupg:gpg gpg-zip gpgsplit gpgv
 gnuplot:gnuplot
 gnustep-make:
-gnutls:gnutls-certtool gnutls-cli gnutls-cli-debug gnutls-serv ocsptool psktool srptool
+gnutls:danetool gnutls-certtool gnutls-cli gnutls-cli-debug gnutls-serv ocsptool psktool srptool
 go-app-engine-32:appcfg.py bulkload_client.py bulkloader.py dev_appserver.py download_appstats.py goapp
 go-app-engine-64:appcfg.py bulkload_client.py bulkloader.py dev_appserver.py download_appstats.py goapp
 go:go godoc gofmt
@@ -2803,7 +2803,7 @@ ical-buddy:icalBuddy
 icarus-verilog:iverilog iverilog-vpi vvp
 icbirc:icbirc
 icdiff:git-icdiff icdiff
-ice:db53_archive db53_checkpoint db53_deadlock db53_dump db53_hotbackup db53_load db53_log_verify db53_printlog db53_recover db53_replicate db53_stat db53_tuner db53_upgrade db53_verify dumpdb glacier2router icebox iceboxadmin icegridadmin icegridnode icegridregistry icepatch2calc icepatch2client icepatch2server icestormadmin icestormmigrate slice2cpp slice2cs slice2freeze slice2html slice2objc slice2php transformdb
+ice:db53_archive db53_checkpoint db53_deadlock db53_dump db53_hotbackup db53_load db53_log_verify db53_printlog db53_recover db53_replicate db53_stat db53_tuner db53_upgrade db53_verify dumpdb glacier2router icebox iceboxadmin icegridadmin icegridnode icegridregistry icepatch2calc icepatch2client icepatch2server icestormadmin icestormmigrate slice2cpp slice2cs slice2freeze slice2freezej slice2html slice2java slice2objc slice2php transformdb
 icecast:icecast
 icecream:icecc icerun icecc-scheduler iceccd
 icon-naming-utils:
@@ -3652,7 +3652,7 @@ nordugrid-arc:arccat arcclean arccp arcecho arcemiestest arcget arcinfo arckill 
 norm:
 normalize:normalize normalize-mp3 normalize-ogg
 notmuch:notmuch
-noweb:cpif nodefs noindex noroff noroots notangle nountangle noweave noweb nuweb2noweb
+noweb:cpif htmltoc nodefs noindex noroff noroots notangle nountangle noweave noweb nuweb2noweb sl2h
 npth:npth-config
 nrg2iso:nrg2iso
 nrpe:nrpe check_nrpe
@@ -3670,7 +3670,7 @@ nuttcp:nuttcp
 nvi:nex nvi nview
 nvm:
 nylon:nylon
-nzbget:nzbget nzbgetd
+nzbget:nzbget
 oath-toolkit:oathtool pskctool
 oauth2_proxy:oauth2_proxy
 objc-codegenutils:objc-assetgen objc-colordump objc-identifierconstants
@@ -3699,7 +3699,7 @@ ooniprobe:oonideckgen ooniprobe oonireport ooniresources
 opam:opam opam-admin opam-installer
 open-babel:babel obabel obchiral obconformer obenergy obfit obgen obgrep obminimize obprobe obprop obrms obrotamer obrotate obspectrophore roundtrip
 open-cobol:cob-config cobc cobcrun
-open-mesh:Analyzer commandlineAdaptiveSubdivider commandlineDecimater commandlineSubdivider DecimaterGui Dualizer mconvert mkbalancedpm ProgViewer QtViewer Smoothing SubdividerGui Synthesizer
+open-mesh:
 open-mpi:mpic++ mpic++-vt mpicc mpicc-vt mpicxx mpicxx-vt mpiexec mpif77 mpif77-vt mpif90 mpif90-vt mpifort mpifort-vt mpirun ompi-clean ompi-ps ompi-server ompi-top ompi_info opal_wrapper orte-clean orte-info orte-ps orte-server orte-top ortecc orted orterun otfaux otfcompress otfconfig otfdecompress otfinfo otfmerge otfmerge-mpi otfprint otfprofile otfprofile-mpi otfshrink vtc++ vtcc vtcxx vtf77 vtf90 vtfilter vtfilter-mpi vtfiltergen vtfiltergen-mpi vtfort vtjava vtrun vtsetup vtunify vtunify-mpi vtwrapper
 open-ocd:openocd
 open-scene-graph:osgarchive osgconv osgfilecache osgversion osgviewer present3D
@@ -3754,7 +3754,7 @@ p0f:p0f
 p11-kit:p11-kit
 p7zip:7z 7za 7zr
 pacapt:pacapt
-packer:packer packer-builder-amazon-chroot packer-builder-amazon-ebs packer-builder-amazon-instance packer-builder-digitalocean packer-builder-docker packer-builder-googlecompute packer-builder-null packer-builder-openstack packer-builder-parallels-iso packer-builder-parallels-pvm packer-builder-qemu packer-builder-virtualbox-iso packer-builder-virtualbox-ovf packer-builder-vmware-iso packer-builder-vmware-vmx packer-post-processor-atlas packer-post-processor-compress packer-post-processor-docker-import packer-post-processor-docker-push packer-post-processor-docker-save packer-post-processor-docker-tag packer-post-processor-vagrant packer-post-processor-vagrant-cloud packer-post-processor-vsphere packer-provisioner-ansible-local packer-provisioner-chef-client packer-provisioner-chef-solo packer-provisioner-file packer-provisioner-puppet-masterless packer-provisioner-puppet-server packer-provisioner-salt-masterless packer-provisioner-shell
+packer:packer packer-builder-amazon-chroot packer-builder-amazon-ebs packer-builder-amazon-instance packer-builder-digitalocean packer-builder-docker packer-builder-file packer-builder-googlecompute packer-builder-null packer-builder-openstack packer-builder-parallels-iso packer-builder-parallels-pvm packer-builder-qemu packer-builder-virtualbox-iso packer-builder-virtualbox-ovf packer-builder-vmware-iso packer-builder-vmware-vmx packer-post-processor-atlas packer-post-processor-compress packer-post-processor-docker-import packer-post-processor-docker-push packer-post-processor-docker-save packer-post-processor-docker-tag packer-post-processor-vagrant packer-post-processor-vagrant-cloud packer-post-processor-vsphere packer-provisioner-ansible-local packer-provisioner-chef-client packer-provisioner-chef-solo packer-provisioner-file packer-provisioner-powershell packer-provisioner-puppet-masterless packer-provisioner-puppet-server packer-provisioner-salt-masterless packer-provisioner-shell packer-provisioner-shell-local packer-provisioner-windows-restart packer-provisioner-windows-shell
 pacvim:pacvim
 pakchois:
 pam_yubico:ykpamcfg
@@ -3954,7 +3954,7 @@ pulledpork:pulledpork.pl
 pulseaudio:esdcompat pacat pacmd pactl pamon paplay parec parecord pasuspender pulseaudio
 pup:pup
 pure-ftpd:pure-pw pure-pwconvert pure-statsdecode pure-authd pure-ftpd pure-ftpwho pure-mrtginfo pure-quotacheck pure-uploadscript
-purescript:psc psc-docs psc-hierarchy psc-make psci
+purescript:psc psc-bundle psc-docs psc-hierarchy psc-publish psci
 pushpin:m2adapter pushpin pushpin-handler pushpin-proxy pushpin-publish
 putmail-queue:putmail_dequeue.py putmail_enqueue.py
 putmail:putmail putmail.py
@@ -3980,7 +3980,7 @@ pygtk:pygtk-codegen-2.0 pygtk-demo
 pygtkglext:
 pygtksourceview:
 pylucene:
-pypy3:easy_install_pypy3 pip_pypy3 pypy3
+pypy3:pypy3
 pypy:easy_install_pypy pip_pypy pypy
 pyqt5:pylupdate5 pyrcc5 pyuic5
 pyqt:pylupdate4 pyrcc4 pyuic4
@@ -4180,7 +4180,7 @@ schroedinger:
 scm-manager:scm-cli-client scm-server
 scmpuff:scmpuff
 scons:scons scons-time sconsign
-screenbrightness:screenbrightness
+screenbrightness:brightness
 screenfetch:screenfetch
 screenresolution:screenresolution
 scriptcs:scriptcs
@@ -4315,7 +4315,7 @@ sparkey:bench sparkey
 sparse:cgcc sparse
 spatialindex:
 spatialite-gui:spatialite_gui
-spatialite-tools:exif_loader shp_doctor spatialite spatialite_convert spatialite_dxf spatialite_gml spatialite_network spatialite_osm_filter spatialite_osm_map spatialite_osm_net spatialite_osm_raw spatialite_tool spatialite_xml_collapse spatialite_xml_load spatialite_xml_print
+spatialite-tools:exif_loader shp_doctor spatialite spatialite_convert spatialite_dxf spatialite_gml spatialite_network spatialite_osm_filter spatialite_osm_map spatialite_osm_net spatialite_osm_overpass spatialite_osm_raw spatialite_tool spatialite_xml_collapse spatialite_xml_load spatialite_xml_print spatialite_xml_validator
 spawn-fcgi:spawn-fcgi
 spdylay:shrpx spdycat spdyd
 speech-tools:align bcat ch_lab ch_track ch_utt ch_wave design_filter dp na_play na_record ngram_build ngram_test ols ols_test pda pitchmark scfg_make scfg_parse scfg_test scfg_train sig2fv sigfilter siod spectgen tilt_analysis tilt_synthesis viterbi wagon wagon_test wfst_build wfst_run wfst_train xml_parser
@@ -4469,7 +4469,7 @@ testdisk:fidentify photorec testdisk
 tevent:
 texapp:texapp
 texi2html:texi2html
-texinfo:info infokey install-info makeinfo pdftexi2dvi pod2texi texi2any texi2dvi texi2pdf texindex
+texinfo:info install-info makeinfo pdftexi2dvi pod2texi texi2any texi2dvi texi2pdf texindex
 texmath:texmath
 thc-pptp-bruter:thc-pptp-bruter
 the_platinum_searcher:pt
