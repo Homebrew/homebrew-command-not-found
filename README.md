@@ -31,16 +31,16 @@ First, tap this repository: `brew tap homebrew/command-not-found`
     if brew command command-not-found-init > /dev/null; then eval "$(brew command-not-found-init)"; fi
     ```
     
-* **Fish**: Add the following to your `config.fish`:
+* **Fish**: Run the following command:
  ```
- test (brew command command-not-found-init-fish ^ /dev/null); and ruby (brew command command-not-found-init-fish) --fish
+ruby (brew command command-not-found-init-fish) --fish
  ```
     * _Note_: If your functions directory isn't  `~/.config/fish/functions/` 
-    then pass custom path as the first argument. You find it out with 
+    then pass custom path as the second argument. You find it out with 
     `echo $fish_function_path`. Eg.
     
 ```
-...; and ruby (brew command command-not-found-init-fish) --fish /usr/local/fish/functions/
+ruby (brew command command-not-found-init-fish) --fish /usr/local/fish/functions/
 ```
 
 ### Upgrade from 0.1.1
@@ -74,7 +74,7 @@ Which is used when you try a command that doesn’t exist. The function calls
 If not, you’ll get an error as expected.
 
 For Fish, the `handler.fish` defines a function `command-not-found-handler` with is
-used by Fish when a command doesn't exist. The function is copied in your
+used by Fish when a command doesn't exist. The function is symlinked in your
 functions directory. Fish recognises the function, and uses this instead of its default
 handler. The function utilises `brew which-formula` to find and prints the relevant
 information about the command; on the case where it finds nothing, the function
