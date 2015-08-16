@@ -33,15 +33,15 @@ First, tap this repository: `brew tap homebrew/command-not-found`
     
 * **Fish**: Run the following command:
  ```
-ruby (brew command command-not-found-init-fish) --fish
+brew command-not-found-init-fish --fish
  ```
     * _Note_: If your functions directory isn't  `~/.config/fish/functions/` 
-    then pass custom path as the second argument. You find it out with 
+    then pass custom path as the second argument. You can find that out with 
     `echo $fish_function_path`. Eg.
     
-```
-ruby (brew command command-not-found-init-fish) --fish /usr/local/fish/functions/
-```
+        ```
+        brew command-not-found-init-fish --fish /usr/local/fish/functions/
+        ```
 
 ### Upgrade from 0.1.1
 
