@@ -150,6 +150,7 @@ avrdude:avrdude
 avro-c:avroappend avrocat avromod avropipe
 avro-cpp:avrogencpp
 avro-tools:avro-tools
+awf:awf-gtk2 awf-gtk3
 aws-cfn-tools:cfn-cancel-update-stack cfn-cmd cfn-create-stack cfn-delete-stack cfn-describe-stack-events cfn-describe-stack-resource cfn-describe-stack-resources cfn-describe-stacks cfn-get-template cfn-list-stack-resources cfn-list-stacks cfn-update-stack cfn-validate-template cfn-version
 aws-cloudsearch:cs-cmd cs-configure-from-batches cs-import-documents
 aws-elasticache:elasticache elasticache-authorize-cache-security-group-ingress elasticache-copy-snapshot elasticache-create-cache-cluster elasticache-create-cache-parameter-group elasticache-create-cache-security-group elasticache-create-cache-subnet-group elasticache-create-replication-group elasticache-create-snapshot elasticache-delete-cache-cluster elasticache-delete-cache-parameter-group elasticache-delete-cache-security-group elasticache-delete-cache-subnet-group elasticache-delete-replication-group elasticache-delete-snapshot elasticache-describe-cache-clusters elasticache-describe-cache-engine-versions elasticache-describe-cache-parameter-groups elasticache-describe-cache-parameters elasticache-describe-cache-security-groups elasticache-describe-cache-subnet-groups elasticache-describe-engine-default-parameters elasticache-describe-events elasticache-describe-replication-groups elasticache-describe-reserved-cache-nodes elasticache-describe-reserved-cache-nodes-offerings elasticache-describe-snapshots elasticache-modify-cache-cluster elasticache-modify-cache-parameter-group elasticache-modify-cache-subnet-group elasticache-modify-replication-group elasticache-purchase-reserved-cache-nodes-offering elasticache-reboot-cache-cluster elasticache-reset-cache-parameter-group elasticache-revoke-cache-security-group-ingress elasticache-version
@@ -309,7 +310,6 @@ cd-discid:cd-discid
 cdargs:cdargs
 cdb:cdbdump cdbget cdbmake cdbmake-12 cdbmake-sv cdbstats cdbtest
 cdecl:c++decl cdecl
-cdimgtools:dvdimgdecss cssdec
 cdk:cdk5-config
 cdlabelgen:cdlabelgen
 cdparanoia:cdparanoia
@@ -542,6 +542,7 @@ delta:delta multidelta topformflat
 denominator:denominator
 dependency-check:dependency-check
 depqbf:depqbf
+desktop-file-utils:desktop-file-edit desktop-file-install desktop-file-validate update-desktop-database
 detox:detox inline-detox
 devil:ilur
 devtodo:devtodo tda tdd tde tdl tdr todo
@@ -1064,6 +1065,7 @@ gtksourceview:
 gtkspell3:
 gtmess:gtmess gtmess-notify gtmess_w
 gts:delaunay gts-config gts2dxf gts2oogl gts2stl gtscheck gtscompare gtstemplate happrox stl2gts transform
+gucharmap:charmap gnome-character-map gucharmap
 guile:guild guile guile-config guile-snarf guile-tools
 gumbo-parser:
 gupnp-av:
@@ -1144,6 +1146,7 @@ homebrew/binary/perforce:p4
 homebrew/binary/rar:rar unrar
 homebrew/binary/subgit:subgit
 homebrew/boneyard/catdoc:catdoc catppt wordview xls2csv
+homebrew/boneyard/cdimgtools:dvdimgdecss cssdec
 homebrew/boneyard/dupx:dupx
 homebrew/boneyard/echoping:echoping
 homebrew/boneyard/git-flow-clone:git-flow-clone
@@ -1251,6 +1254,7 @@ homebrew/fuse/xmount:xmount
 homebrew/games/abuse:abuse abuse-tool
 homebrew/games/angband:angband
 homebrew/games/arx-libertatis:arx arx-install-data arxsavetool arxunpak
+homebrew/games/atari800:atari800
 homebrew/games/avanor:avanor
 homebrew/games/ballerburg:ballerburg
 homebrew/games/bastet:bastet
@@ -1262,8 +1266,10 @@ homebrew/games/chocolate-doom:chocolate-doom chocolate-doom-setup chocolate-here
 homebrew/games/ckan:ckan
 homebrew/games/color-code:
 homebrew/games/dopewars:dopewars
+homebrew/games/dosbox-x:dosbox
 homebrew/games/dosbox:dosbox
 homebrew/games/dwarf-fortress:dwarffortress
+homebrew/games/easyrpg-player:easyrpg-player
 homebrew/games/einstein:einstein
 homebrew/games/ems-flasher:ems-flasher
 homebrew/games/fairymax:fairymax maxqi shamax
@@ -1276,13 +1282,14 @@ homebrew/games/git-game:git-game
 homebrew/games/glulxe:glulxe
 homebrew/games/gnu-chess:gnuchess gnuchessu gnuchessx
 homebrew/games/gnu-go:gnugo
-homebrew/games/gnu-shogi:gnushogi xshogi
+homebrew/games/gnu-shogi:gnushogi
 homebrew/games/go-gui:
 homebrew/games/hedgewars:
 homebrew/games/homeworlds:homeworlds-cli homeworlds-wx
 homebrew/games/inform6:inform inform-6.32
 homebrew/games/jnethack:jnethack
 homebrew/games/lcs:crimesquad
+homebrew/games/liblcf:
 homebrew/games/libtcod:
 homebrew/games/mame:mame
 homebrew/games/mapcrafter:mapcrafter mapcrafter_markers mapcrafter_png-it.py mapcrafter_textures.py
@@ -1301,15 +1308,18 @@ homebrew/games/nethack:nethack
 homebrew/games/nethacked:nethacked
 homebrew/games/netris:netris
 homebrew/games/ninvaders:nInvaders
+homebrew/games/np2:np2
 homebrew/games/omega-rpg:omega
 homebrew/games/onscripter:nsaconv nsadec onscripter sarconv sardec
 homebrew/games/open-tyrian:opentyrian
 homebrew/games/openclonk:
+homebrew/games/openmsx:openmsx
 homebrew/games/openttd:
 homebrew/games/pioneers:pioneers pioneers-editor pioneers-metaserver pioneers-server-console pioneers-server-gtk pioneersai
 homebrew/games/ponscripter-sekai:ponscr
 homebrew/games/ppsspp:PPSSPPSDL
 homebrew/games/puzzles:
+homebrew/games/quasi88:quasi88
 homebrew/games/residualvm:residualvm
 homebrew/games/robotfindskitten:robotfindskitten
 homebrew/games/rogue:rogue
@@ -1330,6 +1340,8 @@ homebrew/games/vitetris:tetris
 homebrew/games/wesnoth:wesnoth wesnothd
 homebrew/games/wumpus:superhack wumpus
 homebrew/games/xboard:xboard
+homebrew/games/xshogi:xshogi
+homebrew/games/zboy:zboy
 homebrew/head-only/adept:adept.sh
 homebrew/head-only/agedu:agedu
 homebrew/head-only/ansiweather:ansiweather
@@ -2497,6 +2509,7 @@ homebrew/versions/docker133:docker
 homebrew/versions/docker141:docker
 homebrew/versions/docker150:docker
 homebrew/versions/docker162:docker
+homebrew/versions/docker171:docker
 homebrew/versions/doxygen1831:doxygen
 homebrew/versions/drush4:drush
 homebrew/versions/drush5:drush
@@ -3872,6 +3885,7 @@ pinentry-mac:pinentry-mac
 pinentry:pinentry pinentry-curses pinentry-emacs
 pipebench:pipebench
 pipemeter:pipemeter
+pipes-sh:pipes.sh
 pit:pit
 pius:pius pius-keyring-mgr pius-party-worksheet
 pixman:
