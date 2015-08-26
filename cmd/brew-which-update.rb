@@ -11,9 +11,15 @@
 require "formula"
 require "pathname"
 
+# ExecutablesDB represents a DB associating formulae to the binaries they
+# provide.
 class ExecutablesDB
   attr_accessor :exes
 
+  # initialize a new DB with the given filename. The file will be used to
+  # populate the DB if it exists. It'll be created or overrided when saving the
+  # DB.
+  # @see #save!
   def initialize(filename)
     @filename = filename
     @exes = {}
@@ -26,6 +32,8 @@ class ExecutablesDB
     end
   end
 
+  # update the binaries of {name} given the prefix path {path}.
+  # @private
   def update_from(name, path)
     @exes[name] = []
     Dir["#{path}/{bin,sbin}/*"].uniq.each do |f|
@@ -35,12 +43,15 @@ class ExecutablesDB
     @exes[name].uniq!
   end
 
+  # update the DB with the installed formulae
+  # @see #save!
   def update!
     Formula.each do |f|
       next if f.tap? && !f.tap.include?("omebrew/")
       name = f.full_name
 
-      # TODO check that the formula is not outdated
+      # note: f.installed? is true only if the *latest* version is installed.
+      # We thus don't need to worry about updating outdated versions
       update_from name, f.prefix if f.installed?
 
       if f.tap?
@@ -54,6 +65,7 @@ class ExecutablesDB
     end
   end
 
+  # save the DB in the underlying file
   def save!
     ordered_db = @exes.map do |formula, exs|
       "#{formula}:#{exs.uniq.join(" ")}\n"
@@ -66,6 +78,8 @@ class ExecutablesDB
     end
   end
 
+  # Add a formulae binaries from its bottle. It'll abort if the formula doesn't
+  # have a bottle.
   def add_from_bottle name
     f = Formula[name]
     abort "Formula #{name} has no bottle" unless f.bottled?
@@ -77,20 +91,16 @@ class ExecutablesDB
   end
 end
 
-# This variable should never be defined, I put it in my ~/.irbrc so requiring
-# this file in `irb` doesn't run this code block
-unless $BFN_IRB
-  if ARGV.named.empty?
-    puts <<-EOS
-  Usage:
+if ARGV.named.empty?
+  puts <<-EOS
+Usage:
 
-      brew-which-update <DB file>
+    brew-which-update <DB file>
 
-    EOS
-    exit 1
-  end
-
-  db = ExecutablesDB.new ARGV.named.first
-  db.update!
-  db.save!
+  EOS
+  exit 1
 end
+
+db = ExecutablesDB.new ARGV.named.first
+db.update!
+db.save!
