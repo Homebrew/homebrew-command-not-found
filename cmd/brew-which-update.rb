@@ -5,7 +5,7 @@
 #
 # Usage:
 #
-#   brew which-update [--commit] <DB file>
+#   brew which-update [--commit [--push]] <DB file>
 #
 
 require "formula"
@@ -162,4 +162,5 @@ if ARGV.include?("--commit") && changed
   db.save!
 
   safe_system "git", "commit", "-m", msg, source
+  safe_system "git", "push" if ARGV.include? "--push"
 end
