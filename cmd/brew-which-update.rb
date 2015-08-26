@@ -16,6 +16,7 @@ require "set"
 # provide.
 class ExecutablesDB
   attr_accessor :exes
+  attr_reader :changes
 
   # initialize a new DB with the given filename. The file will be used to
   # populate the DB if it exists. It'll be created or overrided when saving the
@@ -25,6 +26,8 @@ class ExecutablesDB
     @filename = filename
     @exes = {}
 
+    reset_changes
+
     if File.file? @filename
       File.new(@filename).each do |line|
         formula, exes_line = line.split(":")
@@ -33,15 +36,35 @@ class ExecutablesDB
     end
   end
 
+  # @private
+  def reset_changes
+    # keeps track of things that changed in the DB between its creation and
+    # each {#save!} call. This is used to generate commit messages
+    @changes = {:added => Set.new, :removed => Set.new, :modified => Set.new}
+  end
+
+  def changed?
+    @changes.any? { |_,v| !v.empty? }
+  end
+
   # update the binaries of {name} given the prefix path {path}.
   # @private
   def update_from(name, path)
     binaries = Set.new
-    Dir["#{path}/{bin,sbin}/*"].uniq.each do |f|
+    Dir["#{path}/{bin,sbin}/*"].each do |f|
       next unless File.executable? f
       binaries << Pathname.new(f).basename.to_s
     end
-    @exes[name] = binaries.to_a.sort
+
+    binaries = binaries.to_a.sort
+
+    unless @exes.has_key?(name)
+      @changes[:added] << name
+    else
+      @changes[:modified] << name unless @exes[name] == binaries
+    end
+
+    @exes[name] = binaries
   end
 
   # update the DB with the installed formulae
@@ -60,6 +83,8 @@ class ExecutablesDB
         if !@exes[name] && @exes[origin]
           @exes[name] = @exes[origin]
           @exes.delete origin
+          @changes[:deleted] << origin
+          @changes[:added] << name
           puts "Moving #{origin} => #{name}"
         end
       end
@@ -77,6 +102,8 @@ class ExecutablesDB
         f.write(line)
       end
     end
+
+    reset_changes
   end
 
   # Add a formulae binaries from its bottle. It'll abort if the formula doesn't
@@ -102,6 +129,37 @@ Usage:
   exit 1
 end
 
-db = ExecutablesDB.new ARGV.named.first
+def english_list(els, state)
+  msg = els.slice(0, 3).join(", ")
+  msg << "and #{els.length - 3} more" if msg.length < 40 && els.length > 3
+  msg << " #{state}"
+  msg
+end
+
+source = ARGV.named.first
+db = ExecutablesDB.new source
 db.update!
+changes = db.changes
+changed = db.changed?
 db.save!
+
+if ARGV.include?("--commit") && changed
+  msg = ""
+
+  added = changes[:added].to_a.sort
+  modified = changes[:modified].to_a.sort
+  removed = changes[:removed].to_a.sort
+
+  # we don't try to report everything, only the most common stuff
+  if !added.empty?
+    msg << english_list(added, "added")
+  elsif !modified.empty?
+    msg << english_list(modified, "modified")
+  elsif !removed.empty?
+    msg << english_list(removed, "removed")
+  end
+
+  db.save!
+
+  safe_system "git", "commit", "-m", msg, source
+end
