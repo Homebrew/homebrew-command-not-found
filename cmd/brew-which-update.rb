@@ -10,6 +10,7 @@
 
 require "formula"
 require "pathname"
+require "set"
 
 # ExecutablesDB represents a DB associating formulae to the binaries they
 # provide.
@@ -35,12 +36,12 @@ class ExecutablesDB
   # update the binaries of {name} given the prefix path {path}.
   # @private
   def update_from(name, path)
-    @exes[name] = []
+    binaries = Set.new
     Dir["#{path}/{bin,sbin}/*"].uniq.each do |f|
       next unless File.executable? f
-      @exes[name] << Pathname.new(f).basename.to_s
+      binaries << Pathname.new(f).basename.to_s
     end
-    @exes[name].uniq!
+    @exes[name] = binaries.to_a.sort
   end
 
   # update the DB with the installed formulae
@@ -68,7 +69,7 @@ class ExecutablesDB
   # save the DB in the underlying file
   def save!
     ordered_db = @exes.map do |formula, exs|
-      "#{formula}:#{exs.uniq.join(" ")}\n"
+      "#{formula}:#{exs.join(" ")}\n"
     end.sort
 
     File.open(@filename, "w") do |f|
