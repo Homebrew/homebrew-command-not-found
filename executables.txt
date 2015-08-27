@@ -500,7 +500,7 @@ cweb:ctangle cweave
 cxxtest:cxxtestgen
 cyassl:wolfssl-config
 czmq:czmq-makecert
-d-bus:dbus-cleanup-sockets dbus-daemon dbus-launch dbus-monitor dbus-run-session dbus-send dbus-uuidgen
+d-bus:dbus-cleanup-sockets dbus-daemon dbus-launch dbus-monitor dbus-run-session dbus-send dbus-test-tool dbus-update-activation-environment dbus-uuidgen
 daemon:daemon
 daemonize:daemonize
 daemonlogger:daemonlogger
@@ -1195,6 +1195,7 @@ homebrew/devel-only/bish:bish
 homebrew/devel-only/j2objc:cycle_finder j2objc j2objc_protoc j2objcc
 homebrew/devel-only/libmill:
 homebrew/devel-only/mlite:mlite
+homebrew/devel-only/rebar3:rebar3
 homebrew/dupes/apple-gcc42:c++-4.2 cpp-4.2 g++-4.2 gcc-4.2 gcov-4.2 gfortran-4.2 i686-apple-darwin11-cpp-4.2.1 i686-apple-darwin11-g++-4.2.1 i686-apple-darwin11-gcc-4.2.1 i686-apple-darwin11-gfortran-4.2.1
 homebrew/dupes/awk:awk
 homebrew/dupes/bzip2:bunzip2 bzcat bzcmp bzdiff bzegrep bzfgrep bzgrep bzip2 bzip2recover bzless bzmore
@@ -1924,15 +1925,15 @@ homebrew/python/cpyrit-opencl:
 homebrew/python/matplotlib-basemap:
 homebrew/python/matplotlib:
 homebrew/python/numba:numba pycc
-homebrew/python/numpy:f2py
+homebrew/python/numpy:f2py f2py3.4
 homebrew/python/pillow:pilconvert.py pildriver.py pilfile.py pilfont.py pilprint.py
 homebrew/python/pygame:
 homebrew/python/pymssql:
 homebrew/python/pymummer:
 homebrew/python/pyrit:pyrit
 homebrew/python/python-dbus:
-homebrew/python/retext:retext
-homebrew/python/scapy:scapy UTscapy
+homebrew/python/retext:retext retext.py wpgen
+homebrew/python/scapy:UTscapy scapy
 homebrew/python/scipy:
 homebrew/python/vpython:
 homebrew/science/a5:a5_pipeline.pl
@@ -3112,7 +3113,7 @@ libdc1394:
 libdca:dcadec dtsdec extract_dca extract_dts
 libdiscid:
 libdmtx:
-libdnet:dnet-config dnet
+libdnet:dnet dnet-config
 libdrawtext:
 libdshconfig:
 libdsk:apriboot dskdump dskform dskid dskscan dsktrans dskutil md3serial
