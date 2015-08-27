@@ -440,6 +440,7 @@ cpansearch:cpans
 cpmtools:cpmchattr cpmchmod cpmcp cpmls cpmrm fsck.cpm fsed.cpm mkfs.cpm
 cpp-netlib:
 cppcheck:cppcheck cppcheck-htmlreport
+cppcms:cppcms_config_find_param cppcms_make_key cppcms_run cppcms_scale cppcms_tmpl_cc
 cppdom:cppdom-config
 cppformat:
 cppi:cppi
@@ -797,7 +798,7 @@ fourstore:4s-admin 4s-backend 4s-backend-copy 4s-backend-destroy 4s-backend-info
 fpc:bin2obj chmcmd chmls data2inc delp fd2pascal fpc fpclasschart fpcmake fpcmkcfg fpcres fpcreslipo fpcsubst fpdoc fppkg fprcp h2pas h2paspp instantfpc makeskel mkarmins mkx86ins pas2fpm pas2ut plex postw32 ppcx64 ppdep ppudump ppufiles ppumove ptop pyacc rmcvsdir rstconv unitdiff
 fping:fping fping6
 fpp:fpp
-fq:fq_rcvr fq_sndr fqc fqtool fqd
+fq:fq_rcvr fq_sndr fqc fqd fqtool
 frag_find:frag_find hash_t_test
 fragroute:fragroute fragtest
 freealut:freealut-config
@@ -837,7 +838,6 @@ game-music-emu:
 gammaray:gammaray
 gammu:gammu gammu-config gammu-detect gammu-smsd gammu-smsd-inject gammu-smsd-monitor jadmaker
 ganglia:ganglia-config gmetad gmetric gmond gstat
-gant:gant
 garmintools:garmin_dump garmin_gchart garmin_get_info garmin_gmap garmin_gpx garmin_save_runs
 gauche:gauche-cesconv gauche-config gauche-install gauche-package gosh
 gauge:gauge gauge_screenshot
@@ -1029,7 +1029,7 @@ gringo:clingo gringo reify
 grok:discogrok grok
 groonga-normalizer-mysql:
 groonga:grndb groonga groonga-benchmark groonga-suggest-create-dataset groonga-httpd groonga-httpd-restart
-groovy:grape groovy groovyc groovyConsole groovydoc groovysh java2groovy startGroovy
+groovy:grape groovy groovyConsole groovyc groovydoc groovysh java2groovy startGroovy
 groovysdk:grape groovy groovyc groovyConsole groovydoc groovysh java2groovy startGroovy
 groovyserv:groovyclient groovyserver
 growly:growly
@@ -1150,6 +1150,7 @@ homebrew/boneyard/catdoc:catdoc catppt wordview xls2csv
 homebrew/boneyard/cdimgtools:dvdimgdecss cssdec
 homebrew/boneyard/dupx:dupx
 homebrew/boneyard/echoping:echoping
+homebrew/boneyard/gant:gant
 homebrew/boneyard/git-flow-clone:git-flow-clone
 homebrew/boneyard/googlecl:google
 homebrew/boneyard/gtkglarea:
