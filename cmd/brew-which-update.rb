@@ -162,5 +162,4 @@ if ARGV.include?("--commit") && changed
   db.save!
 
   safe_system "git", "commit", "-m", msg, source
-  safe_system "git", "push" if ARGV.include? "--push"
 end
