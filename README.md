@@ -27,7 +27,7 @@ First, tap this repository:
 
     brew tap homebrew/command-not-found
 
-Then add following line to your `.bashrc` (bash) or `.zshrc` (zsh):
+Then add following line to your `.bashrc`(bash) or `.zshrc`(zsh):
 
     if brew command command-not-found-init > /dev/null; then eval "$(brew command-not-found-init)"; fi
 
@@ -60,6 +60,6 @@ used by Bash when you try a command that doesn’t exist. The function calls
 `brew which-formula` on your command, and if it finds a match it’ll print it to
 you. If not, you’ll get an error as expected.
 
-Over 4800 formulae have been imported in the database, representing more than
-19700 different commands (99% of the main Homebrew repo + 87% of all official
+Over 4300 formulae have been imported in the database, representing more than
+19900 different commands (99% of the main Homebrew repo + 69% of all official
 taps).
