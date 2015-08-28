@@ -6,7 +6,7 @@ This project tries to reproduce Ubuntu’s `command-not-found` for Homebrew user
 on OSX.
 
 On Ubuntu, when you try to use a command that doesn’t exist locally but is
-available through a package, your shell will suggest you a command to install it.
+available through a package, Bash will suggest you a command to install it.
 
 Using this script, you can replicate this feature on OSX:
 
@@ -24,10 +24,13 @@ The program 'when' is currently not installed. You can install it by typing:
 
 ## Install
 
-First, tap this repository: `brew tap homebrew/command-not-found`
+First, tap this repository: 
+```
+brew tap homebrew/command-not-found
+```
 
-* **Bash and Zsh**: Add following line to your `.bashrc` (bash) or `.zshrc` (zsh):
-    ```bash
+* **Bash and Zsh**: Add the following line to your `.bashrc` (bash) or `.zshrc` (zsh):
+    ```
     if brew command command-not-found-init > /dev/null; then eval "$(brew command-not-found-init)"; fi
     ```
     
@@ -39,9 +42,9 @@ brew command-not-found-init-fish --fish
     then pass custom path as the second argument. You can find that out with 
     `echo $fish_function_path`. Eg.
     
-        ```
-        brew command-not-found-init-fish --fish /usr/local/fish/functions/
-        ```
+    ```
+    brew command-not-found-init-fish --fish /usr/local/fish/functions/
+    ```
 
 ### Upgrade from 0.1.1
 
@@ -55,7 +58,7 @@ upgrade to 0.2.0 just remove it and follow the install instructions above.
 
 ## Support
 
-This tool supports Bash (version 4 and higher), Zsh, and Fish (2.2.0)
+This tool supports Bash (version 4 and higher), Zsh, and Fish (2.2.0).
 
 ## How does it work?
 
