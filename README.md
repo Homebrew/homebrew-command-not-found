@@ -10,7 +10,7 @@ available through a package, Bash will suggest you a command to install it.
 
 Using this script, you can replicate this feature on OSX:
 
-```bash
+```
 # on Ubuntu
 $ when
 The program 'when' is currently not installed.  You can install it by typing:
@@ -30,7 +30,7 @@ brew tap homebrew/command-not-found
 ```
 
 * **Bash and Zsh**: Add the following line to your `.bashrc` (bash) or `.zshrc` (zsh):
-    ```
+    ```bash
     if brew command command-not-found-init > /dev/null; then eval "$(brew command-not-found-init)"; fi
     ```
     
