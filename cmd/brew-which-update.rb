@@ -40,7 +40,7 @@ class ExecutablesDB
   def reset_changes
     # keeps track of things that changed in the DB between its creation and
     # each {#save!} call. This is used to generate commit messages
-    @changes = {:added => Set.new, :removed => Set.new, :modified => Set.new}
+    @changes = {:added => Set.new, :removed => Set.new, :updated => Set.new}
   end
 
   def changed?
@@ -61,7 +61,7 @@ class ExecutablesDB
     unless @exes.has_key?(name)
       @changes[:added] << name
     else
-      @changes[:modified] << name unless @exes[name] == binaries
+      @changes[:updated] << name unless @exes[name] == binaries
     end
 
     @exes[name] = binaries
@@ -147,14 +147,14 @@ if ARGV.include?("--commit") && changed
   msg = ""
 
   added = changes[:added].to_a.sort
-  modified = changes[:modified].to_a.sort
+  updated = changes[:updated].to_a.sort
   removed = changes[:removed].to_a.sort
 
   # we don't try to report everything, only the most common stuff
   if !added.empty?
     msg << english_list(added, "added")
-  elsif !modified.empty?
-    msg << english_list(modified, "modified")
+  elsif !updated.empty?
+    msg << english_list(updated, "updated")
   elsif !removed.empty?
     msg << english_list(removed, "removed")
   end
