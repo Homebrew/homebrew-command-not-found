@@ -445,7 +445,7 @@ cppdom:cppdom-config
 cppformat:
 cppi:cppi
 cpptest:
-cppunit:cppunit-config DllPlugInTester
+cppunit:DllPlugInTester cppunit-config
 cpputest:
 cproto:cproto
 cpulimit:cpulimit
@@ -976,6 +976,7 @@ gnupg-pkcs11-scd:gnupg-pkcs11-scd
 gnupg2:addgnupghome applygnupgdefaults gpg-connect-agent gpg2 gpgconf gpgkey2ssh gpgparsemail gpgsm gpgsm-gencert.sh gpgv2 kbxutil symcryptrun watchgnupg
 gnupg:gpg gpg-zip gpgsplit gpgv
 gnuplot:gnuplot
+gnuradio:gnuradio-companion gnuradio-config-info gr-ctrlport-monitor gr-perf-monitorx gr_constellation_plot gr_filter_design gr_modtool gr_plot_char gr_plot_const gr_plot_fft gr_plot_fft_c gr_plot_fft_f gr_plot_float gr_plot_int gr_plot_iq gr_plot_psd gr_plot_psd_c gr_plot_psd_f gr_plot_qt gr_plot_short gr_psd_plot_b gr_psd_plot_c gr_psd_plot_f gr_psd_plot_i gr_psd_plot_s gr_read_file_metadata gr_spectrogram_plot gr_spectrogram_plot_b gr_spectrogram_plot_c gr_spectrogram_plot_f gr_spectrogram_plot_i gr_spectrogram_plot_s gr_time_plot_b gr_time_plot_c gr_time_plot_f gr_time_plot_i gr_time_plot_s gr_time_raster_b gr_time_raster_f grcc uhd_fft uhd_rx_cfile uhd_rx_nogui uhd_siggen uhd_siggen_gui usrp_flex usrp_flex_all usrp_flex_band volk-config-info volk_modtool volk_profile
 gnustep-make:
 gnutls:gnutls-certtool gnutls-cli gnutls-cli-debug gnutls-serv ocsptool psktool srptool
 go-app-engine-32:appcfg.py bulkload_client.py bulkloader.py dev_appserver.py download_appstats.py goapp
@@ -2000,6 +2001,7 @@ homebrew/science/bitseq:convertSamples estimateDE estimateExpression estimateHyp
 homebrew/science/blasr:blasr
 homebrew/science/blast:aalookup_unit_test aascan_unit_test align_format_unit_test bdbloader_unit_test bl2seq_unit_test blast_format_unit_test blast_formatter blast_services_unit_test blast_unit_test blastdb_aliastool blastdb_format_unit_test blastdbcheck blastdbcmd blastdbcp blastdiag_unit_test blastengine_unit_test blastextend_unit_test blastfilter_unit_test blasthits_unit_test blastinput_unit_test blastn blastoptions_unit_test blastp blastsetup_unit_test blastx convert2blastmask datatool delta_unit_test deltablast dustmasker gapinfo_unit_test gencode_singleton_unit_test gene_info_reader gene_info_unit_test hspfilter_besthit_unit_test hspfilter_culling_unit_test hspstream_unit_test legacy_blast.pl linkhsp_unit_test makeblastdb makembindex makeprofiledb msa2pssm_unit_test ntlookup_unit_test ntscan_unit_test optionshandle_unit_test phiblast_unit_test prelimsearch_unit_test project_tree_builder psibl2seq_unit_test psiblast psiblast_iteration_unit_test psiblast_unit_test pssmcreate_unit_test pssmenginefreqratios_unit_test querydata_unit_test queryinfo_unit_test redoalignment_unit_test remote_blast_unit_test rps_unit_test rpsblast rpstblastn scoreblk_unit_test search_strategy_unit_test seedtop segmasker seqdb_demo seqdb_perf seqdb_unit_test seqinfosrc_unit_test seqsrc_unit_test setupfactory_unit_test split_query_unit_test subj_ranges_unit_test tblastn tblastx traceback_unit_test tracebacksearch_unit_test uniform_search_unit_test update_blastdb.pl version_reference_unit_test windowmasker windowmasker_2.2.22_adapter.py writedb_unit_test
 homebrew/science/blat:blat faToNib faToTwoBit gfClient gfServer nibFrag pslPretty pslReps pslSort twoBitInfo twoBitToFa
+homebrew/science/blaze-lib:
 homebrew/science/bless:bless
 homebrew/science/blis:
 homebrew/science/boost-compute:
@@ -4623,6 +4625,7 @@ udptunnel:udptunnel
 udpxy:udpxrec udpxy
 udunits:udunits2
 ufraw:ufraw-batch
+uhd:nirio_programmer octoclock_firmware_burner uhd_cal_rx_iq_balance uhd_cal_tx_dc_offset uhd_cal_tx_iq_balance uhd_find_devices uhd_usrp_probe usrp_n2xx_simple_net_burner usrp_x3xx_fpga_burner
 unac:unaccent
 unar:lsar unar
 unarj:unarj
