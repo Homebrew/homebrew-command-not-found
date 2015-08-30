@@ -1,8 +1,9 @@
 language: bash
 before_script:
-  - "sudo apt-get install zsh"
+  - "sudo apt-get install zsh fish"
 script:
   - bash -n handler.sh
+  - fish -n handler.fish
   - zsh -n handler.sh
   - bash test.sh
 notifications:
