@@ -1,10 +1,18 @@
-language: bash
-before_script:
-  - "sudo apt-get install zsh fish"
+language: objective-c # force OS X
+rvm:
+  - 2.0.0
+before_install:
+  - brew update
+  - brew config
+install:
+  - mkdir -p $(brew --repo)/Library/Taps/homebrew
+  - ln -s $PWD $(brew --repo)/Library/Taps/homebrew/homebrew-command-not-found
+  - brew install bash
+  - brew install fish
 script:
   - bash -n handler.sh
   - fish -n handler.fish
   - zsh -n handler.sh
-  - bash test.sh
+  - rake test
 notifications:
   email: false
