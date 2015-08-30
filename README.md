@@ -24,12 +24,21 @@ The program 'when' is currently not installed. You can install it by typing:
 ## Install
 
 First, tap this repository:
+```bash
+brew tap homebrew/command-not-found
+```
 
-    brew tap homebrew/command-not-found
+* **Bash and Zsh**: Add the following line to your `.bashrc` (bash) or `.zshrc` (zsh):
 
-Then add following line to your `.bashrc`(bash) or `.zshrc`(zsh):
-
+    ```bash
     if brew command command-not-found-init > /dev/null; then eval "$(brew command-not-found-init)"; fi
+    ```
+
+* **Fish**: Add the following line to your `~/.config/fish/config.fish`:
+
+    ```fish
+    brew command command-not-found-init > /dev/null; and . (brew command-not-found-init)
+    ```
 
 ### Upgrade from 0.1.1
 
@@ -43,7 +52,7 @@ upgrade to 0.2.0 just remove it and follow the install instructions above.
 
 ## Support
 
-This tool supports Bash (version 4 and higher) and Zsh.
+This tool supports Bash (version 4 and higher), Zsh and Fish.
 
 ## How does it work?
 
