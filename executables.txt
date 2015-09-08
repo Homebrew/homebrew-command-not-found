@@ -834,11 +834,11 @@ fwknop:fwknop fwknopd
 fzf:fzf fzf-tmux
 g2:
 gabedit:gabedit
-gaffitter:gaffitter
+gaffitter:fit
 galen:galen
 gambit-scheme:gambc-cc gambc-doc gsc gsc-script gsi gsi-script scheme-ieee-1178-1990 scheme-r4rs scheme-r5rs scheme-srfi-0 six six-script
 game-music-emu:
-gammaray:gammaray
+gammaray:
 gammu:gammu gammu-config gammu-detect gammu-smsd gammu-smsd-inject gammu-smsd-monitor jadmaker
 ganglia:ganglia-config gmetad gmetric gmond gstat
 garmintools:garmin_dump garmin_gchart garmin_get_info garmin_gmap garmin_gpx garmin_save_runs
@@ -1339,6 +1339,7 @@ homebrew/games/omega-rpg:omega
 homebrew/games/onscripter:nsaconv nsadec onscripter sarconv sardec
 homebrew/games/open-tyrian:opentyrian
 homebrew/games/openclonk:
+homebrew/games/openjazz:OpenJazz
 homebrew/games/openmsx:openmsx
 homebrew/games/openttd:
 homebrew/games/pioneers:pioneers pioneers-editor pioneers-metaserver pioneers-server-console pioneers-server-gtk pioneersai
@@ -1971,7 +1972,7 @@ homebrew/science/abyss:ABYSS abyss-align abyss-bloom abyss-bloom-dist.mk abyss-b
 homebrew/science/ace-corrector:ace
 homebrew/science/adam:adam
 homebrew/science/adol-c:
-homebrew/science/alembic:abcconvert abcecho abcechobounds abcstitcher SimpleAbcViewer
+homebrew/science/alembic:SimpleAbcViewer abcconvert abcecho abcechobounds abcstitcher
 homebrew/science/alglib:
 homebrew/science/allpaths-lg:RunAllPathsLG
 homebrew/science/alpscore:
@@ -2258,7 +2259,7 @@ homebrew/science/ncbi-c++-toolkit:ace2asn agp_count agp_renumber agp_val_test ag
 homebrew/science/ncl:NCLconverter NEXUSnormalizer NEXUSvalidator
 homebrew/science/nco:ncap ncap2 ncatted ncbo ncdiff ncea ncecat nces ncflint ncks ncpdq ncra ncrcat ncrename ncwa
 homebrew/science/ncview:ncview
-homebrew/science/netcdf:nc-config nccopy ncdump ncgen ncgen3 ncxx4-config nf-config
+homebrew/science/netcdf:nc-config nccopy ncdump ncgen ncgen3 ncxx4-config
 homebrew/science/neuron:ivoc modlunit mos2nrn neurondemo nocmodl nrngui nrniv nrnivmodl sortspike
 homebrew/science/newick-utils:nw_clade nw_condense nw_display nw_distance nw_duration nw_ed nw_gen nw_indent nw_labels nw_match nw_order nw_prune nw_rename nw_reroot nw_stats nw_support nw_topology nw_trim
 homebrew/science/newicktools:newick2dot newick2json taxonomy2newick
@@ -2348,7 +2349,7 @@ homebrew/science/quorum:quorum
 homebrew/science/r-gui:
 homebrew/science/r8s:r8s
 homebrew/science/r:R Rscript
-homebrew/science/radx:Dsr2Radx FixCfradialPaths FixRadxPointing Radx2Dsr Radx2Grid RadxCheck RadxConvert RadxCov2Mom RadxDiff RadxEvad RadxFilter RadxMergeFields RadxMon RadxPartRain RadxPrint tdrp_gen tdrp_test TdrpTest
+homebrew/science/radx:Dsr2Radx FixCfradialPaths FixRadxPointing Radx2Dsr Radx2Grid RadxCheck RadxConvert RadxCov2Mom RadxDiff RadxEvad RadxFilter RadxMergeFields RadxMon RadxPartRain RadxPrint TdrpTest tdrp_gen tdrp_test
 homebrew/science/rainbow:rainbow
 homebrew/science/rampart:citadel-cn_plot.pl citadel-gather-asm.pl citadel-gather.pl citadel-rampart-mod.pl citadel.pl jellyswarm multi-prokka-stats.pl multi-prokka.pl rampart rampart-clean rampart-download-deps
 homebrew/science/raxml:raxmlHPC-PTHREADS raxmlHPC-PTHREADS-AVX raxmlHPC-PTHREADS-SSE3
@@ -3508,6 +3509,7 @@ mecab-ko:mecab mecab-config
 mecab-unidic:
 mecab:mecab mecab-config
 media-info:mediainfo
+mediatomb:mediatomb
 megacmd:megacmd
 megatools:megacopy megadf megadl megaget megals megamkdir megaput megareg megarm
 memcache-top:memcache-top
@@ -3774,7 +3776,7 @@ opam:opam opam-admin opam-installer
 open-babel:babel obabel obchiral obconformer obenergy obfit obgen obgrep obminimize obprobe obprop obrms obrotamer obrotate obspectrophore roundtrip
 open-cobol:cob-config cobc cobcrun
 open-mesh:
-open-mpi:mpic++ mpic++-vt mpicc mpicc-vt mpicxx mpicxx-vt mpiexec mpif77 mpif77-vt mpif90 mpif90-vt mpifort mpifort-vt mpirun ompi-clean ompi-ps ompi-server ompi-top ompi_info opal_wrapper orte-clean orte-info orte-ps orte-server orte-top ortecc orted orterun otfaux otfcompress otfconfig otfdecompress otfinfo otfmerge otfmerge-mpi otfprint otfprofile otfprofile-mpi otfshrink vtc++ vtcc vtcxx vtf77 vtf90 vtfilter vtfilter-mpi vtfiltergen vtfiltergen-mpi vtfort vtjava vtrun vtsetup vtunify vtunify-mpi vtwrapper
+open-mpi:mpic++ mpic++-vt mpicc mpicc-vt mpicxx mpicxx-vt mpiexec mpif77 mpif77-vt mpif90 mpif90-vt mpifort mpifort-vt mpirun ompi-clean ompi-ps ompi-server ompi-top ompi_info opal_wrapper orte-clean orte-dvm orte-info orte-ps orte-server orte-submit orte-top ortecc orted orterun otfaux otfcompress otfconfig otfdecompress otfinfo otfmerge otfmerge-mpi otfprint otfprofile otfprofile-mpi otfshrink vtc++ vtcc vtcxx vtf77 vtf90 vtfilter vtfilter-mpi vtfiltergen vtfiltergen-mpi vtfort vtjava vtrun vtsetup vtunify vtunify-mpi vtwrapper
 open-ocd:openocd
 open-scene-graph:osgarchive osgconv osgfilecache osgversion osgviewer present3D
 open-sp:onsgmls osgmlnorm ospam ospcat ospent osx
