@@ -429,6 +429,7 @@ convertlit:clit
 convmv:convmv
 cookiecutter:cookiecutter
 coq:coq-tex coq_makefile coqc coqchk coqchk.opt coqdep coqdoc coqmktop coqtop coqtop.byte coqtop.opt coqwc gallina
+corelocationcli:CoreLocationCLI
 coreutils:g[ gbase64 gbasename gcat gchcon gchgrp gchmod gchown gchroot gcksum gcomm gcp gcsplit gcut gdate gdd gdf gdir gdircolors gdirname gdu gecho genv gexpand gexpr gfactor gfalse gfmt gfold ggroups ghead ghostid gid ginstall gjoin gkill glink gln glogname gls gmd5sum gmkdir gmkfifo gmknod gmktemp gmv gnice gnl gnohup gnproc gnumfmt god gpaste gpathchk gpinky gpr gprintenv gprintf gptx gpwd greadlink grealpath grm grmdir gruncon gseq gsha1sum gsha224sum gsha256sum gsha384sum gsha512sum gshred gshuf gsleep gsort gsplit gstat gstdbuf gstty gsum gsync gtac gtail gtee gtest gtimeout gtouch gtr gtrue gtruncate gtsort gtty guname gunexpand guniq gunlink guptime gusers gvdir gwc gwho gwhoami gyes realpath
 corkscrew:corkscrew
 couchdb-lucene:cl_kill_ppid cl_run
@@ -932,6 +933,7 @@ git-stree:git-stree
 git-subrepo:git-subrepo
 git-test:git-test
 git-tf:git-tf
+git-town:git-extract git-hack git-kill git-new-pull-request git-prune-branches git-rename-branch git-repo git-ship git-sync git-sync-fork git-town
 git-tracker:git-tracker
 git-url-sub:git-url-sub
 git:git git-credential-osxkeychain git-cvsserver git-receive-pack git-shell git-subtree git-upload-archive git-upload-pack gitk
@@ -1542,6 +1544,7 @@ homebrew/php/php53-lz4:
 homebrew/php/php53-lzf:
 homebrew/php/php53-magickwand:
 homebrew/php/php53-mailparse:
+homebrew/php/php53-maxminddb:
 homebrew/php/php53-mcrypt:
 homebrew/php/php53-mecab:
 homebrew/php/php53-memcache:
@@ -1607,7 +1610,7 @@ homebrew/php/php53-yrmcds:
 homebrew/php/php53-zenddebugger:
 homebrew/php/php53-zmq:
 homebrew/php/php53-zookeeper:
-homebrew/php/php53:pear peardev pecl phar phar.phar php php-cgi php-config phpize php-fpm php53-fpm
+homebrew/php/php53:pear peardev pecl phar phar.phar php php-cgi php-config php-fpm php53-fpm phpize
 homebrew/php/php54-amqp:
 homebrew/php/php54-apc:
 homebrew/php/php54-apcu:
@@ -1646,6 +1649,7 @@ homebrew/php/php54-lz4:
 homebrew/php/php54-lzf:
 homebrew/php/php54-magickwand:
 homebrew/php/php54-mailparse:
+homebrew/php/php54-maxminddb:
 homebrew/php/php54-mcrypt:
 homebrew/php/php54-mecab:
 homebrew/php/php54-memcache:
@@ -1713,7 +1717,7 @@ homebrew/php/php54-yp:
 homebrew/php/php54-yrmcds:
 homebrew/php/php54-zmq:
 homebrew/php/php54-zookeeper:
-homebrew/php/php54:pear peardev pecl phar phar.phar php php-cgi php-config phpize php-fpm php54-fpm
+homebrew/php/php54:phar phar.phar php php-cgi php-config php-fpm php54-fpm phpize
 homebrew/php/php55-amqp:
 homebrew/php/php55-apcu:
 homebrew/php/php55-augmentedtypes:
@@ -1751,6 +1755,7 @@ homebrew/php/php55-lz4:
 homebrew/php/php55-lzf:
 homebrew/php/php55-magickwand:
 homebrew/php/php55-mailparse:
+homebrew/php/php55-maxminddb:
 homebrew/php/php55-mcrypt:
 homebrew/php/php55-mecab:
 homebrew/php/php55-memcache:
@@ -1817,7 +1822,7 @@ homebrew/php/php55-yp:
 homebrew/php/php55-yrmcds:
 homebrew/php/php55-zmq:
 homebrew/php/php55-zookeeper:
-homebrew/php/php55:pear peardev pecl phar phar.phar php php-cgi php-config phpize php-fpm php55-fpm
+homebrew/php/php55:phar phar.phar php php-cgi php-config php-fpm php55-fpm phpize
 homebrew/php/php56-amqp:
 homebrew/php/php56-apcu:
 homebrew/php/php56-augmentedtypes:
@@ -1855,6 +1860,7 @@ homebrew/php/php56-lz4:
 homebrew/php/php56-lzf:
 homebrew/php/php56-magickwand:
 homebrew/php/php56-mailparse:
+homebrew/php/php56-maxminddb:
 homebrew/php/php56-mcrypt:
 homebrew/php/php56-mecab:
 homebrew/php/php56-memcache:
