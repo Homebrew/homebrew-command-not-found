@@ -1015,6 +1015,7 @@ gphoto2:gphoto2
 gplcver:cver
 gpm:gpm
 gpp:gpp
+gprof2dot:gprof2dot
 gpsbabel:gpsbabel
 gpsd:gpsctl gpsdecode gpspipe gpxlogger lcdgps gpsd gpsdctl
 gpsim:gpsim
@@ -1033,7 +1034,7 @@ graphviz:acyclic bcomps ccomps circo cluster dijkstra dot dot2gxl dot_builtins e
 grass:gem64 grass64
 grc:grc grcat
 grepcidr:grepcidr
-grib-api:big2gribex gg_sub_area_check grib1to2 grib2ppm grib_add grib_cmp grib_compare grib_convert grib_copy grib_corruption_check grib_count grib_debug grib_distance grib_dump grib_error grib_filter grib_get grib_get_data grib_histogram grib_index_build grib_info grib_keys grib_list_keys grib_ls grib_moments grib_packing grib_repair grib_set grib_to_json parser tigge_accumulations tigge_check tigge_name tigge_split
+grib-api:big2gribex gg_sub_area_check grib1to2 grib2ppm grib_add grib_cmp grib_compare grib_convert grib_copy grib_corruption_check grib_count grib_debug grib_distance grib_dump grib_error grib_filter grib_get grib_get_data grib_histogram grib_index_build grib_info grib_keys grib_list_keys grib_ls grib_moments grib_packing grib_parser grib_repair grib_set grib_to_json tigge_accumulations tigge_check tigge_name tigge_split
 griffon:griffon griffon-debug griffonsh startGriffon
 gringo:clingo gringo reify
 grok:discogrok grok
@@ -1379,6 +1380,7 @@ homebrew/games/wesnoth:wesnoth wesnothd
 homebrew/games/wumpus:superhack wumpus
 homebrew/games/xboard:xboard
 homebrew/games/xshogi:xshogi
+homebrew/games/xu4:u4
 homebrew/games/zboy:zboy
 homebrew/head-only/adept:adept.sh
 homebrew/head-only/afew:afew
@@ -2574,6 +2576,7 @@ homebrew/versions/erlang-r14:dialyzer epmd erl erlc escript run_erl run_test to_
 homebrew/versions/erlang-r15:ct_run dialyzer epmd erl erlc escript run_erl run_test to_erl typer
 homebrew/versions/erlang-r16:ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
 homebrew/versions/erlang-r17:ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
+homebrew/versions/freetds091:bsqldb datacopy defncopy fisql freebcp osql tdspool tsql
 homebrew/versions/gawk3:awk gawk gawk-3.1.8 igawk pgawk pgawk-3.1.8
 homebrew/versions/gcc43:gcc-4.3
 homebrew/versions/gcc44:gcc-4.4
@@ -3213,11 +3216,13 @@ libgroove:
 libgsf:gsf gsf-office-thumbnailer gsf-vba-dump
 libgsm:toast
 libgtop:libgtop_daemon2 libgtop_server2
+libgweather:
 libgxps:xpstopdf xpstopng xpstops xpstosvg
 libharu:
 libhdhomerun:hdhomerun_config
 libhid:libhid-detach-device
 libhttpserver:
+libical-glib:
 libical:
 libicns:icns2png icontainer2icns png2icns
 libid3tag:
@@ -3600,7 +3605,7 @@ mongrel2:m2sh mongrel2 procer
 mongroup:mongroup
 monit:monit
 monkeysphere:monkeysphere openpgp2pem openpgp2spki openpgp2ssh pem2openpgp monkeysphere-authentication monkeysphere-host
-mono:al al2 caspol cccheck ccrewrite cert-sync cert2spc certmgr chktrust crlupdate csharp disco dmcs dtd2rng dtd2xsd gacutil gacutil2 genxs httpcfg ikdasm ilasm installvst lc macpack makecert mconfig mcs mdassembler mdbrebase mdoc mdoc-assemble mdoc-export-html mdoc-export-msxdoc mdoc-update mdoc-validate mdvalidater mkbundle mod mono mono-api-info mono-boehm mono-cil-strip mono-configuration-crypto mono-find-provides mono-find-requires mono-heapviz mono-service mono-service2 mono-sgen mono-shlib-cop mono-test-install mono-xmltool monodis monodocer monodocs2html monodocs2slashdoc monolinker monop monop2 mozroots mprof-report nunit-console nunit-console2 nunit-console4 pdb2mdb pedump permview peverify prj2make resgen resgen2 secutil setreg sgen signcode sn soapsuds sqlmetal sqlsharp svcutil wsdl wsdl2 xbuild xsd
+mono:al al2 caspol cccheck ccrewrite cert-sync cert2spc certmgr chktrust crlupdate csharp disco dmcs dtd2rng dtd2xsd gacutil gacutil2 genxs httpcfg ikdasm ilasm installvst lc macpack makecert mconfig mcs mdassembler mdbrebase mdoc mdoc-assemble mdoc-export-html mdoc-export-msxdoc mdoc-update mdoc-validate mdvalidater mkbundle mod mono mono-api-info mono-boehm mono-cil-strip mono-configuration-crypto mono-find-provides mono-find-requires mono-heapviz mono-service mono-service2 mono-sgen mono-shlib-cop mono-symbolicate mono-test-install mono-xmltool monodis monodocer monodocs2html monodocs2slashdoc monolinker monop monop2 mozroots mprof-report nunit-console nunit-console2 nunit-console4 pdb2mdb pedump permview peverify prj2make resgen resgen2 secutil setreg sgen signcode sn soapsuds sqlmetal sqlsharp svcutil wsdl wsdl2 xbuild xsd
 monotone:mtn mtn-cleanup mtnopt
 montage:mAdd mAddExec mArchiveExec mArchiveGet mArchiveList mBackground mBestImage mBgExec mBgModel mCatMap mConcatFit mConvert mCoverageCheck mDAG mDAGFiles mDAGGalacticPlane mDAGTbls mDiff mDiffExec mDiffFit mDiffFitExec mExamine mExec mExecTG mFitExec mFitplane mFixHdr mFixNaN mFlattenExec mGetHdr mGridExec mHdr mHdrCheck mHdrtbl mImgtbl mJPEG mMakeHdr mMakeImg mNotify mNotifyTG mOverlaps mPix2Coord mPresentation mProject mProjectPP mProjExec mPutHdr mQuickSearch mRotate mShrink mShrinkHdr mSubimage mSubset mTANHdr mTblExec mTblSort mTileHdr mTileImage
 moreutils:chronic combine errno ifdata ifne isutf8 lckdo mispipe parallel pee sponge ts vidir vipe zrun
@@ -4075,7 +4080,7 @@ pyqt:pylupdate4 pyrcc4 pyuic4
 pyqwt:
 pyside-tools:pyside-lupdate pyside-rcc pyside-uic
 pyside:
-python3:2to3-3.4 easy_install-3.4 idle3 idle3.4 pip3 pip3.4 pydoc3 pydoc3.4 python3 python3-config python3.4 python3.4-config python3.4m python3.4m-config pyvenv pyvenv-3.4 wheel3
+python3:2to3-3.5 easy_install-3.5 idle3 idle3.5 pip3 pip3.5 pydoc3 pydoc3.5 python3 python3-config python3.5 python3.5-config python3.5m python3.5m-config pyvenv pyvenv-3.5 wheel3
 python:2to3 2to3-2 2to3-2.7 easy_install easy_install-2.7 idle idle2 idle2.7 pip pip2 pip2.7 pydoc pydoc2 pydoc2.7 python python-config python2 python2-config python2.7 python2.7-config pythonw pythonw2 pythonw2.7 smtpd.py smtpd2.7.py smtpd2.py wheel
 q:q
 qbs:qbs qbs-config qbs-config-ui qbs-qmltypes qbs-setup-android qbs-setup-qt qbs-setup-toolchains
@@ -4904,7 +4909,7 @@ zeromq:curve_keygen
 zile:zile
 zinc:zinc
 zint:zint
-zmap:zmap
+zmap:zblacklist zmap ztee
 zmqpp:
 znc:znc znc-buildmod
 zookeeper:cli_mt cli_st load_gen zkCleanup zkCli zkServer
