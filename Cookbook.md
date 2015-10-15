@@ -1,4 +1,4 @@
-# Workflow
+# Cookbook
 
 This document describes how I update the list, just so you know how it works if
 I get hit by a truck. The near-future goal is to automate this process.
