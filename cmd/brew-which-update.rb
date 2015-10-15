@@ -119,6 +119,7 @@ class ExecutablesDB
   end
 end
 
+
 if ARGV.named.empty?
   puts <<-EOS
 Usage:
@@ -127,6 +128,27 @@ Usage:
 
   EOS
   exit 1
+end
+
+if ARGV.include? "--stats"
+    db = ExecutablesDB.new ARGV.named.first
+
+    formulae = db.exes.keys
+    core = Formula.full_names.select { |f| f !~ %r{/} }
+    taps = Formula.full_names - core
+
+    cmds_count = db.exes.values.reduce(0) { |s, exs| s + exs.size }
+
+    core_percentage = ((formulae & core).size * 100 / core.size.to_f).round(1)
+    taps_percentage = ((formulae & taps).size * 100 / taps.size.to_f).round(1)
+
+    puts <<-EOS
+#{formulae.size} formulae
+#{cmds_count} commands
+#{core_percentage}% of core
+#{taps_percentage}% of taps
+    EOS
+    exit
 end
 
 def english_list(els, state)
