@@ -137,6 +137,7 @@ audiofile:sfconvert sfinfo
 augeas:augparse augtool
 auto-scaling:as-attach-instances as-cmd as-complete-lifecycle-action as-create-auto-scaling-group as-create-launch-config as-create-or-update-tags as-delete-auto-scaling-group as-delete-launch-config as-delete-lifecycle-hook as-delete-notification-configuration as-delete-policy as-delete-scheduled-action as-delete-tags as-describe-account-limits as-describe-adjustment-types as-describe-auto-scaling-groups as-describe-auto-scaling-instances as-describe-auto-scaling-notification-types as-describe-launch-configs as-describe-lifecycle-hook-types as-describe-lifecycle-hooks as-describe-metric-collection-types as-describe-notification-configurations as-describe-policies as-describe-process-types as-describe-scaling-activities as-describe-scheduled-actions as-describe-tags as-describe-termination-policy-types as-detach-instances as-disable-metrics-collection as-enable-metrics-collection as-enter-standby as-execute-policy as-exit-standby as-put-lifecycle-hook as-put-notification-configuration as-put-scaling-policy as-put-scheduled-update-group-action as-record-lifecycle-action-heartbeat as-resume-processes as-set-desired-capacity as-set-instance-health as-suspend-processes as-terminate-instance-in-auto-scaling-group as-update-auto-scaling-group as-version
 autobench:autobench autobench_admin autobenchd bench2graph crfile sesslog
+autocode:autocode
 autoconf-archive:
 autoconf:autoconf autoheader autom4te autoreconf autoscan autoupdate ifnames
 autoenv:
@@ -432,6 +433,7 @@ compface:compface uncompface
 concurrencykit:
 confuse:
 conserver:console conserver
+consul-template:consul-template
 consul:consul
 contacts:contacts
 convertlit:clit
@@ -605,6 +607,7 @@ dnstracer:dnstracer
 docbook-xsl:dbtoepub
 docbook2x:db2x_manxml db2x_texixml db2x_xsltproc docbook2man docbook2texi sgml2xml-isoent utf8trans
 docbook:
+docker-compose:docker-compose
 docker-machine:docker-machine
 docker-swarm:docker-swarm
 docker:docker
@@ -1025,6 +1028,7 @@ gosu:gosu
 gotags:gotags
 gource:gource
 gpac:MP42TS MP4Box MP4Client
+gperftools:pprof
 gpg-agent:gpg-agent
 gpgme:gpgme-config gpgme-tool
 gphoto2:gphoto2
@@ -3243,6 +3247,7 @@ libewf:ewfacquire ewfacquirestream ewfdebug ewfexport ewfinfo ewfmount ewfrecove
 libexif:
 libexosip:sip_reg
 libextractor:extract
+libfabric:fi_info
 libfaketime:faketime
 libffi:
 libfishsound:
@@ -3273,6 +3278,7 @@ libgnomecanvas:
 libgnomecanvasmm:
 libgpg-error:gpg-error gpg-error-config
 libgphoto2:gphoto2-config gphoto2-port-config
+libgraphqlparser:
 libgroove:
 libgsf:gsf gsf-office-thumbnailer gsf-vba-dump
 libgsm:toast
@@ -3566,6 +3572,7 @@ matlab2tikz:
 maven-shell:mvnsh
 maven:mvn mvn.cmd mvnDebug mvnDebug.cmd mvnyjp
 mawk:mawk
+mbedtls:aescrypt2 cert_app cert_req cert_write crl_app crypt_and_hash dh_client dh_genprime dh_server dtls_client dtls_server gen_entropy gen_key gen_random_ctr_drbg gen_random_havege generic_sum key_app mbedtls-benchmark mbedtls-selftest mini_client pem2der pk_decrypt pk_encrypt pk_sign pk_verify req_app rsa_decrypt rsa_encrypt rsa_genkey rsa_sign rsa_verify ssl_cert_test ssl_client1 ssl_client2 ssl_fork_server ssl_mail_client ssl_pthread_server ssl_server strerror udp_proxy
 mbelib:
 mboxgrep:mboxgrep
 mcabber:mcabber
@@ -4087,6 +4094,7 @@ proctools:pfind pgrep pkill
 procyon-decompiler:procyon-decompiler
 profanity:profanity
 proftpd:ftpasswd ftpcount ftpdctl ftpmail ftpquota ftptop ftpwho prxs ftpscrub ftpshut in.proftpd proftpd
+progress:progress
 proguard:proguard proguardgui
 proj:cs2cs geod nad2bin proj
 proof-general:coqtags isartags legotags proofgeneral
