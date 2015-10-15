@@ -21,6 +21,9 @@ The program 'when' is currently not installed. You can install it by typing:
   brew install when
 ```
 
+Over 5000 formulae are supported, representing almost 20000 different commands
+(99% of the main Homebrew repo + 91% of all official taps).
+
 ## Install
 
 First, tap this repository:
@@ -68,7 +71,3 @@ The `handler.sh` script defines a `command_not_found_handle` function which is
 used by Bash when you try a command that doesn’t exist. The function calls
 `brew which-formula` on your command, and if it finds a match it’ll print it to
 you. If not, you’ll get an error as expected.
-
-Over 4300 formulae have been imported in the database, representing more than
-19900 different commands (99% of the main Homebrew repo + 69% of all official
-taps).
