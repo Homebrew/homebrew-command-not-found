@@ -135,7 +135,8 @@ if ARGV.include? "--stats"
 
     formulae = db.exes.keys
     core = Formula.full_names.select { |f| f !~ %r{/} }
-    taps = Formula.full_names - core
+    taps = Formula.full_names.select { |f| f.start_with? "homebrew/" }
+    boneyard = taps.select { |f| f.start_with? "homebrew/boneyard/" }
 
     cmds_count = db.exes.values.reduce(0) { |s, exs| s + exs.size }
 
@@ -145,8 +146,8 @@ if ARGV.include? "--stats"
     puts <<-EOS
 #{formulae.size} formulae
 #{cmds_count} commands
-#{core_percentage}% of core
-#{taps_percentage}% of taps
+#{core_percentage}% of core (missing: #{(core - formulae) * ", "})
+#{taps_percentage}% of taps (missing: #{(taps - formulae - boneyard) * ", "})
     EOS
     exit
 end
