@@ -131,10 +131,12 @@ Usage:
 end
 
 if ARGV.include? "--stats"
-    db = ExecutablesDB.new ARGV.named.first
+    source = ARGV.named.first
+    opoo "The DB file doesn't exist." unless File.exist? source
+    db = ExecutablesDB.new source
 
     formulae = db.exes.keys
-    core = Formula.full_names.select { |f| f !~ %r{/} }
+    core = Formula.core_names
     taps = Formula.full_names.select { |f| f.start_with? "homebrew/" }
     boneyard = taps.select { |f| f.start_with? "homebrew/boneyard/" }
 
