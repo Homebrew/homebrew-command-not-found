@@ -137,7 +137,7 @@ if ARGV.include? "--stats"
 
   formulae = db.exes.keys
   core = Formula.core_names
-  taps = Formula.full_names.select { |f| f.start_with? "homebrew/" }
+  taps = Tap.flat_map { |t| t.official? ? t.formula_names : [] }
   boneyard = taps.select { |f| f.start_with? "homebrew/boneyard/" }
 
   cmds_count = db.exes.values.reduce(0) { |s, exs| s + exs.size }
