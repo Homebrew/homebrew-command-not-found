@@ -131,27 +131,27 @@ Usage:
 end
 
 if ARGV.include? "--stats"
-    source = ARGV.named.first
-    opoo "The DB file doesn't exist." unless File.exist? source
-    db = ExecutablesDB.new source
+  source = ARGV.named.first
+  opoo "The DB file doesn't exist." unless File.exist? source
+  db = ExecutablesDB.new source
 
-    formulae = db.exes.keys
-    core = Formula.core_names
-    taps = Formula.full_names.select { |f| f.start_with? "homebrew/" }
-    boneyard = taps.select { |f| f.start_with? "homebrew/boneyard/" }
+  formulae = db.exes.keys
+  core = Formula.core_names
+  taps = Formula.full_names.select { |f| f.start_with? "homebrew/" }
+  boneyard = taps.select { |f| f.start_with? "homebrew/boneyard/" }
 
-    cmds_count = db.exes.values.reduce(0) { |s, exs| s + exs.size }
+  cmds_count = db.exes.values.reduce(0) { |s, exs| s + exs.size }
 
-    core_percentage = ((formulae & core).size * 100 / core.size.to_f).round(1)
-    taps_percentage = ((formulae & taps).size * 100 / taps.size.to_f).round(1)
+  core_percentage = ((formulae & core).size * 100 / core.size.to_f).round(1)
+  taps_percentage = ((formulae & taps).size * 100 / taps.size.to_f).round(1)
 
-    puts <<-EOS
+  puts <<-EOS
 #{formulae.size} formulae
 #{cmds_count} commands
 #{core_percentage}% of core (missing: #{(core - formulae) * ", "})
 #{taps_percentage}% of taps (missing: #{(taps - formulae - boneyard) * ", "})
-    EOS
-    exit
+  EOS
+  exit
 end
 
 def english_list(els, state)
