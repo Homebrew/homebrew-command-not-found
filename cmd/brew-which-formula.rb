@@ -5,7 +5,7 @@
 #
 # Usage:
 #
-#   brew which <command>
+#   brew which-formula <command>
 #
 #
 
