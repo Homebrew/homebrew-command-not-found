@@ -61,7 +61,7 @@ android-sdk:aapt adb aidl android ddms dexdump dmtracedump draw9patch dx emulato
 anjuta:anjuta anjuta-launcher anjuta-tags
 ansible:ansible ansible-doc ansible-galaxy ansible-playbook ansible-pull ansible-vault
 ansifilter:ansifilter
-ansiweather:
+ansiweather:ansiweather
 ant-contrib:
 ant:ant antRun antRun.pl complete-ant-cmd.pl runant.pl runant.py
 antigen:
@@ -1157,7 +1157,6 @@ homebrew/binary/appswitch:appswitch
 homebrew/binary/cmucl:lisp
 homebrew/binary/ddptools:cdtinfo cue2ddp ddpinfo
 homebrew/binary/eventstore:eventstore eventstore-testclient
-homebrew/binary/exercism:exercism
 homebrew/binary/grads:bufrscan grads grib2scan gribmap gribscan gxeps gxps gxtran stnmap wgrib
 homebrew/binary/grenchman:grench
 homebrew/binary/jad:jad
@@ -1170,8 +1169,6 @@ homebrew/binary/perforce-proxy:p4p
 homebrew/binary/perforce-server:p4d
 homebrew/binary/perforce:p4
 homebrew/binary/rar:rar unrar
-homebrew/binary/rebol-core:rebol
-homebrew/binary/rebol-view:rebol
 homebrew/binary/subgit:subgit
 homebrew/boneyard/catdoc:catdoc catppt wordview xls2csv
 homebrew/boneyard/cdimgtools:dvdimgdecss cssdec
@@ -1190,7 +1187,6 @@ homebrew/boneyard/luarocks:luarocks luarocks-5.2 luarocks-admin luarocks-admin-5
 homebrew/boneyard/mat:mat
 homebrew/boneyard/paq8px:paq8px
 homebrew/boneyard/par2tbb:par2 par2create par2repair par2verify
-homebrew/boneyard/pdsh:dshbak pdcp pdsh rpdcp
 homebrew/boneyard/pure:pure
 homebrew/boneyard/qi:qi
 homebrew/boneyard/qiv:qiv
@@ -1272,6 +1268,7 @@ homebrew/dupes/whois:whois
 homebrew/dupes/xar:xar
 homebrew/dupes/zlib:
 homebrew/emacs/ace-window:
+homebrew/emacs/achievements:
 homebrew/emacs/ack-emacs:
 homebrew/emacs/adaptive-wrap:
 homebrew/emacs/adjust-parens:
@@ -1293,6 +1290,7 @@ homebrew/emacs/cider:
 homebrew/emacs/circe:
 homebrew/emacs/cl-generic:
 homebrew/emacs/cl-lib:
+homebrew/emacs/cloc-emacs:
 homebrew/emacs/clojure-mode:
 homebrew/emacs/coffee-mode:
 homebrew/emacs/company-mode:
@@ -1310,6 +1308,7 @@ homebrew/emacs/dismal-mode:
 homebrew/emacs/djvu-emacs:
 homebrew/emacs/docbook-emacs:
 homebrew/emacs/dom-emacs:
+homebrew/emacs/e2ansi:e2ansi-cat e2ansi-info
 homebrew/emacs/easy-kill:
 homebrew/emacs/ediprolog:
 homebrew/emacs/editorconfig-emacs:
@@ -1329,6 +1328,7 @@ homebrew/emacs/fountain-mode:
 homebrew/emacs/ggtags:
 homebrew/emacs/git-messenger:
 homebrew/emacs/git-modes:
+homebrew/emacs/gnorb:
 homebrew/emacs/gnugo-emacs:
 homebrew/emacs/go-mode:
 homebrew/emacs/haskell-mode:
@@ -1350,6 +1350,7 @@ homebrew/emacs/lmc-emacs:
 homebrew/emacs/load-dir:
 homebrew/emacs/load-relative:
 homebrew/emacs/loc-changes:
+homebrew/emacs/lua-mode:
 homebrew/emacs/markchars:
 homebrew/emacs/markdown-mode:
 homebrew/emacs/memory-usage-emacs:
@@ -1374,10 +1375,12 @@ homebrew/emacs/php-mode:
 homebrew/emacs/pkg-info:
 homebrew/emacs/poker-emacs:
 homebrew/emacs/popup:
+homebrew/emacs/projectile:
 homebrew/emacs/quarter-plane:
 homebrew/emacs/queue-emacs:
 homebrew/emacs/rainbow-mode:
 homebrew/emacs/register-list:
+homebrew/emacs/rust-mode:
 homebrew/emacs/s:
 homebrew/emacs/scroll-restore:
 homebrew/emacs/scss-mode:
@@ -1390,6 +1393,7 @@ homebrew/emacs/smex:
 homebrew/emacs/sml-mode:
 homebrew/emacs/soap-client-emacs:
 homebrew/emacs/sokoban-emacs:
+homebrew/emacs/solarized-emacs:
 homebrew/emacs/sotlisp:
 homebrew/emacs/spinner-emacs:
 homebrew/emacs/svg-clock:
@@ -1411,6 +1415,7 @@ homebrew/emacs/web-completion-data:
 homebrew/emacs/web-mode:
 homebrew/emacs/web-server-emacs:
 homebrew/emacs/websocket-emacs:
+homebrew/emacs/wgrep:
 homebrew/emacs/which-key:
 homebrew/emacs/windresize:
 homebrew/emacs/wisi-emacs:
@@ -1502,7 +1507,6 @@ homebrew/games/magnetix:magnetiX
 homebrew/games/mame:mame
 homebrew/games/mapcrafter:mapcrafter mapcrafter_markers mapcrafter_png-it.py mapcrafter_textures.py
 homebrew/games/mednafen:mednafen
-homebrew/games/mess:mess
 homebrew/games/minetest:
 homebrew/games/mkhexgrid:mkhexgrid
 homebrew/games/moon-buggy:moon-buggy
@@ -1552,7 +1556,6 @@ homebrew/games/tty-solitaire:tty-solitaire
 homebrew/games/ucon64:ucon64
 homebrew/games/ufoai:ufo
 homebrew/games/uggconv:uggconv
-homebrew/games/ume:ume
 homebrew/games/unnethack:unnethack
 homebrew/games/vecx:vecx
 homebrew/games/vitetris:tetris
@@ -1565,7 +1568,6 @@ homebrew/games/zboy:zboy
 homebrew/head-only/adept:adept.sh
 homebrew/head-only/afew:afew
 homebrew/head-only/agedu:agedu
-homebrew/head-only/ansiweather:ansiweather
 homebrew/head-only/arcanist:arc
 homebrew/head-only/bbcp:bbcp
 homebrew/head-only/bd:bd
@@ -1719,7 +1721,6 @@ homebrew/php/php53-htscanner:
 homebrew/php/php53-http:
 homebrew/php/php53-igbinary:
 homebrew/php/php53-imagick:
-homebrew/php/php53-inclued:
 homebrew/php/php53-intl:
 homebrew/php/php53-ioncubeloader:
 homebrew/php/php53-jsmin:
@@ -1828,7 +1829,6 @@ homebrew/php/php54-htscanner:
 homebrew/php/php54-http:
 homebrew/php/php54-igbinary:
 homebrew/php/php54-imagick:
-homebrew/php/php54-inclued:
 homebrew/php/php54-intl:
 homebrew/php/php54-ioncubeloader:
 homebrew/php/php54-jsmin:
@@ -2341,7 +2341,6 @@ homebrew/science/flux-simulator:flux-simulator
 homebrew/science/fqzcomp:fqz_comp
 homebrew/science/freec:freec
 homebrew/science/fsa:fsa gapcleaner isect_mercator_alignment_gff map_coords map_gff_coords percentid prot2codon slice_fasta slice_fasta_gff slice_mercator_alignment translate
-homebrew/science/fstar:fstar.exe
 homebrew/science/fwdpp:fwdppConfig
 homebrew/science/gaemr:GAEMR.py
 homebrew/science/galfit:galfit
@@ -2723,7 +2722,6 @@ homebrew/science/yaggo:yaggo
 homebrew/science/yaha:yaha
 homebrew/science/yass:yass
 homebrew/science/yeppp:
-homebrew/science/z3:z3
 homebrew/science/zoltan:
 homebrew/tex/auctex:
 homebrew/tex/chktex:chktex chkweb deweb
@@ -3017,7 +3015,6 @@ homebrew/x11/gtk-chtheme:gtk-chtheme
 homebrew/x11/gtksourceviewmm3:
 homebrew/x11/gtksourceviewmm:
 homebrew/x11/gtkwave:evcd2vcd fst2vcd fstminer ghwdump gtkwave lxt2miner lxt2vcd rtlbrowse shmidcat twinwave vcd2fst vcd2lxt vcd2lxt2 vcd2vzt vermin vzt2vcd vztminer
-homebrew/x11/gupnp-tools:gssdp-discover gupnp-av-cp gupnp-network-light gupnp-universal-cp gupnp-upload
 homebrew/x11/hatari:atari-hd-image gst2ascii hatari hatari_profile.py hatariui hmsa zip2st
 homebrew/x11/hexchat:hexchat
 homebrew/x11/i3:i3 i3-config-wizard i3-dmenu-desktop i3-dump-log i3-input i3-migrate-config-to-v4 i3-msg i3-nagbar i3-save-tree i3-sensible-editor i3-sensible-pager i3-sensible-terminal i3-with-shmlog i3bar
@@ -3038,7 +3035,6 @@ homebrew/x11/openmotif:mwm uil xmbind
 homebrew/x11/pari:gp gp-2.7 gphelp tex2mail
 homebrew/x11/pcb:Merge_dimPCBPS MergePCBPS pcb
 homebrew/x11/pdf2image:pdf2image pdffonts pdfimages pdfinfo pdftops pdftotext
-homebrew/x11/pdf2svg:pdf2svg
 homebrew/x11/pgplot:pgbind pgxwin_server
 homebrew/x11/pixie:rndr sdrc sdrinfo show texmake
 homebrew/x11/rdesktop:rdesktop
@@ -4823,13 +4819,11 @@ theharvester:theharvester
 theora:
 thrift:thrift
 thrulay:thrulay thrulayd
-ticcutils:
 tidy-html5:tidy5
 tidyp:tidyp
 tiff2png:tiff2png
 tig:tig
 tika:tika tika-rest-server
-timbl:timbl
 timedog:timedog
 timelimit:timelimit
 timidity:timidity
