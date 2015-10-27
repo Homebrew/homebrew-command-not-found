@@ -151,6 +151,9 @@ if ARGV.include? "--stats"
 #{core_percentage}% of core (missing: #{(core - formulae) * ", "})
 #{taps_percentage}% of taps (missing: #{(taps - formulae - boneyard) * ", "})
   EOS
+
+  unknown = formulae - Formula.full_names
+  puts "\nUnknown formulae: #{unknown * ", "}." if unknown.any?
   exit
 end
 
