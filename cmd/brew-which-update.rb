@@ -78,14 +78,18 @@ class ExecutablesDB
       # We thus don't need to worry about updating outdated versions
       update_from name, f.prefix if f.installed?
 
-      if f.tap?
+      unless f.tap?
+        # renamed formulae
+        mv f.oldname, name if !f.oldname.nil? && @exes[f.oldname]
+
+        # aliased formulae
+        f.aliases.each do |a|
+          mv a, name if @exes[a]
+        end
+      else
         origin = f.name
         if !@exes[name] && @exes[origin]
-          @exes[name] = @exes[origin]
-          @exes.delete origin
-          @changes[:deleted] << origin
-          @changes[:added] << name
-          puts "Moving #{origin} => #{name}"
+          mv origin, name
         end
       end
     end
@@ -116,6 +120,18 @@ class ExecutablesDB
     f.bottle.resource.stage do
       update_from f.full_name, Dir["*"].first
     end
+  end
+
+  private
+
+  def mv old, new
+    unless @exes[new]
+      @exes[new] = @exes[old]
+      @changes[:added] << new
+    end
+    @exes.delete old
+    @changes[:removed] << old
+    puts "Moving #{old} => #{new}"
   end
 end
 
