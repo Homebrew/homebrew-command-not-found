@@ -158,8 +158,8 @@ if ARGV.include? "--stats"
   core = Formula.core_names
   taps = OFFICIAL_TAPS.flat_map do |repo|
     tap = Tap.fetch("homebrew", repo)
-    opoo "Tap #{tap} is not installed" unless tap.installed?
-    tap.repo == "boneyard" ? [] : tap.formula_names
+    Homebrew.install_tap(tap.user, tap.repo) unless tap.installed?
+    tap.formula_names
   end
 
   cmds_count = db.exes.values.reduce(0) { |s, exs| s + exs.size }
