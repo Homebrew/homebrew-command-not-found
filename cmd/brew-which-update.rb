@@ -153,8 +153,13 @@ if ARGV.include? "--stats"
 
   formulae = db.exes.keys
   core = Formula.core_names
-  taps = Tap.flat_map { |t| t.official? ? t.formula_names : [] }
-  boneyard = taps.select { |f| f.start_with? "homebrew/boneyard/" }
+  taps = Tap.flat_map do |t|
+    if t.official?
+      t.formula_names.reject { |f| f.start_with? "homebrew/boneyard/" }
+    else
+      []
+    end
+  end
 
   cmds_count = db.exes.values.reduce(0) { |s, exs| s + exs.size }
 
@@ -164,8 +169,8 @@ if ARGV.include? "--stats"
   puts <<-EOS
 #{formulae.size} formulae
 #{cmds_count} commands
-#{core_percentage}% of core (missing: #{(core - formulae) * ", "})
-#{taps_percentage}% of taps (missing: #{(taps - formulae - boneyard) * ", "})
+#{core_percentage}% of core                  (missing: #{(core - formulae) * ", "})
+#{taps_percentage}% of taps (excl. boneyard) (missing: #{(taps - formulae) * ", "})
   EOS
 
   unknown = formulae - Formula.full_names
