@@ -151,14 +151,15 @@ if ARGV.include? "--stats"
   opoo "The DB file doesn't exist." unless File.exist? source
   db = ExecutablesDB.new source
 
+  require "official_taps"
+  require "cmd/tap"
+
   formulae = db.exes.keys
   core = Formula.core_names
-  taps = Tap.flat_map do |t|
-    if t.official?
-      t.formula_names.reject { |f| f.start_with? "homebrew/boneyard/" }
-    else
-      []
-    end
+  taps = OFFICIAL_TAPS.flat_map do |repo|
+    tap = Tap.fetch("homebrew", repo)
+    opoo "Tap #{tap} is not installed" unless tap.installed?
+    tap.repo == "boneyard" ? [] : tap.formula_names
   end
 
   cmds_count = db.exes.values.reduce(0) { |s, exs| s + exs.size }
