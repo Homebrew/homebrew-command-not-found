@@ -18,7 +18,7 @@ LIST_PATH = File.expand_path("#{File.dirname(__FILE__)}/../executables.txt")
 def matches(cmd)
   # We use 'grep' here to speed up our search
   # TODO: benchmark grep vs. reading the file line-by-line in Ruby
-  Utils.popen_read("grep", cmd, LIST_PATH).chomp.split(/\n/)
+  Utils.popen_read("grep", "--color=never", cmd, LIST_PATH).chomp.split(/\n/)
 end
 
 # Test if we have to reject the given formula, i.e. not suggest it.
