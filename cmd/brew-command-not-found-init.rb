@@ -21,7 +21,7 @@ def help
   when :bash
     puts <<-EOS.undent
       # To enable homebrew-command-not-found
-      # Adding the following lines to ~/.bashrc
+      # Add the following lines to ~/.bashrc
 
       if brew command command-not-found-init > /dev/null; then
         eval "$(brew command-not-found-init)";
@@ -30,14 +30,14 @@ def help
   when :fish
     puts <<-EOS.undent
       # To enable homebrew-command-not-found
-      # Adding the following line to ~/.config/fish/config.fish
+      # Add the following line to ~/.config/fish/config.fish
 
       brew command command-not-found-init > /dev/null; and . (brew command-not-found-init)
     EOS
   when :zsh
     puts <<-EOS.undent
       # To enable homebrew-command-not-found
-      # Adding the following lines to ~/.zshrc
+      # Add the following lines to ~/.zshrc
 
       if brew command command-not-found-init > /dev/null; then
         eval "$(brew command-not-found-init)";
