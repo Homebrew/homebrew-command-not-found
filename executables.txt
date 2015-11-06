@@ -88,6 +88,7 @@ app-engine-go-64:appcfg.py bulkload_client.py bulkloader.py dev_appserver.py dow
 app-engine-java:appcfg.sh dev_appserver.sh endpoints.sh google_sql.sh run_java.sh
 app-engine-python:_php_runtime.py _python_runtime.py api_server.py appcfg.py bulkload_client.py bulkloader.py dev_appserver.py download_appstats.py endpointscfg.py gen_protorpc.py google_sql.py remote_api_shell.py
 apparix:apparix
+appledoc:appledoc
 appscale-tools:appscale appscale-add-instances appscale-add-keypair appscale-describe-instances appscale-gather-logs appscale-get-property appscale-relocate-app appscale-remove-app appscale-reset-pwd appscale-run-instances appscale-set-property appscale-terminate-instances appscale-upload-app
 apr-util:apu-1-config
 apr:apr-1-config
@@ -605,7 +606,8 @@ docbook-xsl:dbtoepub
 docbook2x:db2x_manxml db2x_texixml db2x_xsltproc docbook2man docbook2texi sgml2xml-isoent utf8trans
 docbook:
 docker-compose:docker-compose
-docker-machine:docker-machine
+docker-machine-parallels:docker-machine-driver-parallels
+docker-machine:docker-machine docker-machine-driver-amazonec2 docker-machine-driver-azure docker-machine-driver-digitalocean docker-machine-driver-exoscale docker-machine-driver-generic docker-machine-driver-google docker-machine-driver-hyperv docker-machine-driver-none docker-machine-driver-openstack docker-machine-driver-rackspace docker-machine-driver-softlayer docker-machine-driver-virtualbox docker-machine-driver-vmwarefusion docker-machine-driver-vmwarevcloudair docker-machine-driver-vmwarevsphere
 docker-swarm:docker-swarm
 docker:docker
 dockutil:dockutil
@@ -1214,6 +1216,7 @@ homebrew/completions/grunt-completion:
 homebrew/completions/kitchen-completion:
 homebrew/completions/maven-completion:
 homebrew/completions/mix-completion:
+homebrew/completions/open-completion:
 homebrew/completions/packer-completion:
 homebrew/completions/pip-completion:
 homebrew/completions/rails-completion:
@@ -1222,10 +1225,12 @@ homebrew/completions/ruby-completion:
 homebrew/completions/rustc-completion:
 homebrew/completions/sonar-completion:
 homebrew/completions/spring-completion:
+homebrew/completions/t-completion:
 homebrew/completions/tmuxinator-completion:
 homebrew/completions/vagrant-completion:
 homebrew/completions/wpcli-completion:
 homebrew/devel-only/bish:bish
+homebrew/devel-only/hana:
 homebrew/devel-only/j2objc:cycle_finder j2objc j2objc_protoc j2objcc
 homebrew/devel-only/mlite:mlite
 homebrew/devel-only/rebar3:rebar3
@@ -2159,6 +2164,7 @@ homebrew/php/php70-pthreads:
 homebrew/php/php70-redis:
 homebrew/php/php70-snmp:
 homebrew/php/php70-tidy:
+homebrew/php/php70-xdebug:
 homebrew/php/php70-yaml:
 homebrew/php/php70:phar phar.phar php php-cgi php-config php-fpm php70-fpm phpize
 homebrew/php/phpbrew:phpbrew
@@ -4262,6 +4268,7 @@ poster:poster
 postgis:create_undef.pl pgsql2shp postgis_proc_upgrade.pl postgis_restore.pl profile_intersects.pl raster2pgsql shp2pgsql test_estimation.pl test_geography_estimation.pl test_geography_joinestimation.pl test_joinestimation.pl
 postgres-xc:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg gtm gtm_ctl gtm_proxy initdb initgtm makesgml oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_resetxlog pg_restore pg_standby pg_test_fsync pg_upgrade pgbench pgxc_clean postgres postmaster psql reindexdb vacuumdb vacuumlo
 postgresql:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivexlog pg_recvlogical pg_resetxlog pg_restore pg_standby pg_test_fsync pg_test_timing pg_upgrade pg_xlogdump pgbench pltcl_delmod pltcl_listmod pltcl_loadmod postgres postmaster psql reindexdb vacuumdb vacuumlo
+postgrest:postgrest
 postmark:postmark
 potrace:mkbitmap potrace
 pound:pound poundctl
@@ -5043,6 +5050,7 @@ w3m:w3m w3mman
 wait_on:wait_on
 wakatime-cli:wakatime
 wakeonlan:wakeonlan
+walkmod:walkmod
 waon:waon
 wartremover:wartremover
 watch-sim:watch-sim
