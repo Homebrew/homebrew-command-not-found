@@ -12,7 +12,6 @@
 require "formula"
 require "extend/ARGV.rb"
 
-TAP_RE = %r(^.+?/[^/]+)
 LIST_PATH = File.expand_path("#{File.dirname(__FILE__)}/../executables.txt")
 
 def matches(cmd)
@@ -27,28 +26,24 @@ def reject_formula?(name)
   f.nil? || f.installed? || f.requirements.any? { |r| r.required? && !r.default_formula? && !r.satisfied? }
 end
 
-# Print a small text explaining how to get 'cmd' by installing 'formula'. Note
-# that it'll still suggest to install the formula if it's already installed but
-# unlinked.
-def explain_formula_install(cmd, formula)
-  return if reject_formula? formula
-  puts <<-EOS
-The program '#{cmd}' is currently not installed. You can install it by typing:
-  brew install #{formula}
-  EOS
-end
-
 # Print a small text explaining how to get 'cmd' by installing one of the given
 # formulae.
 def explain_formulae_install(cmd, formulae)
   formulae.reject! { |f| reject_formula? f }
-  return if formulae.empty?
-  return explain_formula_install(cmd, formulae.first) if formulae.size == 1
-  puts <<-EOS.undent
-    The program '#{cmd}' can be found in the following formulae:
-      * #{formulae * "\n      * "}
-    Try: brew install <selected formula>
-  EOS
+  case formulae.size
+  when 0 then return
+  when 1
+    puts <<-EOS.undent
+      The program '#{cmd}' is currently not installed. You can install it by typing:
+        brew install #{formulae.first}
+    EOS
+  else
+    puts <<-EOS.undent
+      The program '#{cmd}' can be found in the following formulae:
+        * #{formulae * "\n  * "}
+      Try: brew install <selected formula>
+    EOS
+  end
 end
 
 # if 'explain' is false, print all formulae that can be installed to get the
