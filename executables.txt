@@ -99,6 +99,7 @@ aptly:aptly
 aqbanking:aqbanking-cli aqbanking-config aqebics-tool aqhbci-tool4 hbcixml3
 arangodb:arangob arangodump arangoimp arangorestore arangosh foxx-manager arango-dfdb arangod
 archey:archey
+archivemail:archivemail
 argp-standalone:
 argtable:
 argus-clients:argusclientbug ra rabins racluster raconvert racount radark radecode radump raevent rafilteraddr ragraph ragrep rahisto rahosts ralabel ranonymize rapath rapolicy raports rarpwatch raservices rasort rasplit rastream rastrip ratemplate ratimerange ratop rauserdata radium
@@ -1192,6 +1193,8 @@ homebrew/boneyard/jscoverage:jscoverage jscoverage-server
 homebrew/boneyard/libqxt:
 homebrew/boneyard/luarocks:luarocks luarocks-5.2 luarocks-admin luarocks-admin-5.2
 homebrew/boneyard/mat:mat
+homebrew/boneyard/mysql-connector-odbc:myodbc-installer
+homebrew/boneyard/mysql-proxy:mysql-binlog-dump mysql-myisam-dump mysql-proxy
 homebrew/boneyard/paq8px:paq8px
 homebrew/boneyard/par2tbb:par2 par2create par2repair par2verify
 homebrew/boneyard/pure:pure
@@ -1339,6 +1342,7 @@ homebrew/emacs/epl:
 homebrew/emacs/epoch-view:
 homebrew/emacs/ert-runner:ert-runner
 homebrew/emacs/evil:
+homebrew/emacs/exec-path-from-shell:
 homebrew/emacs/f90-interface-browser:
 homebrew/emacs/f:
 homebrew/emacs/flycheck:
@@ -1373,6 +1377,7 @@ homebrew/emacs/load-relative:
 homebrew/emacs/loc-changes:
 homebrew/emacs/logito:
 homebrew/emacs/lua-mode:
+homebrew/emacs/magit:
 homebrew/emacs/markchars:
 homebrew/emacs/markdown-mode:
 homebrew/emacs/memory-usage-emacs:
@@ -2871,6 +2876,7 @@ homebrew/versions/gradle221:gradle
 homebrew/versions/gradle24:gradle
 homebrew/versions/gradle26:gradle
 homebrew/versions/gradle27:gradle
+homebrew/versions/gradle28:gradle
 homebrew/versions/grails13:grails grails-debug startGrails
 homebrew/versions/grails20:grails grails-debug startGrails
 homebrew/versions/grails21:grails grails-debug startGrails
@@ -3763,7 +3769,6 @@ mackup:mackup
 macvim:gview gvim gvimdiff gvimex mview mvim mvimdiff mvimex
 mad:
 madplay:abxtest madplay
-magit:
 mahout:mahout
 mailcheck:mailcheck
 mailhog:MailHog
@@ -3962,8 +3967,6 @@ mypy:mypy
 mysql++:
 mysql-connector-c++:
 mysql-connector-c:my_print_defaults mysql_config perror
-mysql-connector-odbc:myodbc-installer
-mysql-proxy:mysql-binlog-dump mysql-myisam-dump mysql-proxy
 mysql-sandbox:deploy_to_remote_sandboxes.sh low_level_make_sandbox make_multiple_custom_sandbox make_multiple_sandbox make_replication_sandbox make_sandbox make_sandbox_from_installed make_sandbox_from_source msandbox msb sbtool test_sandbox
 mysql-search-replace:srdb
 mysql:innochecksum msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_client_test_embedded mysql_config mysql_config_editor mysql_convert_table_format mysql_embedded mysql_find_rows mysql_fix_extensions mysql_install_db mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysql_zap mysqladmin mysqlbinlog mysqlbug mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest mysqltest_embedded perror replace resolve_stack_dump resolveip
