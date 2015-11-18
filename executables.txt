@@ -420,6 +420,7 @@ cntlm:cntlm
 coccinelle:spatch spatch.byte
 cocot:cocot
 coda-cli:coda
+codemod:codemod
 codequery:codequery cqmakedb cqsearch
 cogl:
 coin:coin-config soqt-config
@@ -1342,6 +1343,7 @@ homebrew/emacs/el-mock:
 homebrew/emacs/el-x:
 homebrew/emacs/eldoc-eval:
 homebrew/emacs/electric-spacing:
+homebrew/emacs/elfeed:
 homebrew/emacs/elisp-bug-hunter:
 homebrew/emacs/emmet-mode:
 homebrew/emacs/emoji-cheat-sheet-plus:
@@ -1374,6 +1376,9 @@ homebrew/emacs/inf-ruby:
 homebrew/emacs/javaimp:
 homebrew/emacs/jgraph-mode:
 homebrew/emacs/js2-mode:
+homebrew/emacs/json-mode:
+homebrew/emacs/json-reformat:
+homebrew/emacs/json-snatcher:
 homebrew/emacs/jumpc:
 homebrew/emacs/keyfreq:
 homebrew/emacs/landmark-emacs:
@@ -1613,12 +1618,10 @@ homebrew/games/zboy:zboy
 homebrew/head-only/adept:adept.sh
 homebrew/head-only/afew:afew
 homebrew/head-only/agedu:agedu
-homebrew/head-only/arcanist:arc
 homebrew/head-only/bbcp:bbcp
 homebrew/head-only/bd:bd
 homebrew/head-only/bonnie:bonnie
 homebrew/head-only/choose:choose
-homebrew/head-only/codemod:codemod
 homebrew/head-only/daala:
 homebrew/head-only/depot-tools:cpplint.py drover gcl gclient git-cl git-gs git-try hammer presubmit_support.py trychange.py weekly wtf zsh-goodies
 homebrew/head-only/despotify:despotify despotify-gateway despotify-simple
@@ -1648,11 +1651,9 @@ homebrew/head-only/osmfilter:osmfilter
 homebrew/head-only/otx:otx
 homebrew/head-only/pdftoipe:pdftoipe
 homebrew/head-only/redis-tools:redis-load redis-stat
-homebrew/head-only/shairport:shairport
 homebrew/head-only/shaper-probe:prober
 homebrew/head-only/sigar:sigar
 homebrew/head-only/squishyball:squishyball
-homebrew/head-only/tcpstat:tcpstat
 homebrew/head-only/termbox:
 homebrew/head-only/titlecase:titlecase
 homebrew/head-only/tsocks:tsocks
@@ -1664,7 +1665,6 @@ homebrew/head-only/willgit:git-publish-branch git-rank-contributors git-show-mer
 homebrew/head-only/woff2:woff2_compress woff2_decompress
 homebrew/head-only/wol:wol
 homebrew/head-only/word2vec:word2vec
-homebrew/head-only/zzz:Zzz
 homebrew/nginx/accept-language-nginx-module:
 homebrew/nginx/accesskey-nginx-module:
 homebrew/nginx/ajp-nginx-module:
@@ -4646,6 +4646,7 @@ sgrep:sgrep
 sha2:sha2
 shadowsocks-libev:ss-local ss-manager ss-server ss-tunnel
 shairport-sync:shairport-sync
+shairport:shairport
 shakespeare:spl2c
 shapelib:dbfadd dbfcreate dbfdump shpadd shpcreate shpdump shprewind shptreedump
 shared-mime-info:update-mime-database
@@ -4868,6 +4869,7 @@ tcpflow:tcpflow
 tcping:tcping
 tcpreplay:tcpbridge tcpcapinfo tcpprep tcpreplay tcpreplay-edit tcprewrite
 tcpsplit:tcpsplit
+tcpstat:tcpstat
 tcptrace:tcptrace
 tcptraceroute:tcptraceroute
 tcptrack:tcptrack
@@ -5272,3 +5274,4 @@ zsync:zsync zsyncmake
 zurl:zurl
 zxcc:zxas zxc zxcc zxlibr zxlink
 zzuf:zzcat zzuf
+zzz:Zzz
