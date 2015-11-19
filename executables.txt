@@ -138,6 +138,7 @@ ats2-postiats:patscc patsopt
 aubio:aubiomfcc aubionotes aubioonset aubiopitch aubioquiet aubiotrack
 audiofile:sfconvert sfinfo
 augeas:augparse augtool
+aurora-cli:aurora aurora_admin
 auto-scaling:as-attach-instances as-cmd as-complete-lifecycle-action as-create-auto-scaling-group as-create-launch-config as-create-or-update-tags as-delete-auto-scaling-group as-delete-launch-config as-delete-lifecycle-hook as-delete-notification-configuration as-delete-policy as-delete-scheduled-action as-delete-tags as-describe-account-limits as-describe-adjustment-types as-describe-auto-scaling-groups as-describe-auto-scaling-instances as-describe-auto-scaling-notification-types as-describe-launch-configs as-describe-lifecycle-hook-types as-describe-lifecycle-hooks as-describe-metric-collection-types as-describe-notification-configurations as-describe-policies as-describe-process-types as-describe-scaling-activities as-describe-scheduled-actions as-describe-tags as-describe-termination-policy-types as-detach-instances as-disable-metrics-collection as-enable-metrics-collection as-enter-standby as-execute-policy as-exit-standby as-put-lifecycle-hook as-put-notification-configuration as-put-scaling-policy as-put-scheduled-update-group-action as-record-lifecycle-action-heartbeat as-resume-processes as-set-desired-capacity as-set-instance-health as-suspend-processes as-terminate-instance-in-auto-scaling-group as-update-auto-scaling-group as-version
 autobench:autobench autobench_admin autobenchd bench2graph crfile sesslog
 autocode:autocode
@@ -360,6 +361,7 @@ chipmunk:
 chisel:
 chkrootkit:check_wtmpx chkdirs chklastlog chkproc chkrootkit chkutmp chkwtmp ifpromisc strings-static
 chmlib:chm_http enum_chmLib enumdir_chmLib extract_chmLib test_chmLib
+choose:choose
 chordii:a2crd chordii
 chromaprint:fpcalc
 chrome-cli:chrome-canary-cli chrome-cli
@@ -1622,7 +1624,6 @@ homebrew/head-only/agedu:agedu
 homebrew/head-only/bbcp:bbcp
 homebrew/head-only/bd:bd
 homebrew/head-only/bonnie:bonnie
-homebrew/head-only/choose:choose
 homebrew/head-only/daala:
 homebrew/head-only/depot-tools:cpplint.py drover gcl gclient git-cl git-gs git-try hammer presubmit_support.py trychange.py weekly wtf zsh-goodies
 homebrew/head-only/despotify:despotify despotify-gateway despotify-simple
@@ -1656,7 +1657,6 @@ homebrew/head-only/shaper-probe:prober
 homebrew/head-only/sigar:sigar
 homebrew/head-only/squishyball:squishyball
 homebrew/head-only/termbox:
-homebrew/head-only/titlecase:titlecase
 homebrew/head-only/tsocks:tsocks
 homebrew/head-only/uniset:uniset
 homebrew/head-only/urbit:urbit
@@ -4413,6 +4413,7 @@ qdbm:cbcodec cbtest crmgr crtest crtsv dpmgr dptest dptsv hvmgr hvtest odidx odm
 qemu:qemu-img qemu-io qemu-nbd qemu-system-aarch64 qemu-system-alpha qemu-system-arm qemu-system-cris qemu-system-i386 qemu-system-lm32 qemu-system-m68k qemu-system-microblaze qemu-system-microblazeel qemu-system-mips qemu-system-mips64 qemu-system-mips64el qemu-system-mipsel qemu-system-moxie qemu-system-or32 qemu-system-ppc qemu-system-ppc64 qemu-system-ppcemb qemu-system-s390x qemu-system-sh4 qemu-system-sh4eb qemu-system-sparc qemu-system-sparc64 qemu-system-tricore qemu-system-unicore32 qemu-system-x86_64 qemu-system-xtensa qemu-system-xtensaeb
 qjson:
 qpdf:fix-qdf qpdf zlib-flate
+qpm:qpm
 qprint:qprint
 qrencode:qrencode
 qscintilla2:
@@ -4928,6 +4929,7 @@ tinyxml2:
 tinyxml:
 tippecanoe:tippecanoe
 titan-server:titan titan-rexster-console
+titlecase:
 tivodecode:tdcat tivodecode
 tkdiff:tkdiff
 tlassemble:tlassemble
