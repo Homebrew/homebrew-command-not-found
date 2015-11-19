@@ -181,7 +181,7 @@ end
 
 def english_list(els, state)
   msg = els.slice(0, 3).join(", ")
-  msg << "and #{els.length - 3} more" if msg.length < 40 && els.length > 3
+  msg << " and #{els.length - 3} more" if msg.length < 40 && els.length > 3
   msg << " #{state}"
   msg
 end
