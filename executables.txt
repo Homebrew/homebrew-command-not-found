@@ -880,6 +880,7 @@ gcutil:gcutil
 gd:annotate bdftogd gd2copypal gd2togif gd2topng gdcmpgif gdlib-config gdparttopng gdtopng giftogd2 pngtogd pngtogd2 webpng
 gdal-grass:
 gdal:epsg_tr.py esri2wkt.py gcps2vec.py gcps2wld.py gdal-config gdal2tiles.py gdal2xyz.py gdal_auth.py gdal_calc.py gdal_contour gdal_edit.py gdal_fillnodata.py gdal_grid gdal_merge.py gdal_polygonize.py gdal_proximity.py gdal_rasterize gdal_retile.py gdal_sieve.py gdal_translate gdaladdo gdalbuildvrt gdalchksum.py gdalcompare.py gdaldem gdalenhance gdalident.py gdalimport.py gdalinfo gdallocationinfo gdalmanage gdalmove.py gdalserver gdalsrsinfo gdaltindex gdaltransform gdalwarp mkgraticule.py nearblack ogr2ogr ogrinfo ogrlineref ogrtindex pct2rgb.py rgb2pct.py testepsg
+gdb:gdb
 gdbm:gdbm_dump gdbm_load gdbmtool
 gdk-pixbuf:gdk-pixbuf-csource gdk-pixbuf-pixdata gdk-pixbuf-query-loaders
 gdl:
@@ -1259,7 +1260,6 @@ homebrew/dupes/diffutils:cmp diff diff3 sdiff
 homebrew/dupes/ed:ged gred
 homebrew/dupes/expect:autoexpect autopasswd cryptdir decryptdir dislocate expect ftp-rfc kibitz lpunlock mkpasswd multixterm passmass rftp rlogin-cwd timed-read timed-run tknewsbiff tkpasswd unbuffer weather xkibitz xpstat
 homebrew/dupes/file-formula:file
-homebrew/dupes/gdb:gdb
 homebrew/dupes/gpatch:patch
 homebrew/dupes/gperf:gperf
 homebrew/dupes/grep:gegrep gfgrep ggrep
@@ -1428,11 +1428,14 @@ homebrew/emacs/queue-emacs:
 homebrew/emacs/rainbow-delimiters:
 homebrew/emacs/rainbow-mode:
 homebrew/emacs/register-list:
+homebrew/emacs/robe:
+homebrew/emacs/rubocop-emacs:
 homebrew/emacs/rust-mode:
 homebrew/emacs/s:
 homebrew/emacs/scroll-restore:
 homebrew/emacs/scss-mode:
 homebrew/emacs/seq:
+homebrew/emacs/shell-pop:
 homebrew/emacs/shut-up:
 homebrew/emacs/simple-httpd:
 homebrew/emacs/sisu-mode:
@@ -1678,7 +1681,6 @@ homebrew/nginx/auto-keepalive-nginx-module:
 homebrew/nginx/autols-nginx-module:
 homebrew/nginx/cache-purge-nginx-module:
 homebrew/nginx/captcha-nginx-module:
-homebrew/nginx/consistent-hash-nginx-module:
 homebrew/nginx/counter-zone-nginx-module:
 homebrew/nginx/ctpp2-nginx-module:
 homebrew/nginx/dav-ext-nginx-module:
@@ -1716,7 +1718,6 @@ homebrew/nginx/txid-nginx-module:
 homebrew/nginx/unzip-nginx-module:
 homebrew/nginx/upload-nginx-module:
 homebrew/nginx/upload-progress-nginx-module:
-homebrew/nginx/upstream-hash-nginx-module:
 homebrew/nginx/upstream-order-nginx-module:
 homebrew/nginx/ustats-nginx-module:
 homebrew/nginx/var-req-speed-nginx-module:
@@ -4053,7 +4054,7 @@ ninja-ide:ninja-ide
 ninja:ninja
 nkf:nkf
 nload:nload
-nmap:ncat ndiff nmap nping
+nmap:ncat ndiff nmap nping uninstall_ndiff
 node-build:node-build nodenv-install nodenv-uninstall
 node:node
 nodebrew:nodebrew
