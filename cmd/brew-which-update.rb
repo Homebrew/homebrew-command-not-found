@@ -170,8 +170,8 @@ if ARGV.include? "--stats"
   puts <<-EOS
 #{formulae.size} formulae
 #{cmds_count} commands
-#{core_percentage}% of core                  (missing: #{(core - formulae) * ", "})
-#{taps_percentage}% of taps (excl. boneyard) (missing: #{(taps - formulae) * ", "})
+#{core_percentage}% of core          (missing: #{(core - formulae) * ", "})
+#{taps_percentage}% of official taps (missing: #{(taps - formulae) * ", "})
   EOS
 
   unknown = formulae - Formula.full_names
