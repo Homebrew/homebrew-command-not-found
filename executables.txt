@@ -665,6 +665,7 @@ dwarfutils:dwarfdump
 dwatch:dwatch
 dwdiff:dwdiff dwfilter
 dxflib:
+dxpy:dx dx-app-wizard dx-bed-to-spans dx-build-app dx-build-applet dx-build-report-html dx-csv-to-gtable dx-download-all-inputs dx-fastq-to-reads dx-fetch-bundled-depends dx-genes-to-gff dx-genes-to-gtf dx-gff-to-genes dx-gtable-to-csv dx-gtable-to-tsv dx-gtf-to-genes dx-jobutil-add-output dx-jobutil-dxlink dx-jobutil-new-job dx-jobutil-parse-link dx-jobutil-report-error dx-log-stream dx-mappings-to-fastq dx-mappings-to-sam dx-mount dx-print-bash-vars dx-reads-to-fastq dx-run-app-locally dx-spans-to-bed dx-tsv-to-gtable dx-upload-all-outputs dx-variants-to-vcf dx-workflow-to-applet
 dyld-headers:
 dylibbundler:dylibbundler
 dynamips:dynamips nvram_export
@@ -684,6 +685,7 @@ editorconfig:editorconfig editorconfig-0.12.0
 ee:ee
 eet:eet
 efl:diffeet ecore_evas_convert edje_cc edje_codegen edje_decc edje_external_inspector edje_inspector edje_pick edje_player edje_recc edje_watch eet eetpack efreetd eina-bench-cmp eldbus-codegen elua embryo_cc eolian_cxx eolian_gen ethumb ethumbd ethumbd_client vieet
+eg:eg
 eigen:
 eina:
 ejabberd:ejabberdctl
@@ -2213,6 +2215,7 @@ homebrew/php/php56:phar phar.phar php php-cgi php-config php-fpm php56-fpm phpiz
 homebrew/php/php70-apcu:
 homebrew/php/php70-ast:
 homebrew/php/php70-gmp:
+homebrew/php/php70-imagick:
 homebrew/php/php70-intl:
 homebrew/php/php70-libsodium:
 homebrew/php/php70-lzf:
@@ -2799,7 +2802,6 @@ homebrew/science/velvet:velvetg velveth
 homebrew/science/velvetoptimiser:VelvetOptimiser.pl
 homebrew/science/viennarna:Kinfold RNA2Dfold RNAaliduplex RNAalifold RNAcofold RNAdistance RNAduplex RNAeval RNAfold RNAforester RNAheat RNAinverse RNALalifold RNALfold RNApaln RNAparconv RNApdist RNAPKplex RNAplex RNAplfold RNAplot RNAsnoop RNAsubopt RNAup
 homebrew/science/vigra:vigra-config
-homebrew/science/vips7:batch_crop batch_image_convert batch_rubber_sheet light_correct shrink_width vips vips-7.42 vipsedit vipsheader vipsprofile vipsthumbnail
 homebrew/science/vips:batch_crop batch_image_convert batch_rubber_sheet light_correct shrink_width vips vips-8.0 vipsedit vipsheader vipsprofile vipsthumbnail
 homebrew/science/vislcg3:cg-comp cg-conv cg-proc cg3-autobin.pl vislcg3
 homebrew/science/visp:visp-config
@@ -2989,6 +2991,7 @@ homebrew/versions/llvm33:bugpoint-3.3 c-index-test-3.3 clang++-3.3 clang-3.3 cla
 homebrew/versions/llvm34:bugpoint-3.4 c-index-test-3.4 clang++-3.4 clang-3.4 clang-apply-replacements-3.4 clang-check-3.4 clang-format-3.4 clang-modernize-3.4 clang-tblgen-3.4 clang-tidy-3.4 llc-3.4 lli-3.4 lli-child-target-3.4 llvm-ar-3.4 llvm-as-3.4 llvm-bcanalyzer-3.4 llvm-config-3.4 llvm-cov-3.4 llvm-diff-3.4 llvm-dis-3.4 llvm-dwarfdump-3.4 llvm-extract-3.4 llvm-link-3.4 llvm-mc-3.4 llvm-mcmarkup-3.4 llvm-nm-3.4 llvm-objdump-3.4 llvm-ranlib-3.4 llvm-readobj-3.4 llvm-rtdyld-3.4 llvm-size-3.4 llvm-stress-3.4 llvm-symbolizer-3.4 llvm-tblgen-3.4 macho-dump-3.4 opt-3.4 pp-trace-3.4
 homebrew/versions/llvm35:bugpoint-3.5 c-index-test-3.5 clang++-3.5 clang-3.5 clang-apply-replacements-3.5 clang-check-3.5 clang-format-3.5 clang-modernize-3.5 clang-query-3.5 clang-tblgen-3.5 clang-tidy-3.5 count-3.5 FileCheck-3.5 llc-3.5 lli-3.5 lli-child-target-3.5 llvm-ar-3.5 llvm-as-3.5 llvm-bcanalyzer-3.5 llvm-config-3.5 llvm-cov-3.5 llvm-diff-3.5 llvm-dis-3.5 llvm-dwarfdump-3.5 llvm-extract-3.5 llvm-link-3.5 llvm-mc-3.5 llvm-mcmarkup-3.5 llvm-nm-3.5 llvm-objdump-3.5 llvm-profdata-3.5 llvm-ranlib-3.5 llvm-readobj-3.5 llvm-rtdyld-3.5 llvm-size-3.5 llvm-stress-3.5 llvm-symbolizer-3.5 llvm-tblgen-3.5 macho-dump-3.5 not-3.5 opt-3.5 pp-trace-3.5
 homebrew/versions/llvm36:bugpoint-3.6 c-index-test-3.6 clang++-3.6 clang-3.6 clang-apply-replacements-3.6 clang-check-3.6 clang-format-3.6 clang-modernize-3.6 clang-query-3.6 clang-rename-3.6 clang-tblgen-3.6 clang-tidy-3.6 count-3.6 FileCheck-3.6 llc-3.6 lli-3.6 lli-child-target-3.6 llvm-ar-3.6 llvm-as-3.6 llvm-bcanalyzer-3.6 llvm-config-3.6 llvm-cov-3.6 llvm-diff-3.6 llvm-dis-3.6 llvm-dsymutil-3.6 llvm-dwarfdump-3.6 llvm-extract-3.6 llvm-link-3.6 llvm-mc-3.6 llvm-mcmarkup-3.6 llvm-nm-3.6 llvm-objdump-3.6 llvm-profdata-3.6 llvm-ranlib-3.6 llvm-readobj-3.6 llvm-rtdyld-3.6 llvm-size-3.6 llvm-stress-3.6 llvm-symbolizer-3.6 llvm-tblgen-3.6 llvm-vtabledump-3.6 macho-dump-3.6 not-3.6 obj2yaml-3.6 opt-3.6 pp-trace-3.6 scan-build-3.6 scan-view-3.6 verify-uselistorder-3.6 yaml2obj-3.6
+homebrew/versions/llvm37:FileCheck-3.7 bugpoint-3.7 c-index-test-3.7 clang++-3.7 clang-3.7 clang-apply-replacements-3.7 clang-check-3.7 clang-format-3.7 clang-modernize-3.7 clang-query-3.7 clang-rename-3.7 clang-tblgen-3.7 clang-tidy-3.7 count-3.7 llc-3.7 lli-3.7 lli-child-target-3.7 llvm-ar-3.7 llvm-as-3.7 llvm-bcanalyzer-3.7 llvm-config-3.7 llvm-cov-3.7 llvm-cxxdump-3.7 llvm-diff-3.7 llvm-dis-3.7 llvm-dsymutil-3.7 llvm-dwarfdump-3.7 llvm-extract-3.7 llvm-link-3.7 llvm-mc-3.7 llvm-mcmarkup-3.7 llvm-nm-3.7 llvm-objdump-3.7 llvm-pdbdump-3.7 llvm-profdata-3.7 llvm-ranlib-3.7 llvm-readobj-3.7 llvm-rtdyld-3.7 llvm-size-3.7 llvm-stress-3.7 llvm-symbolizer-3.7 llvm-tblgen-3.7 macho-dump-3.7 not-3.7 obj2yaml-3.7 opt-3.7 pp-trace-3.7 scan-build-3.7 scan-view-3.7 verify-uselistorder-3.7 yaml2obj-3.7
 homebrew/versions/log4cplus10:
 homebrew/versions/lua53:lua-5.3 lua5.3 luac-5.3 luac5.3 luarocks-5.3 luarocks-admin-5.3
 homebrew/versions/lz4r117:lz4 lz4c lz4cat
@@ -3877,6 +3880,7 @@ mecab-ko:mecab mecab-config
 mecab-unidic:
 mecab:mecab mecab-config
 media-info:mediainfo
+mediaconch:mediaconch
 mediatomb:mediatomb
 megacmd:megacmd
 megatools:megacopy megadf megadl megaget megals megamkdir megaput megareg megarm
@@ -4601,6 +4605,7 @@ rtmpdump:rtmpdump rtmpgw rtmpsrv rtmpsuck
 rtorrent:rtorrent
 rtpbreak:rtpbreak
 rubber:rubber rubber-info rubber-pipe
+rubberband:rubberband
 ruby-build:rbenv-install rbenv-uninstall ruby-build
 ruby-install:ruby-install
 ruby:erb gem irb rake rdoc ri ruby
@@ -4830,6 +4835,7 @@ ssldump:ssldump
 sslh:sslh
 ssllabs-scan:ssllabs-scan
 sslmate:sslmate
+sslscan:sslscan
 sslyze:sslyze
 ssreflect:
 ssss:ssss-combine ssss-split
@@ -5130,6 +5136,7 @@ visitors:visitors
 visualnetkit:visualnetkit
 vit:vit
 vmalloc:
+vmtouch:vmtouch
 vncsnapshot:vncpasswd vncsnapshot
 vnstat:vnstat vnstatd vnstati
 vnu:vnu
