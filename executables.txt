@@ -989,6 +989,7 @@ github-release:github-release
 gitlab-ci-multi-runner:gitlab-ci-multi-runner
 gitslave:gits
 gitup:gitup
+gjs:gjs gjs-console
 gjstest:gjstest
 gl2ps:
 glassfish:
@@ -1012,6 +1013,7 @@ gmime:
 gmp:
 gmtl:gmtl-config
 gnatsd:gnatsd
+gnome-builder:gnome-builder
 gnome-common:gnome-autogen.sh gnome-doc-common
 gnome-doc-utils:gnome-doc-prepare gnome-doc-tool xml2po
 gnome-icon-theme:
@@ -1226,6 +1228,7 @@ homebrew/boneyard/jscoverage:jscoverage jscoverage-server
 homebrew/boneyard/libqxt:
 homebrew/boneyard/luarocks:luarocks luarocks-5.2 luarocks-admin luarocks-admin-5.2
 homebrew/boneyard/mat:mat
+homebrew/boneyard/mydumper:mydumper myloader
 homebrew/boneyard/mysql-connector-odbc:myodbc-installer
 homebrew/boneyard/mysql-proxy:mysql-binlog-dump mysql-myisam-dump mysql-proxy
 homebrew/boneyard/net6:
@@ -4042,7 +4045,7 @@ mysql-connector-c++:
 mysql-connector-c:my_print_defaults mysql_config perror
 mysql-sandbox:deploy_to_remote_sandboxes.sh low_level_make_sandbox make_multiple_custom_sandbox make_multiple_sandbox make_replication_sandbox make_sandbox make_sandbox_from_installed make_sandbox_from_source msandbox msb sbtool test_sandbox
 mysql-search-replace:srdb
-mysql:innochecksum msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_client_test_embedded mysql_config mysql_config_editor mysql_convert_table_format mysql_embedded mysql_find_rows mysql_fix_extensions mysql_install_db mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysql_zap mysqladmin mysqlbinlog mysqlbug mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest mysqltest_embedded perror replace resolve_stack_dump resolveip
+mysql:innochecksum lz4_decompress my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_client_test_embedded mysql_config mysql_config_editor mysql_embedded mysql_install_db mysql_plugin mysql_secure_installation mysql_ssl_rsa_setup mysql_tzinfo_to_sql mysql_upgrade mysqladmin mysqlbinlog mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlimport mysqlpump mysqlshow mysqlslap mysqltest mysqltest_embedded perror replace resolve_stack_dump resolveip zlib_decompress
 mysqltuner:mysqltuner
 mytop:mytop
 n:n
