@@ -152,7 +152,6 @@ if ARGV.include? "--stats"
   db = ExecutablesDB.new source
 
   require "official_taps"
-  require "cmd/tap"
 
   formulae = db.exes.keys
   core = Formula.core_names
