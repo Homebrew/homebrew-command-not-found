@@ -1554,6 +1554,7 @@ homebrew/games/advancemame:advj advk advm advmame advs
 homebrew/games/advancemenu:advmenu
 homebrew/games/advancescan:advdiff advscan
 homebrew/games/angband:angband
+homebrew/games/angolmois:angolmois
 homebrew/games/arx-libertatis:arx arx-install-data arxsavetool arxunpak
 homebrew/games/atari800:atari800
 homebrew/games/avanor:avanor
@@ -1562,6 +1563,7 @@ homebrew/games/bastet:bastet
 homebrew/games/blastem:blastem
 homebrew/games/brogue:brogue
 homebrew/games/c10t:c10t
+homebrew/games/c2048:2048
 homebrew/games/cataclysm:cataclysm
 homebrew/games/cgoban:cgoban
 homebrew/games/cheops:cheops
@@ -1569,6 +1571,7 @@ homebrew/games/chocolate-doom:chocolate-doom chocolate-doom-setup chocolate-here
 homebrew/games/ckan:ckan
 homebrew/games/cockatrice:
 homebrew/games/color-code:
+homebrew/games/curseofwar:curseofwar
 homebrew/games/dgen:dgen dgen_tobin
 homebrew/games/dopewars:dopewars
 homebrew/games/dosbox-x:dosbox
@@ -1600,8 +1603,11 @@ homebrew/games/gnu-shogi:gnushogi
 homebrew/games/gnuski:gnuski
 homebrew/games/go-gui:
 homebrew/games/gpcslots2:gpcslots2
+homebrew/games/greed:greed
+homebrew/games/hatari:hatari
 homebrew/games/hedgewars:
 homebrew/games/homeworlds:homeworlds-cli homeworlds-wx
+homebrew/games/huexpress:hucrc huexpress
 homebrew/games/inform6:inform inform-6.32
 homebrew/games/jnethack:jnethack
 homebrew/games/lcs:crimesquad
@@ -1616,7 +1622,6 @@ homebrew/games/mgba:mGBA
 homebrew/games/minetest:
 homebrew/games/mkhexgrid:mkhexgrid
 homebrew/games/moon-buggy:moon-buggy
-homebrew/games/mupen64plus-video-glide64mk2:
 homebrew/games/mupen64plus:mupen64plus
 homebrew/games/myman:myman myman-0.7.1 myman.command
 homebrew/games/naga:naga
@@ -1635,13 +1640,16 @@ homebrew/games/nsnake:nsnake
 homebrew/games/nsuds:nsuds
 homebrew/games/nudoku:nudoku
 homebrew/games/nuvie:nuvie
+homebrew/games/nxengine:nx
 homebrew/games/omega-rpg:omega
 homebrew/games/onscripter:nsaconv nsadec onscripter sarconv sardec
 homebrew/games/open-tyrian:opentyrian
 homebrew/games/openclonk:
 homebrew/games/openjazz:OpenJazz
 homebrew/games/openmsx:openmsx
+homebrew/games/opensyobon:SyobonAction
 homebrew/games/openttd:
+homebrew/games/pacman4console:pacman pacmanedit
 homebrew/games/pc6001vx:PC6001VX
 homebrew/games/pioneer:modelcompiler pioneer
 homebrew/games/pioneers:pioneers pioneers-editor pioneers-metaserver pioneers-server-console pioneers-server-gtk pioneersai
@@ -1649,6 +1657,8 @@ homebrew/games/ponscripter-sekai:ponscr
 homebrew/games/ppsspp:PPSSPPSDL
 homebrew/games/puzzles:
 homebrew/games/pytouhou:pytouhou
+homebrew/games/qdae:apriboot dskdump dskform dskid dskscan dsktrans dskutil md3serial qdae
+homebrew/games/qtads:QTads
 homebrew/games/quasi88:quasi88
 homebrew/games/residualvm:residualvm
 homebrew/games/rlvm:rlvm
@@ -1668,6 +1678,8 @@ homebrew/games/stone-soup:crawl
 homebrew/games/stormlib:
 homebrew/games/supermodel:supermodel
 homebrew/games/supertux:supertux
+homebrew/games/sz81:sz81
+homebrew/games/taisei:taisei
 homebrew/games/tty-solitaire:tty-solitaire
 homebrew/games/ucon64:ucon64
 homebrew/games/ufoai:ufo
@@ -1679,6 +1691,7 @@ homebrew/games/wesnoth:wesnoth wesnothd
 homebrew/games/wumpus:superhack wumpus
 homebrew/games/xboard:xboard
 homebrew/games/xmoto:xmoto
+homebrew/games/xrick:xrick
 homebrew/games/xshogi:xshogi
 homebrew/games/xu4:u4
 homebrew/games/yetris:yetris
@@ -3177,7 +3190,6 @@ homebrew/x11/gtk-chtheme:gtk-chtheme
 homebrew/x11/gtksourceviewmm3:
 homebrew/x11/gtksourceviewmm:
 homebrew/x11/gtkwave:evcd2vcd fst2vcd fstminer ghwdump gtkwave lxt2miner lxt2vcd rtlbrowse shmidcat twinwave vcd2fst vcd2lxt vcd2lxt2 vcd2vzt vermin vzt2vcd vztminer
-homebrew/x11/hatari:atari-hd-image gst2ascii hatari hatari_profile.py hatariui hmsa zip2st
 homebrew/x11/hexchat:hexchat
 homebrew/x11/i3:i3 i3-config-wizard i3-dmenu-desktop i3-dump-log i3-input i3-migrate-config-to-v4 i3-msg i3-nagbar i3-save-tree i3-sensible-editor i3-sensible-pager i3-sensible-terminal i3-with-shmlog i3bar
 homebrew/x11/i3status:i3status
@@ -4220,7 +4232,7 @@ open-scene-graph:osgarchive osgconv osgfilecache osgversion osgviewer present3D
 open-sp:onsgmls osgmlnorm ospam ospcat ospent osx
 open-vcdiff:vcdiff
 open-zwave:MinOZW
-openal-soft:makehrtf openal-info
+openal-soft:altonegen bsincgen makehrtf openal-info
 opencbm:cbmcopy cbmctrl cbmformat cbmforng cbmlinetester cbmread cbmrpm41 cbmwrite d64copy d82copy frm_analyzer imgcopy opencbm_plugin_helper_tools samplelibtransf
 opencc:opencc opencc_dict
 opencolorio:ociobakelut ociocheck
