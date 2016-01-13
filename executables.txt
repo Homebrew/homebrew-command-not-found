@@ -34,6 +34,7 @@ afl-fuzz:afl-clang afl-clang++ afl-cmin afl-fuzz afl-g++ afl-gcc afl-gotcpu afl-
 afsctool:afsctool
 aften:aften wavfilter wavinfo wavrms
 agda:agda agda-mode
+agedu:
 aget:aget
 aggregate:aggregate aggregate-ios
 aha:aha
@@ -810,7 +811,7 @@ figlet:chkfont figlet figlist showfigfonts
 file-roller:file-roller
 finatra:finatra
 findbugs:fb findbugs
-findutils:gfind glocate goldfind gupdatedb gxargs
+findutils:gfind glocate gupdatedb gxargs
 fio:fio fio-dedupe fio-genzipf fio2gnuplot fio_generate_plots genfio
 fish:fish fish_indent mimedb
 fits:fits fits-ngserver
@@ -1256,6 +1257,7 @@ homebrew/boneyard/mydumper:mydumper myloader
 homebrew/boneyard/mysql-connector-odbc:myodbc-installer
 homebrew/boneyard/mysql-proxy:mysql-binlog-dump mysql-myisam-dump mysql-proxy
 homebrew/boneyard/net6:
+homebrew/boneyard/p11-kit:p11-kit
 homebrew/boneyard/paq8px:paq8px
 homebrew/boneyard/par2tbb:par2 par2create par2repair par2verify
 homebrew/boneyard/pure:pure
@@ -3141,6 +3143,7 @@ homebrew/versions/postgresql8:clusterdb createdb createlang createuser dropdb dr
 homebrew/versions/postgresql91:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_resetxlog pg_restore pg_standby pg_test_fsync pg_upgrade pgbench pltcl_delmod pltcl_listmod pltcl_loadmod postgres postmaster psql reindexdb vacuumdb vacuumlo
 homebrew/versions/postgresql92:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_receivexlog pg_resetxlog pg_restore pg_standby pg_test_fsync pg_test_timing pg_upgrade pgbench pltcl_delmod pltcl_listmod pltcl_loadmod postgres postmaster psql reindexdb vacuumdb vacuumlo
 homebrew/versions/postgresql93:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivexlog pg_resetxlog pg_restore pg_standby pg_test_fsync pg_test_timing pg_upgrade pg_xlogdump pgbench pltcl_delmod pltcl_listmod pltcl_loadmod postgres postmaster psql reindexdb vacuumdb vacuumlo
+homebrew/versions/postgresql94:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivexlog pg_recvlogical pg_resetxlog pg_restore pg_standby pg_test_fsync pg_test_timing pg_upgrade pg_xlogdump pgbench pltcl_delmod pltcl_listmod pltcl_loadmod postgres postmaster psql reindexdb vacuumdb vacuumlo
 homebrew/versions/postgresql9:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg initdb oid2name pg_archivecleanup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_resetxlog pg_restore pg_standby pg_upgrade pgbench pltcl_delmod pltcl_listmod pltcl_loadmod postgres postmaster psql reindexdb vacuumdb vacuumlo
 homebrew/versions/povray36:povray
 homebrew/versions/ppl011:ppl-config
@@ -3355,6 +3358,7 @@ imapsync:imapsync
 imessage-ruby:imessage
 imgur-screenshot:imgur-screenshot.sh
 imlib2:imlib2-config imlib2_bumpmap imlib2_colorspace imlib2_conv imlib2_grab imlib2_poly imlib2_show imlib2_test imlib2_view
+infer:infer
 influxdb:influx influxd
 iniparser:
 innoextract:innoextract
@@ -4321,7 +4325,6 @@ otto:otto
 owamp:owampd owfetch owping owstats owtvec owup powstream
 owfs:owdir owexist owexternal owftpd owget owhttpd owmon owpresent owread owserver owtap owwrite
 p0f:p0f
-p11-kit:p11-kit
 p7zip:7z 7za 7zr
 pacapt:pacapt
 packer:packer packer-builder-amazon-chroot packer-builder-amazon-ebs packer-builder-amazon-instance packer-builder-digitalocean packer-builder-docker packer-builder-file packer-builder-googlecompute packer-builder-null packer-builder-openstack packer-builder-parallels-iso packer-builder-parallels-pvm packer-builder-qemu packer-builder-virtualbox-iso packer-builder-virtualbox-ovf packer-builder-vmware-iso packer-builder-vmware-vmx packer-post-processor-atlas packer-post-processor-compress packer-post-processor-docker-import packer-post-processor-docker-push packer-post-processor-docker-save packer-post-processor-docker-tag packer-post-processor-vagrant packer-post-processor-vagrant-cloud packer-post-processor-vsphere packer-provisioner-ansible-local packer-provisioner-chef-client packer-provisioner-chef-solo packer-provisioner-file packer-provisioner-powershell packer-provisioner-puppet-masterless packer-provisioner-puppet-server packer-provisioner-salt-masterless packer-provisioner-shell packer-provisioner-shell-local packer-provisioner-windows-restart packer-provisioner-windows-shell
