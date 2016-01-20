@@ -641,8 +641,9 @@ docbook-xsl:dbtoepub
 docbook2x:db2x_manxml db2x_texixml db2x_xsltproc docbook2man docbook2texi sgml2xml-isoent utf8trans
 docbook:
 docker-compose:docker-compose
+docker-machine-driver-xhyve:docker-machine-driver-xhyve
 docker-machine-parallels:docker-machine-driver-parallels
-docker-machine:docker-machine docker-machine-driver-amazonec2 docker-machine-driver-azure docker-machine-driver-digitalocean docker-machine-driver-exoscale docker-machine-driver-generic docker-machine-driver-google docker-machine-driver-hyperv docker-machine-driver-none docker-machine-driver-openstack docker-machine-driver-rackspace docker-machine-driver-softlayer docker-machine-driver-virtualbox docker-machine-driver-vmwarefusion docker-machine-driver-vmwarevcloudair docker-machine-driver-vmwarevsphere
+docker-machine:docker-machine
 docker-swarm:docker-swarm
 docker:docker
 dockutil:dockutil
@@ -844,6 +845,7 @@ fmdiff:filemerge fmdiff fmdiff3 fmmerge fmresolve
 fmpp:fmpp
 fobis:FoBiS.py
 folly:
+foma:cgflookup flookup foma
 fon-flash-cli:fon-flash
 fondu:dfont2res fondu frombin lumper setfondname showfond tobin ufond
 fontconfig:fc-cache fc-cat fc-list fc-match fc-pattern fc-query fc-scan fc-validate
@@ -1195,6 +1197,7 @@ herrie:herrie
 hevea:bibhva esponja hacha hevea imagen
 hexcurse:hexcurse
 hexedit:hexedit
+hfstospell:hfst-ospell
 hfsutils:hattrib hcd hcopy hdel hdir hformat hls hmkdir hmount hpwd hrename hrmdir humount hvol
 hg-flow:
 hh:hh
@@ -4583,6 +4586,7 @@ pyside:
 python-markdown:markdown_py
 python3:2to3-3.5 easy_install-3.5 idle3 idle3.5 pip3 pip3.5 pydoc3 pydoc3.5 python3 python3-config python3.5 python3.5-config python3.5m python3.5m-config pyvenv pyvenv-3.5 wheel3
 python:2to3 2to3-2 2to3-2.7 easy_install easy_install-2.7 idle idle2 idle2.7 pip pip2 pip2.7 pydoc pydoc2 pydoc2.7 python python-config python2 python2-config python2.7 python2.7-config pythonw pythonw2 pythonw2.7 smtpd.py smtpd2.7.py smtpd2.py wheel
+pyvim:ptipython ptpython pyflakes pygmentize pyvim
 q:q
 qbs:qbs qbs-config qbs-config-ui qbs-qmltypes qbs-setup-android qbs-setup-qt qbs-setup-toolchains
 qca:mozcerts qcatool
