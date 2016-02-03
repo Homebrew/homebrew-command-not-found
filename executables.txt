@@ -627,6 +627,7 @@ djbdns:axfr-get axfrdns axfrdns-conf dnscache dnscache-conf dnsfilter dnsip dnsi
 djview4:
 djvu2pdf:djvu2pdf
 djvulibre:any2djvu bzz c44 cjb2 cpaldjvu csepdjvu ddjvu djvm djvmcvt djvudigital djvudump djvuextract djvumake djvups djvused djvuserve djvutoxml djvutxt djvuxmlparser
+dlite:dlite
 dmalloc:dmalloc
 dmd:catdoc ddemangle detab dmd dustmite rdmd tolf
 dmtx-utils:dmtxquery dmtxread dmtxwrite
@@ -3004,6 +3005,7 @@ homebrew/versions/cassandra-0.6:cassandra cassandra-cli cassandra.in.sh clustert
 homebrew/versions/cassandra10:cassandra cassandra-cli cassandra.in.sh cqlsh cqlshrc.sample json2sstable nodetool sstable2json sstablekeys sstableloader stop-server
 homebrew/versions/cassandra12:cassandra cassandra-cli cassandra.in.sh cqlsh debug-cql json2sstable nodetool sstable2json sstablekeys sstableloader sstablescrub sstablesplit sstableupgrade stop-server
 homebrew/versions/cassandra20:cassandra cassandra-cli cassandra.in.sh cqlsh debug-cql json2sstable nodetool sstable2json sstablekeys sstableloader sstablescrub sstablesplit sstableupgrade stop-server
+homebrew/versions/cassandra21:cassandra cassandra-cli cqlsh debug-cql nodetool sstablekeys sstableloader sstablescrub sstableupgrade
 homebrew/versions/cassandra22:cassandra cqlsh cqlsh.py debug-cql nodetool sstablekeys sstableloader sstablescrub sstableupgrade sstableverify
 homebrew/versions/clojure14:clj
 homebrew/versions/cloog-ppl015:cloog
@@ -3025,6 +3027,7 @@ homebrew/versions/duplicity06:duplicity rdiffdir
 homebrew/versions/eigen2:
 homebrew/versions/elasticsearch17:elasticsearch elasticsearch.in.sh plugin
 homebrew/versions/elasticsearch20:elasticsearch elasticsearch.in.sh plugin
+homebrew/versions/elasticsearch21:elasticsearch elasticsearch.in.sh plugin
 homebrew/versions/erlang-r13:dialyzer epmd erl erlc escript run_erl to_erl typer
 homebrew/versions/erlang-r14:dialyzer epmd erl erlc escript run_erl run_test to_erl typer
 homebrew/versions/erlang-r15:ct_run dialyzer epmd erl erlc escript run_erl run_test to_erl typer
@@ -3110,6 +3113,7 @@ homebrew/versions/jython253:jython
 homebrew/versions/kettle54:pdicarte pdikitchen pdipan
 homebrew/versions/kibana41:kibana
 homebrew/versions/kibana42:kibana
+homebrew/versions/kibana43:kibana
 homebrew/versions/ledger26:ledger
 homebrew/versions/leptonica169:adaptmaptest adaptnorm_reg affine_reg alltests_reg alphaops_reg alphaxform_reg arithtest barcodetest baselinetest bilinear_reg binarize_reg bincompare binmorph1_reg binmorph2_reg binmorph3_reg binmorph4_reg binmorph5_reg blend2_reg blend_reg blendcmaptest blendtest1 buffertest byteatest ccbordtest cctest1 ccthin1_reg ccthin2_reg cmapquant_reg coloring_reg colormask_reg colormorphtest colorquant_reg colorseg_reg colorsegtest colorspacetest compare_reg comparepages comparetest compfilter_reg conncomp_reg contrasttest conversion_reg convertfilestopdf convertfilestops convertformat convertsegfilestopdf convertsegfilestops converttogray converttops convolve_reg convolvetest cornertest croptext dewarp_reg dewarptest1 dewarptest2 dewarptest3 digitprep1 distance_reg dithertest dna_reg dwalineargen dwamorph1_reg dwamorph2_reg edgetest enhance_reg equal_reg expand_reg extrema_reg falsecolortest fcombautogen fhmtauto_reg fhmtautogen fileinfo findpattern1 findpattern2 findpattern3 findpattern_reg flipdetect_reg flipselgen fmorphauto_reg fmorphautogen fpix_reg fpixcontours gammatest genfonts gifio_reg graphicstest grayfill_reg graymorph1_reg graymorph2_reg graymorphtest grayquant_reg hardlight_reg heap_reg histotest inserttest ioformats_reg iotest jbcorrelation jbrankhaus jbwords kernel_reg lineremoval listtest livre_adapt livre_hmt livre_makefigs livre_orient livre_pageseg livre_seedgen livre_tophat locminmax_reg logicops_reg lowaccess_reg maketile maze_reg misctest1 modifyhuesat morphseq_reg morphtest1 mtifftest numa_reg numaranktest otsutest1 otsutest2 overlap_reg pagesegtest1 pagesegtest2 paint_reg paintmask_reg partitiontest pdfiotest pdfseg_reg pixa1_reg pixa2_reg pixaatest pixadisp_reg pixalloc_reg pixcomp_reg pixmem_reg pixserial_reg pixtile_reg plottest pngio_reg printimage printsplitimage printtiff projection_reg projective_reg psio_reg psioseg_reg pta_reg ptra1_reg ptra2_reg quadtreetest rank_reg rankbin_reg rankhisto_reg ranktest rasterop_reg rasteropip_reg reducetest removecmap renderfonts rotate1_reg rotate2_reg rotatefastalt rotateorth_reg rotateorthtest1 rotatetest1 runlengthtest scale_reg scaleandtile scaletest1 scaletest2 seedfilltest seedspread_reg selio_reg sharptest shear2_reg shear_reg sheartest showedges skew_reg skewtest smallpix_reg smoothedge_reg snapcolortest sorttest splitcomp_reg splitimage2pdf string_reg subpixel_reg sudokutest textlinemask threshnorm_reg translate_reg trctest viewertest warper_reg warpertest watershedtest wordsinorder writemtiff writetext_reg xformbox_reg xtractprotos xvdisp yuvtest
 homebrew/versions/libcouchbase1:cbc cbc-cat cbc-cp cbc-create cbc-flush cbc-receive cbc-rm cbc-send cbc-stats cbc-verify cbc-version
@@ -3131,6 +3135,7 @@ homebrew/versions/llvm35:bugpoint-3.5 c-index-test-3.5 clang++-3.5 clang-3.5 cla
 homebrew/versions/llvm36:bugpoint-3.6 c-index-test-3.6 clang++-3.6 clang-3.6 clang-apply-replacements-3.6 clang-check-3.6 clang-format-3.6 clang-modernize-3.6 clang-query-3.6 clang-rename-3.6 clang-tblgen-3.6 clang-tidy-3.6 count-3.6 FileCheck-3.6 llc-3.6 lli-3.6 lli-child-target-3.6 llvm-ar-3.6 llvm-as-3.6 llvm-bcanalyzer-3.6 llvm-config-3.6 llvm-cov-3.6 llvm-diff-3.6 llvm-dis-3.6 llvm-dsymutil-3.6 llvm-dwarfdump-3.6 llvm-extract-3.6 llvm-link-3.6 llvm-mc-3.6 llvm-mcmarkup-3.6 llvm-nm-3.6 llvm-objdump-3.6 llvm-profdata-3.6 llvm-ranlib-3.6 llvm-readobj-3.6 llvm-rtdyld-3.6 llvm-size-3.6 llvm-stress-3.6 llvm-symbolizer-3.6 llvm-tblgen-3.6 llvm-vtabledump-3.6 macho-dump-3.6 not-3.6 obj2yaml-3.6 opt-3.6 pp-trace-3.6 scan-build-3.6 scan-view-3.6 verify-uselistorder-3.6 yaml2obj-3.6
 homebrew/versions/llvm37:FileCheck-3.7 bugpoint-3.7 c-index-test-3.7 clang++-3.7 clang-3.7 clang-apply-replacements-3.7 clang-check-3.7 clang-format-3.7 clang-modernize-3.7 clang-query-3.7 clang-rename-3.7 clang-tblgen-3.7 clang-tidy-3.7 count-3.7 llc-3.7 lli-3.7 lli-child-target-3.7 llvm-ar-3.7 llvm-as-3.7 llvm-bcanalyzer-3.7 llvm-config-3.7 llvm-cov-3.7 llvm-cxxdump-3.7 llvm-diff-3.7 llvm-dis-3.7 llvm-dsymutil-3.7 llvm-dwarfdump-3.7 llvm-extract-3.7 llvm-link-3.7 llvm-mc-3.7 llvm-mcmarkup-3.7 llvm-nm-3.7 llvm-objdump-3.7 llvm-pdbdump-3.7 llvm-profdata-3.7 llvm-ranlib-3.7 llvm-readobj-3.7 llvm-rtdyld-3.7 llvm-size-3.7 llvm-stress-3.7 llvm-symbolizer-3.7 llvm-tblgen-3.7 macho-dump-3.7 not-3.7 obj2yaml-3.7 opt-3.7 pp-trace-3.7 scan-build-3.7 scan-view-3.7 verify-uselistorder-3.7 yaml2obj-3.7
 homebrew/versions/log4cplus10:
+homebrew/versions/logstash21:logstash logstash-plugin
 homebrew/versions/lua53:lua-5.3 lua5.3 luac-5.3 luac5.3 luarocks-5.3 luarocks-admin-5.3
 homebrew/versions/lz4r117:lz4 lz4c lz4cat
 homebrew/versions/mapnik2:mapnik-config mapnik-speed-check shapeindex upgrade_map_xml.py
