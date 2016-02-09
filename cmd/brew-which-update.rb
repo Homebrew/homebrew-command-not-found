@@ -178,11 +178,10 @@ if ARGV.include? "--stats"
   exit
 end
 
-def english_list(els, state)
+def english_list(els, verb)
   msg = els.slice(0, 3).join(", ")
   msg << " and #{els.length - 3} more" if msg.length < 40 && els.length > 3
-  msg << " #{state}"
-  msg
+  "#{verb.capitalize} #{msg}"
 end
 
 source = ARGV.named.first
@@ -201,11 +200,11 @@ if ARGV.include?("--commit") && changed
 
   # we don't try to report everything, only the most common stuff
   if !added.empty?
-    msg << english_list(added, "added")
+    msg << english_list(added, "add")
   elsif !updated.empty?
-    msg << english_list(updated, "updated")
+    msg << english_list(updated, "update")
   elsif !removed.empty?
-    msg << english_list(removed, "removed")
+    msg << english_list(removed, "remove")
   end
 
   db.save!
