@@ -957,6 +957,7 @@ geoipupdate:geoipupdate
 geos:geos-config
 geoserver:geoserver
 gerbv:gerbv
+gerrit-tools:gerrit-cherry-pick gerrit-setup git-review
 get-flash-videos:get_flash_videos
 getdns:
 getmail:getmail getmail_fetch getmail_maildir getmail_mbox
@@ -1775,7 +1776,6 @@ homebrew/head-only/f2c:f2c
 homebrew/head-only/figtoipe:figtoipe
 homebrew/head-only/fssh:fssh ui_copy ui_paste
 homebrew/head-only/gccxml:gccxml gccxml_cc1plus
-homebrew/head-only/gerrit-tools:gerrit-cherry-pick gerrit-setup git-review
 homebrew/head-only/git-hg:git-hg
 homebrew/head-only/git-svn-abandon:git-svn-abandon-cleanup git-svn-abandon-fix-refs git-svn-abandon-msg-filter
 homebrew/head-only/git-utils:git-addremove git-incoming git-index git-last git-outgoing git-patch git-pull-request git-rank-contributors git-rm-conflicts git-switch git-unwip git-wip git-wtf
@@ -3345,6 +3345,7 @@ htmlcompressor:htmlcompressor
 htmlcxx:htmlcxx
 htmldoc:htmldoc
 htop-osx:htop
+htop:htop
 htpdate:htpdate
 http-parser:
 http_load:http_load
@@ -4781,6 +4782,7 @@ rsense:rsense
 rsnapshot:rsnapshot rsnapshot-diff
 rssh:rssh
 rsstail:rsstail
+rswift:rswift
 rsyslog:msggen rsyslog_diag_hostname rsyslogd zpipe
 rt-audio:
 rtags:gcc-rtags-wrapper.sh rc rdm rp
@@ -4789,7 +4791,6 @@ rtmidi:
 rtmpdump:rtmpdump rtmpgw rtmpsrv rtmpsuck
 rtorrent:rtorrent
 rtpbreak:rtpbreak
-rubber:rubber rubber-info rubber-pipe
 rubberband:rubberband
 ruby-build:rbenv-install rbenv-uninstall ruby-build
 ruby-install:ruby-install
@@ -5061,7 +5062,7 @@ sub2srt:sub2srt
 subliminal:subliminal
 submarine:submarine
 subnetcalc:subnetcalc
-subversion:svn svnadmin svndumpfilter svnlook svnmucc svnrdump svnserve svnsync svnversion
+subversion:svn svnadmin svnbench svndumpfilter svnfsfs svnlook svnmucc svnrdump svnserve svnsync svnversion
 suil:
 suomi-malaga-voikko:
 supersonic:
@@ -5406,7 +5407,6 @@ when:when
 whirr:whirr
 whitedb:wgdb
 whohas:whohas
-why3:why3
 wifi-password:wifi-password
 wiggle:wiggle
 wiki:wiki
