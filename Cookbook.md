@@ -8,3 +8,6 @@ I get hit by a truck. The near-future goal is to automate this process.
    changed their binaries.
 3. In the root directory of this tap, run `brew which-update --commit executables.txt`
 4. Push.
+
+You can also run `brew which-update --stats executables.txt` to see which
+formulae are missing.
