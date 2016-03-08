@@ -43,9 +43,19 @@ brew tap homebrew/command-not-found
     brew command command-not-found-init > /dev/null; and . (brew command-not-found-init)
     ```
 
-## Support
+## Requirements
 
-This tool supports Bash (version 4 and higher), Zsh and Fish.
+This tool requires one of the following:
+
+* [Bash](https://www.gnu.org/software/bash/) (version 4 and higher)
+* [Fish](https://fishshell.com)
+* [Zsh](http://www.zsh.org)
+
+Mac OS X ships Bash 3.x so you must upgrade to v4.x with:
+
+```bash
+brew install bash
+```
 
 ## How does it work?
 
