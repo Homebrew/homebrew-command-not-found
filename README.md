@@ -43,16 +43,6 @@ brew tap homebrew/command-not-found
     brew command command-not-found-init > /dev/null; and . (brew command-not-found-init)
     ```
 
-### Upgrade from 0.1.1
-
-Before the 0.2.0 version this was a simple `handler.sh` script which `grep`-ed
-in formulae to find the binaries. It worked well for most formulae but wasn’t
-exhaustive.
-
-The 0.2.0 version changed how it works. If you’d like to keep your existing
-handler script, it’s fine, it’ll continue to work. If instead you’d like to
-upgrade to 0.2.0 just remove it and follow the install instructions above.
-
 ## Support
 
 This tool supports Bash (version 4 and higher), Zsh and Fish.
