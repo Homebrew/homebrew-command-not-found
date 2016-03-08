@@ -21,7 +21,7 @@ The program 'when' is currently not installed. You can install it by typing:
   brew install when
 ```
 
-Over 5400 formulae are supported, representing more than 20600 different commands
+Over 5600 formulae are supported, representing more than 20800 different commands
 (99% of the main Homebrew repo + 99% of all official taps).
 
 ## Install
