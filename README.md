@@ -31,7 +31,7 @@ First, tap this repository:
 brew tap homebrew/command-not-found
 ```
 
-* **Bash and Zsh**: Add the following line to your `.bashrc` (bash) or `.zshrc` (zsh):
+* **Bash and Zsh**: Add the following line to your `~/.bash_profile` (bash) or `~/.zshrc` (zsh):
 
     ```bash
     if brew command command-not-found-init > /dev/null; then eval "$(brew command-not-found-init)"; fi
