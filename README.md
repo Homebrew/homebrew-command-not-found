@@ -51,10 +51,14 @@ This tool requires one of the following:
 * [Fish](https://fishshell.com)
 * [Zsh](http://www.zsh.org)
 
-Mac OS X ships Bash 3.x so you must upgrade to v4.x with:
+Mac OS X ships Bash 3.x so you must upgrade to v4.x and configure it to be used with:
 
 ```bash
-brew install bash
+brew update && brew install bash
+# Add the new shell to the list of allowed shells
+sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
+# Change to the new shell
+chsh -s /usr/local/bin/bash 
 ```
 
 ## How does it work?
