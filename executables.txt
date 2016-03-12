@@ -117,7 +117,6 @@ arp-scan:arp-fingerprint arp-scan get-iab get-oui
 arp-sk:arp-sk
 arping:arping
 arpoison:arpoison
-arpon:arpon
 arss:arss
 artifactory-cli-go:art
 artifactory:artifactory.default artifactory.sh
@@ -862,7 +861,6 @@ flashrom:flashrom
 flasm:flasm
 flatbuffers:flatc
 flawfinder:flawfinder
-fleet-db:fleetdb-server
 fleetctl:fleetctl
 flex:flex flex++
 flickcurl:flickcurl flickcurl-config flickrdf
@@ -1296,12 +1294,15 @@ homebrew/binary/rebol-core:rebol
 homebrew/binary/rebol-view:rebol
 homebrew/binary/subgit:subgit
 homebrew/binary/txl:txl txlc txldb txlp
+homebrew/boneyard/arpon:arpon
+homebrew/boneyard/asm6:asm6
 homebrew/boneyard/catdoc:catdoc catppt wordview xls2csv
 homebrew/boneyard/cdimgtools:dvdimgdecss cssdec
 homebrew/boneyard/cppdom:cppdom-config
 homebrew/boneyard/dupx:dupx
 homebrew/boneyard/echoping:echoping
 homebrew/boneyard/ffts:
+homebrew/boneyard/fleet-db:fleetdb-server
 homebrew/boneyard/gant:gant
 homebrew/boneyard/gccxml:gccxml gccxml_cc1plus
 homebrew/boneyard/gdrive:drive
@@ -1336,6 +1337,7 @@ homebrew/boneyard/telepathy-mission-control:mc-tool mc-wait-for-name
 homebrew/boneyard/vobcopy:vobcopy
 homebrew/boneyard/whereami:whereami
 homebrew/boneyard/wkhtmltopdf:wkhtmltoimage wkhtmltopdf
+homebrew/boneyard/xulrunner:xulrunner
 homebrew/boneyard/ydict:ydict ydict.py
 homebrew/completions/apm-bash-completion:
 homebrew/completions/aptly-completion:
@@ -2418,6 +2420,7 @@ homebrew/php/php70-imagick:
 homebrew/php/php70-intl:
 homebrew/php/php70-kafka:
 homebrew/php/php70-libsodium:
+homebrew/php/php70-lz4:
 homebrew/php/php70-lzf:
 homebrew/php/php70-mailparse:
 homebrew/php/php70-mcrypt:
@@ -2445,6 +2448,7 @@ homebrew/php/php70-xdebug:
 homebrew/php/php70-xxtea:
 homebrew/php/php70-yaml:
 homebrew/php/php70:phar phar.phar php php-cgi php-config php-fpm php70-fpm phpize
+homebrew/php/phpab:phpab
 homebrew/php/phpbrew:phpbrew
 homebrew/php/phpcpd:phpcpd
 homebrew/php/phpctags:phpctags
@@ -2461,9 +2465,11 @@ homebrew/php/phppgadmin:
 homebrew/php/phpsh:dbgp-phpsh.py phpsh
 homebrew/php/phpunit-skeleton-generator:phpunit-skelgen
 homebrew/php/phpunit:phpunit
+homebrew/php/pickle:pickle
 homebrew/php/psysh:psysh
 homebrew/php/puli:puli
 homebrew/php/sqlformat:sqlformat
+homebrew/php/symfony-installer:symfony
 homebrew/php/terminus:terminus
 homebrew/php/virtphp:virtphp
 homebrew/php/wp-cli:wp
@@ -5317,6 +5323,7 @@ tvnamer:tvnamer
 twemcache:twemcache
 two-lame:twolame
 twoping:2ping 2ping6
+twtxt:twtxt
 txr:txr
 txt2man:bookman src2man txt2man
 txt2tags:txt2tags
@@ -5550,7 +5557,6 @@ xstow:merge-info xstow
 xsw:xsw xsw2jpeg xsw2pdf xsw2png xswconv
 xtail:xtail
 xtitle:xtctl xtitle
-xulrunner:xulrunner
 xvid:
 xxhash:xxhsum
 xz:lzcat lzcmp lzdiff lzegrep lzfgrep lzgrep lzless lzma lzmadec lzmainfo lzmore unlzma unxz xz xzcat xzcmp xzdec xzdiff xzegrep xzfgrep xzgrep xzless xzmore
