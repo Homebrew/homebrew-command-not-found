@@ -31,7 +31,7 @@ aeskeyfind:aeskeyfind
 aespipe:aespipe
 afflib:affcat affcompare affconvert affcopy affcrypto affdiskprint affinfo affix affrecover affsegment affsign affstats affuse affverify affxml
 afio:afio
-afl-fuzz:afl-clang afl-clang++ afl-cmin afl-fuzz afl-g++ afl-gcc afl-gotcpu afl-plot afl-showmap afl-tmin afl-whatsup
+afl-fuzz:afl-analyze afl-clang afl-clang++ afl-cmin afl-fuzz afl-g++ afl-gcc afl-gotcpu afl-plot afl-showmap afl-tmin afl-whatsup
 afsctool:afsctool
 aften:aften wavfilter wavinfo wavrms
 agda:agda agda-mode
@@ -177,6 +177,7 @@ aws-cfn-tools:cfn-cancel-update-stack cfn-cmd cfn-create-stack cfn-delete-stack 
 aws-cloudsearch:cs-cmd cs-configure-from-batches cs-import-documents
 aws-elasticache:elasticache elasticache-authorize-cache-security-group-ingress elasticache-copy-snapshot elasticache-create-cache-cluster elasticache-create-cache-parameter-group elasticache-create-cache-security-group elasticache-create-cache-subnet-group elasticache-create-replication-group elasticache-create-snapshot elasticache-delete-cache-cluster elasticache-delete-cache-parameter-group elasticache-delete-cache-security-group elasticache-delete-cache-subnet-group elasticache-delete-replication-group elasticache-delete-snapshot elasticache-describe-cache-clusters elasticache-describe-cache-engine-versions elasticache-describe-cache-parameter-groups elasticache-describe-cache-parameters elasticache-describe-cache-security-groups elasticache-describe-cache-subnet-groups elasticache-describe-engine-default-parameters elasticache-describe-events elasticache-describe-replication-groups elasticache-describe-reserved-cache-nodes elasticache-describe-reserved-cache-nodes-offerings elasticache-describe-snapshots elasticache-modify-cache-cluster elasticache-modify-cache-parameter-group elasticache-modify-cache-subnet-group elasticache-modify-replication-group elasticache-purchase-reserved-cache-nodes-offering elasticache-reboot-cache-cluster elasticache-reset-cache-parameter-group elasticache-revoke-cache-security-group-ingress elasticache-version
 aws-elasticbeanstalk:eb
+aws-keychain:aws-keychain
 aws-shell:aws-shell aws-shell-mkindex
 aws-sns-cli:sns-add-permission sns-cmd sns-confirm-subscription sns-create-topic sns-delete-topic sns-get-subscription-attributes sns-get-topic-attributes sns-list-subscriptions sns-list-subscriptions-by-topic sns-list-topics sns-publish sns-remove-permission sns-set-subscription-attributes sns-set-topic-attributes sns-subscribe sns-unsubscribe sns-version
 awscli:aws aws.cmd aws_completer aws_zsh_completer.sh
@@ -471,6 +472,7 @@ commandbox:box
 commonmark:cmark
 compcert:ccomp
 compface:compface uncompface
+conan:conan conan_server
 concurrencykit:
 confuse:
 conserver:console conserver
@@ -743,7 +745,7 @@ ejabberd:ejabberdctl
 ejdb:jbbmgr jbfmgr jbhmgr jbtmgr
 ekg2:ekg2
 ekhtml:
-elasticsearch:elasticsearch elasticsearch.in.sh plugin
+elasticsearch:elasticsearch
 elb-tools:elb-apply-security-groups-to-lb elb-associate-route53-hosted-zone elb-attach-lb-to-subnets elb-cmd elb-configure-healthcheck elb-create-app-cookie-stickiness-policy elb-create-lb elb-create-lb-cookie-stickiness-policy elb-create-lb-listeners elb-create-lb-policy elb-delete-lb elb-delete-lb-listeners elb-delete-lb-policy elb-deregister-instances-from-lb elb-describe-instance-health elb-describe-lb-attributes elb-describe-lb-policies elb-describe-lb-policy-types elb-describe-lbs elb-detach-lb-from-subnets elb-disable-zones-for-lb elb-disassociate-route53-hosted-zone elb-enable-zones-for-lb elb-modify-lb-attributes elb-register-instances-with-lb elb-set-lb-listener-ssl-cert elb-set-lb-policies-for-backend-server elb-set-lb-policies-of-listener elb-version
 elementary:elementary_codegen elementary_config elementary_quicklaunch elementary_run elementary_test elm_prefs_cc
 elinks:elinks
