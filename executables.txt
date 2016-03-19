@@ -226,6 +226,7 @@ betty:betty
 bfg:bfg
 bgpdump:bgpdump
 bgpq3:bgpq3
+bgpstream:bgpcorsaro bgpreader
 bgrep:bgrep
 bib-tool:bibtool
 bibclean:bibclean bibclean-2.16
@@ -863,6 +864,7 @@ flake:flake
 flashrom:flashrom
 flasm:flasm
 flatbuffers:flatc
+flatcc:flatcc
 flawfinder:flawfinder
 fleetctl:fleetctl
 flex:flex flex++
@@ -3231,6 +3233,7 @@ homebrew/versions/llvm34:bugpoint-3.4 c-index-test-3.4 clang++-3.4 clang-3.4 cla
 homebrew/versions/llvm35:bugpoint-3.5 c-index-test-3.5 clang++-3.5 clang-3.5 clang-apply-replacements-3.5 clang-check-3.5 clang-format-3.5 clang-modernize-3.5 clang-query-3.5 clang-tblgen-3.5 clang-tidy-3.5 count-3.5 FileCheck-3.5 llc-3.5 lli-3.5 lli-child-target-3.5 llvm-ar-3.5 llvm-as-3.5 llvm-bcanalyzer-3.5 llvm-config-3.5 llvm-cov-3.5 llvm-diff-3.5 llvm-dis-3.5 llvm-dwarfdump-3.5 llvm-extract-3.5 llvm-link-3.5 llvm-mc-3.5 llvm-mcmarkup-3.5 llvm-nm-3.5 llvm-objdump-3.5 llvm-profdata-3.5 llvm-ranlib-3.5 llvm-readobj-3.5 llvm-rtdyld-3.5 llvm-size-3.5 llvm-stress-3.5 llvm-symbolizer-3.5 llvm-tblgen-3.5 macho-dump-3.5 not-3.5 opt-3.5 pp-trace-3.5
 homebrew/versions/llvm36:bugpoint-3.6 c-index-test-3.6 clang++-3.6 clang-3.6 clang-apply-replacements-3.6 clang-check-3.6 clang-format-3.6 clang-modernize-3.6 clang-query-3.6 clang-rename-3.6 clang-tblgen-3.6 clang-tidy-3.6 count-3.6 FileCheck-3.6 llc-3.6 lli-3.6 lli-child-target-3.6 llvm-ar-3.6 llvm-as-3.6 llvm-bcanalyzer-3.6 llvm-config-3.6 llvm-cov-3.6 llvm-diff-3.6 llvm-dis-3.6 llvm-dsymutil-3.6 llvm-dwarfdump-3.6 llvm-extract-3.6 llvm-link-3.6 llvm-mc-3.6 llvm-mcmarkup-3.6 llvm-nm-3.6 llvm-objdump-3.6 llvm-profdata-3.6 llvm-ranlib-3.6 llvm-readobj-3.6 llvm-rtdyld-3.6 llvm-size-3.6 llvm-stress-3.6 llvm-symbolizer-3.6 llvm-tblgen-3.6 llvm-vtabledump-3.6 macho-dump-3.6 not-3.6 obj2yaml-3.6 opt-3.6 pp-trace-3.6 scan-build-3.6 scan-view-3.6 verify-uselistorder-3.6 yaml2obj-3.6
 homebrew/versions/llvm37:FileCheck-3.7 bugpoint-3.7 c-index-test-3.7 clang++-3.7 clang-3.7 clang-apply-replacements-3.7 clang-check-3.7 clang-format-3.7 clang-modernize-3.7 clang-query-3.7 clang-rename-3.7 clang-tblgen-3.7 clang-tidy-3.7 count-3.7 llc-3.7 lli-3.7 lli-child-target-3.7 llvm-ar-3.7 llvm-as-3.7 llvm-bcanalyzer-3.7 llvm-config-3.7 llvm-cov-3.7 llvm-cxxdump-3.7 llvm-diff-3.7 llvm-dis-3.7 llvm-dsymutil-3.7 llvm-dwarfdump-3.7 llvm-extract-3.7 llvm-link-3.7 llvm-mc-3.7 llvm-mcmarkup-3.7 llvm-nm-3.7 llvm-objdump-3.7 llvm-pdbdump-3.7 llvm-profdata-3.7 llvm-ranlib-3.7 llvm-readobj-3.7 llvm-rtdyld-3.7 llvm-size-3.7 llvm-stress-3.7 llvm-symbolizer-3.7 llvm-tblgen-3.7 macho-dump-3.7 not-3.7 obj2yaml-3.7 opt-3.7 pp-trace-3.7 scan-build-3.7 scan-view-3.7 verify-uselistorder-3.7 yaml2obj-3.7
+homebrew/versions/llvm38:FileCheck-3.8 bugpoint-3.8 c-index-test-3.8 clang++-3.8 clang-3.8 clang-apply-replacements-3.8 clang-check-3.8 clang-format-3.8 clang-query-3.8 clang-rename-3.8 clang-tblgen-3.8 clang-tidy-3.8 count-3.8 llc-3.8 lli-3.8 lli-child-target-3.8 llvm-ar-3.8 llvm-as-3.8 llvm-bcanalyzer-3.8 llvm-config-3.8 llvm-cov-3.8 llvm-cxxdump-3.8 llvm-diff-3.8 llvm-dis-3.8 llvm-dsymutil-3.8 llvm-dwarfdump-3.8 llvm-dwp-3.8 llvm-extract-3.8 llvm-link-3.8 llvm-lto-3.8 llvm-mc-3.8 llvm-mcmarkup-3.8 llvm-nm-3.8 llvm-objdump-3.8 llvm-pdbdump-3.8 llvm-profdata-3.8 llvm-ranlib-3.8 llvm-readobj-3.8 llvm-rtdyld-3.8 llvm-size-3.8 llvm-split-3.8 llvm-stress-3.8 llvm-symbolizer-3.8 llvm-tblgen-3.8 not-3.8 obj2yaml-3.8 opt-3.8 pp-trace-3.8 sancov-3.8 scan-build scan-view verify-uselistorder-3.8 yaml2obj-3.8
 homebrew/versions/log4cplus10:
 homebrew/versions/logstash21:logstash logstash-plugin
 homebrew/versions/lua53:lua-5.3 lua5.3 luac-5.3 luac5.3 luarocks-5.3 luarocks-admin-5.3
@@ -3541,6 +3544,7 @@ jerm:jerm tiocdtr
 jetty-runner:jetty-runner
 jetty:jetty
 jflex:jflex
+jfrog-cli-go:jfrog
 jhead:jhead
 jhiccup:jHiccup jHiccupPlotter
 jigdo:jigdo jigdo-file jigdo-lite jigdo-mirror
@@ -4956,6 +4960,7 @@ sfcgal:sfcgal-config
 sfk:sfk
 sflowtool:sflowtool
 sfml:
+sgfutils:ngf2sgf nip2sgf nk2sgf sgf sgfcharset sgfcheck sgfcmp sgfdb sgfdbinfo sgfinfo sgfmerge sgfsplit sgfstrip sgftf sgftopng sgfvarsplit sgfx ugi2sgf
 sgrep:sgrep
 sha2:sha2
 shadowsocks-libev:ss-local ss-manager ss-server ss-tunnel
@@ -5456,6 +5461,7 @@ wait_on:wait_on
 wakatime-cli:wakatime
 wakeonlan:wakeonlan
 walkmod:walkmod
+wandio:wandiocat
 waon:waon
 wartremover:wartremover
 watch-sim:watch-sim
