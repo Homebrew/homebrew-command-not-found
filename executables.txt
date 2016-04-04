@@ -537,7 +537,6 @@ csshx:csshX
 csup:csup
 csv-fix:csvfix
 csvprintf:csvprintf xml2csv
-csync:csync
 ctags:ctags
 ctail:ctail
 ctemplate:diff_tpl_auto_escape make_tpl_varnames_h template-converter
@@ -819,6 +818,7 @@ faac:faac
 faad2:faad
 fabio:fabio
 fabric:fab
+fades:fades
 fail2ban:fail2ban-client fail2ban-regex fail2ban-server
 fakeroot:faked fakeroot
 falcon:falcon falcon-conf falconeer.fal falconenv.sh faldisass faldoc fallc.fal falpack falrun faltest icomp.sh
@@ -1230,6 +1230,7 @@ h2:h2
 h2o:h2o
 hachoir-metadata:hachoir-metadata hachoir-metadata-gtk hachoir-metadata-qt
 hackrf:hackrf_cpldjtag hackrf_info hackrf_max2837 hackrf_rffc5071 hackrf_si5351c hackrf_spiflash hackrf_transfer
+hadolint:hadolint
 hadoop:container-executor distribute-exclude.sh hadoop hadoop-daemon.sh hadoop-daemons.sh hdfs hdfs-config.sh httpfs.sh kms.sh mapred mr-jobhistory-daemon.sh refresh-namenodes.sh slaves.sh start-all.sh start-balancer.sh start-dfs.sh start-secure-dns.sh start-yarn.sh stop-all.sh stop-balancer.sh stop-dfs.sh stop-secure-dns.sh stop-yarn.sh test-container-executor yarn yarn-daemon.sh yarn-daemons.sh
 halibut:halibut
 hamlib:rigctl rigctld rigmem rigsmtr rigswr rotctl rotctld rpc.rigd rpc.rotd
@@ -1311,6 +1312,7 @@ homebrew/boneyard/asm6:asm6
 homebrew/boneyard/catdoc:catdoc catppt wordview xls2csv
 homebrew/boneyard/cdimgtools:dvdimgdecss cssdec
 homebrew/boneyard/cppdom:cppdom-config
+homebrew/boneyard/csync:csync
 homebrew/boneyard/dupx:dupx
 homebrew/boneyard/echoping:echoping
 homebrew/boneyard/ffts:
@@ -1351,6 +1353,7 @@ homebrew/boneyard/telepathy-mission-control:mc-tool mc-wait-for-name
 homebrew/boneyard/vobcopy:vobcopy
 homebrew/boneyard/whereami:whereami
 homebrew/boneyard/wkhtmltopdf:wkhtmltoimage wkhtmltopdf
+homebrew/boneyard/xsp:asp-state asp-state2 asp-state4 dbsessmgr dbsessmgr2 dbsessmgr4 fastcgi-mono-server fastcgi-mono-server2 fastcgi-mono-server4 mod-mono-server mod-mono-server2 mod-mono-server4 xsp xsp2 xsp4
 homebrew/boneyard/xulrunner:xulrunner
 homebrew/boneyard/ydict:ydict ydict.py
 homebrew/completions/apm-bash-completion:
@@ -3644,6 +3647,7 @@ ksh:ksh ksh93
 kstart:k5start krenew
 ktoblzcheck:ktoblzcheck
 kubernetes-cli:kubectl kubernetes
+kubernetes-helm:helm
 kvazaar:kvazaar
 kyoto-cabinet:kccachetest kcdirmgr kcdirtest kcforestmgr kcforesttest kcgrasstest kchashmgr kchashtest kclangctest kcpolymgr kcpolytest kcprototest kcstashtest kctreemgr kctreetest kcutilmgr kcutiltest
 kyoto-tycoon:ktremotemgr ktremotetest ktserver kttimedmgr kttimedtest ktutilmgr ktutilserv ktutiltest
@@ -3662,6 +3666,7 @@ latex2html:latex2html pstoimg texexpand
 latex2rtf:latex2png latex2rtf
 launch4j:launch4j
 launch:launch
+launch_socket_server:launch_socket_server
 launchdns:launchdns
 lbdb:lbdb-fetchaddr lbdb_dotlock lbdbq nodelist2lbdb
 lbzip2:lbunzip2 lbzcat lbzip2
@@ -3801,6 +3806,7 @@ libgroove:
 libgsf:gsf gsf-office-thumbnailer gsf-vba-dump
 libgsm:toast
 libgtop:libgtop_daemon2 libgtop_server2
+libguess:
 libgweather:
 libgxps:xpstopdf xpstopng xpstops xpstosvg
 libharu:
@@ -4121,6 +4127,7 @@ mdf2iso:mdf2iso
 mdk:gmixvm mixasm mixguile mixvm
 mdp:mdp
 mdr:mdr
+mdv:mdv
 mdxmini:mdxplay
 mecab-ipadic:
 mecab-jumandic:
@@ -4214,7 +4221,7 @@ mongrel2:m2sh mongrel2 procer
 mongroup:mongroup
 monit:monit
 monkeysphere:monkeysphere openpgp2pem openpgp2spki openpgp2ssh pem2openpgp monkeysphere-authentication monkeysphere-host
-mono:al al2 caspol cccheck ccrewrite cert-sync cert2spc certmgr chktrust crlupdate csharp disco dmcs dtd2rng dtd2xsd gacutil gacutil2 genxs httpcfg ikdasm ilasm installvst lc macpack makecert mconfig mcs mdassembler mdbrebase mdoc mdoc-assemble mdoc-export-html mdoc-export-msxdoc mdoc-update mdoc-validate mdvalidater mkbundle mod mono mono-api-info mono-boehm mono-cil-strip mono-configuration-crypto mono-find-provides mono-find-requires mono-heapviz mono-service mono-service2 mono-sgen mono-shlib-cop mono-symbolicate mono-test-install mono-xmltool monodis monodocer monodocs2html monodocs2slashdoc monolinker monop monop2 mozroots mprof-report nunit-console nunit-console2 nunit-console4 pdb2mdb pedump permview peverify prj2make resgen resgen2 secutil setreg sgen signcode sn soapsuds sqlmetal sqlsharp svcutil wsdl wsdl2 xbuild xsd
+mono:al al2 caspol cccheck ccrewrite cert-sync cert2spc certmgr chktrust crlupdate csharp disco dmcs dtd2rng dtd2xsd fsharpc fsharpi fsharpiAnyCpu gacutil gacutil2 genxs httpcfg ikdasm ilasm installvst lc macpack makecert mconfig mcs mdassembler mdbrebase mdoc mdoc-assemble mdoc-export-html mdoc-export-msxdoc mdoc-update mdoc-validate mdvalidater mkbundle mod mono mono-api-info mono-boehm mono-cil-strip mono-configuration-crypto mono-find-provides mono-find-requires mono-heapviz mono-service mono-service2 mono-sgen mono-shlib-cop mono-symbolicate mono-test-install mono-xmltool monodis monodocer monodocs2html monodocs2slashdoc monolinker monop monop2 mozroots mprof-report nunit-console nunit-console2 nunit-console4 pdb2mdb pedump permview peverify prj2make resgen resgen2 secutil setreg sgen signcode sn soapsuds sqlmetal sqlsharp svcutil wsdl wsdl2 xbuild xsd
 monotone:mtn mtn-cleanup mtnopt
 montage:mAdd mAddExec mArchiveExec mArchiveGet mArchiveList mBackground mBestImage mBgExec mBgModel mCatMap mConcatFit mConvert mCoverageCheck mDAG mDAGFiles mDAGGalacticPlane mDAGTbls mDiff mDiffExec mDiffFit mDiffFitExec mExamine mExec mExecTG mFitExec mFitplane mFixHdr mFixNaN mFlattenExec mGetHdr mGridExec mHdr mHdrCheck mHdrtbl mImgtbl mJPEG mMakeHdr mMakeImg mNotify mNotifyTG mOverlaps mPix2Coord mPresentation mProject mProjectPP mProjExec mPutHdr mQuickSearch mRotate mShrink mShrinkHdr mSubimage mSubset mTANHdr mTblExec mTblSort mTileHdr mTileImage
 moreutils:chronic combine errno ifdata ifne isutf8 lckdo mispipe parallel pee sponge ts vidir vipe zrun
@@ -5579,7 +5586,6 @@ xqilla:xqilla
 xrootd:cconfig cmsd cns_ssi frm_admin frm_purged frm_xfragent frm_xfrd mpxstats wait41 xprep xrd xrdadler32 XrdCnsd xrdcopy xrdcp xrdcp-old xrdfs xrdgsiproxy xrdmapc xrdpwdadmin xrdsssadmin xrdstagetool xrootd xrootd-config
 xsane:xsane
 xsd:xsd
-xsp:asp-state asp-state2 asp-state4 dbsessmgr dbsessmgr2 dbsessmgr4 fastcgi-mono-server fastcgi-mono-server2 fastcgi-mono-server4 mod-mono-server mod-mono-server2 mod-mono-server4 xsp xsp2 xsp4
 xspin:xspin
 xstow:merge-info xstow
 xsw:xsw xsw2jpeg xsw2pdf xsw2png xswconv
