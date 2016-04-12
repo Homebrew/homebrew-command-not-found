@@ -157,7 +157,7 @@ if ARGV.include? "--stats"
   core = Formula.core_names
   taps = OFFICIAL_TAPS.flat_map do |repo|
     tap = Tap.fetch("homebrew", repo)
-    Homebrew.install_tap(tap.user, tap.repo) unless tap.installed?
+    tap.install unless tap.installed?
     tap.formula_names
   end
 
