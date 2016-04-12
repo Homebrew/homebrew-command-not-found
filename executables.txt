@@ -3158,7 +3158,7 @@ homebrew/versions/gcc45:c++-4.5 cpp-4.5 g++-4.5 gcc-4.5 gccbug-4.5 gcov-4.5 x86_
 homebrew/versions/gcc46:c++-4.6 cpp-4.6 g++-4.6 gcc-4.6 gcov-4.6 x86_64-apple-darwin14.1.0-c++-4.6 x86_64-apple-darwin14.1.0-g++-4.6 x86_64-apple-darwin14.1.0-gcc-4.6 x86_64-apple-darwin14.1.0-gcc-4.6.4
 homebrew/versions/gcc47:c++-4.7 cpp-4.7 g++-4.7 gcc-4.7 gcc-ar-4.7 gcc-nm-4.7 gcc-ranlib-4.7 gcov-4.7 x86_64-apple-darwin14.1.0-c++-4.7 x86_64-apple-darwin14.1.0-g++-4.7 x86_64-apple-darwin14.1.0-gcc-4.7 x86_64-apple-darwin14.1.0-gcc-4.7.4 x86_64-apple-darwin14.1.0-gcc-ar-4.7 x86_64-apple-darwin14.1.0-gcc-nm-4.7 x86_64-apple-darwin14.1.0-gcc-ranlib-4.7
 homebrew/versions/gcc48:c++-4.8 cpp-4.8 g++-4.8 gcc-4.8 gcc-ar-4.8 gcc-nm-4.8 gcc-ranlib-4.8 gcov-4.8 x86_64-apple-darwin14.3.0-c++-4.8 x86_64-apple-darwin14.3.0-g++-4.8 x86_64-apple-darwin14.3.0-gcc-4.8 x86_64-apple-darwin14.3.0-gcc-4.8.4 x86_64-apple-darwin14.3.0-gcc-ar-4.8 x86_64-apple-darwin14.3.0-gcc-nm-4.8 x86_64-apple-darwin14.3.0-gcc-ranlib-4.8
-homebrew/versions/gcc49:c++-4.9 cpp-4.9 g++-4.9 gcc-4.9 gcc-ar-4.9 gcc-nm-4.9 gcc-ranlib-4.9 gcov-4.9 x86_64-apple-darwin14.3.0-c++-4.9 x86_64-apple-darwin14.3.0-g++-4.9 x86_64-apple-darwin14.3.0-gcc-4.9 x86_64-apple-darwin14.3.0-gcc-4.9.2 x86_64-apple-darwin14.3.0-gcc-ar-4.9 x86_64-apple-darwin14.3.0-gcc-nm-4.9 x86_64-apple-darwin14.3.0-gcc-ranlib-4.9
+homebrew/versions/gcc49:c++-4.9 cpp-4.9 g++-4.9 gcc-4.9 gcc-ar-4.9 gcc-nm-4.9 gcc-ranlib-4.9 gcov-4.9 x86_64-apple-darwin15.2.0-c++-4.9 x86_64-apple-darwin15.2.0-g++-4.9 x86_64-apple-darwin15.2.0-gcc-4.9 x86_64-apple-darwin15.2.0-gcc-4.9.3 x86_64-apple-darwin15.2.0-gcc-ar-4.9 x86_64-apple-darwin15.2.0-gcc-nm-4.9 x86_64-apple-darwin15.2.0-gcc-ranlib-4.9
 homebrew/versions/gcc5:c++-5 cpp-5 g++-5 gcc-5 gcc-ar-5 gcc-nm-5 gcc-ranlib-5 gcov-5 gcov-tool-5 x86_64-apple-darwin14.3.0-c++-5 x86_64-apple-darwin14.3.0-g++-5 x86_64-apple-darwin14.3.0-gcc-5 x86_64-apple-darwin14.3.0-gcc-5.1.0 x86_64-apple-darwin14.3.0-gcc-ar-5 x86_64-apple-darwin14.3.0-gcc-nm-5 x86_64-apple-darwin14.3.0-gcc-ranlib-5
 homebrew/versions/gcc6:c++-6 cpp-6 g++-6 gcc-6 gcc-ar-6 gcc-nm-6 gcc-ranlib-6 gcov-6 gcov-tool-6 x86_64-apple-darwin15.2.0-c++-6 x86_64-apple-darwin15.2.0-g++-6 x86_64-apple-darwin15.2.0-gcc-6 x86_64-apple-darwin15.2.0-gcc-6.0.0 x86_64-apple-darwin15.2.0-gcc-ar-6 x86_64-apple-darwin15.2.0-gcc-nm-6 x86_64-apple-darwin15.2.0-gcc-ranlib-6
 homebrew/versions/gdal111:epsg_tr.py esri2wkt.py gcps2vec.py gcps2wld.py gdal-config gdal2tiles.py gdal2xyz.py gdal_auth.py gdal_calc.py gdal_contour gdal_edit.py gdal_fillnodata.py gdal_grid gdal_merge.py gdal_polygonize.py gdal_proximity.py gdal_rasterize gdal_retile.py gdal_sieve.py gdal_translate gdaladdo gdalbuildvrt gdalchksum.py gdalcompare.py gdaldem gdalenhance gdalident.py gdalimport.py gdalinfo gdallocationinfo gdalmanage gdalmove.py gdalserver gdalsrsinfo gdaltindex gdaltransform gdalwarp mkgraticule.py nearblack ogr2ogr ogrinfo ogrlineref ogrtindex pct2rgb.py rgb2pct.py testepsg
@@ -3556,7 +3556,7 @@ jboss-forge:forge
 jcal:jcal jdate
 jdnssec-tools:jdnssec-dstool jdnssec-keygen jdnssec-keyinfo jdnssec-signkeyset jdnssec-signrrset jdnssec-signzone jdnssec-verifyzone jdnssec-zoneformat
 jed:jed jed-script
-jemalloc:jemalloc-pprof jemalloc.sh
+jemalloc:jemalloc-config jemalloc.sh jeprof
 jena:arq infer iri juuid nquads ntriples qparse rdfcat rdfcompare rdfcopy rdfparse rdfxml riot rset rsparql rupdate schemagen sparql tdbbackup tdbdump tdbloader tdbloader2 tdbloader2worker tdbquery tdbstats tdbupdate trig turtle uparse update utf8 wwwdec wwwenc
 jenkins-job-builder:jenkins-jobs
 jenkins:jenkins jenkins-cli
@@ -5151,6 +5151,7 @@ ssreflect:
 ssss:ssss-combine ssss-split
 sstp-client:sstpc
 st:st
+stanford-ner:ner-gui.sh ner.sh
 stanford-parser:lexparser-gui.sh lexparser-lang-train-test.sh lexparser-lang.sh lexparser.sh
 star:mt scpio smt spax star star_sym suntar tartest ustar rmt
 stash-cli:all atlassian bamboo confluence crucible fisheye hipchat jira stash
