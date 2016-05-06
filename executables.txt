@@ -301,6 +301,7 @@ bwctl:bwctl bwctld bwping bwtraceroute
 bwm-ng:bwm-ng
 byacc:byacc
 byobu:byobu byobu-config byobu-ctrl-a byobu-disable byobu-disable-prompt byobu-enable byobu-enable-prompt byobu-export byobu-janitor byobu-keybindings byobu-launch byobu-launcher byobu-launcher-install byobu-launcher-uninstall byobu-layout byobu-prompt byobu-quiet byobu-reconnect-sockets byobu-screen byobu-select-backend byobu-select-profile byobu-select-session byobu-shell byobu-silent byobu-status byobu-status-detail byobu-tmux byobu-ugraph byobu-ulevel col1 ctail vigpg wifi-status
+byteman:bmcheck bminstall bmjava bmsubmit bytemancheck
 bzr-builder:
 bzr-colo:
 bzr-explorer:
@@ -562,7 +563,6 @@ curlish:curlish
 curlpp:curlpp-config
 cutter:cut-diff cutter
 cuty_capt:CutyCapt
-cvc4:cvc4
 cvs2svn:cvs2bzr cvs2git cvs2svn
 cvs:cvs cvsbug rcs2log
 cvsps:cvsps
@@ -1073,6 +1073,7 @@ git:git git-credential-osxkeychain git-cvsserver git-receive-pack git-shell git-
 gitbucket:
 giter8:g8
 gitg:gitg
+github-markdown-toc:gh-md-toc
 github-release:github-release
 gitlab-ci-multi-runner:gitlab-ci-multi-runner
 gitslave:gits
@@ -1270,7 +1271,7 @@ hello:hello
 help2man:help2man
 henplus:henplus
 hercules:bldlvlck cckd2ckd cckdcdsk cckdcomp cckddiag cckdswap cfba2fba ckd2cckd dasdcat dasdconv dasdcopy dasdinit dasdisup dasdlist dasdload dasdls dasdpdsu dasdseq dmap2hrc fba2cfba hercifc herclin hercules hetget hetinit hetmap hetupd tapecopy tapemap tapesplt
-heroku-toolbelt:heroku
+heroku:heroku
 herrie:herrie
 hevea:bibhva esponja hacha hevea imagen
 hexcurse:hexcurse
@@ -1333,6 +1334,7 @@ homebrew/boneyard/cdimgtools:dvdimgdecss cssdec
 homebrew/boneyard/cowpatty:cowpatty genpmk
 homebrew/boneyard/cppdom:cppdom-config
 homebrew/boneyard/csync:csync
+homebrew/boneyard/cvc4:cvc4
 homebrew/boneyard/discodex:discodex discodexcli.py
 homebrew/boneyard/dupx:dupx
 homebrew/boneyard/echoping:echoping
@@ -4429,7 +4431,8 @@ oath-toolkit:oathtool pskctool
 oauth2_proxy:oauth2_proxy
 objc-codegenutils:objc-assetgen objc-colordump objc-identifierconstants
 objc-run:objc-run
-ocaml:ocaml ocamlbuild ocamlbuild.byte ocamlbuild.native ocamlc ocamlc.opt ocamlcp ocamldebug ocamldep ocamldep.opt ocamldoc ocamldoc.opt ocamllex ocamllex.opt ocamlmklib ocamlmktop ocamlobjinfo ocamlopt ocamlopt.opt ocamloptp ocamlprof ocamlrun ocamlrund ocamlyacc
+ocaml:ocaml ocamlc ocamlc.opt ocamlcp ocamldebug ocamldep ocamldep.opt ocamldoc ocamldoc.opt ocamllex ocamllex.opt ocamlmklib ocamlmktop ocamlobjinfo ocamlopt ocamlopt.opt ocamloptp ocamlprof ocamlrun ocamlrund ocamlyacc
+ocamlbuild:ocamlbuild ocamlbuild.byte ocamlbuild.native
 ocamlsdl:
 ocp:ocp ocp-0.1.21 ocp-curses ultrafix.sh
 ocproxy:ocproxy
@@ -4577,6 +4580,7 @@ pelikan:pelikan_pingserver pelikan_slimcache pelikan_twemcache
 perceptualdiff:perceptualdiff
 percona-server:innochecksum msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_client_test_embedded mysql_config mysql_config_editor mysql_convert_table_format mysql_embedded mysql_find_rows mysql_fix_extensions mysql_install_db mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysql_zap mysqladmin mysqlbinlog mysqlbug mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest mysqltest_embedded perror ps_tokudb_admin replace resolve_stack_dump resolveip
 percona-toolkit:pt-align pt-archiver pt-config-diff pt-deadlock-logger pt-diskstats pt-duplicate-key-checker pt-fifo-split pt-find pt-fingerprint pt-fk-error-logger pt-heartbeat pt-index-usage pt-ioprofile pt-kill pt-mext pt-mysql-summary pt-online-schema-change pt-pmp pt-query-digest pt-show-grants pt-sift pt-slave-delay pt-slave-find pt-slave-restart pt-stalk pt-summary pt-table-checksum pt-table-sync pt-table-usage pt-upgrade pt-variable-advisor pt-visual-explain
+percona-xtrabackup:innobackupex xbcloud xbcloud_osenv xbcrypt xbstream xtrabackup
 perl-build:perl-build plenv-install plenv-uninstall
 perl:c2ph corelist cpan enc2xs encguess h2ph h2xs instmodsh json_pp libnetcfg perl perl5.22.0 perlbug perldoc perlivp perlthanks piconv pl2pm pod2html pod2man pod2text pod2usage podchecker podselect prove pstruct ptar ptardiff ptargrep shasum splain xsubpp zipdetails
 pev:ofs2rva pedis pehash pepack peres pescan pesec pestr readpe rva2ofs
