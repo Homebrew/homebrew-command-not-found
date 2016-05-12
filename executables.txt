@@ -220,7 +220,7 @@ bcrypt:bcrypt
 bde:
 bdw-gc:
 beansdb:beansdb
-beanstalk:beanstalkd
+beanstalkd:beanstalkd
 bear:bear
 bee:bee
 beecrypt:
@@ -265,6 +265,7 @@ bmon:bmon
 bogofilter:bf_compact bf_copy bf_tar bogofilter bogolexer bogotune bogoupgrade bogoutil
 bokken:bokken
 bonnie++:bon_csv2html bon_csv2txt generate_randfile bonnie++ getc_putc getc_putc_helper zcav
+bookloupe:bookloupe loupe-test
 boost-bcp:bcp
 boost-build:b2 bjam
 boost-python:
@@ -572,8 +573,8 @@ cvsutils:cvschroot cvsco cvsdiscard cvsdo cvspurge cvstrim cvsu
 cvsync:cvscan cvsup2cvsync cvsync cvsync2cvsup cvsyncd rcscan rcscmp
 cweb:ctangle cweave
 cxxtest:cxxtestgen
-czmq:czmq-makecert
-d-bus:dbus-cleanup-sockets dbus-daemon dbus-launch dbus-monitor dbus-run-session dbus-send dbus-test-tool dbus-update-activation-environment dbus-uuidgen
+czmq:makecert
+czmqpp:
 daemon:daemon
 daemonize:daemonize
 daemonlogger:daemonlogger
@@ -596,6 +597,7 @@ davix:davix-get davix-http davix-ls davix-mkdir davix-mv davix-put davix-rm
 davmail:davmail
 dbacl:bayesol dbacl hmine hypex mailcross mailfoot mailinspect mailtoe
 dbus-glib:dbus-binding-tool
+dbus:dbus-cleanup-sockets dbus-daemon dbus-launch dbus-monitor dbus-run-session dbus-send dbus-test-tool dbus-update-activation-environment dbus-uuidgen
 dbxml:dbxml dbxml_dump dbxml_load dbxml_load_container
 dc3dd:dc3dd
 dcadec:dcadec
@@ -677,6 +679,7 @@ dnstwist:dnstwist
 docbook-xsl:dbtoepub
 docbook2x:db2x_manxml db2x_texixml db2x_xsltproc docbook2man docbook2texi sgml2xml-isoent utf8trans
 docbook:
+docker-clean:docker-clean
 docker-cloud:docker-cloud
 docker-compose:docker-compose
 docker-gen:docker-gen
@@ -710,6 +713,7 @@ dsh:dsh
 dshb:dshb
 dsocks:dsocks.sh
 dspdfviewer:dspdfviewer
+dssim:dssim
 dtach:dtach
 dtc:convert-dtsv0 dtc dtdiff fdtdump fdtget fdtput
 dterm:dterm
@@ -2828,6 +2832,7 @@ homebrew/science/metaphlan:metaphlan metaphlan.py
 homebrew/science/methpipe:allelicmeth amrfinder amrtester bsrate dmr duplicate-remover fastLiftOver hmr hypermr lc_approx levels merge-bsrate merge-methcounts methcounts methdiff methentropy methstates mlml pmd roimethstat symmetric-cpgs to-mr
 homebrew/science/metis4:graphchk kmetis mesh2dual mesh2nodal oemetis onmetis partdmesh partnmesh pmetis
 homebrew/science/metis:cmpfillin gpmetis graphchk m2gmetis mpmetis ndmetis
+homebrew/science/mfem:
 homebrew/science/mfusg:mfusg
 homebrew/science/mhap:mhap
 homebrew/science/minc:dcm2mnc ecattominc invert_raw_image minc_modify_header mincaverage minccalc minccmp minccomplete mincconcat mincconvert minccopy mincdiff mincdump mincedit mincexpand mincextract mincgen mincheader minchistory mincinfo minclookup mincmakescalar mincmakevector mincmath mincpik mincresample mincreshape mincstats minctoecat minctoraw mincview mincwindow mnc2nii nii2mnc rawtominc transformtags upet2mnc vff2mnc voxeltoworld worldtovoxel xfm2def xfmconcat xfmflip xfminvert
