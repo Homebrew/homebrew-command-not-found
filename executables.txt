@@ -75,6 +75,7 @@ antlr:antlr4 grun
 anttweakbar:
 aoeui:aoeui asdfg
 apache-archiva:archiva
+apache-brooklyn-cli:br
 apache-drill:drill-conf drill-config.sh drill-embedded drill-localhost drillbit.sh dumpcat hadoop-excludes.txt runbit sqlline sqlline.bat submit_plan
 apache-flink:flink
 apache-forrest:forrest
@@ -963,7 +964,6 @@ gammaray:
 gammu:gammu gammu-config gammu-detect gammu-smsd gammu-smsd-inject gammu-smsd-monitor jadmaker
 ganglia:ganglia-config gmetad gmetric gmond gstat
 garmintools:garmin_dump garmin_gchart garmin_get_info garmin_gmap garmin_gpx garmin_save_runs
-gasnet:amudprun gasnet_trace gasnet_trace.pl gasnetrun_mpi gasnetrun_mpi.pl
 gauche:gauche-cesconv gauche-config gauche-install gauche-package gosh
 gauge:gauge gauge_screenshot
 gaul:gaul_diagnostics
@@ -1272,7 +1272,7 @@ hashpump:hashpump
 haskell-stack:stack
 haxe:haxe haxelib
 hayai:
-hbase:draining_servers.rb get-active-master.rb graceful_stop.sh hbase hbase-cleanup.sh hbase-common.sh hbase-config.sh hbase-daemon.sh hbase-daemons.sh hbase-jruby hirb.rb local-master-backup.sh local-regionservers.sh master-backup.sh region_mover.rb region_status.rb regionservers.sh replication rolling-restart.sh shutdown_regionserver.rb start-hbase.sh stop-hbase.sh test thread-pool.rb zookeepers.sh
+hbase:hbase start-hbase.sh stop-hbase.sh
 headphones:headphones
 hebcal:hebcal
 hello:hello
@@ -1352,6 +1352,7 @@ homebrew/boneyard/evas:evas_cserve evas_cserve_tool
 homebrew/boneyard/ffts:
 homebrew/boneyard/fleet-db:fleetdb-server
 homebrew/boneyard/gant:gant
+homebrew/boneyard/gasnet:amudprun gasnet_trace gasnet_trace.pl gasnetrun_mpi gasnetrun_mpi.pl
 homebrew/boneyard/gccxml:gccxml gccxml_cc1plus
 homebrew/boneyard/git-encrypt:gitcrypt
 homebrew/boneyard/git-flow-clone:git-flow-clone
@@ -1378,6 +1379,7 @@ homebrew/boneyard/qi:qi
 homebrew/boneyard/qiv:qiv
 homebrew/boneyard/rocket:actool rkt
 homebrew/boneyard/rtorrent:rtorrent
+homebrew/boneyard/sam2p:sam2p sam2p_pdf_scale.pl
 homebrew/boneyard/shell.fm:shell-fm
 homebrew/boneyard/sickrage:sickrage
 homebrew/boneyard/synfigstudio:synfigstudio
@@ -4506,6 +4508,7 @@ openshift-cli:oadm oc openshift
 openslide:openslide-quickhash1sum openslide-show-properties openslide-write-png
 openslp:slptool slpd
 openssl:c_rehash openssl
+opentsdb:start-tsdb.sh tsdb
 openvdb:vdb_print vdb_render
 openvpn:openvpn
 openwsman:openwsmand
@@ -4968,7 +4971,6 @@ safe-rm:safe-rm
 sagittarius-scheme:sagittarius sagittarius-config sagittarius-package sash
 saldl:saldl
 saltstack:salt salt-api salt-call salt-cloud salt-cp salt-key salt-master salt-minion salt-proxy salt-run salt-ssh salt-syndic salt-unity spm
-sam2p:sam2p sam2p_pdf_scale.pl
 samba:eventlogadm findsmb net nmblookup ntlm_auth pdbedit profiles rpcclient sharesec smbcacls smbclient smbcontrol smbcquotas smbget smbpasswd smbspool smbstatus smbta-util smbtar smbtree tdbbackup tdbdump tdbrestore tdbtool testparm nmbd smbd swat
 sane-backends:gamma4scanimage sane-config sane-find-scanner scanimage saned
 sary:mksary sary
