@@ -2099,7 +2099,6 @@ homebrew/php/php53-symfony-debug:
 homebrew/php/php53-thrift:
 homebrew/php/php53-tidy:
 homebrew/php/php53-timezonedb:
-homebrew/php/php53-tokyotyrant:
 homebrew/php/php53-twig:
 homebrew/php/php53-uploadprogress:
 homebrew/php/php53-uuid:
@@ -2218,7 +2217,6 @@ homebrew/php/php54-symfony-debug:
 homebrew/php/php54-thrift:
 homebrew/php/php54-tidy:
 homebrew/php/php54-timezonedb:
-homebrew/php/php54-tokyotyrant:
 homebrew/php/php54-twig:
 homebrew/php/php54-uopz:
 homebrew/php/php54-uploadprogress:
@@ -2337,7 +2335,6 @@ homebrew/php/php55-symfony-debug:
 homebrew/php/php55-thrift:
 homebrew/php/php55-tidy:
 homebrew/php/php55-timezonedb:
-homebrew/php/php55-tokyotyrant:
 homebrew/php/php55-twig:
 homebrew/php/php55-uopz:
 homebrew/php/php55-uploadprogress:
@@ -2456,7 +2453,6 @@ homebrew/php/php56-symfony-debug:
 homebrew/php/php56-thrift:
 homebrew/php/php56-tidy:
 homebrew/php/php56-timezonedb:
-homebrew/php/php56-tokyotyrant:
 homebrew/php/php56-twig:
 homebrew/php/php56-uopz:
 homebrew/php/php56-uploadprogress:
@@ -3154,8 +3150,6 @@ homebrew/tex/texwrapper:texwrapper
 homebrew/tex/why3:why3
 homebrew/versions/android-ndk-r10d:ndk-build ndk-gdb ndk-stack
 homebrew/versions/android-ndk-r10e:ndk-build ndk-gdb ndk-stack
-homebrew/versions/ansible14:ansible ansible-doc ansible-galaxy ansible-playbook ansible-pull
-homebrew/versions/ansible18:ansible ansible-doc ansible-galaxy ansible-playbook ansible-pull ansible-vault
 homebrew/versions/ansible19:ansible ansible-doc ansible-galaxy ansible-playbook ansible-pull ansible-vault
 homebrew/versions/ansible20:ansible ansible-doc ansible-galaxy ansible-playbook ansible-pull ansible-vault
 homebrew/versions/antlr2:antlr2
@@ -3173,21 +3167,14 @@ homebrew/versions/bash-completion2:
 homebrew/versions/bind99:bind9-config dig host isc-config.sh nslookup nsupdate arpaname ddns-confgen dnssec-checkds dnssec-coverage dnssec-dsfromkey dnssec-importkey dnssec-keyfromlabel dnssec-keygen dnssec-revoke dnssec-settime dnssec-signzone dnssec-verify genrandom isc-hmac-fixup lwresd named named-checkconf named-checkzone named-compilezone named-journalprint nsec3hash rndc rndc-confgen
 homebrew/versions/bison27:bison yacc
 homebrew/versions/boost-python159:
-homebrew/versions/boost149:
-homebrew/versions/boost150:
 homebrew/versions/boost155:
 homebrew/versions/boost159:
 homebrew/versions/camlp5-606:camlp5 camlp5o camlp5o.opt camlp5r camlp5r.opt camlp5sch mkcamlp5 mkcamlp5.opt ocpp5
-homebrew/versions/cassandra-0.6:cassandra cassandra-cli cassandra.in.sh clustertool json2sstable nodeprobe nodetool sstable2json sstablekeys stop-server
-homebrew/versions/cassandra10:cassandra cassandra-cli cassandra.in.sh cqlsh cqlshrc.sample json2sstable nodetool sstable2json sstablekeys sstableloader stop-server
-homebrew/versions/cassandra12:cassandra cassandra-cli cassandra.in.sh cqlsh debug-cql json2sstable nodetool sstable2json sstablekeys sstableloader sstablescrub sstablesplit sstableupgrade stop-server
-homebrew/versions/cassandra20:cassandra cassandra-cli cassandra.in.sh cqlsh debug-cql json2sstable nodetool sstable2json sstablekeys sstableloader sstablescrub sstablesplit sstableupgrade stop-server
 homebrew/versions/cassandra21:cassandra cassandra-cli cqlsh debug-cql nodetool sstablekeys sstableloader sstablescrub sstableupgrade
 homebrew/versions/cassandra22:cassandra cqlsh cqlsh.py debug-cql nodetool sstablekeys sstableloader sstablescrub sstableupgrade sstableverify
 homebrew/versions/clojure14:clj
 homebrew/versions/cloog-ppl015:cloog
 homebrew/versions/cloog018:cloog
-homebrew/versions/cmake28:ccmake cmake cmakexbuild cpack ctest
 homebrew/versions/cmake30:ccmake cmake cmakexbuild cpack ctest
 homebrew/versions/cmake31:ccmake cmake cmakexbuild cpack ctest
 homebrew/versions/coq83:coq-tex coq_makefile coqc coqchk coqchk.opt coqdep coqdoc coqmktop coqtop coqtop.byte coqtop.opt coqwc gallina
@@ -3201,9 +3188,6 @@ homebrew/versions/duplicity06:duplicity rdiffdir
 homebrew/versions/eigen2:
 homebrew/versions/elasticsearch17:elasticsearch elasticsearch.in.sh plugin
 homebrew/versions/elasticsearch22:elasticsearch
-homebrew/versions/erlang-r13:dialyzer epmd erl erlc escript run_erl to_erl typer
-homebrew/versions/erlang-r14:dialyzer epmd erl erlc escript run_erl run_test to_erl typer
-homebrew/versions/erlang-r15:ct_run dialyzer epmd erl erlc escript run_erl run_test to_erl typer
 homebrew/versions/erlang-r16:ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
 homebrew/versions/erlang-r17:ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
 homebrew/versions/ffmpeg28:ffmpeg ffprobe ffserver
@@ -3229,19 +3213,9 @@ homebrew/versions/gmp4:
 homebrew/versions/gnupg21:addgnupghome applygnupgdefaults dirmngr dirmngr-client g13 gpg-agent gpg-connect-agent gpg2 gpgconf gpgkey2ssh gpgparsemail gpgsm gpgsm-gencert.sh gpgtar gpgv2 kbxutil symcryptrun watchgnupg
 homebrew/versions/gnuplot4:gnuplot
 homebrew/versions/gnutls34:gnutls-certtool gnutls-cli gnutls-cli-debug gnutls-serv ocsptool psktool srptool
-homebrew/versions/go12:go godoc gofmt
-homebrew/versions/go13:go godoc gofmt
 homebrew/versions/go14:go14 godoc14 gofmt14
 homebrew/versions/go15:go godoc gofmt
-homebrew/versions/gradle110:gradle
-homebrew/versions/gradle112:gradle
-homebrew/versions/gradle16:gradle
-homebrew/versions/gradle18:gradle
-homebrew/versions/gradle20:gradle
-homebrew/versions/gradle21:gradle
 homebrew/versions/gradle221:gradle
-homebrew/versions/gradle24:gradle
-homebrew/versions/gradle26:gradle
 homebrew/versions/gradle27:gradle
 homebrew/versions/gradle28:gradle
 homebrew/versions/grails13:grails grails-debug startGrails
@@ -3261,11 +3235,9 @@ homebrew/versions/gst-python010:
 homebrew/versions/gst-rtsp010:
 homebrew/versions/gstreamer010:gst-feedback gst-feedback-0.10 gst-inspect gst-inspect-0.10 gst-launch gst-launch-0.10 gst-typefind gst-typefind-0.10 gst-xmlinspect gst-xmlinspect-0.10 gst-xmllaunch gst-xmllaunch-0.10
 homebrew/versions/guile18:guile guile-config guile-snarf guile-tools
-homebrew/versions/hadoop0202:hadoop hadoop-config.sh hadoop-daemon.sh hadoop-daemons.sh slaves.sh start-all.sh start-balancer.sh start-dfs.sh start-mapred.sh stop-all.sh stop-balancer.sh stop-dfs.sh stop-mapred.sh
 homebrew/versions/hadoop121:hadoop hadoop-config.sh hadoop-daemon.sh hadoop-daemons.sh slaves.sh start-all.sh start-balancer.sh start-dfs.sh start-jobhistoryserver.sh start-mapred.sh stop-all.sh stop-balancer.sh stop-dfs.sh stop-jobhistoryserver.sh stop-mapred.sh task-controller
 homebrew/versions/hadoop25:container-executor hadoop hdfs mapred test-container-executor yarn distribute-exclude.sh hadoop-daemon.sh hadoop-daemons.sh hdfs-config.sh httpfs.sh mr-jobhistory-daemon.sh refresh-namenodes.sh slaves.sh start-all.sh start-balancer.sh start-dfs.sh start-secure-dns.sh start-yarn.sh stop-all.sh stop-balancer.sh stop-dfs.sh stop-secure-dns.sh stop-yarn.sh yarn-daemon.sh yarn-daemons.sh
 homebrew/versions/hdf4:gif2hdf hdf24to8 hdf2gif hdf2jpeg hdf8to24 hdfcomp hdfed hdfimport hdfls hdfpack hdftopal hdftor8 hdfunpac hdiff hdp hrepack hrepack_check jpeg2hdf ncgen paltohdf r8tohdf ristosds vmake vshow
-homebrew/versions/hive010:ext hive hive-config.sh metatool
 homebrew/versions/hive011:beeline ext hive hive-config.sh hiveserver2 metatool
 homebrew/versions/hive12:beeline ext hive hive-config.sh hiveserver2 metatool schematool
 homebrew/versions/imagemagick-ruby186:animate compare composite conjure convert display identify import Magick-config MagickCore-config MagickWand-config mogrify montage stream Wand-config
@@ -3281,7 +3253,6 @@ homebrew/versions/jetty76:jetty jetty-cygwin jetty-xinetd
 homebrew/versions/jetty8:jetty jetty-cygwin jetty-xinetd
 homebrew/versions/jpeg6b:cjpeg djpeg jpegtran rdjpgcom wrjpgcom
 homebrew/versions/jpeg9:cjpeg djpeg jpegtran rdjpgcom wrjpgcom
-homebrew/versions/jruby168:jast jgem jirb jirb_swing jrake jrdoc jri jruby jruby.sh jrubyc jtestrb
 homebrew/versions/jruby1721:jast jgem jirb jirb_swing jrake jrdoc jri jruby jruby.bash jruby.sh jrubyc jtestrb
 homebrew/versions/jruby9000:jast jgem jirb jirb_swing jrake jrdoc jri jruby jruby.bash jruby.sh jruby200.sh jrubyc jtestrb
 homebrew/versions/json-c010:
@@ -3315,17 +3286,13 @@ homebrew/versions/lua53:lua-5.3 lua5.3 luac-5.3 luac5.3 luarocks-5.3 luarocks-ad
 homebrew/versions/lz4r117:lz4 lz4c lz4cat
 homebrew/versions/mapnik2:mapnik-config mapnik-speed-check shapeindex upgrade_map_xml.py
 homebrew/versions/mariadb100:aria_chk aria_dump_log aria_ftdump aria_pack aria_read_log innochecksum msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_config mysql_convert_table_format mysql_find_rows mysql_fix_extensions mysql_install_db mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysql_zap mysqlaccess mysqladmin mysqlbinlog mysqlbug mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest mytop perror rcmysql replace resolve_stack_dump resolveip
-homebrew/versions/maven2:mvn mvnDebug
-homebrew/versions/maven30:mvn mvnDebug mvnyjp
 homebrew/versions/maven31:mvn mvnDebug mvnyjp
 homebrew/versions/maven32:mvn mvnDebug mvnyjp
 homebrew/versions/mkvtoolnix58:mkvextract mkvinfo mkvmerge mkvpropedit
-homebrew/versions/mongodb24:bsondump mongo mongod mongodump mongoexport mongofiles mongoimport mongooplog mongoperf mongorestore mongos mongosniff mongostat mongotop
 homebrew/versions/mongodb26:bsondump mongo mongod mongodump mongoexport mongofiles mongoimport mongooplog mongoperf mongorestore mongos mongosniff mongostat mongotop
 homebrew/versions/mongodb30:bsondump mongo mongod mongodump mongoexport mongofiles mongoimport mongooplog mongoperf mongorestore mongos mongosniff mongostat mongotop
 homebrew/versions/mono3:al al2 caspol cccheck ccrewrite cert-sync cert2spc certmgr chktrust crlupdate csharp disco dmcs dtd2rng dtd2xsd gacutil gacutil2 genxs gmcs httpcfg ikdasm ilasm installvst lc macpack makecert mconfig mcs mdassembler mdbrebase mdoc mdoc-assemble mdoc-export-html mdoc-export-msxdoc mdoc-update mdoc-validate mdvalidater mkbundle mod mono mono-api-info mono-boehm mono-cil-strip mono-configuration-crypto mono-find-provides mono-find-requires mono-heapviz mono-service mono-service2 mono-sgen mono-shlib-cop mono-test-install mono-xmltool monodis monodocer monodocs2html monodocs2slashdoc monograph monolinker monop monop2 mozroots mprof-report nunit-console nunit-console2 nunit-console4 pdb2mdb pedump permview peverify prj2make resgen resgen2 secutil setreg sgen signcode sn soapsuds sqlmetal sqlsharp svcutil wsdl wsdl2 xbuild xsd
 homebrew/versions/mpfr2:
-homebrew/versions/mysql51:innochecksum msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_config mysql_convert_table_format mysql_find_rows mysql_fix_extensions mysql_fix_privilege_tables mysql_install_db mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysql_zap mysqlaccess mysqladmin mysqlbinlog mysqlbug mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest perror replace resolve_stack_dump resolveip
 homebrew/versions/mysql55:innochecksum msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_config mysql_convert_table_format mysql_find_rows mysql_fix_extensions mysql_install_db mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysql_zap mysqladmin mysqlbinlog mysqlbug mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest perror replace resolve_stack_dump resolveip
 homebrew/versions/mysql56:innochecksum msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_client_test_embedded mysql_config mysql_config_editor mysql_convert_table_format mysql_embedded mysql_find_rows mysql_fix_extensions mysql_install_db mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysql_zap mysqladmin mysqlbinlog mysqlbug mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest mysqltest_embedded perror replace resolve_stack_dump resolveip
 homebrew/versions/nasm21106:ldrdf nasm ndisasm rdf2bin rdf2com rdf2ihx rdf2ith rdf2srec rdfdump rdflib rdx
@@ -3333,8 +3300,6 @@ homebrew/versions/nettle3:nettle-hash nettle-lfib-stream nettle-pbkdf2 pkcs1-con
 homebrew/versions/nifi021:nifi
 homebrew/versions/node010:node
 homebrew/versions/node012:node
-homebrew/versions/node06:node node-waf
-homebrew/versions/node08:node node-waf
 homebrew/versions/node4-lts:node
 homebrew/versions/node5:node
 homebrew/versions/objective-caml312:camlp4 camlp4boot camlp4o camlp4o.opt camlp4of camlp4of.opt camlp4oof camlp4oof.opt camlp4orf camlp4orf.opt camlp4prof camlp4r camlp4r.opt camlp4rf camlp4rf.opt labltk mkcamlp4 ocaml ocamlbrowser ocamlbuild ocamlbuild.byte ocamlbuild.native ocamlc ocamlc.opt ocamlcp ocamldebug ocamldep ocamldep.opt ocamldoc ocamldoc.opt ocamllex ocamllex.opt ocamlmklib ocamlmktop ocamlobjinfo ocamlopt ocamlopt.opt ocamlprof ocamlrun ocamlyacc
@@ -3347,26 +3312,15 @@ homebrew/versions/percona-server56:innochecksum msql2mysql my_print_defaults myi
 homebrew/versions/perl514:a2p c2ph config_data corelist cpan cpan2dist cpanp cpanp-run-perl dprofpp enc2xs find2perl h2ph h2xs instmodsh json_pp libnetcfg perl perl5.14.4 perlbug perldoc perlivp perlthanks piconv pl2pm pod2html pod2latex pod2man pod2text pod2usage podchecker podselect prove psed pstruct ptar ptardiff ptargrep s2p shasum splain xsubpp
 homebrew/versions/perl516:a2p c2ph config_data corelist cpan cpan2dist cpanp cpanp-run-perl enc2xs find2perl h2ph h2xs instmodsh json_pp libnetcfg perl perl5.16.3 perlbug perldoc perlivp perlthanks piconv pl2pm pod2html pod2latex pod2man pod2text pod2usage podchecker podselect prove psed pstruct ptar ptardiff ptargrep s2p shasum splain xsubpp zipdetails
 homebrew/versions/perl518:a2p c2ph config_data corelist cpan cpan2dist cpanp cpanp-run-perl enc2xs find2perl h2ph h2xs instmodsh json_pp libnetcfg perl perl5.18.2 perlbug perldoc perlivp perlthanks piconv pl2pm pod2html pod2latex pod2man pod2text pod2usage podchecker podselect prove psed pstruct ptar ptardiff ptargrep s2p shasum splain xsubpp zipdetails
-homebrew/versions/phantomjs17:phantomjs
-homebrew/versions/phantomjs182:phantomjs
 homebrew/versions/phantomjs192:phantomjs
 homebrew/versions/phantomjs198:phantomjs
-homebrew/versions/play13:play
 homebrew/versions/play14:play
 homebrew/versions/play22:play
-homebrew/versions/postgis15:create_undef.pl new_postgis_restore.pl pgsql2shp postgis_proc_upgrade.pl postgis_restore.pl profile_intersects.pl shp2pgsql test_estimation.pl test_geography_estimation.pl test_geography_joinestimation.pl test_joinestimation.pl
-homebrew/versions/postgis20:create_undef.pl pgsql2shp postgis_proc_upgrade.pl postgis_restore.pl profile_intersects.pl raster2pgsql shp2pgsql test_estimation.pl test_geography_estimation.pl test_geography_joinestimation.pl test_joinestimation.pl
-homebrew/versions/postgresql8:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg initdb pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_resetxlog pg_restore pltcl_delmod pltcl_listmod pltcl_loadmod postgres postmaster psql reindexdb vacuumdb vacuumlo
-homebrew/versions/postgresql91:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_resetxlog pg_restore pg_standby pg_test_fsync pg_upgrade pgbench pltcl_delmod pltcl_listmod pltcl_loadmod postgres postmaster psql reindexdb vacuumdb vacuumlo
-homebrew/versions/postgresql92:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_receivexlog pg_resetxlog pg_restore pg_standby pg_test_fsync pg_test_timing pg_upgrade pgbench pltcl_delmod pltcl_listmod pltcl_loadmod postgres postmaster psql reindexdb vacuumdb vacuumlo
 homebrew/versions/postgresql93:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivexlog pg_resetxlog pg_restore pg_standby pg_test_fsync pg_test_timing pg_upgrade pg_xlogdump pgbench pltcl_delmod pltcl_listmod pltcl_loadmod postgres postmaster psql reindexdb vacuumdb vacuumlo
 homebrew/versions/postgresql94:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivexlog pg_recvlogical pg_resetxlog pg_restore pg_standby pg_test_fsync pg_test_timing pg_upgrade pg_xlogdump pgbench pltcl_delmod pltcl_listmod pltcl_loadmod postgres postmaster psql reindexdb vacuumdb vacuumlo
-homebrew/versions/postgresql9:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg initdb oid2name pg_archivecleanup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_resetxlog pg_restore pg_standby pg_upgrade pgbench pltcl_delmod pltcl_listmod pltcl_loadmod postgres postmaster psql reindexdb vacuumdb vacuumlo
 homebrew/versions/povray36:povray
 homebrew/versions/ppl011:ppl-config
 homebrew/versions/ppl10:ppl-config
-homebrew/versions/protobuf240a:protoc
-homebrew/versions/protobuf241:protoc
 homebrew/versions/protobuf250:protoc
 homebrew/versions/protobuf260:protoc
 homebrew/versions/qt52:lconvert lrelease lupdate macchangeqt macdeployqt moc qcollectiongenerator qdoc qhelpconverter qhelpgenerator qmake qml1plugindump qmlbundle qmlimportscanner qmlmin qmlplugindump qmlprofiler qmlscene qmltestrunner qtpaths rcc syncqt.pl uic xmlpatterns xmlpatternsvalidator
@@ -3375,7 +3329,6 @@ homebrew/versions/rabbitmq30:rabbitmq-defaults rabbitmq-env rabbitmq-plugins rab
 homebrew/versions/raptor1:rapper raptor-config
 homebrew/versions/rebar3:rebar3
 homebrew/versions/redis1310:redis-benchmark redis-check-dump redis-cli redis-server
-homebrew/versions/redis24:redis-benchmark redis-check-aof redis-check-dump redis-cli redis-server
 homebrew/versions/redis26:redis-benchmark redis-check-aof redis-check-dump redis-cli redis-server
 homebrew/versions/redis28:redis28-benchmark redis28-check-aof redis28-check-dump redis28-cli redis28-sentinel redis28-server
 homebrew/versions/riak132:riak riak-admin riak-debug search-cmd
@@ -3390,11 +3343,9 @@ homebrew/versions/saxon6:saxon6
 homebrew/versions/scala210:fsc scala scalac scaladoc scalap
 homebrew/versions/scala29:fsc scala scalac scaladoc scalap
 homebrew/versions/selenium-server-standalone245:selenium-server
-homebrew/versions/solr14:solr14
 homebrew/versions/solr36:solr36
 homebrew/versions/solr4:solr4
 homebrew/versions/sonar4:sonar
-homebrew/versions/subversion16:svn svnadmin svndumpfilter svnlook svnserve svnsync svnversion
 homebrew/versions/subversion17:svn svnadmin svndumpfilter svnlook svnrdump svnserve svnsync svnversion
 homebrew/versions/subversion18:svn svnadmin svndumpfilter svnlook svnmucc svnrdump svnserve svnsync svnversion
 homebrew/versions/swig2:ccache-swig swig
@@ -3409,9 +3360,7 @@ homebrew/versions/valgrind36:valgrind
 homebrew/versions/valgrind38:valgrind
 homebrew/versions/varnish3:varnishadm varnishhist varnishlog varnishncsa varnishreplay varnishsizes varnishstat varnishtest varnishtop varnishd
 homebrew/versions/virtuoso616:inifile isql isqlw virt_mail virtuoso-t
-homebrew/versions/zeromq22:
 homebrew/versions/zeromq32:
-homebrew/versions/zeromq3:
 homebrew/versions/zeromq405:curve_keygen
 homebrew/x11/atari++:atari++
 homebrew/x11/bochs:bochs bximage
@@ -4376,7 +4325,6 @@ mysql-search-replace:srdb
 mysql:innochecksum lz4_decompress my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_client_test_embedded mysql_config mysql_config_editor mysql_embedded mysql_install_db mysql_plugin mysql_secure_installation mysql_ssl_rsa_setup mysql_tzinfo_to_sql mysql_upgrade mysqladmin mysqlbinlog mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlimport mysqlpump mysqlshow mysqlslap mysqltest mysqltest_embedded perror replace resolve_stack_dump resolveip zlib_decompress
 mysqltuner:mysqltuner
 mytop:mytop
-n98-magerun:n98-magerun
 n:n
 nacl:
 nagios-plugins:check_apt check_breeze check_by_ssh check_clamd check_cluster check_dhcp check_dig check_disk check_disk_smb check_dns check_dummy check_file_age check_flexlm check_ftp check_hpjd check_http check_icmp check_ifoperstatus check_ifstatus check_imap check_ircd check_jabber check_ldap check_ldaps check_load check_log check_mailq check_mrtg check_mrtgtraf check_nagios check_nntp check_nntps check_nt check_ntp check_ntp_peer check_ntp_time check_nwstat check_oracle check_overcr check_ping check_pop check_procs check_real check_rpc check_sensors check_simap check_smtp check_snmp check_spop check_ssh check_ssmtp check_tcp check_time check_udp check_ups check_users check_wave negate urlize utils.pm utils.sh
@@ -5397,7 +5345,6 @@ tofrodos:fromdos todos
 toilet:toilet
 tokyo-cabinet:tcamgr tcamttest tcatest tcbmgr tcbmttest tcbtest tcfmgr tcfmttest tcftest tchmgr tchmttest tchtest tctmgr tctmttest tcttest tcucodec tcumttest tcutest
 tokyo-dystopia:dystmgr dysttest lapumgr laputest tcqmgr tcqtest tcwmgr tcwtest
-tokyo-tyrant:tcrmgr tcrmttest tcrtest ttserver ttulmgr ttultest ttservctl
 tomcat-native:
 tomcat:catalina
 tomee-jax-rs:tomee-jax-rs-startup
