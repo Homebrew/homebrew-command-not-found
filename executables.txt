@@ -781,6 +781,7 @@ elm:elm elm-make elm-package elm-reactor elm-repl
 emacs-clang-complete-async:clang-complete
 emacs:ebrowse emacs emacs-24.5 emacsclient etags grep-changelog
 embulk:embulk
+emojify:emojify
 emp:emp
 emscripten:em++ em-config emar emcc emcmake emconfigure emlink.py emmake emranlib emrun emscons
 enca:enca enconv
@@ -817,6 +818,7 @@ eventlog:
 evince:evince evince-previewer evince-thumbnailer
 ex-vi:edit ex vedit vi view
 exact-image:bardecode econvert edentify empty-page hocr2pdf optimize2bw
+execline:execlineb
 exempi:exempi
 exenv:elixir-local-exec exenv
 exercism:exercism
@@ -919,6 +921,7 @@ fop:fop
 ford:ford
 forego:forego
 foremost:foremost
+format-udf:format-udf
 fortune:fortune strfile unstr
 fossil:fossil
 fourstore:4s-admin 4s-backend 4s-backend-copy 4s-backend-destroy 4s-backend-info 4s-backend-passwd 4s-backend-setup 4s-boss 4s-cluster-copy 4s-cluster-create 4s-cluster-destroy 4s-cluster-file-backup 4s-cluster-info 4s-cluster-start 4s-cluster-stop 4s-delete-model 4s-dump 4s-file-backup 4s-httpd 4s-import 4s-info 4s-query 4s-restore 4s-size 4s-ssh-all 4s-ssh-all-parallel 4s-update
@@ -1368,10 +1371,12 @@ homebrew/boneyard/guilt:guilt
 homebrew/boneyard/honeyd:honeyd honeydctl honeydstats hsniff
 homebrew/boneyard/ipe:ipe ipe6upgrade ipeextract iperender ipescript ipetoipe ipeview
 homebrew/boneyard/jscoverage:jscoverage jscoverage-server
+homebrew/boneyard/judy:
 homebrew/boneyard/libodbc++:
 homebrew/boneyard/libqxt:
 homebrew/boneyard/libtorrent:
 homebrew/boneyard/luarocks:luarocks luarocks-5.2 luarocks-admin luarocks-admin-5.2
+homebrew/boneyard/miredo:teredo-mire miredo miredo-checkconf miredo-server
 homebrew/boneyard/mysql-connector-odbc:myodbc-installer
 homebrew/boneyard/mysql-proxy:mysql-binlog-dump mysql-myisam-dump mysql-proxy
 homebrew/boneyard/net6:
@@ -1395,6 +1400,7 @@ homebrew/boneyard/telepathy-glib:
 homebrew/boneyard/telepathy-idle:
 homebrew/boneyard/telepathy-mission-control:mc-tool mc-wait-for-name
 homebrew/boneyard/ttytter:ttytter
+homebrew/boneyard/validns:validns
 homebrew/boneyard/vobcopy:vobcopy
 homebrew/boneyard/whereami:whereami
 homebrew/boneyard/wkhtmltopdf:wkhtmltoimage wkhtmltopdf
@@ -3151,6 +3157,7 @@ homebrew/versions/android-ndk-r10e:ndk-build ndk-gdb ndk-stack
 homebrew/versions/ansible14:ansible ansible-doc ansible-galaxy ansible-playbook ansible-pull
 homebrew/versions/ansible18:ansible ansible-doc ansible-galaxy ansible-playbook ansible-pull ansible-vault
 homebrew/versions/ansible19:ansible ansible-doc ansible-galaxy ansible-playbook ansible-pull ansible-vault
+homebrew/versions/ansible20:ansible ansible-doc ansible-galaxy ansible-playbook ansible-pull ansible-vault
 homebrew/versions/antlr2:antlr2
 homebrew/versions/antlr3:antlr3
 homebrew/versions/apache-spark141:load-spark-env.sh pyspark run-example spark-beeline spark-class spark-shell spark-sql spark-submit sparkR
@@ -3459,6 +3466,7 @@ homebrew/x11/xastir:callpass testdbfawk xastir xastir_udp_client
 homebrew/x11/xclip:xclip xclip-copyfile xclip-cutfile xclip-pastefile
 homebrew/x11/xdotool:xdotool
 homebrew/x11/xdu:xdu
+homebrew/x11/xlispstat:xlispstat
 homebrew/x11/xpa:xpaaccess xpaget xpainfo xpamb xpans xpaset
 homebrew/x11/xpdf:pdfdetach pdffonts pdfimages pdfinfo pdftoppm pdftops pdftotext xpdf
 homebrew/x11/xplot:tcpdump2xplot xplot
@@ -3663,7 +3671,6 @@ jsonnet:jsonnet
 jsonpp:jsonpp
 jsonschema2pojo:jsonschema2pojo
 jsvc:jsvc
-judy:
 juise:juise juise-config
 juju-quickstart:juju-quickstart
 juju:juju juju-metadata
@@ -3793,6 +3800,7 @@ libcdr:cdr2raw cdr2text cdr2xhtml cmx2raw cmx2text cmx2xhtml
 libcec:cec-client cec-client-3.0.1 cecc-client cecc-client-3.0.1 pyCecClient.py
 libcello:
 libchamplain:
+libchewing:
 libcmph:cmph
 libcoap:coap-client coap-server
 libconfig:
@@ -4247,7 +4255,6 @@ miniupnpc:external-ip upnpc
 minizinc:mzn2doc mzn2fzn solns2out
 minizip:
 minuit2:
-miredo:teredo-mire miredo miredo-checkconf miredo-server
 miruo:miruo
 mit-scheme:bchscheme mit-scheme mit-scheme-c scheme
 mitie:ner_example ner_stream relation_extraction_example
@@ -5106,6 +5113,7 @@ sipsak:sipsak
 sisc-scheme:sisc
 sispmctl:sispmctl
 sjk:sjk
+skalibs:
 skinny:skinny yo
 skipfish:skipfish
 skktools:skkdic-count skkdic-expr skkdic-expr2 skkdic-sort
@@ -5495,7 +5503,6 @@ v:v
 vala:vala vala-0.30 vala-gen-introspect vala-gen-introspect-0.30 valac valac-0.30 vapicheck vapicheck-0.30 vapigen vapigen-0.30
 valabind:valabind valabind-cc
 valgrind:callgrind_annotate callgrind_control cg_annotate cg_diff cg_merge ms_print valgrind valgrind-di-server valgrind-listener vgdb
-validns:validns
 valkyrie:
 vamp-plugin-sdk:vamp-rdf-template-generator vamp-simple-host
 vapoursynth:vspipe
@@ -5702,6 +5709,7 @@ ykclient:ykclient
 ykneomgr:ykneomgr
 ykpers:ykchalresp ykinfo ykpersonalize
 yle-dl:yle-dl
+you-get:you-get
 youtube-dl:youtube-dl
 yubico-piv-tool:yubico-piv-tool
 yuicompressor:yuicompressor
