@@ -2,8 +2,8 @@
 
 [![Build Status](https://travis-ci.org/Homebrew/homebrew-command-not-found.svg?branch=master)](https://travis-ci.org/Homebrew/homebrew-command-not-found)
 
-This project tries to reproduce Ubuntu’s `command-not-found` for Homebrew users
-on OS X.
+This project reproduces Ubuntu’s `command-not-found` for Homebrew users on
+OS X.
 
 On Ubuntu, when you try to use a command that doesn’t exist locally but is
 available through a package, Bash will suggest you a command to install it.
@@ -22,11 +22,12 @@ The program 'when' is currently not installed. You can install it by typing:
 ```
 
 Over 5700 formulae are supported, representing more than 21000 different commands
-(99.9% of the main Homebrew repo + 99.2% of all official taps).
+(100% of the main Homebrew repo + 99.2% of all official taps).
 
 ## Install
 
 First, tap this repository:
+
 ```bash
 brew tap homebrew/command-not-found
 ```
@@ -58,7 +59,7 @@ brew update && brew install bash
 # Add the new shell to the list of allowed shells
 sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
 # Change to the new shell
-chsh -s /usr/local/bin/bash 
+chsh -s /usr/local/bin/bash
 ```
 
 ## How does it work?
