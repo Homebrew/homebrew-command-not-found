@@ -381,6 +381,7 @@ certbot:jws letsencrypt
 certigo:certigo
 certstrap:certstrap
 ceylon:ceylon ceylon-sh-setup
+cf4ocl:ccl_c ccl_c-2.1.0 ccl_devinfo ccl_devinfo-2.1.0 ccl_plot_events.py
 cf:cf
 cfengine:cf-agent cf-execd cf-key cf-monitord cf-promises cf-runagent cf-serverd cf-upgrade rpmvercmp
 cfitsio:
@@ -433,7 +434,6 @@ cksfv:cksfv
 clamav:clamav-config clambc clamconf clamdscan clamdtop clamscan clamsubmit freshclam sigtool clamd
 clamz:clamz
 clang-format:clang-format git-clang-format
-clang-omp:clang-omp clang-omp++
 clasp:clasp
 class-dump:class-dump
 classads:classad_functional_tester classad_functional_tester_ns classad_version classad_version_ns cxi cxi_ns
@@ -465,6 +465,7 @@ clutter-gst:
 clutter-gtk:
 clutter:
 cmake:ccmake cmake cmakexbuild cpack ctest
+cmark:cmark
 cmatrix:cmatrix
 cmigemo:cmigemo
 cmocka:
@@ -491,7 +492,6 @@ colormake:clmake clmake-short colormake colormake-short
 colorsvn:colorsvn
 colortail:colortail
 commandbox:box
-commonmark:cmark
 compcert:ccomp
 compface:compface uncompface
 conan:conan conan_server
@@ -1355,6 +1355,7 @@ homebrew/boneyard/arpon:arpon
 homebrew/boneyard/asm6:asm6
 homebrew/boneyard/catdoc:catdoc catppt wordview xls2csv
 homebrew/boneyard/cdimgtools:dvdimgdecss cssdec
+homebrew/boneyard/clang-omp:clang-omp clang-omp++
 homebrew/boneyard/cowpatty:cowpatty genpmk
 homebrew/boneyard/cppdom:cppdom-config
 homebrew/boneyard/csync:csync
@@ -1379,9 +1380,12 @@ homebrew/boneyard/grass:gem64 grass64
 homebrew/boneyard/gtkglarea:
 homebrew/boneyard/guilt:guilt
 homebrew/boneyard/honeyd:honeyd honeydctl honeydstats hsniff
+homebrew/boneyard/iodine:iodine iodined
 homebrew/boneyard/ipe:ipe ipe6upgrade ipeextract iperender ipescript ipetoipe ipeview
 homebrew/boneyard/jscoverage:jscoverage jscoverage-server
 homebrew/boneyard/judy:
+homebrew/boneyard/kubernetes-helm:helm
+homebrew/boneyard/libiomp:
 homebrew/boneyard/libodbc++:
 homebrew/boneyard/libqxt:
 homebrew/boneyard/libtorrent:
@@ -1398,6 +1402,7 @@ homebrew/boneyard/openwsman:openwsmand
 homebrew/boneyard/p11-kit:p11-kit
 homebrew/boneyard/paq8px:paq8px
 homebrew/boneyard/par2tbb:par2 par2create par2repair par2verify
+homebrew/boneyard/peervpn:peervpn
 homebrew/boneyard/phash:
 homebrew/boneyard/powerline:powerline powerline-config powerline-daemon powerline-lint powerline-render
 homebrew/boneyard/pure:pure
@@ -1408,6 +1413,7 @@ homebrew/boneyard/rocket:actool rkt
 homebrew/boneyard/rtorrent:rtorrent
 homebrew/boneyard/sam2p:sam2p sam2p_pdf_scale.pl
 homebrew/boneyard/shell.fm:shell-fm
+homebrew/boneyard/shrewsoft-vpn-client:ikec iked
 homebrew/boneyard/sickrage:sickrage
 homebrew/boneyard/signing-party:caff gpg-key2ps gpg-mailkeys gpglist gpgparticipants gpgsigs keyanalyze keylookup pgp-clean pgp-fixkey pgpring process_keys sig2dot
 homebrew/boneyard/skytools:data_maintainer3 londiste3 pgqd qadmin queue_mover3 queue_splitter3 scriptmgr3 simple_consumer3 simple_local_consumer3 skytools_upgrade3 walmgr3
@@ -1425,6 +1431,7 @@ homebrew/boneyard/vcodex:vcformat vczip
 homebrew/boneyard/visualnetkit:visualnetkit
 homebrew/boneyard/vmalloc:
 homebrew/boneyard/vobcopy:vobcopy
+homebrew/boneyard/vpnc:cisco-decrypt pcf2vpnc vpnc vpnc-disconnect
 homebrew/boneyard/whereami:whereami
 homebrew/boneyard/wkhtmltopdf:wkhtmltoimage wkhtmltopdf
 homebrew/boneyard/wsmancli:wseventmgr wsman
@@ -3215,6 +3222,7 @@ homebrew/versions/apache-spark15:load-spark-env.sh pyspark run-example spark-bee
 homebrew/versions/appledoc20:appledoc
 homebrew/versions/appledoc21:appledoc
 homebrew/versions/appledoc22:appledoc
+homebrew/versions/arangodb2:arango-dfdb-2.8 arangob-2.8 arangod-2.8 arangodump-2.8 arangoimp-2.8 arangorestore-2.8 arangosh-2.8 foxx-manager-2.8
 homebrew/versions/astyle204:astyle
 homebrew/versions/autoconf213:autoconf213 autoheader213 autoreconf213 autoscan213 autoupdate213 ifnames213
 homebrew/versions/autoconf264:autoconf264 autoheader264 autom4te264 autoreconf264 autoscan264 autoupdate264 ifnames264
@@ -3502,6 +3510,7 @@ hubflow:git-hf
 hugo:hugo
 hunspell:affixcompress analyze chmorph hunspell hunzip hzip ispellaff2myspell makealias munch unmunch wordforms wordlist2hunspell
 hydra:dpl4hydra.sh hydra hydra-wizard.sh pw-inspector
+hyper:hyper
 hyperestraier:estbutler estcall estcmd estconfig estload estmaster estmttest estwaver estwolefind
 hyperscan:
 hyperspec:
@@ -3557,7 +3566,6 @@ intercal:convickt ick
 internetarchive:ia
 intltool:intltool-extract intltool-merge intltool-prepare intltool-update intltoolize
 io:io io_static
-iodine:iodine iodined
 ioke:dokgen ioke ispec
 ioping:ioping
 ios-class-guard:ios-class-guard
@@ -3715,7 +3723,6 @@ ksh:ksh ksh93
 kstart:k5start krenew
 ktoblzcheck:ktoblzcheck
 kubernetes-cli:kubectl kubernetes
-kubernetes-helm:helm
 kvazaar:kvazaar
 kyoto-cabinet:kccachetest kcdirmgr kcdirtest kcforestmgr kcforesttest kcgrasstest kchashmgr kchashtest kclangctest kcpolymgr kcpolytest kcprototest kcstashtest kctreemgr kctreetest kcutilmgr kcutiltest
 kyoto-tycoon:ktremotemgr ktremotetest ktserver kttimedmgr kttimedtest ktutilmgr ktutilserv ktutiltest
@@ -3760,6 +3767,7 @@ legit:legit
 leiningen:lein
 lemon:lemon
 lensfun:g-lensfun-update-data lensfun-add-adapter lensfun-update-data
+lepton:lepton lepton-avx lepton-slow-best-ratio
 leptonica:convertfilestopdf convertfilestops convertformat convertsegfilestopdf convertsegfilestops converttopdf converttops fileinfo printimage printsplitimage printtiff splitimage2pdf xtractprotos
 lesspipe:code2color lesspipe.sh sxw2txt tarcolor
 lesstif:motif-config mwm mxmkmf uil xmbind
@@ -3894,7 +3902,6 @@ libilbc:
 libimobiledevice:idevice_id idevicebackup idevicebackup2 idevicecrashreport idevicedate idevicedebug idevicedebugserverproxy idevicediagnostics ideviceenterrecovery ideviceimagemounter ideviceinfo idevicename idevicenotificationproxy idevicepair ideviceprovision idevicescreenshot idevicesyslog
 libinfinity:infinoted-0.6
 libiodbc:iodbc-config iodbctest iodbctestw
-libiomp:
 libiptcdata:iptc
 libiscsi:iscsi-inq iscsi-ls iscsi-perf iscsi-readcapacity16 iscsi-swp
 libjson-rpc-cpp:jsonrpcstub
@@ -4133,6 +4140,7 @@ lua51:lua-5.1 lua5.1 luac-5.1 luac5.1 luarocks-5.1 luarocks-admin-5.1
 lua:lua lua-5.2 lua5.2 luac luac-5.2 luac5.2 luarocks luarocks-5.2 luarocks-admin luarocks-admin-5.2
 luabind:
 luajit:luajit luajit-2.0.4
+luaradio:luaradio
 luciddb:lucidDbServer sqllineClient sqllineEngine
 lutok:
 luvit:luvit
@@ -4517,6 +4525,7 @@ opencc:opencc opencc_dict
 opencolorio:ociobakelut ociocheck
 openconnect:openconnect
 opencore-amr:
+opencsg:
 opendbx:odbx-sql
 opendetex:delatex detex
 openexr:exrenvmap exrheader exrmakepreview exrmaketiled exrmultipart exrmultiview exrstdattr
@@ -4567,6 +4576,7 @@ pacapt:pacapt
 packer:packer packer-builder-amazon-chroot packer-builder-amazon-ebs packer-builder-amazon-instance packer-builder-digitalocean packer-builder-docker packer-builder-file packer-builder-googlecompute packer-builder-null packer-builder-openstack packer-builder-parallels-iso packer-builder-parallels-pvm packer-builder-qemu packer-builder-virtualbox-iso packer-builder-virtualbox-ovf packer-builder-vmware-iso packer-builder-vmware-vmx packer-post-processor-atlas packer-post-processor-compress packer-post-processor-docker-import packer-post-processor-docker-push packer-post-processor-docker-save packer-post-processor-docker-tag packer-post-processor-vagrant packer-post-processor-vagrant-cloud packer-post-processor-vsphere packer-provisioner-ansible-local packer-provisioner-chef-client packer-provisioner-chef-solo packer-provisioner-file packer-provisioner-powershell packer-provisioner-puppet-masterless packer-provisioner-puppet-server packer-provisioner-salt-masterless packer-provisioner-shell packer-provisioner-shell-local packer-provisioner-windows-restart packer-provisioner-windows-shell
 pacvim:pacvim
 pakchois:
+paket:paket
 pam-u2f:pamu2fcfg
 pam_yubico:ykpamcfg
 pandoc-citeproc:pandoc-citeproc
@@ -4619,7 +4629,6 @@ pdnsd:pdnsd pdnsd-ctl
 pdnsrec:rec_control pdns_recursor
 pdsh:dshbak pdcp pdsh rpdcp
 peco:peco
-peervpn:peervpn
 peg-markdown:peg-markdown
 peg:leg peg
 pegtl:
@@ -5089,7 +5098,6 @@ shntool:shncat shncmp shnconv shncue shnfix shngen shnhash shninfo shnjoin shnle
 shocco:shocco
 shorten:shorten
 shpotify:spotify
-shrewsoft-vpn-client:ikec iked
 shtool:shtool shtoolize
 shunit2:shunit2
 sic:sic
@@ -5551,7 +5559,6 @@ vorbis-tools:ogg123 oggdec oggenc ogginfo vcut vorbiscomment
 vorbisgain:vorbisgain
 vowpal-wabbit:active_interactor ezexample_predict ezexample_train library_example spanning_tree vw
 vpcs:vpcs
-vpnc:cisco-decrypt pcf2vpnc vpnc vpnc-disconnect
 vramsteg:vramsteg
 vrpn:client_and_server forward last_of_sequence sample_analog sample_server test_analogfly test_auxiliary_logger test_freespace test_logging test_loopback test_mutexServer test_peerMutex test_radamec_spi test_rumble test_vrpn testimager_server testSharedObjectServer textServer vrpn_HID_device_watcher vrpn_server
 vsftpd:vsftpd
