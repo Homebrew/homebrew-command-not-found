@@ -917,7 +917,6 @@ fmdiff:filemerge fmdiff fmdiff3 fmmerge fmresolve
 fmpp:fmpp
 fmt:
 fobis:FoBiS.py
-folly:
 foma:cgflookup flookup foma
 fon-flash-cli:fon-flash
 fondu:dfont2res fondu frombin lumper setfondname showfond tobin ufond
@@ -1234,7 +1233,7 @@ gst-validate:gst-validate-1.0 gst-validate-launcher gst-validate-media-check-1.0
 gstreamer:gst-inspect-1.0 gst-launch-1.0 gst-stats-1.0 gst-typefind-1.0
 gstreamermm:
 gti:gti
-gtk+3:gtk-builder-tool gtk-encode-symbolic-svg gtk-launch gtk-query-immodules-3.0 gtk3-demo gtk3-demo-application gtk3-icon-browser gtk3-update-icon-cache gtk3-widget-factory
+gtk+3:gtk-builder-tool gtk-encode-symbolic-svg gtk-launch gtk-query-immodules-3.0 gtk-query-settings gtk3-demo gtk3-demo-application gtk3-icon-browser gtk3-update-icon-cache gtk3-widget-factory
 gtk+:gtk-builder-convert gtk-demo gtk-query-immodules-2.0 gtk-update-icon-cache
 gtk-doc:gtkdoc-check gtkdoc-depscan gtkdoc-fixxref gtkdoc-mkdb gtkdoc-mkhtml gtkdoc-mkman gtkdoc-mkpdf gtkdoc-mktmpl gtkdoc-rebase gtkdoc-scan gtkdoc-scangobj gtkdocize
 gtk-engines:
@@ -1282,7 +1281,7 @@ haproxy:haproxy
 harbour:harbour hb3rdpat.hbs hbformat hbi18n hbmk2 hbnetio hbpp hbrun hbtest
 hardlink-osx:hln
 hardlink:hardlink
-harfbuzz:hb-ot-shape-closure hb-shape hb-view
+harfbuzz:hb-ot-shape-closure hb-shape
 hashcash:hashcash sha1
 hashpump:hashpump
 haskell-stack:stack
@@ -1369,6 +1368,7 @@ homebrew/boneyard/embryo:embryo_cc
 homebrew/boneyard/evas:evas_cserve evas_cserve_tool
 homebrew/boneyard/ffts:
 homebrew/boneyard/fleet-db:fleetdb-server
+homebrew/boneyard/folly:
 homebrew/boneyard/gambit-scheme:gambc-cc gambc-doc gsc gsc-script gsi gsi-script scheme-ieee-1178-1990 scheme-r4rs scheme-r5rs scheme-srfi-0 six six-script
 homebrew/boneyard/gant:gant
 homebrew/boneyard/gasnet:amudprun gasnet_trace gasnet_trace.pl gasnetrun_mpi gasnetrun_mpi.pl
@@ -1479,6 +1479,7 @@ homebrew/devel-only/bish:bish
 homebrew/devel-only/elm-format:elm-format
 homebrew/devel-only/hana:
 homebrew/devel-only/j2objc:cycle_finder j2objc j2objc_protoc j2objcc
+homebrew/devel-only/juju2:juju juju-metadata
 homebrew/devel-only/mlite:mlite
 homebrew/devel-only/shadowvpn:shadowvpn
 homebrew/dupes/apple-gcc42:c++-4.2 cpp-4.2 g++-4.2 gcc-4.2 gcov-4.2 gfortran-4.2 i686-apple-darwin11-cpp-4.2.1 i686-apple-darwin11-g++-4.2.1 i686-apple-darwin11-gcc-4.2.1 i686-apple-darwin11-gfortran-4.2.1
@@ -4556,6 +4557,7 @@ ortp:
 osc:osc osc-wrapper.py osc_hotshot.py
 oscats:
 osh:osh sh6
+osm-gps-map:
 osm-pbf:
 osm2pgrouting:osm2pgrouting
 osm2pgsql:nodecachefilereader osm2pgsql
@@ -5506,7 +5508,7 @@ uudeview:minews uudeview uuenview
 uwsgi:uwsgi
 v8:d8 mksnapshot process v8
 v:v
-vala:vala vala-0.30 vala-gen-introspect vala-gen-introspect-0.30 valac valac-0.30 vapicheck vapicheck-0.30 vapigen vapigen-0.30
+vala:vala vala-0.32 vala-gen-introspect vala-gen-introspect-0.32 valac valac-0.32 vapicheck vapicheck-0.32 vapigen vapigen-0.32
 valabind:valabind valabind-cc
 valgrind:callgrind_annotate callgrind_control cg_annotate cg_diff cg_merge ms_print valgrind valgrind-di-server valgrind-listener vgdb
 valkyrie:
@@ -5615,6 +5617,7 @@ wine:function_grep.pl msiexec notepad regedit regsvr32 widl wine wine.bin winebo
 winetricks:winetricks
 winexe:
 wiredtiger:wt
+wireguard-tools:wg
 wireshark:capinfos captype dftest dumpcap editcap mergecap randpkt rawshark reordercap text2pcap tshark
 wirouter_keyrec:wirouterkeyrec wr_iwlist.sh
 with-readline:with-readline
