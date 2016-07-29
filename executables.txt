@@ -2526,6 +2526,7 @@ homebrew/php/php70-apcu-bc:
 homebrew/php/php70-apcu:
 homebrew/php/php70-ast:
 homebrew/php/php70-blitz:
+homebrew/php/php70-couchbase:
 homebrew/php/php70-ev:
 homebrew/php/php70-event:
 homebrew/php/php70-gmagick:
@@ -2649,7 +2650,7 @@ homebrew/science/atomic-pseudopotential-engine:ape ape-run_regression_test.pl ap
 homebrew/science/atompaw:atompaw graphatom
 homebrew/science/atpdec:atpdec
 homebrew/science/atram:
-homebrew/science/augustus:augustus
+homebrew/science/augustus:augustus bam2hints etraining fastBlockSearch filterBam homGeneMapping joingenes prepareAlign
 homebrew/science/bact:bact_classify bact_learn bact_mkmodel
 homebrew/science/bali-phy:alignment-cat alignment-chop-internal alignment-compare alignment-consensus alignment-convert alignment-draw alignment-find alignment-find-conserved alignment-gild alignment-identity alignment-indices alignment-info alignment-max alignment-median alignment-thin alignment-translate alignments-diff analyze-rates bali-phy bali-phy-pkg bali-phy-sge bp-analyze.pl cut-range draw-graph draw-tree joint-indels joint-parsimony mctree-mean-lengths model_P partitions-supported path-graph pickout statreport stats-cat stats-merge stats-select subsample tree-mean-lengths tree-partitions tree-reroot trees-bootstrap trees-consensus trees-distances trees-pair-distances trees-to-SRQ
 homebrew/science/bam-readcount:bam-readcount
@@ -2675,7 +2676,7 @@ homebrew/science/biopieces:read_fasta
 homebrew/science/biopp:
 homebrew/science/bitseq:convertSamples estimateDE estimateExpression estimateHyperPar extractSamples getFoldChange getGeneExpression getPPLR getVariance getWithinGeneExpression parseAlignment transposeLargeFile
 homebrew/science/blasr:blasr
-homebrew/science/blast:aalookup_unit_test aascan_unit_test align_format_unit_test bdbloader_unit_test bl2seq_unit_test blast_format_unit_test blast_formatter blast_services_unit_test blast_unit_test blastdb_aliastool blastdb_format_unit_test blastdbcheck blastdbcmd blastdbcp blastdiag_unit_test blastengine_unit_test blastextend_unit_test blastfilter_unit_test blasthits_unit_test blastinput_unit_test blastn blastoptions_unit_test blastp blastsetup_unit_test blastx convert2blastmask datatool delta_unit_test deltablast dustmasker gapinfo_unit_test gencode_singleton_unit_test gene_info_reader gene_info_unit_test hspfilter_besthit_unit_test hspfilter_culling_unit_test hspstream_unit_test legacy_blast.pl linkhsp_unit_test makeblastdb makembindex makeprofiledb msa2pssm_unit_test ntlookup_unit_test ntscan_unit_test optionshandle_unit_test phiblast_unit_test prelimsearch_unit_test project_tree_builder psibl2seq_unit_test psiblast psiblast_iteration_unit_test psiblast_unit_test pssmcreate_unit_test pssmenginefreqratios_unit_test querydata_unit_test queryinfo_unit_test redoalignment_unit_test remote_blast_unit_test rps_unit_test rpsblast rpstblastn scoreblk_unit_test search_strategy_unit_test seedtop segmasker seqdb_demo seqdb_perf seqdb_unit_test seqinfosrc_unit_test seqsrc_unit_test setupfactory_unit_test split_query_unit_test subj_ranges_unit_test tblastn tblastx traceback_unit_test tracebacksearch_unit_test uniform_search_unit_test update_blastdb.pl version_reference_unit_test windowmasker windowmasker_2.2.22_adapter.py writedb_unit_test
+homebrew/science/blast:blast_formatter blastdb_aliastool blastdbcheck blastdbcmd blastdbcp blastn blastp blastx convert2blastmask datatool deltablast dustmasker gene_info_reader legacy_blast.pl makeblastdb makembindex makeprofiledb project_tree_builder psiblast rpsblast rpstblastn run_with_lock seedtop segmasker seqdb_demo seqdb_perf tblastn tblastx update_blastdb.pl windowmasker windowmasker_2.2.22_adapter.py
 homebrew/science/blat:blat faToNib faToTwoBit gfClient gfServer nibFrag pslPretty pslReps pslSort twoBitInfo twoBitToFa
 homebrew/science/blaze-lib:
 homebrew/science/bless:bless
@@ -2685,6 +2686,7 @@ homebrew/science/bowtie2:bowtie2 bowtie2-align-l bowtie2-align-s bowtie2-build b
 homebrew/science/bowtie:bowtie bowtie-align-l bowtie-align-s bowtie-build bowtie-build-l bowtie-build-s bowtie-inspect bowtie-inspect-l bowtie-inspect-s
 homebrew/science/bpel2owfn:bpel2owfn
 homebrew/science/bpipe:bg-bpipe bpipe bpipe-pbspro.sh bpipe-slurm.sh bpipe-torque.sh
+homebrew/science/busco:busco
 homebrew/science/butterflow:butterflow
 homebrew/science/bwa:bwa
 homebrew/science/bwtdisk:bwte text_conv text_count text_rev unbwti
@@ -3053,6 +3055,7 @@ homebrew/science/rampart:citadel-cn_plot.pl citadel-gather-asm.pl citadel-gather
 homebrew/science/rate4site:rate4site rate4site_doublerep
 homebrew/science/raxml:raxmlHPC-PTHREADS raxmlHPC-PTHREADS-AVX raxmlHPC-PTHREADS-SSE3
 homebrew/science/ray:Ray
+homebrew/science/rcorrector:rcorrector run_rcorrector.pl
 homebrew/science/readseq:readseq
 homebrew/science/readsim:dnasim.py readsim.py
 homebrew/science/reapr:reapr
@@ -3814,7 +3817,7 @@ libchewing:
 libcmph:cmph
 libcoap:coap-client coap-server
 libconfig:
-libcouchbase:cbc cbc-admin cbc-bucket-create cbc-bucket-delete cbc-bucket-flush cbc-cat cbc-connstr cbc-create cbc-decr cbc-hash cbc-incr cbc-lock cbc-mcflush cbc-n1ql cbc-n1qlback cbc-observe cbc-observe-seqno cbc-pillowfight cbc-rm cbc-stats cbc-strerror cbc-unlock cbc-verbosity cbc-version cbc-view cbc-write-config
+libcouchbase:cbc cbc-admin cbc-bucket-create cbc-bucket-delete cbc-bucket-flush cbc-cat cbc-connstr cbc-create cbc-decr cbc-hash cbc-incr cbc-lock cbc-mcflush cbc-n1ql cbc-n1qlback cbc-observe cbc-observe-seqno cbc-pillowfight cbc-rm cbc-stats cbc-strerror cbc-touch cbc-unlock cbc-verbosity cbc-version cbc-view cbc-write-config
 libcroco:croco-0.6-config csslint-0.6
 libcsv:
 libcue:
