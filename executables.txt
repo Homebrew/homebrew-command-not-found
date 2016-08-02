@@ -1381,6 +1381,7 @@ homebrew/boneyard/grass:gem64 grass64
 homebrew/boneyard/gtkglarea:
 homebrew/boneyard/guilt:guilt
 homebrew/boneyard/honeyd:honeyd honeydctl honeydstats hsniff
+homebrew/boneyard/icmake:icm-comp icm-exec icm-pp icmake icmbuild icmstart icmun
 homebrew/boneyard/iodine:iodine iodined
 homebrew/boneyard/ipe:ipe ipe6upgrade ipeextract iperender ipescript ipetoipe ipeview
 homebrew/boneyard/jscoverage:jscoverage jscoverage-server
@@ -1674,6 +1675,7 @@ homebrew/emacs/rainbow-delimiters:
 homebrew/emacs/rainbow-mode:
 homebrew/emacs/register-list:
 homebrew/emacs/robe:
+homebrew/emacs/rspec-mode:
 homebrew/emacs/rubocop-emacs:
 homebrew/emacs/rust-mode:
 homebrew/emacs/s-emacs:
@@ -1912,6 +1914,7 @@ homebrew/gui/inkscape:inkscape inkview
 homebrew/gui/iptux:iptux
 homebrew/gui/kernagic:kernagic
 homebrew/gui/klavaro:klavaro
+homebrew/gui/luyten:luyten
 homebrew/gui/meld:meld
 homebrew/gui/smartsim:smartsim
 homebrew/gui/tarsnap-gui:
@@ -2527,6 +2530,7 @@ homebrew/php/php70-apcu:
 homebrew/php/php70-ast:
 homebrew/php/php70-blitz:
 homebrew/php/php70-couchbase:
+homebrew/php/php70-ds:
 homebrew/php/php70-ev:
 homebrew/php/php70-event:
 homebrew/php/php70-gmagick:
@@ -2552,10 +2556,12 @@ homebrew/php/php70-opcache:
 homebrew/php/php70-pcntl:
 homebrew/php/php70-pdo-dblib:
 homebrew/php/php70-pdo-pgsql:
+homebrew/php/php70-phalcon:
 homebrew/php/php70-pspell:
 homebrew/php/php70-pthreads:
 homebrew/php/php70-rdkafka:
 homebrew/php/php70-redis:
+homebrew/php/php70-scrypt:
 homebrew/php/php70-snmp:
 homebrew/php/php70-ssh2:
 homebrew/php/php70-stats:
@@ -2569,9 +2575,30 @@ homebrew/php/php70-xxtea:
 homebrew/php/php70-yaf:
 homebrew/php/php70-yaml:
 homebrew/php/php70:phar phar.phar php php-cgi php-config php-fpm php70-fpm phpize
+homebrew/php/php71-amqp:
+homebrew/php/php71-apcu:
+homebrew/php/php71-blitz:
+homebrew/php/php71-ev:
+homebrew/php/php71-event:
+homebrew/php/php71-gmagick:
+homebrew/php/php71-gmp:
+homebrew/php/php71-imagick:
 homebrew/php/php71-intl:
+homebrew/php/php71-libsodium:
+homebrew/php/php71-lz4:
+homebrew/php/php71-lzf:
+homebrew/php/php71-mailparse:
+homebrew/php/php71-maxminddb:
+homebrew/php/php71-mcrypt:
+homebrew/php/php71-mecab:
 homebrew/php/php71-mongodb:
+homebrew/php/php71-opcache:
+homebrew/php/php71-pdo-dblib:
+homebrew/php/php71-pdo-pgsql:
+homebrew/php/php71-redis:
+homebrew/php/php71-uuid:
 homebrew/php/php71-xdebug:
+homebrew/php/php71-yaml:
 homebrew/php/php71:phar phar.phar php php-cgi php-config php-fpm php71-fpm phpize
 homebrew/php/phpab:phpab
 homebrew/php/phpbrew:phpbrew
@@ -3251,6 +3278,7 @@ homebrew/versions/cmake31:ccmake cmake cmakexbuild cpack ctest
 homebrew/versions/coq83:coq-tex coq_makefile coqc coqchk coqchk.opt coqdep coqdoc coqmktop coqtop coqtop.byte coqtop.opt coqwc gallina
 homebrew/versions/cvsps2:cvsps
 homebrew/versions/docker110:docker
+homebrew/versions/docker111:docker
 homebrew/versions/docker171:docker
 homebrew/versions/doxygen1831:doxygen
 homebrew/versions/drush4:drush
@@ -3531,7 +3559,6 @@ icdiff:git-icdiff icdiff
 ice:db53_archive db53_checkpoint db53_deadlock db53_dump db53_hotbackup db53_load db53_log_verify db53_printlog db53_recover db53_replicate db53_stat db53_tuner db53_upgrade db53_verify dumpdb glacier2router icebox iceboxadmin icegridadmin icegridnode icegridregistry icepatch2calc icepatch2client icepatch2server icestormadmin icestormmigrate slice2cpp slice2cs slice2freeze slice2freezej slice2html slice2java slice2objc slice2php transformdb
 icecast:icecast
 icecream:icecc icerun icecc-scheduler iceccd
-icmake:icm-comp icm-exec icm-pp icmake icmbuild icmstart icmun
 icon-naming-utils:
 icon:icon icont iconx
 icoutils:extresso genresscript icotool wrestool
@@ -4163,6 +4190,7 @@ lzip:lzip
 lzlib:
 lzo:
 lzop:lzop
+m-cli:m
 m2c:m2c
 mac-robber:mac-robber
 mackup:mackup
