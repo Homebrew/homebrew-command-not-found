@@ -51,6 +51,7 @@ algernon:algernon
 algol68g:a68g
 align:align width
 allegro:
+alot:alot
 alpine:alpine pico pilot rpdump rpload
 alure:alurecdplay alureplay alurestream
 amap:amap amap6 amapcrap
@@ -169,7 +170,6 @@ autossh:autossh rscreen
 autotrace:autotrace autotrace-config
 avce00:avcdelete avcexport avcimport avctest
 avian:avian avian-dynamic
-avidemux:avidemux avidemux_cli avidemux_jobs
 aview:aaflip asciiview aview
 avra:avra
 avrdude:avrdude
@@ -1073,6 +1073,7 @@ git-number:git-id git-list git-number
 git-octopus:git-octopus
 git-open:git-open
 git-plus:git-multi git-old-branches git-relation
+git-remote-hg:git-remote-hg
 git-review:git-review
 git-secret:git-secret
 git-secrets:git-secrets
@@ -1370,7 +1371,6 @@ homebrew/boneyard/ffts:
 homebrew/boneyard/fleet-db:fleetdb-server
 homebrew/boneyard/folly:
 homebrew/boneyard/gambit-scheme:gambc-cc gambc-doc gsc gsc-script gsi gsi-script scheme-ieee-1178-1990 scheme-r4rs scheme-r5rs scheme-srfi-0 six six-script
-homebrew/boneyard/gant:gant
 homebrew/boneyard/gasnet:amudprun gasnet_trace gasnet_trace.pl gasnetrun_mpi gasnetrun_mpi.pl
 homebrew/boneyard/gccxml:gccxml gccxml_cc1plus
 homebrew/boneyard/gdal-grass:
@@ -2578,10 +2578,12 @@ homebrew/php/php70:phar phar.phar php php-cgi php-config php-fpm php70-fpm phpiz
 homebrew/php/php71-amqp:
 homebrew/php/php71-apcu:
 homebrew/php/php71-blitz:
+homebrew/php/php71-ds:
 homebrew/php/php71-ev:
 homebrew/php/php71-event:
 homebrew/php/php71-gmagick:
 homebrew/php/php71-gmp:
+homebrew/php/php71-hprose:
 homebrew/php/php71-imagick:
 homebrew/php/php71-intl:
 homebrew/php/php71-libsodium:
@@ -2592,6 +2594,7 @@ homebrew/php/php71-maxminddb:
 homebrew/php/php71-mcrypt:
 homebrew/php/php71-mecab:
 homebrew/php/php71-mongodb:
+homebrew/php/php71-mustache:
 homebrew/php/php71-opcache:
 homebrew/php/php71-pdo-dblib:
 homebrew/php/php71-pdo-pgsql:
@@ -3279,7 +3282,6 @@ homebrew/versions/cmake30:ccmake cmake cmakexbuild cpack ctest
 homebrew/versions/cmake31:ccmake cmake cmakexbuild cpack ctest
 homebrew/versions/coq83:coq-tex coq_makefile coqc coqchk coqchk.opt coqdep coqdoc coqmktop coqtop coqtop.byte coqtop.opt coqwc gallina
 homebrew/versions/cvsps2:cvsps
-homebrew/versions/docker110:docker
 homebrew/versions/docker111:docker
 homebrew/versions/docker171:docker
 homebrew/versions/doxygen1831:doxygen
@@ -3399,7 +3401,6 @@ homebrew/versions/node5:node
 homebrew/versions/objective-caml312:camlp4 camlp4boot camlp4o camlp4o.opt camlp4of camlp4of.opt camlp4oof camlp4oof.opt camlp4orf camlp4orf.opt camlp4prof camlp4r camlp4r.opt camlp4rf camlp4rf.opt labltk mkcamlp4 ocaml ocamlbrowser ocamlbuild ocamlbuild.byte ocamlbuild.native ocamlc ocamlc.opt ocamlcp ocamldebug ocamldep ocamldep.opt ocamldoc ocamldoc.opt ocamllex ocamllex.opt ocamlmklib ocamlmktop ocamlobjinfo ocamlopt ocamlopt.opt ocamlprof ocamlrun ocamlyacc
 homebrew/versions/open-mpi16:mpic++ mpic++-vt mpicc mpicc-vt mpicxx mpicxx-vt mpiexec mpif77 mpif77-vt mpif90 mpif90-vt mpirun ompi-clean ompi-iof ompi-probe ompi-profiler ompi-ps ompi-server ompi-top ompi_info opal_wrapper orte-bootproxy.sh orte-clean orte-iof orte-ps orte-top orte_wrapper_script ortec++ ortecc orted orterun otfaux otfcompress otfconfig otfdecompress otfinfo otfmerge otfmerge-mpi otfprint otfprofile otfprofile-mpi otfshrink vtc++ vtcc vtcxx vtf77 vtf90 vtfilter vtfilter-mpi vtfiltergen vtfiltergen-mpi vtfort vtrun vtsetup vtsetup.jar vtunify vtunify-mpi vtwrapper
 homebrew/versions/openjpeg20:opj_compress opj_decompress opj_dump
-homebrew/versions/openjpeg21:opj_compress opj_decompress opj_dump
 homebrew/versions/openssl101:c_rehash openssl
 homebrew/versions/percona-server55:innochecksum msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_config mysql_convert_table_format mysql_find_rows mysql_fix_extensions mysql_install_db mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysql_zap mysqladmin mysqlbinlog mysqlbug mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest perror replace resolve_stack_dump resolveip
 homebrew/versions/percona-server56:innochecksum msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_client_test_embedded mysql_config mysql_config_editor mysql_convert_table_format mysql_embedded mysql_find_rows mysql_fix_extensions mysql_install_db mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysql_zap mysqladmin mysqlbinlog mysqlbug mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest mysqltest_embedded perror ps_tokudb_admin replace resolve_stack_dump resolveip
@@ -3729,7 +3730,6 @@ kanif:kaget kanif kaput kash
 kapacitor:kapacitor kapacitord
 karn:karn
 kawa:kawa
-kdiff3:kdiff3
 keepassc:keepassc keepassc-agent keepassc-server
 kerl:kerl
 kes:es
@@ -3799,6 +3799,7 @@ leaps:leaps
 ledger:ledger
 ledit:ledit
 legit:legit
+lego:lego
 leiningen:lein
 lemon:lemon
 lensfun:g-lensfun-update-data lensfun-add-adapter lensfun-update-data
@@ -4179,7 +4180,6 @@ luaradio:luaradio
 luciddb:lucidDbServer sqllineClient sqllineEngine
 lutok:
 luvit:luvit
-luyten:luyten
 lv2:lv2specgen.py
 lv:lgrep lv
 lwtools:lwar lwasm lwlink lwobjdump
@@ -4882,7 +4882,6 @@ qt:lconvert lrelease lupdate macdeployqt moc qcollectiongenerator qdoc3 qhelpgen
 qtfaststart:qt-faststart
 qtplay:qtplay
 quantlib:quantlib-config quantlib-test-suite
-quassel:quassel quasselclient quasselcore
 quazip:qztest
 queequeg:qq
 quex:quex
@@ -4902,6 +4901,7 @@ radare2:r2 r2agent rabin2 radare2 radiff2 rafind2 ragg2 ragg2-cc rahash2 rarun2 
 ragel:ragel
 rainbarf:rainbarf
 rakudo-star:bailador bailador-j bailador-m lwp-download.pl lwp-download.pl-j lwp-download.pl-m lwp-get.pl lwp-get.pl-j lwp-get.pl-m moar nqp nqp-m p6doc p6doc-index p6doc-index-j p6doc-index-m p6doc-j p6doc-m panda panda-build panda-build-j panda-build-m panda-cpanize panda-cpanize-j panda-cpanize-m panda-fetch panda-fetch-j panda-fetch-m panda-install panda-install-j panda-install-m panda-j panda-m panda-test panda-test-j panda-test-m perl6 perl6-debug-m perl6-gdb-m perl6-m perl6-valgrind-m
+rancher-cli:rancher
 rancher-compose:rancher-compose
 rancid:agmrancid alogin anlogin arancid arrancid avologin avorancid blogin brancid cat5rancid clogin complogin control_rancid cssrancid dllogin elogin erancid f10rancid f5rancid flogin fnlogin fnrancid hlogin hpuifilter hrancid htlogin htrancid jerancid jlogin lg.cgi lgform.cgi mrancid mrvlogin mtlogin mtrancid nlogin nrancid nslogin nsrancid panlogin par plogin rancid rancid-cvs rancid-fe rancid-run rivlogin rivrancid rrancid srancid tlogin trancid wlogin xilogin xirancid xrancid zrancid
 randomize-lines:rl
@@ -5236,7 +5236,6 @@ sproxy:sproxy
 sqlcipher:sqlcipher
 sqlite-analyzer:sqlite3_analyzer
 sqlite:sqlite3
-sqlitebrowser:sqlitebrowser
 sqliteman:sqliteman
 sqliteodbc:
 sqlmap:sqlmap sqlmap.py
@@ -5499,7 +5498,6 @@ uchardet:uchardet
 ucl:
 ucommon:args car commoncpp-config keywait mdsum pdetach scrub-files sockaddr ucommon-config zerofill
 ucspi-tcp:addcr argv0 date@ delcr finger@ fixcrio http@ mconnect mconnect-io rblsmtpd recordio tcpcat tcpclient tcprules tcprulescheck tcpserver who@
-ucspi-tools:socks tlsc
 udis86:udcli
 udns:dnsget rblcheck
 udptunnel:udptunnel
@@ -5790,6 +5788,7 @@ zsh-syntax-highlighting:
 zsh:zsh zsh-5.2
 zshdb:zshdb
 zssh:zssh ztelnet
+zstd:unzstd zstd zstdcat
 zsync:zsync zsyncmake
 zurl:zurl
 zxcc:zxas zxc zxcc zxlibr zxlink
