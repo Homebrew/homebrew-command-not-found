@@ -101,7 +101,6 @@ appledoc:appledoc
 appscale-tools:appscale appscale-add-instances appscale-add-keypair appscale-describe-instances appscale-gather-logs appscale-get-property appscale-relocate-app appscale-remove-app appscale-reset-pwd appscale-run-instances appscale-set-property appscale-terminate-instances appscale-upload-app
 apr-util:apu-1-config
 apr:apr-1-config
-apt-cacher-ng:apt-cacher-ng
 apt-dater:apt-dater
 aptly:aptly
 aqbanking:aqbanking-cli aqbanking-config aqebics-tool aqhbci-tool4 hbcixml3
@@ -435,7 +434,6 @@ clamav:clamav-config clambc clamconf clamdscan clamdtop clamscan clamsubmit fres
 clamz:clamz
 clang-format:clang-format git-clang-format
 clasp:clasp
-class-dump:class-dump
 classads:classad_functional_tester classad_functional_tester_ns classad_version classad_version_ns cxi cxi_ns
 clean:clean
 clearlooks-phenix:
@@ -1147,8 +1145,8 @@ gnu-units:gunits gunits_cur
 gnu-which:gwhich
 gnumeric:gnumeric gnumeric-1.12.27 ssconvert ssdiff ssgrep ssindex
 gnupg-pkcs11-scd:gnupg-pkcs11-scd
-gnupg2:addgnupghome applygnupgdefaults gpg-connect-agent gpg2 gpgconf gpgkey2ssh gpgparsemail gpgsm gpgsm-gencert.sh gpgv2 kbxutil symcryptrun watchgnupg
-gnupg:gpg gpg-zip gpgsplit gpgv
+gnupg2:addgnupghome applygnupgdefaults gpg gpg-connect-agent gpg2 gpgconf gpgkey2ssh gpgparsemail gpgsm gpgsm-gencert.sh gpgv gpgv2 kbxutil symcryptrun watchgnupg
+gnupg:gpg-zip1 gpg1 gpgsplit1 gpgv1
 gnuplot:gnuplot
 gnuradio:gnuradio-companion gnuradio-config-info gr-ctrlport-monitor gr-perf-monitorx gr_constellation_plot gr_filter_design gr_modtool gr_plot_char gr_plot_const gr_plot_fft gr_plot_fft_c gr_plot_fft_f gr_plot_float gr_plot_int gr_plot_iq gr_plot_psd gr_plot_psd_c gr_plot_psd_f gr_plot_qt gr_plot_short gr_psd_plot_b gr_psd_plot_c gr_psd_plot_f gr_psd_plot_i gr_psd_plot_s gr_read_file_metadata gr_spectrogram_plot gr_spectrogram_plot_b gr_spectrogram_plot_c gr_spectrogram_plot_f gr_spectrogram_plot_i gr_spectrogram_plot_s gr_time_plot_b gr_time_plot_c gr_time_plot_f gr_time_plot_i gr_time_plot_s gr_time_raster_b gr_time_raster_f grcc uhd_fft uhd_rx_cfile uhd_rx_nogui uhd_siggen uhd_siggen_gui usrp_flex usrp_flex_all usrp_flex_band volk-config-info volk_modtool volk_profile
 gnustep-make:
@@ -1352,11 +1350,13 @@ homebrew/binary/rebol-core:rebol
 homebrew/binary/rebol-view:rebol
 homebrew/binary/subgit:subgit
 homebrew/binary/txl:txl txlc txldb txlp
+homebrew/boneyard/apt-cacher-ng:apt-cacher-ng
 homebrew/boneyard/arpon:arpon
 homebrew/boneyard/asm6:asm6
 homebrew/boneyard/catdoc:catdoc catppt wordview xls2csv
 homebrew/boneyard/cdimgtools:dvdimgdecss cssdec
 homebrew/boneyard/clang-omp:clang-omp clang-omp++
+homebrew/boneyard/class-dump:class-dump
 homebrew/boneyard/cowpatty:cowpatty genpmk
 homebrew/boneyard/cppdom:cppdom-config
 homebrew/boneyard/csync:csync
@@ -1387,6 +1387,7 @@ homebrew/boneyard/iodine:iodine iodined
 homebrew/boneyard/ipe:ipe ipe6upgrade ipeextract iperender ipescript ipetoipe ipeview
 homebrew/boneyard/jscoverage:jscoverage jscoverage-server
 homebrew/boneyard/judy:
+homebrew/boneyard/kjell:kjell
 homebrew/boneyard/kubernetes-helm:helm
 homebrew/boneyard/libdbusmenu-qt:
 homebrew/boneyard/libiomp:
@@ -1423,6 +1424,7 @@ homebrew/boneyard/shrewsoft-vpn-client:ikec iked
 homebrew/boneyard/sickrage:sickrage
 homebrew/boneyard/signing-party:caff gpg-key2ps gpg-mailkeys gpglist gpgparticipants gpgsigs keyanalyze keylookup pgp-clean pgp-fixkey pgpring process_keys sig2dot
 homebrew/boneyard/skytools:data_maintainer3 londiste3 pgqd qadmin queue_mover3 queue_splitter3 scriptmgr3 simple_consumer3 simple_local_consumer3 skytools_upgrade3 walmgr3
+homebrew/boneyard/slony:slon slonik slony_logshipper
 homebrew/boneyard/soccerwindow2:soccerwindow2 soccerwindow2-qt4 sswindow2
 homebrew/boneyard/swatchbooker:sbconvert sbconvertor swatchbooker swatchbooker_w32_postinst.py
 homebrew/boneyard/synfigstudio:synfigstudio
@@ -1678,6 +1680,7 @@ homebrew/emacs/quarter-plane:
 homebrew/emacs/queue-emacs:
 homebrew/emacs/rainbow-delimiters:
 homebrew/emacs/rainbow-mode:
+homebrew/emacs/rdf-prefix:
 homebrew/emacs/register-list:
 homebrew/emacs/robe:
 homebrew/emacs/rspec-mode:
@@ -3755,7 +3758,6 @@ kibana:kibana
 kimwitu++:kc++
 kitchen-sync:ks ks_mysql
 kite:build_kdocs ikt kdb kite
-kjell:kjell
 knock:knock knockd
 knot:kdig khost knsec3hash knsupdate knotc knotd
 known_hosts:known_hosts
@@ -5180,7 +5182,6 @@ sleepwatcher:sleepwatcher
 sleuthkit:blkcalc blkcat blkls blkstat fcat ffind fiwalk fls fsstat hfind icat ifind ils img_cat img_stat istat jcat jls jpeg_extract mactime mmcat mmls mmstat sigfind sorter srch_strings tsk_comparedir tsk_gettimes tsk_loaddb tsk_recover
 slimerjs:slimerjs
 sloccount:ada_count asm_count awk_count break_filelist c_count cobol_count compute_all compute_sloc_lang count_extensions count_unknown_ext csh_count erlang_count exp_count f90_count fortran_count generic_count get_sloc get_sloc_details haskell_count java_count jsp_count lex_count lexcount1 lisp_count make_filelists makefile_count ml_count modula3_count objc_count pascal_count perl_count php_count print_sum python_count ruby_count sed_count sh_count show_filecount sloccount sql_count tcl_count
-slony:slon slonik slony_logshipper
 slowhttptest:slowhttptest
 slrn:slrn slrnpull
 slugify:slugify
