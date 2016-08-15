@@ -2828,6 +2828,7 @@ homebrew/science/flash:flash
 homebrew/science/flint:
 homebrew/science/flux-simulator:flux-simulator
 homebrew/science/fqzcomp:fqz_comp
+homebrew/science/freebayes:bamleftalign coverage_to_regions.py fasta_generate_regions.py freebayes freebayes-parallel generate_freebayes_region_scripts.sh
 homebrew/science/freec:freec
 homebrew/science/fsa:fsa gapcleaner isect_mercator_alignment_gff map_coords map_gff_coords percentid prot2codon slice_fasta slice_fasta_gff slice_mercator_alignment translate
 homebrew/science/fwdpp:fwdppConfig
@@ -3221,7 +3222,7 @@ homebrew/science/vague:vague velvetk.pl
 homebrew/science/varscan:varscan
 homebrew/science/vcake:vcake
 homebrew/science/vcfanno:vcfanno
-homebrew/science/vcflib:vcfallelicprimitives
+homebrew/science/vcflib:bed2region plot_roc.r vcf2bed.py vcf2dag vcf2fasta vcf2sqlite.py vcf2tsv vcf_strip_extra_headers vcfaddinfo vcfafpath vcfallelicprimitives vcfaltcount vcfannotate vcfannotategenotypes vcfbiallelic vcfbreakmulti vcfcat vcfcheck vcfclassify vcfcleancomplex vcfclearid vcfclearinfo vcfcombine vcfcommonsamples vcfcomplex vcfcountalleles vcfcreatemulti vcfdistance vcfecho vcfentropy vcfevenregions vcffilter vcffirstheader vcffixup vcfflatten vcfgeno2alleles vcfgeno2haplo vcfgenosamplenames vcfgenosummarize vcfgenotypecompare vcfgenotypes vcfglbound vcfglxgt vcfgtcompare.sh vcfhetcount vcfhethomratio vcfindelproximity vcfindels vcfindex vcfinfo2qual vcfinfosummarize vcfintersect vcfkeepgeno vcfkeepinfo vcfkeepsamples vcfleftalign vcflength vcfmultiallelic vcfmultiway vcfmultiwayscripts vcfnobiallelicsnps vcfnoindels vcfnosnps vcfnulldotslashdot vcfnumalt vcfoverlay vcfparsealts vcfplotaltdiscrepancy.r vcfplotaltdiscrepancy.sh vcfplotsitediscrepancy.r vcfplottstv.sh vcfprimers vcfprintaltdiscrepancy.r vcfprintaltdiscrepancy.sh vcfqual2info vcfqualfilter vcfrandom vcfrandomsample vcfregionreduce vcfregionreduce_and_cut vcfregionreduce_pipe vcfregionreduce_uncompressed vcfremap vcfremoveaberrantgenotypes vcfremovenonATGC vcfremovesamples vcfroc vcfsample2info vcfsamplediff vcfsamplenames vcfsitesummarize vcfsnps vcfsort vcfstats vcfstreamsort vcfuniq vcfuniqalleles vcfvarstats
 homebrew/science/vcftools:vcftools
 homebrew/science/veclibfort:
 homebrew/science/velvet:velvetg velveth
@@ -4646,7 +4647,7 @@ paperkey:paperkey
 paps:paps
 par2:par2 par2create par2repair par2verify
 par:par
-parallel:niceload parallel sem sql
+parallel:env_parallel env_parallel.bash env_parallel.csh env_parallel.fish env_parallel.ksh env_parallel.pdksh env_parallel.tcsh env_parallel.zsh niceload parallel sem sql
 parquet-tools:parquet-tools
 parrot:parrot parrot-nqp parrot-ops2c parrot-prove parrot_config parrot_nci_thunk_gen pbc_disassemble pbc_dump pbc_merge pbc_to_exe winxed
 partio:partattr partconv partinfo partview
