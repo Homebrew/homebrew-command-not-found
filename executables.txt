@@ -716,6 +716,7 @@ drip:drip
 dromeaudio:DromeAudioPlayer
 dropbear:dbclient dropbear dropbearconvert dropbearkey
 dropbox-uploader:dropbox_uploader.sh
+dscanner:dscanner
 dsd:dsd
 dsh:dsh
 dshb:dshb
@@ -958,7 +959,6 @@ fswatch:fswatch
 ftgl:
 ftimes:ftimes
 ftjam:jam
-fugu:fugu
 funcoeszz:
 fuseki:fuseki-server s-delete s-get s-head s-post s-put s-query s-update s-update-form
 fuzzy-find:ff
@@ -1371,6 +1371,7 @@ homebrew/boneyard/evas:evas_cserve evas_cserve_tool
 homebrew/boneyard/ffts:
 homebrew/boneyard/fleet-db:fleetdb-server
 homebrew/boneyard/folly:
+homebrew/boneyard/fugu:fugu
 homebrew/boneyard/gambit-scheme:gambc-cc gambc-doc gsc gsc-script gsi gsi-script scheme-ieee-1178-1990 scheme-r4rs scheme-r5rs scheme-srfi-0 six six-script
 homebrew/boneyard/gasnet:amudprun gasnet_trace gasnet_trace.pl gasnetrun_mpi gasnetrun_mpi.pl
 homebrew/boneyard/gccxml:gccxml gccxml_cc1plus
@@ -1954,9 +1955,9 @@ homebrew/head-only/figtoipe:figtoipe
 homebrew/head-only/fssh:fssh ui_copy ui_paste
 homebrew/head-only/git-hg:git-hg
 homebrew/head-only/gitstats:gitstats
-homebrew/head-only/hg-fast-export:hg-fast-export.py hg-fast-export.sh hg-reset.py hg-reset.sh hg2git.py
+homebrew/head-only/hg-fast-export:
 homebrew/head-only/httpdiff:httpdiff
-homebrew/head-only/jxrlib:JxrDecApp JxrEncApp
+homebrew/head-only/jxrlib:
 homebrew/head-only/kakoune:kak
 homebrew/head-only/kati:m2n ckati
 homebrew/head-only/libphenom:
@@ -2918,6 +2919,7 @@ homebrew/science/lammps:lammps
 homebrew/science/lapack-manpages:
 homebrew/science/last:fastq-interleave last-dotplot last-map-probs last-merge-batches last-pair-probs last-postmask last-split lastal lastdb maf-convert maf-cull maf-join maf-sort maf-swap parallel-fasta parallel-fastq
 homebrew/science/lastz:lastz lastz_D
+homebrew/science/libbuddy:
 homebrew/science/libccd:
 homebrew/science/libcerf:
 homebrew/science/libctl:gen-ctl-io
