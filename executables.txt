@@ -865,6 +865,7 @@ fdk-aac-encoder:fdkaac
 fdk-aac:aac-enc
 fdroidserver:fd-commit fdroid
 fdupes:fdupes
+feedgnuplot:feedgnuplot
 fetch-crl:clean-crl fetch-crl
 fetchmail:fetchmail fetchmailconf
 fex:fex
@@ -952,6 +953,7 @@ frei0r:
 frescobaldi:frescobaldi
 fribidi:fribidi
 fsevent_watch:fsevent_watch
+fsevents-tools:autorsync notifyloop notifywait
 fsh:fcp fsh fshd in.fshd
 fstar:fstar.exe
 fsw:fsw fswatch-run fswatch-run-bash fswatch-run-zsh
@@ -1384,6 +1386,7 @@ homebrew/boneyard/gtkglarea:
 homebrew/boneyard/guilt:guilt
 homebrew/boneyard/honeyd:honeyd honeydctl honeydstats hsniff
 homebrew/boneyard/icmake:icm-comp icm-exec icm-pp icmake icmbuild icmstart icmun
+homebrew/boneyard/idcomments:idcomments
 homebrew/boneyard/iodine:iodine iodined
 homebrew/boneyard/ipe:ipe ipe6upgrade ipeextract iperender ipescript ipetoipe ipeview
 homebrew/boneyard/jscoverage:jscoverage jscoverage-server
@@ -1416,6 +1419,7 @@ homebrew/boneyard/pure:pure
 homebrew/boneyard/pylucene:
 homebrew/boneyard/qi:qi
 homebrew/boneyard/qiv:qiv
+homebrew/boneyard/rfcdiff:rfcdiff
 homebrew/boneyard/rocket:actool rkt
 homebrew/boneyard/rtorrent:rtorrent
 homebrew/boneyard/sam2p:sam2p sam2p_pdf_scale.pl
@@ -1435,6 +1439,7 @@ homebrew/boneyard/telepathy-glib:
 homebrew/boneyard/telepathy-idle:
 homebrew/boneyard/telepathy-mission-control:mc-tool mc-wait-for-name
 homebrew/boneyard/ttytter:ttytter
+homebrew/boneyard/txt2man:bookman src2man txt2man
 homebrew/boneyard/validns:validns
 homebrew/boneyard/vcodex:vcformat vczip
 homebrew/boneyard/visualnetkit:visualnetkit
@@ -3201,6 +3206,7 @@ homebrew/science/sundials:sundials-config
 homebrew/science/superlu43:
 homebrew/science/superlu:
 homebrew/science/superlu_dist:
+homebrew/science/superlu_mt:
 homebrew/science/swetest:swetest
 homebrew/science/swrcfit:swrcfit
 homebrew/science/symphony:clp symphony
@@ -3482,6 +3488,7 @@ homebrew/versions/solr4:solr4
 homebrew/versions/solr55:oom_solr.sh post solr
 homebrew/versions/sonar4:sonar
 homebrew/versions/spidermonkey45:js js-config
+homebrew/versions/srtp15:
 homebrew/versions/subversion17:svn svnadmin svndumpfilter svnlook svnrdump svnserve svnsync svnversion
 homebrew/versions/subversion18:svn svnadmin svndumpfilter svnlook svnmucc svnrdump svnserve svnsync svnversion
 homebrew/versions/swig2:ccache-swig swig
@@ -3560,6 +3567,7 @@ homebrew/x11/xspringies:xspringies
 homebrew/x11/yarp:yarp yarp-config yarpdatadumper yarpdev yarphear yarpidl_rosmsg yarpidl_thrift yarpmanager-console yarpros yarprun yarpserver yarpserver2 yarpserver3
 homeshick:homeshick
 honcho:honcho
+hopenpgp-tools:hkt hokey hot
 hornetq:hornet-start hornet-stop
 hostdb:canonzone catif checkrootcache copy-if-change Example_comparezones genrange mergeiplists mkdestinations mknamedconf mkzones NIdhcpupdate sortbyip zone2hostdb zone2hostdbhelper
 hping:hping hping2 hping3
@@ -3612,7 +3620,6 @@ id3ed:id3ed
 id3lib:id3convert id3cp id3info id3tag
 id3tool:id3tool
 id3v2:id3v2
-idcomments:idcomments
 ideviceinstaller:ideviceinstaller
 idnits:idnits
 idris:idris idris-c idris-javascript idris-node
@@ -4883,6 +4890,7 @@ pwsafe:pwsafe
 pxz:pxz
 py2cairo:
 py3cairo:
+pybind11:
 pyenv-ccache:
 pyenv-pip-migrate:pyenv-migrate
 pyenv-virtualenv:pyenv-activate pyenv-deactivate pyenv-sh-activate pyenv-sh-deactivate pyenv-virtualenv pyenv-virtualenv-init pyenv-virtualenv-prefix pyenv-virtualenvs
@@ -5021,7 +5029,6 @@ resty:pp pypp resty
 rethinkdb:rethinkdb
 rexster-console:rexster-console
 rexster:rexster.sh
-rfcdiff:rfcdiff
 rfcmarkup:rfcmarkup
 rfcstrip:rfcstrip
 rgbds:rgbasm rgbfix rgblink
@@ -5529,7 +5536,6 @@ two-lame:twolame
 twoping:2ping 2ping6
 twtxt:twtxt
 txr:txr
-txt2man:bookman src2man txt2man
 txt2tags:txt2tags
 typesafe-activator:activator
 typespeed:typespeed
@@ -5671,7 +5677,7 @@ webfs:webfsd
 webkit2png:webkit2png
 webkitgtk:MiniBrowser jsc
 weboob:boobank boobathon boobcoming boobill booblyrics boobmsg boobooks boobsize boobtracker cineoob comparoob cookboob flatboob galleroob geolooc handjoob havedate monboob parceloob pastoob radioob suboob translaboob traveloob videoob webcontentedit weboob-cli weboob-config weboob-debug weboob-repos weboorrents wetboobs
-webp:cwebp dwebp vwebp webpmux
+webp:cwebp dwebp webpmux
 websocketd:websocketd
 weechat:weechat weechat-curses
 weighttp:weighttp
