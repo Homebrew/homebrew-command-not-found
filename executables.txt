@@ -80,6 +80,7 @@ apache-brooklyn-cli:br
 apache-drill:drill-conf drill-config.sh drill-embedded drill-localhost drillbit.sh dumpcat hadoop-excludes.txt runbit sqlline sqlline.bat submit_plan
 apache-flink:flink
 apache-forrest:forrest
+apache-geode:gfsh
 apache-opennlp:opennlp
 apache-spark:load-spark-env.sh pyspark run-example spark-beeline spark-class spark-shell spark-sql spark-submit sparkR
 apachetop:apachetop
@@ -655,7 +656,6 @@ diffuse:diffuse
 digdag:digdag
 digitemp:digitemp_DS2490 digitemp_DS9097 digitemp_DS9097U
 dirac:BMPtoRGB create_dirac_testfile.pl dirac_decoder dirac_encoder dirac_instrumentation RGBtoBMP RGBtoUYVY RGBtoYUV411 RGBtoYUV420 RGBtoYUV422 RGBtoYUV444 UYVYtoRGB UYVYtoYUV422 YUV411toRGB YUV420Down2x2 YUV420ItoYUV422I YUV420pt75filter YUV420toRGB YUV420toYUV422 YUV422ItoYUV420I YUV422toRGB YUV422toUYVY YUV422toYUV420 YUV444toRGB
-dircproxy:dircproxy dircproxy-crypt
 direnv:direnv
 direvent:direvent
 dirmngr:dirmngr dirmngr-client
@@ -981,7 +981,7 @@ garmintools:garmin_dump garmin_gchart garmin_get_info garmin_gmap garmin_gpx gar
 gauche:gauche-cesconv gauche-config gauche-install gauche-package gosh
 gauge:gauge gauge_screenshot
 gaul:gaul_diagnostics
-gawk:awk gawk gawk-4.1.3 igawk
+gawk:awk gawk gawk-4.1.4 igawk
 gbdfed:gbdfed
 gcab:gcab
 gcal:gcal gcal2txt tcal txt2gcal
@@ -1014,7 +1014,6 @@ genext2fs:genext2fs
 gengetopt:gengetopt
 genstats:genstats
 geocode-glib:
-geode:gfsh
 geogit:geogit geogit-console
 geographiclib:CartConvert ConicProj GeoConvert GeodesicProj GeodSolve GeoidEval Gravity MagneticField Planimeter RhumbSolve TransverseMercatorProj geographiclib-get-geoids geographiclib-get-gravity geographiclib-get-magnetic
 geoip:geoiplookup geoiplookup6
@@ -1365,6 +1364,7 @@ homebrew/boneyard/cowpatty:cowpatty genpmk
 homebrew/boneyard/cppdom:cppdom-config
 homebrew/boneyard/csync:csync
 homebrew/boneyard/cvc4:cvc4
+homebrew/boneyard/dircproxy:dircproxy dircproxy-crypt
 homebrew/boneyard/disco:ddfs disco
 homebrew/boneyard/discodex:discodex discodexcli.py
 homebrew/boneyard/dupx:dupx
@@ -1395,6 +1395,7 @@ homebrew/boneyard/jscoverage:jscoverage jscoverage-server
 homebrew/boneyard/judy:
 homebrew/boneyard/kjell:kjell
 homebrew/boneyard/kubernetes-helm:helm
+homebrew/boneyard/lastfmlib:
 homebrew/boneyard/libdbusmenu-qt:
 homebrew/boneyard/libiomp:
 homebrew/boneyard/libodbc++:
@@ -1582,6 +1583,7 @@ homebrew/emacs/darkroom-mode:
 homebrew/emacs/dash-emacs:
 homebrew/emacs/dbus-codegen:
 homebrew/emacs/debbugs:
+homebrew/emacs/deferred:
 homebrew/emacs/dict-tree:
 homebrew/emacs/diff-hl:
 homebrew/emacs/diffview:
@@ -1658,6 +1660,7 @@ homebrew/emacs/metar-emacs:
 homebrew/emacs/metaweblog:
 homebrew/emacs/minibuffer-line:
 homebrew/emacs/minimap-emacs:
+homebrew/emacs/mocha-emacs:
 homebrew/emacs/mocker:
 homebrew/emacs/multiple-cursors:
 homebrew/emacs/muse:
@@ -1691,6 +1694,7 @@ homebrew/emacs/rainbow-delimiters:
 homebrew/emacs/rainbow-mode:
 homebrew/emacs/rdf-prefix:
 homebrew/emacs/register-list:
+homebrew/emacs/request-emacs:
 homebrew/emacs/robe:
 homebrew/emacs/rspec-mode:
 homebrew/emacs/rubocop-emacs:
@@ -1896,6 +1900,7 @@ homebrew/games/robotfindskitten:robotfindskitten
 homebrew/games/rogue:rogue
 homebrew/games/roll:roll
 homebrew/games/rom-tools:castool chdman floptool imgtool jedutil ldplayer ldresample ldverify nltool pngcmp regrep rom-split romcmp src2html srcclean testkeys unidasm
+homebrew/games/scummvm-tools:construct_mohawk create_sjisfnt decine decompile degob dekyra deriven descumm desword2 extract_mohawk gob_loadcalc pegasus_save_types scummvm-tools scummvm-tools-cli
 homebrew/games/scummvm:scummvm
 homebrew/games/simutrans:simutrans
 homebrew/games/ski:ski
@@ -2555,6 +2560,7 @@ homebrew/php/php70-ds:
 homebrew/php/php70-ev:
 homebrew/php/php70-event:
 homebrew/php/php70-gearman:
+homebrew/php/php70-geoip:
 homebrew/php/php70-gmagick:
 homebrew/php/php70-gmp:
 homebrew/php/php70-hprose:
@@ -2606,6 +2612,7 @@ homebrew/php/php71-blitz:
 homebrew/php/php71-ds:
 homebrew/php/php71-ev:
 homebrew/php/php71-event:
+homebrew/php/php71-geoip:
 homebrew/php/php71-gmagick:
 homebrew/php/php71-gmp:
 homebrew/php/php71-hprose:
@@ -2665,8 +2672,10 @@ homebrew/php/terminus:terminus
 homebrew/php/virtphp:virtphp
 homebrew/php/wp-cli:wp
 homebrew/php/xdebug-osx:xdebug
+homebrew/python/aeneas:aeneas_check_setup aeneas_convert_syncmap aeneas_download aeneas_execute_job aeneas_execute_task aeneas_plot_waveform aeneas_synthesize_text aeneas_validate
 homebrew/python/cpyrit-cuda:
 homebrew/python/cpyrit-opencl:
+homebrew/python/h5py:
 homebrew/python/matplotlib-basemap:
 homebrew/python/matplotlib:
 homebrew/python/mpi4py:
@@ -2691,6 +2700,7 @@ homebrew/science/abyss:ABYSS abyss-align abyss-bloom abyss-bloom-dist.mk abyss-b
 homebrew/science/ace-corrector:ace
 homebrew/science/adam:adam adam-pyspark adam-shell adam-submit append_to_option.py compute-adam-classpath.sh compute-adam-jars.sh
 homebrew/science/adol-c:
+homebrew/science/afra:afra
 homebrew/science/alembic:SimpleAbcViewer abcconvert abcecho abcechobounds abcstitcher
 homebrew/science/alglib:
 homebrew/science/allpaths-lg:RunAllPathsLG
@@ -2754,6 +2764,7 @@ homebrew/science/bowtie2:bowtie2 bowtie2-align-l bowtie2-align-s bowtie2-build b
 homebrew/science/bowtie:bowtie bowtie-align-l bowtie-align-s bowtie-build bowtie-build-l bowtie-build-s bowtie-inspect bowtie-inspect-l bowtie-inspect-s
 homebrew/science/bpel2owfn:bpel2owfn
 homebrew/science/bpipe:bg-bpipe bpipe bpipe-pbspro.sh bpipe-slurm.sh bpipe-torque.sh
+homebrew/science/breseq:breseq gdtools
 homebrew/science/busco:busco
 homebrew/science/butterflow:butterflow
 homebrew/science/bwa:bwa
@@ -2813,6 +2824,7 @@ homebrew/science/diamond:diamond
 homebrew/science/dida:dida-mpi dida-wrapper dsp mrg prt
 homebrew/science/discovar:PrepareDiscovarGenome filter_vcfs.py combine_region_vcfs.py Discovar
 homebrew/science/discovardenovo:QueryLookupTable NhoodInfo MakeLookupTable CrossOut FormPath DiscovarDeNovo EdgeInfo SeqInfo AffineAlign CmpSeq
+homebrew/science/dlib:
 homebrew/science/dotwrp:
 homebrew/science/ds9:ds9
 homebrew/science/dsdp:
@@ -2852,6 +2864,7 @@ homebrew/science/flann:flann_example_c flann_example_cpp
 homebrew/science/flash:flash
 homebrew/science/flint:
 homebrew/science/flux-simulator:flux-simulator
+homebrew/science/fplll:fplll latsieve latticegen
 homebrew/science/fqzcomp:fqz_comp
 homebrew/science/freebayes:bamleftalign coverage_to_regions.py fasta_generate_regions.py freebayes freebayes-parallel generate_freebayes_region_scripts.sh
 homebrew/science/freec:freec
@@ -2919,6 +2932,7 @@ homebrew/science/infernal:cmalign cmbuild cmcalibrate cmconvert cmemit cmfetch c
 homebrew/science/insighttoolkit:itkTestDriver
 homebrew/science/inter-views:iclass idemo idraw
 homebrew/science/ipopt:ipopt
+homebrew/science/iqtree:iqtree
 homebrew/science/itensor:
 homebrew/science/itsol:
 homebrew/science/iva:iva iva_qc iva_qc_make_db
@@ -2927,6 +2941,7 @@ homebrew/science/jellyfish-1.1:jellyfish
 homebrew/science/jellyfish:jellyfish
 homebrew/science/jmol:jmol
 homebrew/science/joinx:joinx
+homebrew/science/jsbsim:JSBSim
 homebrew/science/k8:k8
 homebrew/science/kalign:kalign
 homebrew/science/kallisto:kallisto
@@ -2965,6 +2980,7 @@ homebrew/science/lmod:
 homebrew/science/lobstr:allelotype lobSTR lobSTRIndex
 homebrew/science/lola:lola
 homebrew/science/lp_solve:lp_solve
+homebrew/science/lsd:lsd
 homebrew/science/lumpy-sv:lumpy lumpyexpress lumpyexpress.config
 homebrew/science/madlib:madpack
 homebrew/science/mafft:einsi fftns fftnsi ginsi linsi mafft mafft-distance mafft-einsi mafft-fftns mafft-fftnsi mafft-ginsi mafft-homologs.rb mafft-linsi mafft-nwns mafft-nwnsi mafft-profile mafft-qinsi mafft-xinsi nwns nwnsi
@@ -3126,6 +3142,7 @@ homebrew/science/r:R Rscript
 homebrew/science/radx:Dsr2Radx FixCfradialPaths FixRadxPointing Radx2Dsr Radx2Grid RadxCheck RadxConvert RadxCov2Mom RadxDiff RadxEvad RadxFilter RadxMergeFields RadxMon RadxPartRain RadxPrint TdrpTest tdrp_gen tdrp_test
 homebrew/science/rainbow:rainbow
 homebrew/science/rampart:citadel-cn_plot.pl citadel-gather-asm.pl citadel-gather.pl citadel-rampart-mod.pl citadel.pl jellyswarm multi-prokka-stats.pl multi-prokka.pl rampart rampart-clean rampart-download-deps
+homebrew/science/rapsearch2:prerapsearch rapsearch
 homebrew/science/rate4site:rate4site rate4site_doublerep
 homebrew/science/raxml:raxmlHPC-PTHREADS raxmlHPC-PTHREADS-AVX raxmlHPC-PTHREADS-SSE3
 homebrew/science/ray:Ray
@@ -3163,6 +3180,7 @@ homebrew/science/scarpa:scarpa
 homebrew/science/scotch5:acpl amk_ccc amk_fft2 amk_grf amk_hy amk_m2 amk_p2 atst gbase gcv gmap gmk_hy gmk_m2 gmk_m3 gmk_msh gmk_ub2 gmtst gord gotst gout gpart gscat gtst mcv mmk_m2 mmk_m3 mord mtst
 homebrew/science/scotch:acpl amk_ccc amk_fft2 amk_grf amk_hy amk_m2 amk_p2 atst dggath dgmap dgord dgpart dgscat dgtst gbase gcv gmap gmk_hy gmk_m2 gmk_m3 gmk_msh gmk_ub2 gmtst gord gotst gout gpart gscat gtst mcv mmk_m2 mmk_m3 mord mtst
 homebrew/science/scrm:scrm
+homebrew/science/sdsl-lite:
 homebrew/science/seq-gen:seq-gen
 homebrew/science/seqan:
 homebrew/science/seqdb:seqdb seqdb-compress seqdb-extract seqdb-mount seqdb-profile
@@ -3821,7 +3839,6 @@ lame:lame
 languagetool:languagetool languagetool-gui languagetool-server
 lasi:
 lastfmfpclient:lastfmfpclient
-lastfmlib:
 lastpass-cli:lpass
 laszip:laszip-config laszippertest
 latex2html:latex2html pstoimg texexpand
@@ -3847,6 +3864,7 @@ ldid:ldid
 ldns:drill ldns-chaos ldns-compare-zones ldns-config ldns-dane ldns-dpa ldns-gen-zone ldns-key2ds ldns-keyfetcher ldns-keygen ldns-mx ldns-notify ldns-nsec3-hash ldns-read-zone ldns-resolver ldns-revoke ldns-rrsig ldns-signzone ldns-test-edns ldns-testns ldns-update ldns-verify-zone ldns-version ldns-walk ldns-zcat ldns-zsplit ldnsd
 le:le
 leafnode:leafnode-version newsq applyfilter checkgroups fetchnews leafnode texpire
+lean-cli:lean
 leaps:leaps
 ledger:ledger
 ledit:ledit
@@ -3911,6 +3929,7 @@ libdbi:
 libdc1394:
 libdca:dcadec dtsdec extract_dca extract_dts
 libdiscid:
+libdivecomputer:aladin atom2 d9 darwin edy eon frog iconhd leonardo memomouse n2ition3 nemo ostc predator puck sensus sensuspro sensusultra solution universal veo250 vtpro vyper vyper2
 libdmtx:
 libdnet:dnet dnet-config
 libdrawtext:
