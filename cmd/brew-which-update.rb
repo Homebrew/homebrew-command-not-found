@@ -5,7 +5,7 @@
 #
 # Usage:
 #
-#   brew which-update [--commit [--push]] <DB file>
+#   brew which-update [--commit|--stats] <DB file>
 #
 
 require "formula"
