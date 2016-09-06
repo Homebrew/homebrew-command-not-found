@@ -34,7 +34,7 @@ afio:afio
 afl-fuzz:afl-analyze afl-clang afl-clang++ afl-cmin afl-fuzz afl-g++ afl-gcc afl-gotcpu afl-plot afl-showmap afl-tmin afl-whatsup
 afsctool:afsctool
 aften:aften wavfilter wavinfo wavrms
-agda:agda agda-mode
+agda:agda agda-ghc-names agda-mode
 agedu:agedu
 aget:aget
 aggregate:aggregate aggregate-ios
@@ -42,12 +42,12 @@ aha:aha
 ahcpd:ahcpd
 aiccu:aiccu
 aide:aide
-aircrack-ng:aircrack-ng airdecap-ng airdecloak-ng ivstools kstats makeivs-ng packetforge-ng airbase-ng airdriver-ng aireplay-ng airmon-ng airodump-ng airodump-ng-oui-update airserv-ng airtun-ng
+aircrack-ng:airbase-ng aircrack-ng airdecap-ng airdecloak-ng airdriver-ng aireplay-ng airmon-ng airodump-ng airodump-ng-oui-update airserv-ng airtun-ng ivstools kstats makeivs-ng packetforge-ng
 airspy:airspy_gpio airspy_gpiodir airspy_info airspy_lib_version airspy_r820t airspy_rx airspy_si5351c airspy_spiflash
 akka:akka akka-cluster
 alac:alac
 aldo:aldo
-algernon:algernon
+algernon:algernon mdview
 algol68g:a68g
 align:align width
 allegro:
@@ -65,7 +65,7 @@ android-platform-tools:adb fastboot
 android-sdk:aapt adb aidl android ddms dexdump dmtracedump draw9patch dx emulator emulator-arm emulator-x86 etc1tool fastboot hierarchyviewer hprof-conv lint llvm-rs-cc mksdcard monitor monkeyrunner traceview zipalign
 anjuta:anjuta anjuta-launcher anjuta-tags
 ansible-cmdb:ansible-cmdb
-ansible:ansible ansible-doc ansible-galaxy ansible-playbook ansible-pull ansible-vault
+ansible:ansible ansible-console ansible-doc ansible-galaxy ansible-playbook ansible-pull ansible-vault
 ansifilter:ansifilter
 ansiweather:ansiweather
 ant-contrib:
@@ -99,21 +99,21 @@ app-engine-java:appcfg.sh dev_appserver.sh endpoints.sh google_sql.sh run_java.s
 app-engine-python:_php_runtime.py _python_runtime.py api_server.py appcfg.py bulkload_client.py bulkloader.py dev_appserver.py download_appstats.py endpointscfg.py gen_protorpc.py google_sql.py remote_api_shell.py
 apparix:apparix
 appledoc:appledoc
-appscale-tools:appscale appscale-add-instances appscale-add-keypair appscale-describe-instances appscale-gather-logs appscale-get-property appscale-relocate-app appscale-remove-app appscale-reset-pwd appscale-run-instances appscale-set-property appscale-terminate-instances appscale-upload-app
+appscale-tools:appscale appscale-add-instances appscale-add-keypair appscale-describe-instances appscale-gather-logs appscale-get-property appscale-relocate-app appscale-remove-app appscale-reset-pwd appscale-run-instances appscale-set-property appscale-terminate-instances appscale-upgrade appscale-upload-app
 apr-util:apu-1-config
 apr:apr-1-config
 apt-dater:apt-dater
 aptly:aptly
 aqbanking:aqbanking-cli aqbanking-config aqebics-tool aqhbci-tool4 hbcixml3
 arabica:mangle
-arangodb:arangob arangodump arangoimp arangorestore arangosh foxx-manager arango-dfdb arangod
+arangodb:arango-dfdb arango-init-database arango-secure-installation arangobench arangod arangodump arangoimp arangorestore arangosh foxx-manager
 archey:archey
 archivemail:archivemail
 argon2:argon2
 argp-standalone:
 argtable:
-argus-clients:argusclientbug ra rabins racluster raconvert racount radark radecode radump raevent rafilteraddr ragraph ragrep rahisto rahosts ralabel ranonymize rapath rapolicy raports rarpwatch raservices rasort rasplit rastream rastrip ratemplate ratimerange ratop rauserdata radium
-argus:argus-lsof argus-snmp argus-vmstat argusbug argus
+argus-clients:argusclientbug ra rabins racluster raconvert racount radark radecode radium radump raevent rafilteraddr ragraph ragrep rahisto rahosts ralabel ranonymize rapath rapolicy raports rarpwatch raservices rasort rasplit rastream rastrip ratemplate ratimerange ratop rauserdata
+argus:argus argus-lsof argus-snmp argus-vmstat argusbug
 argyll-cms:applycal average cb2ti3 cctiff ccxxmake chartread collink colprof colverify dispcal dispread dispwin extracticc extractttag fakeCMY fakeread greytiff iccdump iccgamut icclu illumread invprofcheck kodak2ti3 ls2ti3 mppcheck mpplu mppprof oeminst printcal printtarg profcheck refine revfix scanin spec2cie specplot splitti3 spotread synthcal synthread targen tiffgamut timage txt2ti3 viewgam xicclu
 aria2:aria2c
 arm:arm
@@ -186,7 +186,7 @@ aws-keychain:aws-keychain
 aws-sdk-cpp:
 aws-shell:aws-shell aws-shell-mkindex
 aws-sns-cli:sns-add-permission sns-cmd sns-confirm-subscription sns-create-topic sns-delete-topic sns-get-subscription-attributes sns-get-topic-attributes sns-list-subscriptions sns-list-subscriptions-by-topic sns-list-topics sns-publish sns-remove-permission sns-set-subscription-attributes sns-set-topic-attributes sns-subscribe sns-unsubscribe sns-version
-awscli:aws aws.cmd aws_completer aws_zsh_completer.sh
+awscli:aws aws.cmd aws_bash_completer aws_completer aws_zsh_completer.sh
 axel:axel
 azure-cli:azure
 b2-tools:b2
@@ -213,7 +213,7 @@ bashish:bashish bashishtheme
 batik:batik batik-rasterizer batik-ttf2svg
 bats:bats
 bazaar:bzr
-bazel:bazel
+bazel:bazel bazel-real
 bbcolors:bbcolors
 bbe:bbe
 bbftp-client:bbftp bbftpstatus
@@ -237,12 +237,12 @@ bgpq3:bgpq3
 bgpstream:bgpcorsaro bgpreader
 bgrep:bgrep
 bib-tool:bibtool
-bibclean:bibclean bibclean-2.16
+bibclean:bibclean bibclean-2.17
 bibtex2html:aux2bib bib2bib bibtex2html
 bibtexconv:bibtexconv bibtexconv-odt
 bibutils:bib2xml biblatex2xml copac2xml ebi2xml end2xml endx2xml isi2xml med2xml modsclean ris2xml wordbib2xml xml2ads xml2bib xml2end xml2isi xml2ris xml2wordbib
 bigdata:bigdata
-bigloo:bglafile bgldepend bgljas bgljfile bglmake bglmco bglpp bglprof bgltags bigloo bigloo4.1a
+bigloo:bglafile bglafile.sh bgldepend bgljas bgljfile bglmake bglmco bglpp bglprof bgltags bigloo bigloo.sh bigloo4.2c
 bind:arpaname bind9-config ddns-confgen delv dig dnssec-checkds dnssec-coverage dnssec-dsfromkey dnssec-importkey dnssec-keyfromlabel dnssec-keygen dnssec-revoke dnssec-settime dnssec-signzone dnssec-verify genrandom host isc-config.sh isc-hmac-fixup lwresd named named-checkconf named-checkzone named-compilezone named-journalprint named-rrchecker nsec3hash nslookup nsupdate rndc rndc-confgen tsig-keygen
 binkd:binkd binkd-1.0.4
 binutils:gaddr2line gar gc++filt gcoffdump gdlltool gdllwrap gelfedit gnlmconv gnm gobjcopy gobjdump granlib greadelf gsize gsrconv gstrings gstrip gsysdump gwindmc gwindres
@@ -251,7 +251,7 @@ bip:bip bipmkpw
 bison:bison yacc
 bitchx:BitchX BitchX-1.2.1 scr-bx
 bitlbee:bitlbee
-bitrise:bitrise envman stepman
+bitrise:bitrise
 bittwist:bittwist bittwiste
 blackbox:_blackbox_common.sh _blackbox_common_test.sh _stack_lib.sh blackbox_addadmin blackbox_cat blackbox_decrypt_all_files blackbox_deregister_file blackbox_diff blackbox_edit blackbox_edit_end blackbox_edit_start blackbox_initialize blackbox_list_files blackbox_postdeploy blackbox_recurse blackbox_register_new_file blackbox_removeadmin blackbox_shred_all_files blackbox_update_all_files blackbox_whatsnew
 blahtexml:blahtex blahtexml
@@ -267,7 +267,7 @@ bmake:bmake
 bmon:bmon
 bogofilter:bf_compact bf_copy bf_tar bogofilter bogolexer bogotune bogoupgrade bogoutil
 bokken:bokken
-bonnie++:bon_csv2html bon_csv2txt generate_randfile bonnie++ getc_putc getc_putc_helper zcav
+bonnie++:bon_csv2html bon_csv2txt bonnie++ generate_randfile getc_putc getc_putc_helper zcav
 bookloupe:bookloupe loupe-test
 boost-bcp:bcp
 boost-build:b2 bjam
@@ -333,7 +333,7 @@ calabash:calabash
 calc:calc
 calcurse:calcurse calcurse-upgrade
 camellia:cam_demo cam_myobjects cam_yalefaces
-camlistore:camget camlistored cammount camput camtool devcam hello publisher
+camlistore:camdeploy camget camlistored cammount camput camtool devcam hello publisher
 camlp4:camlp4 camlp4boot camlp4o camlp4o.opt camlp4of camlp4of.opt camlp4oof camlp4oof.opt camlp4orf camlp4orf.opt camlp4prof camlp4r camlp4r.opt camlp4rf camlp4rf.opt mkcamlp4
 camlp5:camlp5 camlp5o camlp5o.opt camlp5r camlp5r.opt camlp5sch mkcamlp5 mkcamlp5.opt ocpp5
 capnp:capnp capnpc capnpc-c++ capnpc-capnp
@@ -342,7 +342,7 @@ carina:carina
 carthage:carthage
 cask:cask
 casperjs:casperjs
-cassandra:cassandra cqlsh cqlsh.py debug-cql nodetool sstablekeys sstableloader sstablescrub sstableupgrade sstableverify
+cassandra:cassandra cassandra-stress cassandra-stressd cqlsh cqlsh.py debug-cql nodetool sstabledump sstableexpiredblockers sstablelevelreset sstableloader sstablemetadata sstableofflinerelevel sstablerepairedset sstablescrub sstablesplit sstableupgrade sstableutil sstableverify
 castxml:castxml
 catimg:catimg
 cattle:
@@ -373,10 +373,10 @@ cdparanoia:cdparanoia
 cdpr:cdpr
 cdrdao:cdrdao cue2toc toc2cddb toc2cue toc2mp3
 cdrtools:btcflash cdda2mp3 cdda2ogg cdda2wav cdrecord devdump isodebug isodump isoinfo isovfy mkhybrid mkisofs readcd rscsi scgcheck scgskeleton
-center-im:centerim CenterIMLog2HTML.py cimconv cimextracthistory.pl cimformathistory
+center-im:CenterIMLog2HTML.py centerim cimconv cimextracthistory.pl cimformathistory
 cereal:
 cern-ndiff:numdiff
-certbot:jws letsencrypt
+certbot:certbot letsencrypt
 certigo:certigo
 certstrap:certstrap
 ceylon:ceylon ceylon-sh-setup
@@ -385,7 +385,7 @@ cf:cf
 cfengine:cf-agent cf-execd cf-key cf-monitord cf-promises cf-runagent cf-serverd cf-upgrade rpmvercmp
 cflow:cflow
 cfr-decompiler:cfr-decompiler
-cfssl:cfssl cfssljson mkbundle
+cfssl:cfssl cfssljson cfsslmkbundle
 cfv:cfv
 cgal:cgal_create_cmake_script cgal_create_CMakeLists cgal_make_macosx_app
 cgdb:cgdb
