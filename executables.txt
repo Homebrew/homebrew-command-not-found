@@ -83,6 +83,7 @@ apache-forrest:forrest
 apache-geode:gfsh
 apache-opennlp:opennlp
 apache-spark:load-spark-env.sh pyspark run-example spark-beeline spark-class spark-shell spark-sql spark-submit sparkR
+apache-zeppelin:common.sh functions.sh install-interpreter.sh interpreter.sh zeppelin-daemon.sh zeppelin.sh
 apachetop:apachetop
 apcupsd:apcaccess apctest apcupsd apcupsd-start smtp
 ape:aped
@@ -1842,6 +1843,7 @@ homebrew/games/instead:instead sdl-instead
 homebrew/games/jnethack:jnethack
 homebrew/games/jpcsp:jpcsp
 homebrew/games/lcs:crimesquad
+homebrew/games/libggz:
 homebrew/games/liblcf:
 homebrew/games/libspectrum:
 homebrew/games/libtcod:
@@ -1879,8 +1881,10 @@ homebrew/games/open-tyrian:opentyrian
 homebrew/games/openclonk:
 homebrew/games/openjazz:OpenJazz
 homebrew/games/openmsx:openmsx
+homebrew/games/openrct2:openrct2
 homebrew/games/opensyobon:SyobonAction
 homebrew/games/openttd:openttd
+homebrew/games/pachi:pachi
 homebrew/games/pacman4console:pacman pacmanedit
 homebrew/games/pc6001vx:PC6001VX
 homebrew/games/pioneer:modelcompiler pioneer
@@ -1923,6 +1927,7 @@ homebrew/games/unnethack:unnethack
 homebrew/games/vecx:vecx
 homebrew/games/vitetris:tetris
 homebrew/games/wesnoth:wesnoth wesnothd
+homebrew/games/widelands:widelands
 homebrew/games/wumpus:superhack wumpus
 homebrew/games/xboard:xboard
 homebrew/games/xmoto:xmoto
@@ -3516,6 +3521,7 @@ homebrew/versions/saxon6:saxon6
 homebrew/versions/scala210:fsc scala scalac scaladoc scalap
 homebrew/versions/scala29:fsc scala scalac scaladoc scalap
 homebrew/versions/selenium-server-standalone245:selenium-server
+homebrew/versions/solr54:oom_solr.sh post solr
 homebrew/versions/solr55:oom_solr.sh post solr
 homebrew/versions/sonar4:sonar
 homebrew/versions/spidermonkey45:js js-config
@@ -4094,7 +4100,7 @@ libpeas:peas-demo
 libpgm:
 libphonenumber:
 libplist:plistutil
-libpng:libpng-config libpng16-config png-fix-itxt pngcp pngfix
+libpng:libpng-config libpng16-config png-fix-itxt pngfix
 libpointing:
 libpoker-eval:
 libpqxx:pqxx-config
@@ -4167,6 +4173,7 @@ libu2f-host:u2f-host
 libu2f-server:u2f-server
 libucl:
 libuecc:
+libuninameslist:
 libunistring:
 libunwind-headers:
 libupnp:
@@ -4219,6 +4226,7 @@ linklint:linklint
 links:links
 liquibase:liquibase
 liquidprompt:
+liquigraph:liquigraph
 litmus:litmus
 little-cms2:jpgicc linkicc psicc tificc transicc
 little-cms:icc2ps icclink icctrans jpegicc tiffdiff tifficc wtpt
@@ -4360,6 +4368,7 @@ mftrace:gf2pbm mftrace
 mg3a:mg
 mg:mg
 mhash:
+micro:micro
 micropython:micropython pip-micropython
 midgard2:midgard2-query midgard2-schema
 midicsv:csvmidi midicsv
@@ -5490,6 +5499,7 @@ tika:tika tika-rest-server
 tile38:tile38-cli tile38-server
 timedog:timedog
 timelimit:timelimit
+timewarrior:timew
 timidity:timidity
 tin:metamutt opt-case.pl rtin tin tinews.pl url_handler.pl w2r.pl
 tinc:tincd
