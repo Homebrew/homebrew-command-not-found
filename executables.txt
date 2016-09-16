@@ -819,6 +819,7 @@ euca2ools:euare-accountaliascreate euare-accountaliasdelete euare-accountaliasli
 euler-py:euler
 evas-generic-loaders:
 eventlog:
+eventql:cstable_tool evql evqlctl evqld
 evince:evince evince-previewer evince-thumbnailer
 ex-vi:edit ex vedit vi view
 exact-image:bardecode econvert edentify empty-page hocr2pdf optimize2bw
@@ -1392,6 +1393,7 @@ homebrew/boneyard/icmake:icm-comp icm-exec icm-pp icmake icmbuild icmstart icmun
 homebrew/boneyard/idcomments:idcomments
 homebrew/boneyard/iodine:iodine iodined
 homebrew/boneyard/ipe:ipe ipe6upgrade ipeextract iperender ipescript ipetoipe ipeview
+homebrew/boneyard/jing:jing
 homebrew/boneyard/jscoverage:jscoverage jscoverage-server
 homebrew/boneyard/judy:
 homebrew/boneyard/kjell:kjell
@@ -1422,6 +1424,7 @@ homebrew/boneyard/phash:
 homebrew/boneyard/powerline:powerline powerline-config powerline-daemon powerline-lint powerline-render
 homebrew/boneyard/pure:pure
 homebrew/boneyard/pylucene:
+homebrew/boneyard/pyqwt:
 homebrew/boneyard/qi:qi
 homebrew/boneyard/qiv:qiv
 homebrew/boneyard/rfcdiff:rfcdiff
@@ -1436,6 +1439,7 @@ homebrew/boneyard/signing-party:caff gpg-key2ps gpg-mailkeys gpglist gpgparticip
 homebrew/boneyard/skytools:data_maintainer3 londiste3 pgqd qadmin queue_mover3 queue_splitter3 scriptmgr3 simple_consumer3 simple_local_consumer3 skytools_upgrade3 walmgr3
 homebrew/boneyard/slony:slon slonik slony_logshipper
 homebrew/boneyard/soccerwindow2:soccerwindow2 soccerwindow2-qt4 sswindow2
+homebrew/boneyard/sqsh:sqsh
 homebrew/boneyard/swatchbooker:sbconvert sbconvertor swatchbooker swatchbooker_w32_postinst.py
 homebrew/boneyard/synfigstudio:synfigstudio
 homebrew/boneyard/tegh:tegh
@@ -1456,6 +1460,7 @@ homebrew/boneyard/wkhtmltopdf:wkhtmltoimage wkhtmltopdf
 homebrew/boneyard/wsmancli:wseventmgr wsman
 homebrew/boneyard/xsp:asp-state asp-state2 asp-state4 dbsessmgr dbsessmgr2 dbsessmgr4 fastcgi-mono-server fastcgi-mono-server2 fastcgi-mono-server4 mod-mono-server mod-mono-server2 mod-mono-server4 xsp xsp2 xsp4
 homebrew/boneyard/xulrunner:xulrunner
+homebrew/boneyard/yap:yap
 homebrew/boneyard/ydict:ydict ydict.py
 homebrew/completions/apm-bash-completion:
 homebrew/completions/aptly-completion:
@@ -2803,6 +2808,7 @@ homebrew/science/clblas:client testPerfWrapper tune
 homebrew/science/clfft:clFFT-client clFFT-client-2.4.0
 homebrew/science/clinfo:clinfo
 homebrew/science/clonalframeml:ClonalFrameML
+homebrew/science/clonehd:cloneHD filterHD pre-filter
 homebrew/science/clustal-omega:clustalo
 homebrew/science/clustal-w:clustalw2
 homebrew/science/cmdstan:stanc stansummary
@@ -3770,7 +3776,6 @@ jfrog-cli-go:jfrog
 jhead:jhead
 jhiccup:jHiccup jHiccupPlotter
 jigdo:jigdo jigdo-file jigdo-lite jigdo-mirror
-jing:jing
 jless:jless jlessecho jlesskey
 jlog:jlog_change_endian jlog_sanity_check jlogctl jlogtail
 jmeter:jmeter
@@ -4958,7 +4963,6 @@ pypy3:pypy3
 pypy:easy_install_pypy pip_pypy pypy
 pyqt5:pylupdate5 pyrcc5 pyuic5
 pyqt:pylupdate4 pyrcc4 pyuic4
-pyqwt:
 pyside-tools:pyside-lupdate pyside-rcc pyside-uic
 pyside:
 python-markdown:markdown_py
@@ -5239,6 +5243,7 @@ shorten:shorten
 shpotify:spotify
 shtool:shtool shtoolize
 shunit2:shunit2
+shyaml:shyaml
 sic:sic
 sickbeard:sickbeard
 siege:bombardment siege siege.config siege2csv.pl
@@ -5341,7 +5346,6 @@ sqliteman:sqliteman
 sqliteodbc:
 sqlmap:sqlmap sqlmap.py
 sqoop:configure-sqoop configure-sqoop.cmd sqoop sqoop-codegen sqoop-create-hive-table sqoop-eval sqoop-export sqoop-help sqoop-import sqoop-import-all-tables sqoop-import-mainframe sqoop-job sqoop-list-databases sqoop-list-tables sqoop-merge sqoop-metastore sqoop-version sqoop.cmd start-metastore.sh stop-metastore.sh
-sqsh:sqsh
 sqtop:sqtop
 squashfs:mksquashfs unsquashfs
 squid:purge squidclient squid
@@ -5836,7 +5840,6 @@ yamcha:yamcha yamcha-config yamcha-mkmodel
 yamdi:yamdi
 yaml-cpp:
 yank:yank
-yap:yap
 yara:yara yarac
 yash:yash
 yasm:vsyasm yasm ytasm
@@ -5887,6 +5890,7 @@ zplug:zplug-env
 zpython:
 zsh-autosuggestions:
 zsh-completions:
+zsh-git-prompt:
 zsh-history-substring-search:
 zsh-lovers:
 zsh-navigation-tools:
