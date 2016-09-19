@@ -1399,6 +1399,7 @@ homebrew/boneyard/judy:
 homebrew/boneyard/kjell:kjell
 homebrew/boneyard/kubernetes-helm:helm
 homebrew/boneyard/lastfmlib:
+homebrew/boneyard/lftp:lftp lftpget
 homebrew/boneyard/libdbusmenu-qt:
 homebrew/boneyard/libiomp:
 homebrew/boneyard/libodbc++:
@@ -1427,8 +1428,10 @@ homebrew/boneyard/pylucene:
 homebrew/boneyard/pyqwt:
 homebrew/boneyard/qi:qi
 homebrew/boneyard/qiv:qiv
+homebrew/boneyard/rbenv-readline:
 homebrew/boneyard/rfcdiff:rfcdiff
 homebrew/boneyard/rocket:actool rkt
+homebrew/boneyard/rsense:rsense
 homebrew/boneyard/rtorrent:rtorrent
 homebrew/boneyard/sam2p:sam2p sam2p_pdf_scale.pl
 homebrew/boneyard/samba:eventlogadm findsmb net nmblookup ntlm_auth pdbedit profiles rpcclient sharesec smbcacls smbclient smbcontrol smbcquotas smbget smbpasswd smbspool smbstatus smbta-util smbtar smbtree tdbbackup tdbdump tdbrestore tdbtool testparm nmbd smbd swat
@@ -3098,6 +3101,7 @@ homebrew/science/orthofinder:orthofinder.py trees_for_orthogroups.py
 homebrew/science/osgearth:osgearth_annotation osgearth_atlas osgearth_backfill osgearth_boundarygen osgearth_cache osgearth_city osgearth_clamp osgearth_clipplane osgearth_colorfilter osgearth_controls osgearth_conv osgearth_demo osgearth_elevation osgearth_featureeditor osgearth_featurefilter osgearth_featureinfo osgearth_featuremanip osgearth_featurequery osgearth_features osgearth_fog osgearth_graticule osgearth_imageoverlay osgearth_los osgearth_manip osgearth_map osgearth_measure osgearth_minimap osgearth_mrt osgearth_occlusionculling osgearth_overlayviewer osgearth_package osgearth_package_qt osgearth_qt osgearth_qt_simple osgearth_qt_windows osgearth_sequencecontrol osgearth_shadercomp osgearth_shadergen osgearth_sharedlayer osgearth_terraineffects osgearth_terrainprofile osgearth_tfs osgearth_tileindex osgearth_tilesource osgearth_toc osgearth_tracks osgearth_transform osgearth_version osgearth_viewer
 homebrew/science/oswitch:oswitch
 homebrew/science/p4est:p4est_balance_seeds p4est_bricks p4est_loadconn p4est_mesh p4est_points p4est_read_conn p4est_simple p4est_step1 p4est_step2 p4est_step3 p4est_step4 p4est_timings p4est_write_conn p8est_balance_seeds p8est_bricks p8est_loadconn p8est_mesh p8est_periodicity p8est_points p8est_read_conn p8est_read_tetgen p8est_simple p8est_step1 p8est_step2 p8est_step3 p8est_step4 p8est_timings p8est_tsearch p8est_write_conn sc_b64dec sc_b64enc sc_bspline sc_bspline_per sc_dmatrix sc_function sc_logging sc_options sc_warp
+homebrew/science/packmol:packmol
 homebrew/science/paml:baseml basemlg chi2 codeml evolver infinitesites mcmctree pamp yn00
 homebrew/science/pandaseq:pandaseq pandaseq-checkid pandaseq-diff pandaseq-hang pandaxs
 homebrew/science/parallel-netcdf:ncmpidiff ncmpidump ncmpigen ncmpivalid ncoffsets pnetcdf_version
@@ -3910,7 +3914,6 @@ lesstif:motif-config mwm mxmkmf uil xmbind
 leveldb:leveldbutil
 lfe:lfe lfe-first-try lfe-test lfec lfescript
 lft:lft whob
-lftp:lftp lftpget
 lha:lha
 lhasa:lha
 lib3ds:3dsdump lib3ds-config
@@ -4473,6 +4476,7 @@ mp3val:mp3val
 mp3wrap:mp3wrap
 mp4v2:mp4art mp4chaps mp4extract mp4file mp4info mp4subtitle mp4tags mp4track mp4trackdump
 mpack:mpack munpack
+mpage:mpage
 mpc:mpc
 mpck:mpck
 mpd:mpd
@@ -5029,7 +5033,6 @@ rbenv-communal-gems:rbenv-communal-gem-home rbenv-communize rbenv-sequester
 rbenv-ctags:rbenv-ctags
 rbenv-default-gems:
 rbenv-gemset:rbenv-gemset
-rbenv-readline:
 rbenv-use:rbenv-sh-use
 rbenv-vars:rbenv-vars
 rbenv-whatis:rbenv-whatis
@@ -5117,7 +5120,6 @@ rpl:rpl
 rpm2cpio:rpm2cpio.pl
 rpm:gendiff rpm rpm2cpio rpmbuild rpmconstant
 rrdtool:rrdcached rrdcgi rrdcreate rrdinfo rrdtool rrdupdate
-rsense:rsense
 rsnapshot:rsnapshot rsnapshot-diff
 rssh:rssh
 rsstail:rsstail
