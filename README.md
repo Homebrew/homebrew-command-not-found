@@ -35,13 +35,13 @@ brew tap homebrew/command-not-found
 * **Bash and Zsh**: Add the following line to your `~/.bash_profile` (bash) or `~/.zshrc` (zsh):
 
     ```bash
-    if brew command command-not-found-init > /dev/null; then eval "$(brew command-not-found-init)"; fi
+    if brew command command-not-found-init > /dev/null 2>&1; then eval "$(brew command-not-found-init)"; fi
     ```
 
 * **Fish**: Add the following line to your `~/.config/fish/config.fish`:
 
     ```fish
-    brew command command-not-found-init > /dev/null; and . (brew command-not-found-init)
+    brew command command-not-found-init > /dev/null 2>&1; and . (brew command-not-found-init)
     ```
 
 ## Requirements
