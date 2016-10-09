@@ -108,6 +108,7 @@ aqbanking:aqbanking-cli aqbanking-config aqebics-tool aqhbci-tool4 hbcixml3
 arabica:mangle
 arangodb:arango-dfdb arango-init-database arango-secure-installation arangobench arangod arangodump arangoimp arangorestore arangosh foxx-manager
 archey:archey
+archi-steam-farm:asf
 archivemail:archivemail
 argon2:argon2
 argp-standalone:
@@ -163,7 +164,6 @@ autoenv:
 autogen:autogen autoopts-config columns getdefs xml2ag
 autojump:autojump
 automake:aclocal aclocal-1.15 automake automake-1.15
-automoc4:automoc4
 automysqlbackup:automysqlbackup
 autopano-sift-c:autopano autopano-c-complete.sh autopano-sift-c generatekeys
 autopsy:autopsy
@@ -247,7 +247,6 @@ bigloo:bglafile bglafile.sh bgldepend bgljas bgljfile bglmake bglmco bglpp bglpr
 bind:arpaname bind9-config ddns-confgen delv dig dnssec-checkds dnssec-coverage dnssec-dsfromkey dnssec-importkey dnssec-keyfromlabel dnssec-keygen dnssec-revoke dnssec-settime dnssec-signzone dnssec-verify genrandom host isc-config.sh isc-hmac-fixup lwresd named named-checkconf named-checkzone named-compilezone named-journalprint named-rrchecker nsec3hash nslookup nsupdate rndc rndc-confgen tsig-keygen
 binkd:binkd binkd-1.0.4
 binutils:gaddr2line gar gc++filt gcoffdump gdlltool gdllwrap gelfedit gnlmconv gnm gobjcopy gobjdump granlib greadelf gsize gsrconv gstrings gstrip gsysdump gwindmc gwindres
-binwalk:binwalk
 bip:bip bipmkpw
 bison:bison yacc
 bitchx:BitchX BitchX-1.2.1 scr-bx
@@ -498,6 +497,7 @@ concurrencykit:
 confuse:
 connect:connect
 conserver:console conserver
+consul-backinator:consul-backinator
 consul-template:consul-template
 consul:consul
 contacts:contacts
@@ -555,6 +555,7 @@ csshx:csshX
 csup:csup
 csv-fix:csvfix
 csvprintf:csvprintf xml2csv
+csvtomd:csvtomd
 ctags:ctags
 ctail:ctail
 ctemplate:diff_tpl_auto_escape make_tpl_varnames_h template-converter
@@ -570,7 +571,6 @@ curl:curl curl-config
 curlish:curlish
 curlpp:curlpp-config
 cutter:cut-diff cutter
-cuty_capt:CutyCapt
 cvs2svn:cvs2bzr cvs2git cvs2svn
 cvs:cvs cvsbug rcs2log
 cvsps:cvsps
@@ -777,7 +777,6 @@ ekg2:ekg2
 ekhtml:
 elasticsearch:elasticsearch
 elb-tools:elb-apply-security-groups-to-lb elb-associate-route53-hosted-zone elb-attach-lb-to-subnets elb-cmd elb-configure-healthcheck elb-create-app-cookie-stickiness-policy elb-create-lb elb-create-lb-cookie-stickiness-policy elb-create-lb-listeners elb-create-lb-policy elb-delete-lb elb-delete-lb-listeners elb-delete-lb-policy elb-deregister-instances-from-lb elb-describe-instance-health elb-describe-lb-attributes elb-describe-lb-policies elb-describe-lb-policy-types elb-describe-lbs elb-detach-lb-from-subnets elb-disable-zones-for-lb elb-disassociate-route53-hosted-zone elb-enable-zones-for-lb elb-modify-lb-attributes elb-register-instances-with-lb elb-set-lb-listener-ssl-cert elb-set-lb-policies-for-backend-server elb-set-lb-policies-of-listener elb-version
-elementary:elementary_codegen elementary_config elementary_quicklaunch elementary_run elementary_test elm_prefs_cc
 elinks:elinks
 elixir-build:elixir-build exenv-install exenv-uninstall json
 elixir:elixir elixirc iex mix
@@ -819,7 +818,6 @@ etl:ETL-config
 ettercap:ettercap etterfilter etterlog
 euca2ools:euare-accountaliascreate euare-accountaliasdelete euare-accountaliaslist euare-accountcreate euare-accountdel euare-accountdelpolicy euare-accountgetpolicy euare-accountgetsummary euare-accountlist euare-accountlistpolicies euare-accountuploadpolicy euare-getldapsyncstatus euare-groupaddpolicy euare-groupadduser euare-groupcreate euare-groupdel euare-groupdelpolicy euare-groupgetpolicy euare-grouplistbypath euare-grouplistpolicies euare-grouplistusers euare-groupmod euare-groupremoveuser euare-groupuploadpolicy euare-instanceprofileaddrole euare-instanceprofilecreate euare-instanceprofiledel euare-instanceprofilegetattributes euare-instanceprofilelistbypath euare-instanceprofilelistforrole euare-instanceprofileremoverole euare-roleaddpolicy euare-rolecreate euare-roledel euare-roledelpolicy euare-rolegetattributes euare-rolegetpolicy euare-rolelistbypath euare-rolelistpolicies euare-roleupdateassumepolicy euare-roleuploadpolicy euare-servercertdel euare-servercertgetattributes euare-servercertlistbypath euare-servercertmod euare-servercertupload euare-useraddcert euare-useraddkey euare-useraddloginprofile euare-useraddpolicy euare-usercreate euare-usercreatecert euare-userdeactivatemfadevice euare-userdel euare-userdelcert euare-userdelkey euare-userdelloginprofile euare-userdelpolicy euare-userenablemfadevice euare-usergetattributes euare-usergetinfo euare-usergetloginprofile euare-usergetpolicy euare-userlistbypath euare-userlistcerts euare-userlistgroups euare-userlistkeys euare-userlistmfadevices euare-userlistpolicies euare-usermod euare-usermodcert euare-usermodkey euare-usermodloginprofile euare-userresyncmfadevice euare-userupdateinfo euare-useruploadpolicy euca-accept-vpc-peering-connection euca-allocate-address euca-assign-private-ip-addresses euca-associate-address euca-associate-dhcp-options euca-associate-route-table euca-attach-internet-gateway euca-attach-network-interface euca-attach-volume euca-attach-vpn-gateway euca-authorize euca-bundle-and-upload-image euca-bundle-image euca-bundle-instance euca-bundle-vol euca-cancel-bundle-task euca-cancel-conversion-task euca-confirm-product-instance euca-copy-image euca-create-customer-gateway euca-create-dhcp-options euca-create-group euca-create-image euca-create-internet-gateway euca-create-keypair euca-create-network-acl euca-create-network-acl-entry euca-create-network-interface euca-create-route euca-create-route-table euca-create-snapshot euca-create-subnet euca-create-tags euca-create-volume euca-create-vpc euca-create-vpc-peering-connection euca-create-vpn-connection euca-create-vpn-connection-route euca-create-vpn-gateway euca-delete-bundle euca-delete-customer-gateway euca-delete-dhcp-options euca-delete-disk-image euca-delete-group euca-delete-internet-gateway euca-delete-keypair euca-delete-network-acl euca-delete-network-acl-entry euca-delete-network-interface euca-delete-route euca-delete-route-table euca-delete-snapshot euca-delete-subnet euca-delete-tags euca-delete-volume euca-delete-vpc euca-delete-vpc-peering-connection euca-delete-vpn-connection euca-delete-vpn-connection-route euca-delete-vpn-gateway euca-deregister euca-describe-account-attributes euca-describe-addresses euca-describe-availability-zones euca-describe-bundle-tasks euca-describe-conversion-tasks euca-describe-customer-gateways euca-describe-dhcp-options euca-describe-group euca-describe-groups euca-describe-image-attribute euca-describe-images euca-describe-instance-attribute euca-describe-instance-status euca-describe-instance-types euca-describe-instances euca-describe-internet-gateways euca-describe-keypairs euca-describe-network-acls euca-describe-network-interface-attribute euca-describe-network-interfaces euca-describe-regions euca-describe-route-tables euca-describe-snapshot-attribute euca-describe-snapshots euca-describe-subnets euca-describe-tags euca-describe-volumes euca-describe-vpc-attribute euca-describe-vpc-peering-connections euca-describe-vpcs euca-describe-vpn-connections euca-describe-vpn-gateways euca-detach-internet-gateway euca-detach-network-interface euca-detach-volume euca-detach-vpn-gateway euca-disable-vgw-route-propagation euca-disassociate-address euca-disassociate-route-table euca-download-and-unbundle euca-download-bundle euca-enable-vgw-route-propagation euca-fingerprint-key euca-get-console-output euca-get-password euca-get-password-data euca-import-instance euca-import-keypair euca-import-volume euca-install-image euca-modify-image-attribute euca-modify-instance-attribute euca-modify-instance-type euca-modify-network-interface-attribute euca-modify-snapshot-attribute euca-modify-subnet-attribute euca-modify-vpc-attribute euca-monitor-instances euca-reboot-instances euca-register euca-reject-vpc-peering-connection euca-release-address euca-replace-network-acl-association euca-replace-network-acl-entry euca-replace-route euca-replace-route-table-association euca-reset-image-attribute euca-reset-instance-attribute euca-reset-network-interface-attribute euca-reset-snapshot-attribute euca-resume-import euca-revoke euca-run-instances euca-start-instances euca-stop-instances euca-terminate-instances euca-unassign-private-ip-addresses euca-unbundle euca-unbundle-stream euca-unmonitor-instances euca-upload-bundle euca-version euform-cancel-update-stack euform-create-stack euform-delete-stack euform-describe-stack-events euform-describe-stack-resource euform-describe-stack-resources euform-describe-stacks euform-get-template euform-list-stack-resources euform-list-stacks euform-update-stack euform-validate-template eulb-apply-security-groups-to-lb eulb-attach-lb-to-subnets eulb-configure-healthcheck eulb-create-app-cookie-stickiness-policy eulb-create-lb eulb-create-lb-cookie-stickiness-policy eulb-create-lb-listeners eulb-create-lb-policy eulb-delete-lb eulb-delete-lb-listeners eulb-delete-lb-policy eulb-deregister-instances-from-lb eulb-describe-instance-health eulb-describe-lb-policies eulb-describe-lb-policy-types eulb-describe-lbs eulb-detach-lb-from-subnets eulb-disable-zones-for-lb eulb-enable-zones-for-lb eulb-register-instances-with-lb eulb-set-lb-listener-ssl-cert eulb-set-lb-policies-for-backend-server eulb-set-lb-policies-of-listener euscale-create-auto-scaling-group euscale-create-launch-config euscale-create-or-update-tags euscale-delete-auto-scaling-group euscale-delete-launch-config euscale-delete-notification-configuration euscale-delete-policy euscale-delete-scheduled-action euscale-delete-tags euscale-describe-account-limits euscale-describe-adjustment-types euscale-describe-auto-scaling-groups euscale-describe-auto-scaling-instances euscale-describe-auto-scaling-notification-types euscale-describe-launch-configs euscale-describe-metric-collection-types euscale-describe-notification-configurations euscale-describe-policies euscale-describe-process-types euscale-describe-scaling-activities euscale-describe-scheduled-actions euscale-describe-tags euscale-describe-termination-policy-types euscale-disable-metrics-collection euscale-enable-metrics-collection euscale-execute-policy euscale-put-notification-configuration euscale-put-scaling-policy euscale-put-scheduled-update-group-action euscale-resume-processes euscale-set-desired-capacity euscale-set-instance-health euscale-suspend-processes euscale-terminate-instance-in-auto-scaling-group euscale-update-auto-scaling-group euwatch-delete-alarms euwatch-describe-alarm-history euwatch-describe-alarms euwatch-describe-alarms-for-metric euwatch-disable-alarm-actions euwatch-enable-alarm-actions euwatch-get-stats euwatch-list-metrics euwatch-put-data euwatch-put-metric-alarm euwatch-set-alarm-state
 euler-py:euler
-evas-generic-loaders:
 eventlog:
 eventql:cstable_tool evql evqlctl evqld
 evince:evince evince-previewer evince-thumbnailer
@@ -839,7 +837,6 @@ expat:xmlwf
 exploitdb:searchsploit
 extract_url:extract_url
 eye-d3:eyeD3
-ezlupdate:ezlupdate
 ezstream:ezstream ezstream-file.sh
 f3:f3read f3write
 faac:faac
@@ -954,7 +951,6 @@ freexl:
 frege-repl:frege-repl
 frege:fregec
 frei0r:
-frescobaldi:frescobaldi
 fribidi:fribidi
 fsevent_watch:fsevent_watch
 fsevents-tools:autorsync notifyloop notifywait
@@ -1056,7 +1052,7 @@ git-cal:git-cal
 git-cola:cola git-cola git-dag
 git-credential-manager:git-credential-manager
 git-crypt:git-crypt
-git-extras:git-alias git-archive-file git-authors git-back git-bug git-changelog git-chore git-clear git-commits-since git-contrib git-count git-create-branch git-delete-branch git-delete-merged-branches git-delete-submodule git-delete-tag git-delta git-effort git-extras git-feature git-fork git-fresh-branch git-gh-pages git-graft git-guilt git-ignore git-ignore-io git-info git-line-summary git-local-commits git-lock git-locked git-merge-into git-merge-repo git-missing git-obliterate git-pr git-psykorebase git-pull-request git-rebase-patch git-refactor git-release git-rename-tag git-repl git-reset-file git-root git-rscp git-scp git-sed git-setup git-show-merged-branches git-show-tree git-show-unmerged-branches git-squash git-summary git-sync git-touch git-undo git-unlock
+git-extras:git-alias git-archive-file git-authors git-back git-bug git-changelog git-chore git-clear git-clear-soft git-commits-since git-contrib git-count git-create-branch git-delete-branch git-delete-merged-branches git-delete-submodule git-delete-tag git-delta git-effort git-extras git-feature git-fork git-fresh-branch git-gh-pages git-graft git-guilt git-ignore git-ignore-io git-info git-line-summary git-local-commits git-lock git-locked git-merge-into git-merge-repo git-missing git-obliterate git-pr git-psykorebase git-pull-request git-reauthor git-rebase-patch git-refactor git-release git-rename-branch git-rename-tag git-repl git-reset-file git-root git-rscp git-scp git-sed git-setup git-show-merged-branches git-show-tree git-show-unmerged-branches git-squash git-standup git-summary git-sync git-touch git-undo git-unlock
 git-fixup:git-fixup
 git-flow-avh:git-flow
 git-flow:git-flow
@@ -1265,7 +1261,6 @@ gupnp-av:
 gupnp-tools:gssdp-discover gupnp-av-cp gupnp-network-light gupnp-universal-cp gupnp-upload
 gupnp:gupnp-binding-tool
 gvp:gvp
-gwenhywfar:gct-tool gsa gwenhywfar-config mklistdoc typemaker typemaker2 xmlmerge
 gws:gws
 gwt:benchmarkViewer i18nCreator webAppCreator
 gwyddion:gwyddion gwyddion-thumbnailer
@@ -1282,6 +1277,7 @@ hadolint:hadolint
 hadoop:container-executor distribute-exclude.sh hadoop hadoop-daemon.sh hadoop-daemons.sh hdfs hdfs-config.sh httpfs.sh kms.sh mapred mr-jobhistory-daemon.sh refresh-namenodes.sh slaves.sh start-all.sh start-balancer.sh start-dfs.sh start-secure-dns.sh start-yarn.sh stop-all.sh stop-balancer.sh stop-dfs.sh stop-secure-dns.sh stop-yarn.sh test-container-executor yarn yarn-daemon.sh yarn-daemons.sh
 halibut:halibut
 hamlib:rigctl rigctld rigmem rigsmtr rigswr rotctl rotctld rpc.rigd rpc.rotd
+hana:
 haproxy:haproxy
 harbour:harbour hb3rdpat.hbs hbformat hbi18n hbmk2 hbnetio hbpp hbrun hbtest
 hardlink-osx:hln
@@ -1363,6 +1359,8 @@ homebrew/boneyard/aget:aget
 homebrew/boneyard/apt-cacher-ng:apt-cacher-ng
 homebrew/boneyard/arpon:arpon
 homebrew/boneyard/asm6:asm6
+homebrew/boneyard/automoc4:automoc4
+homebrew/boneyard/binwalk:binwalk
 homebrew/boneyard/box2d:
 homebrew/boneyard/catdoc:catdoc catppt wordview xls2csv
 homebrew/boneyard/caudec:caudec decaude
@@ -1372,6 +1370,7 @@ homebrew/boneyard/class-dump:class-dump
 homebrew/boneyard/cowpatty:cowpatty genpmk
 homebrew/boneyard/cppdom:cppdom-config
 homebrew/boneyard/csync:csync
+homebrew/boneyard/cuty_capt:CutyCapt
 homebrew/boneyard/cvc4:cvc4
 homebrew/boneyard/dircproxy:dircproxy dircproxy-crypt
 homebrew/boneyard/disco:ddfs disco
@@ -1379,10 +1378,14 @@ homebrew/boneyard/discodex:discodex discodexcli.py
 homebrew/boneyard/dupx:dupx
 homebrew/boneyard/echoping:echoping
 homebrew/boneyard/eet:eet
+homebrew/boneyard/elementary:elementary_codegen elementary_config elementary_quicklaunch elementary_run elementary_test elm_prefs_cc
 homebrew/boneyard/embryo:embryo_cc
+homebrew/boneyard/evas-generic-loaders:
 homebrew/boneyard/evas:evas_cserve evas_cserve_tool
+homebrew/boneyard/ezlupdate:ezlupdate
 homebrew/boneyard/ffts:
 homebrew/boneyard/fleet-db:fleetdb-server
+homebrew/boneyard/frescobaldi:frescobaldi
 homebrew/boneyard/fugu:fugu
 homebrew/boneyard/gambit-scheme:gambc-cc gambc-doc gsc gsc-script gsi gsi-script scheme-ieee-1178-1990 scheme-r4rs scheme-r5rs scheme-srfi-0 six six-script
 homebrew/boneyard/gasnet:amudprun gasnet_trace gasnet_trace.pl gasnetrun_mpi gasnetrun_mpi.pl
@@ -1395,6 +1398,7 @@ homebrew/boneyard/googlecl:google
 homebrew/boneyard/grass:gem64 grass64
 homebrew/boneyard/gtkglarea:
 homebrew/boneyard/guilt:guilt
+homebrew/boneyard/gwenhywfar:gct-tool gsa gwenhywfar-config mklistdoc typemaker typemaker2 xmlmerge
 homebrew/boneyard/honeyd:honeyd honeydctl honeydstats hsniff
 homebrew/boneyard/icmake:icm-comp icm-exec icm-pp icmake icmbuild icmstart icmun
 homebrew/boneyard/idcomments:idcomments
@@ -1434,9 +1438,13 @@ homebrew/boneyard/powerline:powerline powerline-config powerline-daemon powerlin
 homebrew/boneyard/pure:pure
 homebrew/boneyard/pylucene:
 homebrew/boneyard/pyqwt:
+homebrew/boneyard/pyside-tools:pyside-lupdate pyside-rcc pyside-uic
+homebrew/boneyard/pyside:
 homebrew/boneyard/qi:qi
 homebrew/boneyard/qiv:qiv
+homebrew/boneyard/qwtpolar:
 homebrew/boneyard/rbenv-readline:
+homebrew/boneyard/rcssserver:rcg2xml rcgconvert rcgsplit rcsoccersim rcssclient rcsslogplayer rcssmonitor rcssserver
 homebrew/boneyard/rfcdiff:rfcdiff
 homebrew/boneyard/rocket:actool rkt
 homebrew/boneyard/rsense:rsense
@@ -1445,12 +1453,14 @@ homebrew/boneyard/sam2p:sam2p sam2p_pdf_scale.pl
 homebrew/boneyard/samba:eventlogadm findsmb net nmblookup ntlm_auth pdbedit profiles rpcclient sharesec smbcacls smbclient smbcontrol smbcquotas smbget smbpasswd smbspool smbstatus smbta-util smbtar smbtree tdbbackup tdbdump tdbrestore tdbtool testparm nmbd smbd swat
 homebrew/boneyard/sgfutils:ngf2sgf nip2sgf nk2sgf sgf sgfcharset sgfcheck sgfcmp sgfdb sgfdbinfo sgfinfo sgfmerge sgfsplit sgfstrip sgftf sgftopng sgfvarsplit sgfx ugi2sgf
 homebrew/boneyard/shell.fm:shell-fm
+homebrew/boneyard/shiboken:shiboken
 homebrew/boneyard/shrewsoft-vpn-client:ikec iked
 homebrew/boneyard/sickrage:sickrage
 homebrew/boneyard/signing-party:caff gpg-key2ps gpg-mailkeys gpglist gpgparticipants gpgsigs keyanalyze keylookup pgp-clean pgp-fixkey pgpring process_keys sig2dot
 homebrew/boneyard/skytools:data_maintainer3 londiste3 pgqd qadmin queue_mover3 queue_splitter3 scriptmgr3 simple_consumer3 simple_local_consumer3 skytools_upgrade3 walmgr3
 homebrew/boneyard/slony:slon slonik slony_logshipper
 homebrew/boneyard/soccerwindow2:soccerwindow2 soccerwindow2-qt4 sswindow2
+homebrew/boneyard/sqliteman:sqliteman
 homebrew/boneyard/sqsh:sqsh
 homebrew/boneyard/swatchbooker:sbconvert sbconvertor swatchbooker swatchbooker_w32_postinst.py
 homebrew/boneyard/synfigstudio:synfigstudio
@@ -1463,6 +1473,7 @@ homebrew/boneyard/trang:trang
 homebrew/boneyard/ttytter:ttytter
 homebrew/boneyard/txt2man:bookman src2man txt2man
 homebrew/boneyard/validns:validns
+homebrew/boneyard/valkyrie:
 homebrew/boneyard/vcodex:vcformat vczip
 homebrew/boneyard/visualnetkit:visualnetkit
 homebrew/boneyard/vmalloc:
@@ -2675,6 +2686,7 @@ homebrew/php/php71-swoole:
 homebrew/php/php71-tidy:
 homebrew/php/php71-timecop:
 homebrew/php/php71-uuid:
+homebrew/php/php71-v8js:
 homebrew/php/php71-xdebug:
 homebrew/php/php71-xxtea:
 homebrew/php/php71-yaml:
@@ -4988,8 +5000,6 @@ pypy3:pypy3
 pypy:easy_install_pypy pip_pypy pypy
 pyqt5:pylupdate5 pyrcc5 pyuic5
 pyqt:pylupdate4 pyrcc4 pyuic4
-pyside-tools:pyside-lupdate pyside-rcc pyside-uic
-pyside:
 python-markdown:markdown_py
 python3:2to3-3.5 easy_install-3.5 idle3 idle3.5 pip3 pip3.5 pydoc3 pydoc3.5 python3 python3-config python3.5 python3.5-config python3.5m python3.5m-config pyvenv pyvenv-3.5 wheel3
 python:2to3 2to3-2 2to3-2.7 easy_install easy_install-2.7 idle idle2 idle2.7 pip pip2 pip2.7 pydoc pydoc2 pydoc2.7 python python-config python2 python2-config python2.7 python2.7-config pythonw pythonw2 pythonw2.7 smtpd.py smtpd2.7.py smtpd2.py wheel
@@ -5023,7 +5033,6 @@ quilt:guards quilt
 quotatool:quotatool
 quvi:quvi
 qwt:
-qwtpolar:
 qxmpp:
 r3:
 rabbitmq-c:amqp-consume amqp-declare-queue amqp-delete-queue amqp-get amqp-publish
@@ -5061,7 +5070,6 @@ rbenv:rbenv ruby-local-exec
 rc:rc
 rclone:rclone
 rcs:ci co ident merge rcs rcsclean rcsdiff rcsmerge rlog
-rcssserver:rcg2xml rcgconvert rcgsplit rcsoccersim rcssclient rcsslogplayer rcssmonitor rcssserver
 rdate:rdate
 rdfind:rdfind
 rdiff-backup:rdiff-backup rdiff-backup-statistics
@@ -5255,7 +5263,6 @@ shc:shc
 shellcheck:shellcheck
 shellinabox:shellinaboxd
 shibboleth-sp:mdquery resolvertest shibd
-shiboken:shiboken
 shivavg:
 shmcat:shmcat
 shml:shml shml.sh
@@ -5367,7 +5374,6 @@ sqlcipher:sqlcipher
 sqldiff:sqldiff
 sqlite-analyzer:sqlite3_analyzer
 sqlite:sqlite3
-sqliteman:sqliteman
 sqliteodbc:
 sqlmap:sqlmap sqlmap.py
 sqoop:configure-sqoop configure-sqoop.cmd sqoop sqoop-codegen sqoop-create-hive-table sqoop-eval sqoop-export sqoop-help sqoop-import sqoop-import-all-tables sqoop-import-mainframe sqoop-job sqoop-list-databases sqoop-list-tables sqoop-merge sqoop-metastore sqoop-version sqoop.cmd start-metastore.sh stop-metastore.sh
@@ -5677,7 +5683,6 @@ v:v
 vala:vala vala-0.32 vala-gen-introspect vala-gen-introspect-0.32 valac valac-0.32 vapicheck vapicheck-0.32 vapigen vapigen-0.32
 valabind:valabind valabind-cc
 valgrind:callgrind_annotate callgrind_control cg_annotate cg_diff cg_merge ms_print valgrind valgrind-di-server valgrind-listener vgdb
-valkyrie:
 vamp-plugin-sdk:vamp-rdf-template-generator vamp-simple-host
 vapoursynth:vspipe
 varnish:varnishadm varnishd varnishhist varnishlog varnishncsa varnishstat varnishtest varnishtop
