@@ -745,7 +745,6 @@ dvdrtools:cdda2mp3 cdda2ogg cdda2wav devdump dvdrecord isodump isoinfo isovfy mk
 dvm:
 dvorak7min:dvorak7min
 dvtm:dvtm dvtm-status
-dwarf:dwarf
 dwarfutils:dwarfdump
 dwatch:dwatch
 dwdiff:dwdiff dwfilter
@@ -1378,6 +1377,7 @@ homebrew/boneyard/dircproxy:dircproxy dircproxy-crypt
 homebrew/boneyard/disco:ddfs disco
 homebrew/boneyard/discodex:discodex discodexcli.py
 homebrew/boneyard/dupx:dupx
+homebrew/boneyard/dwarf:dwarf
 homebrew/boneyard/echoping:echoping
 homebrew/boneyard/eet:eet
 homebrew/boneyard/elementary:elementary_codegen elementary_config elementary_quicklaunch elementary_run elementary_test elm_prefs_cc
@@ -1408,6 +1408,7 @@ homebrew/boneyard/ipe:ipe ipe6upgrade ipeextract iperender ipescript ipetoipe ip
 homebrew/boneyard/jing:jing
 homebrew/boneyard/jless:jless jlessecho jlesskey
 homebrew/boneyard/jscoverage:jscoverage jscoverage-server
+homebrew/boneyard/jsdoc-toolkit:jsdoc
 homebrew/boneyard/judy:
 homebrew/boneyard/kjell:kjell
 homebrew/boneyard/kubernetes-helm:helm
@@ -1415,6 +1416,7 @@ homebrew/boneyard/lastfmlib:
 homebrew/boneyard/lftp:lftp lftpget
 homebrew/boneyard/libdbusmenu-qt:
 homebrew/boneyard/libiomp:
+homebrew/boneyard/libmarisa:marisa-benchmark marisa-build marisa-common-prefix-search marisa-dump marisa-lookup marisa-predictive-search marisa-reverse-lookup
 homebrew/boneyard/libodbc++:
 homebrew/boneyard/libqxt:
 homebrew/boneyard/libtorrent:
@@ -1672,6 +1674,7 @@ homebrew/emacs/jumpc:
 homebrew/emacs/keyfreq:
 homebrew/emacs/know-your-http-well:
 homebrew/emacs/landmark-emacs:
+homebrew/emacs/less-css-mode:
 homebrew/emacs/let-alist:
 homebrew/emacs/lex-emacs:
 homebrew/emacs/list-unicode-display:
@@ -3831,7 +3834,6 @@ jrnl:jrnl
 jruby:jast jgem jirb jirb_swing jrake jrdoc jri jruby jruby.bash jruby.sh jrubyc jtestrb
 js-test-driver:js-test-driver
 jsawk:jsawk
-jsdoc-toolkit:jsdoc
 jsdoc3:jsdoc
 jshon:jshon
 jslint4java:jslint4java
@@ -4089,7 +4091,6 @@ liblwgeom:
 liblzf:lzf
 libmaa:
 libmagic:
-libmarisa:marisa-benchmark marisa-build marisa-common-prefix-search marisa-dump marisa-lookup marisa-predictive-search marisa-reverse-lookup
 libmatroska:
 libmaxminddb:mmdblookup
 libmemcached:memcapable memcat memcp memdump memerror memexist memflush memparse memping memrm memslap memstat memtouch
@@ -4998,6 +4999,7 @@ pygobject:pygobject-codegen-2.0
 pygtk:pygtk-codegen-2.0 pygtk-demo
 pygtkglext:
 pygtksourceview:
+pyinvoke:inv invoke
 pypy3:pypy3
 pypy:easy_install_pypy pip_pypy pypy
 pyqt5:pylupdate5 pyrcc5 pyuic5
@@ -5030,6 +5032,7 @@ qtplay:qtplay
 quantlib:quantlib-config quantlib-test-suite
 quazip:qztest
 queequeg:qq
+questdb:questdb
 quex:quex
 quilt:guards quilt
 quotatool:quotatool
@@ -5447,6 +5450,7 @@ suricata:suricata suricatasc
 svdlibc:svd
 svg2pdf:svg2pdf
 svg2png:svg2png
+svgcleaner:svgcleaner
 svtplay-dl:svtplay-dl
 swagger-codegen:swagger-codegen
 swaks:swaks
@@ -5523,6 +5527,7 @@ termrec:proxyrec termcat termplay termrec termtime
 termshare:termshare
 terraform-inventory:terraform-inventory
 terraform:terraform terraform-provider-atlas terraform-provider-aws terraform-provider-azure terraform-provider-cloudflare terraform-provider-cloudstack terraform-provider-consul terraform-provider-digitalocean terraform-provider-dme terraform-provider-dnsimple terraform-provider-docker terraform-provider-google terraform-provider-heroku terraform-provider-mailgun terraform-provider-null terraform-provider-openstack terraform-provider-template terraform-provider-terraform terraform-provisioner-chef terraform-provisioner-file terraform-provisioner-local-exec terraform-provisioner-remote-exec
+terragrunt:terragrunt
 tesseract:tesseract
 testdisk:fidentify photorec testdisk
 testssl:testssl.sh
@@ -5632,6 +5637,7 @@ twtxt:twtxt
 txr:txr
 txt2tags:txt2tags
 typesafe-activator:activator
+typescript:tsc tsserver
 typespeed:typespeed
 u-boot-tools:mkimage
 uade:mod2ogg2.sh uade123
