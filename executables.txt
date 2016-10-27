@@ -148,6 +148,7 @@ aterm:atdiff atreverse atrmannos atsum baf2taf baf2trm baffle dicttoc taf2baf ta
 atf:atf-sh
 atk:
 atkmm:
+atlassian-cli:all atlassian bamboo confluence crucible fisheye hipchat jira stash
 atomicparsley:AtomicParsley
 atool:acat adiff als apack arepack atool aunpack
 ats2-postiats:patscc patsopt
@@ -1094,6 +1095,7 @@ gitg:gitg
 github-markdown-toc:gh-md-toc
 github-release:github-release
 gitlab-ci-multi-runner:gitlab-ci-multi-runner
+gitless:gl
 gitslave:gits
 gitup:gitup
 gitversion:gitversion
@@ -1438,11 +1440,13 @@ homebrew/boneyard/peervpn:peervpn
 homebrew/boneyard/pgtap:pg_prove pg_tapgen prove
 homebrew/boneyard/phash:
 homebrew/boneyard/powerline:powerline powerline-config powerline-daemon powerline-lint powerline-render
+homebrew/boneyard/puddletag:puddletag
 homebrew/boneyard/pure:pure
 homebrew/boneyard/pylucene:
 homebrew/boneyard/pyqwt:
 homebrew/boneyard/pyside-tools:pyside-lupdate pyside-rcc pyside-uic
 homebrew/boneyard/pyside:
+homebrew/boneyard/qbzr:
 homebrew/boneyard/qi:qi
 homebrew/boneyard/qiv:qiv
 homebrew/boneyard/qwtpolar:
@@ -1463,6 +1467,7 @@ homebrew/boneyard/signing-party:caff gpg-key2ps gpg-mailkeys gpglist gpgparticip
 homebrew/boneyard/skytools:data_maintainer3 londiste3 pgqd qadmin queue_mover3 queue_splitter3 scriptmgr3 simple_consumer3 simple_local_consumer3 skytools_upgrade3 walmgr3
 homebrew/boneyard/slony:slon slonik slony_logshipper
 homebrew/boneyard/soccerwindow2:soccerwindow2 soccerwindow2-qt4 sswindow2
+homebrew/boneyard/sonar-runner:sonar-runner
 homebrew/boneyard/sqliteman:sqliteman
 homebrew/boneyard/sqsh:sqsh
 homebrew/boneyard/swatchbooker:sbconvert sbconvertor swatchbooker swatchbooker_w32_postinst.py
@@ -1473,6 +1478,7 @@ homebrew/boneyard/telepathy-glib:
 homebrew/boneyard/telepathy-idle:
 homebrew/boneyard/telepathy-mission-control:mc-tool mc-wait-for-name
 homebrew/boneyard/trang:trang
+homebrew/boneyard/treeline:treeline
 homebrew/boneyard/ttytter:ttytter
 homebrew/boneyard/txt2man:bookman src2man txt2man
 homebrew/boneyard/validns:validns
@@ -3533,6 +3539,7 @@ homebrew/versions/node010:node
 homebrew/versions/node012:node
 homebrew/versions/node4-lts:node
 homebrew/versions/node5:node
+homebrew/versions/node6-lts:node
 homebrew/versions/nu0:nubake nubile nudoc nuke nush nutemplate nutest nutmbundle
 homebrew/versions/objective-caml312:camlp4 camlp4boot camlp4o camlp4o.opt camlp4of camlp4of.opt camlp4oof camlp4oof.opt camlp4orf camlp4orf.opt camlp4prof camlp4r camlp4r.opt camlp4rf camlp4rf.opt labltk mkcamlp4 ocaml ocamlbrowser ocamlbuild ocamlbuild.byte ocamlbuild.native ocamlc ocamlc.opt ocamlcp ocamldebug ocamldep ocamldep.opt ocamldoc ocamldoc.opt ocamllex ocamllex.opt ocamlmklib ocamlmktop ocamlobjinfo ocamlopt ocamlopt.opt ocamlprof ocamlrun ocamlyacc
 homebrew/versions/open-mpi16:mpic++ mpic++-vt mpicc mpicc-vt mpicxx mpicxx-vt mpiexec mpif77 mpif77-vt mpif90 mpif90-vt mpirun ompi-clean ompi-iof ompi-probe ompi-profiler ompi-ps ompi-server ompi-top ompi_info opal_wrapper orte-bootproxy.sh orte-clean orte-iof orte-ps orte-top orte_wrapper_script ortec++ ortecc orted orterun otfaux otfcompress otfconfig otfdecompress otfinfo otfmerge otfmerge-mpi otfprint otfprofile otfprofile-mpi otfshrink vtc++ vtcc vtcxx vtf77 vtf90 vtfilter vtfilter-mpi vtfiltergen vtfiltergen-mpi vtfort vtrun vtsetup vtsetup.jar vtunify vtunify-mpi vtwrapper
@@ -4973,7 +4980,6 @@ psutils:epsffit extractres fixdlsrps fixfmps fixmacps fixpsditps fixpspps fixscr
 ptex:ptxinfo
 pth:pth-config
 ptunnel:ptunnel
-puddletag:puddletag
 puf:puf
 pugixml:
 pulledpork:pulledpork.pl
@@ -5017,7 +5023,6 @@ python:2to3 2to3-2 2to3-2.7 easy_install easy_install-2.7 idle idle2 idle2.7 pip
 pyvim:ptipython ptpython pyflakes pygmentize pyvim
 q:q
 qbs:qbs qbs-config qbs-config-ui qbs-qmltypes qbs-setup-android qbs-setup-qt qbs-setup-toolchains
-qbzr:
 qca:mozcerts qcatool
 qcachegrind:qcachegrind
 qd:qd-config
@@ -5349,7 +5354,6 @@ solid:
 solr:solr
 somagic-tools:somagic-extract-firmware
 somagic:somagic-capture somagic-init
-sonar-runner:sonar-runner
 sonar-scanner:sonar-scanner
 sonarqube:sonar
 sops:sops
@@ -5404,6 +5408,7 @@ srtp:
 ssdb:ssdb-bench ssdb-dump ssdb-ins.sh ssdb-repair ssdb-server
 ssdeep:ssdeep
 ssed:ssed
+ssh-audit:ssh-audit
 ssh-copy-id:ssh-copy-id
 sshguard:sshguard
 sshrc:sshrc
@@ -5423,7 +5428,6 @@ st:st
 stanford-ner:ner-gui.sh ner.sh
 stanford-parser:lexparser-gui.sh lexparser-lang-train-test.sh lexparser-lang.sh lexparser.sh
 star:mt scpio smt spax star star_sym suntar tartest ustar rmt
-stash-cli:all atlassian bamboo confluence crucible fisheye hipchat jira stash
 stdman:
 stgit:stg
 stk:treesed
@@ -5621,7 +5625,6 @@ trash:trash
 tre:agrep
 tree:tree
 treecc:treecc
-treeline:treeline
 trr:trr_format trr_update
 truecrack:truecrack
 truncate:truncate
