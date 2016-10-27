@@ -1358,12 +1358,17 @@ homebrew/binary/rebol-core:rebol
 homebrew/binary/rebol-view:rebol
 homebrew/binary/subgit:subgit
 homebrew/binary/txl:txl txlc txldb txlp
+homebrew/boneyard/adept:
 homebrew/boneyard/aeskeyfind:aeskeyfind
+homebrew/boneyard/afew:afew
 homebrew/boneyard/aget:aget
 homebrew/boneyard/apt-cacher-ng:apt-cacher-ng
 homebrew/boneyard/arpon:arpon
 homebrew/boneyard/asm6:asm6
 homebrew/boneyard/automoc4:automoc4
+homebrew/boneyard/bbcp:
+homebrew/boneyard/bd:bd
+homebrew/boneyard/bonnie:bonnie
 homebrew/boneyard/box2d:
 homebrew/boneyard/catdoc:catdoc catppt wordview xls2csv
 homebrew/boneyard/caudec:caudec decaude
@@ -1375,6 +1380,7 @@ homebrew/boneyard/cppdom:cppdom-config
 homebrew/boneyard/csync:csync
 homebrew/boneyard/cuty_capt:CutyCapt
 homebrew/boneyard/cvc4:cvc4
+homebrew/boneyard/despotify:despotify despotify-gateway despotify-simple
 homebrew/boneyard/dircproxy:dircproxy dircproxy-crypt
 homebrew/boneyard/disco:ddfs disco
 homebrew/boneyard/discodex:discodex discodexcli.py
@@ -1390,6 +1396,7 @@ homebrew/boneyard/ezlupdate:ezlupdate
 homebrew/boneyard/ffts:
 homebrew/boneyard/fleet-db:fleetdb-server
 homebrew/boneyard/frescobaldi:frescobaldi
+homebrew/boneyard/fssh:fssh ui_copy ui_paste
 homebrew/boneyard/fugu:fugu
 homebrew/boneyard/gambit-scheme:gambc-cc gambc-doc gsc gsc-script gsi gsi-script scheme-ieee-1178-1990 scheme-r4rs scheme-r5rs scheme-srfi-0 six six-script
 homebrew/boneyard/gasnet:amudprun gasnet_trace gasnet_trace.pl gasnetrun_mpi gasnetrun_mpi.pl
@@ -1397,6 +1404,7 @@ homebrew/boneyard/gccxml:gccxml gccxml_cc1plus
 homebrew/boneyard/gdal-grass:
 homebrew/boneyard/git-encrypt:gitcrypt
 homebrew/boneyard/git-flow-clone:git-flow-clone
+homebrew/boneyard/git-hg:
 homebrew/boneyard/git-stree:git-stree
 homebrew/boneyard/googlecl:google
 homebrew/boneyard/grass:gem64 grass64
@@ -1459,6 +1467,7 @@ homebrew/boneyard/rtorrent:rtorrent
 homebrew/boneyard/sam2p:sam2p sam2p_pdf_scale.pl
 homebrew/boneyard/samba:eventlogadm findsmb net nmblookup ntlm_auth pdbedit profiles rpcclient sharesec smbcacls smbclient smbcontrol smbcquotas smbget smbpasswd smbspool smbstatus smbta-util smbtar smbtree tdbbackup tdbdump tdbrestore tdbtool testparm nmbd smbd swat
 homebrew/boneyard/sgfutils:ngf2sgf nip2sgf nk2sgf sgf sgfcharset sgfcheck sgfcmp sgfdb sgfdbinfo sgfinfo sgfmerge sgfsplit sgfstrip sgftf sgftopng sgfvarsplit sgfx ugi2sgf
+homebrew/boneyard/shaper-probe:prober
 homebrew/boneyard/shell.fm:shell-fm
 homebrew/boneyard/shiboken:shiboken
 homebrew/boneyard/shrewsoft-vpn-client:ikec iked
@@ -1470,6 +1479,7 @@ homebrew/boneyard/soccerwindow2:soccerwindow2 soccerwindow2-qt4 sswindow2
 homebrew/boneyard/sonar-runner:sonar-runner
 homebrew/boneyard/sqliteman:sqliteman
 homebrew/boneyard/sqsh:sqsh
+homebrew/boneyard/squishyball:squishyball
 homebrew/boneyard/swatchbooker:sbconvert sbconvertor swatchbooker swatchbooker_w32_postinst.py
 homebrew/boneyard/synfigstudio:synfigstudio
 homebrew/boneyard/tegh:tegh
@@ -1479,8 +1489,10 @@ homebrew/boneyard/telepathy-idle:
 homebrew/boneyard/telepathy-mission-control:mc-tool mc-wait-for-name
 homebrew/boneyard/trang:trang
 homebrew/boneyard/treeline:treeline
+homebrew/boneyard/tsocks:tsocks
 homebrew/boneyard/ttytter:ttytter
 homebrew/boneyard/txt2man:bookman src2man txt2man
+homebrew/boneyard/uniset:uniset
 homebrew/boneyard/validns:validns
 homebrew/boneyard/valkyrie:
 homebrew/boneyard/vcodex:vcformat vczip
@@ -1490,6 +1502,9 @@ homebrew/boneyard/vobcopy:vobcopy
 homebrew/boneyard/vpnc:cisco-decrypt pcf2vpnc vpnc vpnc-disconnect
 homebrew/boneyard/whereami:whereami
 homebrew/boneyard/wkhtmltopdf:wkhtmltoimage wkhtmltopdf
+homebrew/boneyard/woff2:woff2_compress woff2_decompress
+homebrew/boneyard/wol:wol
+homebrew/boneyard/word2vec:word2vec
 homebrew/boneyard/wsmancli:wseventmgr wsman
 homebrew/boneyard/xsp:asp-state asp-state2 asp-state4 dbsessmgr dbsessmgr2 dbsessmgr4 fastcgi-mono-server fastcgi-mono-server2 fastcgi-mono-server4 mod-mono-server mod-mono-server2 mod-mono-server4 xsp xsp2 xsp4
 homebrew/boneyard/xulrunner:xulrunner
@@ -2006,35 +2021,19 @@ homebrew/gui/transmission-remote-gtk:transmission-remote-gtk
 homebrew/gui/upnp-router-control:upnp-router-control
 homebrew/gui/xchat:xchat
 homebrew/gui/xournal:xournal
-homebrew/head-only/adept:
-homebrew/head-only/afew:afew
-homebrew/head-only/bbcp:
-homebrew/head-only/bd:bd
-homebrew/head-only/bonnie:bonnie
 homebrew/head-only/depot-tools:cpplint.py drover gcl gclient git-cl git-gs git-try hammer presubmit_support.py trychange.py weekly wtf zsh-goodies
-homebrew/head-only/despotify:despotify despotify-gateway despotify-simple
-homebrew/head-only/fssh:fssh ui_copy ui_paste
-homebrew/head-only/git-hg:
 homebrew/head-only/kakoune:kak
 homebrew/head-only/libphenom:
-homebrew/head-only/libvterm:unterm vterm-ctrl vterm-dump
 homebrew/head-only/neatvi:neatvi
 homebrew/head-only/opentracker:opentracker
 homebrew/head-only/osmfilter:osmfilter
 homebrew/head-only/otx:otx
 homebrew/head-only/pdftoipe:pdftoipe
-homebrew/head-only/shaper-probe:prober
 homebrew/head-only/sigar:sigar
-homebrew/head-only/squishyball:squishyball
-homebrew/head-only/tsocks:tsocks
-homebrew/head-only/uniset:uniset
 homebrew/head-only/urbit:urbit
 homebrew/head-only/vcontrold:vclient vcontrold vsim
 homebrew/head-only/vdfuse:vdfuse
 homebrew/head-only/willgit:git-publish-branch git-rank-contributors git-show-merges git-wt-add git-wtf
-homebrew/head-only/woff2:woff2_compress woff2_decompress
-homebrew/head-only/wol:wol
-homebrew/head-only/word2vec:word2vec
 homebrew/nginx/accept-language-nginx-module:
 homebrew/nginx/accesskey-nginx-module:
 homebrew/nginx/ajp-nginx-module:
