@@ -2026,15 +2026,9 @@ homebrew/gui/transmission-remote-gtk:transmission-remote-gtk
 homebrew/gui/upnp-router-control:upnp-router-control
 homebrew/gui/xchat:xchat
 homebrew/gui/xournal:xournal
-homebrew/head-only/depot-tools:cpplint.py drover gcl gclient git-cl git-gs git-try hammer presubmit_support.py trychange.py weekly wtf zsh-goodies
 homebrew/head-only/libphenom:
 homebrew/head-only/opentracker:opentracker
-homebrew/head-only/osmfilter:osmfilter
 homebrew/head-only/pdftoipe:pdftoipe
-homebrew/head-only/sigar:sigar
-homebrew/head-only/urbit:urbit
-homebrew/head-only/vcontrold:vclient vcontrold vsim
-homebrew/head-only/vdfuse:vdfuse
 homebrew/nginx/accept-language-nginx-module:
 homebrew/nginx/accesskey-nginx-module:
 homebrew/nginx/ajp-nginx-module:
@@ -2757,6 +2751,7 @@ homebrew/science/alglib:
 homebrew/science/allpaths-lg:RunAllPathsLG
 homebrew/science/alpscore:
 homebrew/science/amos:ace2contig agp2amos amos2ace amos2frg amos2mates amos2sq AMOScmp AMOScmp-shortReads AMOScmp-shortReads-alignmentTrimmed amosvalidate analyze-read-depth analyzeSNPs arachne2ctg arachne2scaff arrive arrive2 asmQC asmQC2 assembleRNAs astats bank-clean bank-combine bank-mapping bank-report bank-transact bank-tutorial bank-unlock bank2contig bank2coverage bank2fasta bank2lib bank2scaff benchmark2arachne benchmark2ca benchmark2mates benchmark2ta benchmark_qual benchmark_seq blasr2coords blat2nucmer Bundler ca2ctg ca2mates ca2scaff ca2singletons ca2ta casm-breaks casm-layout castats cavalidate cestat-cov cgb2ctg Chainer clk clusterSnps contig-cmp contig2contig coords2cam count-kmers count-qmers ctg2fasta ctg2umdcontig ctgovl cvgChop cvgStat delta2clr delta2cvg dumpContigsAsReads dumpFeatures dumpmates dumpreads excl_seqs extractContig fasta_select_len fasta_to_fastq fastq_rename fastq_to_fasta_fast fastqqc filter_contig filter_seq FilterEdgesByCluster filterfrg find-duplicate-reads find-query-breaks find-tandem find_ends findChimeras findMissingMates findTcovSnp fixfastq fixfrg fixlib FRCurve frg-umd-merge frg2fasta frg2fastq frg2ta gap-links gccontent gene_asm genome-complexity genome-complexity-fast getFRCvalues getlengths getN50 goBambus2 grow-readbank hash-overlap insert-sizes iterate Joiner kmer-count kmer-cov kmer-cov-plot kmers ktrimfrg library-histogram Linearize list-linked-contigs listcontigreads listGCContent listReadPlacedStatus listSingletonMates listSurrogates load-overlaps loadFeatures make-consensus make-consensus_poly MarkRepeats merge-contigs message-count message-extract message-validate Minimo minimus minimus2 minimus2-blat missing-reads normalizeScaffold nucmer2ovl nucmerAnnotate olapsFromContig OrientContigs OutputMotifs OutputResults OutputScaffolds overlap-align ovl-degr-dist ovl2OVL parsecasm partitionBank phd2afg postCAqc preassembleFrgs preTA printScaff pullTArchive pyrosim qmer-filter read-cov-plot readinfo2cam recallConsensus renameReads rerunMultiTest resetFragLibrary revFasta revScaffold runAmos runMultiTest running-cmp runTA runTest scaff2fasta scaffoldRange2Ungapped select-reads show-ma-asm sim-cover-depth sim-cover2 sim-shotgun simple-overlap simpleContigLoader simplifyLibraries singles sort2 stats summarizeMultiTest suspiciousfeat2region ta2ace tab2ovls tagsum-reduce tandemCollapse tarchive2amos tarchive2ca tigger tiling2cam toAmos toAmos_new toArachne trace_comment trace_comments trace_convert trace_scf_dump trace_seq translate-fasta trimByOvl trimends trimfrg untangle updateBankPositions updateClrRanges updateDeltaClr updateLibSizes vecfix verify-layout
+homebrew/science/ampl-mp:miniampl
 homebrew/science/analysis:compute descPoly extractCoding Fexact gestimator HBKpermute kimura80 MKtest polydNdS rsq sharedPoly snntest translateCoding
 homebrew/science/andi:andi
 homebrew/science/ann:ann2fig ann_sample ann_test
@@ -2771,7 +2766,6 @@ homebrew/science/arrayfire:
 homebrew/science/art:aln2bed.pl art_454 art_illumina art_profiler_454 art_profiler_illumina art_SOLiD combinedAvg.pl empDist.pl fastqReadAvg.pl map2bed.pl summation.pl
 homebrew/science/artemis:act art dnaplotter
 homebrew/science/ascii_plots:cor curve hist scatter summary
-homebrew/science/asl:miniampl
 homebrew/science/astral:astral
 homebrew/science/astrometry-net:solve-field
 homebrew/science/ate-pairing:
@@ -2799,7 +2793,6 @@ homebrew/science/bfc:bfc hash2cnt
 homebrew/science/bioawk:bioawk
 homebrew/science/biobloomtools:biobloomcategorizer biobloommaker
 homebrew/science/biocgal:align bfastconvert bowtie2convert cgal
-homebrew/science/bioformats-cpp:bf-test
 homebrew/science/biointerchange:biointerchange
 homebrew/science/biopieces:read_fasta
 homebrew/science/biopp:
@@ -4758,6 +4751,7 @@ osm-gps-map:
 osm-pbf:
 osm2pgrouting:osm2pgrouting
 osm2pgsql:nodecachefilereader osm2pgsql
+osmfilter:osmconvert osmfilter osmupdate
 osmosis:osmosis
 osquery:osqueryctl osqueryd osqueryi
 osrm-backend:osrm-contract osrm-datastore osrm-extract osrm-routed
@@ -5339,6 +5333,7 @@ smpeg2:plaympeg2 smpeg2-config
 smpeg:plaympeg smpeg-config
 snag:snag
 snakemake:snakemake snakemake-bash-completion
+snap-telemetry:snapctl snapd
 snap7:
 snappy:
 snappystream:
@@ -5690,6 +5685,7 @@ unyaffs:unyaffs
 upscaledb:ham_bench ham_dump ham_export ham_import ham_info ham_recover hamzilla
 uptimed:uprecords uptimed
 upx:upx
+urbit:urbit
 uriparser:uriparse
 urlview:urlview
 uru:uru_rt
