@@ -483,7 +483,6 @@ codemod:codemod
 codequery:codequery cqmakedb cqsearch
 coffeescript:cake coffee
 cogl:
-coin:coin-config soqt-config
 collada-dom:
 collectd:collectd-nagios collectd-tg collectdctl collectd collectdmon
 colordiff:cdiff colordiff
@@ -1376,6 +1375,7 @@ homebrew/boneyard/caudec:caudec decaude
 homebrew/boneyard/cdimgtools:dvdimgdecss cssdec
 homebrew/boneyard/clang-omp:clang-omp clang-omp++
 homebrew/boneyard/class-dump:class-dump
+homebrew/boneyard/coin:coin-config soqt-config
 homebrew/boneyard/cowpatty:cowpatty genpmk
 homebrew/boneyard/cppdom:cppdom-config
 homebrew/boneyard/csync:csync
@@ -1427,10 +1427,12 @@ homebrew/boneyard/kubernetes-helm:helm
 homebrew/boneyard/lastfmlib:
 homebrew/boneyard/lftp:lftp lftpget
 homebrew/boneyard/libdbusmenu-qt:
+homebrew/boneyard/libechonest:
 homebrew/boneyard/libiomp:
 homebrew/boneyard/libmarisa:marisa-benchmark marisa-build marisa-common-prefix-search marisa-dump marisa-lookup marisa-predictive-search marisa-reverse-lookup
 homebrew/boneyard/libnice:sdp-example simple-example stunbdc stund threaded-example
 homebrew/boneyard/libodbc++:
+homebrew/boneyard/libqglviewer:
 homebrew/boneyard/libqxt:
 homebrew/boneyard/libtorrent:
 homebrew/boneyard/luarocks:luarocks luarocks-5.2 luarocks-admin luarocks-admin-5.2
@@ -1726,6 +1728,7 @@ homebrew/emacs/muse:
 homebrew/emacs/names:
 homebrew/emacs/neotree:
 homebrew/emacs/nhexl-mode:
+homebrew/emacs/nix-mode:
 homebrew/emacs/nlinum:
 homebrew/emacs/num3-mode:
 homebrew/emacs/oauth2-emacs:
@@ -3453,6 +3456,7 @@ homebrew/versions/glfw2:
 homebrew/versions/glfw3:
 homebrew/versions/gmp4:
 homebrew/versions/gnupg21:addgnupghome applygnupgdefaults dirmngr dirmngr-client g13 gpg-agent gpg-connect-agent gpg2 gpgconf gpgkey2ssh gpgparsemail gpgsm gpgsm-gencert.sh gpgtar gpgv2 kbxutil symcryptrun watchgnupg
+homebrew/versions/gnuplot4:gnuplot
 homebrew/versions/go14:go14 godoc14 gofmt14
 homebrew/versions/go15:go godoc gofmt
 homebrew/versions/go16:go godoc gofmt
@@ -3854,6 +3858,7 @@ json-fortran:
 json-glib:json-glib-format json-glib-validate
 json_spirit:
 jsoncpp:
+jsonlint:jsonlint
 jsonnet:jsonnet
 jsonpp:jsonpp
 jsonschema2pojo:jsonschema2pojo
@@ -4017,7 +4022,6 @@ libdvdnav:
 libdvdread:
 libebml:
 libebur128:
-libechonest:
 libelf:
 libepoxy:
 liberasurecode:
@@ -4168,7 +4172,6 @@ libproxy:proxy
 libpst:lspst nick2ldif pst2ldif readpst
 libpuzzle:puzzle-diff
 libqalculate:qalc
-libqglviewer:
 libquantum:
 libquicktime:lqt_transcode lqtremux qt2text qtdechunk qtdump qtinfo qtrechunk qtstreamize qtyuv4toyuv
 libquvi:
@@ -5644,6 +5647,7 @@ ttfautohint:ttfautohint
 tth:latex2gif ps2gif ps2png tth
 tty-clock:tty-clock
 ttyd:ttyd
+ttygif:ttygif
 ttylog:ttylog
 ttyrec:ttyplay ttyrec ttytime
 tutum:tutum
