@@ -772,6 +772,7 @@ eiffelstudio:compile_all ec ecb estudio finish_freezing iron syntax_updater visi
 eigen:
 ejabberd:ejabberdctl
 ejdb:jbbmgr jbfmgr jbhmgr jbtmgr
+eject:eject
 ekg2:ekg2
 ekhtml:
 elasticsearch:elasticsearch
@@ -1456,12 +1457,14 @@ homebrew/boneyard/powerline:powerline powerline-config powerline-daemon powerlin
 homebrew/boneyard/puddletag:puddletag
 homebrew/boneyard/pure:pure
 homebrew/boneyard/pylucene:
+homebrew/boneyard/pyqt:pylupdate4 pyrcc4 pyuic4
 homebrew/boneyard/pyqwt:
 homebrew/boneyard/pyside-tools:pyside-lupdate pyside-rcc pyside-uic
 homebrew/boneyard/pyside:
 homebrew/boneyard/qbzr:
 homebrew/boneyard/qi:qi
 homebrew/boneyard/qiv:qiv
+homebrew/boneyard/qjson:
 homebrew/boneyard/qwtpolar:
 homebrew/boneyard/rbenv-readline:
 homebrew/boneyard/rcssserver:rcg2xml rcgconvert rcgsplit rcsoccersim rcssclient rcsslogplayer rcssmonitor rcssserver
@@ -1961,6 +1964,7 @@ homebrew/games/pacman4console:pacman pacmanedit
 homebrew/games/pc6001vx:PC6001VX
 homebrew/games/pioneer:modelcompiler pioneer
 homebrew/games/pioneers:pioneers pioneers-editor pioneers-metaserver pioneers-server-console pioneers-server-gtk pioneersai
+homebrew/games/polyglot:polyglot
 homebrew/games/ponscripter-sekai:ponscr
 homebrew/games/ppsspp:PPSSPPSDL
 homebrew/games/puzzles:
@@ -2103,6 +2107,7 @@ homebrew/php/brew-php-switcher:brew-php-switcher phpswitch.sh
 homebrew/php/chphp:chphp-exec
 homebrew/php/codeception:codecept
 homebrew/php/composer:composer
+homebrew/php/deployer:dep
 homebrew/php/drupal-code-sniffer:
 homebrew/php/drupalconsole:drupal
 homebrew/php/drush:drush
@@ -2118,6 +2123,7 @@ homebrew/php/n98-magerun:n98-magerun
 homebrew/php/pdepend:pdepend
 homebrew/php/phan:phan
 homebrew/php/pharcc:pharcc
+homebrew/php/phing:phing
 homebrew/php/php-build:php-build
 homebrew/php/php-code-sniffer:phpcbf phpcs
 homebrew/php/php-cs-fixer:php-cs-fixer
@@ -3558,6 +3564,7 @@ homebrew/versions/play14:play
 homebrew/versions/play22:play
 homebrew/versions/postgresql93:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivexlog pg_resetxlog pg_restore pg_standby pg_test_fsync pg_test_timing pg_upgrade pg_xlogdump pgbench pltcl_delmod pltcl_listmod pltcl_loadmod postgres postmaster psql reindexdb vacuumdb vacuumlo
 homebrew/versions/postgresql94:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivexlog pg_recvlogical pg_resetxlog pg_restore pg_standby pg_test_fsync pg_test_timing pg_upgrade pg_xlogdump pgbench pltcl_delmod pltcl_listmod pltcl_loadmod postgres postmaster psql reindexdb vacuumdb vacuumlo
+homebrew/versions/postgresql95:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivexlog pg_recvlogical pg_resetxlog pg_restore pg_rewind pg_standby pg_test_fsync pg_test_timing pg_upgrade pg_xlogdump pgbench pltcl_delmod pltcl_listmod pltcl_loadmod postgres postmaster psql reindexdb vacuumdb vacuumlo
 homebrew/versions/povray36:povray
 homebrew/versions/ppl011:ppl-config
 homebrew/versions/ppl10:ppl-config
@@ -4048,6 +4055,7 @@ libftdi0:baud_test bitbang bitbang2 bitbang_cbus bitbang_ft2232 find_all libftdi
 libftdi:libftdi1-config
 libgadu:
 libgaiagraphics:
+libgc:
 libgcrypt:dumpsexp hmac256 libgcrypt-config mpicalc
 libgda:gda-list-config gda-list-config-5.0 gda-list-server-op gda-list-server-op-5.0 gda-sql gda-sql-5.0 gda-test-connection-5.0
 libgdata:
@@ -5027,7 +5035,6 @@ pyinvoke:inv invoke
 pypy3:pypy3
 pypy:easy_install_pypy pip_pypy pypy
 pyqt5:pylupdate5 pyrcc5 pyuic5
-pyqt:pylupdate4 pyrcc4 pyuic4
 python-markdown:markdown_py
 python3:2to3-3.5 easy_install-3.5 idle3 idle3.5 pip3 pip3.5 pydoc3 pydoc3.5 python3 python3-config python3.5 python3.5-config python3.5m python3.5m-config pyvenv pyvenv-3.5 wheel3
 python:2to3 2to3-2 2to3-2.7 easy_install easy_install-2.7 idle idle2 idle2.7 pip pip2 pip2.7 pydoc pydoc2 pydoc2.7 python python-config python2 python2-config python2.7 python2.7-config pythonw pythonw2 pythonw2.7 smtpd.py smtpd2.7.py smtpd2.py wheel
@@ -5040,7 +5047,6 @@ qd:qd-config
 qdbm:cbcodec cbtest crmgr crtest crtsv dpmgr dptest dptsv hvmgr hvtest odidx odmgr odtest qmttest rlmgr rltest vlmgr vltest vltsv
 qemu:qemu-img qemu-io qemu-nbd qemu-system-aarch64 qemu-system-alpha qemu-system-arm qemu-system-cris qemu-system-i386 qemu-system-lm32 qemu-system-m68k qemu-system-microblaze qemu-system-microblazeel qemu-system-mips qemu-system-mips64 qemu-system-mips64el qemu-system-mipsel qemu-system-moxie qemu-system-or32 qemu-system-ppc qemu-system-ppc64 qemu-system-ppcemb qemu-system-s390x qemu-system-sh4 qemu-system-sh4eb qemu-system-sparc qemu-system-sparc64 qemu-system-tricore qemu-system-unicore32 qemu-system-x86_64 qemu-system-xtensa qemu-system-xtensaeb
 qjackctl:qjackctl
-qjson:
 qpdf:fix-qdf qpdf zlib-flate
 qpm:qpm
 qprint:qprint
@@ -5217,6 +5223,7 @@ savana:sav
 saxon-b:
 saxon:saxon
 sbcl:sbcl
+sbjson:sbjson
 sblim-sfcc:
 sbt:sbt
 sbtenv:sbtenv sbtenv-install
@@ -5367,6 +5374,7 @@ solr:solr
 somagic-tools:somagic-extract-firmware
 somagic:somagic-capture somagic-init
 sonar-scanner:sonar-scanner
+sonarlint:sonarlint
 sonarqube:sonar
 sops:sops
 sord:sord_validate sordi
