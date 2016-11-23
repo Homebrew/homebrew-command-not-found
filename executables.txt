@@ -776,6 +776,7 @@ eject:eject
 ekg2:ekg2
 ekhtml:
 elasticsearch:elasticsearch
+elasticsearch@1.7:elasticsearch elasticsearch.in.sh plugin
 elb-tools:elb-apply-security-groups-to-lb elb-associate-route53-hosted-zone elb-attach-lb-to-subnets elb-cmd elb-configure-healthcheck elb-create-app-cookie-stickiness-policy elb-create-lb elb-create-lb-cookie-stickiness-policy elb-create-lb-listeners elb-create-lb-policy elb-delete-lb elb-delete-lb-listeners elb-delete-lb-policy elb-deregister-instances-from-lb elb-describe-instance-health elb-describe-lb-attributes elb-describe-lb-policies elb-describe-lb-policy-types elb-describe-lbs elb-detach-lb-from-subnets elb-disable-zones-for-lb elb-disassociate-route53-hosted-zone elb-enable-zones-for-lb elb-modify-lb-attributes elb-register-instances-with-lb elb-set-lb-listener-ssl-cert elb-set-lb-policies-for-backend-server elb-set-lb-policies-of-listener elb-version
 elinks:elinks
 elixir-build:elixir-build exenv-install exenv-uninstall json
@@ -1091,6 +1092,7 @@ git:git git-credential-osxkeychain git-cvsserver git-receive-pack git-shell git-
 gitbucket:
 giter8:g8
 gitg:gitg
+github-keygen:github-keygen
 github-markdown-toc:gh-md-toc
 github-release:github-release
 gitlab-ci-multi-runner:gitlab-ci-multi-runner
@@ -1708,6 +1710,7 @@ homebrew/emacs/jumpc:
 homebrew/emacs/keyfreq:
 homebrew/emacs/know-your-http-well:
 homebrew/emacs/landmark-emacs:
+homebrew/emacs/ledger-mode:
 homebrew/emacs/less-css-mode:
 homebrew/emacs/let-alist:
 homebrew/emacs/lex-emacs:
@@ -2894,6 +2897,7 @@ homebrew/science/dsk:dsk dsk2ascii
 homebrew/science/dssp:mkdssp
 homebrew/science/dwgsim:dwgsim dwgsim_eval
 homebrew/science/dynare:dynare++
+homebrew/science/e-mem:e-mem
 homebrew/science/ea-utils:alc determine-phred fastq-clipper fastq-join fastq-mcf fastq-multx fastq-stats fastx-graph randomFQ sam-stats varcall
 homebrew/science/edena:edena
 homebrew/science/edirect:econtact edirect.pl edirutil efetch efilter einfo elink enotify epost eproxy esearch espell esummary join-into-groups-of nquire sort-uniq-count sort-uniq-count-rank word-at-a-time xtract
@@ -4237,7 +4241,7 @@ libtecla:enhance
 libtermkey:
 libtess2:
 libtextcat:createfp
-libtiff:bmp2tiff fax2ps fax2tiff gif2tiff pal2rgb ppm2tiff ras2tiff raw2tiff rgb2ycbcr thumbnail tiff2bw tiff2pdf tiff2ps tiff2rgba tiffcmp tiffcp tiffcrop tiffdither tiffdump tiffinfo tiffmedian tiffset tiffsplit
+libtiff:fax2ps fax2tiff pal2rgb ppm2tiff raw2tiff tiff2bw tiff2pdf tiff2ps tiff2rgba tiffcmp tiffcp tiffcrop tiffdither tiffdump tiffinfo tiffmedian tiffset tiffsplit
 libtins:
 libtommath:
 libtool:glibtool glibtoolize
@@ -4345,6 +4349,7 @@ luajit:luajit luajit-2.0.4
 luaradio:luaradio
 luaver:luaver
 luciddb:lucidDbServer sqllineClient sqllineEngine
+lumo:lumo
 lutok:
 luvit:luvit
 lv2:lv2specgen.py
@@ -4606,6 +4611,7 @@ nailgun:ng ng-server
 namazu:adnmz bnamazu gcnmz kwnmz lnnmz mailutime mknmz namazu nmz-config nmzcat nmzegrep nmzgrep nmzmerge rfnmz vfnmz
 namebench:namebench namebench.py
 nanomsg:nanocat nn_bus nn_pair nn_pub nn_pull nn_push nn_rep nn_req nn_respondent nn_sub nn_surveyor
+nanomsgxx:
 nanopb-generator:nanopb_generator protoc-gen-nanopb
 narwhal:js json narwhal sea tusk
 nasm:ldrdf nasm ndisasm rdf2bin rdf2com rdf2ihx rdf2ith rdf2srec rdfdump rdflib rdx
@@ -4792,6 +4798,7 @@ p11-kit:
 p7zip:7z 7za 7zr
 pacapt:pacapt
 packer:packer packer-builder-amazon-chroot packer-builder-amazon-ebs packer-builder-amazon-instance packer-builder-digitalocean packer-builder-docker packer-builder-file packer-builder-googlecompute packer-builder-null packer-builder-openstack packer-builder-parallels-iso packer-builder-parallels-pvm packer-builder-qemu packer-builder-virtualbox-iso packer-builder-virtualbox-ovf packer-builder-vmware-iso packer-builder-vmware-vmx packer-post-processor-atlas packer-post-processor-compress packer-post-processor-docker-import packer-post-processor-docker-push packer-post-processor-docker-save packer-post-processor-docker-tag packer-post-processor-vagrant packer-post-processor-vagrant-cloud packer-post-processor-vsphere packer-provisioner-ansible-local packer-provisioner-chef-client packer-provisioner-chef-solo packer-provisioner-file packer-provisioner-powershell packer-provisioner-puppet-masterless packer-provisioner-puppet-server packer-provisioner-salt-masterless packer-provisioner-shell packer-provisioner-shell-local packer-provisioner-windows-restart packer-provisioner-windows-shell
+packetbeat:packetbeat
 pacparser:pactester
 pacvim:pacvim
 pakchois:
@@ -5494,6 +5501,7 @@ swfmill:swfmill
 swftools:as3compile font2swf gif2swf jpeg2swf png2swf swfbbox swfc swfcombine swfdump swfextract swfrender swfstrings wav2swf
 swi-prolog:swipl swipl-ld swipl-rc
 swift:swift swiftc
+swiftformat:swiftformat
 swiftgen:swiftgen-assets swiftgen-colors swiftgen-l10n swiftgen-storyboard
 swiftlint:swiftlint
 swig:ccache-swig swig
