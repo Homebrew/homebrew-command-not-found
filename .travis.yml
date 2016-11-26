@@ -1,18 +1,35 @@
-language: objective-c # force OS X
-rvm:
-  - 2.0.0
+language: ruby
+os: osx
+env: OSX=10.12
+osx_image: xcode8.1
+rvm: system
+
 before_install:
-  - brew update
-  - brew config
+  - export TRAVIS_COMMIT="$(git rev-parse --verify -q HEAD)"
+  - if [ -f ".git/shallow" ]; then
+      travis_retry git fetch --unshallow;
+    fi
+  - sudo chown -R $USER "$(brew --repo)"
+  - git -C "$(brew --repo)" reset --hard origin/master
+  - brew update || brew update
+  - rm -rf "$(brew --repo $TRAVIS_REPO_SLUG)"
+  - mkdir -p "$(brew --repo $TRAVIS_REPO_SLUG)"
+  - rsync -az "$TRAVIS_BUILD_DIR/" "$(brew --repo $TRAVIS_REPO_SLUG)"
+  - export TRAVIS_BUILD_DIR="$(brew --repo $TRAVIS_REPO_SLUG)"
+  - cd "$(brew --repo)"
+  - ulimit -n 1024
+
 install:
-  - mkdir -p $(brew --repo)/Library/Taps/homebrew
-  - ln -s $PWD $(brew --repo)/Library/Taps/homebrew/homebrew-command-not-found
-  - brew install bash
-  - brew install fish
+  - brew install bash fish
+
 script:
+  - cd "$(brew --repo $TRAVIS_REPO_SLUG)"
   - bash -n handler.sh
   - fish -n handler.fish
   - zsh -n handler.sh
   - rake test
+
 notifications:
-  email: false
+  email:
+    on_success: never
+    on_failure: always
