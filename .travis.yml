@@ -17,7 +17,6 @@ before_install:
   - rsync -az "$TRAVIS_BUILD_DIR/" "$(brew --repo $TRAVIS_REPO_SLUG)"
   - export TRAVIS_BUILD_DIR="$(brew --repo $TRAVIS_REPO_SLUG)"
   - cd "$(brew --repo)"
-  - export HOMEBREW_DEVELOPER="1"
   - ulimit -n 1024
 
 install:
