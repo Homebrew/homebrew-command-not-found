@@ -23,6 +23,7 @@ install:
   - brew install bash fish
 
 script:
+  - cd "$(brew --repo $TRAVIS_REPO_SLUG)"
   - bash -n handler.sh
   - fish -n handler.fish
   - zsh -n handler.sh
