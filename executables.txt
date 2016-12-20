@@ -453,6 +453,8 @@ clockywock:clockywock
 clog:clog
 clojurescript:cljsc
 cloog:cloog
+cloog@0.15:cloog
+cloog@0.18:cloog
 closure-compiler:closure-compiler
 closure-linter:fixjsstyle gjslint
 closure-stylesheets:closure-stylesheets
@@ -992,6 +994,8 @@ gbdfed:gbdfed
 gcab:gcab
 gcal:gcal gcal2txt tcal txt2gcal
 gcc:c++-6 cpp-6 g++-6 gcc-6 gcc-ar-6 gcc-nm-6 gcc-ranlib-6 gcov-6 gcov-tool-6 gfortran gfortran-6 x86_64-apple-darwin15.6.0-c++-6 x86_64-apple-darwin15.6.0-g++-6 x86_64-apple-darwin15.6.0-gcc-6 x86_64-apple-darwin15.6.0-gcc-6.2.0 x86_64-apple-darwin15.6.0-gcc-ar-6 x86_64-apple-darwin15.6.0-gcc-nm-6 x86_64-apple-darwin15.6.0-gcc-ranlib-6 x86_64-apple-darwin15.6.0-gfortran-6
+gcc@4.8:c++-4.8 cpp-4.8 g++-4.8 gcc-4.8 gcc-ar-4.8 gcc-nm-4.8 gcc-ranlib-4.8 gcov-4.8 gfortran-4.8 x86_64-apple-darwin16.1.0-c++-4.8 x86_64-apple-darwin16.1.0-g++-4.8 x86_64-apple-darwin16.1.0-gcc-4.8 x86_64-apple-darwin16.1.0-gcc-4.8.5 x86_64-apple-darwin16.1.0-gcc-ar-4.8 x86_64-apple-darwin16.1.0-gcc-nm-4.8 x86_64-apple-darwin16.1.0-gcc-ranlib-4.8 x86_64-apple-darwin16.1.0-gfortran-4.8
+gcc@4.9:c++-4.9 cpp-4.9 g++-4.9 gcc-4.9 gcc-ar-4.9 gcc-nm-4.9 gcc-ranlib-4.9 gcov-4.9 gfortran-4.9 x86_64-apple-darwin16.1.0-c++-4.9 x86_64-apple-darwin16.1.0-g++-4.9 x86_64-apple-darwin16.1.0-gcc-4.9 x86_64-apple-darwin16.1.0-gcc-4.9.3 x86_64-apple-darwin16.1.0-gcc-ar-4.9 x86_64-apple-darwin16.1.0-gcc-nm-4.9 x86_64-apple-darwin16.1.0-gcc-ranlib-4.9 x86_64-apple-darwin16.1.0-gfortran-4.9
 gconf:gconf-merge-tree gconftool-2 gsettings-data-convert gsettings-schema-convert
 gcore:gcore
 gcovr:gcovr
@@ -1133,6 +1137,7 @@ gmediaserver:gmediaserver
 gmic:gmic
 gmime:
 gmp:
+gmp@4:
 gmtl:gmtl-config
 gnatsd:gnatsd
 gnome-builder:gnome-builder
@@ -3397,6 +3402,7 @@ homebrew/science/wcslib:fitshdr HPXcvt wcsware
 homebrew/science/wcstools:addpix bincat char2sp conpix cphead crlf delhead delwcs edhead filename fileroot filext fixpix getcol getdate getfits gethead getpix gettab i2f imcat imextract imfill imhead immatch imresize imrot imsize imsmooth imstack imstar imwcs isnum isrange keyhead newfits remap scat sethead setpix simpos sky2xy skycoor sp2char subpix sumpix wcshead xy2sky
 homebrew/science/weblogo:seqlogo
 homebrew/science/wfdb:a2m ad2m ahaconvert ahaecg2mit ann2rr annxml bxb calsig coherence ecgeval edf2mit epicmp fft fir gqfuse gqpost gqrs heaxml hrfft hrlomb hrmem hrplot hrstats ihr log10 lomb m2a makeid md2a memse mfilt mit2edf mit2wav mrgann mxm nguess nst parsescp plot2d plot3d plotstm pnwlogin pscgen pschart psfd rdann rdedfann rdsamp readid revise rr2ann rxr sampfreq sigamp sigavg signame signum skewedit snip sortann sqrs sqrs125 stepdet sumann sumstats tach time2sec wabp wav2mit wfdb-config wfdb2mat wfdbcat wfdbcollate wfdbdesc wfdbmap wfdbsignals wfdbtime wfdbwhich wqrs wrann wrsamp xform xmlann xmlhea
+homebrew/science/wiggletools:wiggletools
 homebrew/science/wopr:wopr woprsm woprst
 homebrew/science/wxmaxima:wxmaxima
 homebrew/science/xbyak:
@@ -3528,6 +3534,7 @@ homebrew/versions/kafka080:kafka-add-partitions.sh kafka-console-consumer.sh kaf
 homebrew/versions/kettle54:pdicarte pdikitchen pdipan
 homebrew/versions/kibana41:kibana
 homebrew/versions/kibana44:kibana
+homebrew/versions/kubernetes-cli14:kubectl
 homebrew/versions/ledger26:ledger
 homebrew/versions/leptonica169:adaptmaptest adaptnorm_reg affine_reg alltests_reg alphaops_reg alphaxform_reg arithtest barcodetest baselinetest bilinear_reg binarize_reg bincompare binmorph1_reg binmorph2_reg binmorph3_reg binmorph4_reg binmorph5_reg blend2_reg blend_reg blendcmaptest blendtest1 buffertest byteatest ccbordtest cctest1 ccthin1_reg ccthin2_reg cmapquant_reg coloring_reg colormask_reg colormorphtest colorquant_reg colorseg_reg colorsegtest colorspacetest compare_reg comparepages comparetest compfilter_reg conncomp_reg contrasttest conversion_reg convertfilestopdf convertfilestops convertformat convertsegfilestopdf convertsegfilestops converttogray converttops convolve_reg convolvetest cornertest croptext dewarp_reg dewarptest1 dewarptest2 dewarptest3 digitprep1 distance_reg dithertest dna_reg dwalineargen dwamorph1_reg dwamorph2_reg edgetest enhance_reg equal_reg expand_reg extrema_reg falsecolortest fcombautogen fhmtauto_reg fhmtautogen fileinfo findpattern1 findpattern2 findpattern3 findpattern_reg flipdetect_reg flipselgen fmorphauto_reg fmorphautogen fpix_reg fpixcontours gammatest genfonts gifio_reg graphicstest grayfill_reg graymorph1_reg graymorph2_reg graymorphtest grayquant_reg hardlight_reg heap_reg histotest inserttest ioformats_reg iotest jbcorrelation jbrankhaus jbwords kernel_reg lineremoval listtest livre_adapt livre_hmt livre_makefigs livre_orient livre_pageseg livre_seedgen livre_tophat locminmax_reg logicops_reg lowaccess_reg maketile maze_reg misctest1 modifyhuesat morphseq_reg morphtest1 mtifftest numa_reg numaranktest otsutest1 otsutest2 overlap_reg pagesegtest1 pagesegtest2 paint_reg paintmask_reg partitiontest pdfiotest pdfseg_reg pixa1_reg pixa2_reg pixaatest pixadisp_reg pixalloc_reg pixcomp_reg pixmem_reg pixserial_reg pixtile_reg plottest pngio_reg printimage printsplitimage printtiff projection_reg projective_reg psio_reg psioseg_reg pta_reg ptra1_reg ptra2_reg quadtreetest rank_reg rankbin_reg rankhisto_reg ranktest rasterop_reg rasteropip_reg reducetest removecmap renderfonts rotate1_reg rotate2_reg rotatefastalt rotateorth_reg rotateorthtest1 rotatetest1 runlengthtest scale_reg scaleandtile scaletest1 scaletest2 seedfilltest seedspread_reg selio_reg sharptest shear2_reg shear_reg sheartest showedges skew_reg skewtest smallpix_reg smoothedge_reg snapcolortest sorttest splitcomp_reg splitimage2pdf string_reg subpixel_reg sudokutest textlinemask threshnorm_reg translate_reg trctest viewertest warper_reg warpertest watershedtest wordsinorder writemtiff writetext_reg xformbox_reg xtractprotos xvdisp yuvtest
 homebrew/versions/libcouchbase1:cbc cbc-cat cbc-cp cbc-create cbc-flush cbc-receive cbc-rm cbc-send cbc-stats cbc-verify cbc-version
@@ -3559,6 +3566,7 @@ homebrew/versions/maven32:mvn mvnDebug mvnyjp
 homebrew/versions/mkvtoolnix58:mkvextract mkvinfo mkvmerge mkvpropedit
 homebrew/versions/mongodb26:bsondump mongo mongod mongodump mongoexport mongofiles mongoimport mongooplog mongoperf mongorestore mongos mongosniff mongostat mongotop
 homebrew/versions/mongodb30:bsondump mongo mongod mongodump mongoexport mongofiles mongoimport mongooplog mongoperf mongorestore mongos mongosniff mongostat mongotop
+homebrew/versions/mongodb32:bsondump mongo mongod mongodump mongoexport mongofiles mongoimport mongooplog mongoperf mongorestore mongos mongosniff mongostat mongotop
 homebrew/versions/mono3:al al2 caspol cccheck ccrewrite cert-sync cert2spc certmgr chktrust crlupdate csharp disco dmcs dtd2rng dtd2xsd gacutil gacutil2 genxs gmcs httpcfg ikdasm ilasm installvst lc macpack makecert mconfig mcs mdassembler mdbrebase mdoc mdoc-assemble mdoc-export-html mdoc-export-msxdoc mdoc-update mdoc-validate mdvalidater mkbundle mod mono mono-api-info mono-boehm mono-cil-strip mono-configuration-crypto mono-find-provides mono-find-requires mono-heapviz mono-service mono-service2 mono-sgen mono-shlib-cop mono-test-install mono-xmltool monodis monodocer monodocs2html monodocs2slashdoc monograph monolinker monop monop2 mozroots mprof-report nunit-console nunit-console2 nunit-console4 pdb2mdb pedump permview peverify prj2make resgen resgen2 secutil setreg sgen signcode sn soapsuds sqlmetal sqlsharp svcutil wsdl wsdl2 xbuild xsd
 homebrew/versions/mpfr2:
 homebrew/versions/nasm21106:ldrdf nasm ndisasm rdf2bin rdf2com rdf2ihx rdf2ith rdf2srec rdfdump rdflib rdx
@@ -3802,6 +3810,8 @@ irrtoolset:peval rpslcheck rtconfig
 irssi:botti irssi
 isc-dhcp:omshell dhclient dhcpd dhcrelay
 isl:
+isl@0.11:
+isl@0.14:
 iso-codes:
 ispc:ispc
 ispell:buildhash defmt-c defmt-sh findaffix icombine ijoin ispell munchlist tryaffix
@@ -4143,6 +4153,7 @@ libmonome:monomeserial
 libmowgli:
 libmp3splt:
 libmpc:
+libmpc@0.8:
 libmpd:
 libmpdclient:
 libmpeg2:corrupt_mpeg2 extract_mpeg2 mpeg2dec
@@ -4505,6 +4516,7 @@ mlogger:mlogger
 mlt:melt
 mlton:mllex mlnlffigen mlprof mlton mlyacc
 mm-common:mm-common-prepare
+mmark:mmark
 mmix:mmix mmixal mmmix mmotype
 mmsrip:mmsrip
 mmv:mad mcp mln mmv
@@ -4562,6 +4574,7 @@ mpdviz:mpdviz
 mpegdemux:mpegdemux
 mpfi:
 mpfr:
+mpfr@2:
 mpg123:mpg123 mpg123-id3dump mpg123-strip out123
 mpg321:mpg321
 mpgtx:mpgcat mpgdemux mpginfo mpgjoin mpgsplit mpgtx tagmp3
@@ -4981,6 +4994,7 @@ povray:povray
 pow:pow
 powerman:pm powerman httppower plmpower powermand vpcd
 ppl:ppl-config ppl_lcdd ppl_pips
+ppl@0.11:ppl-config
 ppss:ppss
 pre-commit:pre-commit validate-config validate-manifest
 predictionio:pio
