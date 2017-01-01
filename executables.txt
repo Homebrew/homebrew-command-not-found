@@ -548,6 +548,7 @@ crunch:crunch
 crush-tools:add_field aggregate aggregate2 buffer calcfield convdate csvformat cutfield dates_in_range dbstream deltadays deltaforce fieldsplit filterkeys find_not_processed findfiles foreach_parallel funiq grepfield hashjoin indexof mergekeys pivot range reorder subtotal tochar translate_field truncfield
 cryptol:cryptol
 cryptopp:cryptest.exe
+crystal-icr:icr
 crystal-lang:crystal shards
 crystax-ndk:ndk-build ndk-gdb ndk-stack
 cscope:cscope ocs
@@ -995,8 +996,12 @@ gbdfed:gbdfed
 gcab:gcab
 gcal:gcal gcal2txt tcal txt2gcal
 gcc:c++-6 cpp-6 g++-6 gcc-6 gcc-ar-6 gcc-nm-6 gcc-ranlib-6 gcov-6 gcov-tool-6 gfortran gfortran-6 x86_64-apple-darwin16.3.0-c++-6 x86_64-apple-darwin16.3.0-g++-6 x86_64-apple-darwin16.3.0-gcc-6 x86_64-apple-darwin16.3.0-gcc-6.3.0 x86_64-apple-darwin16.3.0-gcc-ar-6 x86_64-apple-darwin16.3.0-gcc-nm-6 x86_64-apple-darwin16.3.0-gcc-ranlib-6 x86_64-apple-darwin16.3.0-gfortran-6
+gcc@4.6:c++-4.6 cpp-4.6 g++-4.6 gcc-4.6 gcov-4.6 x86_64-apple-darwin16.3.0-c++-4.6 x86_64-apple-darwin16.3.0-g++-4.6 x86_64-apple-darwin16.3.0-gcc-4.6 x86_64-apple-darwin16.3.0-gcc-4.6.4
+gcc@4.7:c++-4.7 cpp-4.7 g++-4.7 gcc-4.7 gcc-ar-4.7 gcc-nm-4.7 gcc-ranlib-4.7 gcov-4.7 x86_64-apple-darwin16.3.0-c++-4.7 x86_64-apple-darwin16.3.0-g++-4.7 x86_64-apple-darwin16.3.0-gcc-4.7 x86_64-apple-darwin16.3.0-gcc-4.7.4 x86_64-apple-darwin16.3.0-gcc-ar-4.7 x86_64-apple-darwin16.3.0-gcc-nm-4.7 x86_64-apple-darwin16.3.0-gcc-ranlib-4.7
 gcc@4.8:c++-4.8 cpp-4.8 g++-4.8 gcc-4.8 gcc-ar-4.8 gcc-nm-4.8 gcc-ranlib-4.8 gcov-4.8 gfortran-4.8 x86_64-apple-darwin16.1.0-c++-4.8 x86_64-apple-darwin16.1.0-g++-4.8 x86_64-apple-darwin16.1.0-gcc-4.8 x86_64-apple-darwin16.1.0-gcc-4.8.5 x86_64-apple-darwin16.1.0-gcc-ar-4.8 x86_64-apple-darwin16.1.0-gcc-nm-4.8 x86_64-apple-darwin16.1.0-gcc-ranlib-4.8 x86_64-apple-darwin16.1.0-gfortran-4.8
 gcc@4.9:c++-4.9 cpp-4.9 g++-4.9 gcc-4.9 gcc-ar-4.9 gcc-nm-4.9 gcc-ranlib-4.9 gcov-4.9 gfortran-4.9 x86_64-apple-darwin16.1.0-c++-4.9 x86_64-apple-darwin16.1.0-g++-4.9 x86_64-apple-darwin16.1.0-gcc-4.9 x86_64-apple-darwin16.1.0-gcc-4.9.3 x86_64-apple-darwin16.1.0-gcc-ar-4.9 x86_64-apple-darwin16.1.0-gcc-nm-4.9 x86_64-apple-darwin16.1.0-gcc-ranlib-4.9 x86_64-apple-darwin16.1.0-gfortran-4.9
+gcc@5:c++-5 cpp-5 g++-5 gcc-5 gcc-ar-5 gcc-nm-5 gcc-ranlib-5 gcov-5 gcov-tool-5 gfortran-5 x86_64-apple-darwin16.3.0-c++-5 x86_64-apple-darwin16.3.0-g++-5 x86_64-apple-darwin16.3.0-gcc-5 x86_64-apple-darwin16.3.0-gcc-5.4.0 x86_64-apple-darwin16.3.0-gcc-ar-5 x86_64-apple-darwin16.3.0-gcc-nm-5 x86_64-apple-darwin16.3.0-gcc-ranlib-5 x86_64-apple-darwin16.3.0-gfortran-5
+gcc@6:c++-6 cpp-6 g++-6 gcc-6 gcc-ar-6 gcc-nm-6 gcc-ranlib-6 gcov-6 gcov-tool-6 gfortran-6 x86_64-apple-darwin16.3.0-c++-6 x86_64-apple-darwin16.3.0-g++-6 x86_64-apple-darwin16.3.0-gcc-6 x86_64-apple-darwin16.3.0-gcc-6.2.0 x86_64-apple-darwin16.3.0-gcc-ar-6 x86_64-apple-darwin16.3.0-gcc-nm-6 x86_64-apple-darwin16.3.0-gcc-ranlib-6 x86_64-apple-darwin16.3.0-gfortran-6
 gconf:gconf-merge-tree gconftool-2 gsettings-data-convert gsettings-schema-convert
 gcore:gcore
 gcovr:gcovr
@@ -1167,7 +1172,7 @@ gnupg:gpg-zip1 gpg1 gpgsplit1 gpgv1
 gnuplot:gnuplot
 gnuradio:gnuradio-companion gnuradio-config-info gr-ctrlport-monitor gr-perf-monitorx gr_constellation_plot gr_filter_design gr_modtool gr_plot_char gr_plot_const gr_plot_fft gr_plot_fft_c gr_plot_fft_f gr_plot_float gr_plot_int gr_plot_iq gr_plot_psd gr_plot_psd_c gr_plot_psd_f gr_plot_qt gr_plot_short gr_psd_plot_b gr_psd_plot_c gr_psd_plot_f gr_psd_plot_i gr_psd_plot_s gr_read_file_metadata gr_spectrogram_plot gr_spectrogram_plot_b gr_spectrogram_plot_c gr_spectrogram_plot_f gr_spectrogram_plot_i gr_spectrogram_plot_s gr_time_plot_b gr_time_plot_c gr_time_plot_f gr_time_plot_i gr_time_plot_s gr_time_raster_b gr_time_raster_f grcc uhd_fft uhd_rx_cfile uhd_rx_nogui uhd_siggen uhd_siggen_gui usrp_flex usrp_flex_all usrp_flex_band volk-config-info volk_modtool volk_profile
 gnustep-make:
-gnutls:gnutls-certtool gnutls-cli gnutls-cli-debug gnutls-serv ocsptool psktool srptool
+gnutls:gnutls-certtool gnutls-cli gnutls-cli-debug gnutls-serv ocsptool p11tool psktool srptool
 go:go godoc gofmt
 goaccess:goaccess
 gobject-introspection:g-ir-annotation-tool g-ir-compiler g-ir-generate g-ir-inspect g-ir-scanner
@@ -3450,6 +3455,7 @@ homebrew/versions/bind99:bind9-config dig host isc-config.sh nslookup nsupdate a
 homebrew/versions/bison27:bison yacc
 homebrew/versions/boost-python159:
 homebrew/versions/boost155:
+homebrew/versions/boost157:
 homebrew/versions/boost159:
 homebrew/versions/boost160:
 homebrew/versions/camlp5-606:camlp5 camlp5o camlp5o.opt camlp5r camlp5r.opt camlp5sch mkcamlp5 mkcamlp5.opt ocpp5
@@ -3807,6 +3813,7 @@ irssi:botti irssi
 isc-dhcp:omshell dhclient dhcpd dhcrelay
 isl:
 isl@0.11:
+isl@0.12:
 isl@0.14:
 iso-codes:
 ispc:ispc
@@ -3945,6 +3952,7 @@ lablgtk:gdk_pixbuf_mlsource lablgtk2
 lame:lame
 languagetool:languagetool languagetool-gui languagetool-server
 lasi:
+lasso:
 lastfmfpclient:lastfmfpclient
 lastpass-cli:lpass
 laszip:laszip-config laszippertest
@@ -4019,6 +4027,7 @@ libcdr:cdr2raw cdr2text cdr2xhtml cmx2raw cmx2text cmx2xhtml
 libcec:cec-client cec-client-3.0.1 cecc-client cecc-client-3.0.1 pyCecClient.py
 libcello:
 libchamplain:
+libchaos:
 libchewing:
 libcmph:cmph
 libcoap:coap-client coap-server
@@ -4248,6 +4257,7 @@ libsvg-cairo:
 libsvg:
 libsvm:svm-predict svm-scale svm-train
 libswiften:swiften-config
+libswiftnav:
 libtar:libtar
 libtasn1:asn1Coding asn1Decoding asn1Parser
 libtecla:enhance
@@ -4326,6 +4336,8 @@ livestreamer:livestreamer
 lldpd:lldpcli lldpctl lldpd
 llnode:
 llvm:bugpoint llc lli llvm-ar llvm-as llvm-bcanalyzer llvm-c-test llvm-config llvm-cov llvm-diff llvm-dis llvm-dsymutil llvm-dwarfdump llvm-extract llvm-link llvm-lto llvm-mc llvm-mcmarkup llvm-nm llvm-objdump llvm-profdata llvm-ranlib llvm-readobj llvm-rtdyld llvm-size llvm-stress llvm-symbolizer llvm-tblgen llvm-vtabledump macho-dump obj2yaml opt verify-uselistorder yaml2obj
+llvm@3.7:FileCheck-3.7 bugpoint-3.7 c-index-test-3.7 clang++-3.7 clang-3.7 clang-apply-replacements-3.7 clang-check-3.7 clang-format-3.7 clang-modernize-3.7 clang-query-3.7 clang-rename-3.7 clang-tblgen-3.7 clang-tidy-3.7 count-3.7 llc-3.7 lli-3.7 lli-child-target-3.7 llvm-ar-3.7 llvm-as-3.7 llvm-bcanalyzer-3.7 llvm-config-3.7 llvm-cov-3.7 llvm-cxxdump-3.7 llvm-diff-3.7 llvm-dis-3.7 llvm-dsymutil-3.7 llvm-dwarfdump-3.7 llvm-extract-3.7 llvm-link-3.7 llvm-mc-3.7 llvm-mcmarkup-3.7 llvm-nm-3.7 llvm-objdump-3.7 llvm-pdbdump-3.7 llvm-profdata-3.7 llvm-ranlib-3.7 llvm-readobj-3.7 llvm-rtdyld-3.7 llvm-size-3.7 llvm-stress-3.7 llvm-symbolizer-3.7 llvm-tblgen-3.7 macho-dump-3.7 not-3.7 obj2yaml-3.7 opt-3.7 pp-trace-3.7 scan-build-3.7 scan-view-3.7 verify-uselistorder-3.7 yaml2obj-3.7
+llvm@3.8:FileCheck-3.8 bugpoint-3.8 c-index-test-3.8 clang++-3.8 clang-3.8 clang-apply-replacements-3.8 clang-check-3.8 clang-format-3.8 clang-query-3.8 clang-rename-3.8 clang-tblgen-3.8 clang-tidy-3.8 count-3.8 llc-3.8 lli-3.8 lli-child-target-3.8 llvm-ar-3.8 llvm-as-3.8 llvm-bcanalyzer-3.8 llvm-config-3.8 llvm-cov-3.8 llvm-cxxdump-3.8 llvm-diff-3.8 llvm-dis-3.8 llvm-dsymutil-3.8 llvm-dwarfdump-3.8 llvm-dwp-3.8 llvm-extract-3.8 llvm-link-3.8 llvm-lto-3.8 llvm-mc-3.8 llvm-mcmarkup-3.8 llvm-nm-3.8 llvm-objdump-3.8 llvm-pdbdump-3.8 llvm-profdata-3.8 llvm-ranlib-3.8 llvm-readobj-3.8 llvm-rtdyld-3.8 llvm-size-3.8 llvm-split-3.8 llvm-stress-3.8 llvm-symbolizer-3.8 llvm-tblgen-3.8 not-3.8 obj2yaml-3.8 opt-3.8 pp-trace-3.8 sancov-3.8 scan-build scan-view verify-uselistorder-3.8 yaml2obj-3.8
 lmdb:mdb_copy mdb_dump mdb_load mdb_stat
 lnav:lnav
 loc:loc
@@ -4579,6 +4591,7 @@ mpich:hydra_nameserver hydra_persist hydra_pmi_proxy mpic++ mpicc mpichversion m
 mplayer:mencoder mplayer
 mplayershell:mps
 mpop:mpop
+mps-youtube:mpsyt
 mpssh:mpssh
 mpv:mpv
 mpw:mpw
@@ -4818,7 +4831,7 @@ owamp:owampd owfetch owping owstats owtvec owup powstream
 owfs:owdir owexist owexternal owftpd owget owhttpd owmon owpresent owread owserver owtap owwrite
 oysttyer:oysttyer
 p0f:p0f
-p11-kit:
+p11-kit:p11-kit
 p7zip:7z 7za 7zr
 pacapt:pacapt
 packer:packer packer-builder-amazon-chroot packer-builder-amazon-ebs packer-builder-amazon-instance packer-builder-digitalocean packer-builder-docker packer-builder-file packer-builder-googlecompute packer-builder-null packer-builder-openstack packer-builder-parallels-iso packer-builder-parallels-pvm packer-builder-qemu packer-builder-virtualbox-iso packer-builder-virtualbox-ovf packer-builder-vmware-iso packer-builder-vmware-vmx packer-post-processor-atlas packer-post-processor-compress packer-post-processor-docker-import packer-post-processor-docker-push packer-post-processor-docker-save packer-post-processor-docker-tag packer-post-processor-vagrant packer-post-processor-vagrant-cloud packer-post-processor-vsphere packer-provisioner-ansible-local packer-provisioner-chef-client packer-provisioner-chef-solo packer-provisioner-file packer-provisioner-powershell packer-provisioner-puppet-masterless packer-provisioner-puppet-server packer-provisioner-salt-masterless packer-provisioner-shell packer-provisioner-shell-local packer-provisioner-windows-restart packer-provisioner-windows-shell
@@ -5088,7 +5101,6 @@ qriollo:qr
 qscintilla2:
 qstat:qstat
 qt5:lconvert lrelease lupdate macchangeqt macdeployqt moc qcollectiongenerator qdoc qhelpconverter qhelpgenerator qlalr qmake qml1plugindump qmleasing qmlimportscanner qmllint qmlmin qmlplugindump qmlprofiler qmlscene qmltestrunner qtdiag qtpaths qtplugininfo rcc syncqt.pl uic xmlpatterns xmlpatternsvalidator
-qt:lconvert lrelease lupdate macdeployqt moc qcollectiongenerator qdoc3 qhelpgenerator qmake qmlplugindump qt3to4 rcc uic xmlpatterns xmlpatternsvalidator
 qt@5.5:lconvert lrelease lupdate macchangeqt macdeployqt moc qcollectiongenerator qdoc qhelpconverter qhelpgenerator qlalr qmake qml1plugindump qmleasing qmlimportscanner qmllint qmlmin qmlplugindump qmlprofiler qmlscene qmltestrunner qtdiag qtpaths qtplugininfo rcc syncqt.pl uic xmlpatterns xmlpatternsvalidator
 qtfaststart:qt-faststart
 qtplay:qtplay
@@ -5715,6 +5727,7 @@ u-boot-tools:mkimage
 uade:mod2ogg2.sh uade123
 uberftp:uberftp
 ubertooth:ubertooth-btle ubertooth-debug ubertooth-dfu ubertooth-dump ubertooth-ego ubertooth-rx ubertooth-specan ubertooth-specan-ui ubertooth-util
+ucg:ucg
 uchardet:uchardet
 ucl:
 ucommon:args car commoncpp-config keywait mdsum pdetach scrub-files sockaddr ucommon-config zerofill
