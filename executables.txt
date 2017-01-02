@@ -454,7 +454,6 @@ clog:clog
 clojurescript:cljsc
 cloog:cloog
 cloog@0.15:cloog
-cloog@0.18:cloog
 closure-compiler:closure-compiler
 closure-linter:fixjsstyle gjslint
 closure-stylesheets:closure-stylesheets
@@ -1577,7 +1576,6 @@ homebrew/completions/tmuxinator-completion:
 homebrew/completions/vagrant-completion:
 homebrew/completions/wpcli-completion:
 homebrew/devel-only/elm-format:elm-format
-homebrew/devel-only/juju2:juju juju-metadata
 homebrew/dupes/apple-gcc42:c++-4.2 cpp-4.2 g++-4.2 gcc-4.2 gcov-4.2 gfortran-4.2 i686-apple-darwin11-cpp-4.2.1 i686-apple-darwin11-g++-4.2.1 i686-apple-darwin11-gcc-4.2.1 i686-apple-darwin11-gfortran-4.2.1
 homebrew/dupes/awk:awk
 homebrew/dupes/bc:bc dc
@@ -2043,7 +2041,6 @@ homebrew/gui/tarsnap-gui:
 homebrew/gui/terminator:remotinator terminator terminator.wrapper
 homebrew/gui/transmission-remote-gtk:transmission-remote-gtk
 homebrew/gui/xournal:xournal
-homebrew/head-only/pdftoipe:pdftoipe
 homebrew/nginx/accept-language-nginx-module:
 homebrew/nginx/accesskey-nginx-module:
 homebrew/nginx/ajp-nginx-module:
@@ -3430,8 +3427,6 @@ homebrew/versions/boost160:
 homebrew/versions/cassandra21:cassandra cassandra-cli cqlsh debug-cql nodetool sstablekeys sstableloader sstablescrub sstableupgrade
 homebrew/versions/cassandra22:cassandra cqlsh cqlsh.py debug-cql nodetool sstablekeys sstableloader sstablescrub sstableupgrade sstableverify
 homebrew/versions/clang-format38:clang-format git-clang-format
-homebrew/versions/cloog-ppl015:cloog
-homebrew/versions/cloog018:cloog
 homebrew/versions/docker111:docker
 homebrew/versions/docker171:docker
 homebrew/versions/drush5:drush
@@ -3440,17 +3435,8 @@ homebrew/versions/erlang-r18:ct_run dialyzer epmd erl erlc escript run_erl to_er
 homebrew/versions/erlang-r19:ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
 homebrew/versions/ffmpeg28:ffmpeg ffprobe ffserver
 homebrew/versions/freetds091:bsqldb datacopy defncopy fisql freebcp osql tdspool tsql
-homebrew/versions/gcc44:gcc-4.4
-homebrew/versions/gcc45:c++-4.5 cpp-4.5 g++-4.5 gcc-4.5 gccbug-4.5 gcov-4.5 x86_64-apple-darwin14.1.0-c++-4.5 x86_64-apple-darwin14.1.0-g++-4.5 x86_64-apple-darwin14.1.0-gcc-4.5 x86_64-apple-darwin14.1.0-gcc-4.5.4
-homebrew/versions/gcc46:c++-4.6 cpp-4.6 g++-4.6 gcc-4.6 gcov-4.6 x86_64-apple-darwin14.1.0-c++-4.6 x86_64-apple-darwin14.1.0-g++-4.6 x86_64-apple-darwin14.1.0-gcc-4.6 x86_64-apple-darwin14.1.0-gcc-4.6.4
-homebrew/versions/gcc47:c++-4.7 cpp-4.7 g++-4.7 gcc-4.7 gcc-ar-4.7 gcc-nm-4.7 gcc-ranlib-4.7 gcov-4.7 x86_64-apple-darwin14.1.0-c++-4.7 x86_64-apple-darwin14.1.0-g++-4.7 x86_64-apple-darwin14.1.0-gcc-4.7 x86_64-apple-darwin14.1.0-gcc-4.7.4 x86_64-apple-darwin14.1.0-gcc-ar-4.7 x86_64-apple-darwin14.1.0-gcc-nm-4.7 x86_64-apple-darwin14.1.0-gcc-ranlib-4.7
-homebrew/versions/gcc48:c++-4.8 cpp-4.8 g++-4.8 gcc-4.8 gcc-ar-4.8 gcc-nm-4.8 gcc-ranlib-4.8 gcov-4.8 x86_64-apple-darwin14.3.0-c++-4.8 x86_64-apple-darwin14.3.0-g++-4.8 x86_64-apple-darwin14.3.0-gcc-4.8 x86_64-apple-darwin14.3.0-gcc-4.8.4 x86_64-apple-darwin14.3.0-gcc-ar-4.8 x86_64-apple-darwin14.3.0-gcc-nm-4.8 x86_64-apple-darwin14.3.0-gcc-ranlib-4.8
-homebrew/versions/gcc49:c++-4.9 cpp-4.9 g++-4.9 gcc-4.9 gcc-ar-4.9 gcc-nm-4.9 gcc-ranlib-4.9 gcov-4.9 gfortran-4.9 x86_64-apple-darwin15.4.0-c++-4.9 x86_64-apple-darwin15.4.0-g++-4.9 x86_64-apple-darwin15.4.0-gcc-4.9 x86_64-apple-darwin15.4.0-gcc-4.9.3 x86_64-apple-darwin15.4.0-gcc-ar-4.9 x86_64-apple-darwin15.4.0-gcc-nm-4.9 x86_64-apple-darwin15.4.0-gcc-ranlib-4.9 x86_64-apple-darwin15.4.0-gfortran-4.9
-homebrew/versions/gcc5:c++-5 cpp-5 g++-5 gcc-5 gcc-ar-5 gcc-nm-5 gcc-ranlib-5 gcov-5 gcov-tool-5 x86_64-apple-darwin14.3.0-c++-5 x86_64-apple-darwin14.3.0-g++-5 x86_64-apple-darwin14.3.0-gcc-5 x86_64-apple-darwin14.3.0-gcc-5.1.0 x86_64-apple-darwin14.3.0-gcc-ar-5 x86_64-apple-darwin14.3.0-gcc-nm-5 x86_64-apple-darwin14.3.0-gcc-ranlib-5
-homebrew/versions/gcc6:c++-6 cpp-6 g++-6 gcc-6 gcc-ar-6 gcc-nm-6 gcc-ranlib-6 gcov-6 gcov-tool-6 x86_64-apple-darwin15.2.0-c++-6 x86_64-apple-darwin15.2.0-g++-6 x86_64-apple-darwin15.2.0-gcc-6 x86_64-apple-darwin15.2.0-gcc-6.0.0 x86_64-apple-darwin15.2.0-gcc-ar-6 x86_64-apple-darwin15.2.0-gcc-nm-6 x86_64-apple-darwin15.2.0-gcc-ranlib-6
 homebrew/versions/giflib5:gif2raw gif2rgb gifbuild gifclrmp gifecho giffix gifinto giftext giftool
 homebrew/versions/glfw2:
-homebrew/versions/gmp4:
 homebrew/versions/gnupg21:addgnupghome applygnupgdefaults dirmngr dirmngr-client g13 gpg-agent gpg-connect-agent gpg2 gpgconf gpgkey2ssh gpgparsemail gpgsm gpgsm-gencert.sh gpgtar gpgv2 kbxutil symcryptrun watchgnupg
 homebrew/versions/gnuplot4:gnuplot
 homebrew/versions/go14:go14 godoc14 gofmt14
@@ -3468,9 +3454,6 @@ homebrew/versions/gstreamer010:gst-feedback gst-feedback-0.10 gst-inspect gst-in
 homebrew/versions/hdf4:gif2hdf hdf24to8 hdf2gif hdf2jpeg hdf8to24 hdfcomp hdfed hdfimport hdfls hdfpack hdftopal hdftor8 hdfunpac hdiff hdp hrepack hrepack_check jpeg2hdf ncgen paltohdf r8tohdf ristosds vmake vshow
 homebrew/versions/imagemagick-ruby186:animate compare composite conjure convert display identify import Magick-config MagickCore-config MagickWand-config mogrify montage stream Wand-config
 homebrew/versions/influxdb08:influxdb
-homebrew/versions/isl011:
-homebrew/versions/isl012:
-homebrew/versions/isl014:
 homebrew/versions/jboss-as5:
 homebrew/versions/jenkins-lts:jenkins-lts jenkins-lts-cli
 homebrew/versions/jetty8:jetty jetty-cygwin jetty-xinetd
@@ -3481,17 +3464,9 @@ homebrew/versions/kibana41:kibana
 homebrew/versions/kibana44:kibana
 homebrew/versions/kubernetes-cli13:kubectl
 homebrew/versions/ledger26:ledger
-homebrew/versions/libmpc08:
 homebrew/versions/libpng12:libpng-config libpng12-config
 homebrew/versions/libpqxx3:pqxx-config
 homebrew/versions/libxml278:xml2-config xmlcatalog xmllint
-homebrew/versions/llvm-gcc28:llvm-c++ llvm-cpp llvm-g++ llvm-gcc llvm-gccbug llvm-gcov llvm-gfortran x86_64-apple-darwin10-cpp-4.2.1 x86_64-apple-darwin10-gcc-4.2.1 x86_64-apple-darwin10-llvm-c++ x86_64-apple-darwin10-llvm-cpp x86_64-apple-darwin10-llvm-g++ x86_64-apple-darwin10-llvm-gcc x86_64-apple-darwin10-llvm-gfortran
-homebrew/versions/llvm33:bugpoint-3.3 c-index-test-3.3 clang++-3.3 clang-3.3 clang-check-3.3 clang-format-3.3 clang-tblgen-3.3 cpp11-migrate-3.3 llc-3.3 lli-3.3 llvm-ar-3.3 llvm-as-3.3 llvm-bcanalyzer-3.3 llvm-config-3.3 llvm-cov-3.3 llvm-diff-3.3 llvm-dis-3.3 llvm-dwarfdump-3.3 llvm-extract-3.3 llvm-link-3.3 llvm-mc-3.3 llvm-mcmarkup-3.3 llvm-nm-3.3 llvm-objdump-3.3 llvm-prof-3.3 llvm-ranlib-3.3 llvm-readobj-3.3 llvm-rtdyld-3.3 llvm-size-3.3 llvm-stress-3.3 llvm-symbolizer-3.3 llvm-tblgen-3.3 macho-dump-3.3 opt-3.3
-homebrew/versions/llvm34:bugpoint-3.4 c-index-test-3.4 clang++-3.4 clang-3.4 clang-apply-replacements-3.4 clang-check-3.4 clang-format-3.4 clang-modernize-3.4 clang-tblgen-3.4 clang-tidy-3.4 llc-3.4 lli-3.4 lli-child-target-3.4 llvm-ar-3.4 llvm-as-3.4 llvm-bcanalyzer-3.4 llvm-config-3.4 llvm-cov-3.4 llvm-diff-3.4 llvm-dis-3.4 llvm-dwarfdump-3.4 llvm-extract-3.4 llvm-link-3.4 llvm-mc-3.4 llvm-mcmarkup-3.4 llvm-nm-3.4 llvm-objdump-3.4 llvm-ranlib-3.4 llvm-readobj-3.4 llvm-rtdyld-3.4 llvm-size-3.4 llvm-stress-3.4 llvm-symbolizer-3.4 llvm-tblgen-3.4 macho-dump-3.4 opt-3.4 pp-trace-3.4
-homebrew/versions/llvm35:bugpoint-3.5 c-index-test-3.5 clang++-3.5 clang-3.5 clang-apply-replacements-3.5 clang-check-3.5 clang-format-3.5 clang-modernize-3.5 clang-query-3.5 clang-tblgen-3.5 clang-tidy-3.5 count-3.5 FileCheck-3.5 llc-3.5 lli-3.5 lli-child-target-3.5 llvm-ar-3.5 llvm-as-3.5 llvm-bcanalyzer-3.5 llvm-config-3.5 llvm-cov-3.5 llvm-diff-3.5 llvm-dis-3.5 llvm-dwarfdump-3.5 llvm-extract-3.5 llvm-link-3.5 llvm-mc-3.5 llvm-mcmarkup-3.5 llvm-nm-3.5 llvm-objdump-3.5 llvm-profdata-3.5 llvm-ranlib-3.5 llvm-readobj-3.5 llvm-rtdyld-3.5 llvm-size-3.5 llvm-stress-3.5 llvm-symbolizer-3.5 llvm-tblgen-3.5 macho-dump-3.5 not-3.5 opt-3.5 pp-trace-3.5
-homebrew/versions/llvm36:bugpoint-3.6 c-index-test-3.6 clang++-3.6 clang-3.6 clang-apply-replacements-3.6 clang-check-3.6 clang-format-3.6 clang-modernize-3.6 clang-query-3.6 clang-rename-3.6 clang-tblgen-3.6 clang-tidy-3.6 count-3.6 FileCheck-3.6 llc-3.6 lli-3.6 lli-child-target-3.6 llvm-ar-3.6 llvm-as-3.6 llvm-bcanalyzer-3.6 llvm-config-3.6 llvm-cov-3.6 llvm-diff-3.6 llvm-dis-3.6 llvm-dsymutil-3.6 llvm-dwarfdump-3.6 llvm-extract-3.6 llvm-link-3.6 llvm-mc-3.6 llvm-mcmarkup-3.6 llvm-nm-3.6 llvm-objdump-3.6 llvm-profdata-3.6 llvm-ranlib-3.6 llvm-readobj-3.6 llvm-rtdyld-3.6 llvm-size-3.6 llvm-stress-3.6 llvm-symbolizer-3.6 llvm-tblgen-3.6 llvm-vtabledump-3.6 macho-dump-3.6 not-3.6 obj2yaml-3.6 opt-3.6 pp-trace-3.6 scan-build-3.6 scan-view-3.6 verify-uselistorder-3.6 yaml2obj-3.6
-homebrew/versions/llvm37:FileCheck-3.7 bugpoint-3.7 c-index-test-3.7 clang++-3.7 clang-3.7 clang-apply-replacements-3.7 clang-check-3.7 clang-format-3.7 clang-modernize-3.7 clang-query-3.7 clang-rename-3.7 clang-tblgen-3.7 clang-tidy-3.7 count-3.7 llc-3.7 lli-3.7 lli-child-target-3.7 llvm-ar-3.7 llvm-as-3.7 llvm-bcanalyzer-3.7 llvm-config-3.7 llvm-cov-3.7 llvm-cxxdump-3.7 llvm-diff-3.7 llvm-dis-3.7 llvm-dsymutil-3.7 llvm-dwarfdump-3.7 llvm-extract-3.7 llvm-link-3.7 llvm-mc-3.7 llvm-mcmarkup-3.7 llvm-nm-3.7 llvm-objdump-3.7 llvm-pdbdump-3.7 llvm-profdata-3.7 llvm-ranlib-3.7 llvm-readobj-3.7 llvm-rtdyld-3.7 llvm-size-3.7 llvm-stress-3.7 llvm-symbolizer-3.7 llvm-tblgen-3.7 macho-dump-3.7 not-3.7 obj2yaml-3.7 opt-3.7 pp-trace-3.7 scan-build-3.7 scan-view-3.7 verify-uselistorder-3.7 yaml2obj-3.7
-homebrew/versions/llvm38:FileCheck-3.8 bugpoint-3.8 c-index-test-3.8 clang++-3.8 clang-3.8 clang-apply-replacements-3.8 clang-check-3.8 clang-format-3.8 clang-query-3.8 clang-rename-3.8 clang-tblgen-3.8 clang-tidy-3.8 count-3.8 llc-3.8 lli-3.8 lli-child-target-3.8 llvm-ar-3.8 llvm-as-3.8 llvm-bcanalyzer-3.8 llvm-config-3.8 llvm-cov-3.8 llvm-cxxdump-3.8 llvm-diff-3.8 llvm-dis-3.8 llvm-dsymutil-3.8 llvm-dwarfdump-3.8 llvm-dwp-3.8 llvm-extract-3.8 llvm-link-3.8 llvm-lto-3.8 llvm-mc-3.8 llvm-mcmarkup-3.8 llvm-nm-3.8 llvm-objdump-3.8 llvm-pdbdump-3.8 llvm-profdata-3.8 llvm-ranlib-3.8 llvm-readobj-3.8 llvm-rtdyld-3.8 llvm-size-3.8 llvm-split-3.8 llvm-stress-3.8 llvm-symbolizer-3.8 llvm-tblgen-3.8 not-3.8 obj2yaml-3.8 opt-3.8 pp-trace-3.8 sancov-3.8 scan-build scan-view verify-uselistorder-3.8 yaml2obj-3.8
 homebrew/versions/logstash24:logstash logstash-plugin
 homebrew/versions/lua53:lua-5.3 lua5.3 luac-5.3 luac5.3 luarocks-5.3 luarocks-admin-5.3
 homebrew/versions/mariadb100:aria_chk aria_dump_log aria_ftdump aria_pack aria_read_log innochecksum msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_config mysql_convert_table_format mysql_find_rows mysql_fix_extensions mysql_install_db mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysql_zap mysqlaccess mysqladmin mysqlbinlog mysqlbug mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest mytop perror rcmysql replace resolve_stack_dump resolveip
@@ -3500,7 +3475,6 @@ homebrew/versions/maven32:mvn mvnDebug mvnyjp
 homebrew/versions/mongodb30:bsondump mongo mongod mongodump mongoexport mongofiles mongoimport mongooplog mongoperf mongorestore mongos mongosniff mongostat mongotop
 homebrew/versions/mongodb32:bsondump mongo mongod mongodump mongoexport mongofiles mongoimport mongooplog mongoperf mongorestore mongos mongosniff mongostat mongotop
 homebrew/versions/mono3:al al2 caspol cccheck ccrewrite cert-sync cert2spc certmgr chktrust crlupdate csharp disco dmcs dtd2rng dtd2xsd gacutil gacutil2 genxs gmcs httpcfg ikdasm ilasm installvst lc macpack makecert mconfig mcs mdassembler mdbrebase mdoc mdoc-assemble mdoc-export-html mdoc-export-msxdoc mdoc-update mdoc-validate mdvalidater mkbundle mod mono mono-api-info mono-boehm mono-cil-strip mono-configuration-crypto mono-find-provides mono-find-requires mono-heapviz mono-service mono-service2 mono-sgen mono-shlib-cop mono-test-install mono-xmltool monodis monodocer monodocs2html monodocs2slashdoc monograph monolinker monop monop2 mozroots mprof-report nunit-console nunit-console2 nunit-console4 pdb2mdb pedump permview peverify prj2make resgen resgen2 secutil setreg sgen signcode sn soapsuds sqlmetal sqlsharp svcutil wsdl wsdl2 xbuild xsd
-homebrew/versions/mpfr2:
 homebrew/versions/open-mpi16:mpic++ mpic++-vt mpicc mpicc-vt mpicxx mpicxx-vt mpiexec mpif77 mpif77-vt mpif90 mpif90-vt mpirun ompi-clean ompi-iof ompi-probe ompi-profiler ompi-ps ompi-server ompi-top ompi_info opal_wrapper orte-bootproxy.sh orte-clean orte-iof orte-ps orte-top orte_wrapper_script ortec++ ortecc orted orterun otfaux otfcompress otfconfig otfdecompress otfinfo otfmerge otfmerge-mpi otfprint otfprofile otfprofile-mpi otfshrink vtc++ vtcc vtcxx vtf77 vtf90 vtfilter vtfilter-mpi vtfiltergen vtfiltergen-mpi vtfort vtrun vtsetup vtsetup.jar vtunify vtunify-mpi vtwrapper
 homebrew/versions/openssl101:c_rehash openssl
 homebrew/versions/percona-server55:innochecksum msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_config mysql_convert_table_format mysql_find_rows mysql_fix_extensions mysql_install_db mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysql_zap mysqladmin mysqlbinlog mysqlbug mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest perror replace resolve_stack_dump resolveip
@@ -3512,7 +3486,6 @@ homebrew/versions/phantomjs198:phantomjs
 homebrew/versions/play14:play
 homebrew/versions/postgresql94:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivexlog pg_recvlogical pg_resetxlog pg_restore pg_standby pg_test_fsync pg_test_timing pg_upgrade pg_xlogdump pgbench pltcl_delmod pltcl_listmod pltcl_loadmod postgres postmaster psql reindexdb vacuumdb vacuumlo
 homebrew/versions/postgresql95:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivexlog pg_recvlogical pg_resetxlog pg_restore pg_rewind pg_standby pg_test_fsync pg_test_timing pg_upgrade pg_xlogdump pgbench pltcl_delmod pltcl_listmod pltcl_loadmod postgres postmaster psql reindexdb vacuumdb vacuumlo
-homebrew/versions/ppl011:ppl-config
 homebrew/versions/protobuf250:protoc
 homebrew/versions/protobuf260:protoc
 homebrew/versions/rebar3:rebar3
