@@ -65,6 +65,8 @@ android-sdk:aapt adb aidl android ddms dexdump dmtracedump draw9patch dx emulato
 anjuta:anjuta anjuta-launcher anjuta-tags
 ansible-cmdb:ansible-cmdb
 ansible:ansible ansible-console ansible-doc ansible-galaxy ansible-playbook ansible-pull ansible-vault
+ansible@1.9:ansible ansible-doc ansible-galaxy ansible-playbook ansible-pull ansible-vault
+ansible@2.0:ansible ansible-doc ansible-galaxy ansible-playbook ansible-pull ansible-vault
 ansifilter:ansifilter
 ansiweather:ansiweather
 ant-contrib:
@@ -82,6 +84,8 @@ apache-forrest:forrest
 apache-geode:gfsh
 apache-opennlp:opennlp
 apache-spark:load-spark-env.sh pyspark run-example spark-beeline spark-class spark-shell spark-sql spark-submit sparkR
+apache-spark@1.5:load-spark-env.sh pyspark run-example spark-beeline spark-class spark-shell spark-sql spark-submit sparkR
+apache-spark@1.6:load-spark-env.sh pyspark run-example spark-beeline spark-class spark-shell spark-sql spark-submit sparkR
 apache-zeppelin:common.sh functions.sh install-interpreter.sh interpreter.sh zeppelin-daemon.sh zeppelin.sh
 apachetop:apachetop
 apcupsd:apcaccess apctest apcupsd apcupsd-start smtp
@@ -161,10 +165,13 @@ autobench:autobench autobench_admin autobenchd bench2graph crfile sesslog
 autocode:autocode
 autoconf-archive:
 autoconf:autoconf autoheader autom4te autoreconf autoscan autoupdate ifnames
+autoconf@2.13:autoconf213 autoheader213 autoreconf213 autoscan213 autoupdate213 ifnames213
+autoconf@2.64:autoconf264 autoheader264 autom4te264 autoreconf264 autoscan264 autoupdate264 ifnames264
 autoenv:
 autogen:autogen autoopts-config columns getdefs xml2ag
 autojump:autojump
 automake:aclocal aclocal-1.15 automake automake-1.15
+automake@1.12:aclocal112 aclocal112-1.12 automake112 automake112-1.12
 automysqlbackup:automysqlbackup
 autopano-sift-c:autopano autopano-c-complete.sh autopano-sift-c generatekeys
 autopsy:autopsy
@@ -790,6 +797,7 @@ elinks:elinks
 elixir-build:elixir-build exenv-install exenv-uninstall json
 elixir:elixir elixirc iex mix
 elixirscript:elixirscript
+elm-format:elm-format-0.16 elm-format-0.17 elm-format-0.18
 elm:elm elm-make elm-package elm-reactor elm-repl
 elvish:elvish elvish-stub
 emacs-clang-complete-async:clang-complete
@@ -2026,6 +2034,7 @@ homebrew/games/xshogi:xshogi
 homebrew/games/xu4:u4
 homebrew/games/yetris:yetris
 homebrew/games/zboy:zboy
+homebrew/games/zelda-roth-se:zelda_roth_se
 homebrew/games/zsdx:zsdx
 homebrew/games/zsxd:zsxd
 homebrew/gui/easy-tag:easytag
