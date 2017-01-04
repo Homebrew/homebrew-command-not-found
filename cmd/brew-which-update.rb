@@ -5,7 +5,7 @@
 #
 # Usage:
 #
-#   brew which-update [--commit|--stats] <DB file>
+#   brew which-update [--commit|--stats] [<DB file>]
 #
 
 require "formula"
@@ -135,18 +135,14 @@ class ExecutablesDB
   end
 end
 
-if ARGV.named.empty?
-  puts <<-EOS
-Usage:
+source = ARGV.named.first
 
-    brew-which-update <DB file>
-
-  EOS
-  exit 1
+unless source
+  source = (Tap.fetch("homebrew", "command-not-found").path/"executables.txt").to_s
+  ohai "Using '#{source}' for the executables list"
 end
 
 if ARGV.include? "--stats"
-  source = ARGV.named.first
   opoo "The DB file doesn't exist." unless File.exist? source
   db = ExecutablesDB.new source
 
@@ -183,7 +179,6 @@ def english_list(els, verb)
   "#{verb.capitalize} #{msg}"
 end
 
-source = ARGV.named.first
 db = ExecutablesDB.new source
 db.update!
 changes = db.changes
