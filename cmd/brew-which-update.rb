@@ -40,11 +40,11 @@ class ExecutablesDB
   def reset_changes
     # keeps track of things that changed in the DB between its creation and
     # each {#save!} call. This is used to generate commit messages
-    @changes = {:added => Set.new, :removed => Set.new, :updated => Set.new}
+    @changes = { :added => Set.new, :removed => Set.new, :updated => Set.new }
   end
 
   def changed?
-    @changes.any? { |_,v| !v.empty? }
+    @changes.any? { |_, v| !v.empty? }
   end
 
   # update the binaries of {name} given the prefix path {path}.
@@ -58,10 +58,10 @@ class ExecutablesDB
 
     binaries = binaries.to_a.sort
 
-    unless @exes.has_key?(name)
-      @changes[:added] << name
-    else
+    if @exes.key?(name)
       @changes[:updated] << name unless @exes[name] == binaries
+    else
+      @changes[:added] << name
     end
 
     @exes[name] = binaries
@@ -78,18 +78,18 @@ class ExecutablesDB
       # We thus don't need to worry about updating outdated versions
       update_from name, f.prefix if f.installed?
 
-      unless f.tap?
+      if f.tap?
+        origin = f.name
+        if !@exes[name] && @exes[origin]
+          mv origin, name
+        end
+      else
         # renamed formulae
         mv f.oldname, name if !f.oldname.nil? && @exes[f.oldname]
 
         # aliased formulae
         f.aliases.each do |a|
           mv a, name if @exes[a]
-        end
-      else
-        origin = f.name
-        if !@exes[name] && @exes[origin]
-          mv origin, name
         end
       end
     end
@@ -112,7 +112,7 @@ class ExecutablesDB
 
   # Add a formulae binaries from its bottle. It'll abort if the formula doesn't
   # have a bottle.
-  def add_from_bottle name
+  def add_from_bottle(name)
     f = Formula[name]
     abort "Formula #{name} has no bottle" unless f.bottled?
 
@@ -124,7 +124,7 @@ class ExecutablesDB
 
   private
 
-  def mv old, new
+  def mv(old, new)
     unless @exes[new]
       @exes[new] = @exes[old]
       @changes[:added] << new
@@ -134,7 +134,6 @@ class ExecutablesDB
     puts "Moving #{old} => #{new}"
   end
 end
-
 
 if ARGV.named.empty?
   puts <<-EOS
