@@ -530,7 +530,6 @@ cowsay:cowsay cowthink
 cpanminus:cpanm
 cpansearch:cpans
 cpmtools:cpmchattr cpmchmod cpmcp cpmls cpmrm fsck.cpm fsed.cpm mkfs.cpm
-cpp-netlib:
 cppcheck:cppcheck cppcheck-htmlreport
 cppcms:cppcms_config_find_param cppcms_make_key cppcms_run cppcms_scale cppcms_tmpl_cc
 cppi:cppi
@@ -1175,7 +1174,7 @@ gnu-units:gunits gunits_cur
 gnu-which:gwhich
 gnumeric:gnumeric gnumeric-1.12.27 ssconvert ssdiff ssgrep ssindex
 gnupg-pkcs11-scd:gnupg-pkcs11-scd
-gnupg2:addgnupghome applygnupgdefaults gpg gpg-connect-agent gpg2 gpgconf gpgkey2ssh gpgparsemail gpgsm gpgsm-gencert.sh gpgv gpgv2 kbxutil symcryptrun watchgnupg
+gnupg2:addgnupghome applygnupgdefaults gpg gpg-connect-agent gpg-zip gpg2 gpgconf gpgkey2ssh gpgparsemail gpgsm gpgsm-gencert.sh gpgv gpgv2 kbxutil symcryptrun watchgnupg
 gnupg:gpg-zip1 gpg1 gpgsplit1 gpgv1
 gnuplot:gnuplot
 gnuradio:gnuradio-companion gnuradio-config-info gr-ctrlport-monitor gr-perf-monitorx gr_constellation_plot gr_filter_design gr_modtool gr_plot_char gr_plot_const gr_plot_fft gr_plot_fft_c gr_plot_fft_f gr_plot_float gr_plot_int gr_plot_iq gr_plot_psd gr_plot_psd_c gr_plot_psd_f gr_plot_qt gr_plot_short gr_psd_plot_b gr_psd_plot_c gr_psd_plot_f gr_psd_plot_i gr_psd_plot_s gr_read_file_metadata gr_spectrogram_plot gr_spectrogram_plot_b gr_spectrogram_plot_c gr_spectrogram_plot_f gr_spectrogram_plot_i gr_spectrogram_plot_s gr_time_plot_b gr_time_plot_c gr_time_plot_f gr_time_plot_i gr_time_plot_s gr_time_raster_b gr_time_raster_f grcc uhd_fft uhd_rx_cfile uhd_rx_nogui uhd_siggen uhd_siggen_gui usrp_flex usrp_flex_all usrp_flex_band volk-config-info volk_modtool volk_profile
@@ -1401,6 +1400,7 @@ homebrew/boneyard/clang-omp:clang-omp clang-omp++
 homebrew/boneyard/class-dump:class-dump
 homebrew/boneyard/coin:coin-config soqt-config
 homebrew/boneyard/cowpatty:cowpatty genpmk
+homebrew/boneyard/cpp-netlib:
 homebrew/boneyard/cppdom:cppdom-config
 homebrew/boneyard/csync:csync
 homebrew/boneyard/cuty_capt:CutyCapt
@@ -1489,6 +1489,7 @@ homebrew/boneyard/pyside:
 homebrew/boneyard/qbzr:
 homebrew/boneyard/qi:qi
 homebrew/boneyard/qiv:qiv
+homebrew/boneyard/qtplay:qtplay
 homebrew/boneyard/rbenv-readline:
 homebrew/boneyard/rcssserver:rcg2xml rcgconvert rcgsplit rcsoccersim rcssclient rcsslogplayer rcssmonitor rcssserver
 homebrew/boneyard/rfcdiff:rfcdiff
@@ -2663,6 +2664,7 @@ homebrew/php/php70-stats:
 homebrew/php/php70-swoole:
 homebrew/php/php70-tidy:
 homebrew/php/php70-timecop:
+homebrew/php/php70-uopz:
 homebrew/php/php70-uuid:
 homebrew/php/php70-uv:
 homebrew/php/php70-v8js:
@@ -4972,7 +4974,6 @@ qstat:qstat
 qt5:lconvert lrelease lupdate macchangeqt macdeployqt moc qcollectiongenerator qdoc qhelpconverter qhelpgenerator qlalr qmake qml1plugindump qmleasing qmlimportscanner qmllint qmlmin qmlplugindump qmlprofiler qmlscene qmltestrunner qtdiag qtpaths qtplugininfo rcc syncqt.pl uic xmlpatterns xmlpatternsvalidator
 qt@5.5:lconvert lrelease lupdate macchangeqt macdeployqt moc qcollectiongenerator qdoc qhelpconverter qhelpgenerator qlalr qmake qml1plugindump qmleasing qmlimportscanner qmllint qmlmin qmlplugindump qmlprofiler qmlscene qmltestrunner qtdiag qtpaths qtplugininfo rcc syncqt.pl uic xmlpatterns xmlpatternsvalidator
 qtfaststart:qt-faststart
-qtplay:qtplay
 quantlib:quantlib-config quantlib-test-suite
 quazip:qztest
 queequeg:qq
@@ -5367,6 +5368,7 @@ st:st
 stanford-ner:ner-gui.sh ner.sh
 stanford-parser:lexparser-gui.sh lexparser-lang-train-test.sh lexparser-lang.sh lexparser.sh
 star:mt scpio smt spax star star_sym suntar tartest ustar rmt
+statik:statik
 stdman:
 stern:stern
 stgit:stg
