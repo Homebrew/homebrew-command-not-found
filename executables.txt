@@ -258,6 +258,7 @@ binutils:gaddr2line gar gc++filt gcoffdump gdlltool gdllwrap gelfedit gnlmconv g
 binwalk:binwalk
 bip:bip bipmkpw
 bison:bison yacc
+bit:bit
 bitchx:BitchX BitchX-1.2.1 scr-bx
 bitlbee:bitlbee
 bitrise:bitrise
@@ -684,7 +685,6 @@ djvulibre:any2djvu bzz c44 cjb2 cpaldjvu csepdjvu ddjvu djvm djvmcvt djvudigital
 dlite:dlite
 dmalloc:dmalloc
 dmd:catdoc ddemangle detab dmd dustmite rdmd tolf
-dmtx-utils:dmtxquery dmtxread dmtxwrite
 dns2tcp:dns2tcpc dns2tcpd
 dnscrypt-proxy:hostip dnscrypt-proxy
 dnscrypt-wrapper:dnscrypt-wrapper
@@ -1410,6 +1410,7 @@ homebrew/boneyard/despotify:despotify despotify-gateway despotify-simple
 homebrew/boneyard/dircproxy:dircproxy dircproxy-crypt
 homebrew/boneyard/disco:ddfs disco
 homebrew/boneyard/discodex:discodex discodexcli.py
+homebrew/boneyard/dmtx-utils:dmtxquery dmtxread dmtxwrite
 homebrew/boneyard/dupx:dupx
 homebrew/boneyard/dwarf:dwarf
 homebrew/boneyard/echoping:echoping
@@ -3536,6 +3537,7 @@ homebrew/x11/geomview:anytooff anytoucd bdy bez2mesh clip geomview math2oogl off
 homebrew/x11/grace:convcal fdf2fit gracebat grconvert xmgrace
 homebrew/x11/gv:gv gv-update-userconfig
 homebrew/x11/i3:i3 i3-config-wizard i3-dmenu-desktop i3-dump-log i3-input i3-migrate-config-to-v4 i3-msg i3-nagbar i3-save-tree i3-sensible-editor i3-sensible-pager i3-sensible-terminal i3-with-shmlog i3bar
+homebrew/x11/i3status:i3status
 homebrew/x11/imake:ccmakedep cleanlinks imake makeg mergelib mkdirhier mkhtmlindex revpath xmkmf
 homebrew/x11/libxkbcommon:
 homebrew/x11/mesalib-glw:
@@ -3551,6 +3553,7 @@ homebrew/x11/rdesktop:rdesktop
 homebrew/x11/robot-framework:pybot rebot robot
 homebrew/x11/rxvt-unicode:urxvt urxvtc urxvtd
 homebrew/x11/startup-notification:
+homebrew/x11/sxiv:sxiv
 homebrew/x11/tgif:tgif
 homebrew/x11/tiger-vnc:vncviewer
 homebrew/x11/wmctrl:wmctrl
@@ -3630,7 +3633,7 @@ ii:ii
 ike-scan:ike-scan psk-crack
 ilmbase:
 imagejs:imagejs
-imagemagick:Magick++-config Magick-config MagickCore-config MagickWand-config Wand-config animate compare composite conjure convert display identify import mogrify montage stream
+imagemagick:Magick++-config MagickCore-config MagickWand-config animate compare composite conjure convert display identify import magick magick-script mogrify montage stream
 imagesnap:imagesnap
 imageworsener:imagew
 imap-uw:dmail mailutil tmail imapd ipop2d ipop3d
@@ -5314,7 +5317,7 @@ spdylay:shrpx spdycat spdyd
 speech-tools:align bcat ch_lab ch_track ch_utt ch_wave design_filter dp na_play na_record ngram_build ngram_test ols ols_test pda pitchmark scfg_make scfg_parse scfg_test scfg_train sig2fv sigfilter siod spectgen tilt_analysis tilt_synthesis viterbi wagon wagon_test wfst_build wfst_run wfst_train xml_parser
 speedread:speedread
 speedtest_cli:speedtest-cli speedtest_cli
-speex:speexdec speexenc
+speex:
 speexdsp:
 sphinx-doc:sphinx-apidoc sphinx-autogen sphinx-build sphinx-quickstart
 sphinx:indexer indextool searchd spelldump wordbreaker
@@ -5334,6 +5337,7 @@ sqlite-analyzer:sqlite3_analyzer
 sqlite:sqlite3
 sqliteodbc:
 sqlmap:sqlmap sqlmap.py
+sqlparse:sqlformat
 sqoop:configure-sqoop configure-sqoop.cmd sqoop sqoop-codegen sqoop-create-hive-table sqoop-eval sqoop-export sqoop-help sqoop-import sqoop-import-all-tables sqoop-import-mainframe sqoop-job sqoop-list-databases sqoop-list-tables sqoop-merge sqoop-metastore sqoop-version sqoop.cmd start-metastore.sh stop-metastore.sh
 sqtop:sqtop
 squashfs:mksquashfs unsquashfs
