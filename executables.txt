@@ -74,6 +74,8 @@ ant:ant antRun antRun.pl complete-ant-cmd.pl runant.pl runant.py
 antigen:
 antiword:antiword
 antlr:antlr4 grun
+antlr@2:antlr2
+antlr@3:antlr3
 anttweakbar:
 aoeui:aoeui asdfg
 apache-archiva:archiva
@@ -1017,7 +1019,7 @@ gd:annotate bdftogd gd2copypal gd2togif gd2topng gdcmpgif gdlib-config gdparttop
 gdal:epsg_tr.py esri2wkt.py gcps2vec.py gcps2wld.py gdal-config gdal2tiles.py gdal2xyz.py gdal_auth.py gdal_calc.py gdal_contour gdal_edit.py gdal_fillnodata.py gdal_grid gdal_merge.py gdal_polygonize.py gdal_proximity.py gdal_rasterize gdal_retile.py gdal_sieve.py gdal_translate gdaladdo gdalbuildvrt gdalchksum.py gdalcompare.py gdaldem gdalenhance gdalident.py gdalimport.py gdalinfo gdallocationinfo gdalmanage gdalmove.py gdalserver gdalsrsinfo gdaltindex gdaltransform gdalwarp mkgraticule.py nearblack ogr2ogr ogrinfo ogrlineref ogrtindex pct2rgb.py rgb2pct.py testepsg
 gdb:gdb
 gdbm:gdbm_dump gdbm_load gdbmtool
-gdk-pixbuf:gdk-pixbuf-csource gdk-pixbuf-pixdata gdk-pixbuf-query-loaders
+gdk-pixbuf:gdk-pixbuf-csource gdk-pixbuf-pixdata gdk-pixbuf-query-loaders gdk-pixbuf-thumbnailer
 gdl:
 gdm:gdm
 gdmap:gdmap
@@ -1825,6 +1827,7 @@ homebrew/emacs/xpm-emacs:
 homebrew/emacs/yaml-mode:
 homebrew/emacs/yasnippet:
 homebrew/emacs/zenburn-emacs:
+homebrew/emacs/ztree:
 homebrew/fuse/afuse:afuse afuse-avahissh
 homebrew/fuse/archivemount:archivemount
 homebrew/fuse/avfs:avfs-config avfsd davpass ftppass mountavfs umountavfs
@@ -2032,6 +2035,7 @@ homebrew/gui/gtk-chtheme:gtk-chtheme
 homebrew/gui/gtkwave:evcd2vcd fst2vcd fstminer ghwdump gtkwave lxt2miner lxt2vcd rtlbrowse shmidcat twinwave vcd2fst vcd2lxt vcd2lxt2 vcd2vzt vermin vzt2vcd vztminer
 homebrew/gui/hexchat:hexchat
 homebrew/gui/inkscape:inkscape inkview
+homebrew/gui/klavaro:klavaro
 homebrew/gui/meld:meld
 homebrew/gui/tarsnap-gui:
 homebrew/gui/terminator:remotinator terminator terminator.wrapper
@@ -4624,7 +4628,7 @@ open-babel:babel obabel obchiral obconformer obenergy obfit obgen obgrep obminim
 open-cobol:cob-config cobc cobcrun
 open-jtalk:hts_engine open_jtalk
 open-mesh:
-open-mpi:mpic++ mpic++-vt mpicc mpicc-vt mpicxx mpicxx-vt mpiexec mpif77 mpif77-vt mpif90 mpif90-vt mpifort mpifort-vt mpirun ompi-clean ompi-ps ompi-server ompi-top ompi_info opal_wrapper orte-clean orte-dvm orte-info orte-ps orte-server orte-submit orte-top ortecc orted orterun otfaux otfcompress otfconfig otfdecompress otfinfo otfmerge otfmerge-mpi otfprint otfprofile otfprofile-mpi otfshrink vtc++ vtcc vtcxx vtf77 vtf90 vtfilter vtfilter-mpi vtfiltergen vtfiltergen-mpi vtfort vtrun vtsetup vtunify vtunify-mpi vtwrapper
+open-mpi:mpic++ mpicc mpicxx mpiexec mpif77 mpif90 mpifort mpirun ompi-clean ompi-dvm ompi-ps ompi-server ompi-submit ompi-top ompi_info opal_wrapper orte-clean orte-dvm orte-info orte-ps orte-server orte-submit orte-top ortecc orted orterun
 open-ocd:openocd
 open-scene-graph:osgarchive osgconv osgfilecache osgversion osgviewer present3D
 open-sp:onsgmls osgmlnorm ospam ospcat ospent osx
@@ -4633,6 +4637,7 @@ open-zwave:MinOZW
 openal-soft:altonegen bsincgen makehrtf openal-info
 opencbm:cbmcopy cbmctrl cbmformat cbmforng cbmlinetester cbmread cbmrpm41 cbmwrite d64copy d82copy frm_analyzer imgcopy opencbm_plugin_helper_tools samplelibtransf
 opencc:opencc opencc_dict
+opencoarrays:caf cafrun
 opencolorio:ociobakelut ociocheck
 openconnect:openconnect
 opencore-amr:
@@ -4738,6 +4743,7 @@ pdfgrep:pdfgrep
 pdflib-lite:pdfimage pdflib-config text2pdf
 pdftoedn:pdftoedn
 pdftohtml:pdftohtml
+pdftoipe:pdftoipe
 pdns:pdns_control pdns_server pdnssec zone2json zone2ldap zone2sql
 pdnsd:pdnsd pdnsd-ctl
 pdnsrec:rec_control pdns_recursor
@@ -5014,6 +5020,7 @@ readosm:
 reattach-to-user-namespace:reattach-to-user-namespace
 reaver:reaver wash
 rebar:rebar
+recipes:recipes
 reclass:reclass reclass-ansible reclass-salt
 recode:recode
 recon-ng:recon-ng
@@ -5130,6 +5137,7 @@ sbtenv:sbtenv sbtenv-install
 sbuild:sbuild
 sc68:as68 debug68 info68 sc68 sc68-config sourcer68 unice68
 scala:fsc scala scalac scaladoc scalap
+scala@2.10:fsc scala scalac scaladoc scalap
 scalaenv:scalaenv scalaenv-install
 scalariform:scalariform
 scalastyle:scalastyle
@@ -5181,6 +5189,7 @@ serf:serf
 serialosc:serialoscd
 sersniff:sersniff
 serveit:serveit
+servus:
 setweblocthumb:setWeblocThumb
 sf-pwgen:sf-pwgen
 sfcgal:sfcgal-config
@@ -5528,6 +5537,7 @@ tomcat-native:
 tomcat:catalina
 tomcat@6:catalina.sh daemon.sh digest.sh setclasspath.sh shutdown.sh startup.sh tool-wrapper.sh version.sh
 tomcat@7:catalina
+tomcat@8.0:catalina
 tomee-jax-rs:tomee-jax-rs-startup
 tomee-plume:tomee-plume-startup
 tomee-plus:tomee-plus-startup
