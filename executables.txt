@@ -332,6 +332,7 @@ bsdsfv:bsdsfv
 bsponmpi:
 btparse:bibparse
 btpd:btcli btinfo btpd
+bubbros:bubbros bubbros-client bubbros-server
 buildapp:buildapp
 buku:buku
 bulk_extractor:BEViewer bulk_extractor plugin_test
@@ -357,6 +358,8 @@ bzr-xmloutput:
 bzrtools:
 c-ares:
 c-kermit:ckermit.ini kermit kermit-sshsub
+c10t:c10t
+c2048:2048
 cabal-install:cabal
 cabextract:cabextract
 cabocha:cabocha cabocha-config
@@ -385,6 +388,7 @@ cask:cask
 casperjs:casperjs
 cassandra:cassandra cassandra-stress cassandra-stressd cqlsh cqlsh.py debug-cql nodetool sstabledump sstableexpiredblockers sstablelevelreset sstableloader sstablemetadata sstableofflinerelevel sstablerepairedset sstablescrub sstablesplit sstableupgrade sstableutil sstableverify
 castxml:castxml
+cataclysm:cataclysm
 catimg:catimg
 cattle:
 cayley:cayley
@@ -409,6 +413,7 @@ cdecl:c++decl cdecl
 cdiff:cdiff
 cdk:cdk5-config
 cdlabelgen:cdlabelgen
+cdogs-sdl:cdogs-sdl
 cdparanoia:cdparanoia
 cdpr:cdpr
 cdrdao:cdrdao cue2toc toc2cddb toc2cue toc2mp3
@@ -429,19 +434,23 @@ cfssl:cfssl cfssljson cfsslmkbundle
 cfv:cfv
 cgal:cgal_create_cmake_script cgal_create_CMakeLists cgal_make_macosx_app
 cgdb:cgdb
+cgoban:cgoban
 cgrep:cgrep
 cgvg:cg vg
 chadwick:cwbox cwcomment cwevent cwgame cwsub
 chaiscript:chai
+chakra:chakra
 chapel:chpl chpl-ipe chpldoc
 charm-tools:charm charm-add charm-create charm-generate charm-get charm-getall charm-help charm-info charm-list charm-promulgate charm-proof charm-review charm-review-queue charm-search charm-subscribers charm-test charm-unpromulgate charm-update charm-version juju-charm
 charm:charm
 chcase:chcase
+cheapglk:
 cheat:cheat
 check:checkmk
 check_postgres:check_postgres
 checkbashisms:checkbashisms
 checkstyle:checkstyle
+cheops:cheops
 cherokee:cget cherokee-admin-launcher cherokee-config cherokee-macos-askpass cherokee-panic cherokee-tweak CTK-run cherokee cherokee-admin cherokee-worker
 chezscheme:chez petite scheme-script
 chgems:chgems
@@ -452,6 +461,7 @@ chipmunk:
 chisel:
 chkrootkit:check_wtmpx chkdirs chklastlog chkproc chkrootkit chkutmp chkwtmp ifpromisc strings-static
 chmlib:chm_http enum_chmLib enumdir_chmLib extract_chmLib test_chmLib
+chocolate-doom:chocolate-doom chocolate-doom-setup chocolate-heretic chocolate-heretic-setup chocolate-hexen chocolate-hexen-setup chocolate-server chocolate-strife chocolate-strife-setup
 choose-gui:choose
 choose:choose
 chordii:a2crd chordii
@@ -469,6 +479,7 @@ citus:copy_to_distributed_table csql
 cityhash:
 civl:civl
 cjdns:cjdroute
+ckan:ckan
 cksfv:cksfv
 clamav:clamav-config clambc clamconf clamdscan clamdtop clamscan clamsubmit freshclam sigtool clamd
 clamz:clamz
@@ -518,6 +529,7 @@ cmus:cmus cmus-remote
 cnats:
 cntlm:cntlm
 coccinelle:spatch spatch.byte
+cockatrice:
 cocoapods:pod xcodeproj
 cocot:cocot
 coda-cli:coda
@@ -528,6 +540,7 @@ coffeescript:cake coffee
 cogl:
 collada-dom:
 collectd:collectd-nagios collectd-tg collectdctl collectd collectdmon
+color-code:colorcode
 colordiff:cdiff colordiff
 colormake:clmake clmake-short colormake colormake-short
 colorsvn:colorsvn
@@ -554,6 +567,7 @@ corectl:corectl
 corelocationcli:CoreLocationCLI
 coreutils:g[ gb2sum gbase32 gbase64 gbasename gcat gchcon gchgrp gchmod gchown gchroot gcksum gcomm gcp gcsplit gcut gdate gdd gdf gdir gdircolors gdirname gdu gecho genv gexpand gexpr gfactor gfalse gfmt gfold ggroups ghead ghostid gid ginstall gjoin gkill glink gln glogname gls gmd5sum gmkdir gmkfifo gmknod gmktemp gmv gnice gnl gnohup gnproc gnumfmt god gpaste gpathchk gpinky gpr gprintenv gprintf gptx gpwd greadlink grealpath grm grmdir gruncon gseq gsha1sum gsha224sum gsha256sum gsha384sum gsha512sum gshred gshuf gsleep gsort gsplit gstat gstdbuf gstty gsum gsync gtac gtail gtee gtest gtimeout gtouch gtr gtrue gtruncate gtsort gtty guname gunexpand guniq gunlink guptime gusers gvdir gwc gwho gwhoami gyes realpath
 corkscrew:corkscrew
+corsixth:CorsixTH
 cosi:cosi
 coturn:turnadmin turnserver turnutils_peer turnutils_stunclient turnutils_uclient
 couchdb-lucene:cl_kill_ppid cl_run
@@ -615,6 +629,7 @@ curaengine:CuraEngine
 curl:curl curl-config
 curlish:curlish
 curlpp:curlpp-config
+curseofwar:curseofwar
 cutter:cut-diff cutter
 cvs2svn:cvs2bzr cvs2git cvs2svn
 cvs:cvs cvsbug rcs2log
@@ -687,6 +702,7 @@ dfix:dfix
 dfmt:dfmt
 dfu-programmer:dfu-programmer
 dfu-util:dfu-prefix dfu-suffix dfu-util
+dgen:dgen dgen_tobin
 dhcpdump:dhcpdump
 dhcping:dhcping
 dhex:dhex
@@ -754,7 +770,10 @@ doctl:doctl
 docutils:rst2html.py rst2latex.py rst2man.py rst2odt.py rst2odt_prepstyles.py rst2pseudoxml.py rst2s5.py rst2xetex.py rst2xml.py rstpep2html.py
 docx2txt:docx2txt.pl docx2txt.sh
 doitlive:doitlive
+dopewars:dopewars
 dos2unix:dos2unix mac2unix unix2dos unix2mac
+dosbox-x:dosbox
+dosbox:dosbox
 dosfstools:fatlabel fsck.fat mkfs.fat
 double-conversion:
 doublecpp:doublecpp
@@ -783,6 +802,7 @@ dub:dub
 duck:duck
 duff:duff
 dumb:dumb2wav dumbout
+dungeon:dungeon
 duo_unix:login_duo
 duplicity:duplicity rdiffdir
 duply:duply
@@ -795,6 +815,7 @@ dvdrtools:cdda2mp3 cdda2ogg cdda2wav devdump dvdrecord isodump isoinfo isovfy mk
 dvm:
 dvorak7min:dvorak7min
 dvtm:dvtm dvtm-status
+dwarf-fortress:dwarffortress
 dwarfutils:dwarfdump
 dwatch:dwatch
 dwdiff:dwdiff dwfilter
@@ -807,6 +828,7 @@ dynamips:dynamips nvram_export
 e2fsprogs:chattr compile_et lsattr mk_cmds uuidgen badblocks blkid debugfs dumpe2fs e2freefrag e2fsck e2image e2label e2undo filefrag findfs fsck fsck.ext2 fsck.ext3 fsck.ext4 fsck.ext4dev logsave mke2fs mkfs.ext2 mkfs.ext3 mkfs.ext4 mkfs.ext4dev mklost+found resize2fs tune2fs uuidd
 easy-git:eg
 easy-tag:easytag
+easyrpg-player:easyrpg-player
 ebook-tools:einfo lit2epub
 ec2-ami-tools:ec2-ami-tools-version ec2-bundle-image ec2-bundle-vol ec2-delete-bundle ec2-download-bundle ec2-migrate-bundle ec2-migrate-manifest ec2-unbundle ec2-upload-bundle
 ec2-api-tools:ec2-accept-vpc-peering-connection ec2-activate-license ec2-add-group ec2-add-keypair ec2-allocate-address ec2-assign-private-ip-addresses ec2-associate-address ec2-associate-dhcp-options ec2-associate-route-table ec2-attach-classic-link-vpc ec2-attach-internet-gateway ec2-attach-network-interface ec2-attach-volume ec2-attach-vpn-gateway ec2-authorize ec2-bundle-instance ec2-cancel-bundle-task ec2-cancel-conversion-task ec2-cancel-export-task ec2-cancel-reserved-instances-listing ec2-cancel-spot-instance-requests ec2-cmd ec2-confirm-product-instance ec2-copy-image ec2-copy-snapshot ec2-create-customer-gateway ec2-create-dhcp-options ec2-create-group ec2-create-image ec2-create-instance-export-task ec2-create-internet-gateway ec2-create-keypair ec2-create-network-acl ec2-create-network-acl-entry ec2-create-network-interface ec2-create-placement-group ec2-create-reserved-instances-listing ec2-create-route ec2-create-route-table ec2-create-snapshot ec2-create-spot-datafeed-subscription ec2-create-subnet ec2-create-tags ec2-create-volume ec2-create-vpc ec2-create-vpc-endpoint ec2-create-vpc-peering-connection ec2-create-vpn-connection ec2-create-vpn-connection-route ec2-create-vpn-gateway ec2-deactivate-license ec2-delete-customer-gateway ec2-delete-dhcp-options ec2-delete-disk-image ec2-delete-group ec2-delete-internet-gateway ec2-delete-keypair ec2-delete-network-acl ec2-delete-network-acl-entry ec2-delete-network-interface ec2-delete-placement-group ec2-delete-route ec2-delete-route-table ec2-delete-snapshot ec2-delete-spot-datafeed-subscription ec2-delete-subnet ec2-delete-tags ec2-delete-volume ec2-delete-vpc ec2-delete-vpc-endpoints ec2-delete-vpc-peering-connection ec2-delete-vpn-connection ec2-delete-vpn-connection-route ec2-delete-vpn-gateway ec2-deregister ec2-describe-account-attributes ec2-describe-addresses ec2-describe-availability-zones ec2-describe-bundle-tasks ec2-describe-classic-link-instances ec2-describe-conversion-tasks ec2-describe-customer-gateways ec2-describe-dhcp-options ec2-describe-export-tasks ec2-describe-group ec2-describe-image-attribute ec2-describe-images ec2-describe-instance-attribute ec2-describe-instance-status ec2-describe-instances ec2-describe-internet-gateways ec2-describe-keypairs ec2-describe-licenses ec2-describe-network-acls ec2-describe-network-interface-attribute ec2-describe-network-interfaces ec2-describe-placement-groups ec2-describe-prefix-lists ec2-describe-regions ec2-describe-reserved-instances ec2-describe-reserved-instances-listings ec2-describe-reserved-instances-modifications ec2-describe-reserved-instances-offerings ec2-describe-route-tables ec2-describe-snapshot-attribute ec2-describe-snapshots ec2-describe-spot-datafeed-subscription ec2-describe-spot-instance-requests ec2-describe-spot-price-history ec2-describe-subnets ec2-describe-tags ec2-describe-volume-attribute ec2-describe-volume-status ec2-describe-volumes ec2-describe-vpc-attribute ec2-describe-vpc-classic-link ec2-describe-vpc-endpoint-services ec2-describe-vpc-endpoints ec2-describe-vpc-peering-connections ec2-describe-vpcs ec2-describe-vpn-connections ec2-describe-vpn-gateways ec2-detach-classic-link-vpc ec2-detach-internet-gateway ec2-detach-network-interface ec2-detach-volume ec2-detach-vpn-gateway ec2-disable-vgw-route-propagation ec2-disable-vpc-classic-link ec2-disassociate-address ec2-disassociate-route-table ec2-enable-vgw-route-propagation ec2-enable-volume-io ec2-enable-vpc-classic-link ec2-fingerprint-key ec2-get-console-output ec2-get-password ec2-import-instance ec2-import-keypair ec2-import-volume ec2-migrate-image ec2-modify-image-attribute ec2-modify-instance-attribute ec2-modify-network-interface-attribute ec2-modify-reserved-instances ec2-modify-snapshot-attribute ec2-modify-subnet-attribute ec2-modify-volume-attribute ec2-modify-vpc-attribute ec2-modify-vpc-endpoint ec2-monitor-instances ec2-purchase-reserved-instances-offering ec2-reboot-instances ec2-register ec2-reject-vpc-peering-connection ec2-release-address ec2-replace-network-acl-association ec2-replace-network-acl-entry ec2-replace-route ec2-replace-route-table-association ec2-report-instance-status ec2-request-spot-instances ec2-reset-image-attribute ec2-reset-instance-attribute ec2-reset-network-interface-attribute ec2-reset-snapshot-attribute ec2-resume-import ec2-revoke ec2-run-instances ec2-start-instances ec2-stop-instances ec2-terminate-instances ec2-unassign-private-ip-addresses ec2-unmonitor-instances ec2-upload-disk-image ec2-version ec2actlic ec2addcgw ec2adddopt ec2addgrp ec2addigw ec2addixt ec2addkey ec2addnacl ec2addnae ec2addnic ec2addpcx ec2addpgrp ec2addrt ec2addrtb ec2addsds ec2addsnap ec2addsubnet ec2addtag ec2addvgw ec2addvol ec2addvpc ec2addvpn ec2allocaddr ec2apcx ec2apip ec2assocaddr ec2assocdopt ec2assocrtb ec2attachcl ec2attigw ec2attnic ec2attvgw ec2attvol ec2auth ec2bundle ec2caril ec2cbun ec2cct ec2cim ec2cpi ec2cpimg ec2cpsnap ec2crril ec2csir ec2cvcr ec2cve ec2cxt ec2daa ec2daddr ec2datt ec2daz ec2dbun ec2dcgw ec2dcli ec2dct ec2ddi ec2ddopt ec2deactlic ec2delcgw ec2deldopt ec2delgrp ec2deligw ec2delkey ec2delnacl ec2delnae ec2delnic ec2delpcx ec2delpgrp ec2delrt ec2delrtb ec2delsds ec2delsnap ec2delsubnet ec2deltag ec2delvgw ec2delvol ec2delvpc ec2delvpce ec2delvpn ec2dereg ec2detachcl ec2detigw ec2detnic ec2detvgw ec2detvol ec2dgrp ec2diatt ec2digw ec2dim ec2dimatt ec2din ec2dinatt ec2dins ec2disablecl ec2disaddr ec2disrtb ec2dkey ec2dlic ec2dnacl ec2dnic ec2dnicatt ec2dpcx ec2dpgrp ec2dpl ec2dre ec2dri ec2dril ec2drim ec2drio ec2drp ec2drtb ec2dsds ec2dsir ec2dsnap ec2dsnapatt ec2dsph ec2dsubnet ec2dtag ec2dva ec2dvcl ec2dvcr ec2dve ec2dves ec2dvgw ec2dvol ec2dvolatt ec2dvpc ec2dvpn ec2dvs ec2dxt ec2enablecl ec2erp ec2evio ec2fp ec2gcons ec2gpass ec2ii ec2iin ec2ikey ec2iv ec2ivol ec2kill ec2matt ec2miatt ec2mim ec2mimatt ec2min ec2minatt ec2mnicatt ec2mri ec2msnapatt ec2msubnetatt ec2mva ec2mve ec2mvolatt ec2prio ec2ratt ec2reboot ec2reg ec2reladdr ec2rep ec2repnaclassoc ec2repnae ec2reprt ec2reprtbassoc ec2revoke ec2riatt ec2rim ec2rimatt ec2rinatt ec2rnicatt ec2rpcx ec2rsi ec2rsnapatt ec2run ec2start ec2stop ec2tag ec2udi ec2umin ec2upip ec2ver
@@ -823,6 +845,7 @@ eg:eg
 eiffelstudio:compile_all ec ecb estudio finish_freezing iron syntax_updater vision2_demo
 eigen:
 eigen@3.2:
+einstein:einstein
 ejabberd:ejabberdctl
 ejdb:jbbmgr jbfmgr jbhmgr jbtmgr
 eject:eject
@@ -830,6 +853,7 @@ ekg2:ekg2
 ekhtml:
 elasticsearch:elasticsearch
 elasticsearch@1.7:elasticsearch elasticsearch.in.sh plugin
+elasticsearch@2.3:elasticsearch
 elasticsearch@2.4:elasticsearch
 elb-tools:elb-apply-security-groups-to-lb elb-associate-route53-hosted-zone elb-attach-lb-to-subnets elb-cmd elb-configure-healthcheck elb-create-app-cookie-stickiness-policy elb-create-lb elb-create-lb-cookie-stickiness-policy elb-create-lb-listeners elb-create-lb-policy elb-delete-lb elb-delete-lb-listeners elb-delete-lb-policy elb-deregister-instances-from-lb elb-describe-instance-health elb-describe-lb-attributes elb-describe-lb-policies elb-describe-lb-policy-types elb-describe-lbs elb-detach-lb-from-subnets elb-disable-zones-for-lb elb-disassociate-route53-hosted-zone elb-enable-zones-for-lb elb-modify-lb-attributes elb-register-instances-with-lb elb-set-lb-listener-ssl-cert elb-set-lb-policies-for-backend-server elb-set-lb-policies-of-listener elb-version
 elinks:elinks
@@ -1025,6 +1049,7 @@ frei0r:
 fribidi:fribidi
 frobtads:frob t3make tadsc
 frotz:frotz
+fs-uae:fs-uae fs-uae-device-helper
 fsevent_watch:fsevent_watch
 fsevents-tools:autorsync notifyloop notifywait
 fsh:fcp fsh fshd in.fshd
@@ -1034,7 +1059,9 @@ fswatch:fswatch
 ftgl:
 ftimes:ftimes
 ftjam:jam
+fuego:fuego fuego_test
 funcoeszz:
+fuse-emulator:fuse
 fuseki:fuseki-server s-delete s-get s-head s-post s-put s-query s-update s-update-form
 fuzzy-find:ff
 fwknop:fwknop fwknopd
@@ -1079,7 +1106,9 @@ gdmap:gdmap
 gdnsd:gdnsd_geoip_test gdnsd
 gdrive:gdrive
 gdub:gw
+gearboy:Gearboy
 gearman:gearadmin gearman gearmand
+gearsystem:Gearsystem
 geckodriver:wires
 gecode:fzn-gecode mzn-gecode
 gedit:gedit gnome-text-editor
@@ -1140,8 +1169,10 @@ git-flow-avh:git-flow
 git-flow:git-flow
 git-fresh:git-fresh
 git-ftp:git-ftp
+git-game:git-game
 git-gerrit:gerrit gerrit-cherry-pick git-gerrit
 git-hooks:git-hooks
+git-if:git-if
 git-imerge:git-imerge
 git-integration:git-integration
 git-lfs:git-lfs
@@ -1151,6 +1182,7 @@ git-number:git-id git-list git-number
 git-octopus:git-octopus
 git-open:git-open
 git-plus:git-multi git-old-branches git-relation
+git-recent:git-recent
 git-remote-hg:git-remote-hg
 git-review:git-review
 git-secret:git-secret
@@ -1194,6 +1226,8 @@ glib-networking:
 glib:gapplication gdbus gdbus-codegen gio gio-querymodules glib-compile-resources glib-compile-schemas glib-genmarshal glib-gettextize glib-mkenums gobject-query gresource gsettings gtester gtester-report
 glibmm:
 glide:glide
+glkterm:
+glktermw:
 glm:
 global:global globash gozilla gtags gtags-cscope htags htags-server
 globe:globe
@@ -1202,6 +1236,7 @@ glog:
 gloox:gloox-config
 glslang:glslangValidator spirv-remap
 glui:
+glulxe:glulxe
 glyr:glyrc
 gmail-backup:gmail-backup
 gmediaserver:gmediaserver
@@ -1219,12 +1254,15 @@ gnome-icon-theme:
 gnome-themes-standard:
 gnu-apl:AP100 AP210 apl APserver
 gnu-barcode:barcode
+gnu-chess:gnuchess gnuchessu gnuchessx
 gnu-cobol:cob-config cobc cobcrun
 gnu-complexity:complexity cx-vs-mc
 gnu-getopt:getopt
+gnu-go:gnugo
 gnu-indent:gindent gtexinfo2man
 gnu-prolog:fd2c gplc gprolog hexgplc ma2asm pl2wam wam2ma
 gnu-sed:gsed
+gnu-shogi:gnushogi
 gnu-smalltalk:gst gst-blox gst-browser gst-config gst-convert gst-doc gst-load gst-package gst-profile gst-reload gst-remote gst-sunit
 gnu-tar:gtar
 gnu-time:gtime
@@ -1237,6 +1275,7 @@ gnupg2:addgnupghome applygnupgdefaults gpg gpg-connect-agent gpg-zip gpg2 gpgcon
 gnupg:gpg-zip1 gpg1 gpgsplit1 gpgv1
 gnuplot:gnuplot
 gnuradio:gnuradio-companion gnuradio-config-info gr-ctrlport-monitor gr-perf-monitorx gr_constellation_plot gr_filter_design gr_modtool gr_plot_char gr_plot_const gr_plot_fft gr_plot_fft_c gr_plot_fft_f gr_plot_float gr_plot_int gr_plot_iq gr_plot_psd gr_plot_psd_c gr_plot_psd_f gr_plot_qt gr_plot_short gr_psd_plot_b gr_psd_plot_c gr_psd_plot_f gr_psd_plot_i gr_psd_plot_s gr_read_file_metadata gr_spectrogram_plot gr_spectrogram_plot_b gr_spectrogram_plot_c gr_spectrogram_plot_f gr_spectrogram_plot_i gr_spectrogram_plot_s gr_time_plot_b gr_time_plot_c gr_time_plot_f gr_time_plot_i gr_time_plot_s gr_time_raster_b gr_time_raster_f grcc uhd_fft uhd_rx_cfile uhd_rx_nogui uhd_siggen uhd_siggen_gui usrp_flex usrp_flex_all usrp_flex_band volk-config-info volk_modtool volk_profile
+gnuski:gnuski
 gnustep-make:
 gnutls:gnutls-certtool gnutls-cli gnutls-cli-debug gnutls-serv ocsptool p11tool psktool srptool
 go:go godoc gofmt
@@ -1267,6 +1306,7 @@ govendor:govendor
 gowsdl:gowsdl
 gpa:gpa
 gpac:MP42TS MP4Box MP4Client
+gpcslots2:gpcslots2
 gperftools:pprof
 gpg-agent:gpg-agent
 gpgme:gpgme-config gpgme-tool
@@ -1293,6 +1333,7 @@ graphicsmagick:GraphicsMagick++-config GraphicsMagick-config GraphicsMagickWand-
 graphite2:gr2fonttest
 graphviz:acyclic bcomps ccomps circo cluster dijkstra dot dot2gxl dot_builtins edgepaint fdp gc gml2gv graphml2gv gv2gml gv2gxl gvcolor gvgen gvmap gvpack gvpr gxl2dot gxl2gv mm2gv neato nop osage patchwork prune sccmap sfdp tred twopi unflatten
 grc:grc grcat
+greed:greed
 grepcidr:grepcidr
 grib-api:big2gribex gg_sub_area_check grib1to2 grib2ppm grib_add grib_cmp grib_compare grib_convert grib_copy grib_corruption_check grib_count grib_debug grib_distance grib_dump grib_error grib_filter grib_get grib_get_data grib_histogram grib_index_build grib_info grib_keys grib_list_keys grib_ls grib_moments grib_packing grib_parser grib_repair grib_set grib_to_json tigge_accumulations tigge_check tigge_name tigge_split
 griffon:griffon griffon-debug griffonsh startGriffon
@@ -1351,6 +1392,7 @@ gtkspell3:
 gtmess:gtmess gtmess-notify gtmess_w
 gts:delaunay gts-config gts2dxf gts2oogl gts2stl gtscheck gtscompare gtstemplate happrox stl2gts transform
 gucharmap:charmap gnome-character-map gucharmap
+guichan:
 guile:guild guile guile-config guile-snarf guile-tools
 gumbo-parser:
 gupnp-av:
@@ -1386,6 +1428,7 @@ hashcash:hashcash sha1
 hashcat:hashcat
 hashpump:hashpump
 haskell-stack:stack
+hatari:hatari
 haxe:haxe haxelib
 hayai:
 hbase:hbase start-hbase.sh stop-hbase.sh
@@ -1401,6 +1444,7 @@ hesiod:hesinfo
 hevea:bibhva esponja hacha hevea imagen
 hexcurse:hexcurse
 hexedit:hexedit
+hexgui:hexgui
 hfstospell:hfst-ospell
 hfsutils:hattrib hcd hcopy hdel hdir hformat hls hmkdir hmount hpwd hrename hrmdir humount hvol
 hg-fast-export:hg-fast-export.py hg-fast-export.sh hg-reset.py hg-reset.sh hg2git.py
@@ -3635,6 +3679,7 @@ lci:lci
 lcm:lcm-gen lcm-logger lcm-logplayer lcm-logplayer-gui lcm-spy
 lcov:gendesc genhtml geninfo genpng lcov
 lcrack:lcrack lcrack_mktbl lcrack_mkword lcrack_regex
+lcs:crimesquad
 ld64:ObjectDump dyldinfo ld machocheck rebase unwinddump
 ldapvi:ldapvi
 ldc:ldc2 ldmd2
@@ -3658,6 +3703,7 @@ lesstif:motif-config mwm mxmkmf uil xmbind
 leveldb:leveldbutil
 lfe:lfe lfe-first-try lfe-test lfec lfescript
 lft:lft whob
+lftp:lftp lftpget
 lha:lha
 lhasa:lha
 lib3ds:3dsdump lib3ds-config
@@ -3753,6 +3799,7 @@ libgee:
 libgeotiff:applygeo geotifcp listgeo makegeo
 libgetdata:checkdirfile dirfile2ascii
 libgfshare:gfcombine gfsplit
+libggz:
 libghthash:
 libgig:dlsdump gigdump gigextract rifftree
 libgit2-glib:
@@ -3797,6 +3844,7 @@ libksba:ksba-config
 liblacewing:
 liblas:las2las las2ogr las2txt lasblock lasinfo liblas-config ts2las txt2las
 liblastfm:
+liblcf:
 liblinear:predict train
 liblo:oscdump oscsend
 liblockfile:dotlockfile
@@ -3907,6 +3955,7 @@ libsoup:
 libsoxr:
 libspatialite:
 libspectre:
+libspectrum:
 libspiro:
 libspnav:
 libsquish:
@@ -3923,6 +3972,7 @@ libswiften:swiften-config
 libswiftnav:
 libtar:libtar
 libtasn1:asn1Coding asn1Decoding asn1Parser
+libtcod:
 libtecla:enhance
 libtermkey:
 libtess2:
@@ -3986,6 +4036,7 @@ lifelines:btedit dbverify llexec llines
 lightning:
 lighttpd:lighttpd lighttpd-angel
 lilv:lilv-bench lv2info lv2ls
+lincity-ng:lincity-ng
 link-grammar:link-parser
 linkerd:linkerd
 linklint:linklint
@@ -4033,6 +4084,7 @@ ltc-tools:jltc2mtc jltcdump jltcgen ltcdump ltcgen
 ltl2ba:ltl2ba
 lua:lua lua-5.2 lua5.2 luac luac-5.2 luac5.2 luarocks luarocks-5.2 luarocks-admin luarocks-admin-5.2
 lua@5.1:lua-5.1 lua5.1 luac-5.1 luac5.1 luarocks-5.1 luarocks-admin-5.1
+lua@5.3:lua-5.3 lua5.3 luac-5.3 luac5.3 luarocks-5.3 luarocks-admin-5.3
 luabind:
 luajit:luajit luajit-2.0.4
 luaradio:luaradio
@@ -4044,6 +4096,7 @@ luvit:luvit
 lv2:lv2specgen.py
 lv:lgrep lv
 lwtools:lwar lwasm lwlink lwobjdump
+lxc:lxc
 lxsplit:lxsplit
 lynis:lynis
 lynx:lynx
@@ -4061,6 +4114,7 @@ macosvpn:macosvpn
 macvim:gview gvim gvimdiff gvimex mview mvim mvimdiff mvimex
 mad:
 madplay:abxtest madplay
+magnetix:magnetiX
 mahout:mahout
 mailcheck:mailcheck
 mailhog:MailHog
@@ -4076,8 +4130,10 @@ makeself:makeself
 mal4s:mal4s
 malaga:malaga mallex malmake malrul malsym
 malbolge:malbolge
+mame:mame
 man2html:man2html
 mandoc:bsdapropos bsdman bsdwhatis demandoc mandoc manpage bsdmakewhatis
+mapcrafter:mapcrafter mapcrafter_export mapcrafter_markers mapcrafter_png-it.py mapcrafter_textures.py
 mapnik:mapnik-config shapeindex
 mapserver:legend mapserv mapserver-config msencrypt scalebar shp2img shptree shptreetst shptreevis sortshp tile4ms
 mariadb-connector-c:mariadb_config
@@ -4119,6 +4175,7 @@ mecab:mecab mecab-config
 media-info:mediainfo
 mediaconch:mediaconch
 mediatomb:mediatomb
+mednafen:mednafen
 megacmd:megacmd
 megatools:megacopy megadf megadl megaget megals megamkdir megaput megareg megarm
 memcache-top:memcache-top
@@ -4143,6 +4200,7 @@ mfterm:mfterm
 mftrace:gf2pbm mftrace
 mg3a:mg
 mg:mg
+mgba:mGBA
 mhash:
 micro:micro
 micropython:micropython pip-micropython
@@ -4156,6 +4214,8 @@ miller:mlr
 mimetic:
 mimms:mimms
 minbif:minbif
+minetest:
+mingw-w64:i686-w64-mingw32-addr2line i686-w64-mingw32-ar i686-w64-mingw32-as i686-w64-mingw32-c++ i686-w64-mingw32-c++filt i686-w64-mingw32-cpp i686-w64-mingw32-dlltool i686-w64-mingw32-dllwrap i686-w64-mingw32-elfedit i686-w64-mingw32-g++ i686-w64-mingw32-gcc i686-w64-mingw32-gcc-6.3.0 i686-w64-mingw32-gcc-ar i686-w64-mingw32-gcc-nm i686-w64-mingw32-gcc-ranlib i686-w64-mingw32-gcov i686-w64-mingw32-gcov-tool i686-w64-mingw32-gfortran i686-w64-mingw32-gprof i686-w64-mingw32-ld i686-w64-mingw32-ld.bfd i686-w64-mingw32-nm i686-w64-mingw32-objcopy i686-w64-mingw32-objdump i686-w64-mingw32-ranlib i686-w64-mingw32-readelf i686-w64-mingw32-size i686-w64-mingw32-strings i686-w64-mingw32-strip i686-w64-mingw32-windmc i686-w64-mingw32-windres x86_64-w64-mingw32-addr2line x86_64-w64-mingw32-ar x86_64-w64-mingw32-as x86_64-w64-mingw32-c++ x86_64-w64-mingw32-c++filt x86_64-w64-mingw32-cpp x86_64-w64-mingw32-dlltool x86_64-w64-mingw32-dllwrap x86_64-w64-mingw32-elfedit x86_64-w64-mingw32-g++ x86_64-w64-mingw32-gcc x86_64-w64-mingw32-gcc-6.3.0 x86_64-w64-mingw32-gcc-ar x86_64-w64-mingw32-gcc-nm x86_64-w64-mingw32-gcc-ranlib x86_64-w64-mingw32-gcov x86_64-w64-mingw32-gcov-tool x86_64-w64-mingw32-gfortran x86_64-w64-mingw32-gprof x86_64-w64-mingw32-ld x86_64-w64-mingw32-ld.bfd x86_64-w64-mingw32-nm x86_64-w64-mingw32-objcopy x86_64-w64-mingw32-objdump x86_64-w64-mingw32-ranlib x86_64-w64-mingw32-readelf x86_64-w64-mingw32-size x86_64-w64-mingw32-strings x86_64-w64-mingw32-strip x86_64-w64-mingw32-windmc x86_64-w64-mingw32-windres
 minicom:ascii-xfr minicom runscript xminicom
 minidjvu:minidjvu
 minidlna:minidlnad
@@ -4180,6 +4240,7 @@ mjpegtools:anytovcd.sh jpeg2yuv lav2avi.sh lav2mpeg lav2wav lav2yuv lavaddwav la
 mkclean:mkclean mkcleanreg mkWDclean
 mkcue:mkcue
 mkdocs:mkdocs
+mkhexgrid:mkhexgrid
 mksh:mksh
 mktorrent:mktorrent
 mkvalidator:mkvalidator
