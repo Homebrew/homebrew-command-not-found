@@ -1657,6 +1657,7 @@ homebrew/dupes/gperf:gperf
 homebrew/dupes/grep:gegrep gfgrep ggrep
 homebrew/dupes/groff:addftinfo afmtodit chem eqn eqn2graph gdiffmk glilypond gperl gpinyin grap2graph grn grodvi groff groffer grog grolbp grolj4 gropdf grops grotty hpftodit indxbib lkbib lookbib mmroff neqn nroff pdfmom pdfroff pfbtops pic pic2graph post-grohtml pre-grohtml preconv refer roff2dvi roff2html roff2pdf roff2ps roff2text roff2x soelim tbl tfmtodit troff
 homebrew/dupes/gzip:gunzip gzexe gzip uncompress zcat zcmp zdiff zegrep zfgrep zforce zgrep zless zmore znew
+homebrew/dupes/heimdal:afslog bsearch compile_et ftp gsstool heimtools hxtool idn-lookup iprop-log kadmin kdestroy kf kgetcred kinit klist kpasswd krb5-config kstash kswitch ktutil kx login otp otpprint pagsh pfrom rcp rsh rxtelnet rxterm string2key su telnet tenletxr verify_krb5_conf xnlock
 homebrew/dupes/krb5:compile_et gss-client k5srvutil kadmin kdestroy kinit klist kpasswd krb5-config kswitch ktutil kvno sclient sim_client uuclient gss-server kadmin.local kadmind kdb5_util kprop kpropd kproplog krb5-send-pr krb5kdc sim_server sserver uuserver
 homebrew/dupes/lapack:
 homebrew/dupes/less:less lessecho lesskey
@@ -2223,6 +2224,7 @@ homebrew/php/php54-thrift:
 homebrew/php/php54-tidy:
 homebrew/php/php54-timecop:
 homebrew/php/php54-timezonedb:
+homebrew/php/php54-trace:phptrace
 homebrew/php/php54-twig:
 homebrew/php/php54-uopz:
 homebrew/php/php54-uploadprogress:
@@ -2343,6 +2345,7 @@ homebrew/php/php55-thrift:
 homebrew/php/php55-tidy:
 homebrew/php/php55-timecop:
 homebrew/php/php55-timezonedb:
+homebrew/php/php55-trace:phptrace
 homebrew/php/php55-twig:
 homebrew/php/php55-uopz:
 homebrew/php/php55-uploadprogress:
@@ -2463,6 +2466,7 @@ homebrew/php/php56-thrift:
 homebrew/php/php56-tidy:
 homebrew/php/php56-timecop:
 homebrew/php/php56-timezonedb:
+homebrew/php/php56-trace:phptrace
 homebrew/php/php56-twig:
 homebrew/php/php56-uopz:
 homebrew/php/php56-uploadprogress:
@@ -2502,6 +2506,7 @@ homebrew/php/php70-geos:
 homebrew/php/php70-gmagick:
 homebrew/php/php70-gmp:
 homebrew/php/php70-gnupg:
+homebrew/php/php70-grpc:
 homebrew/php/php70-hprose:
 homebrew/php/php70-igbinary:
 homebrew/php/php70-imagick:
@@ -2539,6 +2544,8 @@ homebrew/php/php70-stats:
 homebrew/php/php70-swoole:
 homebrew/php/php70-tidy:
 homebrew/php/php70-timecop:
+homebrew/php/php70-timezonedb:
+homebrew/php/php70-trace:phptrace
 homebrew/php/php70-uopz:
 homebrew/php/php70-uuid:
 homebrew/php/php70-uv:
@@ -2562,6 +2569,7 @@ homebrew/php/php71-geoip:
 homebrew/php/php71-geos:
 homebrew/php/php71-gmagick:
 homebrew/php/php71-gmp:
+homebrew/php/php71-grpc:
 homebrew/php/php71-hprose:
 homebrew/php/php71-igbinary:
 homebrew/php/php71-imagick:
@@ -2574,6 +2582,7 @@ homebrew/php/php71-mailparse:
 homebrew/php/php71-maxminddb:
 homebrew/php/php71-mcrypt:
 homebrew/php/php71-mecab:
+homebrew/php/php71-memcached:
 homebrew/php/php71-mongodb:
 homebrew/php/php71-msgpack:
 homebrew/php/php71-mustache:
@@ -2593,6 +2602,7 @@ homebrew/php/php71-stats:
 homebrew/php/php71-swoole:
 homebrew/php/php71-tidy:
 homebrew/php/php71-timecop:
+homebrew/php/php71-timezonedb:
 homebrew/php/php71-uuid:
 homebrew/php/php71-uv:
 homebrew/php/php71-v8js:
@@ -2624,6 +2634,7 @@ homebrew/php/robo:robo
 homebrew/php/sqlformat:sqlformat
 homebrew/php/symfony-installer:symfony
 homebrew/php/terminus:terminus
+homebrew/php/terminus@0.13:terminus
 homebrew/php/virtphp:virtphp
 homebrew/php/wp-cli:wp
 homebrew/php/xdebug-osx:xdebug
@@ -2634,6 +2645,7 @@ homebrew/science/abyss-explorer:abyss-explorer
 homebrew/science/abyss:ABYSS abyss-align abyss-bloom abyss-bloom-dist.mk abyss-bowtie abyss-bowtie2 abyss-bwa abyss-bwamem abyss-bwasw abyss-db-csv abyss-db-txt abyss-dida abyss-fac abyss-fatoagp abyss-filtergraph abyss-fixmate abyss-fixmate-ssq abyss-gapfill abyss-gc abyss-index abyss-junction abyss-kaligner abyss-layout abyss-longseqdist abyss-map abyss-map-ssq abyss-mergepairs abyss-overlap ABYSS-P abyss-paired-dbg abyss-paired-dbg-mpi abyss-pe abyss-samtoafg abyss-scaffold abyss-sealer abyss-tabtomd abyss-todot abyss-tofastq AdjList Consensus DAssembler DistanceEst DistanceEst-ssq KAligner konnector logcounter MergeContigs MergePaths Overlap ParseAligns PathConsensus PathOverlap PopBubbles SimpleGraph
 homebrew/science/ace-corrector:ace
 homebrew/science/adam:adam adam-pyspark adam-shell adam-submit append_to_option.py compute-adam-classpath.sh compute-adam-jars.sh
+homebrew/science/adapterremoval:AdapterRemoval
 homebrew/science/adol-c:
 homebrew/science/afra:afra
 homebrew/science/alembic:SimpleAbcViewer abcconvert abcecho abcechobounds abcstitcher
@@ -2718,6 +2730,7 @@ homebrew/science/cdo:cdo
 homebrew/science/cdsclient:abibcode aclient aclient_cgi catcat Detex find2mas6x find2mass find2mass6x find2massi find_cats find_cats.gz find_gen find_gen1 findacro findcat findcfhtd findcfhtw findcmc14 findcmc15 findenis findenis-p findenis1 findenis2 findenis3 findgalex5a findgalex5m findglimpse findgsc findgsc1.1 findgsc1.2 findgsc1.3 findgsc2.2 findgsc2.3 findigsl findiphas2 findkic findmc2 findmc_irsf findnomad1 findpmm findpmm1 findpmm2 findppmx findppmxl findsage findsdss-sp findsdss3 findsdss4 findsdss5 findsdss6 findsdss7 findsdss8 findsdss9 findspm4 findtyc2 findtycab finducac1 finducac2 finducac3 finducac4 findudxs8 findudxs9 findugcs8 findugcs9 findugps6 findulas7 findulas8 findulas9 findurat1 findusnoa1 findusnoa2 findusnob1 findviking1 findwise findwise0 findwise_pre findwisep lscat sesame simbib simref vizquery
 homebrew/science/cegma:cegma
 homebrew/science/celera-assembler:runCA
+homebrew/science/centrifuge:centrifuge centrifuge-BuildSharedSequence.pl centrifuge-RemoveEmptySequence.pl centrifuge-RemoveN.pl centrifuge-build centrifuge-build-bin centrifuge-class centrifuge-compress.pl centrifuge-download centrifuge-inspect centrifuge-inspect-bin centrifuge-kreport centrifuge-sort-nt.pl
 homebrew/science/ceres-solver:
 homebrew/science/cerulean:
 homebrew/science/cfitsio:
@@ -3223,6 +3236,7 @@ homebrew/science/tmv-cpp:tmv-version
 homebrew/science/topcat:topcat
 homebrew/science/tophat:bam2fastx bam_merge bed_to_juncs contig_to_chr_coords fix_map_ordering gtf_juncs gtf_to_fasta juncs_db long_spanning_reads map2gtf prep_reads sam_juncs samtools_0.1.18 segment_juncs sra_to_solid tophat tophat-fusion-post tophat2 tophat_reports
 homebrew/science/trans-abyss:transabyss transabyss-analyze transabyss-merge
+homebrew/science/trans_proteomic_pipeline:ASAPRatioPeptideParser ASAPRatioProteinRatioParser ASAPRatioPvalueParser CombineOut CompactParser DatabaseParser EnzymeDigestionParser InterProphetParser InteractParser Lib2HTML LibraPeptideParser LibraProteinRatioParser Mascot2XML Mayu.pl MzXML2Search Out2XML PTMProphetParser PeptideProphetParser ProphetModels.pl ProtProphModels.pl ProteinProphet Q3ProteinRatioParser RTCalc RefreshParser RespectParser SSRCalc3.pl Sequest2XML Sqt2XML Tandem2XML XPressPeptideParser XPressProteinRatioParser add_mz batchcoverage calctppstat.pl calculate_pi compareProts.pl compareProts_ClusterHM.pl createChargeFile.pl decoyFASTA decoyFastaGenerator.pl digestdb dta2mzxml dtafilter fileDownloader.pl filterMRM.pl get_prots.pl idconvert indexmzXML mergeCharges.pl min_sort.pl msconvert out2summary pep_dbcount pepxml2html.pl plotspectrast protxml2html.pl readmzXML renamedat.pl replaceall.pl run_marimba.pl runperl runsearch spectrast subsetdb tandem tpp_hostname tpp_models.pl translateDNA2AA-FASTA updatepaths.pl xinteract
 homebrew/science/transdecoder:TransDecoder.LongOrfs TransDecoder.Predict
 homebrew/science/transfig:fig2dev fig2ps2tex fig2ps2tex.sh pic2tpic transfig
 homebrew/science/transpose:transpose
@@ -5728,7 +5742,7 @@ webfs:webfsd
 webkit2png:webkit2png
 webkitgtk:MiniBrowser jsc
 weboob:boobank boobathon boobcoming boobill booblyrics boobmsg boobooks boobsize boobtracker cineoob comparoob cookboob flatboob galleroob geolooc handjoob havedate monboob parceloob pastoob radioob suboob translaboob traveloob videoob webcontentedit weboob-cli weboob-config weboob-debug weboob-repos weboorrents wetboobs
-webp:cwebp dwebp webpmux
+webp:cwebp dwebp img2webp webpmux
 webpack:webpack
 websocketd:websocketd
 weechat:weechat weechat-curses
@@ -5736,6 +5750,7 @@ wego:wego
 weighttp:weighttp
 wellington:wt
 wemux:wemux
+wesnoth:wesnoth wesnothd
 wget:wget
 wgetpaste:wgetpaste
 whatmask:whatmask
@@ -5744,6 +5759,7 @@ when:when
 whirr:whirr
 whitedb:wgdb
 whohas:whohas
+widelands:widelands
 wifi-password:wifi-password
 wiggle:wiggle
 wiki:wiki
@@ -5816,6 +5832,7 @@ xmlsh:xmlsh
 xmlstarlet:xml xmlstarlet
 xmlto:xmlif xmlto
 xmltoman:xmlmantohtml xmltoman
+xmoto:xmoto
 xmp:xmp
 xonsh:xonsh
 xorriso:osirrox xorrecord xorriso xorriso-tcltk xorrisofs
@@ -5898,6 +5915,7 @@ zorba:testdriver xqdb zorba
 zpaq:zpaq
 zplug:zplug-env
 zpython:
+zsdx:zsdx
 zsh-autosuggestions:
 zsh-completions:
 zsh-git-prompt:
