@@ -173,6 +173,7 @@ aubio:aubiomfcc aubionotes aubioonset aubiopitch aubioquiet aubiotrack
 audiofile:sfconvert sfinfo
 augeas:augparse augtool fadot
 aurora-cli:aurora aurora_admin
+aurora:aurora
 auto-scaling:as-attach-instances as-cmd as-complete-lifecycle-action as-create-auto-scaling-group as-create-launch-config as-create-or-update-tags as-delete-auto-scaling-group as-delete-launch-config as-delete-lifecycle-hook as-delete-notification-configuration as-delete-policy as-delete-scheduled-action as-delete-tags as-describe-account-limits as-describe-adjustment-types as-describe-auto-scaling-groups as-describe-auto-scaling-instances as-describe-auto-scaling-notification-types as-describe-launch-configs as-describe-lifecycle-hook-types as-describe-lifecycle-hooks as-describe-metric-collection-types as-describe-notification-configurations as-describe-policies as-describe-process-types as-describe-scaling-activities as-describe-scheduled-actions as-describe-tags as-describe-termination-policy-types as-detach-instances as-disable-metrics-collection as-enable-metrics-collection as-enter-standby as-execute-policy as-exit-standby as-put-lifecycle-hook as-put-notification-configuration as-put-scaling-policy as-put-scheduled-update-group-action as-record-lifecycle-action-heartbeat as-resume-processes as-set-desired-capacity as-set-instance-health as-suspend-processes as-terminate-instance-in-auto-scaling-group as-update-auto-scaling-group as-version
 autobench:autobench autobench_admin autobenchd bench2graph crfile sesslog
 autocode:autocode
@@ -255,8 +256,8 @@ bear:bear
 bee:bee
 beecrypt:
 befunge93:bef bef2c befprof
-berkeley-db4:db_archive db_checkpoint db_deadlock db_dump db_hotbackup db_load db_printlog db_recover db_sql db_stat db_upgrade db_verify
 berkeley-db:db_archive db_checkpoint db_deadlock db_dump db_hotbackup db_load db_log_verify db_printlog db_recover db_replicate db_stat db_tuner db_upgrade db_verify
+berkeley-db@4:db_archive db_checkpoint db_deadlock db_dump db_hotbackup db_load db_printlog db_recover db_sql db_stat db_upgrade db_verify
 betty:betty
 bfg:bfg
 bgpdump:bgpdump
@@ -540,6 +541,7 @@ coffeescript:cake coffee
 cogl:
 collada-dom:
 collectd:collectd-nagios collectd-tg collectdctl collectd collectdmon
+collector-sidecar:graylog-collector-sidecar
 color-code:colorcode
 colordiff:cdiff colordiff
 colormake:clmake clmake-short colormake colormake-short
@@ -680,6 +682,7 @@ ddd:ddd
 ddrescue:ddrescue ddrescuelog
 debianutils:ischroot run-parts tempfile
 deheader:deheader
+dehydrated:dehydrated
 deis:deis
 deisctl:deisctl
 deja-gnu:runtest
@@ -1231,6 +1234,7 @@ glktermw:
 glm:
 global:global globash gozilla gtags gtags-cscope htags htags-server
 globe:globe
+globjects:
 globus-toolkit:globus-domainname globus-gass-cache globus-gass-cache-destroy globus-gass-cache-util globus-gass-server globus-gass-server-shutdown globus-hostname globus-job-cancel globus-job-clean globus-job-get-output globus-job-get-output-helper globus-job-run globus-job-status globus-job-submit globus-makefile-header globus-sh-exec globus-url-copy globus-version globus-xioperf globusrun grid-ca-create grid-ca-package grid-ca-sign grid-cert-diagnostics grid-cert-info grid-cert-request grid-change-pass-phrase grid-proxy-destroy grid-proxy-info grid-proxy-init gsiscp gsisftp gsissh myproxy-change-pass-phrase myproxy-destroy myproxy-get-delegation myproxy-get-trustroots myproxy-info myproxy-init myproxy-logon myproxy-retrieve myproxy-store ssh.d
 glog:
 gloox:gloox-config
@@ -2682,6 +2686,7 @@ homebrew/science/bact:bact_classify bact_learn bact_mkmodel
 homebrew/science/bali-phy:alignment-cat alignment-chop-internal alignment-compare alignment-consensus alignment-convert alignment-draw alignment-find alignment-find-conserved alignment-gild alignment-identity alignment-indices alignment-info alignment-max alignment-median alignment-thin alignment-translate alignments-diff analyze-rates bali-phy bali-phy-pkg bali-phy-sge bp-analyze.pl cut-range draw-graph draw-tree joint-indels joint-parsimony mctree-mean-lengths model_P partitions-supported path-graph pickout statreport stats-cat stats-merge stats-select subsample tree-mean-lengths tree-partitions tree-reroot trees-bootstrap trees-consensus trees-distances trees-pair-distances trees-to-SRQ
 homebrew/science/bam-readcount:bam-readcount
 homebrew/science/bamhash:bamhash_checksum_bam bamhash_checksum_fastq
+homebrew/science/bamm:bamm
 homebrew/science/bamtools:bamtools bamtools-2.4.0
 homebrew/science/bamutil:bam
 homebrew/science/barrnap:barrnap
@@ -2957,6 +2962,7 @@ homebrew/science/madlib:madpack
 homebrew/science/mafft:einsi fftns fftnsi ginsi linsi mafft mafft-distance mafft-einsi mafft-fftns mafft-fftnsi mafft-ginsi mafft-homologs.rb mafft-linsi mafft-nwns mafft-nwnsi mafft-profile mafft-qinsi mafft-xinsi nwns nwnsi
 homebrew/science/maker:maker gff3_merge
 homebrew/science/mallet:classifier2info csv2classify csv2vectors mallet mallethon prepend-license.sh svmlight2vectors text2classify text2vectors vectors2classify vectors2info vectors2topics vectors2vectors
+homebrew/science/mantaflow:manta mantaflow
 homebrew/science/mapsembler2:run_mapsembler2_pipeline.sh
 homebrew/science/maq:farm-run.pl maq maq.pl maq_eval.pl maq_plot.pl
 homebrew/science/mash:mash
@@ -3078,6 +3084,7 @@ homebrew/science/phlawd:PHLAWD
 homebrew/science/phylip:clique consense contml contrast dnacomp dnadist dnainvar dnaml dnamlk dnamove dnapars dnapenny dollop dolmove dolpenny drawgram drawtree factor fitch gendist kitsch mix move neighbor pars penny proml promlk protdist protpars restdist restml retree seqboot treedist
 homebrew/science/phyml:phyml phytime
 homebrew/science/phyutility:phyutility
+homebrew/science/phyx:pxaa2cdn pxbdfit pxbdsim pxboot pxbp pxbpsq pxcat pxclsq pxconsq pxcontrates pxfqfilt pxlog pxlssq pxlstr pxmrca pxmrcacut pxmrcaname pxnj pxnw pxrecode pxrevcomp pxrms pxrmt pxrr pxs2fa pxs2nex pxs2phy pxseqgen pxsm0 pxsm2a pxstrec pxsw pxt2new pxtlate pxupgma pxvcf2fa
 homebrew/science/picard-tools:picard
 homebrew/science/piler:piler
 homebrew/science/pilercr:pilercr
@@ -5462,6 +5469,7 @@ teem:gprobe ilk miter mrender nrrdSanity overrgb puller tend unu vprobe
 teensy_loader_cli:teensy_loader_cli
 teleconsole:teleconsole
 telegraf:telegraf
+telegram-cli:telegram
 temporal_tables:
 tenyr:tas tld tsim
 term:term
@@ -5880,6 +5888,7 @@ ykclient:ykclient
 ykneomgr:ykneomgr
 ykpers:ykchalresp ykinfo ykpersonalize
 yle-dl:yle-dl
+yosys:yosys yosys-abc yosys-config yosys-filterlib yosys-smtbmc
 you-get:you-get
 youtube-dl:youtube-dl
 yubico-piv-tool:yubico-piv-tool
