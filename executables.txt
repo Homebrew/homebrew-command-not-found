@@ -100,7 +100,6 @@ apachetop:apachetop
 apcupsd:apcaccess apctest apcupsd apcupsd-start smtp
 ape:aped
 apel:
-apg:apg apgbfm
 apgdiff:apgdiff
 apib:apib apibmon
 apktool:apktool
@@ -275,7 +274,6 @@ bind:arpaname bind9-config ddns-confgen delv dig dnssec-checkds dnssec-coverage 
 binkd:binkd binkd-1.0.4
 binutils:gaddr2line gar gc++filt gcoffdump gdlltool gdllwrap gelfedit gnlmconv gnm gobjcopy gobjdump granlib greadelf gsize gsrconv gstrings gstrip gsysdump gwindmc gwindres
 binwalk:binwalk
-bip:bip bipmkpw
 bison:bison yacc
 bit:bit
 bitchx:BitchX BitchX-1.2.1 scr-bx
@@ -630,7 +628,6 @@ cubeb:
 cucumber-cpp:
 cuetools:cuebreakpoints cueconvert cueprint cuetag.sh
 cunit:
-cups-pdf:
 curaengine:CuraEngine
 curl:curl curl-config
 curlish:curlish
@@ -844,7 +841,6 @@ echoprint-codegen:echoprint-codegen
 ecj:
 ecl:ecl ecl-config
 ecm:ecm unecm
-edelta:edelta
 editorconfig:editorconfig editorconfig-0.12.0
 ee:ee
 efl:diffeet ecore_evas_convert edje_cc edje_codegen edje_decc edje_external_inspector edje_inspector edje_pick edje_player edje_recc edje_watch eet eetpack efreetd eina-bench-cmp eldbus-codegen elua embryo_cc eolian_cxx eolian_gen ethumb ethumbd ethumbd_client vieet
@@ -900,7 +896,6 @@ eris:eris
 erlang:ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
 es:es
 esniper:esniper
-esound:esd esd-config esdcat esdctl esdfilt esdloop esdmon esdplay esdrec esdsample
 espeak:espeak
 etcd:etcd etcdctl
 etl:ETL-config
@@ -1355,6 +1350,7 @@ groovy:grape groovy groovyConsole groovyc groovydoc groovysh java2groovy startGr
 groovysdk:grape groovy groovyc groovyConsole groovydoc groovysh java2groovy startGroovy
 groovyserv:groovyclient groovyserver
 growly:growly
+grpc:grpc_cpp_plugin grpc_csharp_plugin grpc_node_plugin grpc_objective_c_plugin grpc_php_plugin grpc_python_plugin grpc_ruby_plugin
 grsync:grsync grsync-batch
 grt:grt-lin-reg-tool grt-log-reg-tool grt-merge-tool grt-rf-tool grt-split-tool grt-test-tool
 grunt-completion:
@@ -1486,12 +1482,14 @@ homebrew/boneyard/adept:
 homebrew/boneyard/aeskeyfind:aeskeyfind
 homebrew/boneyard/afew:afew
 homebrew/boneyard/aget:aget
+homebrew/boneyard/apg:apg apgbfm
 homebrew/boneyard/apt-cacher-ng:apt-cacher-ng
 homebrew/boneyard/arpon:arpon
 homebrew/boneyard/asm6:asm6
 homebrew/boneyard/automoc4:automoc4
 homebrew/boneyard/bbcp:
 homebrew/boneyard/bd:bd
+homebrew/boneyard/bip:bip bipmkpw
 homebrew/boneyard/bonnie:bonnie
 homebrew/boneyard/box2d:
 homebrew/boneyard/bzr-explorer:
@@ -1505,6 +1503,7 @@ homebrew/boneyard/cowpatty:cowpatty genpmk
 homebrew/boneyard/cpp-netlib:
 homebrew/boneyard/cppdom:cppdom-config
 homebrew/boneyard/csync:csync
+homebrew/boneyard/cups-pdf:
 homebrew/boneyard/cuty_capt:CutyCapt
 homebrew/boneyard/cvc4:cvc4
 homebrew/boneyard/czmqpp:
@@ -1516,9 +1515,11 @@ homebrew/boneyard/dmtx-utils:dmtxquery dmtxread dmtxwrite
 homebrew/boneyard/dupx:dupx
 homebrew/boneyard/dwarf:dwarf
 homebrew/boneyard/echoping:echoping
+homebrew/boneyard/edelta:edelta
 homebrew/boneyard/eet:eet
 homebrew/boneyard/elementary:elementary_codegen elementary_config elementary_quicklaunch elementary_run elementary_test elm_prefs_cc
 homebrew/boneyard/embryo:embryo_cc
+homebrew/boneyard/esound:esd esd-config esdcat esdctl esdfilt esdloop esdmon esdplay esdrec esdsample
 homebrew/boneyard/evas-generic-loaders:
 homebrew/boneyard/evas:evas_cserve evas_cserve_tool
 homebrew/boneyard/ezlupdate:ezlupdate
@@ -1551,6 +1552,7 @@ homebrew/boneyard/jsdoc-toolkit:jsdoc
 homebrew/boneyard/judy:
 homebrew/boneyard/kjell:kjell
 homebrew/boneyard/lastfmlib:
+homebrew/boneyard/lcab:lcab
 homebrew/boneyard/libdbusmenu-qt:
 homebrew/boneyard/libechonest:
 homebrew/boneyard/libiomp:
@@ -3652,6 +3654,7 @@ kitchen-sync:ks ks_mysql
 kite:build_kdocs ikt kdb kite
 klavaro:klavaro
 knock:knock knockd
+knot-resolver:kresd
 knot:kdig khost knsec3hash knsupdate knotc knotd
 known_hosts:known_hosts
 kobalt:kobaltw
@@ -3693,7 +3696,6 @@ launchctl-completion:
 launchdns:launchdns
 lbdb:lbdb-fetchaddr lbdb_dotlock lbdbq nodelist2lbdb
 lbzip2:lbunzip2 lbzcat lbzip2
-lcab:lcab
 lcdf-typetools:cfftot1 mmafm mmpfb otfinfo otftotfm t1dotlessj t1lint t1rawafm t1reencode t1testpage ttftotype42
 lcdproc:fortune.pl iosock.pl lcdexec lcdident.pl lcdmetar.pl lcdproc lcdvc tail.pl x11amp.pl LCDd
 lci:lci
@@ -4090,6 +4092,7 @@ logrotate:logrotate
 logstalgia:logstalgia
 logstash:logstash
 logtalk:bplgt cxlgt eclipselgt gplgt jiplgt lgt2html lgt2md lgt2pdf lgt2txt lgt2xml logtalk_backend_select logtalk_tester logtalk_user_setup logtalk_version_select lplgt qplgt quintuslgt sicstuslgt swilgt xsblgt xsbmtlgt yaplgt
+lolcat:lolcat
 lolcode:lci
 lorem:lorem
 loudmouth:
