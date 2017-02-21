@@ -1184,6 +1184,7 @@ git-number:git-id git-list git-number
 git-octopus:git-octopus
 git-open:git-open
 git-plus:git-multi git-old-branches git-relation
+git-quick-stats:git-quick-stats
 git-recent:git-recent
 git-remote-hg:git-remote-hg
 git-review:git-review
@@ -1563,6 +1564,7 @@ homebrew/boneyard/libqglviewer:
 homebrew/boneyard/libqxt:
 homebrew/boneyard/libtorrent:
 homebrew/boneyard/luarocks:luarocks luarocks-5.2 luarocks-admin luarocks-admin-5.2
+homebrew/boneyard/malaga:malaga mallex malmake malrul malsym
 homebrew/boneyard/memo:memo
 homebrew/boneyard/miredo:teredo-mire miredo miredo-checkconf miredo-server
 homebrew/boneyard/mysql-connector-odbc:myodbc-installer
@@ -1583,6 +1585,7 @@ homebrew/boneyard/pgtap:pg_prove pg_tapgen prove
 homebrew/boneyard/phash:
 homebrew/boneyard/polygen:polygen
 homebrew/boneyard/powerline:powerline powerline-config powerline-daemon powerline-lint powerline-render
+homebrew/boneyard/probatron4j:probatron
 homebrew/boneyard/puddletag:puddletag
 homebrew/boneyard/pure:pure
 homebrew/boneyard/pylucene:
@@ -1600,6 +1603,7 @@ homebrew/boneyard/rfcdiff:rfcdiff
 homebrew/boneyard/rocket:actool rkt
 homebrew/boneyard/rsense:rsense
 homebrew/boneyard/rtorrent:rtorrent
+homebrew/boneyard/rtpbreak:rtpbreak
 homebrew/boneyard/sam2p:sam2p sam2p_pdf_scale.pl
 homebrew/boneyard/samba:eventlogadm findsmb net nmblookup ntlm_auth pdbedit profiles rpcclient sharesec smbcacls smbclient smbcontrol smbcquotas smbget smbpasswd smbspool smbstatus smbta-util smbtar smbtree tdbbackup tdbdump tdbrestore tdbtool testparm nmbd smbd swat
 homebrew/boneyard/sgfutils:ngf2sgf nip2sgf nk2sgf sgf sgfcharset sgfcheck sgfcmp sgfdb sgfdbinfo sgfinfo sgfmerge sgfsplit sgfstrip sgftf sgftopng sgfvarsplit sgfx ugi2sgf
@@ -2979,6 +2983,7 @@ homebrew/science/maude:maude
 homebrew/science/maxima:maxima rmaxima xmaxima
 homebrew/science/mbsystem:mb7k2jstar mb7k2ss mb7kpreprocess mbabsorption mbareaclean mbauvloglist mbauvnavusbl mbbackangle mbclean mbcopy mbctdlist mbdatalist mbdefaults mbdumpesf mbedit mbeditviz mbextractsegy mbfilter mbformat mbgetesf mbgrdviz mbgrid mbhistogram mbhsdump mbhysweeppreprocess mbinfo mbinsreprocess mbkongsbergpreprocess mblevitus mblist mbm_arc2grd mbm_bpr mbm_copy mbm_grd2arc mbm_grd2geovrml mbm_grd3dplot mbm_grdcut mbm_grdinfo mbm_grdplot mbm_grdtiff mbm_grid mbm_histplot mbm_makedatalist mbm_makesvp mbm_multicopy mbm_multidatalist mbm_multiprocess mbm_plot mbm_route2mission mbm_stat mbm_utm mbm_xbt mbm_xyplot mbmosaic mbnavadjust mbnavadjustmerge mbnavedit mbnavlist mbneptune2esf mbotps mbpreprocess mbprocess mbrollbias mbrolltimelag mbroutetime mbrphsbias mbsegygrid mbsegyinfo mbsegylist mbsegypsd mbset mbsslayout mbstripnan mbsvplist mbsvpselect mbswplspreprocess mbtime mbvelocitytool
 homebrew/science/mcl:clm clmformat clxdo mcl mclblastline mclcm mclpipeline mcx mcxarray mcxassemble mcxdeblast mcxdump mcxi mcxload mcxmap mcxrand mcxsubs
+homebrew/science/med-file:mdump mdump3 medconforme medimport xmdump2 xmdump3
 homebrew/science/megahit:megahit megahit_asm_core megahit_sdbg_build megahit_toolkit
 homebrew/science/megam:megam megam.opt
 homebrew/science/meme:alphtype ama ama-qvalues ame beeml2meme centrimo ceqlogo chen2meme clustalw2fasta clustalw2phylip compute-prior-dist compute-uniform-priors create-priors dreme dust fasta-center fasta-dinucleotide-shuffle fasta-fetch fasta-get-markov fasta-hamming-enrich fasta-make-index fasta-most fasta-shuffle-letters fasta-subsample fasta-unique-names fimo fisher_exact fitevd gendb getsize glam2 glam2format glam2html glam2mask glam2psfm glam2scan glam2scan2html gomo gomo_highlight hart2meme-bkg hartemink2psp iupac2meme jaspar2meme llr mast mast2txt matrix2meme mcast meme meme-chip meme-get-motif meme-rename meme2images meme2meme meme_xml_to_html motiph nmica2meme plotgen pmp_bf priority2meme psp-gen purge qvalue ramen ranksum_test readseq reconcile-tree-alignment reduce-alignment remove-alignment-gaps rna2meme rsat-retrieve-seq rsat-supported-organisms scpd2meme sd sites2meme spamo taipale2meme tamo2meme tomtom transfac2meme uniprobe2meme xsltproc_lite
@@ -3668,6 +3673,7 @@ kpcli:kpcli
 kqwait:kqwait
 ksh:ksh ksh93
 kstart:k5start krenew
+ktmpl:ktmpl
 ktoblzcheck:ktoblzcheck
 kube-aws:kube-aws
 kubernetes-cli:kubectl kubernetes
@@ -4152,7 +4158,6 @@ makepkg:cleanupdelta makepkg makepkg-template pacman pacman-db-upgrade pacman-ke
 makepp:makepp makepp_build_cache_control makeppbuiltin makeppclean makeppgraph makeppinfo makepplog makeppreplay mpp mppb mppbcc mppc mppg mppi mppl mppr
 makeself:makeself
 mal4s:mal4s
-malaga:malaga mallex malmake malrul malsym
 malbolge:malbolge
 mame:mame
 man2html:man2html
@@ -4823,7 +4828,6 @@ prettyping:prettyping
 primesieve:primesieve
 prips:prips
 privoxy:privoxy
-probatron4j:probatron
 procmail:formail lockfile mailstat procmail
 proctools:pfind pgrep pkill
 procyon-decompiler:procyon-decompiler
@@ -5073,7 +5077,6 @@ rtags:gcc-rtags-wrapper.sh rc rdm rp
 rtf2latex2e:rtf2latex2e
 rtmidi:
 rtmpdump:rtmpdump rtmpgw rtmpsrv rtmpsuck
-rtpbreak:rtpbreak
 rtv:rtv
 rubberband:rubberband
 ruby-build:rbenv-install rbenv-uninstall ruby-build
