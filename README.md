@@ -50,7 +50,7 @@ This tool requires one of the following:
 
 * [Bash](https://www.gnu.org/software/bash/) (version 4 and higher)
 * [Fish](https://fishshell.com)
-* [Zsh](http://www.zsh.org)
+* [Zsh](https://www.zsh.org)
 
 Mac OS X ships Bash 3.x so you must upgrade to v4.x and configure it to be used with:
 
