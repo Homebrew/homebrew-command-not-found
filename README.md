@@ -3,11 +3,11 @@
 [![Build Status](https://travis-ci.org/Homebrew/homebrew-command-not-found.svg?branch=master)](https://travis-ci.org/Homebrew/homebrew-command-not-found)
 
 This project reproduces Ubuntu’s `command-not-found` for Homebrew users on
-OS X.
+macOS.
 
 On Ubuntu, when you try to use a command that doesn’t exist locally but is
 available through a package, Bash will suggest you a command to install it.
-Using this script, you can replicate this feature on OS X:
+Using this script, you can replicate this feature on macOS:
 
 ```
 # on Ubuntu
@@ -15,7 +15,7 @@ $ when
 The program 'when' is currently not installed.  You can install it by typing:
 sudo apt-get install when
 
-# on OS X with Homebrew
+# on macOS with Homebrew
 $ when
 The program 'when' is currently not installed. You can install it by typing:
   brew install when
@@ -52,7 +52,7 @@ This tool requires one of the following:
 * [Fish](https://fishshell.com)
 * [Zsh](https://www.zsh.org)
 
-Mac OS X ships Bash 3.x so you must upgrade to v4.x and configure it to be used with:
+macOS ships Bash 3.x so you must upgrade to v4.x and configure it to be used with:
 
 ```bash
 brew update && brew install bash
