@@ -138,8 +138,11 @@ end
 source = ARGV.named.first
 
 unless source
-  source = (Tap.fetch("homebrew", "command-not-found").path/"executables.txt").to_s
-  ohai "Using '#{source}' for the executables list"
+  pwd = Pathname.pwd
+  tap_path = Tap.fetch("homebrew", "command-not-found").path
+  source = (tap_path/"executables.txt")
+  ohai "Using '#{source.relative_path_from(pwd)}' for the executables list" unless pwd == tap_path
+  source.to_s
 end
 
 if ARGV.include? "--stats"
