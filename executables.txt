@@ -895,6 +895,7 @@ epubcheck:epubcheck
 eralchemy:eralchemy
 eris:eris
 erlang:ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
+erlang@18:ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
 es:es
 esniper:esniper
 espeak:espeak
@@ -3325,6 +3326,7 @@ homebrew/science/yass:yass
 homebrew/science/yeppp:
 homebrew/science/zoltan:
 homebrew/tex/auctex:
+homebrew/tex/chktex:chktex chkweb deweb
 homebrew/tex/git-latexdiff:git-latexdiff
 homebrew/tex/latex-mk:ieee-copyout latex-mk
 homebrew/tex/latexdiff:latexdiff latexdiff-vc latexrevise
@@ -3342,8 +3344,6 @@ homebrew/versions/clang-format38:clang-format git-clang-format
 homebrew/versions/docker111:docker
 homebrew/versions/docker171:docker
 homebrew/versions/drush5:drush
-homebrew/versions/erlang-r18:ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
-homebrew/versions/erlang-r19:ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
 homebrew/versions/ffmpeg28:ffmpeg ffprobe ffserver
 homebrew/versions/freetds091:bsqldb datacopy defncopy fisql freebcp osql tdspool tsql
 homebrew/versions/giflib5:gif2raw gif2rgb gifbuild gifclrmp gifecho giffix gifinto giftext giftool
@@ -4491,7 +4491,6 @@ node:node
 node@0.10:node
 node@0.12:node
 node@4:node
-node@5:node
 node@6:node
 nodebrew:nodebrew
 nodeenv:nodeenv
