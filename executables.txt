@@ -242,6 +242,7 @@ batik:batik batik-rasterizer batik-ttf2svg
 bats:bats
 bazaar:bzr
 bazel:bazel bazel-real
+bazel@0.2:bazel
 bbcolors:bbcolors
 bbe:bbe
 bbftp-client:bbftp bbftpstatus
@@ -275,6 +276,7 @@ binkd:binkd binkd-1.0.4
 binutils:gaddr2line gar gc++filt gcoffdump gdlltool gdllwrap gelfedit gnlmconv gnm gobjcopy gobjdump granlib greadelf gsize gsrconv gstrings gstrip gsysdump gwindmc gwindres
 binwalk:binwalk
 bison:bison yacc
+bison@2.7:bison yacc
 bit:bit
 bitchx:BitchX BitchX-1.2.1 scr-bx
 bitlbee:bitlbee
@@ -306,6 +308,7 @@ boost-bcp:bcp
 boost-build:b2 bjam
 boost-mpi:
 boost-python:
+boost-python@1.59:
 boost:
 boost@1.55:
 boost@1.57:
@@ -393,6 +396,8 @@ carthage:carthage
 cask:cask
 casperjs:casperjs
 cassandra:cassandra cassandra-stress cassandra-stressd cqlsh cqlsh.py debug-cql nodetool sstabledump sstableexpiredblockers sstablelevelreset sstableloader sstablemetadata sstableofflinerelevel sstablerepairedset sstablescrub sstablesplit sstableupgrade sstableutil sstableverify
+cassandra@2.1:cassandra cassandra-cli cqlsh debug-cql nodetool sstablekeys sstableloader sstablescrub sstableupgrade
+cassandra@2.2:cassandra cqlsh cqlsh.py debug-cql nodetool sstablekeys sstableloader sstablescrub sstableupgrade sstableverify
 castxml:castxml
 cataclysm:cataclysm
 catimg:catimg
@@ -490,6 +495,7 @@ cksfv:cksfv
 clamav:clamav-config clambc clamconf clamdscan clamdtop clamscan clamsubmit freshclam sigtool clamd
 clamz:clamz
 clang-format:clang-format git-clang-format
+clang-format@3.8:clang-format git-clang-format
 clasp:clasp
 classads:classad_functional_tester classad_functional_tester_ns classad_version classad_version_ns cxi cxi_ns
 clean:clean
@@ -773,6 +779,8 @@ docker-machine-parallels:docker-machine-driver-parallels
 docker-machine:docker-machine
 docker-swarm:docker-swarm
 docker:docker
+docker@1.11:docker
+docker@1.71:docker
 dockutil:dockutil
 dockviz:dockviz
 dockward:dockward
@@ -971,6 +979,7 @@ ffind:ffind
 ffmbc:ffmbc ffprobe-bc
 ffmpeg2theora:ffmpeg2theora
 ffmpeg:ffmpeg ffprobe ffserver
+ffmpeg@2.8:ffmpeg ffprobe ffserver
 ffmpegthumbnailer:ffmpegthumbnailer
 ffms2:ffmsindex
 fftw:fftw-wisdom fftw-wisdom-to-conf fftwf-wisdom fftwl-wisdom
@@ -1050,6 +1059,7 @@ freeradius-server:checkrad rad_counter radclient radconf2xml radcrypt raddebug r
 freerdp:xfreerdp
 freeswitch:freeswitch fs_cli fs_encode fs_ivrd fsxs gentls_cert tone2wav
 freetds:bsqldb datacopy defncopy fisql freebcp osql tdspool tsql
+freetds@0.91:bsqldb datacopy defncopy fisql freebcp osql tdspool tsql
 freetype:freetype-config
 freexl:
 frege-repl:frege-repl
@@ -1161,6 +1171,7 @@ gif2png:gif2png web2png
 gifcap:gifcap
 gifify:gifify
 giflib:gif2rgb gifasm gifbg gifburst gifclip gifclrmp gifcolor gifcomb gifcompose giffiltr giffix gifflip gifhisto gifinfo gifinter gifinto gifovly gifpos gifrotat gifrsize gifspnge giftext gifwedge icon2gif raw2gif rgb2gif text2gif
+giflib@5:gif2rgb gifbuild gifclrmp gifecho giffix gifinto giftext giftool
 giflossy:gifdiff gifsicle
 gifsicle:gifdiff gifsicle
 gimme:gimme
@@ -1233,6 +1244,7 @@ glassfish:
 glbinding:
 glew:glewinfo visualinfo
 glfw:
+glfw@2:
 glib-networking:
 glib:gapplication gdbus gdbus-codegen gio gio-querymodules glib-compile-resources glib-compile-schemas glib-genmarshal glib-gettextize glib-mkenums gobject-query gresource gsettings gtester gtester-report
 glibmm:
@@ -1285,7 +1297,9 @@ gnumeric:gnumeric gnumeric-1.12.27 ssconvert ssdiff ssgrep ssindex
 gnupg-pkcs11-scd:gnupg-pkcs11-scd
 gnupg2:addgnupghome applygnupgdefaults gpg gpg-connect-agent gpg-zip gpg2 gpgconf gpgkey2ssh gpgparsemail gpgsm gpgsm-gencert.sh gpgv gpgv2 kbxutil symcryptrun watchgnupg
 gnupg:gpg-zip1 gpg1 gpgsplit1 gpgv1
+gnupg@2.1:addgnupghome applygnupgdefaults dirmngr dirmngr-client gpg-agent gpg-connect-agent gpg2 gpgconf gpgparsemail gpgscm gpgsm gpgtar gpgv2 kbxutil symcryptrun watchgnupg
 gnuplot:gnuplot
+gnuplot@4:gnuplot
 gnuradio:gnuradio-companion gnuradio-config-info gr-ctrlport-monitor gr-perf-monitorx gr_constellation_plot gr_filter_design gr_modtool gr_plot_char gr_plot_const gr_plot_fft gr_plot_fft_c gr_plot_fft_f gr_plot_float gr_plot_int gr_plot_iq gr_plot_psd gr_plot_psd_c gr_plot_psd_f gr_plot_qt gr_plot_short gr_psd_plot_b gr_psd_plot_c gr_psd_plot_f gr_psd_plot_i gr_psd_plot_s gr_read_file_metadata gr_spectrogram_plot gr_spectrogram_plot_b gr_spectrogram_plot_c gr_spectrogram_plot_f gr_spectrogram_plot_i gr_spectrogram_plot_s gr_time_plot_b gr_time_plot_c gr_time_plot_f gr_time_plot_i gr_time_plot_s gr_time_raster_b gr_time_raster_f grcc uhd_fft uhd_rx_cfile uhd_rx_nogui uhd_siggen uhd_siggen_gui usrp_flex usrp_flex_all usrp_flex_band volk-config-info volk_modtool volk_profile
 gnuski:gnuski
 gnustep-make:
@@ -1343,8 +1357,10 @@ gqlplus:gqlplus
 gqview:gqview
 grace:convcal fdf2fit gracebat grconvert xmgrace
 gradle:gradle
+gradle@2.14:gradle
 grafana:grafana-cli grafana-server
 grails:grails
+grails@2.5:grails startGrails
 grap:grap
 graphene:
 graphicsmagick:GraphicsMagick++-config GraphicsMagick-config GraphicsMagickWand-config gm
@@ -1373,21 +1389,28 @@ gsar:gsar
 gsasl:gsasl
 gsettings-desktop-schemas:
 gsl:gsl-config gsl-histogram gsl-randist
+gsl@1:gsl-config gsl-histogram gsl-randist
 gsmartcontrol:gsmartcontrol gsmartcontrol-root
 gsoap:soapcpp2 wsdl2h
 gspell:
 gssdp:
 gssh:gssh
 gst-editing-services:ges-launch-1.0
+gst-ffmpeg@0.10:
 gst-libav:
 gst-plugins-bad:
+gst-plugins-bad@0.10:
 gst-plugins-base:gst-device-monitor-1.0 gst-discoverer-1.0 gst-play-1.0
+gst-plugins-base@0.10:gst-discoverer-0.10 gst-visualise-0.10
 gst-plugins-good:
+gst-plugins-good@0.10:
 gst-plugins-ugly:
+gst-plugins-ugly@0.10:
 gst-python:
 gst-rtsp-server:
 gst-validate:gst-validate-1.0 gst-validate-launcher gst-validate-media-check-1.0 gst-validate-transcoding-1.0
 gstreamer:gst-inspect-1.0 gst-launch-1.0 gst-stats-1.0 gst-typefind-1.0
+gstreamer@0.10:gst-feedback gst-feedback-0.10 gst-inspect gst-inspect-0.10 gst-launch gst-launch-0.10 gst-typefind gst-typefind-0.10 gst-xmlinspect gst-xmlinspect-0.10 gst-xmllaunch gst-xmllaunch-0.10
 gstreamermm:
 gtef:
 gti:gti
@@ -2035,6 +2058,7 @@ homebrew/php/deployer:dep
 homebrew/php/drupal-code-sniffer:
 homebrew/php/drupalconsole:drupal
 homebrew/php/drush:drush
+homebrew/php/drush@5:drush
 homebrew/php/envoy:envoy
 homebrew/php/ezcomponents:
 homebrew/php/foreman:foreman
@@ -4995,6 +5019,8 @@ redex:apkutil redex redexdump
 redir:redir
 redis-leveldb:redis-leveldb
 redis:redis-benchmark redis-check-aof redis-check-dump redis-cli redis-sentinel redis-server
+redis@2.6:redis-benchmark redis-check-aof redis-check-dump redis-cli redis-server
+redis@2.8:redis28-benchmark redis28-check-aof redis28-check-dump redis28-cli redis28-sentinel redis28-server
 redland:rdfproc redland-config redland-db-upgrade
 redo:redo redo-always redo-ifchange redo-ifcreate redo-ood redo-sources redo-stamp redo-targets redo-unlocked
 redpen:redpen
@@ -5082,6 +5108,12 @@ ruby-build:rbenv-install rbenv-uninstall ruby-build
 ruby-completion:
 ruby-install:ruby-install
 ruby:erb gem irb rake rdoc ri ruby
+ruby@1.8:erb gem irb rdoc ri ruby testrb
+ruby@1.9:erb gem irb rake rdoc ri ruby testrb
+ruby@2.0:erb gem irb rake rdoc ri ruby testrb
+ruby@2.1:erb gem irb rake rdoc ri ruby testrb
+ruby@2.2:erb gem irb rake rdoc ri ruby
+ruby@2.3:erb gem irb rake rdoc ri ruby
 runcocoa:runc runcocoa
 runit:chpst runit runit-init runsv runsvchdir runsvdir sv svlogd utmpset
 rush:rushlast rushwho rush
