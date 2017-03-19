@@ -1480,6 +1480,7 @@ hatari:hatari
 haxe:haxe haxelib
 hayai:
 hbase:hbase start-hbase.sh stop-hbase.sh
+hdf@4:gif2hdf hdf24to8 hdf2gif hdf2jpeg hdf8to24 hdfcomp hdfed hdfimport hdfls hdfpack hdftopal hdftor8 hdfunpac hdiff hdp hrepack hrepack_check jpeg2hdf paltohdf r8tohdf ristosds vmake vshow
 headphones:headphones
 hebcal:hebcal
 hello:hello
@@ -3514,6 +3515,7 @@ imgur-screenshot:imgur-screenshot.sh
 imlib2:imlib2-config imlib2_bumpmap imlib2_colorspace imlib2_conv imlib2_grab imlib2_poly imlib2_show imlib2_test imlib2_view
 infer:infer
 influxdb:influx influxd
+influxdb@0.8:influxdb
 inform6:inform
 iniparser:
 innoextract:innoextract
@@ -3584,6 +3586,7 @@ jbig2dec:jbig2dec
 jbig2enc:jbig2 pdf.py
 jbigkit:jbgtopbm jbgtopbm85 pbmtojbg pbmtojbg85
 jboss-as:
+jboss-as@5:
 jboss-forge:forge
 jcal:jcal jdate
 jdnssec-tools:jdnssec-dstool jdnssec-keygen jdnssec-keyinfo jdnssec-signkeyset jdnssec-signrrset jdnssec-signzone jdnssec-verifyzone jdnssec-zoneformat
@@ -3591,12 +3594,14 @@ jed:jed jed-script
 jemalloc:jemalloc-config jemalloc.sh jeprof
 jena:arq infer iri juuid nquads ntriples qparse rdfcat rdfcompare rdfcopy rdfparse rdfxml riot rset rsparql rupdate schemagen sparql tdbbackup tdbdump tdbloader tdbloader2 tdbloader2worker tdbquery tdbstats tdbupdate trig turtle uparse update utf8 wwwdec wwwenc
 jenkins-job-builder:jenkins-jobs
+jenkins-lts:jenkins-lts jenkins-lts-cli
 jenkins:jenkins jenkins-cli
 jenv:jenv
 jerasure:cauchy_01 cauchy_02 cauchy_03 cauchy_04 decoder encoder jerasure_01 jerasure_02 jerasure_03 jerasure_04 jerasure_05 jerasure_06 jerasure_07 jerasure_08 liberation_01 reed_sol_01 reed_sol_02 reed_sol_03 reed_sol_04 reed_sol_test_gf reed_sol_time_gf
 jerm:jerm tiocdtr
 jetty-runner:jetty-runner
 jetty:jetty
+jetty@8:jetty jetty-cygwin jetty-xinetd
 jflex:jflex
 jfrog-cli-go:jfrog
 jhead:jhead
@@ -3620,6 +3625,8 @@ jpcsp:jpcsp
 jpeg-archive:jpeg-archive jpeg-compare jpeg-hash jpeg-recompress
 jpeg-turbo:cjpeg djpeg jpegtran rdjpgcom tjbench wrjpgcom
 jpeg:cjpeg djpeg jpegtran rdjpgcom wrjpgcom
+jpeg@6:cjpeg djpeg jpegtran rdjpgcom wrjpgcom
+jpeg@9:cjpeg djpeg jpegtran rdjpgcom wrjpgcom
 jpeginfo:jpeginfo
 jpegoptim:jpegoptim
 jpegrescan:jpegrescan
@@ -3670,6 +3677,8 @@ keychain:keychain
 khal:ikhal khal
 khard:davcontroller khard
 kibana:kibana
+kibana@4.1:kibana
+kibana@4.4:kibana
 kimwitu++:kc++
 kitchen-completion:
 kitchen-sync:ks ks_mysql
@@ -3694,6 +3703,7 @@ ktmpl:ktmpl
 ktoblzcheck:ktoblzcheck
 kube-aws:kube-aws
 kubernetes-cli:kubectl kubernetes
+kubernetes-cli@1.3:kubectl
 kubernetes-helm:helm
 kvazaar:kvazaar
 kyoto-cabinet:kccachetest kcdirmgr kcdirtest kcforestmgr kcforesttest kcgrasstest kchashmgr kchashtest kclangctest kcpolymgr kcpolytest kcprototest kcstashtest kctreemgr kctreetest kcutilmgr kcutiltest
@@ -4583,6 +4593,7 @@ open-completion:
 open-jtalk:hts_engine open_jtalk
 open-mesh:
 open-mpi:mpic++ mpicc mpicxx mpiexec mpif77 mpif90 mpifort mpirun ompi-clean ompi-dvm ompi-ps ompi-server ompi-submit ompi-top ompi_info opal_wrapper orte-clean orte-dvm orte-info orte-ps orte-server orte-submit orte-top ortecc orted orterun
+open-mpi@1.6:mpic++ mpic++-vt mpicc mpicc-vt mpicxx mpicxx-vt mpiexec mpif77 mpif77-vt mpif90 mpif90-vt mpirun ompi-clean ompi-iof ompi-probe ompi-profiler ompi-ps ompi-server ompi-top ompi_info opal_wrapper orte-bootproxy.sh orte-clean orte-iof orte-ps orte-top orte_wrapper_script ortec++ ortecc orted orterun otfaux otfcompress otfconfig otfdecompress otfinfo otfmerge otfmerge-mpi otfprint otfprofile otfprofile-mpi otfshrink vtc++ vtcc vtcxx vtf77 vtf90 vtfilter vtfilter-mpi vtfiltergen vtfiltergen-mpi vtfort vtrun vtsetup vtsetup.jar vtunify vtunify-mpi vtwrapper
 open-ocd:openocd
 open-scene-graph:osgarchive osgconv osgfilecache osgversion osgviewer present3D
 open-sp:onsgmls osgmlnorm ospam ospcat ospent osx
@@ -4725,10 +4736,14 @@ pelikan:pelikan_pingserver pelikan_slimcache pelikan_twemcache
 perceptualdiff:perceptualdiff
 percol:percol
 percona-server:innochecksum msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_client_test_embedded mysql_config mysql_config_editor mysql_convert_table_format mysql_embedded mysql_find_rows mysql_fix_extensions mysql_install_db mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysql_zap mysqladmin mysqlbinlog mysqlbug mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest mysqltest_embedded perror ps_tokudb_admin replace resolve_stack_dump resolveip
+percona-server@5.5:innochecksum msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_config mysql_convert_table_format mysql_find_rows mysql_fix_extensions mysql_install_db mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysql_zap mysqladmin mysqlbinlog mysqlbug mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest perror replace resolve_stack_dump resolveip
+percona-server@5.6:innochecksum msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_client_test_embedded mysql_config mysql_config_editor mysql_convert_table_format mysql_embedded mysql_find_rows mysql_fix_extensions mysql_install_db mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysql_zap mysqladmin mysqlbinlog mysqlbug mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest mysqltest_embedded perror ps_tokudb_admin replace resolve_stack_dump resolveip
 percona-toolkit:pt-align pt-archiver pt-config-diff pt-deadlock-logger pt-diskstats pt-duplicate-key-checker pt-fifo-split pt-find pt-fingerprint pt-fk-error-logger pt-heartbeat pt-index-usage pt-ioprofile pt-kill pt-mext pt-mysql-summary pt-online-schema-change pt-pmp pt-query-digest pt-show-grants pt-sift pt-slave-delay pt-slave-find pt-slave-restart pt-stalk pt-summary pt-table-checksum pt-table-sync pt-table-usage pt-upgrade pt-variable-advisor pt-visual-explain
 percona-xtrabackup:innobackupex xbcloud xbcloud_osenv xbcrypt xbstream xtrabackup
 perl-build:perl-build plenv-install plenv-uninstall
 perl:c2ph corelist cpan enc2xs encguess h2ph h2xs instmodsh json_pp libnetcfg perl perl5.24.1 perlbug perldoc perlivp perlthanks piconv pl2pm pod2html pod2man pod2text pod2usage podchecker podselect prove pstruct ptar ptardiff ptargrep shasum splain xsubpp zipdetails
+perl@5.14:a2p c2ph config_data corelist cpan cpan2dist cpanp cpanp-run-perl dprofpp enc2xs find2perl h2ph h2xs instmodsh json_pp libnetcfg perl perl5.14.4 perlbug perldoc perlivp perlthanks piconv pl2pm pod2html pod2latex pod2man pod2text pod2usage podchecker podselect prove psed pstruct ptar ptardiff ptargrep s2p shasum splain xsubpp
+perl@5.18:a2p c2ph config_data corelist cpan cpan2dist cpanp cpanp-run-perl enc2xs find2perl h2ph h2xs instmodsh json_pp libnetcfg perl perl5.18.2 perlbug perldoc perlivp perlthanks piconv pl2pm pod2html pod2latex pod2man pod2text pod2usage podchecker podselect prove psed pstruct ptar ptardiff ptargrep s2p shasum splain xsubpp zipdetails
 pev:ofs2rva pedis pehash pepack peres pescan pesec pestr readpe rva2ofs
 pex:pex
 pg_top:pg_top
@@ -4746,6 +4761,7 @@ pgrouting:
 pgtoolkit:pgcompact
 pgtune:pgtune
 phantomjs:phantomjs
+phantomjs@1.92:phantomjs
 phoon:phoon
 phoronix-test-suite:phoronix-test-suite
 physfs:test_physfs
@@ -4790,6 +4806,7 @@ planck:planck
 plantuml:plantuml
 platformio:pio platformio
 platypus:platypus
+play@1.4:play
 pldebugger:
 plenv:plenv
 plod:plod
