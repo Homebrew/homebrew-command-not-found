@@ -109,6 +109,7 @@ app-engine-go-64:appcfg.py bulkload_client.py bulkloader.py dev_appserver.py dow
 app-engine-java:appcfg.sh dev_appserver.sh endpoints.sh google_sql.sh run_java.sh
 app-engine-python:_php_runtime.py _python_runtime.py api_server.py appcfg.py bulkload_client.py bulkloader.py dev_appserver.py download_appstats.py endpointscfg.py gen_protorpc.py google_sql.py remote_api_shell.py
 apparix:apparix
+apple-gcc42:c++-4.2 cpp-4.2 g++-4.2 gcc-4.2 gcov-4.2 gfortran-4.2 i686-apple-darwin11-cpp-4.2.1 i686-apple-darwin11-g++-4.2.1 i686-apple-darwin11-gcc-4.2.1 i686-apple-darwin11-gfortran-4.2.1
 appledoc:appledoc
 appscale-tools:appscale appscale-add-instances appscale-add-keypair appscale-describe-instances appscale-gather-logs appscale-get-property appscale-relocate-app appscale-remove-app appscale-reset-pwd appscale-run-instances appscale-set-property appscale-terminate-instances appscale-upgrade appscale-upload-app
 apr-util:apu-1-config
@@ -199,6 +200,7 @@ avro-c:avroappend avrocat avromod avropipe
 avro-cpp:avrogencpp
 avro-tools:avro-tools
 awf:awf-gtk2 awf-gtk3
+awk:awk
 aws-apigateway-importer:aws-api-import
 aws-cfn-tools:cfn-cancel-update-stack cfn-cmd cfn-create-stack cfn-delete-stack cfn-describe-stack-events cfn-describe-stack-resource cfn-describe-stack-resources cfn-describe-stacks cfn-get-template cfn-list-stack-resources cfn-list-stacks cfn-update-stack cfn-validate-template cfn-version
 aws-cloudsearch:cs-cmd cs-configure-from-batches cs-import-documents
@@ -245,6 +247,7 @@ bazel@0.2:bazel
 bbcolors:bbcolors
 bbe:bbe
 bbftp-client:bbftp bbftpstatus
+bc:bc dc
 bchunk:bchunk
 bcpp:bcpp cb++
 bcrypt:bcrypt
@@ -356,6 +359,7 @@ bwm-ng:bwm-ng
 byacc:byacc
 byobu:byobu byobu-config byobu-ctrl-a byobu-disable byobu-disable-prompt byobu-enable byobu-enable-prompt byobu-export byobu-janitor byobu-keybindings byobu-launch byobu-launcher byobu-launcher-install byobu-launcher-uninstall byobu-layout byobu-prompt byobu-quiet byobu-reconnect-sockets byobu-screen byobu-select-backend byobu-select-profile byobu-select-session byobu-shell byobu-silent byobu-status byobu-status-detail byobu-tmux byobu-ugraph byobu-ulevel col1 ctail manifest purge-old-kernels vigpg wifi-status
 byteman:bmcheck bminstall bmjava bmsubmit bytemancheck
+bzip2:bunzip2 bzcat bzcmp bzdiff bzegrep bzfgrep bzgrep bzip2 bzip2recover bzless bzmore
 bzr-builder:
 bzr-colo:
 bzr-externals:
@@ -729,7 +733,9 @@ dieharder:dieharder
 diff-pdf:diff-pdf
 diff-so-fancy:diff-highlight diff-so-fancy
 diffoscope:diffoscope
+diffstat:diffstat
 diffuse:diffuse
+diffutils:cmp diff diff3 sdiff
 digdag:digdag
 digitemp:digitemp_DS2490 digitemp_DS9097 digitemp_DS9097U
 dirac:BMPtoRGB create_dirac_testfile.pl dirac_decoder dirac_encoder dirac_instrumentation RGBtoBMP RGBtoUYVY RGBtoYUV411 RGBtoYUV420 RGBtoYUV422 RGBtoYUV444 UYVYtoRGB UYVYtoYUV422 YUV411toRGB YUV420Down2x2 YUV420ItoYUV422I YUV420pt75filter YUV420toRGB YUV420toYUV422 YUV422ItoYUV420I YUV422toRGB YUV422toUYVY YUV422toYUV420 YUV444toRGB
@@ -856,6 +862,7 @@ echoprint-codegen:echoprint-codegen
 ecj:
 ecl:ecl ecl-config
 ecm:ecm unecm
+ed:ged gred
 editorconfig:editorconfig editorconfig-0.12.0
 efl:diffeet ecore_evas_convert edje_cc edje_codegen edje_decc edje_external_inspector edje_inspector edje_pick edje_player edje_recc edje_watch eet eetpack efreetd eina-bench-cmp eldbus-codegen elua embryo_cc eolian_cxx eolian_gen ethumb ethumbd ethumbd_client vieet
 eg:eg
@@ -933,6 +940,7 @@ exiv2:exiv2
 exodriver:
 exomizer:b2membuf exobasic exomizer exoraw
 expat:xmlwf
+expect:autoexpect autopasswd cryptdir decryptdir dislocate expect ftp-rfc kibitz lpunlock mkpasswd multixterm passmass rftp rlogin-cwd timed-read timed-run tknewsbiff tkpasswd unbuffer weather xkibitz xpstat
 exploitdb:searchsploit
 extract_url:extract_url
 exult:exult
@@ -985,6 +993,7 @@ fibjs:fibjs
 ficy:fIcy fPls fResync
 fifechan:
 figlet:chkfont figlet figlist showfigfonts
+file-formula:file
 file-roller:file-roller
 filebeat:filebeat
 finatra:finatra
@@ -1296,9 +1305,7 @@ gnu-units:gunits gunits_cur
 gnu-which:gwhich
 gnumeric:gnumeric gnumeric-1.12.27 ssconvert ssdiff ssgrep ssindex
 gnupg-pkcs11-scd:gnupg-pkcs11-scd
-gnupg2:addgnupghome applygnupgdefaults gpg gpg-connect-agent gpg-zip gpg2 gpgconf gpgkey2ssh gpgparsemail gpgsm gpgsm-gencert.sh gpgv gpgv2 kbxutil symcryptrun watchgnupg
-gnupg:gpg-zip1 gpg1 gpgsplit1 gpgv1
-gnupg@2.1:addgnupghome applygnupgdefaults dirmngr dirmngr-client gpg-agent gpg-connect-agent gpg2 gpgconf gpgparsemail gpgscm gpgsm gpgtar gpgv2 kbxutil symcryptrun watchgnupg
+gnupg:addgnupghome applygnupgdefaults dirmngr dirmngr-client gpg gpg-agent gpg-connect-agent gpg2 gpgconf gpgparsemail gpgscm gpgsm gpgtar gpgv gpgv2 kbxutil symcryptrun watchgnupg
 gnuplot:gnuplot
 gnuplot@4:gnuplot
 gnuradio:gnuradio-companion gnuradio-config-info gr-ctrlport-monitor gr-perf-monitorx gr_constellation_plot gr_filter_design gr_modtool gr_plot_char gr_plot_const gr_plot_fft gr_plot_fft_c gr_plot_fft_f gr_plot_float gr_plot_int gr_plot_iq gr_plot_psd gr_plot_psd_c gr_plot_psd_f gr_plot_qt gr_plot_short gr_psd_plot_b gr_psd_plot_c gr_psd_plot_f gr_psd_plot_i gr_psd_plot_s gr_read_file_metadata gr_spectrogram_plot gr_spectrogram_plot_b gr_spectrogram_plot_c gr_spectrogram_plot_f gr_spectrogram_plot_i gr_spectrogram_plot_s gr_time_plot_b gr_time_plot_c gr_time_plot_f gr_time_plot_i gr_time_plot_s gr_time_raster_b gr_time_raster_f grcc uhd_fft uhd_rx_cfile uhd_rx_nogui uhd_siggen uhd_siggen_gui usrp_flex usrp_flex_all usrp_flex_band volk-config-info volk_modtool volk_profile
@@ -1339,7 +1346,9 @@ govendor:govendor
 gowsdl:gowsdl
 gpa:gpa
 gpac:MP42TS MP4Box MP4Client
+gpatch:patch
 gpcslots2:gpcslots2
+gperf:gperf
 gperftools:pprof
 gpg-agent:gpg-agent
 gpgme:gpgme-config gpgme-tool
@@ -1369,11 +1378,13 @@ graphite2:gr2fonttest
 graphviz:acyclic bcomps ccomps circo cluster dijkstra dot dot2gxl dot_builtins edgepaint fdp gc gml2gv graphml2gv gv2gml gv2gxl gvcolor gvgen gvmap gvpack gvpr gxl2dot gxl2gv mm2gv neato nop osage patchwork prune sccmap sfdp tred twopi unflatten
 grc:grc grcat
 greed:greed
+grep:gegrep gfgrep ggrep
 grepcidr:grepcidr
 grib-api:big2gribex gg_sub_area_check grib1to2 grib2ppm grib_add grib_cmp grib_compare grib_convert grib_copy grib_corruption_check grib_count grib_debug grib_distance grib_dump grib_error grib_filter grib_get grib_get_data grib_histogram grib_index_build grib_info grib_keys grib_list_keys grib_ls grib_moments grib_packing grib_parser grib_repair grib_set grib_to_json tigge_accumulations tigge_check tigge_name tigge_split
 griffon:griffon griffon-debug griffonsh startGriffon
 gringo:clingo gringo reify
 grip:grip
+groff:addftinfo afmtodit chem eqn eqn2graph gdiffmk glilypond gperl gpinyin grap2graph grn grodvi groff groffer grog grolbp grolj4 gropdf grops grotty hpftodit indxbib lkbib lookbib mmroff neqn nroff pdfmom pdfroff pfbtops pic pic2graph post-grohtml pre-grohtml preconv refer roff2dvi roff2html roff2pdf roff2ps roff2text roff2x soelim tbl tfmtodit troff
 grok:discogrok grok
 gron:gron
 groonga:grndb groonga groonga-benchmark groonga-httpd groonga-httpd-restart groonga-suggest-create-dataset
@@ -1452,6 +1463,7 @@ gwyddion:gwyddion gwyddion-thumbnailer
 gx-go:gx-go
 gx:gx
 gxml:
+gzip:gunzip gzexe gzip uncompress zcat zcmp zdiff zegrep zfgrep zforce zgrep zless zmore znew
 gzrt:gzrecover
 h264bitstream:h264_analyze
 h2:h2
@@ -3680,6 +3692,7 @@ kore:kore
 kotlin:kotlin kotlinc kotlinc-js kotlinc-jvm
 kpcli:kpcli
 kqwait:kqwait
+krb5:compile_et gss-client gss-server k5srvutil kadmin kadmin.local kadmind kdb5_util kdestroy kinit klist kpasswd kprop kpropd kproplog krb5-config krb5-send-pr krb5kdc kswitch ktutil kvno sclient sim_client sim_server sserver uuclient uuserver
 ksh:ksh ksh93
 kstart:k5start krenew
 ktmpl:ktmpl
@@ -3738,6 +3751,7 @@ lemon:lemon
 lensfun:g-lensfun-update-data lensfun-add-adapter lensfun-update-data
 lepton:lepton lepton-avx lepton-slow-best-ratio
 leptonica:convertfilestopdf convertfilestops convertformat convertsegfilestopdf convertsegfilestops converttopdf converttops fileinfo printimage printsplitimage printtiff splitimage2pdf xtractprotos
+less:less lessecho lesskey
 lesspipe:code2color lesspipe.sh sxw2txt tarcolor
 lesstif:motif-config mwm mxmkmf uil xmbind
 leveldb:leveldbutil
@@ -3806,6 +3820,7 @@ libdvdnav:
 libdvdread:
 libebml:
 libebur128:
+libedit:
 libelf:
 libepoxy:
 liberasurecode:
@@ -3868,6 +3883,7 @@ libhttpseverywhere:
 libical-glib:
 libical:
 libicns:icns2png icontainer2icns png2icns
+libiconv:iconv
 libid3tag:
 libident:
 libidl:libIDL-config-2
@@ -3947,6 +3963,7 @@ libowfat:
 libp11:
 libpagemaker:pmd2raw pmd2svg
 libpano:panoinfo PTAInterpolate PTblender PTcrop PTinfo PTmasker PTmender PToptimizer PTroller PTtiff2psd PTtiffdump PTuncrop
+libpcap:pcap-config
 libpcl:
 libpeas:peas-demo
 libpgm:
@@ -4124,6 +4141,7 @@ lrzip:lrunzip lrzcat lrzip lrztar lrzuntar
 lrzsz:lrb lrx lrz lsb lsx lsz rz sz
 lsdvd:lsdvd
 lsh:lcp lsftp lsh lsh-authorize lsh-decode-key lsh-decrypt-key lsh-export-key lsh-keygen lsh-make-seed lsh-upgrade lsh-upgrade-key lsh-writekey lshg srp-gen ssh-conv lsh-execuv lsh-pam-checkpw lshd sftp-server
+lsof:lsof
 lsyncd:lsyncd
 ltc-tools:jltc2mtc jltcdump jltcgen ltcdump ltcgen
 ltl2ba:ltl2ba
@@ -4153,6 +4171,7 @@ lzo:
 lzop:lzop
 m-cli:m
 m2c:m2c
+m4:m4
 mac-robber:mac-robber
 mackup:mackup
 macosvpn:macosvpn
@@ -4424,6 +4443,7 @@ nagios:nagios nagiostats
 nailgun:ng ng-server
 namazu:adnmz bnamazu gcnmz kwnmz lnnmz mailutime mknmz namazu nmz-config nmzcat nmzegrep nmzgrep nmzmerge rfnmz vfnmz
 namebench:namebench namebench.py
+nano:nano rnano
 nanomsg:nanocat nn_bus nn_pair nn_pub nn_pull nn_push nn_rep nn_req nn_respondent nn_sub nn_surveyor
 nanomsgxx:
 nanopb-generator:nanopb_generator protoc-gen-nanopb
@@ -4441,8 +4461,10 @@ ncdu:ncdu
 ncftp:ncftp ncftpbatch ncftpbookmarks ncftpget ncftpls ncftpput ncftpspooler
 ncmpc:ncmpc
 ncmpcpp:ncmpcpp
+ncompress:compress uncompress zcat zcmp zdiff zmore
 ncp:ncp npoll npush
 ncrack:ncrack
+ncurses:captoinfo clear infocmp infotocap ncurses6-config ncursesw6-config reset tabs tic toe tput tset
 ndenv:ndenv
 ndiff:ndiff
 ndpi:ndpiReader
@@ -5102,6 +5124,7 @@ rsnapshot:rsnapshot rsnapshot-diff
 rssh:rssh
 rsstail:rsstail
 rswift:rswift
+rsync:rsync
 rsyslog:msggen rsyslog_diag_hostname rsyslogd zpipe
 rt-audio:
 rtags:gcc-rtags-wrapper.sh rc rdm rp
@@ -5165,6 +5188,7 @@ scm-manager:scm-cli-client scm-server
 scmpuff:scmpuff
 scons:scons scons-configure-cache scons-time sconsign
 scour:scour
+screen:screen screen-4.5.1
 screenfetch:screenfetch
 screenresolution:screenresolution
 scriptcs:scriptcs
@@ -5366,6 +5390,7 @@ sratom:
 src:src
 srclib:src
 srecord:srec_cat srec_cmp srec_info
+srm:fill_test srm
 srmio:srmcmd srmdump srmsync
 srtp:
 ssdb:ssdb-bench ssdb-dump ssdb-ins.sh ssdb-repair ssdb-server
@@ -5493,6 +5518,7 @@ tbox:
 tcc:tcc tiny_libmaker
 tccutil:tccutil
 tclap:
+tcpdump:tcpdump tcpdump.4.9.0
 tcpflow:tcpflow
 tcping:tcping
 tcpkali:tcpkali
@@ -5690,6 +5716,7 @@ unrar:unrar
 unrtf:unrtf
 unshield:
 unyaffs:unyaffs
+unzip:funzip unzip unzipsfx zipgrep zipinfo
 upscaledb:ham_bench ham_dump ham_export ham_import ham_info ham_recover hamzilla
 uptimed:uprecords uptimed
 upx:upx
@@ -5815,6 +5842,7 @@ when:when
 whirr:whirr
 whitedb:wgdb
 whohas:whohas
+whois:whois
 widelands:widelands
 wifi-password:wifi-password
 wiggle:wiggle
@@ -5886,6 +5914,7 @@ xml2:2csv 2html 2xml csv2 html2 xml2
 xmlcatmgr:xmlcatmgr
 xmlformat:xmlformat
 xmlrpc-c:xmlrpc-c-config
+xmlsectool:xmlsectool
 xmlsh:xmlsh
 xmlstarlet:xml xmlstarlet
 xmlto:xmlif xmlto
@@ -5964,6 +5993,7 @@ zimg:
 zinc:zinc
 zint:zint
 zita-convolver:
+zlib:
 zmap:zblacklist zmap ztee
 zmqpp:
 znapzend:znapzend znapzendzetup znapzendztatz
