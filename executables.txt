@@ -1306,6 +1306,8 @@ gnu-which:gwhich
 gnumeric:gnumeric gnumeric-1.12.27 ssconvert ssdiff ssgrep ssindex
 gnupg-pkcs11-scd:gnupg-pkcs11-scd
 gnupg:addgnupghome applygnupgdefaults dirmngr dirmngr-client gpg gpg-agent gpg-connect-agent gpg2 gpgconf gpgparsemail gpgscm gpgsm gpgtar gpgv gpgv2 kbxutil symcryptrun watchgnupg
+gnupg@1.4:gpg-zip1 gpg1 gpgsplit1 gpgv1
+gnupg@2.0:addgnupghome applygnupgdefaults gpg gpg-connect-agent gpg-zip gpg2 gpgconf gpgkey2ssh gpgparsemail gpgsm gpgsm-gencert.sh gpgv gpgv2 kbxutil symcryptrun watchgnupg
 gnuplot:gnuplot
 gnuplot@4:gnuplot
 gnuradio:gnuradio-companion gnuradio-config-info gr-ctrlport-monitor gr-perf-monitorx gr_constellation_plot gr_filter_design gr_modtool gr_plot_char gr_plot_const gr_plot_fft gr_plot_fft_c gr_plot_fft_f gr_plot_float gr_plot_int gr_plot_iq gr_plot_psd gr_plot_psd_c gr_plot_psd_f gr_plot_qt gr_plot_short gr_psd_plot_b gr_psd_plot_c gr_psd_plot_f gr_psd_plot_i gr_psd_plot_s gr_read_file_metadata gr_spectrogram_plot gr_spectrogram_plot_b gr_spectrogram_plot_c gr_spectrogram_plot_f gr_spectrogram_plot_i gr_spectrogram_plot_s gr_time_plot_b gr_time_plot_c gr_time_plot_f gr_time_plot_i gr_time_plot_s gr_time_raster_b gr_time_raster_f grcc uhd_fft uhd_rx_cfile uhd_rx_nogui uhd_siggen uhd_siggen_gui usrp_flex usrp_flex_all usrp_flex_band volk-config-info volk_modtool volk_profile
@@ -3494,6 +3496,7 @@ leafnode:leafnode-version newsq applyfilter checkgroups fetchnews leafnode texpi
 lean-cli:lean
 leaps:leaps
 ledger:ledger
+ledger@2.6:ledger
 ledit:ledit
 legit:legit
 lego:lego
@@ -3721,9 +3724,11 @@ libpgm:
 libphonenumber:
 libplist:plistutil
 libpng:libpng-config libpng16-config png-fix-itxt pngfix
+libpng@1.2:libpng-config libpng12-config
 libpointing:
 libpoker-eval:
 libpqxx:pqxx-config
+libpqxx@3:pqxx-config
 libprotoident:lpi_arff lpi_find_unknown lpi_live lpi_protoident
 libproxy:proxy
 libpst:lspst nick2ldif pst2ldif readpst
@@ -3833,6 +3838,7 @@ libxmi:
 libxml++3:
 libxml++:
 libxml2:xml2-config xmlcatalog xmllint
+libxml2@2.7:xml2-config xmlcatalog xmllint
 libxmlsec1:xmlsec1 xmlsec1-config
 libxmp-lite:
 libxmp:
@@ -3880,6 +3886,7 @@ logentries:le
 logrotate:logrotate
 logstalgia:logstalgia
 logstash:logstash
+logstash@2.4:logstash logstash-plugin
 logtalk:bplgt cxlgt eclipselgt gplgt jiplgt lgt2html lgt2md lgt2pdf lgt2txt lgt2xml logtalk_backend_select logtalk_tester logtalk_user_setup logtalk_version_select lplgt qplgt quintuslgt sicstuslgt swilgt xsblgt xsbmtlgt yaplgt
 lolcat:lolcat
 lolcode:lci
@@ -3950,6 +3957,7 @@ man2html:man2html
 mandoc:bsdapropos bsdman bsdwhatis demandoc mandoc manpage bsdmakewhatis
 mapcrafter:mapcrafter mapcrafter_export mapcrafter_markers mapcrafter_png-it.py mapcrafter_textures.py
 mapnik:mapnik-config shapeindex
+mapnik@2:mapnik-config mapnik-speed-check shapeindex upgrade_map_xml.py
 mapserver:legend mapserv mapserver-config msencrypt scalebar shp2img shptree shptreetst shptreevis sortshp tile4ms
 mariadb-connector-c:mariadb_config
 mariadb:aria_chk aria_dump_log aria_ftdump aria_pack aria_read_log innochecksum msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_config mysql_convert_table_format mysql_find_rows mysql_fix_extensions mysql_install_db mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysql_zap mysqlaccess mysqladmin mysqlbinlog mysqlbug mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest mytop perror rcmysql replace resolve_stack_dump resolveip
@@ -3963,6 +3971,8 @@ matlab2tikz:
 maven-completion:
 maven-shell:mvnsh
 maven:mvn mvn.cmd mvnDebug mvnDebug.cmd mvnyjp
+maven@3.1:mvn mvnDebug mvnyjp
+maven@3.2:mvn mvnDebug mvnyjp
 mawk:mawk
 mbedtls:aescrypt2 cert_app cert_req cert_write crl_app crypt_and_hash dh_client dh_genprime dh_server dtls_client dtls_server gen_entropy gen_key gen_random_ctr_drbg gen_random_havege generic_sum key_app mbedtls-benchmark mbedtls-selftest mini_client pem2der pk_decrypt pk_encrypt pk_sign pk_verify req_app rsa_decrypt rsa_encrypt rsa_genkey rsa_sign rsa_verify ssl_cert_test ssl_client1 ssl_client2 ssl_fork_server ssl_mail_client ssl_pthread_server ssl_server strerror udp_proxy
 mbelib:
@@ -4091,6 +4101,8 @@ mongo-c-driver:mongoc-stat
 mongo-cxx-driver:
 mongo-orchestration:mongo-orchestration
 mongodb:bsondump mongo mongod mongodump mongoexport mongofiles mongoimport mongooplog mongoperf mongorestore mongos mongosniff mongostat mongotop
+mongodb@3.0:bsondump mongo mongod mongodump mongoexport mongofiles mongoimport mongooplog mongoperf mongorestore mongos mongosniff mongostat mongotop
+mongodb@3.2:bsondump mongo mongod mongodump mongoexport mongofiles mongoimport mongooplog mongoperf mongorestore mongos mongosniff mongostat mongotop
 mongoose:mongoose
 mongrel2:m2sh mongrel2 procer
 mongroup:mongroup
@@ -4974,6 +4986,7 @@ sec:sec
 seexpr:asciiCalc asciiGraph imageSynth
 selecta:selecta
 selenium-server-standalone:selenium-server
+selenium-server-standalone@2.45:selenium-server
 sendemail:sendEmail
 ser2net:ser2net
 serd:serdi
@@ -5080,6 +5093,8 @@ softhsm:softhsm softhsm-keyconv
 solarus:solarus-run
 solid:
 solr:solr
+solr@5.4:oom_solr.sh post solr
+solr@5.5:oom_solr.sh post solr
 somagic-tools:somagic-extract-firmware
 somagic:somagic-capture somagic-init
 sonar-completion:
@@ -5144,6 +5159,7 @@ srecord:srec_cat srec_cmp srec_info
 srm:fill_test srm
 srmio:srmcmd srmdump srmsync
 srtp:
+srtp@1.5:
 ssdb:ssdb-bench ssdb-dump ssdb-ins.sh ssdb-repair ssdb-server
 ssdeep:ssdeep
 ssed:ssed
@@ -5200,6 +5216,7 @@ subliminal:subliminal
 submarine:submarine
 subnetcalc:subnetcalc
 subversion:svn svnadmin svnbench svndumpfilter svnfsfs svnlook svnmucc svnrdump svnserve svnsync svnversion
+subversion@1.8:svn svnadmin svndumpfilter svnlook svnmucc svnrdump svnserve svnsync svnversion
 suil:
 supermodel:supermodel
 supersonic:
@@ -5223,6 +5240,8 @@ swiftgen:swiftgen-assets swiftgen-colors swiftgen-l10n swiftgen-storyboard
 swiftlint:swiftlint
 swiftplate:swiftplate
 swig:ccache-swig swig
+swig@2:ccache-swig swig
+swig@3.04:ccache-swig swig
 swimat:swimat
 switchaudio-osx:SwitchAudioSource
 sword:diatheke imp2gbs imp2ld imp2vs installmgr mkfastmod mod2imp mod2osis mod2vpl mod2zmod osis2mod tei2mod vpl2mod vs2osisref vs2osisreftxt xml2gbs
@@ -5323,6 +5342,7 @@ thefuck:thefuck thefuck-alias
 theharvester:theharvester
 theora:
 thrift:thrift
+thrift@0.90:thrift
 thrulay:thrulay thrulayd
 tidy-html5:tidy
 tidyp:tidyp
@@ -5455,6 +5475,7 @@ unibilium:
 unicorn:
 unifdef:unifdef unifdefall
 unison:unison
+unison@2.40:unison
 unittest-cpp:
 unittest:
 uniutils:ExplicateUTF8 unidesc unifuzz unihist uniname unireverse utf8lookup
@@ -5484,6 +5505,7 @@ utimer:utimer
 uudeview:minews uudeview uuenview
 uwsgi:uwsgi
 v8:d8 mksnapshot process v8
+v8@3.15:d8 lineprocessor mksnapshot preparser process v8
 v:v
 vagrant-completion:
 vala:vala vala-0.34 vala-gen-introspect vala-gen-introspect-0.34 valac valac-0.34 vapicheck vapicheck-0.34 vapigen vapigen-0.34
@@ -5492,6 +5514,7 @@ valgrind:callgrind_annotate callgrind_control cg_annotate cg_diff cg_merge ms_pr
 vamp-plugin-sdk:vamp-rdf-template-generator vamp-simple-host
 vapoursynth:vspipe
 varnish:varnishadm varnishd varnishhist varnishlog varnishncsa varnishstat varnishtest varnishtop
+varnish@4:varnishadm varnishd varnishhist varnishlog varnishncsa varnishstat varnishtest varnishtop
 vassh:vassh vassh.sh vasshin
 vault-cli:vlt
 vault:vault
@@ -5518,6 +5541,7 @@ viewvc:viewvc-cvsdbadmin viewvc-loginfo-handler viewvc-make-database viewvc-stan
 vifm:vifm vifm-convert-dircolors vifm-pause vifmrc-converter
 vilistextum:vilistextum
 vim:ex rview rvim view vim vimdiff vimtutor xxd
+vim@7.4:ex rview rvim view vim vimdiff vimtutor xxd
 vimpager:vimcat vimpager
 vimpc:vimpc
 vip:vip
@@ -5739,6 +5763,8 @@ zelda-roth-se:zelda_roth_se
 zenity:gdialog zenity
 zero-install:0alias 0desktop 0install 0launch 0store 0store-secure-add
 zeromq:curve_keygen
+zeromq@3.2:
+zeromq@4.0:curve_keygen
 zile:zile
 zimg:
 zinc:zinc
