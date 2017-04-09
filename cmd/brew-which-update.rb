@@ -141,7 +141,11 @@ unless source
   pwd = Pathname.pwd
   tap_path = Tap.fetch("homebrew", "command-not-found").path
   source = (tap_path/"executables.txt")
-  ohai "Using '#{source.relative_path_from(pwd)}' for the executables list" unless pwd == tap_path
+  unless pwd == tap_path
+    relpath = source.relative_path_from(pwd)
+    shown_path = relpath.to_s.length > source.to_s.length ? source : relpath
+    ohai "Using executables list from '#{shown_path}'"
+  end
   source.to_s
 end
 
