@@ -36,6 +36,10 @@ class ExecutablesDB
     end
   end
 
+  def root
+    @root ||= Pathname.new(@filename).parent
+  end
+
   # @private
   def reset_changes
     # keeps track of things that changed in the DB between its creation and
@@ -140,7 +144,7 @@ source = ARGV.named.first
 unless source
   pwd = Pathname.pwd
   tap_path = Tap.fetch("homebrew", "command-not-found").path
-  source = (tap_path/"executables.txt")
+  source = tap_path/"executables.txt"
   unless pwd == tap_path
     relpath = source.relative_path_from(pwd)
     shown_path = relpath.to_s.length > source.to_s.length ? source : relpath
@@ -210,5 +214,5 @@ if ARGV.include?("--commit") && changed
 
   db.save!
 
-  safe_system "git", "commit", "-m", msg, source
+  safe_system "git", "-C", db.root.to_s, "commit", "-m", msg, source
 end
