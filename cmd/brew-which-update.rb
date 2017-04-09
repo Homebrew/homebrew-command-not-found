@@ -97,6 +97,13 @@ class ExecutablesDB
         end
       end
     end
+
+    removed = @exes.keys - Formula.full_names
+    removed.each do |name|
+      @exes.delete name
+      @changes[:removed] << name
+    end
+    nil
   end
 
   # save the DB in the underlying file
