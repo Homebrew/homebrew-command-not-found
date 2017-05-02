@@ -25,6 +25,7 @@ activemq:activemq activemq-admin
 admesh:admesh
 adns:adnsheloex adnshost adnslogres adnsresfilter
 adplug:adplugdb
+adr-tools:_adr_add_link _adr_commands _adr_dir _adr_file _adr_generate_graph _adr_generate_toc _adr_links _adr_remove_status _adr_title adr adr-config adr-generate adr-help adr-init adr-link adr-list adr-new adr-upgrade-repository
 advancecomp:advdef advmng advpng advzip
 advancemame:advj advk advm advmame advmenu advmess advs
 advancemenu:advmenu
@@ -275,6 +276,7 @@ bibtex2html:aux2bib bib2bib bibtex2html
 bibtexconv:bibtexconv bibtexconv-odt
 bibutils:bib2xml biblatex2xml copac2xml ebi2xml end2xml endx2xml isi2xml med2xml modsclean ris2xml wordbib2xml xml2ads xml2bib xml2end xml2isi xml2ris xml2wordbib
 bigloo:bglafile bglafile.sh bgldepend bgljas bgljfile bglmake bglmco bglpp bglprof bgltags bigloo bigloo.sh bigloo4.2c
+binaryen:asm2wasm s2wasm wasm-as wasm-dis wasm-merge wasm-opt wasm-shell
 bind:arpaname bind9-config ddns-confgen delv dig dnssec-checkds dnssec-coverage dnssec-dsfromkey dnssec-importkey dnssec-keyfromlabel dnssec-keygen dnssec-revoke dnssec-settime dnssec-signzone dnssec-verify genrandom host isc-config.sh isc-hmac-fixup lwresd named named-checkconf named-checkzone named-compilezone named-journalprint named-rrchecker nsec3hash nslookup nsupdate rndc rndc-confgen tsig-keygen
 binkd:binkd binkd-1.0.4
 binutils:gaddr2line gar gc++filt gcoffdump gdlltool gdllwrap gelfedit gnlmconv gnm gobjcopy gobjdump granlib greadelf gsize gsrconv gstrings gstrip gsysdump gwindmc gwindres
@@ -374,6 +376,7 @@ bzrtools:
 c-ares:
 c-kermit:ckermit.ini kermit kermit-sshsub
 c10t:c10t
+c14-cli:c14
 c2048:2048
 cabal-install:cabal
 cabextract:cabextract
@@ -535,6 +538,7 @@ clutter-gst:
 clutter-gtk:
 clutter:
 cmake:ccmake cmake cmakexbuild cpack ctest
+cmark-gfm:cmark-gfm
 cmark:cmark
 cmatrix:cmatrix
 cmigemo:cmigemo
@@ -584,6 +588,7 @@ convmv:convmv
 convox:convox
 cookiecutter:cookiecutter
 coq:coq-tex coq_makefile coqc coqchk coqchk.opt coqdep coqdoc coqmktop coqtop coqtop.byte coqtop.opt coqwc gallina
+corebird:corebird
 corectl:corectl
 coreutils:g[ gb2sum gbase32 gbase64 gbasename gcat gchcon gchgrp gchmod gchown gchroot gcksum gcomm gcp gcsplit gcut gdate gdd gdf gdir gdircolors gdirname gdu gecho genv gexpand gexpr gfactor gfalse gfmt gfold ggroups ghead ghostid gid ginstall gjoin gkill glink gln glogname gls gmd5sum gmkdir gmkfifo gmknod gmktemp gmv gnice gnl gnohup gnproc gnumfmt god gpaste gpathchk gpinky gpr gprintenv gprintf gptx gpwd greadlink grealpath grm grmdir gruncon gseq gsha1sum gsha224sum gsha256sum gsha384sum gsha512sum gshred gshuf gsleep gsort gsplit gstat gstdbuf gstty gsum gsync gtac gtail gtee gtest gtimeout gtouch gtr gtrue gtruncate gtsort gtty guname gunexpand guniq gunlink guptime gusers gvdir gwc gwho gwhoami gyes realpath
 corkscrew:corkscrew
@@ -657,7 +662,7 @@ cvsutils:cvschroot cvsco cvsdiscard cvsdo cvspurge cvstrim cvsu
 cvsync:cvscan cvsup2cvsync cvsync cvsync2cvsup cvsyncd rcscan rcscmp
 cweb:ctangle cweave
 cxxtest:cxxtestgen
-czmq:makecert
+czmq:zmakecert
 daemon:daemon
 daemonize:daemonize
 daemonlogger:daemonlogger
@@ -1000,6 +1005,7 @@ finatra:finatra
 findbugs:fb findbugs
 findutils:gfind glocate gupdatedb gxargs
 fio:fio fio-dedupe fio-genzipf fio2gnuplot fio_generate_plots genfio
+firebase-cli:firebase
 fish:fish fish_indent fish_key_reader
 fits:fits fits-ngserver
 fizmo:fizmo-console fizmo-ncursesw fizmo-sdl2
@@ -1017,6 +1023,8 @@ flawfinder:flawfinder
 fleetctl:fleetctl
 flex:flex flex++
 flickcurl:flickcurl flickcurl-config flickrdf
+flif:apng2flif flif gif2flif
+flint-checker:flint
 flow-tools:flow-capture flow-cat flow-dscan flow-expire flow-export flow-fanout flow-filter flow-gen flow-header flow-import flow-log2rrd flow-mask flow-merge flow-nfilter flow-print flow-receive flow-report flow-rpt2rrd flow-rptfmt flow-send flow-split flow-stat flow-tag flow-xlate
 flow:flow
 flowgrind:flowgrind flowgrind-stop flowgrindd
@@ -1397,8 +1405,8 @@ growly:growly
 grpc:grpc_cpp_plugin grpc_csharp_plugin grpc_node_plugin grpc_objective_c_plugin grpc_php_plugin grpc_python_plugin grpc_ruby_plugin
 grsync:grsync grsync-batch
 grt:grt-lin-reg-tool grt-log-reg-tool grt-merge-tool grt-rf-tool grt-split-tool grt-test-tool
+grunt-cli:grunt
 grunt-completion:
-grunt:grunt
 gsar:gsar
 gsasl:gsasl
 gsettings-desktop-schemas:
@@ -3362,7 +3370,6 @@ libftdi0:baud_test bitbang bitbang2 bitbang_cbus bitbang_ft2232 find_all libftdi
 libftdi:libftdi1-config
 libgadu:
 libgaiagraphics:
-libgc:
 libgcrypt:dumpsexp hmac256 libgcrypt-config mpicalc
 libgda:gda-list-config gda-list-config-5.0 gda-list-server-op gda-list-server-op-5.0 gda-sql gda-sql-5.0 gda-test-connection-5.0
 libgdata:
@@ -4232,6 +4239,7 @@ partio:partattr partconv partinfo partview
 pass:pass
 passenger:passenger passenger-config passenger-install-apache2-module passenger-install-nginx-module passenger-memory-stats passenger-status
 passpie:passpie
+passwdqc:pwqcheck pwqgen
 pastebinit:pastebinit
 patchutils:combinediff dehtmldiff editdiff espdiff filterdiff fixcvsdiff flipdiff grepdiff interdiff lsdiff recountdiff rediff splitdiff unwrapdiff
 path-extractor:path-extractor
@@ -4486,6 +4494,7 @@ q:q
 qbs:qbs qbs-config qbs-config-ui qbs-qmltypes qbs-setup-android qbs-setup-qt qbs-setup-toolchains
 qca:mozcerts qcatool
 qcachegrind:qcachegrind
+qcli:qcli
 qd:qd-config
 qdae:apriboot dskdump dskform dskid dskscan dsktrans dskutil md3serial qdae
 qdbm:cbcodec cbtest crmgr crtest crtsv dpmgr dptest dptsv hvmgr hvtest odidx odmgr odtest qmttest rlmgr rltest vlmgr vltest vltsv
@@ -4998,6 +5007,7 @@ svdlibc:svd
 svg2pdf:svg2pdf
 svg2png:svg2png
 svgcleaner:svgcleaner
+svgo:svgo
 svtplay-dl:svtplay-dl
 swagger-codegen:swagger-codegen
 swaks:swaks
@@ -5279,7 +5289,7 @@ v8:d8 mksnapshot process v8
 v8@3.15:d8 lineprocessor mksnapshot preparser process v8
 v:v
 vagrant-completion:
-vala:vala vala-0.34 vala-gen-introspect vala-gen-introspect-0.34 valac valac-0.34 vapicheck vapicheck-0.34 vapigen vapigen-0.34
+vala:vala vala-0.36 vala-gen-introspect vala-gen-introspect-0.36 valac valac-0.36 vapicheck vapicheck-0.36 vapigen vapigen-0.36
 valabind:valabind valabind-cc
 valgrind:callgrind_annotate callgrind_control cg_annotate cg_diff cg_merge ms_print valgrind valgrind-di-server valgrind-listener vgdb
 vamp-plugin-sdk:vamp-rdf-template-generator vamp-simple-host
@@ -5569,5 +5579,6 @@ zsync:zsync zsyncmake
 zurl:zurl
 zxcc:zxas zxc zxcc zxlibr zxlink
 zxing-cpp:zxing
+zyre:zpinger
 zzuf:zzcat zzuf
 zzz:Zzz
