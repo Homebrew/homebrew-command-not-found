@@ -33,11 +33,10 @@ homebrew_command_not_found_handle() {
     if [ -z "$txt" ]; then
         [ -n "$BASH_VERSION" ] && \
             TEXTDOMAIN=command-not-found echo $"$cmd: command not found"
+        return 127
     else
         echo "$txt"
     fi
-
-    return 127
 }
 
 if [ -n "$BASH_VERSION" ]; then
