@@ -23,8 +23,9 @@ homebrew_command_not_found_handle() {
     if test -z "$CONTINUOUS_INTEGRATION" && test -n "$MC_SID" -o ! -t 1 ; then
         [ -n "$BASH_VERSION" ] && \
             TEXTDOMAIN=command-not-found echo $"$cmd: command not found"
-        [ -n "$ZSH_VERSION" ] && \
-            echo "command not found: $cmd" >&2
+        # Zsh versions 5.3 and above don't print this for us.
+        [ -n "$ZSH_VERSION" ] && [[ "$ZSH_VERSION" > "5.2" ]] && \
+            echo "zsh: command not found: $cmd" >&2
         return 127
     fi
 
@@ -33,7 +34,9 @@ homebrew_command_not_found_handle() {
     if [ -z "$txt" ]; then
         [ -n "$BASH_VERSION" ] && \
             TEXTDOMAIN=command-not-found echo $"$cmd: command not found"
-        [ -n "$ZSH_VERSION" ] && \
+
+        # Zsh versions 5.3 and above don't print this for us.
+        [ -n "$ZSH_VERSION" ] && [[ "$ZSH_VERSION" > "5.2" ]] && \
             echo "zsh: command not found: $cmd" >&2
     else
         echo "$txt"
