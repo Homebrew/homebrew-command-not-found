@@ -152,6 +152,7 @@ asciinema2gif:asciinema2gif
 asciinema:asciinema
 asciiquarium:asciiquarium
 asciitex:asciiTeX
+asdf:asdf
 asio:
 asn1c:asn1c crfc2asn1.pl enber unber
 aspcud:aspcud cudf2lp
@@ -827,6 +828,7 @@ drip:drip
 dromeaudio:DromeAudioPlayer
 dropbear:dbclient dropbear dropbearconvert dropbearkey
 dropbox-uploader:dropbox_uploader.sh
+druid:druid-broker.sh druid-coordinator.sh druid-historical.sh druid-jconsole.sh druid-middleManager.sh druid-node.sh druid-overlord.sh
 dscanner:dscanner
 dsd:dsd
 dsh:dsh
@@ -1392,6 +1394,7 @@ gradle@2.14:gradle
 grafana:grafana-cli grafana-server
 grails:grails
 grails@2.5:grails startGrails
+grakn:cassandra cassandra.in.sh create-admin-user.sh grakn-cassandra.sh grakn-engine.sh grakn-redis.sh grakn.in.sh grakn.sh graql.sh kafka-run-class.sh kafka-server-start.sh kafka-server-status.sh kafka-server-stop.sh migration.sh nodetool redis-cli-linux redis-cli-osx redis-server-linux redis-server-osx zookeeper-server-start.sh zookeeper-server-status.sh zookeeper-server-stop.sh
 grap:grap
 graphene:
 graphicsmagick:GraphicsMagick++-config GraphicsMagick-config GraphicsMagickWand-config gm
@@ -2295,6 +2298,7 @@ homebrew/science/adol-c:
 homebrew/science/afra:afra
 homebrew/science/alembic:abcconvert abcdiff abcecho abcechobounds abcls abcstitcher abctree
 homebrew/science/alglib:
+homebrew/science/alien-hunter:alien_hunter
 homebrew/science/allpaths-lg:RunAllPathsLG
 homebrew/science/alpscore:
 homebrew/science/amos:ace2contig agp2amos amos2ace amos2frg amos2mates amos2sq AMOScmp AMOScmp-shortReads AMOScmp-shortReads-alignmentTrimmed amosvalidate analyze-read-depth analyzeSNPs arachne2ctg arachne2scaff arrive arrive2 asmQC asmQC2 assembleRNAs astats bank-clean bank-combine bank-mapping bank-report bank-transact bank-tutorial bank-unlock bank2contig bank2coverage bank2fasta bank2lib bank2scaff benchmark2arachne benchmark2ca benchmark2mates benchmark2ta benchmark_qual benchmark_seq blasr2coords blat2nucmer Bundler ca2ctg ca2mates ca2scaff ca2singletons ca2ta casm-breaks casm-layout castats cavalidate cestat-cov cgb2ctg Chainer clk clusterSnps contig-cmp contig2contig coords2cam count-kmers count-qmers ctg2fasta ctg2umdcontig ctgovl cvgChop cvgStat delta2clr delta2cvg dumpContigsAsReads dumpFeatures dumpmates dumpreads excl_seqs extractContig fasta_select_len fasta_to_fastq fastq_rename fastq_to_fasta_fast fastqqc filter_contig filter_seq FilterEdgesByCluster filterfrg find-duplicate-reads find-query-breaks find-tandem find_ends findChimeras findMissingMates findTcovSnp fixfastq fixfrg fixlib FRCurve frg-umd-merge frg2fasta frg2fastq frg2ta gap-links gccontent gene_asm genome-complexity genome-complexity-fast getFRCvalues getlengths getN50 goBambus2 grow-readbank hash-overlap insert-sizes iterate Joiner kmer-count kmer-cov kmer-cov-plot kmers ktrimfrg library-histogram Linearize list-linked-contigs listcontigreads listGCContent listReadPlacedStatus listSingletonMates listSurrogates load-overlaps loadFeatures make-consensus make-consensus_poly MarkRepeats merge-contigs message-count message-extract message-validate Minimo minimus minimus2 minimus2-blat missing-reads normalizeScaffold nucmer2ovl nucmerAnnotate olapsFromContig OrientContigs OutputMotifs OutputResults OutputScaffolds overlap-align ovl-degr-dist ovl2OVL parsecasm partitionBank phd2afg postCAqc preassembleFrgs preTA printScaff pullTArchive pyrosim qmer-filter read-cov-plot readinfo2cam recallConsensus renameReads rerunMultiTest resetFragLibrary revFasta revScaffold runAmos runMultiTest running-cmp runTA runTest scaff2fasta scaffoldRange2Ungapped select-reads show-ma-asm sim-cover-depth sim-cover2 sim-shotgun simple-overlap simpleContigLoader simplifyLibraries singles sort2 stats summarizeMultiTest suspiciousfeat2region ta2ace tab2ovls tagsum-reduce tandemCollapse tarchive2amos tarchive2ca tigger tiling2cam toAmos toAmos_new toArachne trace_comment trace_comments trace_convert trace_scf_dump trace_seq translate-fasta trimByOvl trimends trimfrg untangle updateBankPositions updateClrRanges updateDeltaClr updateLibSizes vecfix verify-layout
@@ -2739,6 +2743,7 @@ homebrew/science/pilercr:pilercr
 homebrew/science/pillow:createfontdatachunk.py enhancer.py explode.py gifmaker.py painter.py pilconvert.py pildriver.py pilfile.py pilfont.py pilprint.py player.py thresholder.py viewer.py
 homebrew/science/pilon:pilon
 homebrew/science/plasma:
+homebrew/science/platypusvar:Platypus.py platypusvar
 homebrew/science/plink2:plink2
 homebrew/science/plink:plink
 homebrew/science/plr:
@@ -2808,7 +2813,6 @@ homebrew/science/salmon:salmon
 homebrew/science/salt:convert_lightcurves convert_spectrum hubblefit snfit snlc snmag snphotoz snstat
 homebrew/science/sambamba:sambamba
 homebrew/science/samblaster:samblaster
-homebrew/science/samtools-0.1:bcftools blast2sam.pl bowtie2sam.pl export2sam.pl interpolate_sam.pl maq2sam-long maq2sam-short md5fa md5sum-lite novo2sam.pl psl2sam.pl sam2vcf.pl samtools samtools.pl soap2sam.pl vcfutils.pl wgsim wgsim_eval.pl zoom2sam.pl
 homebrew/science/samtools:ace2sam blast2sam.pl bowtie2sam.pl export2sam.pl interpolate_sam.pl maq2sam-long maq2sam-short md5fa md5sum-lite novo2sam.pl plot-bamstats psl2sam.pl r2plot.lua sam2vcf.pl samtools samtools.pl seq_cache_populate.pl soap2sam.pl varfilter.py vcfutils.lua wgsim wgsim_eval.pl zoom2sam.pl
 homebrew/science/sara:form2sara lola2sara owfn2sara sara
 homebrew/science/sbagen:sbagen
@@ -2924,7 +2928,6 @@ homebrew/science/velvet:velvetg velveth
 homebrew/science/velvetoptimiser:VelvetOptimiser.pl
 homebrew/science/viennarna:Kinfold RNA2Dfold RNALalifold RNALfold RNAPKplex RNAaliduplex RNAalifold RNAcofold RNAdistance RNAduplex RNAeval RNAfold RNAforester RNAheat RNAinverse RNApaln RNAparconv RNApdist RNAplex RNAplfold RNAplot RNApvmin RNAsnoop RNAsubopt RNAup b2ct ct2db popt
 homebrew/science/vigra:vigra-config
-homebrew/science/vips:batch_crop batch_image_convert batch_rubber_sheet light_correct shrink_width vips vips-8.5 vipsedit vipsheader vipsprofile vipsthumbnail
 homebrew/science/vislcg3:cg-comp cg-conv cg-proc cg3-autobin.pl vislcg3
 homebrew/science/visp:visp-config
 homebrew/science/voro++:voro++
@@ -2951,6 +2954,7 @@ homebrew/science/yaggo:yaggo
 homebrew/science/yaha:yaha
 homebrew/science/yass:yass
 homebrew/science/yeppp:
+homebrew/science/yices:yices yices-sat yices-smt yices-smt2
 homebrew/science/zoltan:
 homeshick:homeshick
 homesick-completion:
@@ -3134,6 +3138,7 @@ jflex:jflex
 jfrog-cli-go:jfrog
 jhead:jhead
 jhiccup:jHiccup jHiccupPlotter
+jhipster:jhipster
 jid:jid
 jigdo:jigdo-file jigdo-lite jigdo-mirror
 jlog:jlog_change_endian jlog_sanity_check jlogctl jlogtail
@@ -3955,7 +3960,7 @@ msmtp:msmtp
 mspdebug:mspdebug
 mstch:
 mtools:amuFormat.sh lz mattrib mbadblocks mcat mcd mcheck mclasserase mcomp mcopy mdel mdeltree mdir mdu mformat minfo mkmanifest mlabel mmd mmount mmove mpartition mrd mren mshortname mshowfat mtools mtoolstest mtype mxtar mzip tgz uz
-mtr:mtr
+mtr:mtr mtr-packet
 mu:mu
 multimarkdown:markdown mmd mmd2all mmd2odf mmd2opml mmd2pdf mmd2rtf mmd2tex multimarkdown
 multitail:multitail
@@ -4528,7 +4533,7 @@ qrencode:qrencode
 qriollo:qr
 qscintilla2:
 qstat:qstat
-qt:canbusutil fixqt4headers.pl lconvert lrelease lupdate macchangeqt macdeployqt moc qcollectiongenerator qdbus qdbuscpp2xml qdbusxml2cpp qdoc qgltf qhelpconverter qhelpgenerator qlalr qmake qmleasing qmlimportscanner qmllint qmlmin qmlplugindump qmlprofiler qmlscene qmltestrunner qscxmlc qtattributionsscanner qtdiag qtpaths qtplugininfo qwebengine_convert_dict rcc syncqt.pl uic xmlpatterns xmlpatternsvalidator
+qt:canbusutil fixqt4headers.pl lconvert lrelease lupdate macchangeqt macdeployqt moc qcollectiongenerator qdbus qdbuscpp2xml qdbusxml2cpp qdoc qgltf qhelpconverter qhelpgenerator qlalr qmake qmlcachegen qmleasing qmlimportscanner qmllint qmlmin qmlplugindump qmlprofiler qmlscene qmltestrunner qscxmlc qtattributionsscanner qtdiag qtpaths qtplugininfo qwebengine_convert_dict rcc repc syncqt.pl uic xmlpatterns xmlpatternsvalidator
 qt@5.5:lconvert lrelease lupdate macchangeqt macdeployqt moc qcollectiongenerator qdbus qdbuscpp2xml qdbusxml2cpp qdoc qhelpconverter qhelpgenerator qlalr qmake qml1plugindump qmleasing qmlimportscanner qmllint qmlmin qmlplugindump qmlprofiler qmlscene qmltestrunner qtdiag qtpaths qtplugininfo rcc syncqt.pl uic xmlpatterns xmlpatternsvalidator
 qt@5.7:canbusutil fixqt4headers.pl lconvert lrelease lupdate macchangeqt macdeployqt moc qcollectiongenerator qdoc qgltf qhelpconverter qhelpgenerator qlalr qmake qmleasing qmlimportscanner qmllint qmlmin qmlplugindump qmlprofiler qmlscene qmltestrunner qscxmlc qtdiag qtpaths qtplugininfo rcc syncqt.pl uic xmlpatterns xmlpatternsvalidator
 qtads:QTads
@@ -4710,6 +4715,7 @@ runit:chpst runit runit-init runsv runsvchdir runsvdir sv svlogd utmpset
 rush:rush rushlast rushwho
 rust:cargo rust-gdb rust-lldb rustc rustdoc
 rustc-completion:
+rustup-init:rustup-init
 rxvt-unicode:urxvt urxvtc urxvtd
 ry:ry
 rzip:runzip rzip
@@ -5346,6 +5352,7 @@ vim@7.4:ex rview rvim view vim vimdiff vimtutor xxd
 vimpager:vimcat vimpager
 vimpc:vimpc
 vip:vip
+vips:batch_crop batch_image_convert batch_rubber_sheet light_correct shrink_width vips vips-8.5 vipsedit vipsheader vipsprofile vipsthumbnail
 virtualhost.sh:virtualhost.sh
 virtualpg:
 virtuoso:inifile isql isqlw virt_mail virtuoso-t
@@ -5504,7 +5511,6 @@ xorriso:osirrox xorrecord xorriso xorriso-tcltk xorrisofs
 xpa:xpaaccess xpaget xpainfo xpamb xpans xpaset
 xpdf:pdfdetach pdffonts pdfimages pdfinfo pdftoppm pdftops pdftotext xpdf
 xplanet:xplanet
-xplanetfx:xplanetFX
 xqilla:xqilla
 xrick:xrick
 xrootd:cconfig cmsd cns_ssi frm_admin frm_purged frm_xfragent frm_xfrd mpxstats wait41 xprep xrd xrdadler32 XrdCnsd xrdcopy xrdcp xrdcp-old xrdfs xrdgsiproxy xrdmapc xrdpwdadmin xrdsssadmin xrdstagetool xrootd xrootd-config
