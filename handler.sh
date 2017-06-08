@@ -24,7 +24,7 @@ homebrew_command_not_found_handle() {
         [ -n "$BASH_VERSION" ] && \
             TEXTDOMAIN=command-not-found echo $"$cmd: command not found"
         [ -n "$ZSH_VERSION" ] && \
-            echo $"command not found: $cmd" >&2
+            echo "command not found: $cmd" >&2
         return 127
     fi
 
