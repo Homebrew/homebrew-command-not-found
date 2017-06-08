@@ -15,7 +15,7 @@ homebrew_command_not_found_handle() {
 
     local cmd="$1"
 
-    # <from Linux Journal>
+    # The code below is based off this Linux Journal article:
     #   http://www.linuxjournal.com/content/bash-command-not-found
 
     # do not run when inside Midnight Commander or within a Pipe, except if on
@@ -27,8 +27,6 @@ homebrew_command_not_found_handle() {
             echo $"command not found: $cmd" >&2
         return 127
     fi
-
-    # </from Linux Journal>
 
     local txt="$(brew which-formula --explain $cmd 2>/dev/null)"
 
