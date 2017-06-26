@@ -802,6 +802,7 @@ docker-machine-nfs:docker-machine-nfs
 docker-machine-parallels:docker-machine-driver-parallels
 docker-machine:docker-machine
 docker-swarm:docker-swarm
+docker2aci:docker2aci
 docker:docker
 docker@1.11:docker
 docker@1.71:docker
@@ -930,11 +931,13 @@ epubcheck:epubcheck
 eralchemy:eralchemy
 erlang:ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
 erlang@18:ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
+erlang@19:ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
 es:es
 esniper:esniper
 espeak:espeak
 etcd:etcd etcdctl
 etl:ETL-config
+etsh:osh sh6
 ettercap:ettercap etterfilter etterlog
 euca2ools:euare-accountaliascreate euare-accountaliasdelete euare-accountaliaslist euare-accountcreate euare-accountdel euare-accountdelpolicy euare-accountgetpolicy euare-accountgetsummary euare-accountlist euare-accountlistpolicies euare-accountuploadpolicy euare-assumerole euare-getcallerid euare-getldapsyncstatus euare-groupaddpolicy euare-groupadduser euare-groupcreate euare-groupdel euare-groupdelpolicy euare-groupgetpolicy euare-grouplistbypath euare-grouplistpolicies euare-grouplistusers euare-groupmod euare-groupremoveuser euare-groupuploadpolicy euare-instanceprofileaddrole euare-instanceprofilecreate euare-instanceprofiledel euare-instanceprofilegetattributes euare-instanceprofilelistbypath euare-instanceprofilelistforrole euare-instanceprofileremoverole euare-oidcprovideraddclientid euare-oidcproviderchangethumbprint euare-oidcprovidercreate euare-oidcproviderdel euare-oidcproviderdelclientid euare-oidcprovidergetattributes euare-oidcproviderlist euare-releaserole euare-roleaddpolicy euare-rolecreate euare-roledel euare-roledelpolicy euare-rolegetattributes euare-rolegetpolicy euare-rolelistbypath euare-rolelistpolicies euare-roleupdateassumepolicy euare-roleuploadpolicy euare-servercertdel euare-servercertgetattributes euare-servercertlistbypath euare-servercertmod euare-servercertupload euare-useraddcert euare-useraddkey euare-useraddloginprofile euare-useraddpolicy euare-usercreate euare-usercreatecert euare-userdeactivatemfadevice euare-userdel euare-userdelcert euare-userdelkey euare-userdelloginprofile euare-userdelpolicy euare-userenablemfadevice euare-usergetattributes euare-usergetinfo euare-usergetloginprofile euare-usergetpolicy euare-userlistbypath euare-userlistcerts euare-userlistgroups euare-userlistkeys euare-userlistmfadevices euare-userlistpolicies euare-usermod euare-usermodcert euare-usermodkey euare-usermodloginprofile euare-userresyncmfadevice euare-userupdateinfo euare-useruploadpolicy euca-accept-vpc-peering-connection euca-allocate-address euca-assign-private-ip-addresses euca-associate-address euca-associate-dhcp-options euca-associate-route-table euca-attach-internet-gateway euca-attach-network-interface euca-attach-volume euca-attach-vpn-gateway euca-authorize euca-bundle-and-upload-image euca-bundle-image euca-bundle-instance euca-bundle-vol euca-cancel-bundle-task euca-cancel-conversion-task euca-confirm-product-instance euca-copy-image euca-create-customer-gateway euca-create-dhcp-options euca-create-group euca-create-image euca-create-internet-gateway euca-create-keypair euca-create-nat-gateway euca-create-network-acl euca-create-network-acl-entry euca-create-network-interface euca-create-route euca-create-route-table euca-create-snapshot euca-create-subnet euca-create-tags euca-create-volume euca-create-vpc euca-create-vpc-peering-connection euca-create-vpn-connection euca-create-vpn-connection-route euca-create-vpn-gateway euca-delete-bundle euca-delete-customer-gateway euca-delete-dhcp-options euca-delete-disk-image euca-delete-group euca-delete-internet-gateway euca-delete-keypair euca-delete-nat-gateway euca-delete-network-acl euca-delete-network-acl-entry euca-delete-network-interface euca-delete-route euca-delete-route-table euca-delete-snapshot euca-delete-subnet euca-delete-tags euca-delete-volume euca-delete-vpc euca-delete-vpc-peering-connection euca-delete-vpn-connection euca-delete-vpn-connection-route euca-delete-vpn-gateway euca-deregister euca-describe-account-attributes euca-describe-addresses euca-describe-availability-zones euca-describe-bundle-tasks euca-describe-conversion-tasks euca-describe-customer-gateways euca-describe-dhcp-options euca-describe-group euca-describe-groups euca-describe-image-attribute euca-describe-images euca-describe-instance-attribute euca-describe-instance-status euca-describe-instance-types euca-describe-instances euca-describe-internet-gateways euca-describe-keypairs euca-describe-nat-gateways euca-describe-network-acls euca-describe-network-interface-attribute euca-describe-network-interfaces euca-describe-regions euca-describe-route-tables euca-describe-snapshot-attribute euca-describe-snapshots euca-describe-subnets euca-describe-tags euca-describe-volumes euca-describe-vpc-attribute euca-describe-vpc-peering-connections euca-describe-vpcs euca-describe-vpn-connections euca-describe-vpn-gateways euca-detach-internet-gateway euca-detach-network-interface euca-detach-volume euca-detach-vpn-gateway euca-disable-vgw-route-propagation euca-disassociate-address euca-disassociate-route-table euca-download-and-unbundle euca-download-bundle euca-enable-vgw-route-propagation euca-fingerprint-key euca-generate-environment-config euca-get-console-output euca-get-password euca-get-password-data euca-import-instance euca-import-keypair euca-import-volume euca-install-image euca-modify-image-attribute euca-modify-instance-attribute euca-modify-instance-type euca-modify-network-interface-attribute euca-modify-snapshot-attribute euca-modify-subnet-attribute euca-modify-vpc-attribute euca-monitor-instances euca-reboot-instances euca-register euca-reject-vpc-peering-connection euca-release-address euca-replace-network-acl-association euca-replace-network-acl-entry euca-replace-route euca-replace-route-table-association euca-reset-image-attribute euca-reset-instance-attribute euca-reset-network-interface-attribute euca-reset-snapshot-attribute euca-resume-import euca-revoke euca-run-instances euca-start-instances euca-stop-instances euca-terminate-instances euca-unassign-private-ip-addresses euca-unbundle euca-unbundle-stream euca-unmonitor-instances euca-upload-bundle euca-version euform-cancel-update-stack euform-continue-rollback euform-create-stack euform-delete-stack euform-describe-stack-events euform-describe-stack-resource euform-describe-stack-resources euform-describe-stacks euform-get-template euform-get-template-summary euform-list-stack-resources euform-list-stacks euform-update-stack euform-validate-template euimage-describe-pack euimage-install-pack euimage-pack-image eulb-apply-security-groups-to-lb eulb-attach-lb-to-subnets eulb-configure-healthcheck eulb-create-app-cookie-stickiness-policy eulb-create-lb eulb-create-lb-cookie-stickiness-policy eulb-create-lb-listeners eulb-create-lb-policy eulb-create-tags eulb-delete-lb eulb-delete-lb-listeners eulb-delete-lb-policy eulb-delete-tags eulb-deregister-instances-from-lb eulb-describe-instance-health eulb-describe-lb-attributes eulb-describe-lb-policies eulb-describe-lb-policy-types eulb-describe-lbs eulb-describe-tags eulb-detach-lb-from-subnets eulb-disable-zones-for-lb eulb-enable-zones-for-lb eulb-modify-lb-attributes eulb-register-instances-with-lb eulb-set-lb-listener-ssl-cert eulb-set-lb-policies-for-backend-server eulb-set-lb-policies-of-listener euscale-create-auto-scaling-group euscale-create-launch-config euscale-create-or-update-tags euscale-delete-auto-scaling-group euscale-delete-launch-config euscale-delete-notification-configuration euscale-delete-policy euscale-delete-scheduled-action euscale-delete-tags euscale-describe-account-limits euscale-describe-adjustment-types euscale-describe-auto-scaling-groups euscale-describe-auto-scaling-instances euscale-describe-auto-scaling-notification-types euscale-describe-launch-configs euscale-describe-metric-collection-types euscale-describe-notification-configurations euscale-describe-policies euscale-describe-process-types euscale-describe-scaling-activities euscale-describe-scheduled-actions euscale-describe-tags euscale-describe-termination-policy-types euscale-disable-metrics-collection euscale-enable-metrics-collection euscale-execute-policy euscale-put-notification-configuration euscale-put-scaling-policy euscale-put-scheduled-update-group-action euscale-resume-processes euscale-set-desired-capacity euscale-set-instance-health euscale-suspend-processes euscale-terminate-instance-in-auto-scaling-group euscale-update-auto-scaling-group euwatch-delete-alarms euwatch-describe-alarm-history euwatch-describe-alarms euwatch-describe-alarms-for-metric euwatch-disable-alarm-actions euwatch-enable-alarm-actions euwatch-get-stats euwatch-list-metrics euwatch-put-data euwatch-put-metric-alarm euwatch-set-alarm-state
 euler-py:euler
@@ -965,6 +968,7 @@ ezstream:ezstream ezstream-file.sh
 f3:f3read f3write
 faac:faac
 faad2:faad
+faas-cli:faas-cli
 fabio:fabio
 fabric-completion:
 fabric:fab
@@ -1078,6 +1082,7 @@ fragroute:fragroute fragtest
 freealut:freealut-config
 freeciv:freeciv-gtk2 freeciv-manual freeciv-mp-gtk2 freeciv-server
 freediameter:freeDiameterd freeDiameterd-1.2.0
+freedink:dink dinkedit freedink freedinkedit
 freeglut:
 freeimage:
 freeipmi:bmc-config bmc-device bmc-info bmc-watchdog ipmi-chassis ipmi-chassis-config ipmi-config ipmi-console ipmi-dcmi ipmi-detect ipmi-fru ipmi-locate ipmi-oem ipmi-pef-config ipmi-pet ipmi-ping ipmi-power ipmi-raw ipmi-sel ipmi-sensors ipmi-sensors-config ipmiconsole ipmidetect ipmidetectd ipmimonitoring ipmiping ipmipower ipmiseld pef-config rmcp-ping rmcpping
@@ -1392,6 +1397,7 @@ gpx:gpx machines s3gdump
 gqlplus:gqlplus
 gqview:gqview
 grace:convcal fdf2fit gracebat grconvert xmgrace
+gradle-completion:
 gradle:gradle
 gradle@2.14:gradle
 grafana:grafana-cli grafana-server
@@ -2264,6 +2270,7 @@ homebrew/php/php71-yac:
 homebrew/php/php71-yaf:
 homebrew/php/php71-yaml:
 homebrew/php/php71:phar phar.phar php php-cgi php-config php-fpm php71-fpm phpize
+homebrew/php/php72-mongodb:
 homebrew/php/php72-opcache:
 homebrew/php/php72-pcntl:
 homebrew/php/php72-pdo-dblib:
@@ -3065,6 +3072,7 @@ iniparser:
 innoextract:innoextract
 innotop:innotop
 ino:ino
+insect:insect
 inspircd:inspircd
 instead:instead sdl-instead
 intercal:convickt ick
@@ -3510,6 +3518,7 @@ libopendkim:opendkim-genkey opendkim-genzone opendkim-testkey opendkim-testmsg
 libopennet:
 liboping:noping oping
 libopkele:
+libopusenc:
 libosinfo:osinfo-detect osinfo-install-script osinfo-query
 libosip:
 libosmium:
@@ -3964,6 +3973,7 @@ mpv:mpv
 mpw:mpw
 mr:mr webcheckout
 mrtg:cfgmaker indexmaker mrtg mrtg-traffic-sum rateup
+mruby-cli:mruby-cli
 mruby:mirb mrbc mruby mruby-strip
 mscgen:mscgen
 msdl:msdl
@@ -4047,6 +4057,7 @@ neo4j:neo4j neo4j-import neo4j-shell
 neofetch:neofetch
 neon:neon-config
 neopop-sdl:NeoPop-SDL
+neovim:nvim
 nesc:nescc nescc-mig nescc-ncg nescc-wiring
 nesemu2:nesemu2
 nestopia-ue:nestopia
@@ -4191,6 +4202,7 @@ opencsg:
 opendbx:odbx-sql
 opendetex:delatex detex
 openexr:exrenvmap exrheader exrmakepreview exrmaketiled exrmultipart exrmultiview exrstdattr
+openfortivpn:openfortivpn
 openh264:
 openhmd:simple
 openjazz:OpenJazz
@@ -4225,7 +4237,6 @@ orientdb:orientdb orientdb-console orientdb-gremlin
 ortp:
 osc:osc osc_hotshot.py
 oscats:
-osh:osh sh6
 osm-gps-map:
 osm-pbf:
 osm2pgrouting:osm2pgrouting
@@ -4326,7 +4337,7 @@ percona-server@5.6:innochecksum msql2mysql my_print_defaults myisam_ftdump myisa
 percona-toolkit:pt-align pt-archiver pt-config-diff pt-deadlock-logger pt-diskstats pt-duplicate-key-checker pt-fifo-split pt-find pt-fingerprint pt-fk-error-logger pt-heartbeat pt-index-usage pt-ioprofile pt-kill pt-mext pt-mysql-summary pt-online-schema-change pt-pmp pt-query-digest pt-show-grants pt-sift pt-slave-delay pt-slave-find pt-slave-restart pt-stalk pt-summary pt-table-checksum pt-table-sync pt-table-usage pt-upgrade pt-variable-advisor pt-visual-explain
 percona-xtrabackup:innobackupex xbcloud xbcloud_osenv xbcrypt xbstream xtrabackup
 perl-build:perl-build plenv-install plenv-uninstall
-perl:c2ph corelist cpan enc2xs encguess h2ph h2xs instmodsh json_pp libnetcfg perl perl5.24.1 perlbug perldoc perlivp perlthanks piconv pl2pm pod2html pod2man pod2text pod2usage podchecker podselect prove pstruct ptar ptardiff ptargrep shasum splain xsubpp zipdetails
+perl:corelist cpan enc2xs encguess h2ph h2xs instmodsh json_pp libnetcfg perl perl5.26.0 perlbug perldoc perlivp perlthanks piconv pl2pm pod2html pod2man pod2text pod2usage podchecker podselect prove ptar ptardiff ptargrep shasum splain xsubpp zipdetails
 perl@5.14:a2p c2ph config_data corelist cpan cpan2dist cpanp cpanp-run-perl dprofpp enc2xs find2perl h2ph h2xs instmodsh json_pp libnetcfg perl perl5.14.4 perlbug perldoc perlivp perlthanks piconv pl2pm pod2html pod2latex pod2man pod2text pod2usage podchecker podselect prove psed pstruct ptar ptardiff ptargrep s2p shasum splain xsubpp
 perl@5.18:a2p c2ph config_data corelist cpan cpan2dist cpanp cpanp-run-perl enc2xs find2perl h2ph h2xs instmodsh json_pp libnetcfg perl perl5.18.2 perlbug perldoc perlivp perlthanks piconv pl2pm pod2html pod2latex pod2man pod2text pod2usage podchecker podselect prove psed pstruct ptar ptardiff ptargrep s2p shasum splain xsubpp zipdetails
 pev:ofs2rva pedis pehash pepack peres pescan pesec pestr readpe rva2ofs
@@ -4508,6 +4519,7 @@ pxz:pxz
 py2cairo:
 py3cairo:
 pybind11:
+pycodestyle:pycodestyle
 pyenv-ccache:
 pyenv-pip-migrate:pyenv-migrate
 pyenv-virtualenv:pyenv-activate pyenv-deactivate pyenv-sh-activate pyenv-sh-deactivate pyenv-virtualenv pyenv-virtualenv-init pyenv-virtualenv-prefix pyenv-virtualenvs
