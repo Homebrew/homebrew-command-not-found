@@ -1223,7 +1223,7 @@ git-cinnabar:git-cinnabar git-cinnabar-helper git-remote-hg
 git-cola:cola git-cola git-dag
 git-credential-manager:git-credential-manager
 git-crypt:git-crypt
-git-extras:git-alias git-archive-file git-authors git-back git-bug git-bulk git-changelog git-chore git-clear git-clear-soft git-commits-since git-contrib git-count git-create-branch git-delete-branch git-delete-merged-branches git-delete-submodule git-delete-tag git-delta git-effort git-extras git-feature git-force-clone git-fork git-fresh-branch git-gh-pages git-graft git-guilt git-ignore git-ignore-io git-info git-line-summary git-local-commits git-lock git-locked git-merge-into git-merge-repo git-missing git-obliterate git-pr git-psykorebase git-pull-request git-reauthor git-rebase-patch git-refactor git-release git-rename-branch git-rename-tag git-repl git-reset-file git-root git-rscp git-scp git-sed git-setup git-show-merged-branches git-show-tree git-show-unmerged-branches git-squash git-stamp git-standup git-summary git-sync git-touch git-undo git-unlock
+git-extras:git-alias git-archive-file git-authors git-back git-bug git-bulk git-changelog git-chore git-clear git-clear-soft git-commits-since git-contrib git-count git-create-branch git-delete-branch git-delete-merged-branches git-delete-submodule git-delete-tag git-delta git-effort git-extras git-feature git-force-clone git-fork git-fresh-branch git-gh-pages git-graft git-guilt git-ignore git-ignore-io git-info git-line-summary git-local-commits git-lock git-locked git-merge-into git-merge-repo git-missing git-mr git-obliterate git-pr git-psykorebase git-pull-request git-reauthor git-rebase-patch git-refactor git-release git-rename-branch git-rename-tag git-repl git-reset-file git-root git-rscp git-scp git-sed git-setup git-show-merged-branches git-show-tree git-show-unmerged-branches git-squash git-stamp git-standup git-summary git-sync git-touch git-undo git-unlock
 git-fixup:git-fixup
 git-flow-avh:git-flow
 git-flow:git-flow
@@ -1527,6 +1527,7 @@ hatari:hatari
 haxe:haxe haxelib
 hayai:
 hbase:hbase start-hbase.sh stop-hbase.sh
+hdf5:gif2h5 h52gif h5cc h5clear h5copy h5debug h5diff h5dump h5format_convert h5import h5jam h5ls h5mkgrp h5perf_serial h5redeploy h5repack h5repart h5stat h5unjam h5watch
 headphones:headphones
 hebcal:hebcal
 heimdal:afslog bsearch gsstool heimtools hxtool idn-lookup iprop-log kadmin kdestroy kf kgetcred kinit klist kpasswd krb5-config kstash kswitch ktutil otp otpprint pagsh string2key su verify_krb5_conf
@@ -2591,7 +2592,6 @@ homebrew/science/h5utils:h5fromtxt h5topng h5totxt h5tovtk
 homebrew/science/harry:harry
 homebrew/science/harvest-tools:harvesttools
 homebrew/science/hdf4:gif2hdf hdf24to8 hdf2gif hdf2jpeg hdf8to24 hdfcomp hdfed hdfimport hdfls hdfpack hdftopal hdftor8 hdfunpac hdiff hdp hrepack hrepack_check jpeg2hdf paltohdf r8tohdf ristosds vmake vshow
-homebrew/science/hdf5:gif2h5 h52gif h5c++ h5cc h5clear h5copy h5debug h5diff h5dump h5format_convert h5import h5jam h5ls h5mkgrp h5perf_serial h5redeploy h5repack h5repart h5stat h5unjam h5watch
 homebrew/science/hdf5@1.8:gif2h5 h52gif h5c++ h5cc h5copy h5debug h5diff h5dump h5import h5jam h5ls h5mkgrp h5perf_serial h5redeploy h5repack h5repart h5stat h5unjam
 homebrew/science/healpix:alm2map_cxx anafast_cxx calc_powspec hotspots_cxx map2tga median_filter_cxx mult_alm rotalm_cxx smoothing_cxx syn_alm_cxx udgrade_cxx udgrade_harmonic_cxx
 homebrew/science/hisat2:hisat2 hisat2-align-l hisat2-align-s hisat2-build hisat2-build-l hisat2-build-s hisat2-inspect hisat2-inspect-l hisat2-inspect-s
@@ -2850,7 +2850,6 @@ homebrew/science/quip:bammd5 fastqmd5 quip quipcat unquip
 homebrew/science/quorum:quorum
 homebrew/science/r-gui:
 homebrew/science/r8s:r8s
-homebrew/science/r:R Rscript
 homebrew/science/racon:racon
 homebrew/science/radx:Dsr2Radx FixCfradialPaths FixRadxPointing Radx2Dsr Radx2Grid RadxCheck RadxClutMon RadxConvert RadxCov2Mom RadxDiff RadxDwellCombine RadxEvad RadxFilter RadxMergeFields RadxMon RadxPartRain RadxPrint RadxQpe RadxSunMon TdrpTest tdrp_gen tdrp_test
 homebrew/science/rainbow:rainbow
@@ -4629,6 +4628,7 @@ qwt:
 qwtpolar:
 qxmpp:
 r3:
+r:R Rscript
 rabbitmq-c:amqp-consume amqp-declare-queue amqp-delete-queue amqp-get amqp-publish
 rabbitmq:rabbitmq-defaults rabbitmq-env rabbitmq-plugins rabbitmq-server rabbitmqadmin rabbitmqctl
 rack:rack
@@ -5005,7 +5005,7 @@ spdlog:
 spdylay:shrpx spdycat spdyd
 speech-tools:align bcat ch_lab ch_track ch_utt ch_wave design_filter dp na_play na_record ngram_build ngram_test ols ols_test pda pitchmark scfg_make scfg_parse scfg_test scfg_train sig2fv sigfilter siod spectgen tilt_analysis tilt_synthesis viterbi wagon wagon_test wfst_build wfst_run wfst_train xml_parser
 speedread:speedread
-speedtest_cli:speedtest-cli speedtest_cli
+speedtest-cli:speedtest-cli speedtest_cli
 speex:
 speexdsp:
 sphinx-doc:sphinx-apidoc sphinx-autogen sphinx-build sphinx-quickstart
