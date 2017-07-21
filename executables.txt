@@ -1299,6 +1299,7 @@ globjects:
 globus-toolkit:globus-domainname globus-gass-cache globus-gass-cache-destroy globus-gass-cache-util globus-gass-server globus-gass-server-shutdown globus-hostname globus-job-cancel globus-job-clean globus-job-get-output globus-job-get-output-helper globus-job-run globus-job-status globus-job-submit globus-makefile-header globus-sh-exec globus-url-copy globus-version globus-xioperf globusrun grid-ca-create grid-ca-package grid-ca-sign grid-cert-diagnostics grid-cert-info grid-cert-request grid-change-pass-phrase grid-proxy-destroy grid-proxy-info grid-proxy-init gsiscp gsisftp gsislogin gsissh gsissh-add gsissh-agent gsissh-keygen gsissh-keyscan
 glog:
 gloox:gloox-config
+glpk:glpsol
 glslang:glslangValidator spirv-remap
 glui:
 glulxe:glulxe
@@ -2575,7 +2576,6 @@ homebrew/science/gingr:
 homebrew/science/glimmer3:g3-from-training.csh g3-from-scratch.csh g3-iterated.csh
 homebrew/science/glimmerhmm:glimmerhmm glimmhmm.pl
 homebrew/science/glpk448:glpsol
-homebrew/science/glpk:glpsol
 homebrew/science/gmap-gsnap:atoiindex cmetindex cpuid dbsnp_iit ensembl_genes fa_coords get-genome gff3_genes gff3_introns gff3_splicesites gmap gmap.nosimd gmap.sse42 gmap_build gmap_compress gmap_process gmap_reassemble gmap_uncompress gmapindex gmapl gmapl.nosimd gmapl.sse42 gsnap gsnap.nosimd gsnap.sse42 gsnapl gsnapl.nosimd gsnapl.sse42 gtf_genes gtf_introns gtf_splicesites gvf_iit iit_dump iit_get iit_store md_coords psl_genes psl_introns psl_splicesites sam_sort snpindex uniqscan uniqscanl vcf_iit
 homebrew/science/gmcloser:gmcloser
 homebrew/science/gmsh:gmsh
@@ -2837,7 +2837,6 @@ homebrew/science/pulseview:pulseview
 homebrew/science/pykep:
 homebrew/science/pymol:pymol
 homebrew/science/qcl:qcl
-homebrew/science/qhull:qconvex qdelaunay qhalf qhull qvoronoi rbox
 homebrew/science/qr_mumps:
 homebrew/science/qrupdate:
 homebrew/science/qsopt:qsopt
@@ -2992,7 +2991,6 @@ homebrew/science/vcake:vcake
 homebrew/science/vcfanno:vcfanno
 homebrew/science/vcflib:bed2region plot_roc.r vcf2bed.py vcf2dag vcf2fasta vcf2sqlite.py vcf2tsv vcf_strip_extra_headers vcfaddinfo vcfafpath vcfallelicprimitives vcfaltcount vcfannotate vcfannotategenotypes vcfbiallelic vcfbreakmulti vcfcat vcfcheck vcfclassify vcfcleancomplex vcfclearid vcfclearinfo vcfcombine vcfcommonsamples vcfcomplex vcfcountalleles vcfcreatemulti vcfdistance vcfecho vcfentropy vcfevenregions vcffilter vcffirstheader vcffixup vcfflatten vcfgeno2alleles vcfgeno2haplo vcfgenosamplenames vcfgenosummarize vcfgenotypecompare vcfgenotypes vcfglbound vcfglxgt vcfgtcompare.sh vcfhetcount vcfhethomratio vcfindelproximity vcfindels vcfindex vcfinfo2qual vcfinfosummarize vcfintersect vcfkeepgeno vcfkeepinfo vcfkeepsamples vcfleftalign vcflength vcfmultiallelic vcfmultiway vcfmultiwayscripts vcfnobiallelicsnps vcfnoindels vcfnosnps vcfnulldotslashdot vcfnumalt vcfoverlay vcfparsealts vcfplotaltdiscrepancy.r vcfplotaltdiscrepancy.sh vcfplotsitediscrepancy.r vcfplottstv.sh vcfprimers vcfprintaltdiscrepancy.r vcfprintaltdiscrepancy.sh vcfqual2info vcfqualfilter vcfrandom vcfrandomsample vcfregionreduce vcfregionreduce_and_cut vcfregionreduce_pipe vcfregionreduce_uncompressed vcfremap vcfremoveaberrantgenotypes vcfremovenonATGC vcfremovesamples vcfroc vcfsample2info vcfsamplediff vcfsamplenames vcfsitesummarize vcfsnps vcfsort vcfstats vcfstreamsort vcfuniq vcfuniqalleles vcfvarstats
 homebrew/science/vcftools:fill-aa fill-an-ac fill-fs fill-ref-md5 vcf-annotate vcf-compare vcf-concat vcf-consensus vcf-contrast vcf-convert vcf-fix-newlines vcf-fix-ploidy vcf-indel-stats vcf-isec vcf-merge vcf-phased-join vcf-query vcf-shuffle-cols vcf-sort vcf-stats vcf-subset vcf-to-tab vcf-tstv vcf-validator vcftools
-homebrew/science/veclibfort:
 homebrew/science/velvet:velvetg velveth
 homebrew/science/velvetoptimiser:VelvetOptimiser.pl
 homebrew/science/viennarna:Kinfold RNA2Dfold RNALalifold RNALfold RNAPKplex RNAaliduplex RNAalifold RNAcofold RNAdistance RNAduplex RNAeval RNAfold RNAforester RNAheat RNAinverse RNApaln RNAparconv RNApdist RNAplex RNAplfold RNAplot RNApvmin RNAsnoop RNAsubopt RNAup b2ct ct2db popt
@@ -4602,6 +4600,7 @@ qd:qd-config
 qdae:apriboot dskdump dskform dskid dskscan dsktrans dskutil md3serial qdae
 qdbm:cbcodec cbtest crmgr crtest crtsv dpmgr dptest dptsv hvmgr hvtest odidx odmgr odtest qmttest rlmgr rltest vlmgr vltest vltsv
 qemu:ivshmem-client ivshmem-server qemu-img qemu-io qemu-nbd qemu-system-aarch64 qemu-system-alpha qemu-system-arm qemu-system-cris qemu-system-i386 qemu-system-lm32 qemu-system-m68k qemu-system-microblaze qemu-system-microblazeel qemu-system-mips qemu-system-mips64 qemu-system-mips64el qemu-system-mipsel qemu-system-moxie qemu-system-nios2 qemu-system-or1k qemu-system-ppc qemu-system-ppc64 qemu-system-ppcemb qemu-system-s390x qemu-system-sh4 qemu-system-sh4eb qemu-system-sparc qemu-system-sparc64 qemu-system-tricore qemu-system-unicore32 qemu-system-x86_64 qemu-system-xtensa qemu-system-xtensaeb
+qhull:qconvex qdelaunay qhalf qhull qvoronoi rbox
 qjackctl:qjackctl
 qjson:
 qmmp:qmmp
@@ -5418,6 +5417,7 @@ vcs:vcs
 vcsh:vcsh
 vde:dpipe slirpvde unixcmd unixterm vde_autolink vde_cryptcab vde_l3 vde_over_ns vde_pcapplug vde_plug vde_plug2tap vde_switch vdecmd vdekvm vdeq vdeqemu vdeterm wirefilter
 vdirsyncer:vdirsyncer
+veclibfort:
 vecx:vecx
 vegeta:vegeta
 vera++:vera++
