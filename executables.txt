@@ -38,6 +38,7 @@ afio:afio
 afl-fuzz:afl-analyze afl-clang afl-clang++ afl-cmin afl-fuzz afl-g++ afl-gcc afl-gotcpu afl-plot afl-showmap afl-tmin afl-whatsup
 afsctool:afsctool
 aften:aften wavfilter wavinfo wavrms
+afuse:afuse afuse-avahissh
 agda:agda agda-mode
 agedu:agedu
 aggregate:aggregate aggregate-ios
@@ -130,6 +131,7 @@ arangodb:arango-dfdb arango-init-database arango-secure-installation arangobench
 archey:archey
 archi-steam-farm:asf
 archivemail:archivemail
+archivemount:archivemount
 argon2:argon2
 argp-standalone:
 argtable:
@@ -200,6 +202,7 @@ autorest:autorest
 autossh:autossh rscreen
 avanor:avanor
 avce00:avcdelete avcexport avcimport avctest
+avfs:avfs-config avfsd davpass ftppass mountavfs umountavfs
 avian:avian avian-dynamic
 aview:aaflip asciiview aview
 avra:avra
@@ -286,6 +289,7 @@ bibutils:bib2xml biblatex2xml copac2xml ebi2xml end2xml endx2xml isi2xml med2xml
 bigloo:bglafile bglafile.sh bgldepend bgljas bgljfile bglmake bglmco bglpp bglprof bgltags bigloo bigloo.sh bigloo4.2c
 binaryen:asm2wasm s2wasm wasm-as wasm-dis wasm-merge wasm-opt wasm-shell
 bind:arpaname bind9-config ddns-confgen delv dig dnssec-dsfromkey dnssec-importkey dnssec-keyfromlabel dnssec-keygen dnssec-revoke dnssec-settime dnssec-signzone dnssec-verify genrandom host isc-config.sh isc-hmac-fixup lwresd mdig named named-checkconf named-checkzone named-compilezone named-journalprint named-rrchecker nsec3hash nslookup nsupdate rndc rndc-confgen tsig-keygen
+bindfs:bindfs
 binkd:binkd binkd-1.0.4
 binutils:gaddr2line gar gc++filt gcoffdump gdlltool gdllwrap gelfedit gnlmconv gnm gobjcopy gobjdump granlib greadelf gsize gsrconv gstrings gstrip gsysdump gwindmc gwindres
 binwalk:binwalk
@@ -353,6 +357,7 @@ bsdiff:bsdiff
 bsdmake:bsdmake
 bsdsfv:bsdsfv
 bsponmpi:
+btfs:btfs
 btparse:bibparse
 btpd:btcli btinfo btpd
 bubbros:bubbros bubbros-client bubbros-server
@@ -768,6 +773,7 @@ distribution:distribution
 ditaa:ditaa
 django-completion:
 djbdns:axfr-get axfrdns axfrdns-conf dnscache dnscache-conf dnsfilter dnsip dnsipq dnsmx dnsname dnsq dnsqr dnstrace dnstracesort dnstxt pickdns pickdns-conf pickdns-data random-ip rbldns rbldns-conf rbldns-data tinydns tinydns-conf tinydns-data tinydns-edit tinydns-get walldns walldns-conf
+djmount:djmount
 djview4:
 djvu2pdf:djvu2pdf
 djvulibre:any2djvu bzz c44 cjb2 cpaldjvu csepdjvu ddjvu djvm djvmcvt djvudigital djvudump djvuextract djvumake djvups djvused djvuserve djvutoxml djvutxt djvuxmlparser
@@ -914,6 +920,7 @@ emp:emp
 ems-flasher:ems-flasher
 emscripten:em++ em-config emar emcc emcmake emconfigure emlink.py emmake emranlib emrun emscons
 enca:enca enconv
+encfs:encfs encfsctl encfssh
 enchant:enchant enchant-lsmod
 enet:
 engine_pkcs11:
@@ -964,6 +971,8 @@ exomizer:b2membuf exobasic exomizer exoraw
 expat:xmlwf
 expect:autoexpect autopasswd cryptdir decryptdir dislocate expect ftp-rfc kibitz lpunlock mkpasswd multixterm passmass rftp rlogin-cwd timed-read timed-run tknewsbiff tkpasswd unbuffer weather xkibitz xpstat
 exploitdb:searchsploit
+ext2fuse:ext2fuse
+ext4fuse:ext4fuse
 extract_url:extract_url
 exult:exult
 eye-d3:eyeD3
@@ -1118,6 +1127,7 @@ ftjam:jam
 fuego:fuego fuego_test
 funcoeszz:
 fuse-emulator:fuse
+fuse-zip:fuse-zip
 fuseki:fuseki-server s-delete s-get s-head s-post s-put s-query s-update s-update-form
 fuzzy-find:ff
 fwknop:fwknop fwknopd
@@ -1152,6 +1162,7 @@ gcc@6:c++-6 cpp-6 g++-6 gcc-6 gcc-ar-6 gcc-nm-6 gcc-ranlib-6 gcov-6 gcov-tool-6 
 gconf:gconf-merge-tree gconftool-2 gsettings-data-convert gsettings-schema-convert
 gcore:gcore
 gcovr:gcovr
+gcsfuse:gcsfuse gcsfuse_mount_helper
 gcutil:gcutil
 gcviewer:gcviewer
 gd:annotate bdftogd gd2copypal gd2togif gd2topng gdcmpgif gdlib-config gdparttopng gdtopng giftogd2 pngtogd pngtogd2 webpng
@@ -1266,6 +1277,7 @@ git-when-merged:git-when-merged
 git:git git-credential-netrc git-credential-osxkeychain git-cvsserver git-receive-pack git-shell git-subtree git-upload-archive git-upload-pack gitk
 gitbucket:
 giter8:g8
+gitfs:gitfs
 gitg:gitg
 github-keygen:github-keygen
 github-markdown-toc:gh-md-toc
@@ -1367,6 +1379,7 @@ gollum:gollum
 golo:golo vanilla-golo
 gom:
 goocanvas:
+goofys:goofys
 google-benchmark:
 google-java-format:google-java-format
 google-sparsehash:
@@ -3097,6 +3110,7 @@ idutils:aid defid eid fid fnid gid lid mkid xtokid
 ievms:ievms
 ifstat:ifstat
 iftop:iftop
+ifuse:ifuse
 ii:ii
 ike-scan:ike-scan psk-crack
 ilmbase:
@@ -3992,6 +4006,7 @@ mozjpeg:cjpeg djpeg jpegtran rdjpgcom tjbench wrjpgcom
 mp3blaster:mp3blaster mp3tag nmixer splay
 mp3cat:mp3cat mp3dirclean mp3http mp3log mp3log-conf mp3stream-conf
 mp3check:mp3check
+mp3fs:mp3fs
 mp3gain:mp3gain
 mp3info:mp3info
 mp3splt:mp3splt
@@ -4174,6 +4189,7 @@ nspr:nspr-config
 nsq:nsq_pubsub nsq_stat nsq_tail nsq_to_file nsq_to_http nsq_to_nsq nsqadmin nsqd nsqlookupd to_nsq
 nss:addbuiltin atob baddbdir bltest btoa certcgi certutil checkcert chktest cmsutil conflict crlutil crmftest dbtest derdump dertimetest digest encodeinttest fipstest httpserv listsuites makepqg mangle modutil multinit nonspr10 nss-config ocspclnt ocspresp oidcalc p7content p7env p7sign p7verify pk11gcmtest pk11mode pk12util pk1sign pkix-errcodes pp pwdecrypt remtest rsaperf sdrtest secmodtest selfserv shlibsign signtool signver ssltap strsclnt symkeyutil tstclnt vfychain vfyserv
 nsuds:nsuds
+ntfs-3g:lowntfs-3g ntfs-3g ntfs-3g.probe ntfs-3g.secaudit ntfs-3g.usermap ntfscat ntfscluster ntfscmp ntfsfix ntfsinfo ntfsls mkfs.ntfs mkntfs mount_ntfs ntfsclone ntfscp ntfslabel ntfsresize ntfsundelete
 ntl:
 ntopng:ntopng
 ntp:ntp-keygen ntp-wait ntpd ntpdate ntpdc ntpq ntptrace sntp update-leap
@@ -4282,6 +4298,7 @@ opusfile:
 orbit:ior-decode-2 linc-cleanup-sockets orbit-idl-2 orbit2-config typelib-dump
 orc-tools:orc-tools
 orc:orc-bugreport orcc
+ori:ori oridbg orifs orisync
 orientdb:orientdb orientdb-console orientdb-gremlin
 ortp:
 osc:osc osc_hotshot.py
@@ -4754,6 +4771,7 @@ robot-framework:pybot rebot robot
 robotfindskitten:robotfindskitten
 rock:rock
 rocksdb:rocksdb_dump rocksdb_ldb rocksdb_repl_stress rocksdb_sanity_test rocksdb_sst_dump rocksdb_stress rocksdb_undump rocksdb_write_stress
+rofs-filtered:rofs-filtered
 rogue:rogue
 roll:roll
 rolldice:rolldice
@@ -4801,7 +4819,9 @@ ry:ry
 rzip:runzip rzip
 s-lang:slsh
 s-search:s
+s3-backer:s3backer
 s3cmd:s3cmd
+s3fs:s3fs
 s6:execlineb s6-accessrules-cdb-from-fs s6-accessrules-fs-from-cdb s6-applyuidgid s6-cleanfifodir s6-connlimit s6-envdir s6-envuidgid s6-fdholder-daemon s6-fdholder-delete s6-fdholder-deletec s6-fdholder-getdump s6-fdholder-getdumpc s6-fdholder-list s6-fdholder-listc s6-fdholder-retrieve s6-fdholder-retrievec s6-fdholder-setdump s6-fdholder-setdumpc s6-fdholder-store s6-fdholder-storec s6-fdholder-transferdump s6-fdholder-transferdumpc s6-fdholderd s6-fghack s6-ftrig-listen s6-ftrig-listen1 s6-ftrig-notify s6-ftrig-wait s6-ftrigrd s6-ioconnect s6-ipcclient s6-ipcserver s6-ipcserver-access s6-ipcserver-socketbinder s6-ipcserverd s6-log s6-mkfifodir s6-setlock s6-setsid s6-setuidgid s6-softlimit s6-sudo s6-sudoc s6-sudod s6-supervise s6-svc s6-svlisten s6-svlisten1 s6-svok s6-svscan s6-svscanctl s6-svstat s6-svwait s6-tai64n s6-tai64nlocal s6lockd ucspilogd
 safe-rm:safe-rm
 sagittarius-scheme:compile-r7rs compile-sagittarius sagittarius sagittarius-config sagittarius-package sash
@@ -4868,6 +4888,7 @@ sdl_sound:playsound playsound_simple
 sdl_ttf:
 sdlpop:prince
 sec:sec
+securefs:securefs
 seexpr:asciiCalc asciiGraph imageSynth
 selecta:selecta
 selenium-server-standalone:selenium-server
@@ -4922,6 +4943,7 @@ silk:flowcap mapsid num2dot rwaddrcount rwallformats rwappend rwbag rwbagbuild r
 simgrid:graphicator simgrid-colorizer simgrid_update_xml smpicc smpicxx smpirun tesh
 simh:altair altairz80 eclipse gri h316 hp2100 i1401 i1620 i7094 ibm1130 id16 id32 lgp nova pdp1 pdp10 pdp11 pdp15 pdp4 pdp7 pdp8 pdp9 s3 sds swtp6800mp-a swtp6800mp-a2 vax vax780
 simple-amqp-client:
+simple-mtpfs:simple-mtpfs
 simple-obfs:obfs-local obfs-server
 simple-tiles:
 simutrans:makeobj simutrans
@@ -5048,6 +5070,8 @@ ssdeep:ssdeep
 ssed:ssed
 ssh-audit:ssh-audit
 ssh-copy-id:ssh-copy-id
+sshconfigfs:sshconfigfs
+sshfs:sshfs
 sshguard:sshguard
 sshrc:sshrc
 sshtrix:sshtrix
@@ -5321,6 +5345,7 @@ ttyd:ttyd
 ttygif:ttygif
 ttyrec:ttyplay ttyrec ttytime
 tundra:t2-inspect t2-lua tundra2
+tup:tup
 tvnamer:tvnamer
 twarc:twarc
 twemcache:twemcache
@@ -5485,6 +5510,7 @@ watson:watson
 wavpack:wavpack wvgain wvunpack
 wbox:wbox
 wdc:
+wdfs:wdfs
 wdiff:mdiff unify wdiff wdiff2
 web100clt:web100clt
 webalizer:wcmgr webalizer webazolver
@@ -5589,6 +5615,7 @@ xmlstarlet:xml xmlstarlet
 xmlto:xmlif xmlto
 xmltoman:xmlmantohtml xmltoman
 xmoto:xmoto
+xmount:xmount
 xmp:xmp
 xonsh:xonsh
 xorriso:osirrox xorrecord xorriso xorriso-tcltk xorrisofs
