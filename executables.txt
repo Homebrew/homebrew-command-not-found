@@ -48,6 +48,7 @@ aiccu:aiccu
 aide:aide
 aircrack-ng:airbase-ng aircrack-ng airdecap-ng airdecloak-ng airdriver-ng aireplay-ng airmon-ng airodump-ng airodump-ng-oui-update airserv-ng airtun-ng ivstools kstats makeivs-ng packetforge-ng
 airspy:airspy_gpio airspy_gpiodir airspy_info airspy_lib_version airspy_r820t airspy_rx airspy_si5351c airspy_spiflash
+akamai:akamai
 akka:akka akka-cluster
 alac:alac
 aldo:aldo
@@ -143,6 +144,7 @@ arm:arm
 armor:armor
 arp-scan:arp-fingerprint arp-scan get-iab get-oui
 arp-sk:arp-sk
+arpack:
 arping:arping
 arpoison:arpoison
 arss:arss
@@ -273,6 +275,7 @@ bear:bear
 bee:bee
 beecrypt:
 befunge93:bef bef2c befprof
+bento4:aac2mp4 avcinfo hevcinfo mp42aac mp42hevc mp42hls mp42ts mp4compact mp4dcfpackager mp4decrypt mp4dump mp4edit mp4encrypt mp4extract mp4fragment mp4info mp4mux mp4rtphintinfo mp4split mp4tag
 berkeley-db:db_archive db_checkpoint db_deadlock db_dump db_hotbackup db_load db_log_verify db_printlog db_recover db_replicate db_sql_codegen db_stat db_tuner db_upgrade db_verify dbsql
 berkeley-db@4:db_archive db_checkpoint db_deadlock db_dump db_hotbackup db_load db_printlog db_recover db_sql db_stat db_upgrade db_verify
 betty:betty
@@ -2400,7 +2403,6 @@ homebrew/science/arcs:arcs
 homebrew/science/aribas:aribas
 homebrew/science/armadillo:
 homebrew/science/arow++:arow_learn arow_test
-homebrew/science/arpack:
 homebrew/science/arrayfire:
 homebrew/science/art:aln2bed.pl art_454 art_SOLiD art_illumina art_profiler_454 art_profiler_illumina combinedAvg.pl empDist.pl fastqReadAvg.pl map2bed.pl summation.pl
 homebrew/science/artemis:act art dnaplotter
@@ -2717,7 +2719,6 @@ homebrew/science/meraculous:run_meraculous.sh
 homebrew/science/metaphlan:metaphlan metaphlan.py
 homebrew/science/methpipe:allelicmeth amrfinder amrtester bsrate dmr duplicate-remover fast-liftover hmr hmr_rep hypermr lc_approx levels lift-filter merge-bsrate merge-methcounts methcounts methdiff methentropy methstates mlml pmd radmeth roimethstat symmetric-cpgs to-mr
 homebrew/science/metis4:graphchk kmetis mesh2dual mesh2nodal oemetis onmetis partdmesh partnmesh pmetis
-homebrew/science/metis:cmpfillin gpmetis graphchk m2gmetis mpmetis ndmetis
 homebrew/science/mfem:
 homebrew/science/mfusg:mfusg
 homebrew/science/mhap:mhap
@@ -2772,7 +2773,6 @@ homebrew/science/nxtrim:mergeReads nxtrim
 homebrew/science/oases:oases oases_pipeline.py
 homebrew/science/oce:DRAWEXE
 homebrew/science/ococo:ococo
-homebrew/science/octave:mkoctfile mkoctfile-4.2.1 octave octave-4.2.1 octave-cli octave-cli-4.2.1 octave-config octave-config-4.2.1
 homebrew/science/ogdraw:drawgenemap
 homebrew/science/oma:oma
 homebrew/science/omcompiler:omc
@@ -2780,7 +2780,6 @@ homebrew/science/ome-common:
 homebrew/science/ome-files:ome-files
 homebrew/science/ome-xml:
 homebrew/science/openalpr:alpr alprd
-homebrew/science/openblas:
 homebrew/science/openbr:age_estimation br br-gui face_recognition face_recognition_evaluation face_recognition_search face_recognition_train gender_estimation
 homebrew/science/opencascade:DRAWEXE DRAWEXE-7.1.0 custom.sh custom_clang_64.sh draw.sh env.sh
 homebrew/science/opencollada:DAEValidator OpenCOLLADAValidator
@@ -2851,7 +2850,6 @@ homebrew/science/pykep:
 homebrew/science/pymol:pymol
 homebrew/science/qcl:qcl
 homebrew/science/qr_mumps:
-homebrew/science/qrupdate:
 homebrew/science/qsopt:qsopt
 homebrew/science/qsopt_ex:dbl_solver esolver mpf_solver mpq_solver
 homebrew/science/quaff:quaff
@@ -2952,7 +2950,6 @@ homebrew/science/stacks:clone_filter count_fixed_catalog_snps.py cstacks denovo_
 homebrew/science/statismo:statismo-build-deformation-model statismo-build-gp-model statismo-build-shape-model statismo-fit-image statismo-fit-surface statismo-posterior statismo-reduce-model statismo-sample statismo-warp-image
 homebrew/science/stiff:stiff
 homebrew/science/stringtie:stringtie
-homebrew/science/suite-sparse:
 homebrew/science/sumo:TraCITestClient activitygen dfrouter duarouter emissionsDrivingCycle emissionsMap jtrrouter marouter netconvert netedit netgenerate od2trips polyconvert sumo sumo-gui
 homebrew/science/sundials:
 homebrew/science/superlu43:
@@ -3896,6 +3893,7 @@ mesos:mesos mesos-agent mesos-cat mesos-daemon.sh mesos-execute mesos-local meso
 metabase:metabase
 metaproxy:metaproxy metaproxy-config
 metashell:metashell templight_metashell
+metis:cmpfillin gpmetis graphchk m2gmetis mpmetis ndmetis
 metricbeat:metricbeat
 mfcuk:mfcuk
 mfoc:mfoc
@@ -4220,6 +4218,7 @@ ocamlsdl:
 ocp:ocp ocp-0.1.21 ocp-curses ultrafix.sh
 ocproxy:ocproxy
 ocrad:ocrad
+octave:mkoctfile mkoctfile-4.2.1 octave octave-4.2.1 octave-cli octave-cli-4.2.1 octave-config octave-config-4.2.1
 ode:ode-config
 odo:odo
 odt2txt:odt2txt
@@ -4256,6 +4255,7 @@ open-tyrian:opentyrian
 open-vcdiff:vcdiff
 open-zwave:MinOZW
 openal-soft:altonegen bsincgen makehrtf openal-info
+openblas:
 opencbm:cbmcopy cbmctrl cbmformat cbmforng cbmlinetester cbmread cbmrpm41 cbmwrite d64copy d82copy frm_analyzer imgcopy opencbm_plugin_helper_tools samplelibtransf
 opencc:opencc opencc_dict opencc_phrase_extract
 openclonk:c4group c4script openclonk
@@ -4626,6 +4626,7 @@ qpm:qpm
 qprint:qprint
 qrencode:qrencode
 qriollo:qr
+qrupdate:
 qscintilla2:
 qstat:qstat
 qt:canbusutil fixqt4headers.pl lconvert lrelease lupdate macchangeqt macdeployqt moc qcollectiongenerator qdbus qdbuscpp2xml qdbusxml2cpp qdoc qgltf qhelpconverter qhelpgenerator qlalr qmake qmlcachegen qmleasing qmlimportscanner qmllint qmlmin qmlplugindump qmlprofiler qmlscene qmltestrunner qscxmlc qtattributionsscanner qtdiag qtpaths qtplugininfo qwebengine_convert_dict rcc repc syncqt.pl uic xmlpatterns xmlpatternsvalidator
@@ -5125,6 +5126,7 @@ subnetcalc:subnetcalc
 subversion:svn svnadmin svnbench svndumpfilter svnfsfs svnlook svnmucc svnrdump svnserve svnsync svnversion
 subversion@1.8:svn svnadmin svndumpfilter svnlook svnmucc svnrdump svnserve svnsync svnversion
 suil:
+suite-sparse:
 supermodel:supermodel
 supersonic:
 supertux:supertux2
