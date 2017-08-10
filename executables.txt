@@ -467,6 +467,7 @@ ceylon:ceylon ceylon-sh-setup
 cf4ocl:ccl_c ccl_c-2.1.0 ccl_devinfo ccl_devinfo-2.1.0 ccl_plot_events.py
 cf:cf
 cfengine:cf-agent cf-execd cf-key cf-monitord cf-promises cf-runagent cf-serverd cf-upgrade rpmvercmp
+cfitsio:
 cflow:cflow
 cfr-decompiler:cfr-decompiler
 cfssl:cfssl cfssljson cfsslmkbundle
@@ -1052,6 +1053,7 @@ flac:flac metaflac
 flactag:checkflac discid flactag ripdataflac ripflac
 flake8:flake8
 flake:flake
+flann:flann_example_c flann_example_cpp
 flashrom:flashrom
 flasm:flasm
 flatbuffers:flatc
@@ -1360,7 +1362,7 @@ gnu-units:gunits gunits_cur
 gnu-which:gwhich
 gnumeric:gnumeric gnumeric-1.12.34 ssconvert ssdiff ssgrep ssindex
 gnupg-pkcs11-scd:gnupg-pkcs11-scd
-gnupg:addgnupghome applygnupgdefaults dirmngr dirmngr-client gpg gpg-agent gpg-connect-agent gpg2 gpgconf gpgparsemail gpgscm gpgsm gpgtar gpgv gpgv2 kbxutil symcryptrun watchgnupg
+gnupg:addgnupghome applygnupgdefaults dirmngr dirmngr-client gpg gpg-agent gpg-connect-agent gpgconf gpgparsemail gpgscm gpgsm gpgtar gpgv kbxutil symcryptrun watchgnupg
 gnupg@1.4:gpg-zip1 gpg1 gpgsplit1 gpgv1
 gnupg@2.0:addgnupghome applygnupgdefaults gpg gpg-connect-agent gpg-zip gpg2 gpgconf gpgkey2ssh gpgparsemail gpgsm gpgsm-gencert.sh gpgv gpgv2 kbxutil symcryptrun watchgnupg
 gnuplot:gnuplot
@@ -2351,6 +2353,7 @@ homebrew/php/php72-timecop:
 homebrew/php/php72-timezonedb:
 homebrew/php/php72-uopz:
 homebrew/php/php72-uv:
+homebrew/php/php72-v8js:
 homebrew/php/php72-xxtea:
 homebrew/php/php72-yac:
 homebrew/php/php72-yaml:
@@ -2480,7 +2483,6 @@ homebrew/science/cegma:cegma
 homebrew/science/celera-assembler:runCA
 homebrew/science/centrifuge:centrifuge centrifuge-BuildSharedSequence.pl centrifuge-RemoveEmptySequence.pl centrifuge-RemoveN.pl centrifuge-build centrifuge-build-bin centrifuge-class centrifuge-compress.pl centrifuge-download centrifuge-inspect centrifuge-inspect-bin centrifuge-kreport centrifuge-sort-nt.pl
 homebrew/science/cerulean:
-homebrew/science/cfitsio:
 homebrew/science/cgns:adf2hdf cgnscheck cgnscompress cgnsconvert cgnsdiff cgnslist cgnsnames cgnsupdate hdf2adf
 homebrew/science/circlator:circlator
 homebrew/science/circos:circos
@@ -2567,7 +2569,6 @@ homebrew/science/fermi:fermi run-fermi.pl
 homebrew/science/fermikit:run-calling
 homebrew/science/fgsl:
 homebrew/science/field3d:
-homebrew/science/flann:flann_example_c flann_example_cpp
 homebrew/science/flash:flash
 homebrew/science/flexbar:flexbar
 homebrew/science/flint:
@@ -2631,7 +2632,6 @@ homebrew/science/hotspot:bowtie2minmargin.pl chopFastaPseudoreads.pl enumerateUn
 homebrew/science/htsbox:htsbox
 homebrew/science/htslib:bgzip htsfile tabix
 homebrew/science/humann2:humann2 humann2_config humann2_databases humann2_humann1_kegg humann2_join_tables humann2_reduce_table humann2_regroup_table humann2_rename_table humann2_renorm_table humann2_rna_dna_norm humann2_split_table humann2_strain_profiler humann2_test
-homebrew/science/hwloc:hwloc-annotate hwloc-assembler hwloc-assembler-remote hwloc-bind hwloc-calc hwloc-compress-dir hwloc-diff hwloc-distances hwloc-distrib hwloc-info hwloc-ls hwloc-patch hwloc-ps lstopo lstopo-no-graphics
 homebrew/science/hyphy:HYPHYMP HYPHYSP
 homebrew/science/hypre:
 homebrew/science/idba:idba idba_hybrid idba_tran idba_tran_test idba_ud
@@ -3017,7 +3017,6 @@ homebrew/science/visp:visp-config
 homebrew/science/voro++:voro++
 homebrew/science/vsearch:vsearch
 homebrew/science/vt:vt
-homebrew/science/vtk:vtkEncodeString-7.1 vtkHashSource-7.1 vtkParseJava-7.1 vtkWrapHierarchy-7.1 vtkWrapJava-7.1 vtkWrapPython-7.1 vtkWrapPythonInit-7.1 vtkWrapTcl-7.1 vtkWrapTclInit-7.1 vtkpython
 homebrew/science/wcalc:stdio-wcalc wcalc wcalc-config
 homebrew/science/wcslib:HPXcvt fitshdr wcsware
 homebrew/science/wcstools:addpix bincat char2sp conpix cphead crlf delhead delwcs edhead filename fileroot filext fixpix getcol getdate getfits gethead getpix gettab i2f imcat imextract imfill imhead immatch imresize imrot imsize imsmooth imstack imstar imwcs isnum isrange keyhead newfits remap scat sethead setpix simpos sky2xy skycoor sp2char subpix sumpix wcshead xy2sky
@@ -3079,6 +3078,7 @@ hubflow:git-hf
 huexpress:hucrc huexpress
 hugo:hugo
 hunspell:affixcompress analyze chmorph hunspell hunzip hzip ispellaff2myspell makealias munch unmunch wordforms wordlist2hunspell
+hwloc:hwloc-annotate hwloc-assembler hwloc-assembler-remote hwloc-bind hwloc-calc hwloc-compress-dir hwloc-diff hwloc-distances hwloc-distrib hwloc-info hwloc-ls hwloc-patch hwloc-ps lstopo lstopo-no-graphics
 hydra:dpl4hydra.sh hydra hydra-wizard.sh pw-inspector
 hyper:hyper
 hyperestraier:estbutler estcall estcmd estconfig estload estmaster estmttest estwaver estwolefind
@@ -5506,6 +5506,7 @@ vstr:
 vtclock:vtclock
 vte3:vte-2.91
 vte:vte
+vtk:vtk vtkEncodeString-8.0 vtkHashSource-8.0 vtkParseJava-8.0 vtkWrapHierarchy-8.0 vtkWrapJava-8.0 vtkWrapPython-8.0 vtkWrapPythonInit-8.0 vtkWrapTcl-8.0 vtkWrapTclInit-8.0 vtkpython
 vttest:vttest
 vultr:vultr
 w-calc:wcalc
