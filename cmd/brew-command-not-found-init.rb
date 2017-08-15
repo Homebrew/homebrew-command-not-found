@@ -51,7 +51,7 @@ end
 def init
   case shell
   when :bash, :zsh
-    puts File.read(File.expand_path "#{File.dirname(__FILE__)}/../handler.sh")
+    puts File.read(File.expand_path("#{File.dirname(__FILE__)}/../handler.sh"))
   when :fish
     puts File.expand_path "#{File.dirname(__FILE__)}/../handler.fish"
   else
@@ -64,4 +64,3 @@ if $stdout.tty?
 else
   init
 end
-

@@ -84,9 +84,7 @@ class ExecutablesDB
 
       if f.tap?
         origin = f.name
-        if !@exes[name] && @exes[origin]
-          mv origin, name
-        end
+        mv origin, name if !@exes[name] && @exes[origin]
       else
         # renamed formulae
         mv f.oldname, name if !f.oldname.nil? && @exes[f.oldname]
@@ -154,7 +152,7 @@ unless source
   source = tap_path/"executables.txt"
   unless pwd == tap_path
     relpath = source.relative_path_from(pwd)
-    shown_path = relpath.to_s.length > source.to_s.length ? source : relpath
+    shown_path = (relpath.to_s.length > source.to_s.length) ? source : relpath
     ohai "Using executables list from '#{shown_path}'"
   end
   source.to_s
@@ -179,11 +177,11 @@ if ARGV.include? "--stats"
   core_percentage = ((formulae & core).size * 1000 / core.size.to_f).round / 10.0
   taps_percentage = ((formulae & taps).size * 1000 / taps.size.to_f).round / 10.0
 
-  puts <<-EOS
-#{formulae.size} formulae
-#{cmds_count} commands
-#{core_percentage}% of core          (missing: #{(core - formulae) * ", "})
-#{taps_percentage}% of official taps (missing: #{(taps - formulae) * ", "})
+  puts <<-EOS.unindent
+    #{formulae.size} formulae
+    #{cmds_count} commands
+    #{core_percentage}% of core          (missing: #{(core - formulae) * ", "})
+    #{taps_percentage}% of official taps (missing: #{(taps - formulae) * ", "})
   EOS
 
   unknown = formulae - Formula.full_names
