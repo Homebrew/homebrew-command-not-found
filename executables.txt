@@ -65,6 +65,7 @@ amap:amap amap6 amapcrap
 amazon-ecs-cli:ecs-cli
 amdatu-bootstrap:amdatu-bootstrap
 ammonite-repl:amm
+ampl-mp:tableproxy64
 amqp-cpp:
 amtterm:amtterm amttool
 analog:analog
@@ -1337,6 +1338,7 @@ gmic:gmic
 gmime:
 gmp:
 gmp@4:
+gmt:backtracker blockmean blockmedian blockmode dimfilter filter1d fitcircle gmt gmt-config gmt2kml gmt2rgb gmt_shell_functions.sh gmtconnect gmtconvert gmtdefaults gmtdp gmtflexure gmtget gmtgravmag3d gmtinfo gmtlogo gmtmath gmtpmodeler gmtregress gmtselect gmtset gmtsimplify gmtspatial gmtstitch gmtswitch gmtvector gmtwhich gpsgridder gravfft grd2cpt grd2rgb grd2xyz grdblend grdclip grdcontour grdconvert grdcut grdedit grdfft grdfilter grdflexure grdgradient grdgravmag3d grdhisteq grdimage grdinfo grdlandmask grdmask grdmath grdpaste grdpmodeler grdproject grdraster grdredpol grdreformat grdrotater grdsample grdseamount grdspotter grdtrack grdtrend grdvector grdview grdvolume greenspline gshhg hotspotter img2grd isogmt kml2gmt makecpt mapproject mgd77convert mgd77header mgd77info mgd77list mgd77magref mgd77manage mgd77path mgd77sniffer mgd77track minmax nearneighbor originator project ps2raster psbasemap psclip pscoast pscontour psconvert pscoupe pshistogram psimage pslegend psmask psmeca pspolar psrose pssac psscale pssegy pssegyz pssolar psternary pstext psvelo pswiggle psxy psxyz rotconverter rotsmoother sample1d segy2grd spectrum1d sph2grd sphdistance sphinterpolate sphtriangulate splitxyz surface talwani2d talwani3d trend1d trend2d triangulate x2sys_binlist x2sys_cross x2sys_datalist x2sys_get x2sys_init x2sys_list x2sys_merge x2sys_put x2sys_report x2sys_solve xyz2grd
 gmtl:gmtl-config
 gnatsd:gnatsd
 gnome-autoar:
@@ -1402,6 +1404,7 @@ google-sql-tool:google_sql
 googler:googler
 goolabs:goolabs
 goose:goose
+gopass:gopass
 gor:gor
 gost:gost
 gosu:gosu
@@ -2411,7 +2414,6 @@ homebrew/science/alien-hunter:alien_hunter
 homebrew/science/allpaths-lg:RunAllPathsLG
 homebrew/science/alpscore:
 homebrew/science/amos:ace2contig agp2amos amos2ace amos2frg amos2mates amos2sq AMOScmp AMOScmp-shortReads AMOScmp-shortReads-alignmentTrimmed amosvalidate analyze-read-depth analyzeSNPs arachne2ctg arachne2scaff arrive arrive2 asmQC asmQC2 assembleRNAs astats bank-clean bank-combine bank-mapping bank-report bank-transact bank-tutorial bank-unlock bank2contig bank2coverage bank2fasta bank2lib bank2scaff benchmark2arachne benchmark2ca benchmark2mates benchmark2ta benchmark_qual benchmark_seq blasr2coords blat2nucmer Bundler ca2ctg ca2mates ca2scaff ca2singletons ca2ta casm-breaks casm-layout castats cavalidate cestat-cov cgb2ctg Chainer clk clusterSnps contig-cmp contig2contig coords2cam count-kmers count-qmers ctg2fasta ctg2umdcontig ctgovl cvgChop cvgStat delta2clr delta2cvg dumpContigsAsReads dumpFeatures dumpmates dumpreads excl_seqs extractContig fasta_select_len fasta_to_fastq fastq_rename fastq_to_fasta_fast fastqqc filter_contig filter_seq FilterEdgesByCluster filterfrg find-duplicate-reads find-query-breaks find-tandem find_ends findChimeras findMissingMates findTcovSnp fixfastq fixfrg fixlib FRCurve frg-umd-merge frg2fasta frg2fastq frg2ta gap-links gccontent gene_asm genome-complexity genome-complexity-fast getFRCvalues getlengths getN50 goBambus2 grow-readbank hash-overlap insert-sizes iterate Joiner kmer-count kmer-cov kmer-cov-plot kmers ktrimfrg library-histogram Linearize list-linked-contigs listcontigreads listGCContent listReadPlacedStatus listSingletonMates listSurrogates load-overlaps loadFeatures make-consensus make-consensus_poly MarkRepeats merge-contigs message-count message-extract message-validate Minimo minimus minimus2 minimus2-blat missing-reads normalizeScaffold nucmer2ovl nucmerAnnotate olapsFromContig OrientContigs OutputMotifs OutputResults OutputScaffolds overlap-align ovl-degr-dist ovl2OVL parsecasm partitionBank phd2afg postCAqc preassembleFrgs preTA printScaff pullTArchive pyrosim qmer-filter read-cov-plot readinfo2cam recallConsensus renameReads rerunMultiTest resetFragLibrary revFasta revScaffold runAmos runMultiTest running-cmp runTA runTest scaff2fasta scaffoldRange2Ungapped select-reads show-ma-asm sim-cover-depth sim-cover2 sim-shotgun simple-overlap simpleContigLoader simplifyLibraries singles sort2 stats summarizeMultiTest suspiciousfeat2region ta2ace tab2ovls tagsum-reduce tandemCollapse tarchive2amos tarchive2ca tigger tiling2cam toAmos toAmos_new toArachne trace_comment trace_comments trace_convert trace_scf_dump trace_seq translate-fasta trimByOvl trimends trimfrg untangle updateBankPositions updateClrRanges updateDeltaClr updateLibSizes vecfix verify-layout
-homebrew/science/ampl-mp:miniampl
 homebrew/science/analysis:Fexact HBKpermute MKtest compute descPoly extractCoding gestimator kimura80 polydNdS rsq sharedPoly snntest translateCoding
 homebrew/science/andi:andi
 homebrew/science/ann:ann2fig ann_sample ann_test
@@ -2610,8 +2612,6 @@ homebrew/science/glpk448:glpsol
 homebrew/science/gmap-gsnap:atoiindex cmetindex cpuid dbsnp_iit ensembl_genes fa_coords get-genome gff3_genes gff3_introns gff3_splicesites gmap gmap.nosimd gmap.sse42 gmap_build gmap_compress gmap_process gmap_reassemble gmap_uncompress gmapindex gmapl gmapl.nosimd gmapl.sse42 gsnap gsnap.nosimd gsnap.sse42 gsnapl gsnapl.nosimd gsnapl.sse42 gtf_genes gtf_introns gtf_splicesites gvf_iit iit_dump iit_get iit_store md_coords psl_genes psl_introns psl_splicesites sam_sort snpindex uniqscan uniqscanl vcf_iit
 homebrew/science/gmcloser:gmcloser
 homebrew/science/gmsh:gmsh
-homebrew/science/gmt4:GMT backtracker binlegs blockmean blockmedian blockmode dat2gmt dimfilter filter1d fitcircle gmt2bin gmt2dat gmt2kml gmt2rgb gmt_shell_functions.sh gmtconvert gmtdefaults gmtdigitize gmtdp gmtget gmtinfo gmtlegs gmtlist gmtlogo gmtmath gmtpath gmtselect gmtset gmtstitch gmtswitch gmttrack grd2cpt grd2xyz grdblend grdclip grdcontour grdcut grdedit grdfft grdfilter grdgradient grdhisteq grdimage grdinfo grdlandmask grdmask grdmath grdpaste grdproject grdraster grdreformat grdrotater grdsample grdspotter grdtrack grdtrend grdvector grdview grdvolume greenspline gshhg gshhg_dp gshhgtograss hotspotter img2google img2grd img2mercgrd isogmt kml2gmt makecpt makepattern mapproject mgd77convert mgd77header mgd77info mgd77list mgd77magref mgd77manage mgd77path mgd77sniffer mgd77togmt mgd77track minmax nc2xy nearneighbor originator project ps2raster psbasemap psbbox.sh psclip pscoast pscontour pscoupe pshistogram psimage pslegend psmask psmeca psmegaplot pspolar psrose psscale pssegy pssegyz pstext psvelo pswiggle psxy psxyz rotconverter sample1d segy2grd spectrum1d sphdistance sphinterpolate sphtriangulate splitxyz surface trend1d trend2d triangulate x2sys_binlist x2sys_cross x2sys_datalist x2sys_get x2sys_init x2sys_list x2sys_merge x2sys_put x2sys_report x2sys_solve x_edit x_init x_list x_over x_remove x_report x_setup x_solve_dc_drift x_update xyz2grd
-homebrew/science/gmt:backtracker blockmean blockmedian blockmode dimfilter filter1d fitcircle gmt gmt-config gmt2kml gmt2rgb gmt_shell_functions.sh gmtconnect gmtconvert gmtdefaults gmtdp gmtflexure gmtget gmtgravmag3d gmtinfo gmtlogo gmtmath gmtpmodeler gmtregress gmtselect gmtset gmtsimplify gmtspatial gmtstitch gmtswitch gmtvector gmtwhich gpsgridder gravfft grd2cpt grd2rgb grd2xyz grdblend grdclip grdcontour grdconvert grdcut grdedit grdfft grdfilter grdflexure grdgradient grdgravmag3d grdhisteq grdimage grdinfo grdlandmask grdmask grdmath grdpaste grdpmodeler grdproject grdraster grdredpol grdreformat grdrotater grdsample grdseamount grdspotter grdtrack grdtrend grdvector grdview grdvolume greenspline gshhg hotspotter img2grd isogmt kml2gmt makecpt mapproject mgd77convert mgd77header mgd77info mgd77list mgd77magref mgd77manage mgd77path mgd77sniffer mgd77track minmax nearneighbor originator project ps2raster psbasemap psclip pscoast pscontour psconvert pscoupe pshistogram psimage pslegend psmask psmeca pspolar psrose pssac psscale pssegy pssegyz pssolar psternary pstext psvelo pswiggle psxy psxyz rotconverter rotsmoother sample1d segy2grd spectrum1d sph2grd sphdistance sphinterpolate sphtriangulate splitxyz surface talwani2d talwani3d trend1d trend2d triangulate x2sys_binlist x2sys_cross x2sys_datalist x2sys_get x2sys_init x2sys_list x2sys_merge x2sys_put x2sys_report x2sys_solve xyz2grd
 homebrew/science/gmtk:discrete-mi fixTri.sh generate_random_graph.pl gmtkDMLPtrain gmtkDTindex gmtkEMtrain gmtkJT gmtkKernel gmtkMMItrain gmtkModelInfo gmtkNGramIndex gmtkOnline gmtkParmConvert gmtkPrint gmtkTFmerge gmtkTie gmtkTime gmtkTriangulate gmtkViterbi gmtkViz obs-cat obs-concat obs-diff obs-info obs-print obs-skmeans obs-stats obs-window triangulateGA triangulateParallel triangulateTimings
 homebrew/science/gnuastro:astarithmetic astconvertt astconvolve astcosmiccal astheader astimgcrop astimgstat astimgwarp astmkcatalog astmknoise astmkprof astnoisechisel astsubtractsky asttable
 homebrew/science/gnudatalanguage:gdl pltek
@@ -2637,7 +2637,6 @@ homebrew/science/htsbox:htsbox
 homebrew/science/htslib:bgzip htsfile tabix
 homebrew/science/humann2:humann2 humann2_config humann2_databases humann2_humann1_kegg humann2_join_tables humann2_reduce_table humann2_regroup_table humann2_rename_table humann2_renorm_table humann2_rna_dna_norm humann2_split_table humann2_strain_profiler humann2_test
 homebrew/science/hyphy:HYPHYMP HYPHYSP
-homebrew/science/hypre:
 homebrew/science/idba:idba idba_hybrid idba_tran idba_tran_test idba_ud
 homebrew/science/idcoefs:idcoefs
 homebrew/science/igraph:
@@ -2686,7 +2685,6 @@ homebrew/science/libeemd:
 homebrew/science/libfolia:folialint
 homebrew/science/libgpkg:gpkg
 homebrew/science/liblbfgs:
-homebrew/science/libmatio:matdump
 homebrew/science/libminc:
 homebrew/science/libpll:
 homebrew/science/libsbml:
@@ -3083,6 +3081,7 @@ hyper:hyper
 hyperestraier:estbutler estcall estcmd estconfig estload estmaster estmttest estwaver estwolefind
 hyperscan:
 hyperspec:
+hypre:
 i2p:eepget i2prouter
 i2util:aespasswd pfstore
 i3:i3 i3-config-wizard i3-dmenu-desktop i3-dump-log i3-input i3-migrate-config-to-v4 i3-msg i3-nagbar i3-save-tree i3-sensible-editor i3-sensible-pager i3-sensible-terminal i3-with-shmlog i3bar
@@ -3543,6 +3542,7 @@ liblwgeom:
 liblzf:lzf
 libmaa:
 libmagic:
+libmatio:matdump
 libmatroska:
 libmaxminddb:mmdblookup
 libmemcached:memcapable memcat memcp memdump memerror memexist memflush memparse memping memrm memslap memstat memtouch
