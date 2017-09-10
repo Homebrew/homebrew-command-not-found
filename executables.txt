@@ -10,7 +10,6 @@ abcl:abcl
 abcm2ps:abcm2ps
 abcmidi:abc2abc abc2midi abcmatch mftext midi2abc midicopy yaps
 abduco:abduco
-abi-compliance-checker:abi-compliance-checker
 abnfgen:abnfgen
 abook:abook
 abuse:abuse abuse-tool
@@ -549,6 +548,7 @@ cln:pi
 cloc:cloc
 clockywock:clockywock
 clog:clog
+clojure:clj clojure
 clojurescript:cljsc
 cloog:cloog
 cloog@0.15:cloog
@@ -815,6 +815,7 @@ dnsviz:dnsviz
 docbook-xsl:dbtoepub
 docbook2x:db2x_manxml db2x_texixml db2x_xsltproc docbook2man docbook2texi sgml2xml-isoent utf8trans
 docbook:
+docfx:docfx
 docker-clean:docker-clean
 docker-cloud:docker-cloud
 docker-completion:
@@ -959,6 +960,7 @@ epstool:epstool
 epubcheck:epubcheck
 eralchemy:eralchemy
 erlang:ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
+erlang@17:ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
 erlang@18:ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
 erlang@19:ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
 es:es
@@ -1390,6 +1392,7 @@ go@1.4:go godoc gofmt
 go@1.5:go godoc gofmt
 go@1.6:go godoc gofmt
 go@1.7:go godoc gofmt
+go@1.8:go godoc gofmt
 goaccess:goaccess
 goad:goad
 gobby:gobby-0.5
@@ -2828,7 +2831,6 @@ homebrew/science/phyx:pxaa2cdn pxbdfit pxbdsim pxboot pxbp pxcat pxclsq pxconsq 
 homebrew/science/picard-tools:picard
 homebrew/science/piler:piler
 homebrew/science/pilercr:pilercr
-homebrew/science/pillow:createfontdatachunk.py enhancer.py explode.py gifmaker.py painter.py pilconvert.py pildriver.py pilfile.py pilfont.py pilprint.py player.py thresholder.py viewer.py
 homebrew/science/pilon:pilon
 homebrew/science/plasma:
 homebrew/science/platypusvar:Platypus.py platypusvar
@@ -2948,7 +2950,6 @@ homebrew/science/squeezambler:squeezambler squeezambler2
 homebrew/science/sratoolkit:abi-dump abi-dump.2 abi-dump.2.8.2 abi-load abi-load.2 abi-load.2.8.2 align-info align-info.2 align-info.2.8.2 bam-load bam-load.2 bam-load.2.8.2 cache-mgr cache-mgr.2 cache-mgr.2.8.2 cg-load cg-load.2 cg-load.2.8.2 copycat copycat.2 copycat.2.8.2 fastdump fastdump.2 fastdump.2.8.2 fastq-dump fastq-dump.2 fastq-dump.2.8.2 fastq-load fastq-load.2 fastq-load.2.8.2 helicos-load helicos-load.2 helicos-load.2.8.2 illumina-dump illumina-dump.2 illumina-dump.2.8.2 illumina-load illumina-load.2 illumina-load.2.8.2 kar kar.2 kar.2.8.2 kdbmeta kdbmeta.2 kdbmeta.2.8.2 kget kget.2 kget.2.8.2 latf-load latf-load.2 latf-load.2.8.2 pacbio-load pacbio-load.2 pacbio-load.2.8.2 prefetch prefetch.2 prefetch.2.8.2 rcexplain rcexplain.2 rcexplain.2.8.2 sam-dump sam-dump.2 sam-dump.2.8.2 sff-dump sff-dump.2 sff-dump.2.8.2 sff-load sff-load.2 sff-load.2.8.2 sra-pileup sra-pileup.2 sra-pileup.2.8.2 sra-sort sra-sort.2 sra-sort.2.8.2 sra-stat sra-stat.2 sra-stat.2.8.2 srapath srapath.2 srapath.2.8.2 srf-load srf-load.2 srf-load.2.8.2 test-sra test-sra.2 test-sra.2.8.2 vdb-config vdb-config.2 vdb-config.2.8.2 vdb-copy vdb-copy.2 vdb-copy.2.8.2 vdb-decrypt vdb-decrypt.2 vdb-decrypt.2.8.2 vdb-dump vdb-dump.2 vdb-dump.2.8.2 vdb-encrypt vdb-encrypt.2 vdb-encrypt.2.8.2 vdb-lock vdb-lock.2 vdb-lock.2.8.2 vdb-passwd vdb-passwd.2 vdb-passwd.2.8.2 vdb-unlock vdb-unlock.2 vdb-unlock.2.8.2 vdb-validate vdb-validate.2 vdb-validate.2.8.2
 homebrew/science/ssake:SSAKE
 homebrew/science/stacks:clone_filter count_fixed_catalog_snps.py cstacks denovo_map.pl estacks exec_velvet.pl export_sql.pl genotypes hstacks index_radtags.pl integrate_alignments.py kmer_filter load_radtags.pl load_sequences.pl phasedstacks populations process_radtags process_shortreads pstacks ref_map.pl rxstacks sort_read_pairs.pl sstacks stacks_export_notify.pl ustacks
-homebrew/science/statismo:statismo-build-deformation-model statismo-build-gp-model statismo-build-shape-model statismo-fit-image statismo-fit-surface statismo-posterior statismo-reduce-model statismo-sample statismo-warp-image
 homebrew/science/stiff:stiff
 homebrew/science/stringtie:stringtie
 homebrew/science/sumo:TraCITestClient activitygen dfrouter duarouter emissionsDrivingCycle emissionsMap jtrrouter marouter netconvert netedit netgenerate od2trips polyconvert sumo sumo-gui
@@ -3276,6 +3277,7 @@ julius:accept_check.dSYM adinrec.dSYM adintool.dSYM dfa_determinize.dSYM dfa_min
 juman:juman
 jumanpp:jumanpp mkdarts_jumanpp
 jump:jump
+jupyter:jupyter jupyter-bundlerextension jupyter-console jupyter-kernelspec jupyter-migrate jupyter-nbconvert jupyter-nbextension jupyter-notebook jupyter-run jupyter-serverextension jupyter-troubleshoot jupyter-trust
 jvgrep:jvgrep
 jvm-mon:jvm-mon
 jvmtop:jvmtop
@@ -3403,6 +3405,7 @@ libb2:
 libbdplus:
 libbind:
 libbinio:
+libbitcoin-explorer:bx
 libbitcoin:
 libbladerf:bladeRF-cli
 libbluray:bd_info
@@ -3750,6 +3753,7 @@ llvm:FileCheck bugpoint c-index-test clang clang++ clang-4.0 clang-apply-replace
 llvm@3.7:FileCheck-3.7 bugpoint-3.7 c-index-test-3.7 clang++-3.7 clang-3.7 clang-apply-replacements-3.7 clang-check-3.7 clang-format-3.7 clang-modernize-3.7 clang-query-3.7 clang-rename-3.7 clang-tblgen-3.7 clang-tidy-3.7 count-3.7 llc-3.7 lli-3.7 lli-child-target-3.7 llvm-ar-3.7 llvm-as-3.7 llvm-bcanalyzer-3.7 llvm-config-3.7 llvm-cov-3.7 llvm-cxxdump-3.7 llvm-diff-3.7 llvm-dis-3.7 llvm-dsymutil-3.7 llvm-dwarfdump-3.7 llvm-extract-3.7 llvm-link-3.7 llvm-mc-3.7 llvm-mcmarkup-3.7 llvm-nm-3.7 llvm-objdump-3.7 llvm-pdbdump-3.7 llvm-profdata-3.7 llvm-ranlib-3.7 llvm-readobj-3.7 llvm-rtdyld-3.7 llvm-size-3.7 llvm-stress-3.7 llvm-symbolizer-3.7 llvm-tblgen-3.7 macho-dump-3.7 not-3.7 obj2yaml-3.7 opt-3.7 pp-trace-3.7 scan-build-3.7 scan-view-3.7 verify-uselistorder-3.7 yaml2obj-3.7
 llvm@3.8:FileCheck-3.8 bugpoint-3.8 c-index-test-3.8 clang++-3.8 clang-3.8 clang-apply-replacements-3.8 clang-check-3.8 clang-format-3.8 clang-query-3.8 clang-rename-3.8 clang-tblgen-3.8 clang-tidy-3.8 count-3.8 llc-3.8 lli-3.8 lli-child-target-3.8 llvm-ar-3.8 llvm-as-3.8 llvm-bcanalyzer-3.8 llvm-config-3.8 llvm-cov-3.8 llvm-cxxdump-3.8 llvm-diff-3.8 llvm-dis-3.8 llvm-dsymutil-3.8 llvm-dwarfdump-3.8 llvm-dwp-3.8 llvm-extract-3.8 llvm-link-3.8 llvm-lto-3.8 llvm-mc-3.8 llvm-mcmarkup-3.8 llvm-nm-3.8 llvm-objdump-3.8 llvm-pdbdump-3.8 llvm-profdata-3.8 llvm-ranlib-3.8 llvm-readobj-3.8 llvm-rtdyld-3.8 llvm-size-3.8 llvm-split-3.8 llvm-stress-3.8 llvm-symbolizer-3.8 llvm-tblgen-3.8 not-3.8 obj2yaml-3.8 opt-3.8 pp-trace-3.8 sancov-3.8 scan-build scan-view verify-uselistorder-3.8 yaml2obj-3.8
 llvm@3.9:FileCheck bugpoint c-index-test clang clang++ clang-3.9 clang-apply-replacements clang-check clang-cl clang-format clang-include-fixer clang-query clang-rename clang-tblgen clang-tidy count find-all-symbols git-clang-format ld.lld llc lld lld-link lli lli-child-target llvm-PerfectShuffle llvm-ar llvm-as llvm-bcanalyzer llvm-c-test llvm-config llvm-cov llvm-cxxdump llvm-diff llvm-dis llvm-dsymutil llvm-dwarfdump llvm-dwp llvm-extract llvm-lib llvm-link llvm-lto llvm-mc llvm-mcmarkup llvm-nm llvm-objdump llvm-pdbdump llvm-profdata llvm-ranlib llvm-readobj llvm-rtdyld llvm-size llvm-split llvm-stress llvm-symbolizer llvm-tblgen modularize not obj2yaml opt sancov sanstats scan-build scan-view set-xcode-analyzer verify-uselistorder yaml-bench yaml2obj
+llvm@4:FileCheck bugpoint c-index-test clang clang++ clang-4.0 clang-apply-replacements clang-change-namespace clang-check clang-cl clang-cpp clang-format clang-import-test clang-include-fixer clang-offload-bundler clang-query clang-rename clang-reorder-fields clang-tidy count find-all-symbols git-clang-format ld.lld llc lld lld-link lli lli-child-target llvm-PerfectShuffle llvm-ar llvm-as llvm-bcanalyzer llvm-c-test llvm-cat llvm-config llvm-cov llvm-cxxdump llvm-cxxfilt llvm-diff llvm-dis llvm-dsymutil llvm-dwarfdump llvm-dwp llvm-extract llvm-lib llvm-link llvm-lto llvm-lto2 llvm-mc llvm-mcmarkup llvm-modextract llvm-nm llvm-objdump llvm-opt-report llvm-pdbdump llvm-profdata llvm-ranlib llvm-readobj llvm-rtdyld llvm-size llvm-split llvm-stress llvm-strings llvm-symbolizer llvm-tblgen llvm-xray modularize not obj2yaml opt sancov sanstats scan-build scan-view set-xcode-analyzer verify-uselistorder yaml-bench yaml2obj
 lmdb:mdb_copy mdb_dump mdb_load mdb_stat
 lnav:lnav
 loc:loc
@@ -5094,7 +5098,7 @@ srclib:srclib
 srecord:srec_cat srec_cmp srec_info
 srmio:srmcmd srmdump srmsync
 srtp:
-srtp@1.5:
+srtp@1.6:
 ssdb:ssdb-bench ssdb-cli ssdb-dump ssdb-repair ssdb-server
 ssdeep:ssdeep
 ssed:ssed
@@ -5244,7 +5248,6 @@ tcptunnel:tcptunnel
 tcpurify:tcpurify
 tcsh:tcsh
 td:td
-team-explorer-everywhere:tf
 teapot:teapot
 tectonic:tectonic
 tee-clc:tf
