@@ -29,6 +29,7 @@ advancecomp:advdef advmng advpng advzip
 advancemame:advj advk advm advmame advmenu advmess advs
 advancemenu:advmenu
 advancescan:advdiff advscan
+adwaita-icon-theme:
 aescrypt-packetizer:paescrypt paescrypt_keygen
 aescrypt:aescrypt aesget
 aespipe:aespipe
@@ -109,6 +110,7 @@ ape:aped
 apel:
 apgdiff:apgdiff
 apib:apib apibmon
+apibuilder-cli:apibuilder read-config
 apktool:apktool
 apm-bash-completion:
 apng2gif:apng2gif
@@ -229,6 +231,7 @@ awscli:aws aws.cmd aws_bash_completer aws_completer aws_zsh_completer.sh
 awslogs:awslogs
 axel:axel
 azure-cli:azure
+azure-cli@1:azure
 b2-tools:b2
 b2sum:b2sum
 b43-fwcutter:b43-fwcutter
@@ -275,12 +278,14 @@ bdw-gc:
 beansdb:beansdb
 beanstalkd:beanstalkd
 bear:bear
+beast:beast beauti loganalyser logcombiner treeannotator treestat
 bee:bee
 beecrypt:
 befunge93:bef bef2c befprof
 bento4:aac2mp4 avcinfo hevcinfo mp42aac mp42hevc mp42hls mp42ts mp4compact mp4dcfpackager mp4decrypt mp4dump mp4edit mp4encrypt mp4extract mp4fragment mp4info mp4mux mp4rtphintinfo mp4split mp4tag
 berkeley-db:db_archive db_checkpoint db_deadlock db_dump db_hotbackup db_load db_log_verify db_printlog db_recover db_replicate db_sql_codegen db_stat db_tuner db_upgrade db_verify dbsql
 berkeley-db@4:db_archive db_checkpoint db_deadlock db_dump db_hotbackup db_load db_printlog db_recover db_sql db_stat db_upgrade db_verify
+bettercap:bettercap
 betty:betty
 bfg:bfg
 bgpdump:bgpdump
@@ -349,6 +354,8 @@ bower:bower
 boxes:boxes
 bpm-tools:bpm
 brag:brag
+braid:braid
+brainfuck:brainfuck
 brew-cask-completion:
 brew-gem:brew-gem
 brew-pip:brew-pip
@@ -528,7 +535,7 @@ clamav:clamav-config clambc clamconf clamd clamdscan clamdtop clamscan clamsubmi
 clamz:clamz
 clang-format:clang-format git-clang-format
 clang-format@3.8:clang-format git-clang-format
-clasp:clasp
+clasp:clasp lpconvert
 classads:classad_functional_tester classad_functional_tester_ns classad_version classad_version_ns cxi cxi_ns
 clblas:clBLAS-tune
 clean:clean
@@ -603,6 +610,7 @@ compface:compface uncompface
 compose2kube:compose2kube
 conan:conan conan_build_info conan_server
 concurrencykit:
+configen:configen
 confuse:
 conjure-up:conjure-down conjure-up
 connect:connect
@@ -644,6 +652,7 @@ cpulimit:cpulimit
 cputhrottle:cputhrottle
 cracklib:cracklib-check cracklib-format cracklib-packer cracklib-unpacker create-cracklib-dict
 crash:crash.sh
+credstash:credstash credstash.py
 creduce:creduce
 crf++:crf_learn crf_test
 crm114:crm cssdiff cssmerge cssutil osbf-util
@@ -653,6 +662,7 @@ crosstool-ng:ct-ng
 crowdin:crowdin
 crunch:crunch
 crush-tools:add_field aggregate aggregate2 buffer calcfield convdate csvformat cutfield dates_in_range dbstream deltadays deltaforce fieldsplit filterkeys find_not_processed findfiles foreach_parallel funiq grepfield hashjoin indexof mergekeys pivot range reorder subtotal tochar translate_field truncfield
+cryfs:cryfs
 cryptol:cryptol
 cryptopp:cryptest.exe
 crystal-icr:icr
@@ -985,6 +995,7 @@ exercism:exercism
 exif:exif
 exiftags:exifcom exiftags exiftime
 exiftool:exiftool
+exiftran:exiftran
 exim:exicyclog exigrep exim exim-4.89-2 exim_checkaccess exim_ctl exim_dbmbuild exim_dumpdb exim_fixdb exim_lock exim_tidydb eximstats exinext exipick exiqgrep exiqsumm exiwhat
 exiv2:exiv2
 exodriver:
@@ -1017,7 +1028,6 @@ fastd:fastd
 fastjar:fastjar grepjar
 fatsort:fatsort
 fb-client:fb
-fbida:exiftran
 fceux:fceux
 fcgi:cgi-fcgi
 fcgiwrap:fcgiwrap
@@ -1356,7 +1366,6 @@ gnome-autoar:
 gnome-builder:gnome-builder gnome-builder-cli
 gnome-common:gnome-autogen.sh
 gnome-doc-utils:gnome-doc-prepare gnome-doc-tool xml2po
-gnome-icon-theme:
 gnome-recipes:gnome-recipes
 gnome-themes-standard:
 gnu-apl:AP100 AP210 APserver apl
@@ -1506,7 +1515,6 @@ gst-validate:gst-validate-1.0 gst-validate-images-check-1.0 gst-validate-launche
 gstreamer:gst-inspect-1.0 gst-launch-1.0 gst-stats-1.0 gst-typefind-1.0
 gstreamer@0.10:gst-feedback gst-feedback-0.10 gst-inspect gst-inspect-0.10 gst-launch gst-launch-0.10 gst-typefind gst-typefind-0.10 gst-xmlinspect gst-xmlinspect-0.10 gst-xmllaunch gst-xmllaunch-0.10
 gstreamermm:
-gtef:
 gti:gti
 gtk+3:gtk-builder-tool gtk-encode-symbolic-svg gtk-launch gtk-query-immodules-3.0 gtk-query-settings gtk3-demo gtk3-demo-application gtk3-icon-browser gtk3-update-icon-cache gtk3-widget-factory
 gtk+:gtk-builder-convert gtk-demo gtk-query-immodules-2.0 gtk-update-icon-cache
@@ -2465,7 +2473,6 @@ homebrew/science/bcalm:bcalm
 homebrew/science/bcftools:bcftools color-chrs.pl guess-ploidy.py plot-roh.py plot-vcfstats run-roh.pl vcfutils.pl
 homebrew/science/beagle:
 homebrew/science/beast2:addonmanager-2 appstore-2 beast-2 beauti-2 densitree-2 loganalyser-2 logcombiner-2 treeannotator-2
-homebrew/science/beast:beast beauti loganalyser logcombiner treeannotator treestat
 homebrew/science/bedops:bam2bed bam2bed_gnuParallel bam2bed_sge bam2bed_slurm bam2starch bam2starch_gnuParallel bam2starch_sge bam2starch_slurm bedextract bedmap bedops closest-features convert2bed gff2bed gff2starch gtf2bed gtf2starch gvf2bed gvf2starch psl2bed psl2starch rmsk2bed rmsk2starch sam2bed sam2starch sort-bed starch starch-diff starchcat starchcluster_gnuParallel starchcluster_sge starchcluster_slurm starchstrip unstarch update-sort-bed-migrate-candidates update-sort-bed-slurm update-sort-bed-starch-slurm vcf2bed vcf2starch wig2bed wig2starch
 homebrew/science/bedtools:annotateBed bamToBed bamToFastq bed12ToBed6 bedToBam bedToIgv bedpeToBam bedtools closestBed clusterBed complementBed coverageBed expandCols fastaFromBed flankBed genomeCoverageBed getOverlap groupBy intersectBed linksBed mapBed maskFastaFromBed mergeBed multiBamCov multiIntersectBed nucBed pairToBed pairToPair randomBed shuffleBed slopBed sortBed subtractBed tagBam unionBedGraphs windowBed windowMaker
 homebrew/science/beetl:align-corrector-strings arrayBWT.sh beetl beetl-bwt beetl-compare beetl-convert beetl-correct beetl-extend beetl-index beetl-search beetl-unbwt beetlflow-tumour-normal-filter.sh convertMetagenomicRangesToTaxa findTaxa genomesToSingleSeq makeBWTSkew mergeBacteria OldBeetl parseMetagenomeOutput
@@ -3265,6 +3272,7 @@ jsmin:jsmin
 json-c:
 json-fortran:
 json-glib:json-glib-format json-glib-validate
+json-table:jt
 json_spirit:
 jsoncpp:
 jsonlint:jsonlint
@@ -3296,7 +3304,6 @@ karn:karn
 kawa:kawa
 keepassc:keepassc keepassc-agent keepassc-server
 kerl:kerl
-kes:es
 kestrel:kestrel
 kettle:pdicarte pdikitchen pdipan
 keychain:keychain
@@ -3373,6 +3380,7 @@ ldns:drill ldns-chaos ldns-compare-zones ldns-config ldns-dane ldns-dpa ldns-gen
 le:le
 leafnode:leafnode-version newsq applyfilter checkgroups fetchnews leafnode texpire
 lean-cli:lean
+lean:lean leanchecker leanemacs leanpkg
 leaps:leaps
 ledger:ledger
 ledger@2.6:ledger
@@ -3745,6 +3753,7 @@ linkerd:linkerd
 linklint:linklint
 links:links
 liquibase:liquibase
+liquid-dsp:
 liquidprompt:
 liquigraph:liquigraph
 litmus:litmus
@@ -4415,6 +4424,7 @@ pdf2svg:pdf2svg
 pdfcrack:pdfcrack
 pdfgrep:pdfgrep
 pdflib-lite:pdfimage pdflib-config text2pdf
+pdfsandwich:pdfsandwich
 pdftoedn:pdftoedn
 pdftohtml:pdftohtml
 pdftoipe:pdftoipe
@@ -4531,6 +4541,7 @@ polyglot:polyglot
 polyml:poly polyc polyimport
 pond:pond
 ponscripter-sekai:ponscr
+pony-stable:stable
 ponyc:ponyc
 ponysay:ponysay ponysay-tool ponythink
 poppler:pdfdetach pdffonts pdfimages pdfinfo pdfseparate pdftocairo pdftohtml pdftoppm pdftops pdftotext pdfunite
@@ -5266,6 +5277,7 @@ teleport:tctl teleport tsh
 telnet:telnet
 temporal_tables:
 tenyr:tas tld tsim
+tepl:
 term:term
 termbox:
 terminal-notifier:terminal-notifier
@@ -5368,6 +5380,7 @@ transcrypt:transcrypt
 translate-shell:trans
 translate-toolkit:build_firefox.sh build_tmdb buildxpi.py csv2po csv2tbx get_moz_enUS.py html2po ical2po idml2po ini2po json2po junitmsgfmt l20n2po moz2po mozlang2po odf2xliff oo2po oo2xliff php2po phppo2pypo po2csv po2html po2ical po2idml po2ini po2json po2l20n po2moz po2mozlang po2oo po2php po2prop po2rc po2resx po2sub po2symb po2tiki po2tmx po2ts po2txt po2web2py po2wordfast po2xliff poclean pocommentclean pocompendium pocompile poconflicts pocount podebug pofilter pogrep pomerge pomigrate2 popuretext poreencode porestructure posegment posplit poswap pot2po poterminology pretranslate prop2po pydiff pypo2phppo rc2po resx2po sub2po symb2po tbx2po tiki2po tmserver ts2po txt2po web2py2po xliff2odf xliff2oo xliff2po
 transmission:transmission-create transmission-daemon transmission-edit transmission-remote transmission-show
+trash-cli:trash trash-empty trash-list trash-put trash-restore trash-rm
 trash:trash
 tre:agrep
 tree:tree
