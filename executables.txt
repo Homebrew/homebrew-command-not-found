@@ -938,7 +938,6 @@ elb-tools:elb-apply-security-groups-to-lb elb-associate-route53-hosted-zone elb-
 elinks:elinks
 elixir-build:elixir-build exenv-install exenv-uninstall json
 elixir:elixir elixirc iex mix
-elixirscript:elixirscript
 elm-format:elm-format-0.17 elm-format-0.18
 elm:elm elm-make elm-package elm-reactor elm-repl
 elvish:elvish elvish-stub
@@ -1318,7 +1317,7 @@ gitg:gitg
 github-keygen:github-keygen
 github-markdown-toc:gh-md-toc
 github-release:github-release
-gitlab-ci-multi-runner:gitlab-ci-multi-runner gitlab-runner
+gitlab-runner:gitlab-ci-multi-runner gitlab-runner
 gitless:gl
 gitslave:gits
 gitter-cli:gitter-cli
@@ -1616,18 +1615,6 @@ hivemind:hivemind
 hledger:hledger
 hoedown:hoedown
 homebank:homebank
-homebrew/apache/ab:ab
-homebrew/apache/httpd22:ab apachectl apxs checkgid dbmmanage htcacheclean htdbm htdigest htpasswd httpd httxt2dbm logresolve rotatelogs suexec
-homebrew/apache/httpd24:ab apachectl apxs checkgid dbmmanage fcgistarter htcacheclean htdbm htdigest htpasswd httpd httxt2dbm logresolve rotatelogs suexec
-homebrew/apache/mod_bonjour:
-homebrew/apache/mod_fastcgi:
-homebrew/apache/mod_fcgid:
-homebrew/apache/mod_python:
-homebrew/apache/mod_rpaf:
-homebrew/apache/mod_security:
-homebrew/apache/mod_suexec:
-homebrew/apache/mod_wsgi3:
-homebrew/apache/mod_wsgi:
 homebrew/nginx/accept-language-nginx-module:
 homebrew/nginx/accesskey-nginx-module:
 homebrew/nginx/ajp-nginx-module:
@@ -2224,7 +2211,6 @@ homebrew/php/php70-imagick:
 homebrew/php/php70-intl:
 homebrew/php/php70-ioncubeloader:
 homebrew/php/php70-kafka:
-homebrew/php/php70-libsodium:
 homebrew/php/php70-lua:
 homebrew/php/php70-lz4:
 homebrew/php/php70-lzf:
@@ -2292,7 +2278,6 @@ homebrew/php/php71-igbinary:
 homebrew/php/php71-imagick:
 homebrew/php/php71-intl:
 homebrew/php/php71-ioncubeloader:
-homebrew/php/php71-libsodium:
 homebrew/php/php71-lua:
 homebrew/php/php71-lz4:
 homebrew/php/php71-lzf:
@@ -2424,7 +2409,6 @@ homebrew/science/a5:a5_pipeline.pl
 homebrew/science/abacas:abacas
 homebrew/science/abinit:abinit aim anaddb band2eps bsepostproc conducti cut3d fftprof fold2Bloch ioprof lapackprof macroave mrgddb mrgdv mrggkk mrgscr optic ujdet vdw_kernelgen
 homebrew/science/abyss-explorer:abyss-explorer
-homebrew/science/abyss:ABYSS ABYSS-P AdjList Consensus DAssembler DistanceEst DistanceEst-ssq KAligner MergeContigs MergePaths Overlap ParseAligns PathConsensus PathOverlap PopBubbles SimpleGraph abyss-align abyss-bloom abyss-bloom-dbg abyss-bloom-dist.mk abyss-bowtie abyss-bowtie2 abyss-bwa abyss-bwamem abyss-bwasw abyss-db-csv abyss-db-txt abyss-dida abyss-fac abyss-fatoagp abyss-filtergraph abyss-fixmate abyss-fixmate-ssq abyss-gapfill abyss-gc abyss-index abyss-junction abyss-kaligner abyss-layout abyss-longseqdist abyss-map abyss-map-ssq abyss-mergepairs abyss-overlap abyss-paired-dbg abyss-paired-dbg-mpi abyss-pe abyss-samtoafg abyss-scaffold abyss-sealer abyss-tabtomd abyss-todot abyss-tofastq konnector logcounter
 homebrew/science/acado:
 homebrew/science/ace-corrector:ace
 homebrew/science/adam:adam-shell adam-submit
@@ -2493,7 +2477,6 @@ homebrew/science/blaze-lib:
 homebrew/science/bless:bless
 homebrew/science/blis:
 homebrew/science/boost-compute:
-homebrew/science/bowtie2:bowtie2 bowtie2-align-l bowtie2-align-s bowtie2-build bowtie2-build-l bowtie2-build-s bowtie2-inspect bowtie2-inspect-l bowtie2-inspect-s
 homebrew/science/bowtie:bowtie bowtie-align-l bowtie-align-s bowtie-build bowtie-build-l bowtie-build-s bowtie-inspect bowtie-inspect-l bowtie-inspect-s
 homebrew/science/bpel2owfn:bpel2owfn
 homebrew/science/bpipe:bg-bpipe bpipe bpipe-pbspro.sh bpipe-slurm.sh bpipe-torque.sh
@@ -2612,7 +2595,6 @@ homebrew/science/gap:gap
 homebrew/science/garli:garli
 homebrew/science/gatb:dbgh5 dbginfo
 homebrew/science/gatk:gatk
-homebrew/science/gdcm:gdcmanon gdcmconv gdcmdiff gdcmdump gdcmgendir gdcmimg gdcminfo gdcmpap3 gdcmraw gdcmscanner gdcmscu gdcmtar gdcmxml
 homebrew/science/geant4:geant4-config geant4.csh geant4.sh
 homebrew/science/geda-gaf:convert_sym garchive gattrib gmk_sym gnetlist grenum gsch2pcb gschem gschlas gsymcheck gsymfix gxyrs olib pads_backannotate pcb_backannotate refdes_renum sarlacc_schem sarlacc_sym schdiff smash_megafile sw2asc tragesym
 homebrew/science/geneid:geneid
@@ -3987,7 +3969,6 @@ mmark:mmark
 mmix:mmix mmixal mmmix mmotype
 mmsrip:mmsrip
 mmv:mad mcp mln mmv
-mobile-shell:mosh mosh-client mosh-server
 mobiledevice:mobiledevice
 moc:mocp
 mockserver:mockserver
@@ -4023,6 +4004,7 @@ moodbar:moodbar
 moon-buggy:moon-buggy
 moreutils:chronic combine errno ifdata ifne isutf8 lckdo mispipe parallel pee sponge ts vidir vipe zrun
 morse:morse
+mosh:mosh mosh-client mosh-server
 mosml:camlrunm mosml mosmlc mosmllex mosmlyac
 mosquitto:mosquitto_passwd mosquitto_pub mosquitto_sub mosquitto
 most:most
@@ -4447,7 +4429,7 @@ percona-server@5.6:innochecksum msql2mysql my_print_defaults myisam_ftdump myisa
 percona-toolkit:pt-align pt-archiver pt-config-diff pt-deadlock-logger pt-diskstats pt-duplicate-key-checker pt-fifo-split pt-find pt-fingerprint pt-fk-error-logger pt-heartbeat pt-index-usage pt-ioprofile pt-kill pt-mext pt-mysql-summary pt-online-schema-change pt-pmp pt-query-digest pt-show-grants pt-sift pt-slave-delay pt-slave-find pt-slave-restart pt-stalk pt-summary pt-table-checksum pt-table-sync pt-table-usage pt-upgrade pt-variable-advisor pt-visual-explain
 percona-xtrabackup:innobackupex xbcloud xbcloud_osenv xbcrypt xbstream xtrabackup
 perl-build:perl-build plenv-install plenv-uninstall
-perl:corelist cpan enc2xs encguess h2ph h2xs instmodsh json_pp libnetcfg perl perl5.26.0 perlbug perldoc perlivp perlthanks piconv pl2pm pod2html pod2man pod2text pod2usage podchecker podselect prove ptar ptardiff ptargrep shasum splain xsubpp zipdetails
+perl:corelist cpan enc2xs encguess h2ph h2xs instmodsh json_pp libnetcfg perl perl5.26.1 perlbug perldoc perlivp perlthanks piconv pl2pm pod2html pod2man pod2text pod2usage podchecker podselect prove ptar ptardiff ptargrep shasum splain xsubpp zipdetails
 perl@5.14:a2p c2ph config_data corelist cpan cpan2dist cpanp cpanp-run-perl dprofpp enc2xs find2perl h2ph h2xs instmodsh json_pp libnetcfg perl perl5.14.4 perlbug perldoc perlivp perlthanks piconv pl2pm pod2html pod2latex pod2man pod2text pod2usage podchecker podselect prove psed pstruct ptar ptardiff ptargrep s2p shasum splain xsubpp
 perl@5.18:a2p c2ph config_data corelist cpan cpan2dist cpanp cpanp-run-perl enc2xs find2perl h2ph h2xs instmodsh json_pp libnetcfg perl perl5.18.2 perlbug perldoc perlivp perlthanks piconv pl2pm pod2html pod2latex pod2man pod2text pod2usage podchecker podselect prove psed pstruct ptar ptardiff ptargrep s2p shasum splain xsubpp zipdetails
 pev:ofs2rva pedis pehash pepack peres pescan pesec pestr readpe rva2ofs
@@ -4785,8 +4767,6 @@ restund:restund
 resty:pp pypp resty
 rethinkdb:rethinkdb
 rex:rex rexify
-rexster-console:rexster-console
-rexster:rexster.sh
 rfcmarkup:rfcmarkup
 rfcstrip:rfcstrip
 rgbds:rgbasm rgbfix rgbgfx rgblink
@@ -5263,7 +5243,6 @@ tcptrace:tcptrace
 tcptraceroute:tcptraceroute
 tcptrack:tcptrack
 tcptunnel:tcptunnel
-tcpurify:tcpurify
 tcsh:tcsh
 td:td
 teapot:teapot
@@ -5309,7 +5288,7 @@ thefuck:fuck thefuck
 theharvester:theharvester
 theora:
 thrift:thrift
-thrift@0.90:thrift
+thrift@0.9:thrift
 thrulay:thrulay thrulayd
 tidy-html5:tidy
 tidyp:tidyp
