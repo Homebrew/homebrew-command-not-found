@@ -159,6 +159,8 @@ arx-libertatis:arx arx-install-data arxsavetool arxunpak
 arx:arx
 ascii:ascii
 asciidoc:a2x a2x.py asciidoc asciidoc.py
+asciidoctor:asciidoctor asciidoctor-safe
+asciidoctorj:asciidoctorj
 asciinema2gif:asciinema2gif
 asciinema:asciinema
 asciiquarium:asciiquarium
@@ -1273,6 +1275,7 @@ ginac:ginsh viewgar
 gist:gist
 gistit:gistit
 git-annex:git-annex git-annex-shell git-remote-tor-annex
+git-appraise:git-appraise
 git-archive-all:git-archive-all
 git-cal:git-cal
 git-cinnabar:git-cinnabar git-cinnabar-helper git-remote-hg
@@ -1343,6 +1346,7 @@ glew:glewinfo visualinfo
 glfw:
 glfw@2:
 glib-networking:
+glib-openssl:
 glib:gapplication gdbus gdbus-codegen gio gio-querymodules glib-compile-resources glib-compile-schemas glib-genmarshal glib-gettextize glib-mkenums gobject-query gresource gsettings gtester gtester-report
 glibmm:
 glide:glide
@@ -1405,6 +1409,7 @@ gnuradio:gnuradio-config-info gr_filter_design gr_modtool gr_plot_char gr_plot_c
 gnuski:gnuski
 gnustep-make:
 gnutls:gnutls-certtool gnutls-cli gnutls-cli-debug gnutls-serv ocsptool p11tool psktool srptool
+go-jira:jira
 go:go godoc gofmt
 go@1.4:go godoc gofmt
 go@1.5:go godoc gofmt
@@ -1555,6 +1560,7 @@ gumbo-parser:
 gupnp-av:
 gupnp-tools:gssdp-discover gupnp-av-cp gupnp-network-light gupnp-universal-cp gupnp-upload
 gupnp:gupnp-binding-tool
+gutenberg:gutenberg
 gv:gv gv-update-userconfig
 gvp:gvp
 gwenhywfar:gct-tool gsa gwenhywfar-config mklistdoc typemaker typemaker2 xmlmerge
@@ -2483,7 +2489,6 @@ homebrew/science/atpdec:atpdec
 homebrew/science/atram:
 homebrew/science/augustus:augustus bam2hints etraining fastBlockSearch filterBam homGeneMapping joingenes prepareAlign
 homebrew/science/bact:bact_classify bact_learn bact_mkmodel
-homebrew/science/bali-phy:alignment-cat alignment-chop-internal alignment-compare alignment-consensus alignment-convert alignment-draw alignment-find alignment-find-conserved alignment-gild alignment-identity alignment-indices alignment-info alignment-max alignment-median alignment-thin alignment-translate alignments-diff analyze-rates bali-phy bali-phy-pkg bali-phy-sge bp-analyze.pl cut-range draw-graph draw-tree joint-indels joint-parsimony mctree-mean-lengths model_P partitions-supported path-graph pickout statreport stats-cat stats-merge stats-select subsample tree-mean-lengths tree-partitions tree-reroot trees-bootstrap trees-consensus trees-distances trees-pair-distances trees-to-SRQ
 homebrew/science/bam-readcount:bam-readcount
 homebrew/science/bam2wig:bam2wig
 homebrew/science/bamhash:bamhash_checksum_bam bamhash_checksum_fastq
@@ -2671,7 +2676,6 @@ homebrew/science/hmmer:alimask hmmalign hmmbuild hmmc2 hmmconvert hmmemit hmmerf
 homebrew/science/hopdm:hopdm
 homebrew/science/hotspot:bowtie2minmargin.pl chopFastaPseudoreads.pl enumerateUniquelyMappableSpace enumerateUniquelyMappableSpace.pl hotspot wavePeaks writeChromInfoBed.pl
 homebrew/science/htsbox:htsbox
-homebrew/science/htslib:bgzip htsfile tabix
 homebrew/science/humann2:humann2 humann2_config humann2_databases humann2_humann1_kegg humann2_join_tables humann2_reduce_table humann2_regroup_table humann2_rename_table humann2_renorm_table humann2_rna_dna_norm humann2_split_table humann2_strain_profiler humann2_test
 homebrew/science/hyphy:HYPHYMP HYPHYSP
 homebrew/science/idba:idba idba_hybrid idba_tran idba_tran_test idba_ud
@@ -2757,7 +2761,6 @@ homebrew/science/mathgl:mgl_example mgl_glut_example mglconv
 homebrew/science/mathomatic:matho matho-mult matho-pascal matho-primes matho-sum matho-sumsq mathomatic primorial rmath
 homebrew/science/matplotlib:
 homebrew/science/maude:maude
-homebrew/science/mbsystem:mb7k2jstar mb7k2ss mb7kpreprocess mbabsorption mbareaclean mbauvloglist mbauvnavusbl mbbackangle mbclean mbcopy mbctdlist mbdatalist mbdefaults mbdumpesf mbedit mbeditviz mbextractsegy mbfilter mbformat mbgetesf mbgrdviz mbgrid mbhistogram mbhsdump mbhysweeppreprocess mbinfo mbinsreprocess mbkongsbergpreprocess mblevitus mblist mbm_arc2grd mbm_bpr mbm_copy mbm_grd2arc mbm_grd2geovrml mbm_grd3dplot mbm_grdcut mbm_grdinfo mbm_grdplot mbm_grdtiff mbm_grid mbm_histplot mbm_makedatalist mbm_makesvp mbm_multicopy mbm_multidatalist mbm_multiprocess mbm_plot mbm_route2mission mbm_stat mbm_utm mbm_xbt mbm_xyplot mbmakeplatform mbmosaic mbnavadjust mbnavadjustmerge mbnavedit mbnavlist mbneptune2esf mbotps mbpreprocess mbprocess mbrollbias mbrolltimelag mbroutetime mbrphsbias mbsegygrid mbsegyinfo mbsegylist mbsegypsd mbset mbsslayout mbstripnan mbsvplist mbsvpselect mbswplspreprocess mbtime mbvelocitytool
 homebrew/science/mcl:clm clmformat clxdo mcl mclblastline mclcm mclpipeline mcx mcxarray mcxassemble mcxdeblast mcxdump mcxi mcxload mcxmap mcxrand mcxsubs
 homebrew/science/med-file:mdump mdump3 medconforme medimport xmdump2 xmdump3
 homebrew/science/megahit:megahit megahit_asm_core megahit_sdbg_build megahit_toolkit
@@ -3084,6 +3087,7 @@ htmlcxx:htmlcxx
 htmldoc:htmldoc
 htop:htop
 htpdate:htpdate
+htslib:bgzip htsfile tabix
 httest:htntlm htproxy htremote httest
 http-parser:
 http-server:hs http-server
@@ -3203,6 +3207,7 @@ ircd-irc2:chkconf iauth ircd ircd-mkpasswd ircdwatch
 ircii:irc irc-20151120 ircbug ircflush
 ired:bdiff ired vired
 irods:genOSAuth iadmin ibun icd ichksum ichmod icp idbo idbug ienv ierror iexecmd iexit ifsck iget igetbyticket.pl igetwild.sh igroupadmin ihelp iinit ilocate ils ilsresc imcoll imeta imiscsvrinfo imkdir imv ipasswd iphybun iphymv ips iput ipwd iqdel iqmod iqstat iquest iquota ireg irepl irm irmtrash irsync irule iscan isysmeta iticket itrim iuserinfo ixmsg
+iron-functions:fn
 ironcli:iron
 irrlicht:
 irrtoolset:peval rpslcheck rtconfig
@@ -3221,6 +3226,7 @@ itpp:itpp-config
 itstool:itstool
 ivy:ivy
 ivykis:
+jabba:jabba
 jack:jack_alias jack_bufsize jack_connect jack_disconnect jack_evmon jack_freewheel jack_impulse_grabber jack_iodelay jack_latent_client jack_load jack_load_test jack_lsp jack_metro jack_midi_dump jack_midiseq jack_midisine jack_monitor_client jack_netsource jack_property jack_rec jack_samplerate jack_server_control jack_session_notify jack_showtime jack_simple_client jack_simple_session_client jack_transport_client jack_unload jack_wait jackd
 jadx:jadx jadx-gui
 jags:jags
@@ -3326,6 +3332,7 @@ kerl:kerl
 kestrel:kestrel
 kettle:pdicarte pdikitchen pdipan
 keychain:keychain
+keystone:kstool
 khal:ikhal khal
 khard:khard
 kibana:kibana kibana-plugin
@@ -3343,6 +3350,7 @@ kobalt:kobaltw
 kommit:git-kommit
 kompose:kompose
 konoha:konoha minikonoha
+kontena:kontena
 kops:kops
 kore:kore
 kotlin:kotlin kotlinc kotlinc-js kotlinc-jvm
@@ -3374,6 +3382,7 @@ lasso:
 lastfmfpclient:lastfmfpclient
 lastpass-cli:lpass
 laszip:laszip-config laszippertest
+laszip@2:laszip-config laszippertest
 latex2html:latex2html pstoimg texexpand
 latex2rtf:latex2png latex2rtf
 latexila:latexila
@@ -3419,6 +3428,7 @@ leveldb:leveldbutil
 lfe:lfe lfe-first-try lfe-test lfec lfedoc lfeexec lfescript
 lft:lft whob
 lftp:lftp lftpget
+lgogdownloader:lgogdownloader
 lha:lha
 lhasa:lha
 lib3ds:3dsdump lib3ds-config
@@ -3438,6 +3448,7 @@ libbdplus:
 libbind:
 libbinio:
 libbitcoin-blockchain:
+libbitcoin-database:
 libbitcoin-explorer:bx
 libbitcoin-node:bn
 libbitcoin-server:bs
@@ -3886,6 +3897,7 @@ markdown:markdown
 marst:macvt marst
 mas:mas
 masscan:masscan
+massren:massren
 mat:mat
 matlab2tikz:
 maven-completion:
@@ -4518,6 +4530,7 @@ pioneers:pioneers pioneers-editor pioneers-metaserver pioneers-server-console pi
 pip-completion:
 pipebench:pipebench
 pipemeter:pipemeter
+pipenv:pipenv
 pipes-sh:pipes.sh
 pit:pit
 pius:pius pius-keyring-mgr pius-party-worksheet pius-report
@@ -4579,6 +4592,7 @@ postgres-xc:clusterdb createdb createlang createuser dropdb droplang dropuser ec
 postgresql:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivexlog pg_recvlogical pg_resetxlog pg_restore pg_rewind pg_standby pg_test_fsync pg_test_timing pg_upgrade pg_xlogdump pgbench pltcl_delmod pltcl_listmod pltcl_loadmod postgres postmaster psql reindexdb vacuumdb vacuumlo
 postgresql@9.4:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivexlog pg_recvlogical pg_resetxlog pg_restore pg_standby pg_test_fsync pg_test_timing pg_upgrade pg_xlogdump pgbench pltcl_delmod pltcl_listmod pltcl_loadmod postgres postmaster psql reindexdb vacuumdb vacuumlo
 postgresql@9.5:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivexlog pg_recvlogical pg_resetxlog pg_restore pg_rewind pg_standby pg_test_fsync pg_test_timing pg_upgrade pg_xlogdump pgbench pltcl_delmod pltcl_listmod pltcl_loadmod postgres postmaster psql reindexdb vacuumdb vacuumlo
+postgresql@9.6:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivexlog pg_recvlogical pg_resetxlog pg_restore pg_rewind pg_standby pg_test_fsync pg_test_timing pg_upgrade pg_xlogdump pgbench pltcl_delmod pltcl_listmod pltcl_loadmod postgres postmaster psql reindexdb vacuumdb vacuumlo
 postgrest:postgrest
 postmark:postmark
 potrace:mkbitmap potrace
@@ -4745,6 +4759,7 @@ rbenv-binstubs:rbenv-bundles
 rbenv-bundle-exec:
 rbenv-bundler-ruby-version:rbenv-bundler-ruby-version
 rbenv-bundler:rbenv-bundler
+rbenv-chefdk:
 rbenv-communal-gems:rbenv-communal-gem-home rbenv-communize rbenv-sequester
 rbenv-ctags:rbenv-ctags
 rbenv-default-gems:
@@ -4911,6 +4926,7 @@ sbt:sbt
 sbt@0.13:sbt
 sbtenv:sbtenv sbtenv-install
 sbuild:sbuild
+sc-im:scim
 sc68:as68 debug68 info68 sc68 sc68-config sourcer68 unice68
 scala:fsc scala scalac scaladoc scalap
 scala@2.10:fsc scala scalac scaladoc scalap
@@ -5022,6 +5038,7 @@ simple-obfs:obfs-local obfs-server
 simple-tiles:
 simutrans:makeobj simutrans
 since:since
+singular:ESingular Singular TSingular libpolys-config libsingular-config
 sip:sip
 sipcalc:sipcalc
 sipp:sipp
@@ -5221,6 +5238,7 @@ swaks:swaks
 swfmill:swfmill
 swftools:as3compile font2swf png2swf swfbbox swfc swfcombine swfdump swfextract swfrender swfstrings wav2swf
 swi-prolog:swipl swipl-ld swipl-rc
+swift-protobuf:protoc-gen-swift
 swift:
 swiftformat:swiftformat
 swiftgen:swiftgen
@@ -5312,6 +5330,7 @@ terraform-docs:terraform-docs
 terraform-inventory:terraform-inventory
 terraform-provisioner-ansible:terraform-provisioner-ansible
 terraform:terraform
+terraform_landscape:landscape
 terragrunt:terragrunt
 tesseract:tesseract
 testdisk:fidentify photorec testdisk
@@ -5396,6 +5415,7 @@ tpp:tpp
 trace2html:trace2html
 tracebox:luatracebox tracebox
 tractorgen:tractorgen
+traefik:traefik
 trafficserver:traffic_cop traffic_crashlog traffic_ctl traffic_layout traffic_logcat traffic_logstats traffic_manager traffic_server traffic_top traffic_via trafficserver tspush tsxs
 trafshow:trafshow
 traildb:tdb traildb_bench
@@ -5739,6 +5759,7 @@ yaz:yaz-asncomp yaz-client yaz-config yaz-iconv yaz-icu yaz-illclient yaz-json-p
 yaze-ag:cdm cpm yaze yaze_bin z80
 yazpp:yazpp-config
 yconalyzer:yconalyzer
+ydcv:ydcv
 yelp-tools:yelp-build yelp-check yelp-new
 yeti:yeti
 yetris:yetris
@@ -5776,6 +5797,7 @@ zim:zim
 zimg:
 zinc:zinc
 zint:zint
+zip:zip zipcloak zipnote zipsplit
 zita-convolver:
 zlib:
 zmap:zblacklist zmap ztee
