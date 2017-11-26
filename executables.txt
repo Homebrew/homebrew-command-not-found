@@ -214,6 +214,7 @@ avce00:avcdelete avcexport avcimport avctest
 avfs:avfs-config avfsd davpass ftppass mountavfs umountavfs
 avian:avian avian-dynamic
 aview:aaflip asciiview aview
+avimetaedit:avimetaedit
 avra:avra
 avrdude:avrdude
 avro-c:avroappend avrocat avromod avropipe
@@ -282,6 +283,7 @@ beansdb:beansdb
 beanstalkd:beanstalkd
 bear:bear
 beast:beast beauti loganalyser logcombiner treeannotator treestat
+bedtools:annotateBed bamToBed bamToFastq bed12ToBed6 bedToBam bedToIgv bedpeToBam bedtools closestBed clusterBed complementBed coverageBed expandCols fastaFromBed flankBed genomeCoverageBed getOverlap groupBy intersectBed linksBed mapBed maskFastaFromBed mergeBed multiBamCov multiIntersectBed nucBed pairToBed pairToPair randomBed shiftBed shuffleBed slopBed sortBed subtractBed tagBam unionBedGraphs windowBed windowMaker
 bee:bee
 beecrypt:
 befunge93:bef bef2c befprof
@@ -556,6 +558,7 @@ cli53:cli53
 clib:clib clib-install clib-search
 cliclick:cliclick
 clinfo:clinfo
+cling:bugpoint c-index-test clang clang++ clang-5.0 clang-check clang-cl clang-cpp clang-format clang-import-test clang-offload-bundler cling git-clang-format llc lli llvm-ar llvm-as llvm-bcanalyzer llvm-c-test llvm-cat llvm-config llvm-cov llvm-cvtres llvm-cxxdump llvm-cxxfilt llvm-diff llvm-dis llvm-dsymutil llvm-dwarfdump llvm-dwp llvm-extract llvm-lib llvm-link llvm-lto llvm-lto2 llvm-mc llvm-mcmarkup llvm-modextract llvm-nm llvm-objdump llvm-opt-report llvm-pdbdump llvm-profdata llvm-ranlib llvm-readobj llvm-rtdyld llvm-size llvm-split llvm-stress llvm-strings llvm-symbolizer llvm-tblgen llvm-xray obj2yaml opt sancov sanstats scan-build scan-view set-xcode-analyzer verify-uselistorder yaml2obj
 clipper:clipper
 clipsafe:clipsafe
 clisp:clisp clisp-link
@@ -685,6 +688,7 @@ cssembed:cssembed
 csshx:csshX
 csup:csup
 csv-fix:csvfix
+csvkit:csvclean csvcut csvformat csvgrep csvjoin csvjson csvlook csvpy csvsort csvsql csvstack csvstat in2csv sql2csv
 csvprintf:csvprintf xml2csv
 csvtomd:csvtomd
 ctags:ctags
@@ -841,6 +845,7 @@ docker-compose-completion:
 docker-compose:docker-compose
 docker-credential-helper:docker-credential-osxkeychain
 docker-gen:docker-gen
+docker-ls:docker-ls docker-rm
 docker-machine-completion:
 docker-machine-driver-vultr:docker-machine-driver-vultr
 docker-machine-driver-xhyve:docker-machine-driver-xhyve
@@ -871,6 +876,7 @@ dovecot:doveadm doveconf dovecot dsync
 doxygen:doxygen
 doxymacs:doxymacs_parser
 dpkg:dpkg dpkg-architecture dpkg-buildflags dpkg-buildpackage dpkg-checkbuilddeps dpkg-deb dpkg-distaddfile dpkg-divert dpkg-genbuildinfo dpkg-genchanges dpkg-gencontrol dpkg-gensymbols dpkg-maintscript-helper dpkg-mergechangelogs dpkg-name dpkg-parsechangelog dpkg-query dpkg-scanpackages dpkg-scansources dpkg-shlibdeps dpkg-source dpkg-split dpkg-statoverride dpkg-trigger dpkg-vendor update-alternatives
+dps8m:dps8
 drake:drake
 drip:drip
 dromeaudio:DromeAudioPlayer
@@ -918,6 +924,7 @@ dyld-headers:
 dylibbundler:dylibbundler
 dynamips:dynamips nvram_export
 e2fsprogs:badblocks blkid chattr compile_et debugfs dumpe2fs e2freefrag e2fsck e2image e2label e2undo filefrag findfs fsck fsck.ext2 fsck.ext3 fsck.ext4 fuse2fs logsave lsattr mk_cmds mke2fs mkfs.ext2 mkfs.ext3 mkfs.ext4 mklost+found resize2fs tune2fs uuidd uuidgen
+e2tools:e2cp e2ln e2ls e2mkdir e2mv e2rm e2tail
 easy-git:eg
 easy-tag:easytag
 easyrpg-player:easyrpg-player
@@ -944,6 +951,7 @@ ekg2:ekg2
 ekhtml:
 elasticsearch:elasticsearch
 elasticsearch@2.4:elasticsearch
+elasticsearch@5.6:elasticsearch elasticsearch-plugin
 elb-tools:elb-apply-security-groups-to-lb elb-associate-route53-hosted-zone elb-attach-lb-to-subnets elb-cmd elb-configure-healthcheck elb-create-app-cookie-stickiness-policy elb-create-lb elb-create-lb-cookie-stickiness-policy elb-create-lb-listeners elb-create-lb-policy elb-delete-lb elb-delete-lb-listeners elb-delete-lb-policy elb-deregister-instances-from-lb elb-describe-instance-health elb-describe-lb-attributes elb-describe-lb-policies elb-describe-lb-policy-types elb-describe-lbs elb-detach-lb-from-subnets elb-disable-zones-for-lb elb-disassociate-route53-hosted-zone elb-enable-zones-for-lb elb-modify-lb-attributes elb-register-instances-with-lb elb-set-lb-listener-ssl-cert elb-set-lb-policies-for-backend-server elb-set-lb-policies-of-listener elb-version
 elinks:elinks
 elixir-build:elixir-build exenv-install exenv-uninstall json
@@ -968,6 +976,7 @@ enscript:diffpp enscript mkafmmap over sliceprint states
 ent:ent
 entr:entr
 envchain:envchain
+envconsul:envconsul
 envv:envv
 eot-utils:eotinfo mkeot
 epeg:epeg
@@ -1599,6 +1608,7 @@ hbase:hbase start-hbase.sh stop-hbase.sh
 hdf5:gif2h5 h52gif h5cc h5clear h5copy h5debug h5diff h5dump h5format_convert h5import h5jam h5ls h5mkgrp h5perf_serial h5redeploy h5repack h5repart h5stat h5unjam h5watch
 hdf5@1.8:gif2h5 h52gif h5c++ h5cc h5copy h5debug h5diff h5dump h5fc h5import h5jam h5ls h5mkgrp h5perf_serial h5redeploy h5repack h5repart h5stat h5unjam
 headphones:headphones
+heartbeat:heartbeat
 hebcal:hebcal
 heimdal:afslog bsearch gsstool heimtools hxtool idn-lookup iprop-log kadmin kdestroy kf kgetcred kinit klist kpasswd krb5-config kstash kswitch ktutil otp otpprint pagsh string2key su verify_krb5_conf
 hello:hello
@@ -3251,6 +3261,7 @@ juman:juman
 jumanpp:jumanpp mkdarts_jumanpp
 jump:jump
 jupyter:jupyter jupyter-bundlerextension jupyter-console jupyter-kernelspec jupyter-migrate jupyter-nbconvert jupyter-nbextension jupyter-notebook jupyter-run jupyter-serverextension jupyter-troubleshoot jupyter-trust
+just:just
 jvgrep:jvgrep
 jvm-mon:jvm-mon
 jvmtop:jvmtop
@@ -3258,6 +3269,7 @@ jxrlib:JxrDecApp JxrEncApp
 jython:jython
 kafka:connect-distributed connect-standalone kafka-acls kafka-broker-api-versions kafka-configs kafka-console-consumer kafka-console-producer kafka-consumer-groups kafka-consumer-offset-checker kafka-consumer-perf-test kafka-mirror-maker kafka-preferred-replica-election kafka-producer-perf-test kafka-reassign-partitions kafka-replay-log-producer kafka-replica-verification kafka-run-class kafka-server-start kafka-server-stop kafka-simple-consumer-shell kafka-streams-application-reset kafka-topics kafka-verifiable-consumer kafka-verifiable-producer zookeeper-security-migration zookeeper-server-start zookeeper-server-stop zookeeper-shell
 kafkacat:kafkacat
+kaitai-struct-compiler:kaitai-struct-compiler
 kakasi:atoc_conv kakasi kakasi-config mkkanwa rdic_conv wx2_conv
 kanif:kaget kanif kaput kash
 kapacitor:kapacitor kapacitord
@@ -3273,6 +3285,7 @@ khal:ikhal khal
 khard:khard
 kibana:kibana kibana-plugin
 kibana@4.4:kibana
+kibana@5.6:kibana kibana-plugin
 kimwitu++:kc++
 kitchen-completion:
 kitchen-sync:ks ks_mysql
@@ -3705,6 +3718,7 @@ libxml2@2.7:xml2-config xmlcatalog xmllint
 libxmlsec1:xmlsec1 xmlsec1-config
 libxmp-lite:
 libxmp:
+libxo:libxo-config xo xohtml xolint xopo
 libxslt:xslt-config xsltproc
 libxspf:xspf_check xspf_strip
 libyaml:
@@ -3752,6 +3766,7 @@ logrotate:logrotate
 logstalgia:logstalgia
 logstash:logstash
 logstash@2.4:logstash logstash-plugin
+logstash@5.6:logstash logstash-plugin
 logtalk:bplgt cxlgt eclipselgt gplgt jiplgt lgt2html lgt2md lgt2pdf lgt2txt lgt2xml logtalk_backend_select logtalk_doclet logtalk_tester logtalk_user_setup logtalk_version_select lplgt qplgt quintuslgt sicstuslgt swilgt xsblgt xsbmtlgt yaplgt
 lolcat:lolcat
 lolcode:lci
@@ -4218,6 +4233,8 @@ oath-toolkit:oathtool pskctool
 oauth2_proxy:oauth2_proxy
 objc-codegenutils:objc-assetgen objc-colordump objc-identifierconstants
 objc-run:objc-run
+ocaml-findlib:ocamlfind
+ocaml-num:
 ocaml:ocaml ocamlc ocamlc.byte ocamlc.opt ocamlcp ocamlcp.byte ocamlcp.opt ocamldebug ocamldep ocamldep.byte ocamldep.opt ocamldoc ocamldoc.opt ocamllex ocamllex.byte ocamllex.opt ocamlmklib ocamlmklib.byte ocamlmklib.opt ocamlmktop ocamlmktop.byte ocamlmktop.opt ocamlobjinfo ocamlobjinfo.byte ocamlobjinfo.opt ocamlopt ocamlopt.byte ocamlopt.opt ocamloptp ocamloptp.byte ocamloptp.opt ocamlprof ocamlprof.byte ocamlprof.opt ocamlrun ocamlrund ocamlyacc
 ocamlbuild:ocamlbuild ocamlbuild.byte ocamlbuild.native
 ocamlsdl:
@@ -4690,6 +4707,7 @@ rasqal:rasqal-config roqet
 ratfor:ratfor
 rats:rats
 rawgl:rawgl
+raylib:
 rbenv-aliases:rbenv-alias rbenv-unalias
 rbenv-binstubs:rbenv-bundles
 rbenv-bundle-exec:
@@ -4757,6 +4775,7 @@ repo:repo
 reposurgeon:cyreposurgeon repocutter repodiffer repomapper reposurgeon repotool
 residualvm:residualvm
 rest-shell:rest-shell
+restic:restic
 restund:restund
 resty:pp pypp resty
 rethinkdb:rethinkdb
@@ -4874,6 +4893,7 @@ scalastyle:scalastyle
 scale2x:scalerx scalex
 scamper:sc_ally sc_analysis_dump sc_attach sc_bdrmap sc_filterpolicy sc_ipiddump sc_prefixscan sc_radargun sc_remoted sc_speedtrap sc_tbitblind sc_tracediff sc_warts2csv sc_warts2json sc_warts2pcap sc_warts2text sc_wartscat sc_wartsdump sc_wartsfix scamper
 sccache:sccache
+sceptre:sceptre
 scheme48:scheme-r5rs scheme-srfi-7 scheme48 scheme48-config
 schismtracker:schismtracker
 schroedinger:
@@ -4966,6 +4986,7 @@ sift:sift
 signify-osx:signify
 sile:sile
 silk:flowcap mapsid num2dot rwaddrcount rwallformats rwappend rwbag rwbagbuild rwbagcat rwbagtool rwcat rwcombine rwcompare rwcount rwcut rwdedupe rwfglob rwfileinfo rwfilter rwflowappend rwflowpack rwgeoip2ccmap rwgroup rwguess rwidsquery rwip2cc rwipfix2silk rwmatch rwnetmask rwp2yaf2silk rwpackchecker rwpcut rwpdedupe rwpdu2silk rwpmapbuild rwpmapcat rwpmaplookup rwpmatch rwpollexec rwptoflow rwrandomizeip rwreceiver rwrecgenerator rwresolve rwrtd2split rwscan rwscanquery rwsender rwset rwsetbuild rwsetcat rwsetmember rwsettool rwsilk2ipfix rwsiteinfo rwsort rwsplit rwstats rwswapbytes rwtotal rwtuc rwuniq silk_config
+simg2img:append2simg img2simg simg2img simg2simg
 simgrid:graphicator simgrid-colorizer simgrid_update_xml smpicc smpicxx smpirun tesh
 simh:altair altairz80 eclipse gri h316 hp2100 i1401 i1620 i7094 ibm1130 id16 id32 lgp nova pdp1 pdp10 pdp11 pdp15 pdp4 pdp7 pdp8 pdp9 s3 sds swtp6800mp-a swtp6800mp-a2 vax vax780
 simple-amqp-client:
