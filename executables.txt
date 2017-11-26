@@ -1071,7 +1071,6 @@ file-formula:file
 file-roller:file-roller
 filebeat:filebeat
 finatra:finatra
-findbugs:fb findbugs
 findutils:gfind glocate gupdatedb gxargs
 fio:fio fio-dedupe fio-genzipf fio-verify-state fio2gnuplot fio_generate_plots fiologparser.py fiologparser_hist.py genfio
 firebase-cli:firebase
@@ -1630,68 +1629,6 @@ hivemind:hivemind
 hledger:hledger
 hoedown:hoedown
 homebank:homebank
-homebrew/nginx/accept-language-nginx-module:
-homebrew/nginx/accesskey-nginx-module:
-homebrew/nginx/ajp-nginx-module:
-homebrew/nginx/anti-ddos-nginx-module:
-homebrew/nginx/array-var-nginx-module:
-homebrew/nginx/auth-digest-nginx-module:
-homebrew/nginx/auth-ldap-nginx-module:
-homebrew/nginx/auth-pam-nginx-module:
-homebrew/nginx/auto-keepalive-nginx-module:
-homebrew/nginx/autols-nginx-module:
-homebrew/nginx/cache-purge-nginx-module:
-homebrew/nginx/captcha-nginx-module:
-homebrew/nginx/counter-zone-nginx-module:
-homebrew/nginx/ctpp2-nginx-module:
-homebrew/nginx/dav-ext-nginx-module:
-homebrew/nginx/dosdetector-nginx-module:
-homebrew/nginx/echo-nginx-module:
-homebrew/nginx/eval-nginx-module:
-homebrew/nginx/extended-status-nginx-module:
-homebrew/nginx/fancyindex-nginx-module:
-homebrew/nginx/geoip2-nginx-module:
-homebrew/nginx/headers-more-nginx-module:
-homebrew/nginx/healthcheck-nginx-module:
-homebrew/nginx/http-accounting-nginx-module:
-homebrew/nginx/http-flood-detector-nginx-module:
-homebrew/nginx/http-remote-passwd-nginx-module:
-homebrew/nginx/log-if-nginx-module:
-homebrew/nginx/lua-nginx-module:
-homebrew/nginx/mod-zip-nginx-module:
-homebrew/nginx/mogilefs-nginx-module:
-homebrew/nginx/mp4-h264-nginx-module:
-homebrew/nginx/mruby-nginx-module:
-homebrew/nginx/naxsi-nginx-module:
-homebrew/nginx/nchan-nginx-module:
-homebrew/nginx/nginx-full:nginx
-homebrew/nginx/ngx-devel-kit:
-homebrew/nginx/notice-nginx-module:
-homebrew/nginx/openresty-debug:openresty
-homebrew/nginx/openresty-openssl:
-homebrew/nginx/openresty:openresty resty
-homebrew/nginx/php-session-nginx-module:
-homebrew/nginx/push-stream-nginx-module:
-homebrew/nginx/realtime-req-nginx-module:
-homebrew/nginx/redis-nginx-module:
-homebrew/nginx/redis2-nginx-module:
-homebrew/nginx/rtmp-nginx-module:
-homebrew/nginx/set-misc-nginx-module:
-homebrew/nginx/small-light-nginx-module:
-homebrew/nginx/stream-lua-nginx-module:
-homebrew/nginx/subs-filter-nginx-module:
-homebrew/nginx/tarantool-nginx-module:
-homebrew/nginx/tcp-proxy-nginx-module:
-homebrew/nginx/txid-nginx-module:
-homebrew/nginx/unzip-nginx-module:
-homebrew/nginx/upload-nginx-module:
-homebrew/nginx/upload-progress-nginx-module:
-homebrew/nginx/upstream-order-nginx-module:
-homebrew/nginx/ustats-nginx-module:
-homebrew/nginx/var-req-speed-nginx-module:
-homebrew/nginx/vod-nginx-module:
-homebrew/nginx/websockify-nginx-module:
-homebrew/nginx/xsltproc-nginx-module:
 homebrew/php/adminer:
 homebrew/php/arcanist:arc
 homebrew/php/behat:behat
@@ -2503,7 +2440,6 @@ homebrew/science/bcftools:bcftools color-chrs.pl guess-ploidy.py plot-roh.py plo
 homebrew/science/beagle:
 homebrew/science/beast2:addonmanager-2 appstore-2 beast-2 beauti-2 densitree-2 loganalyser-2 logcombiner-2 treeannotator-2
 homebrew/science/bedops:bam2bed bam2bed_gnuParallel bam2bed_sge bam2bed_slurm bam2starch bam2starch_gnuParallel bam2starch_sge bam2starch_slurm bedextract bedmap bedops closest-features convert2bed gff2bed gff2starch gtf2bed gtf2starch gvf2bed gvf2starch psl2bed psl2starch rmsk2bed rmsk2starch sam2bed sam2starch sort-bed starch starch-diff starchcat starchcluster_gnuParallel starchcluster_sge starchcluster_slurm starchstrip unstarch update-sort-bed-migrate-candidates update-sort-bed-slurm update-sort-bed-starch-slurm vcf2bed vcf2starch wig2bed wig2starch
-homebrew/science/bedtools:annotateBed bamToBed bamToFastq bed12ToBed6 bedToBam bedToIgv bedpeToBam bedtools closestBed clusterBed complementBed coverageBed expandCols fastaFromBed flankBed genomeCoverageBed getOverlap groupBy intersectBed linksBed mapBed maskFastaFromBed mergeBed multiBamCov multiIntersectBed nucBed pairToBed pairToPair randomBed shuffleBed slopBed sortBed subtractBed tagBam unionBedGraphs windowBed windowMaker
 homebrew/science/beetl:align-corrector-strings arrayBWT.sh beetl beetl-bwt beetl-compare beetl-convert beetl-correct beetl-extend beetl-index beetl-search beetl-unbwt beetlflow-tumour-normal-filter.sh convertMetagenomicRangesToTaxa findTaxa genomesToSingleSeq makeBWTSkew mergeBacteria OldBeetl parseMetagenomeOutput
 homebrew/science/bfc:bfc hash2cnt
 homebrew/science/bioawk:bioawk
@@ -4206,7 +4142,7 @@ netris:netris
 nettle:nettle-hash nettle-lfib-stream nettle-pbkdf2 pkcs1-conv sexp-conv
 nettoe:nettoe
 newlisp:newlisp newlisp-10.6.2 newlisp-edit newlispdoc
-newsbeuter:newsbeuter podbeuter
+newsboat:newsbeuter podbeuter
 newt:whiptail
 nexus:nexus
 nfcutils:lsnfc
@@ -4361,7 +4297,7 @@ opensyobon:SyobonAction
 opentsdb:start-tsdb.sh tsdb
 openttd:openttd
 openvdb:vdb_lod vdb_print vdb_render
-openvpn:keychain-mcd openvpn
+openvpn:openvpn
 ophcrack:ophcrack
 optipng:optipng
 opus-tools:opusdec opusenc opusinfo
@@ -5132,6 +5068,7 @@ spin:ispin spin
 spiped:spipe spiped
 splint:splint
 spoof-mac:spoof-mac spoof-mac.py
+spotbugs:fb findbugs
 spring-completion:
 spring-loaded:
 spring-roo:org.apache.felix.framework-4.4.1.jar org.springframework.roo.bootstrap-1.3.1.RELEASE.jar roo
