@@ -1,19 +1,7 @@
 #!/usr/bin/env ruby
 
 def shell
-  if s = ARGV.value("shell")
-    return s.to_sym
-  end
-
-  parent_shell = `ps c -p #{Process.ppid} -o 'ucomm='` rescue ENV["SHELL"]
-  parent_shell = ENV["SHELL"] if parent_shell.empty?
-
-  case parent_shell.rpartition("/").last
-  when /^(ba)?sh/ then :bash
-  when /^fish/ then :fish
-  when /^zsh/ then :zsh
-  else :bash
-  end
+  Utils::Shell.parent || Utils::Shell.preferred
 end
 
 def help
