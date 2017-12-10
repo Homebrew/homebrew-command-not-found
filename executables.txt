@@ -114,6 +114,7 @@ apib:apib apibmon
 apibuilder-cli:apibuilder read-config
 apktool:apktool
 apm-bash-completion:
+apm-server:apm-server
 apng2gif:apng2gif
 apngasm:apngasm
 apollo:apollo
@@ -497,6 +498,7 @@ cgvg:cg vg
 chadwick:cwbox cwcomment cwevent cwgame cwsub
 chaiscript:chai
 chakra:chakra
+chamber:chamber
 chapel:chpl chpl-ipe chpldoc
 charm-tools:charm-add charm-build charm-create charm-help charm-layers charm-proof charm-pull-source charm-test charm-version juju-test
 charm:charm
@@ -808,6 +810,7 @@ dirmngr:dirmngr dirmngr-client
 dirt:dirt
 discount:makepage markdown mkd2html theme
 disktype:disktype
+dislocker:dislocker dislocker-bek dislocker-file dislocker-fuse dislocker-metadata
 distcc:distcc distccd distccmon-text lsdistcc pump
 distribution:distribution
 ditaa:ditaa
@@ -826,6 +829,7 @@ dmtx-utils:dmtxquery dmtxread dmtxwrite
 dns2tcp:dns2tcpc dns2tcpd
 dnscrypt-proxy:dnscrypt-proxy dnscrypt-update-resolvers hostip
 dnscrypt-wrapper:dnscrypt-wrapper
+dnsdist:dnsdist
 dnsmap:dnsmap dnsmap-bulk
 dnsmasq:dnsmasq
 dnsperf:dnsperf resperf resperf-report
@@ -1244,7 +1248,6 @@ genext2fs:genext2fs
 gengetopt:gengetopt
 genstats:genstats
 geocode-glib:
-geogit:geogit geogit-console
 geographiclib:CartConvert ConicProj GeoConvert GeodSolve GeodesicProj GeoidEval Gravity MagneticField Planimeter RhumbSolve TransverseMercatorProj geographiclib-get-geoids geographiclib-get-gravity geographiclib-get-magnetic
 geoip:geoiplookup geoiplookup6
 geoipupdate:geoipupdate
@@ -1369,6 +1372,7 @@ glog:
 gloox:gloox-config
 glpk:glpsol
 glslang:glslangValidator spirv-remap
+glslviewer:glslLoader glslViewer
 glui:
 glulxe:glulxe
 glyr:glyrc
@@ -2329,7 +2333,6 @@ homebrew/php/php72-http:
 homebrew/php/php72-igbinary:
 homebrew/php/php72-imagick:
 homebrew/php/php72-intl:
-homebrew/php/php72-libsodium:
 homebrew/php/php72-lua:
 homebrew/php/php72-lz4:
 homebrew/php/php72-lzf:
@@ -3218,6 +3221,7 @@ joe:jmacs joe jpico jstar rjoe
 john-jumbo:john
 john:john
 jooby-bootstrap:jooby
+joplin:joplin
 jose:jose
 joshua:bleu decoder extract-1best joshua-decoder meteor pipeline.pl
 jove:jove teachjove
@@ -3311,6 +3315,7 @@ ktmpl:ktmpl
 ktoblzcheck:ktoblzcheck
 kube-aws:kube-aws
 kubectx:kubectx kubens
+kubeless:kubeless
 kubernetes-cli:kubectl
 kubernetes-cli@1.3:kubectl
 kubernetes-helm:helm tiller
@@ -3782,9 +3787,8 @@ lsof:lsof
 lsyncd:lsyncd
 ltc-tools:jltc2mtc jltcdump jltcgen ltcdump ltcgen
 ltl2ba:ltl2ba
-lua:lua lua-5.2 lua5.2 luac luac-5.2 luac5.2 luarocks luarocks-5.2 luarocks-admin luarocks-admin-5.2
+lua:lua lua-5.3 lua5.3 luac luac-5.3 luac5.3 luarocks luarocks-5.3 luarocks-admin luarocks-admin-5.3
 lua@5.1:lua-5.1 lua5.1 luac-5.1 luac5.1 luarocks-5.1 luarocks-admin-5.1
-lua@5.3:lua-5.3 lua5.3 luac-5.3 luac5.3 luarocks-5.3 luarocks-admin-5.3
 luabind:
 luajit:luajit luajit-2.0.5
 luaradio:luaradio
@@ -4049,6 +4053,7 @@ mpssh:mpssh
 mpv:mpv
 mpw:mpw
 mr:mr webcheckout
+mrboom:mrboom
 mrtg:cfgmaker indexmaker mrtg mrtg-traffic-sum rateup
 mruby-cli:mruby-cli
 mruby:mirb mrbc mruby mruby-strip
@@ -4130,6 +4135,7 @@ ndenv:ndenv
 ndiff:ndiff
 ndpi:ndpiReader
 ne:ne
+neal:neal
 neatvi:neatvi
 nedit:ncl nedit
 negfix8:negfix8
@@ -4185,6 +4191,7 @@ node-build:node-build nodenv-install nodenv-uninstall
 node:node
 node@4:node
 node@6:node
+node@8:node
 nodebrew:nodebrew
 nodeenv:nodeenv
 nodenv:nodenv
@@ -5504,6 +5511,7 @@ vegeta:vegeta
 vera++:vera++
 verilator:verilator verilator_bin verilator_bin_dbg verilator_coverage verilator_coverage_bin_dbg verilator_profcfunc
 vert.x:vertx
+vert:vert
 vf:
 vgmstream:vgmstream
 vice:c1541 cartconv petcat vice-launcher.sh x128 x64 x64dtv x64sc xcbm2 xcbm5x0 xpet xplus4 xvic
