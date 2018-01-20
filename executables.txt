@@ -88,7 +88,6 @@ antiword:antiword
 antlr4-cpp-runtime:
 antlr:antlr4 grun
 antlr@2:antlr2
-antlr@3:antlr3
 anttweakbar:
 aoeui:aoeui asdfg
 apache-archiva:archiva
@@ -101,8 +100,6 @@ apache-forrest:forrest
 apache-geode:gfsh
 apache-opennlp:opennlp
 apache-spark:load-spark-env.sh pyspark run-example spark-beeline spark-class spark-shell spark-sql spark-submit sparkR
-apache-spark@1.5:load-spark-env.sh pyspark run-example spark-beeline spark-class spark-shell spark-sql spark-submit sparkR
-apache-spark@1.6:load-spark-env.sh pyspark run-example spark-beeline spark-class spark-shell spark-sql spark-submit sparkR
 apache-zeppelin:common.sh functions.sh install-interpreter.sh interpreter.sh zeppelin-daemon.sh zeppelin.sh
 apachetop:apachetop
 apcupsd:apcaccess apctest apcupsd apcupsd-start smtp
@@ -200,12 +197,10 @@ autocode:autocode
 autoconf-archive:
 autoconf:autoconf autoheader autom4te autoreconf autoscan autoupdate ifnames
 autoconf@2.13:autoconf213 autoheader213 autoreconf213 autoscan213 autoupdate213 ifnames213
-autoconf@2.64:autoconf264 autoheader264 autom4te264 autoreconf264 autoscan264 autoupdate264 ifnames264
 autoenv:
 autogen:autogen autoopts-config columns getdefs xml2ag
 autojump:autojump
 automake:aclocal aclocal-1.15 automake automake-1.15
-automake@1.12:aclocal112 aclocal112-1.12 automake112 automake112-1.12
 automysqlbackup:automysqlbackup
 autopano-sift-c:autopano autopano-c-complete.sh autopano-sift-c generatekeys
 autopsy:autopsy
@@ -237,7 +232,6 @@ awscli:aws aws.cmd aws_bash_completer aws_completer aws_zsh_completer.sh
 awslogs:awslogs
 axel:axel
 azure-cli:azure
-azure-cli@1:azure
 b2-tools:b2
 b2sum:b2sum
 b43-fwcutter:b43-fwcutter
@@ -271,7 +265,6 @@ batik:batik batik-rasterizer batik-ttf2svg
 bats:bats
 bazaar:bzr
 bazel:bazel bazel-real
-bazel@0.2:bazel
 bbcolors:bbcolors
 bbe:bbe
 bbftp-client:bbftp bbftpstatus
@@ -552,7 +545,6 @@ clac:clac
 clamav:clamav-config clambc clamconf clamd clamdscan clamdtop clamscan clamsubmit freshclam sigtool
 clamz:clamz
 clang-format:clang-format git-clang-format
-clang-format@3.8:clang-format git-clang-format
 classads:classad_functional_tester classad_functional_tester_ns classad_version classad_version_ns cxi cxi_ns
 clblas:clBLAS-tune
 clean:clean
@@ -868,7 +860,6 @@ docker-machine:docker-machine
 docker-swarm:docker-swarm
 docker2aci:docker2aci
 docker:docker
-docker@1.11:docker
 docker@1.71:docker
 dockutil:dockutil
 dockviz:dockviz
@@ -955,7 +946,6 @@ efl:diffeet ecore_evas_convert edje_cc edje_codegen edje_decc edje_external_insp
 eg:eg
 eiffelstudio:compile_all ec ecb estudio finish_freezing iron syntax_updater vision2_demo
 eigen:
-eigen@3.2:
 einstein:einstein
 ejabberd:ejabberdctl
 ejdb:jbbmgr jbfmgr jbhmgr jbtmgr
@@ -1371,7 +1361,6 @@ glassfish:
 glbinding:
 glew:glewinfo visualinfo
 glfw:
-glfw@2:
 glib-networking:
 glib-openssl:
 glib:gapplication gdbus gdbus-codegen gio gio-querymodules glib-compile-resources glib-compile-schemas glib-genmarshal glib-gettextize glib-mkenums gobject-query gresource gsettings gtester gtester-report
@@ -1441,7 +1430,6 @@ go-jira:jira
 go-statik:statik
 go:go godoc gofmt
 go@1.4:go godoc gofmt
-go@1.5:go godoc gofmt
 go@1.6:go godoc gofmt
 go@1.7:go godoc gofmt
 go@1.8:go godoc gofmt
@@ -1505,7 +1493,6 @@ gradle:gradle
 gradle@2.14:gradle
 grafana:grafana-cli grafana-server
 grails:grails
-grails@2.5:grails startGrails
 grakn:cassandra cassandra.in.sh create-admin-user.sh grakn-cassandra.sh grakn-engine.sh grakn-redis.sh grakn.in.sh grakn.sh graql.sh kafka-run-class.sh kafka-server-start.sh kafka-server-status.sh kafka-server-stop.sh migration.sh nodetool redis-cli-linux redis-cli-osx redis-server-linux redis-server-osx zookeeper-server-start.sh zookeeper-server-status.sh zookeeper-server-stop.sh
 grap:grap
 graphene:
@@ -1537,7 +1524,6 @@ gsar:gsar
 gsasl:gsasl
 gsettings-desktop-schemas:
 gsl:gsl-config gsl-histogram gsl-randist
-gsl@1:gsl-config gsl-histogram gsl-randist
 gsmartcontrol:gsmartcontrol gsmartcontrol-root
 gsoap:soapcpp2 wsdl2h
 gspell:
@@ -2527,7 +2513,6 @@ immortal:immortal immortalctl immortaldir
 inetutils:dnsdomainname gdnsdomainname gftp ghostname gifconfig glogger gping gping6 grcp grexec grlogin grsh gtalk gtelnet gtftp gtraceroute gwhois rcp rexec rlogin rsh
 infer:infer infer-analyze infer-capture infer-compile infer-report infer-reportdiff infer-run inferTraceBugs
 influxdb:influx influx_stress influx_tsm influxd
-influxdb@0.8:influxdb
 inform6:inform
 iniparser:
 innoextract:innoextract
@@ -2617,7 +2602,6 @@ jerasure:cauchy_01 cauchy_02 cauchy_03 cauchy_04 decoder encoder jerasure_01 jer
 jerm:jerm tiocdtr
 jetty-runner:jetty-runner
 jetty:jetty
-jetty@8:jetty jetty-cygwin jetty-xinetd
 jflex:jflex
 jfrog-cli-go:jfrog
 jhead:jhead
@@ -2645,7 +2629,6 @@ jpcsp:jpcsp
 jpeg-archive:jpeg-archive jpeg-compare jpeg-hash jpeg-recompress
 jpeg-turbo:cjpeg djpeg jpegtran rdjpgcom tjbench wrjpgcom
 jpeg:cjpeg djpeg jpegtran rdjpgcom wrjpgcom
-jpeg@6:cjpeg djpeg jpegtran rdjpgcom wrjpgcom
 jpeginfo:jpeginfo
 jpegoptim:jpegoptim
 jpegrescan:jpegrescan
@@ -2673,7 +2656,6 @@ juise:juise juise-config
 juju-quickstart:juju-quickstart
 juju-wait:juju-wait
 juju:juju juju-metadata
-juju@1.25:juju juju-metadata
 julius:accept_check.dSYM adinrec.dSYM adintool.dSYM dfa_determinize.dSYM dfa_minimize.dSYM generate-ngram.dSYM generate.dSYM gram2sapixml.pl jclient.pl jcontrol.dSYM julius.dSYM libjulius-config libsent-config mkbingram.dSYM mkbinhmm.dSYM mkbinhmmlist.dSYM mkgshmm mkss.dSYM nextword.dSYM yomi2voca.pl
 juman:juman
 jumanpp:jumanpp mkdarts_jumanpp
@@ -2734,7 +2716,6 @@ kube-aws:kube-aws
 kubectx:kubectx kubens
 kubeless:kubeless
 kubernetes-cli:kubectl
-kubernetes-cli@1.3:kubectl
 kubernetes-helm:helm tiller
 kumo:kumo
 kvazaar:kvazaar
@@ -2754,7 +2735,6 @@ lasso:
 lastfmfpclient:lastfmfpclient
 lastpass-cli:lpass
 laszip:laszip-config laszippertest
-laszip@2:laszip-config laszippertest
 latex2html:latex2html pstoimg texexpand
 latex2rtf:latex2png latex2rtf
 latexila:latexila
@@ -2784,7 +2764,6 @@ lean-cli:lean
 lean:lean leanchecker leanemacs leanpkg
 leaps:leaps
 ledger:ledger
-ledger@2.6:ledger
 ledit:ledit
 legit:legit
 lego:lego
@@ -3022,12 +3001,10 @@ libpgm:
 libphonenumber:
 libplist:plistutil
 libpng:libpng-config libpng16-config png-fix-itxt pngfix
-libpng@1.2:libpng-config libpng12-config
 libpointing:
 libpoker-eval:
 libpq:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg initdb pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivexlog pg_recvlogical pg_resetxlog pg_restore pg_rewind pg_test_fsync pg_test_timing pg_upgrade pg_xlogdump pgbench psql reindexdb vacuumdb
 libpqxx:pqxx-config
-libpqxx@3:pqxx-config
 libprotoident:lpi_arff lpi_find_unknown lpi_protoident
 libproxy:proxy
 libpst:lspst nick2ldif pst2ldif readpst
@@ -3043,7 +3020,6 @@ librdkafka:
 libre:
 libreadline-java:
 librealsense:
-librealsense@1:c-tutorial-1-depth c-tutorial-2-streams c-tutorial-3-pointcloud cpp-alignimages cpp-callback cpp-callback-2 cpp-capture cpp-config-ui cpp-enumerate-devices cpp-headless cpp-motion-module cpp-multicam cpp-pointcloud cpp-restart cpp-stride cpp-tutorial-1-depth cpp-tutorial-2-streams cpp-tutorial-3-pointcloud
 librem:
 libreplaygain:
 libresample:
@@ -3140,7 +3116,6 @@ libxmi:
 libxml++3:
 libxml++:
 libxml2:xml2-config xmlcatalog xmllint
-libxml2@2.7:xml2-config xmlcatalog xmllint
 libxmlsec1:xmlsec1 xmlsec1-config
 libxmp-lite:
 libxmp:
@@ -3190,8 +3165,6 @@ logentries:le
 logrotate:logrotate
 logstalgia:logstalgia
 logstash:logstash
-logstash@2.4:logstash logstash-plugin
-logstash@5.6:logstash logstash-plugin
 logtalk:bplgt cxlgt eclipselgt gplgt jiplgt lgt2html lgt2md lgt2pdf lgt2txt lgt2xml logtalk_backend_select logtalk_doclet logtalk_tester logtalk_user_setup logtalk_version_select lplgt qplgt quintuslgt sicstuslgt swilgt xsblgt xsbmtlgt yaplgt
 lolcat:lolcat
 lolcode:lci
@@ -3699,7 +3672,6 @@ open-completion:
 open-jtalk:hts_engine open_jtalk
 open-mesh:
 open-mpi:mpic++ mpicc mpicxx mpiexec mpif77 mpif90 mpifort mpirun ompi-clean ompi-dvm ompi-ps ompi-server ompi-submit ompi-top ompi_info opal_wrapper orte-clean orte-dvm orte-info orte-ps orte-server orte-submit orte-top ortecc orted orterun
-open-mpi@1.6:mpic++ mpic++-vt mpicc mpicc-vt mpicxx mpicxx-vt mpiexec mpif77 mpif77-vt mpif90 mpif90-vt mpirun ompi-clean ompi-iof ompi-probe ompi-profiler ompi-ps ompi-server ompi-top ompi_info opal_wrapper orte-bootproxy.sh orte-clean orte-iof orte-ps orte-top orte_wrapper_script ortec++ ortecc orted orterun otfaux otfcompress otfconfig otfdecompress otfinfo otfmerge otfmerge-mpi otfprint otfprofile otfprofile-mpi otfshrink vtc++ vtcc vtcxx vtf77 vtf90 vtfilter vtfilter-mpi vtfiltergen vtfiltergen-mpi vtfort vtrun vtsetup vtsetup.jar vtunify vtunify-mpi vtwrapper
 open-ocd:openocd
 open-scene-graph:osgarchive osgconv osgfilecache osgversion osgviewer present3D
 open-sp:onsgmls osgmlnorm ospam ospcat ospent osx
@@ -3861,14 +3833,12 @@ perceptualdiff:perceptualdiff
 percol:percol
 percona-server-mongodb:bsondump mongo mongod mongodump mongoexport mongofiles mongoimport mongooplog mongoperf mongorestore mongos mongostat mongotop
 percona-server:innochecksum lz4_decompress my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_client_test_embedded mysql_config mysql_config_editor mysql_embedded mysql_install_db mysql_plugin mysql_secure_installation mysql_ssl_rsa_setup mysql_tzinfo_to_sql mysql_upgrade mysqladmin mysqlbinlog mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlimport mysqlpump mysqlshow mysqlslap mysqltest mysqltest_embedded mysqlxtest perror ps_tokudb_admin replace resolve_stack_dump resolveip zlib_decompress
-percona-server@5.5:innochecksum msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_config mysql_convert_table_format mysql_find_rows mysql_fix_extensions mysql_install_db mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysql_zap mysqladmin mysqlbinlog mysqlbug mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest perror replace resolve_stack_dump resolveip
 percona-server@5.6:innochecksum msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_client_test_embedded mysql_config mysql_config_editor mysql_convert_table_format mysql_embedded mysql_find_rows mysql_fix_extensions mysql_install_db mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysql_zap mysqladmin mysqlbinlog mysqlbug mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest mysqltest_embedded perror ps_tokudb_admin replace resolve_stack_dump resolveip
 percona-toolkit:pt-align pt-archiver pt-config-diff pt-deadlock-logger pt-diskstats pt-duplicate-key-checker pt-fifo-split pt-find pt-fingerprint pt-fk-error-logger pt-heartbeat pt-index-usage pt-ioprofile pt-kill pt-mext pt-mysql-summary pt-online-schema-change pt-pmp pt-query-digest pt-show-grants pt-sift pt-slave-delay pt-slave-find pt-slave-restart pt-stalk pt-summary pt-table-checksum pt-table-sync pt-table-usage pt-upgrade pt-variable-advisor pt-visual-explain
 percona-xtrabackup:innobackupex xbcloud xbcloud_osenv xbcrypt xbstream xtrabackup
 perkeep:camdeploy camget camlistored cammount camput camtool devcam hello publisher
 perl-build:perl-build plenv-install plenv-uninstall
 perl:corelist cpan enc2xs encguess h2ph h2xs instmodsh json_pp libnetcfg perl perl5.26.1 perlbug perldoc perlivp perlthanks piconv pl2pm pod2html pod2man pod2text pod2usage podchecker podselect prove ptar ptardiff ptargrep shasum splain xsubpp zipdetails
-perl@5.14:a2p c2ph config_data corelist cpan cpan2dist cpanp cpanp-run-perl dprofpp enc2xs find2perl h2ph h2xs instmodsh json_pp libnetcfg perl perl5.14.4 perlbug perldoc perlivp perlthanks piconv pl2pm pod2html pod2latex pod2man pod2text pod2usage podchecker podselect prove psed pstruct ptar ptardiff ptargrep s2p shasum splain xsubpp
 perl@5.18:a2p c2ph config_data corelist cpan cpan2dist cpanp cpanp-run-perl enc2xs find2perl h2ph h2xs instmodsh json_pp libnetcfg perl perl5.18.2 perlbug perldoc perlivp perlthanks piconv pl2pm pod2html pod2latex pod2man pod2text pod2usage podchecker podselect prove psed pstruct ptar ptardiff ptargrep s2p shasum splain xsubpp zipdetails
 pev:ofs2rva pedis pehash pepack peres pescan pesec pestr readpe rva2ofs
 pex:pex
@@ -4184,7 +4154,6 @@ redex:apkutil redex redexdump
 redir:redir
 redis-leveldb:redis-leveldb
 redis:redis-benchmark redis-check-aof redis-check-rdb redis-cli redis-sentinel redis-server
-redis@2.6:redis-benchmark redis-check-aof redis-check-dump redis-cli redis-server
 redis@2.8:redis28-benchmark redis28-check-aof redis28-check-dump redis28-cli redis28-sentinel redis28-server
 redis@3.2:redis-benchmark redis-check-aof redis-check-rdb redis-cli redis-sentinel redis-server
 redland:rdfproc redland-config redland-db-upgrade
@@ -4377,7 +4346,6 @@ securefs:securefs
 seexpr:asciiCalc asciiGraph imageSynth
 selecta:selecta
 selenium-server-standalone:selenium-server
-selenium-server-standalone@2.45:selenium-server
 sendemail:sendEmail
 seqtk:seqtk
 ser2net:ser2net
@@ -4556,7 +4524,6 @@ srclib:srclib
 srecord:srec_cat srec_cmp srec_info
 srmio:srmcmd srmdump srmsync
 srtp:
-srtp@1.6:
 ssdb:ssdb-bench ssdb-cli ssdb-dump ssdb-repair ssdb-server
 ssdeep:ssdeep
 ssed:ssed
@@ -4646,7 +4613,6 @@ swiftgen:swiftgen
 swiftlint:swiftlint
 swiftplate:swiftplate
 swig:ccache-swig swig
-swig@2:ccache-swig swig
 swig@3.04:ccache-swig swig
 swimat:swimat
 switchaudio-osx:SwitchAudioSource
@@ -4893,7 +4859,6 @@ unibilium:
 unicorn:
 unifdef:unifdef unifdefall
 unison:unison
-unison@2.40:unison
 unittest-cpp:
 unittest:
 uniutils:ExplicateUTF8 unidesc unifuzz unihist uniname unireverse utf8lookup
@@ -5198,9 +5163,6 @@ zelda-roth-se:zelda_roth_se
 zenity:gdialog zenity
 zero-install:0alias 0desktop 0install 0launch 0store 0store-secure-add
 zeromq:curve_keygen
-zeromq@3.2:
-zeromq@4.0:curve_keygen
-zeromq@4.1:curve_keygen
 zile:zile
 zim:zim
 zimg:
