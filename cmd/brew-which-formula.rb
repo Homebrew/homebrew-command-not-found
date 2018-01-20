@@ -33,12 +33,12 @@ def explain_formulae_install(cmd, formulae)
   case formulae.size
   when 0 then return
   when 1
-    puts <<-EOS.undent
+    puts <<~EOS
       The program '#{cmd}' is currently not installed. You can install it by typing:
         brew install #{formulae.first}
     EOS
   else
-    puts <<-EOS.undent
+    puts <<~EOS
       The program '#{cmd}' can be found in the following formulae:
         * #{formulae * "\n  * "}
       Try: brew install <selected formula>

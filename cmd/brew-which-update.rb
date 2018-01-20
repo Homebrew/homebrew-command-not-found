@@ -177,7 +177,7 @@ if ARGV.include? "--stats"
   core_percentage = ((formulae & core).size * 1000 / core.size.to_f).round / 10.0
   taps_percentage = ((formulae & taps).size * 1000 / taps.size.to_f).round / 10.0
 
-  puts <<-EOS.unindent
+  puts <<~EOS
     #{formulae.size} formulae
     #{cmds_count} commands
     #{core_percentage}% of core          (missing: #{(core - formulae) * " "})

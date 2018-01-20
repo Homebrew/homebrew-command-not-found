@@ -7,7 +7,7 @@ end
 def help
   case shell
   when :bash
-    puts <<-EOS.undent
+    puts <<~EOS
       # To enable homebrew-command-not-found
       # Add the following lines to ~/.bashrc
 
@@ -16,14 +16,14 @@ def help
       fi
     EOS
   when :fish
-    puts <<-EOS.undent
+    puts <<~EOS
       # To enable homebrew-command-not-found
       # Add the following line to ~/.config/fish/config.fish
 
       brew command command-not-found-init > /dev/null; and . (brew command-not-found-init)
     EOS
   when :zsh
-    puts <<-EOS.undent
+    puts <<~EOS
       # To enable homebrew-command-not-found
       # Add the following lines to ~/.zshrc
 
