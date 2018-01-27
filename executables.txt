@@ -64,6 +64,7 @@ alpine:alpine pico pilot rpdump rpload
 alure:alurecdplay alureplay alurestream
 amap:amap amap6 amapcrap
 amazon-ecs-cli:ecs-cli
+amber:amber
 amdatu-bootstrap:amdatu-bootstrap
 ammonite-repl:amm
 ampl-mp:tableproxy64
@@ -189,6 +190,7 @@ audacious:audacious audtool
 audiofile:sfconvert sfinfo
 auditbeat:auditbeat
 augeas:augparse augtool fadot
+augustus:augustus bam2hints etraining fastBlockSearch filterBam homGeneMapping joingenes prepareAlign
 aurora-cli:aurora aurora_admin
 aurora:aurora
 auto-scaling:as-attach-instances as-cmd as-complete-lifecycle-action as-create-auto-scaling-group as-create-launch-config as-create-or-update-tags as-delete-auto-scaling-group as-delete-launch-config as-delete-lifecycle-hook as-delete-notification-configuration as-delete-policy as-delete-scheduled-action as-delete-tags as-describe-account-limits as-describe-adjustment-types as-describe-auto-scaling-groups as-describe-auto-scaling-instances as-describe-auto-scaling-notification-types as-describe-launch-configs as-describe-lifecycle-hook-types as-describe-lifecycle-hooks as-describe-metric-collection-types as-describe-notification-configurations as-describe-policies as-describe-process-types as-describe-scaling-activities as-describe-scheduled-actions as-describe-tags as-describe-termination-policy-types as-detach-instances as-disable-metrics-collection as-enable-metrics-collection as-enter-standby as-execute-policy as-exit-standby as-put-lifecycle-hook as-put-notification-configuration as-put-scaling-policy as-put-scheduled-update-group-action as-record-lifecycle-action-heartbeat as-resume-processes as-set-desired-capacity as-set-instance-health as-suspend-processes as-terminate-instance-in-auto-scaling-group as-update-auto-scaling-group as-version
@@ -628,6 +630,7 @@ consul-backinator:consul-backinator
 consul-template:consul-template
 consul:consul
 contacts:contacts
+container-diff:container-diff
 convertlit:clit
 convmv:convmv
 convox:convox
@@ -1634,6 +1637,8 @@ historian:hist
 hive:beeline ext hive hive-config.sh hiveserver2 metatool schematool
 hivemind:hivemind
 hledger:hledger
+hlint:hlint
+hmmer:alimask hmmalign hmmbuild hmmc2 hmmconvert hmmemit hmmerfm-exactmatch hmmfetch hmmlogo hmmpgmd hmmpress hmmscan hmmsearch hmmsim hmmstat jackhmmer makehmmerdb nhmmer nhmmscan phmmer
 hoedown:hoedown
 homebank:homebank
 homebrew/php/adminer:
@@ -1645,6 +1650,7 @@ homebrew/php/brew-php-switcher:brew-php-switcher phpswitch.sh
 homebrew/php/codeception:codecept
 homebrew/php/composer:composer
 homebrew/php/composer@1.2:composer-1.2
+homebrew/php/composer@1.5:composer-1.5
 homebrew/php/deployer:dep
 homebrew/php/drupal-code-sniffer:
 homebrew/php/drupalconsole:drupal
@@ -2575,6 +2581,7 @@ jbigkit:jbgtopbm jbgtopbm85 pbmtojbg pbmtojbg85
 jboss-forge:forge
 jcal:jcal jdate
 jdnssec-tools:jdnssec-dstool jdnssec-keygen jdnssec-keyinfo jdnssec-signkeyset jdnssec-signrrset jdnssec-signzone jdnssec-verifyzone jdnssec-zoneformat
+jdupes:jdupes
 jed:jed jed-script
 jemalloc:jemalloc-config jemalloc.sh jeprof
 jena:arq infer iri juuid nquads ntriples qparse rdfcat rdfcompare rdfcopy rdfparse rdfxml riot rset rsparql rupdate schemagen sparql tdbbackup tdbdump tdbloader tdbloader2 tdbloader2worker tdbquery tdbstats tdbupdate trig turtle uparse update utf8 wwwdec wwwenc
@@ -2796,6 +2803,7 @@ libbtbb:btaptap
 libcaca:caca-config cacaclock cacademo cacafire cacaplay cacaserver cacaview img2txt
 libcanberra:
 libcapn:apn-pusher libcapn-config
+libccd:
 libcddb:cddb_query
 libcdio:cd-drive cd-info cd-read cdda-player iso-info iso-read mmc-tool
 libcdr:cdr2raw cdr2text cdr2xhtml cmx2raw cmx2text cmx2xhtml
@@ -2906,6 +2914,7 @@ libiodbc:iodbc-config iodbctest iodbctestw
 libiptcdata:iptc
 libiscsi:iscsi-inq iscsi-ls iscsi-perf iscsi-readcapacity16 iscsi-swp
 libjson-rpc-cpp:jsonrpcstub
+libjwt:
 libkate:KateDJ katalyzer katedec kateenc
 libkml:
 libksba:ksba-config
@@ -3221,6 +3230,7 @@ mapnik:mapnik-config mapnik-index mapnik-render shapeindex
 mapserver:legend mapserv msencrypt scalebar shp2img shptree shptreetst shptreevis sortshp tile4ms
 marathon-swift:marathon
 mariadb-connector-c:mariadb_config
+mariadb-connector-odbc:
 mariadb:aria_chk aria_dump_log aria_ftdump aria_pack aria_read_log innochecksum mariabackup mbstream msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_config mysql_convert_table_format mysql_find_rows mysql_fix_extensions mysql_install_db mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysql_zap mysqlaccess mysqladmin mysqlbinlog mysqlbug mysqlcheck mysqld mysqld_multi mysqld_safe mysqld_safe_helper mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest mytop perror replace resolve_stack_dump resolveip wsrep_sst_mariabackup wsrep_sst_mysqldump wsrep_sst_rsync wsrep_sst_xtrabackup wsrep_sst_xtrabackup-v2
 mariadb@10.0:aria_chk aria_dump_log aria_ftdump aria_pack aria_read_log innochecksum msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_config mysql_convert_table_format mysql_find_rows mysql_fix_extensions mysql_install_db mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysql_zap mysqlaccess mysqladmin mysqlbinlog mysqlbug mysqlcheck mysqld mysqld_multi mysqld_safe mysqld_safe_helper mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest mytop perror replace resolve_stack_dump resolveip
 mariadb@10.1:aria_chk aria_dump_log aria_ftdump aria_pack aria_read_log innochecksum mariabackup mbstream msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_config mysql_convert_table_format mysql_find_rows mysql_fix_extensions mysql_install_db mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysql_zap mysqlaccess mysqladmin mysqlbinlog mysqlbug mysqlcheck mysqld mysqld_multi mysqld_safe mysqld_safe_helper mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest mytop perror rcmysql replace resolve_stack_dump resolveip wsrep_sst_mariabackup wsrep_sst_mysqldump wsrep_sst_rsync wsrep_sst_xtrabackup wsrep_sst_xtrabackup-v2
@@ -3349,6 +3359,7 @@ mlton:mllex mlnlffigen mlprof mlton mlyacc
 mm-common:mm-common-prepare
 mmark:mmark
 mmix:mmix mmixal mmmix mmotype
+mmseqs2:mmseqs
 mmsrip:mmsrip
 mmv:mad mcp mln mmv
 mobiledevice:mobiledevice
@@ -3420,6 +3431,7 @@ mpg123:mpg123 mpg123-id3dump mpg123-strip out123
 mpg321:mpg321
 mpgtx:mpgcat mpgdemux mpginfo mpgjoin mpgsplit mpgtx tagmp3
 mpich:hydra_nameserver hydra_persist hydra_pmi_proxy mpic++ mpicc mpichversion mpicxx mpiexec mpiexec.hydra mpif77 mpif90 mpifort mpirun mpivars parkill
+mpir:
 mplayer:mencoder mplayer
 mplayershell:mps
 mpop:mpop
@@ -3609,6 +3621,7 @@ nvm:
 nxengine:nx
 nyancat:nyancat
 nylon:nylon
+nyx:nyx
 nzbget:nzbget
 oath-toolkit:oathtool pskctool
 oauth2_proxy:oauth2_proxy
@@ -3880,6 +3893,7 @@ pktanon:pktanon
 pla:pla
 plan9port:9
 planck:planck
+plank:plank
 plantuml:plantuml
 platformio:pio platformio
 platypus:platypus
@@ -4389,6 +4403,7 @@ sipsak:sipsak
 sisc-scheme:sisc
 sispmctl:sispmctl
 sjk:sjk
+skafos:skafos
 ski:ski
 skinny:skinny yo
 skipfish:skipfish
@@ -4728,6 +4743,7 @@ tmpreaper:tmpreaper
 tmpwatch:tmpwatch
 tmux-cssh:tmux-cssh
 tmux-mem-cpu-load:tmux-mem-cpu-load
+tmux-xpanes:tmux-xpanes xpanes
 tmux:tmux
 tmuxinator-completion:
 tn5250:5250keys lp5250d scs2ascii scs2pdf scs2ps tn5250 xt5250
@@ -4911,6 +4927,7 @@ vips:batch_crop batch_image_convert batch_rubber_sheet light_correct shrink_widt
 virtualhost.sh:virtualhost.sh
 virtualpg:
 virtuoso:inifile isql isqlw virt_mail virtuoso-t
+vis:vis-clipboard vis-complete vis-digraph vis-menu vis-open vise
 visionmedia-watch:watch
 visitors:visitors
 visp:visp-config
@@ -5139,6 +5156,7 @@ zelda-roth-se:zelda_roth_se
 zenity:gdialog zenity
 zero-install:0alias 0desktop 0install 0launch 0store 0store-secure-add
 zeromq:curve_keygen
+zig:zig
 zile:zile
 zim:zim
 zimg:
