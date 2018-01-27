@@ -23,7 +23,7 @@ end
 # Test if we have to reject the given formula, i.e. not suggest it.
 def reject_formula?(name)
   f = Formula[name] rescue nil
-  f.nil? || f.installed? || f.requirements.any? { |r| r.required? && !r.default_formula? && !r.satisfied? }
+  f.nil? || f.installed? || f.requirements.any? { |r| r.required? && !r.satisfied? }
 end
 
 # Print a small text explaining how to get 'cmd' by installing one of the given
