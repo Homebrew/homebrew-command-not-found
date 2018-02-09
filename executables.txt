@@ -116,8 +116,6 @@ apm-server:apm-server
 apng2gif:apng2gif
 apngasm:apngasm
 apollo:apollo
-app-engine-go-32:appcfg.py bulkload_client.py bulkloader.py dev_appserver.py download_appstats.py goapp
-app-engine-go-64:appcfg.py bulkload_client.py bulkloader.py dev_appserver.py download_appstats.py goapp
 app-engine-java:appcfg.sh dev_appserver.sh endpoints.sh google_sql.sh run_java.sh
 app-engine-python:_php_runtime.py _python_runtime.py api_server.py appcfg.py bulkload_client.py bulkloader.py dev_appserver.py download_appstats.py endpointscfg.py gen_protorpc.py google_sql.py remote_api_shell.py
 apparix:apparix
@@ -246,11 +244,13 @@ bacula-fd:bacula bacula-fd bconsole btraceback
 bagit:bag
 balance:balance
 ballerburg:ballerburg
+ballerina:ballerina
 bam:bam
 bamtools:bamtools
 bandcamp-dl:bandcamp-dl
 baobab:baobab
 bar:bar
+bareos-client:bareos bareos-fd bconsole btraceback
 baresip:baresip
 bartycrouch:bartycrouch
 base64:base64
@@ -639,6 +639,7 @@ cookiecutter:cookiecutter
 coq:coq-tex coq_makefile coqc coqchk coqdep coqdoc coqmktop coqtop coqtop.byte coqwc coqworkmgr gallina
 corebird:corebird
 corectl:corectl corectld corectld.runner qcow-tool
+coreos-ct:ct
 coreutils:g[ gb2sum gbase32 gbase64 gbasename gcat gchcon gchgrp gchmod gchown gchroot gcksum gcomm gcp gcsplit gcut gdate gdd gdf gdir gdircolors gdirname gdu gecho genv gexpand gexpr gfactor gfalse gfmt gfold ggroups ghead ghostid gid ginstall gjoin gkill glink gln glogname gls gmd5sum gmkdir gmkfifo gmknod gmktemp gmv gnice gnl gnohup gnproc gnumfmt god gpaste gpathchk gpinky gpr gprintenv gprintf gptx gpwd greadlink grealpath grm grmdir gruncon gseq gsha1sum gsha224sum gsha256sum gsha384sum gsha512sum gshred gshuf gsleep gsort gsplit gstat gstdbuf gstty gsum gsync gtac gtail gtee gtest gtimeout gtouch gtr gtrue gtruncate gtsort gtty guname gunexpand guniq gunlink guptime gusers gvdir gwc gwho gwhoami gyes realpath
 corkscrew:corkscrew
 corsixth:CorsixTH
@@ -1437,6 +1438,7 @@ gobby:gobby-0.5
 gobject-introspection:g-ir-annotation-tool g-ir-compiler g-ir-generate g-ir-inspect g-ir-scanner
 gobuster:gobuster
 gocr:gocr gocr.tcl
+gocryptfs:gocryptfs
 godep:godep
 goenv:go-build goenv goenv-install goenv-uninstall
 gofabric8:gofabric8
@@ -2699,6 +2701,7 @@ kore:kore
 kotlin:kotlin kotlinc kotlinc-js kotlinc-jvm
 kpcli:kpcli
 kqwait:kqwait
+krakend:krakend
 krb5:compile_et gss-client gss-server k5srvutil kadmin kadmin.local kadmind kdb5_util kdestroy kinit klist kpasswd kprop kpropd kproplog krb5-config krb5-send-pr krb5kdc kswitch ktutil kvno sclient sim_client sim_server sserver uuclient uuserver
 ksh:ksh ksh93
 kstart:k5start krenew
@@ -2763,7 +2766,7 @@ leiningen:lein
 lemon:lemon
 lensfun:g-lensfun-update-data lensfun-add-adapter lensfun-update-data
 lepton:lepton lepton-avx lepton-slow-best-ratio
-leptonica:convertfilestopdf convertfilestops convertformat convertsegfilestopdf convertsegfilestops converttopdf converttops fileinfo printimage printsplitimage printtiff splitimage2pdf xtractprotos
+leptonica:convertfilestopdf convertfilestops convertformat convertsegfilestopdf convertsegfilestops converttopdf converttops fileinfo xtractprotos
 less:less lessecho lesskey
 lesspipe:code2color lesspipe.sh sxw2txt tarcolor
 lesstif:motif-config mwm mxmkmf uil xmbind
@@ -2791,6 +2794,7 @@ libbdplus:
 libbind:
 libbinio:
 libbitcoin-blockchain:
+libbitcoin-consensus:
 libbitcoin-database:
 libbitcoin-explorer:bx
 libbitcoin-node:bn
@@ -4066,6 +4070,7 @@ qt:canbusutil fixqt4headers.pl lconvert lrelease lupdate macchangeqt macdeployqt
 qt@5.5:lconvert lrelease lupdate macchangeqt macdeployqt moc qcollectiongenerator qdbus qdbuscpp2xml qdbusxml2cpp qdoc qhelpconverter qhelpgenerator qlalr qmake qml1plugindump qmleasing qmlimportscanner qmllint qmlmin qmlplugindump qmlprofiler qmlscene qmltestrunner qtdiag qtpaths qtplugininfo rcc syncqt.pl uic xmlpatterns xmlpatternsvalidator
 qtads:QTads
 qtfaststart:qt-faststart
+qtkeychain:
 quantlib:quantlib-config quantlib-test-suite
 quasi88:quasi88
 quazip:
@@ -4366,6 +4371,7 @@ shc:shc
 shellcheck:shellcheck
 shellinabox:shellinaboxd
 shellshare:shellshare
+shelltestrunner:shelltest
 shfmt:shfmt
 shibboleth-sp:mdquery resolvertest shibd
 shivavg:
@@ -4374,6 +4380,7 @@ shml:shml shml.sh
 shmux:shmux
 shntool:shncat shncmp shnconv shncue shnfix shngen shnhash shninfo shnjoin shnlen shnpad shnsplit shnstrip shntool shntrim
 shocco:shocco
+shogun:
 shorten:shorten
 shpotify:spotify
 shtool:shtool shtoolize
