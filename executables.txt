@@ -346,6 +346,7 @@ boom-completion:
 boost-bcp:bcp
 boost-build:b2 bjam
 boost-mpi:
+boost-python3:
 boost-python:
 boost-python@1.59:
 boost:
@@ -528,6 +529,7 @@ choose:choose
 chordii:a2crd chordii
 chromaprint:
 chrome-cli:chrome-canary-cli chrome-cli chromium-cli
+chrome-export:export-chrome-bookmarks export-chrome-history
 chromedriver:chromedriver
 chronograf:chronograf
 chruby-fish:
@@ -576,7 +578,6 @@ closure-compiler:closure-compiler
 closure-linter:fixjsstyle gjslint
 closure-stylesheets:closure-stylesheets
 cloud-watch:mon-cmd mon-delete-alarms mon-describe-alarm-history mon-describe-alarms mon-describe-alarms-for-metric mon-disable-alarm-actions mon-enable-alarm-actions mon-get-stats mon-list-metrics mon-put-data mon-put-metric-alarm mon-set-alarm-state mon-version
-clozure-cl:ccl ccl64
 clpbar:clpbar
 clucene:
 clutter-gst:
@@ -1429,8 +1430,6 @@ go-jira:jira
 go-statik:statik
 go:go godoc gofmt
 go@1.4:go godoc gofmt
-go@1.6:go godoc gofmt
-go@1.7:go godoc gofmt
 go@1.8:go godoc gofmt
 goaccess:goaccess
 goad:goad
@@ -2417,6 +2416,7 @@ hopenpgp-tools:hkt hokey hot
 hornetq:hornet-start hornet-stop
 hostdb:canonzone catif checkrootcache copy-if-change Example_comparezones genrange mergeiplists mkdestinations mknamedconf mkzones NIdhcpupdate sortbyip zone2hostdb zone2hostdbhelper
 hostess:hostess
+howdoi:howdoi
 hping:hping hping2 hping3
 hqx:hqx
 hr:hr
@@ -3267,6 +3267,7 @@ md5sha1sum:md5sum ripemd160sum sha1sum
 md:md
 mda-lv2:
 mdbtools:mdb-array mdb-export mdb-header mdb-hexdump mdb-parsecsv mdb-prop mdb-schema mdb-sql mdb-tables mdb-ver
+mdcat:mdcat
 mdds:
 mdf2iso:mdf2iso
 mdk:gmixvm mixasm mixvm
@@ -3938,6 +3939,7 @@ poppler:pdfdetach pdffonts pdfimages pdfinfo pdfseparate pdftocairo pdftohtml pd
 popt:
 portaudio:
 portmidi:
+posh:posh
 poster:poster
 postgis:create_undef.pl pgsql2shp postgis_proc_upgrade.pl postgis_restore.pl profile_intersects.pl raster2pgsql shp2pgsql test_estimation.pl test_geography_estimation.pl test_geography_joinestimation.pl test_joinestimation.pl
 postgres-xc:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg gtm gtm_ctl gtm_proxy initdb initgtm makesgml oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_resetxlog pg_restore pg_standby pg_test_fsync pg_upgrade pgbench pgxc_clean postgres postmaster psql reindexdb vacuumdb vacuumlo
@@ -3964,6 +3966,7 @@ premake:premake4
 prest:prest
 presto:presto presto-server
 prettyping:prettyping
+primer3:long_seq_tm_test ntdpal ntthal oligotm primer3_core
 primesieve:primesieve
 prips:prips
 privoxy:privoxy
@@ -4179,6 +4182,7 @@ residualvm:residualvm
 rest-shell:rest-shell
 restic:restic
 restund:restund
+restview:restview
 resty:pp pypp resty
 rethinkdb:rethinkdb
 rex:rex rexify
@@ -4217,7 +4221,6 @@ roll:roll
 rolldice:rolldice
 rom-tools:aueffectutil castool chdman floptool imgtool jedutil ldresample ldverify nltool nlwav pngcmp regrep rom-split romcmp src2html srcclean unidasm
 root:g2root genreflex h2root hadd hist2workspace memprobe pq2 prepareHistFactory proofd proofexecv proofserv proofserv.exe rmkdepend root root-config root.exe rootbrowse rootcint rootcling rootcp rootd rootdrawtree rooteventselector rootls rootmkdir rootmv rootn.exe rootnb.exe rootprint rootrm roots roots.exe rootslimtree setenvwrap.csh setxrd.csh setxrd.sh ssh2rpd thisroot.csh thisroot.sh xpdtest xproofd
-root@5:genmap genreflex genreflex-rootcint hadd hist2workspace memprobe pq2 prepareHistFactory proofd proofexecv proofserv proofserv.exe rlibmap rmkdepend root root-config root.exe rootcint rootd rootn.exe roots roots.exe setxrd.csh setxrd.sh ssh2rpd thisroot.csh thisroot.sh xpdtest xproofd
 roswell:ros
 roundup:roundup
 rp:rp-osx
@@ -4408,6 +4411,7 @@ sip:sip
 sipcalc:sipcalc
 sipp:sipp
 sipsak:sipsak
+siril:siril
 sisc-scheme:sisc
 sispmctl:sispmctl
 sjk:sjk
