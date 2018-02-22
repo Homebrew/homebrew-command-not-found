@@ -431,6 +431,7 @@ cake:cake
 calabash:calabash
 calc:calc
 calcurse:calcurse calcurse-caldav calcurse-upgrade
+calicoctl:calicoctl
 camellia:cam_demo cam_myobjects cam_yalefaces
 camlp4:camlp4 camlp4boot camlp4o camlp4o.opt camlp4of camlp4of.opt camlp4oof camlp4oof.opt camlp4orf camlp4orf.opt camlp4prof camlp4r camlp4r.opt camlp4rf camlp4rf.opt mkcamlp4
 camlp5:camlp5 camlp5o camlp5o.opt camlp5r camlp5r.opt camlp5sch mkcamlp5 mkcamlp5.opt ocpp5
@@ -552,6 +553,7 @@ clamz:clamz
 clang-format:clang-format git-clang-format
 classads:classad_functional_tester classad_functional_tester_ns classad_version classad_version_ns cxi cxi_ns
 clblas:clBLAS-tune
+clblast:clblast_tuner_copy_fast clblast_tuner_copy_pad clblast_tuner_invert clblast_tuner_routine_xgemm clblast_tuner_routine_xtrsv clblast_tuner_transpose_fast clblast_tuner_transpose_pad clblast_tuner_xaxpy clblast_tuner_xdot clblast_tuner_xgemm clblast_tuner_xgemm_direct clblast_tuner_xgemv clblast_tuner_xger
 clean:clean
 clearlooks-phenix:
 clens:
@@ -628,6 +630,7 @@ confuse:
 conjure-up:conjure-down conjure-up
 connect:connect
 conserver:conserver console
+console_bridge:
 consul-backinator:consul-backinator
 consul-template:consul-template
 consul:consul
@@ -735,7 +738,9 @@ darkhttpd:darkhttpd
 darkice:darkice
 darksky-weather:weather
 darkstat:darkstat
+dartsim:
 dash:dash
+dashing:dashing
 dasht:dasht dasht-docsets dasht-docsets-extract dasht-docsets-install dasht-docsets-remove dasht-docsets-update dasht-query-exec dasht-query-html dasht-query-line dasht-server dasht-server-http
 dasm:dasm ftohex
 datamash:datamash
@@ -931,6 +936,7 @@ dxpy:dx dx-app-wizard dx-bed-to-spans dx-build-app dx-build-applet dx-build-asse
 dyld-headers:
 dylibbundler:dylibbundler
 dynamips:dynamips nvram_export
+dynare:dynare++
 e2fsprogs:badblocks blkid chattr compile_et debugfs dumpe2fs e2freefrag e2fsck e2image e2label e2undo filefrag findfs fsck fsck.ext2 fsck.ext3 fsck.ext4 fuse2fs logsave lsattr mk_cmds mke2fs mkfs.ext2 mkfs.ext3 mkfs.ext4 mklost+found resize2fs tune2fs uuidd uuidgen
 e2tools:e2cp e2ln e2ls e2mkdir e2mv e2rm e2tail
 easy-git:eg
@@ -1060,6 +1066,7 @@ fceux:fceux
 fcgi:cgi-fcgi
 fcgiwrap:fcgiwrap
 fcitx-remote-for-osx:fcitx-remote fcitx-remote-general
+fcl:
 fcrackzip:fcrackzip zipinfo
 fd:fd
 fdclone:fd fdsh
@@ -1175,6 +1182,7 @@ fribidi:fribidi
 frobtads:frob t3make tadsc
 frotz:frotz
 frugal:frugal
+fruit:
 fs-uae:fs-uae fs-uae-device-helper
 fsevent_watch:fsevent_watch
 fsevents-tools:autorsync notifyloop notifywait
@@ -1192,6 +1200,7 @@ funcoeszz:
 fuse-emulator:fuse
 fuse-zip:fuse-zip
 fuseki:fuseki-server s-delete s-get s-head s-post s-put s-query s-update s-update-form
+futhark:futhark futhark-bench futhark-c futhark-dataset futhark-doc futhark-opencl futhark-py futhark-pyopencl futhark-test futharki
 fuzzy-find:ff
 fwknop:fwknop fwknopd
 fwup:fwup
@@ -1477,6 +1486,7 @@ gphoto2:gphoto2
 gplcver:cver
 gpm:gpm
 gpp:gpp
+gpredict:gpredict
 gprof2dot:gprof2dot
 gpsbabel:gpsbabel
 gpsd:cgps gps2udp gpsctl gpsd gpsdctl gpsdecode gpsmon gpspipe gpxlogger lcdgps ntpshmmon
@@ -1519,6 +1529,7 @@ grsync:grsync grsync-batch
 grt:grt-lin-reg-tool grt-log-reg-tool grt-merge-tool grt-rf-tool grt-split-tool grt-test-tool
 grunt-cli:grunt
 grunt-completion:
+grv:grv
 gsar:gsar
 gsasl:gsasl
 gsettings-desktop-schemas:
@@ -2396,7 +2407,7 @@ homebrew/php/phppgadmin:
 homebrew/php/phpspec:phpspec
 homebrew/php/phpunit-skeleton-generator:phpunitskeletongenerator
 homebrew/php/phpunit:phpunit
-homebrew/php/phpunit@5.7:phpunitat57
+homebrew/php/phpunit@6.5:phpunitat65
 homebrew/php/pickle:pickle
 homebrew/php/psysh:psysh
 homebrew/php/puli:puli
@@ -2708,6 +2719,7 @@ kstart:k5start krenew
 ktmpl:ktmpl
 ktoblzcheck:ktoblzcheck
 kube-aws:kube-aws
+kube-ps1:
 kubectx:kubectx kubens
 kubeless:kubeless
 kubernetes-cli:kubectl
@@ -2831,6 +2843,7 @@ libdap:dap-config dap-config-pkgconfig getdap getdap4
 libdbi:
 libdc1394:
 libdca:dcadec dtsdec extract_dca extract_dts
+libdill:
 libdiscid:
 libdivecomputer:dctool
 libdmtx:
@@ -3028,6 +3041,7 @@ librsync:rdiff
 librtlsdr:rtl_adsb rtl_eeprom rtl_fm rtl_power rtl_sdr rtl_tcp rtl_test
 libsamplerate:
 libsass:
+libsbol:
 libscrypt:
 libsecret:secret-tool
 libshout:
@@ -3210,6 +3224,7 @@ macosvpn:macosvpn
 macvim:gview gvim gvimdiff gvimex mview mvim mvimdiff mvimex
 mad:
 madplay:abxtest madplay
+mafft:einsi fftns fftnsi ginsi linsi mafft mafft-distance mafft-einsi mafft-fftns mafft-fftnsi mafft-ginsi mafft-homologs.rb mafft-linsi mafft-nwns mafft-nwnsi mafft-profile mafft-qinsi mafft-sparsecore.rb mafft-xinsi nwns nwnsi
 magic-wormhole:wormhole wormhole-server
 magnetix:magnetiX
 mahout:mahout
@@ -3549,7 +3564,7 @@ nethack4:nethack4
 nethack:nethack
 nethacked:nethacked
 nethogs:nethogs
-netpbm:411toppm anytopnm asciitopgm atktopbm avstopam bioradtopgm bmptopnm bmptoppm brushtopbm cameratopam cistopbm cmuwmtopbm ddbugtopbm escp2topbm eyuvtoppm fiascotopnm fitstopnm fstopgm g3topbm gemtopbm gemtopnm giftopnm gouldtoppm hdifftopam hipstopgm hpcdtoppm icontopbm ilbmtoppm imgtoppm infotopam jbigtopnm jpeg2ktopam jpegtopnm leaftoppm lispmtopgm macptopbm manweb mdatopbm mgrtopbm mrftopbm mtvtoppm neotoppm palmtopnm pamaddnoise pamarith pambackground pambayer pamchannel pamcomp pamcrater pamcut pamdeinterlace pamdepth pamdice pamditherbw pamedge pamendian pamenlarge pamexec pamfile pamfix pamfixtrunc pamflip pamfunc pamgauss pamgradient pamlookup pammasksharpen pammixinterlace pammosaicknit pamoil pampaintspill pamperspective pampick pampop9 pamrecolor pamrgbatopng pamrubber pamscale pamseq pamshadedrelief pamsharpmap pamsharpness pamsistoaglyph pamslice pamsplit pamstack pamstereogram pamstretch pamstretch-gen pamsumm pamsummcol pamthreshold pamtilt pamtoavs pamtodjvurle pamtofits pamtogif pamtohdiff pamtohtmltbl pamtojpeg2k pamtompfont pamtooctaveimg pamtopam pamtopdbimg pamtopfm pamtopnm pamtosrf pamtosvg pamtotga pamtotiff pamtouil pamtowinicon pamtoxvmini pamundice pamvalidate pamwipeout pbmclean pbmlife pbmmake pbmmask pbmminkowski pbmpage pbmpscale pbmreduce pbmtext pbmtextps pbmto10x pbmto4425 pbmtoascii pbmtoatk pbmtobbnbg pbmtocis pbmtocmuwm pbmtodjvurle pbmtoepsi pbmtoepson pbmtoescp2 pbmtog3 pbmtogem pbmtogo pbmtoibm23xx pbmtoicon pbmtolj pbmtoln03 pbmtolps pbmtomacp pbmtomatrixorbital pbmtomda pbmtomgr pbmtomrf pbmtonokia pbmtopgm pbmtopi3 pbmtopk pbmtoplot pbmtoppa pbmtopsg3 pbmtoptx pbmtosunicon pbmtowbmp pbmtox10bm pbmtoxbm pbmtoybm pbmtozinc pbmupc pc1toppm pcdovtoppm pcxtoppm pdbimgtopam pfmtopam pgmabel pgmbentley pgmcrater pgmdeshadow pgmedge pgmenhance pgmhist pgmkernel pgmmake pgmmedian pgmminkowski pgmmorphconv pgmnoise pgmnorm pgmoil pgmramp pgmslice pgmtexture pgmtofs pgmtolispm pgmtopbm pgmtopgm pgmtoppm pi1toppm pi3topbm picttoppm pjtoppm pktopbm pngtopam pngtopnm pnmalias pnmarith pnmcat pnmcolormap pnmcomp pnmconvol pnmcrop pnmcut pnmdepth pnmenlarge pnmfile pnmflip pnmgamma pnmhisteq pnmhistmap pnmindex pnminterp pnminvert pnmmargin pnmmercator pnmmontage pnmnlfilt pnmnoraw pnmnorm pnmpad pnmpaste pnmpsnr pnmquant pnmquantall pnmremap pnmrotate pnmscale pnmscalefixed pnmshear pnmsmooth pnmsplit pnmstitch pnmtile pnmtoddif pnmtofiasco pnmtofits pnmtojbig pnmtojpeg pnmtopalm pnmtopclxl pnmtoplainpnm pnmtopng pnmtopnm pnmtops pnmtorast pnmtorle pnmtosgi pnmtosir pnmtotiff pnmtotiffcmyk pnmtoxwd ppm3d ppmbrighten ppmchange ppmcie ppmcolormask ppmcolors ppmdcfont ppmddumpfont ppmdim ppmdist ppmdither ppmdmkfont ppmdraw ppmfade ppmflash ppmforge ppmglobe ppmhist ppmlabel ppmmake ppmmix ppmnorm ppmntsc ppmpat ppmquant ppmquantall ppmrainbow ppmrelief ppmrough ppmshadow ppmshift ppmspread ppmtoacad ppmtoapplevol ppmtoarbtxt ppmtoascii ppmtobmp ppmtoeyuv ppmtogif ppmtoicr ppmtoilbm ppmtojpeg ppmtoleaf ppmtolj ppmtomap ppmtomitsu ppmtompeg ppmtoneo ppmtopcx ppmtopgm ppmtopi1 ppmtopict ppmtopj ppmtopjxl ppmtoppm ppmtopuzz ppmtorgb3 ppmtosixel ppmtospu ppmtoterm ppmtouil ppmtowinicon ppmtoxpm ppmtoyuv ppmtoyuvsplit ppmtv ppmwheel psidtopgm pstopnm qrttoppm rasttopnm rawtopgm rawtoppm rgb3toppm rlatopam rletopnm sbigtopgm sgitopnm sirtopnm sldtoppm spctoppm spottopgm sputoppm srftopam sunicontopnm svgtopam tgatoppm thinkjettopbm tifftopnm wbmptopbm winicontopam winicontoppm xbmtopbm ximtoppm xpmtoppm xvminitoppm xwdtopnm ybmtopbm yuvsplittoppm yuvtoppm zeisstopnm
+netpbm:411toppm anytopnm asciitopgm atktopbm avstopam bioradtopgm bmptopnm bmptoppm brushtopbm cameratopam cistopbm cmuwmtopbm ddbugtopbm escp2topbm eyuvtoppm fiascotopnm fitstopnm fstopgm g3topbm gemtopbm gemtopnm giftopnm gouldtoppm hdifftopam hipstopgm hpcdtoppm icontopbm ilbmtoppm imgtoppm infotopam jbigtopnm jpeg2ktopam jpegtopnm leaftoppm lispmtopgm macptopbm manweb mdatopbm mgrtopbm mrftopbm mtvtoppm neotoppm palmtopnm pamaddnoise pamarith pambackground pambayer pamchannel pamcomp pamcrater pamcut pamdeinterlace pamdepth pamdice pamditherbw pamedge pamendian pamenlarge pamexec pamfile pamfix pamfixtrunc pamflip pamfunc pamgauss pamgradient pamlookup pammasksharpen pammixinterlace pammosaicknit pamoil pampaintspill pamperspective pampick pampop9 pamrecolor pamrgbatopng pamrubber pamscale pamseq pamshadedrelief pamsharpmap pamsharpness pamsistoaglyph pamslice pamsplit pamstack pamstereogram pamstretch pamstretch-gen pamsumm pamsummcol pamthreshold pamtilt pamtoavs pamtodjvurle pamtofits pamtogif pamtohdiff pamtohtmltbl pamtojpeg2k pamtompfont pamtooctaveimg pamtopam pamtopdbimg pamtopfm pamtopng pamtopnm pamtosrf pamtosvg pamtotga pamtotiff pamtouil pamtowinicon pamtoxvmini pamundice pamunlookup pamvalidate pamwipeout pbmclean pbmlife pbmmake pbmmask pbmminkowski pbmpage pbmpscale pbmreduce pbmtext pbmtextps pbmto10x pbmto4425 pbmtoascii pbmtoatk pbmtobbnbg pbmtocis pbmtocmuwm pbmtodjvurle pbmtoepsi pbmtoepson pbmtoescp2 pbmtog3 pbmtogem pbmtogo pbmtoibm23xx pbmtoicon pbmtolj pbmtoln03 pbmtolps pbmtomacp pbmtomatrixorbital pbmtomda pbmtomgr pbmtomrf pbmtonokia pbmtopgm pbmtopi3 pbmtopk pbmtoplot pbmtoppa pbmtopsg3 pbmtoptx pbmtosunicon pbmtowbmp pbmtox10bm pbmtoxbm pbmtoybm pbmtozinc pbmupc pc1toppm pcdovtoppm pcxtoppm pdbimgtopam pfmtopam pgmabel pgmbentley pgmcrater pgmdeshadow pgmedge pgmenhance pgmhist pgmkernel pgmmake pgmmedian pgmminkowski pgmmorphconv pgmnoise pgmnorm pgmoil pgmramp pgmslice pgmtexture pgmtofs pgmtolispm pgmtopbm pgmtopgm pgmtoppm pgmtosbig pgmtost4 pi1toppm pi3topbm picttoppm pjtoppm pktopbm pngtopam pngtopnm pnmalias pnmarith pnmcat pnmcolormap pnmcomp pnmconvol pnmcrop pnmcut pnmdepth pnmenlarge pnmfile pnmflip pnmgamma pnmhisteq pnmhistmap pnmindex pnminterp pnminvert pnmmargin pnmmercator pnmmontage pnmnlfilt pnmnoraw pnmnorm pnmpad pnmpaste pnmpsnr pnmquant pnmquantall pnmremap pnmrotate pnmscale pnmscalefixed pnmshear pnmsmooth pnmsplit pnmstitch pnmtile pnmtoddif pnmtofiasco pnmtofits pnmtojbig pnmtojpeg pnmtopalm pnmtopclxl pnmtoplainpnm pnmtopng pnmtopnm pnmtops pnmtorast pnmtorle pnmtosgi pnmtosir pnmtotiff pnmtotiffcmyk pnmtoxwd ppm3d ppmbrighten ppmchange ppmcie ppmcolormask ppmcolors ppmdcfont ppmddumpfont ppmdim ppmdist ppmdither ppmdmkfont ppmdraw ppmfade ppmflash ppmforge ppmglobe ppmhist ppmlabel ppmmake ppmmix ppmnorm ppmntsc ppmpat ppmquant ppmquantall ppmrainbow ppmrelief ppmrough ppmshadow ppmshift ppmspread ppmtoacad ppmtoapplevol ppmtoarbtxt ppmtoascii ppmtobmp ppmtoeyuv ppmtogif ppmtoicr ppmtoilbm ppmtojpeg ppmtoleaf ppmtolj ppmtomap ppmtomitsu ppmtompeg ppmtoneo ppmtopcx ppmtopgm ppmtopi1 ppmtopict ppmtopj ppmtopjxl ppmtoppm ppmtopuzz ppmtorgb3 ppmtosixel ppmtospu ppmtoterm ppmtotga ppmtouil ppmtowinicon ppmtoxpm ppmtoyuv ppmtoyuvsplit ppmtv ppmwheel psidtopgm pstopnm qrttoppm rasttopnm rawtopgm rawtoppm rgb3toppm rlatopam rletopnm sbigtopgm sgitopnm sirtopnm sldtoppm spctoppm spottopgm sputoppm srftopam st4topgm sunicontopnm svgtopam tgatoppm thinkjettopbm tifftopnm wbmptopbm winicontopam winicontoppm xbmtopbm ximtoppm xpmtoppm xvminitoppm xwdtopnm ybmtopbm yuvsplittoppm yuvtoppm yuy2topam zeisstopnm
 netperf:netperf netserver
 netris:netris
 nettle:nettle-hash nettle-lfib-stream nettle-pbkdf2 pkcs1-conv sexp-conv
@@ -3616,7 +3631,7 @@ nu:nubake nubile nudoc nuke nush nutemplate nutest nutmbundle
 nudoku:nudoku
 nuget:nuget
 num-utils:average bound interval normalize numgrep numprocess numsum random range round
-numpy:f2py
+numpy:f2py f2py3.6
 nut:al175 apcsmart apcsmart-old apcupsd-ups bcmxcp belkin belkinunv bestfcom bestfortress bestuferrups bestups blazer_ser clone clone-outlet dummy-ups etapro everups gamatronic genericups isbmex ivtscd liebert liebert-esp2 macosx-ups masterguard metasys mge-shut mge-utalk microdowell nutdrv_qx oldmge-shut oneac optiups powercom powerpanel rhino riello_ser safenet skel solis tripplite tripplitesu upsc upscmd upscode2 upslog upsrw upssched-cmd victronups upsd upsdrvctl upsmon upssched
 nutcracker:nutcracker
 nuttcp:nuttcp
@@ -3642,9 +3657,11 @@ ocamlsdl:
 ocp:ocp ocp-0.1.21 ocp-curses ultrafix.sh
 ocproxy:ocproxy
 ocrad:ocrad
+ocrmypdf:ocrmypdf
 octave:mkoctfile mkoctfile-4.2.1 octave octave-4.2.1 octave-cli octave-cli-4.2.1 octave-config octave-config-4.2.1
 ode:ode-config
 odo:odo
+odpi:
 odt2txt:odt2txt
 offlineimap:offlineimap
 oggz:oggz oggz-chop oggz-codecs oggz-comment oggz-diff oggz-dump oggz-info oggz-known-codecs oggz-merge oggz-rip oggz-scan oggz-sort oggz-validate
@@ -3696,6 +3713,7 @@ openexr:exrenvmap exrheader exrmakepreview exrmaketiled exrmultipart exrmultivie
 openfortivpn:openfortivpn
 openh264:
 openhmd:simple
+openimageio:iconvert idiff igrep iinfo maketx oiiotool
 openjazz:OpenJazz
 openjpeg:opj_compress opj_decompress opj_dump
 openldap:ldapadd ldapcompare ldapdelete ldapexop ldapmodify ldapmodrdn ldappasswd ldapsearch ldapurl ldapwhoami slapacl slapadd slapauth slapcat slapdn slapindex slappasswd slapschema slaptest
@@ -3877,7 +3895,7 @@ pilosa:pilosa
 pinboard-notes-backup:pnbackup
 pincaster:event_rpcgen.py pincaster
 pinentry-mac:pinentry-mac
-pinentry:pinentry pinentry-curses
+pinentry:pinentry pinentry-curses pinentry-tty
 pinfo:pinfo
 pioneer:modelcompiler pioneer
 pioneers:pioneers pioneers-editor pioneers-metaserver pioneers-server-console pioneers-server-gtk pioneersai
@@ -4250,9 +4268,7 @@ ruby-completion:
 ruby-install:ruby-install
 ruby:erb gem irb rake rdoc ri ruby
 ruby@1.8:erb gem irb rdoc ri ruby testrb
-ruby@1.9:erb gem irb rake rdoc ri ruby testrb
 ruby@2.0:erb gem irb rake rdoc ri ruby testrb
-ruby@2.1:erb gem irb rake rdoc ri ruby testrb
 ruby@2.2:erb gem irb rake rdoc ri ruby
 ruby@2.3:erb gem irb rake rdoc ri ruby
 runcocoa:runc runcocoa
@@ -4527,6 +4543,7 @@ src:src
 srclib:srclib
 srecord:srec_cat srec_cmp srec_info
 srmio:srmcmd srmdump srmsync
+srt:sfplay stransmit
 srtp:
 ssdb:ssdb-bench ssdb-cli ssdb-dump ssdb-repair ssdb-server
 ssdeep:ssdeep
@@ -4700,6 +4717,7 @@ terraform-inventory:terraform-inventory
 terraform-provisioner-ansible:terraform-provisioner-ansible
 terraform:terraform
 terraform_landscape:landscape
+terraforming:terraforming
 terragrunt:terragrunt
 tesseract:tesseract
 testdisk:fidentify photorec testdisk
@@ -4773,7 +4791,7 @@ tomcat-native:
 tomcat:catalina
 tomcat@6:catalina.sh daemon.sh digest.sh setclasspath.sh shutdown.sh startup.sh tool-wrapper.sh version.sh
 tomcat@7:catalina
-tomcat@8.0:catalina
+tomcat@8:catalina
 tomee-jax-rs:tomee-jax-rs-startup
 tomee-plume:tomee-plume-startup
 tomee-plus:tomee-plus-startup
@@ -4879,6 +4897,8 @@ upscaledb:ups_bench ups_dump ups_export ups_import ups_info ups_recover upszilla
 uptimed:uprecords uptimed
 upx:upx
 urbit:urbit
+urdfdom:check_urdf urdf_mem_test urdf_to_graphiz
+urdfdom_headers:
 urh:urh
 uriparser:uriparse
 urlview:urlview
@@ -4997,9 +5017,10 @@ webdis:webdis
 webfs:webfsd
 webkit2png:webkit2png
 weboob:boobank boobathon boobcoming boobill booblyrics boobmsg boobooks boobsize boobtracker cineoob comparoob cookboob flatboob galleroob geolooc handjoob havedate monboob parceloob pastoob radioob suboob translaboob traveloob videoob webcontentedit weboob-cli weboob-config weboob-debug weboob-repos weboorrents wetboobs
-webp:cwebp dwebp img2webp webpmux
+webp:cwebp dwebp img2webp webpinfo webpmux
 webpack:webpack
 websocketd:websocketd
+webtorrent-cli:webtorrent
 weechat:weechat weechat-curses
 wego:wego
 weighttp:weighttp
