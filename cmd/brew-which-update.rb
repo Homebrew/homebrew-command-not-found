@@ -31,7 +31,8 @@ class ExecutablesDB
     if File.file? @filename
       File.new(@filename).each do |line|
         formula, exes_line = line.split(":")
-        (@exes[formula] ||= []).concat exes_line.split(" ")
+        @exes[formula] ||= []
+        @exes[formula].concat exes_line.split(" ") if exes_line
       end
     end
   end
