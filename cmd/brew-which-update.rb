@@ -1,5 +1,4 @@
 #! /usr/bin/env ruby
-# -*- coding: UTF-8 -*-
 
 # brew-which-update: DB updater script for `brew-which-formula`
 #
