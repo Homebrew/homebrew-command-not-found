@@ -201,7 +201,7 @@ autoconf@2.13:autoconf213 autoheader213 autoreconf213 autoscan213 autoupdate213 
 autoenv:
 autogen:autogen autoopts-config columns getdefs xml2ag
 autojump:autojump
-automake:aclocal aclocal-1.15 automake automake-1.15
+automake:aclocal aclocal-1.16 automake automake-1.16
 automysqlbackup:automysqlbackup
 autopano-sift-c:autopano autopano-c-complete.sh autopano-sift-c generatekeys
 autopsy:autopsy
@@ -425,6 +425,7 @@ cadaver:cadaver
 caddy:caddy
 cadubi:cadubi
 caf:
+caffe:caffe classification compute_image_mean convert_cifar_data convert_imageset convert_mnist_data convert_mnist_siamese_data device_query extract_features finetune_net net_speed_benchmark test_net train_net upgrade_net_proto_binary upgrade_net_proto_text upgrade_solver_proto_text
 cairo:cairo-sphinx cairo-trace
 cairomm:
 cake:cake
@@ -1220,7 +1221,7 @@ garmintools:garmin_dump garmin_gchart garmin_get_info garmin_gmap garmin_gpx gar
 gauche:gauche-cesconv gauche-config gauche-install gauche-package gosh
 gauge:gauge gauge_screenshot
 gaul:gaul_diagnostics
-gawk:awk gawk gawk-4.2.0
+gawk:awk gawk gawk-4.2.1
 gbdfed:gbdfed
 gcab:gcab
 gcal:gcal gcal2txt tcal txt2gcal
@@ -1435,11 +1436,13 @@ gnuradio:gnuradio-config-info gr_filter_design gr_modtool gr_plot_char gr_plot_c
 gnuski:gnuski
 gnustep-make:
 gnutls:gnutls-certtool gnutls-cli gnutls-cli-debug gnutls-serv ocsptool p11tool psktool srptool
+go-bindata:go-bindata
 go-jira:jira
 go-statik:statik
 go:go godoc gofmt
 go@1.4:go godoc gofmt
 go@1.8:go godoc gofmt
+go@1.9:go godoc gofmt
 goaccess:goaccess
 goad:goad
 gobby:gobby-0.5
@@ -2343,13 +2346,11 @@ homebrew/php/php72-gearman:
 homebrew/php/php72-geoip:
 homebrew/php/php72-geos:
 homebrew/php/php72-gmagick:
-homebrew/php/php72-gmp:
 homebrew/php/php72-grpc:
 homebrew/php/php72-hprose:
 homebrew/php/php72-http:
 homebrew/php/php72-igbinary:
 homebrew/php/php72-imagick:
-homebrew/php/php72-intl:
 homebrew/php/php72-lua:
 homebrew/php/php72-lz4:
 homebrew/php/php72-lzf:
@@ -2364,22 +2365,15 @@ homebrew/php/php72-mosquitto:
 homebrew/php/php72-msgpack:
 homebrew/php/php72-mustache:
 homebrew/php/php72-oauth:
-homebrew/php/php72-opcache:
-homebrew/php/php72-pcntl:
-homebrew/php/php72-pdo-dblib:
-homebrew/php/php72-pdo-pgsql:
 homebrew/php/php72-phalcon:
 homebrew/php/php72-propro:
-homebrew/php/php72-pspell:
 homebrew/php/php72-raphf:
 homebrew/php/php72-rdkafka:
 homebrew/php/php72-redis:
 homebrew/php/php72-ref:
-homebrew/php/php72-snmp:
 homebrew/php/php72-ssh2:
 homebrew/php/php72-stats:
 homebrew/php/php72-swoole:
-homebrew/php/php72-tidy:
 homebrew/php/php72-timecop:
 homebrew/php/php72-timezonedb:
 homebrew/php/php72-trader:
@@ -2390,7 +2384,6 @@ homebrew/php/php72-xdebug:
 homebrew/php/php72-xxtea:
 homebrew/php/php72-yac:
 homebrew/php/php72-yaml:
-homebrew/php/php72:phar phar.phar php php-cgi php-config php-fpm php72-fpm phpize
 homebrew/php/phpab:phpab
 homebrew/php/phpbrew:phpbrew
 homebrew/php/phpcpd:phpcpd
@@ -2432,6 +2425,7 @@ hping:hping hping2 hping3
 hqx:hqx
 hr:hr
 hspell:hspell hspell-i multispell
+hss:hss
 ht:ht
 html-xml-utils:asc2xml hxaddid hxcite hxcite-mkbib hxclean hxcopy hxcount hxextract hxincl hxindex hxmkbib hxmultitoc hxname2id hxnormalize hxnsxml hxnum hxpipe hxprintlinks hxprune hxref hxremove hxselect hxtabletrans hxtoc hxuncdata hxunent hxunpipe hxunxmlns hxwls hxxmlns xml2asc
 html2text:html2text
@@ -2483,6 +2477,7 @@ icdiff:git-icdiff icdiff
 ice:dumpdb glacier2router icebox iceboxadmin icegridadmin icegriddb icegridnode icegridregistry icepatch2calc icepatch2client icepatch2server icestormadmin icestormdb icestormmigrate slice2cpp slice2cs slice2freeze slice2freezej slice2html slice2java slice2objc slice2php slice2py transformdb
 icecast:icecast
 icecream:icecc icecc-scheduler iceccd icerun
+icemon:icemon
 icon-naming-utils:
 icon:icon icont iconx
 icoutils:extresso genresscript icotool wrestool
@@ -2803,6 +2798,7 @@ libatomic_ops:
 libav:avconv avprobe
 libb2:
 libbdplus:
+libbi:bi libbi
 libbind:
 libbinio:
 libbitcoin-blockchain:
@@ -2991,6 +2987,7 @@ libodfgen:
 libofx:ofx2qif ofxdump
 libogg:
 liboil:oil-bugreport
+libomp:
 libopendkim:opendkim-genkey opendkim-genzone opendkim-testkey opendkim-testmsg
 libopennet:
 liboping:noping oping
@@ -3044,6 +3041,7 @@ libsass:
 libsbol:
 libscrypt:
 libsecret:secret-tool
+libserialport:
 libshout:
 libsigc++:
 libsigsegv:
@@ -3271,6 +3269,7 @@ maven@3.2:mvn mvnDebug mvnyjp
 maven@3.3:mvn mvn.cmd mvnDebug mvnDebug.cmd mvnyjp
 mawk:mawk
 maxima:maxima rmaxima xmaxima
+maxwell:maxwell maxwell-bootstrap
 mbedtls:aescrypt2 cert_app cert_req cert_write crl_app crypt_and_hash dh_client dh_genprime dh_server dtls_client dtls_server gen_entropy gen_key gen_random_ctr_drbg gen_random_havege generic_sum key_app mbedtls-benchmark mbedtls-selftest mini_client pem2der pk_decrypt pk_encrypt pk_sign pk_verify req_app rsa_decrypt rsa_encrypt rsa_genkey rsa_sign rsa_verify ssl_cert_test ssl_client1 ssl_client2 ssl_fork_server ssl_mail_client ssl_pthread_server ssl_server strerror udp_proxy
 mbelib:
 mboxgrep:mboxgrep
@@ -3659,6 +3658,7 @@ ocproxy:ocproxy
 ocrad:ocrad
 ocrmypdf:ocrmypdf
 octave:mkoctfile mkoctfile-4.2.1 octave octave-4.2.1 octave-cli octave-cli-4.2.1 octave-config octave-config-4.2.1
+octomap:binvox2bt bt2vrml compare_octrees convert_octree edit_octree eval_octree_accuracy graph2tree log2graph
 ode:ode-config
 odo:odo
 odpi:
@@ -3875,6 +3875,7 @@ pgtune:pgtune
 phantomjs:phantomjs
 phoon:phoon
 phoronix-test-suite:phoronix-test-suite
+php:pear peardev pecl phar phar.phar php php-cgi php-config php-fpm phpdbg phpize
 physfs:test_physfs
 pianobar:pianobar
 pianod:piano pianod runmix
@@ -4061,8 +4062,8 @@ pypy3:pypy3 pypy3.3
 pypy:pypy
 pyqt:pylupdate5 pyrcc5 pyuic5
 python-markdown:markdown_py
-python3:2to3-3.6 easy_install-3.6 idle3 idle3.6 pip3 pip3.6 pydoc3 pydoc3.6 python3 python3-config python3.6 python3.6-config python3.6m python3.6m-config pyvenv pyvenv-3.6 wheel3
-python:2to3-2 2to3-2.7 easy_install easy_install-2.7 idle2 idle2.7 pip pip2 pip2.7 pydoc2 pydoc2.7 python2 python2-config python2.7 python2.7-config pythonw2 pythonw2.7 smtpd2.7.py smtpd2.py wheel
+python:2to3 2to3-3.6 easy_install easy_install-3.6 idle idle3 idle3.6 pip pip3 pip3.6 pydoc pydoc3 pydoc3.6 python python-config python3 python3-config python3.6 python3.6-config python3.6m python3.6m-config pyvenv pyvenv-3.6 wheel wheel3
+python@2:2to3-2 2to3-2.7 easy_install-2.7 idle2 idle2.7 pip2 pip2.7 pydoc2 pydoc2.7 python2 python2-config python2.7 python2.7-config pythonw2 pythonw2.7 smtpd2.7.py smtpd2.py wheel2
 pytouhou:pytouhou
 pyvim:ptipython ptpython pyflakes pygmentize pyvim
 q:q
@@ -4574,6 +4575,7 @@ startup-notification:
 statik:statik
 stdman:
 stella:Stella
+stellar-core:stellar-core
 stern:stern
 stgit:stg
 stk:treesed
