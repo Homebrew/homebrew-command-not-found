@@ -204,6 +204,7 @@ autojump:autojump
 automake:aclocal aclocal-1.16 automake automake-1.16
 automysqlbackup:automysqlbackup
 autopano-sift-c:autopano autopano-c-complete.sh autopano-sift-c generatekeys
+autopep8:autopep8
 autopsy:autopsy
 autorest:autorest
 autossh:autossh rscreen
@@ -868,6 +869,7 @@ docker-machine-driver-xhyve:docker-machine-driver-xhyve
 docker-machine-nfs:docker-machine-nfs
 docker-machine-parallels:docker-machine-driver-parallels
 docker-machine:docker-machine
+docker-squash:docker-squash
 docker-swarm:docker-swarm
 docker2aci:docker2aci
 docker:docker
@@ -891,6 +893,7 @@ doxygen:doxygen
 doxymacs:doxymacs_parser
 dpkg:dpkg dpkg-architecture dpkg-buildflags dpkg-buildpackage dpkg-checkbuilddeps dpkg-deb dpkg-distaddfile dpkg-divert dpkg-genbuildinfo dpkg-genchanges dpkg-gencontrol dpkg-gensymbols dpkg-maintscript-helper dpkg-mergechangelogs dpkg-name dpkg-parsechangelog dpkg-query dpkg-scanpackages dpkg-scansources dpkg-shlibdeps dpkg-source dpkg-split dpkg-statoverride dpkg-trigger dpkg-vendor update-alternatives
 dps8m:dps8
+draco:draco_decoder draco_encoder
 drake:drake
 drip:drip
 dromeaudio:DromeAudioPlayer
@@ -1059,6 +1062,7 @@ fasd:fasd
 fastbit:ardea fastbit-config fastbitjni fbmerge ibis rara tcapi thula tiapi
 fastd:fastd
 fastjar:fastjar grepjar
+fastme:fastme
 fastqc:fastqc
 fatsort:fatsort
 fb-client:fb
@@ -1336,6 +1340,7 @@ git-secret:git-secret
 git-secrets:git-secrets
 git-series:git-series
 git-sh:git-sh
+git-sizer:git-sizer
 git-ssh:git-ssh
 git-standup:git-standup
 git-subrepo:git-subrepo
@@ -2805,6 +2810,7 @@ libbitcoin-blockchain:
 libbitcoin-consensus:
 libbitcoin-database:
 libbitcoin-explorer:bx
+libbitcoin-network:
 libbitcoin-node:bn
 libbitcoin-server:bs
 libbitcoin:
@@ -3156,9 +3162,9 @@ lldpd:lldpcli lldpctl lldpd
 llnode:
 llvm:FileCheck bugpoint c-index-test clang clang++ clang-4.0 clang-apply-replacements clang-change-namespace clang-check clang-cl clang-cpp clang-format clang-import-test clang-include-fixer clang-offload-bundler clang-query clang-rename clang-reorder-fields clang-tblgen clang-tidy count find-all-symbols git-clang-format ld.lld llc lld lld-link lli lli-child-target llvm-PerfectShuffle llvm-ar llvm-as llvm-bcanalyzer llvm-c-test llvm-cat llvm-config llvm-cov llvm-cxxdump llvm-cxxfilt llvm-diff llvm-dis llvm-dsymutil llvm-dwarfdump llvm-dwp llvm-extract llvm-lib llvm-link llvm-lto llvm-lto2 llvm-mc llvm-mcmarkup llvm-modextract llvm-nm llvm-objdump llvm-opt-report llvm-pdbdump llvm-profdata llvm-ranlib llvm-readobj llvm-rtdyld llvm-size llvm-split llvm-stress llvm-strings llvm-symbolizer llvm-tblgen llvm-xray modularize not obj2yaml opt sancov sanstats scan-build scan-view set-xcode-analyzer verify-uselistorder yaml-bench yaml2obj
 llvm@3.7:FileCheck-3.7 bugpoint-3.7 c-index-test-3.7 clang++-3.7 clang-3.7 clang-apply-replacements-3.7 clang-check-3.7 clang-format-3.7 clang-modernize-3.7 clang-query-3.7 clang-rename-3.7 clang-tblgen-3.7 clang-tidy-3.7 count-3.7 llc-3.7 lli-3.7 lli-child-target-3.7 llvm-ar-3.7 llvm-as-3.7 llvm-bcanalyzer-3.7 llvm-config-3.7 llvm-cov-3.7 llvm-cxxdump-3.7 llvm-diff-3.7 llvm-dis-3.7 llvm-dsymutil-3.7 llvm-dwarfdump-3.7 llvm-extract-3.7 llvm-link-3.7 llvm-mc-3.7 llvm-mcmarkup-3.7 llvm-nm-3.7 llvm-objdump-3.7 llvm-pdbdump-3.7 llvm-profdata-3.7 llvm-ranlib-3.7 llvm-readobj-3.7 llvm-rtdyld-3.7 llvm-size-3.7 llvm-stress-3.7 llvm-symbolizer-3.7 llvm-tblgen-3.7 macho-dump-3.7 not-3.7 obj2yaml-3.7 opt-3.7 pp-trace-3.7 scan-build-3.7 scan-view-3.7 verify-uselistorder-3.7 yaml2obj-3.7
-llvm@3.8:FileCheck-3.8 bugpoint-3.8 c-index-test-3.8 clang++-3.8 clang-3.8 clang-apply-replacements-3.8 clang-check-3.8 clang-format-3.8 clang-query-3.8 clang-rename-3.8 clang-tblgen-3.8 clang-tidy-3.8 count-3.8 llc-3.8 lli-3.8 lli-child-target-3.8 llvm-ar-3.8 llvm-as-3.8 llvm-bcanalyzer-3.8 llvm-config-3.8 llvm-cov-3.8 llvm-cxxdump-3.8 llvm-diff-3.8 llvm-dis-3.8 llvm-dsymutil-3.8 llvm-dwarfdump-3.8 llvm-dwp-3.8 llvm-extract-3.8 llvm-link-3.8 llvm-lto-3.8 llvm-mc-3.8 llvm-mcmarkup-3.8 llvm-nm-3.8 llvm-objdump-3.8 llvm-pdbdump-3.8 llvm-profdata-3.8 llvm-ranlib-3.8 llvm-readobj-3.8 llvm-rtdyld-3.8 llvm-size-3.8 llvm-split-3.8 llvm-stress-3.8 llvm-symbolizer-3.8 llvm-tblgen-3.8 not-3.8 obj2yaml-3.8 opt-3.8 pp-trace-3.8 sancov-3.8 scan-build scan-view verify-uselistorder-3.8 yaml2obj-3.8
 llvm@3.9:FileCheck bugpoint c-index-test clang clang++ clang-3.9 clang-apply-replacements clang-check clang-cl clang-format clang-include-fixer clang-query clang-rename clang-tblgen clang-tidy count find-all-symbols git-clang-format ld.lld llc lld lld-link lli lli-child-target llvm-PerfectShuffle llvm-ar llvm-as llvm-bcanalyzer llvm-c-test llvm-config llvm-cov llvm-cxxdump llvm-diff llvm-dis llvm-dsymutil llvm-dwarfdump llvm-dwp llvm-extract llvm-lib llvm-link llvm-lto llvm-mc llvm-mcmarkup llvm-nm llvm-objdump llvm-pdbdump llvm-profdata llvm-ranlib llvm-readobj llvm-rtdyld llvm-size llvm-split llvm-stress llvm-symbolizer llvm-tblgen modularize not obj2yaml opt sancov sanstats scan-build scan-view set-xcode-analyzer verify-uselistorder yaml-bench yaml2obj
 llvm@4:FileCheck bugpoint c-index-test clang clang++ clang-4.0 clang-apply-replacements clang-change-namespace clang-check clang-cl clang-cpp clang-format clang-import-test clang-include-fixer clang-offload-bundler clang-query clang-rename clang-reorder-fields clang-tidy count find-all-symbols git-clang-format ld.lld llc lld lld-link lli lli-child-target llvm-PerfectShuffle llvm-ar llvm-as llvm-bcanalyzer llvm-c-test llvm-cat llvm-config llvm-cov llvm-cxxdump llvm-cxxfilt llvm-diff llvm-dis llvm-dsymutil llvm-dwarfdump llvm-dwp llvm-extract llvm-lib llvm-link llvm-lto llvm-lto2 llvm-mc llvm-mcmarkup llvm-modextract llvm-nm llvm-objdump llvm-opt-report llvm-pdbdump llvm-profdata llvm-ranlib llvm-readobj llvm-rtdyld llvm-size llvm-split llvm-stress llvm-strings llvm-symbolizer llvm-tblgen llvm-xray modularize not obj2yaml opt sancov sanstats scan-build scan-view set-xcode-analyzer verify-uselistorder yaml-bench yaml2obj
+llvm@5:FileCheck bugpoint c-index-test clang clang++ clang-5.0 clang-apply-replacements clang-change-namespace clang-check clang-cl clang-cpp clang-format clang-import-test clang-include-fixer clang-offload-bundler clang-query clang-rename clang-reorder-fields clang-tidy clangd count find-all-symbols git-clang-format ld.lld llc lld lld-link lli lli-child-target llvm-PerfectShuffle llvm-ar llvm-as llvm-bcanalyzer llvm-c-test llvm-cat llvm-config llvm-cov llvm-cvtres llvm-cxxdump llvm-cxxfilt llvm-diff llvm-dis llvm-dlltool llvm-dsymutil llvm-dwarfdump llvm-dwp llvm-extract llvm-lib llvm-link llvm-lto llvm-lto2 llvm-mc llvm-mcmarkup llvm-modextract llvm-mt llvm-nm llvm-objdump llvm-opt-report llvm-pdbutil llvm-profdata llvm-ranlib llvm-readelf llvm-readobj llvm-rtdyld llvm-size llvm-split llvm-stress llvm-strings llvm-symbolizer llvm-tblgen llvm-xray modularize not obj2yaml opt sancov sanstats scan-build scan-view set-xcode-analyzer verify-uselistorder yaml-bench yaml2obj
 lmdb:mdb_copy mdb_dump mdb_load mdb_stat
 lnav:lnav
 loc:loc
@@ -3209,6 +3215,7 @@ lynis:lynis
 lynx:lynx
 lysp:gclysp lysp
 lz4:lz4 lz4c lz4cat unlz4
+lzfse:lzfse
 lzip:lzip
 lzlib:
 lzo:
@@ -3334,6 +3341,7 @@ midnight-commander:mc mcdiff mcedit mcview
 mighttpd2:mighty mighty-mkindex mightyctl
 mikmod:mikmod
 mikutter:mikutter
+mill:mill
 miller:mlr
 mimetic:
 mimic:compile_regexes mimic mimic_time mimicvox_info t2p
@@ -3549,6 +3557,7 @@ negfix8:negfix8
 neko:neko nekoc nekoml nekotools
 neo4j:neo4j neo4j-import neo4j-shell
 neofetch:neofetch
+neomutt:neomutt
 neon:neon-config
 neopop-sdl:NeoPop-SDL
 neovim:nvim
@@ -4062,8 +4071,8 @@ pypy3:pypy3 pypy3.3
 pypy:pypy
 pyqt:pylupdate5 pyrcc5 pyuic5
 python-markdown:markdown_py
-python:2to3 2to3-3.6 easy_install easy_install-3.6 idle idle3 idle3.6 pip pip3 pip3.6 pydoc pydoc3 pydoc3.6 python python-config python3 python3-config python3.6 python3.6-config python3.6m python3.6m-config pyvenv pyvenv-3.6 wheel wheel3
-python@2:2to3-2 2to3-2.7 easy_install-2.7 idle2 idle2.7 pip2 pip2.7 pydoc2 pydoc2.7 python2 python2-config python2.7 python2.7-config pythonw2 pythonw2.7 smtpd2.7.py smtpd2.py wheel2
+python:2to3 2to3-3.6 easy_install-3.6 idle3 idle3.6 pip3 pip3.6 pydoc3 pydoc3.6 python3 python3-config python3.6 python3.6-config python3.6m python3.6m-config pyvenv pyvenv-3.6 wheel3
+python@2:2to3-2 2to3-2.7 easy_install easy_install-2.7 idle idle2 idle2.7 pip pip2 pip2.7 pydoc pydoc2 pydoc2.7 python python-config python2 python2-config python2.7 python2.7-config pythonw pythonw2 pythonw2.7 smtpd.py smtpd2.7.py smtpd2.py wheel
 pytouhou:pytouhou
 pyvim:ptipython ptpython pyflakes pygmentize pyvim
 q:q
@@ -4432,6 +4441,7 @@ siril:siril
 sisc-scheme:sisc
 sispmctl:sispmctl
 sjk:sjk
+skaffold:skaffold
 skafos:skafos
 ski:ski
 skinny:skinny yo
@@ -4765,6 +4775,7 @@ tippecanoe:tile-join tippecanoe tippecanoe-decode tippecanoe-enumerate
 titan-server:titan titan-rexster-console
 titlecase:
 tivodecode:tdcat tivodecode
+tj:tj
 tkdiff:tkdiff
 tldr:tldr
 tlsdate:tlsdate tlsdate-helper
