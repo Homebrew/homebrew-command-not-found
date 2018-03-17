@@ -142,6 +142,7 @@ argus-clients:argusclientbug ra rabins racluster raconvert racount radark radeco
 argus:argus argus-extip argus-lsof argus-snmp argus-vmstat argusbug
 argyll-cms:applycal average cb2ti3 cctiff ccxxmake chartread collink colprof colverify dispcal dispread dispwin extracticc extractttag fakeCMY fakeread greytiff iccdump iccgamut icclu illumread invprofcheck kodak2ti3 ls2ti3 mppcheck mpplu mppprof oeminst printcal printtarg profcheck refine revfix scanin spec2cie specplot splitti3 spotread synthcal synthread targen tiffgamut timage txt2ti3 viewgam xicclu
 aria2:aria2c
+arm-linux-gnueabihf-binutils:arm-linux-gnueabihf-addr2line arm-linux-gnueabihf-ar arm-linux-gnueabihf-as arm-linux-gnueabihf-c++filt arm-linux-gnueabihf-dwp arm-linux-gnueabihf-elfedit arm-linux-gnueabihf-gprof arm-linux-gnueabihf-ld arm-linux-gnueabihf-ld.bfd arm-linux-gnueabihf-ld.gold arm-linux-gnueabihf-nm arm-linux-gnueabihf-objcopy arm-linux-gnueabihf-objdump arm-linux-gnueabihf-ranlib arm-linux-gnueabihf-readelf arm-linux-gnueabihf-size arm-linux-gnueabihf-strings arm-linux-gnueabihf-strip
 arm:arm
 armadillo:
 armor:armor
@@ -273,6 +274,7 @@ bbcolors:bbcolors
 bbe:bbe
 bbftp-client:bbftp bbftpstatus
 bc:bc dc
+bcal:bcal
 bcftools:bcftools color-chrs.pl guess-ploidy.py plot-roh.py plot-vcfstats run-roh.pl vcfutils.pl
 bchunk:bchunk
 bcpp:bcpp cb++
@@ -773,6 +775,7 @@ ddd:ddd
 ddgr:ddgr
 ddrescue:ddrescue ddrescuelog
 debianutils:ischroot run-parts tempfile
+defaultbrowser:defaultbrowser
 deheader:deheader
 dehydrated:dehydrated
 deis:deis
@@ -1189,6 +1192,7 @@ frotz:frotz
 frugal:frugal
 fruit:
 fs-uae:fs-uae fs-uae-device-helper
+fselect:fselect
 fsevent_watch:fsevent_watch
 fsevents-tools:autorsync notifyloop notifywait
 fsh:fcp fsh fshd in.fshd
@@ -1575,6 +1579,7 @@ gtkmm3:
 gtkmm:
 gtksourceview3:
 gtksourceview:
+gtksourceview@4:
 gtksourceviewmm3:
 gtksourceviewmm:
 gtkspell3:
@@ -3165,7 +3170,9 @@ llvm@3.7:FileCheck-3.7 bugpoint-3.7 c-index-test-3.7 clang++-3.7 clang-3.7 clang
 llvm@3.9:FileCheck bugpoint c-index-test clang clang++ clang-3.9 clang-apply-replacements clang-check clang-cl clang-format clang-include-fixer clang-query clang-rename clang-tblgen clang-tidy count find-all-symbols git-clang-format ld.lld llc lld lld-link lli lli-child-target llvm-PerfectShuffle llvm-ar llvm-as llvm-bcanalyzer llvm-c-test llvm-config llvm-cov llvm-cxxdump llvm-diff llvm-dis llvm-dsymutil llvm-dwarfdump llvm-dwp llvm-extract llvm-lib llvm-link llvm-lto llvm-mc llvm-mcmarkup llvm-nm llvm-objdump llvm-pdbdump llvm-profdata llvm-ranlib llvm-readobj llvm-rtdyld llvm-size llvm-split llvm-stress llvm-symbolizer llvm-tblgen modularize not obj2yaml opt sancov sanstats scan-build scan-view set-xcode-analyzer verify-uselistorder yaml-bench yaml2obj
 llvm@4:FileCheck bugpoint c-index-test clang clang++ clang-4.0 clang-apply-replacements clang-change-namespace clang-check clang-cl clang-cpp clang-format clang-import-test clang-include-fixer clang-offload-bundler clang-query clang-rename clang-reorder-fields clang-tidy count find-all-symbols git-clang-format ld.lld llc lld lld-link lli lli-child-target llvm-PerfectShuffle llvm-ar llvm-as llvm-bcanalyzer llvm-c-test llvm-cat llvm-config llvm-cov llvm-cxxdump llvm-cxxfilt llvm-diff llvm-dis llvm-dsymutil llvm-dwarfdump llvm-dwp llvm-extract llvm-lib llvm-link llvm-lto llvm-lto2 llvm-mc llvm-mcmarkup llvm-modextract llvm-nm llvm-objdump llvm-opt-report llvm-pdbdump llvm-profdata llvm-ranlib llvm-readobj llvm-rtdyld llvm-size llvm-split llvm-stress llvm-strings llvm-symbolizer llvm-tblgen llvm-xray modularize not obj2yaml opt sancov sanstats scan-build scan-view set-xcode-analyzer verify-uselistorder yaml-bench yaml2obj
 llvm@5:FileCheck bugpoint c-index-test clang clang++ clang-5.0 clang-apply-replacements clang-change-namespace clang-check clang-cl clang-cpp clang-format clang-import-test clang-include-fixer clang-offload-bundler clang-query clang-rename clang-reorder-fields clang-tidy clangd count find-all-symbols git-clang-format ld.lld llc lld lld-link lli lli-child-target llvm-PerfectShuffle llvm-ar llvm-as llvm-bcanalyzer llvm-c-test llvm-cat llvm-config llvm-cov llvm-cvtres llvm-cxxdump llvm-cxxfilt llvm-diff llvm-dis llvm-dlltool llvm-dsymutil llvm-dwarfdump llvm-dwp llvm-extract llvm-lib llvm-link llvm-lto llvm-lto2 llvm-mc llvm-mcmarkup llvm-modextract llvm-mt llvm-nm llvm-objdump llvm-opt-report llvm-pdbutil llvm-profdata llvm-ranlib llvm-readelf llvm-readobj llvm-rtdyld llvm-size llvm-split llvm-stress llvm-strings llvm-symbolizer llvm-tblgen llvm-xray modularize not obj2yaml opt sancov sanstats scan-build scan-view set-xcode-analyzer verify-uselistorder yaml-bench yaml2obj
+lm4tools:lm4flash lmicdi
 lmdb:mdb_copy mdb_dump mdb_load mdb_stat
+lmod:
 lnav:lnav
 loc:loc
 locateme:LocateMe
