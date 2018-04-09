@@ -1,11 +1,11 @@
 #! /usr/bin/env ruby
 
-# brew-which-update: DB updater script for `brew-which-formula`
-#
-# Usage:
-#
-#   brew which-update [--commit|--stats] [<DB file>]
-#
+#:  * `which-update`
+#:     DB updater script for `brew-which-formula`
+#:
+#:     Usage:
+#:
+#:     `brew which-update` [`--commit`|`--stats`] <DB file>
 
 require "formula"
 require "pathname"

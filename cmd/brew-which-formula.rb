@@ -1,13 +1,11 @@
 #! /usr/bin/env ruby
-# -*- coding: UTF-8 -*-
 
-# brew-which-formula: prints the formula(e) which provides the given command
-#
-# Usage:
-#
-#   brew which-formula <command>
-#
-#
+#:  * `which-formula`
+#:     Prints the formula(e) which provides the given command
+#:
+#:     Usage:
+#:
+#:     `brew which-formula` <command>
 
 require "formula"
 require "extend/ARGV.rb"
