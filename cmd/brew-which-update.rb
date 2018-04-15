@@ -75,24 +75,19 @@ class ExecutablesDB
   # @see #save!
   def update!
     Formula.each do |f|
-      next if f.tap? && !f.tap.official?
+      next if f.tap?
       name = f.full_name
 
       # note: f.installed? is true only if the *latest* version is installed.
       # We thus don't need to worry about updating outdated versions
       update_from name, f.prefix if f.installed?
 
-      if f.tap?
-        origin = f.name
-        mv origin, name if !@exes[name] && @exes[origin]
-      else
-        # renamed formulae
-        mv f.oldname, name if !f.oldname.nil? && @exes[f.oldname]
+      # renamed formulae
+      mv f.oldname, name if !f.oldname.nil? && @exes[f.oldname]
 
-        # aliased formulae
-        f.aliases.each do |a|
-          mv a, name if @exes[a]
-        end
+      # aliased formulae
+      f.aliases.each do |a|
+        mv a, name if @exes[a]
       end
     end
 
@@ -162,26 +157,17 @@ if ARGV.include? "--stats"
   opoo "The DB file doesn't exist." unless File.exist? source
   db = ExecutablesDB.new source
 
-  require "official_taps"
-
   formulae = db.exes.keys
   core = Formula.core_names
-  taps = OFFICIAL_TAPS.flat_map do |repo|
-    tap = Tap.fetch("homebrew", repo)
-    tap.install unless tap.installed?
-    tap.formula_names
-  end
 
   cmds_count = db.exes.values.reduce(0) { |s, exs| s + exs.size }
 
   core_percentage = ((formulae & core).size * 1000 / core.size.to_f).round / 10.0
-  taps_percentage = ((formulae & taps).size * 1000 / taps.size.to_f).round / 10.0
 
   puts <<~EOS
     #{formulae.size} formulae
     #{cmds_count} commands
-    #{core_percentage}% of core          (missing: #{(core - formulae) * " "})
-    #{taps_percentage}% of official taps (missing: #{(taps - formulae) * " "})
+    #{core_percentage}%  (missing: #{(core - formulae) * " "})
   EOS
 
   unknown = formulae - Formula.full_names
