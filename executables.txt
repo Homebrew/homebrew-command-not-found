@@ -73,6 +73,7 @@ amqp-cpp:
 amtterm:amtterm amttool
 analog:analog
 angband:angband
+angle-grinder:agrind
 angular-cli:ng
 anjuta:anjuta anjuta-launcher anjuta-tags
 annie:annie
@@ -269,6 +270,7 @@ bash:bash bashbug
 bashdb:bashdb
 bashish:bashish bashishtheme
 bastet:bastet
+bat:bat
 batik:batik batik-rasterizer batik-ttf2svg
 bats:bats
 bazaar:bzr
@@ -345,7 +347,6 @@ bmon:bmon
 bnd:bnd
 bochs:bochs bximage
 bogofilter:bf_compact bf_copy bf_tar bogofilter bogolexer bogotune bogoupgrade bogoutil
-bokken:bokken
 bonnie++:bon_csv2html bon_csv2txt bonnie++ generate_randfile getc_putc getc_putc_helper zcav
 bookloupe:bookloupe loupe-test
 boom-completion:
@@ -503,6 +504,7 @@ cfssl:cfssl cfssljson cfsslmkbundle
 cfv:cfv
 cgal:cgal_create_CMakeLists cgal_create_cmake_script cgal_make_macosx_app
 cgdb:cgdb
+cglm:
 cgoban:cgoban
 cgrep:cgrep
 cgvg:cg vg
@@ -538,7 +540,6 @@ chordii:a2crd chordii
 chromaprint:
 chrome-cli:chrome-canary-cli chrome-cli chromium-cli
 chrome-export:export-chrome-bookmarks export-chrome-history
-chromedriver:chromedriver
 chronograf:chronograf
 chruby-fish:
 chruby:chruby-exec
@@ -569,6 +570,7 @@ clfft:
 clhep:Cast-config Evaluator-config Exceptions-config GenericFunctions-config Geometry-config Matrix-config Random-config RandomObjects-config RefCount-config Units-config Utility-config Vector-config clhep-config
 cli53:cli53
 clib:clib clib-install clib-search
+click:click
 cliclick:cliclick
 clinfo:clinfo
 cling:bugpoint c-index-test clang clang++ clang-5.0 clang-check clang-cl clang-cpp clang-format clang-import-test clang-offload-bundler cling git-clang-format llc lli llvm-ar llvm-as llvm-bcanalyzer llvm-c-test llvm-cat llvm-config llvm-cov llvm-cvtres llvm-cxxdump llvm-cxxfilt llvm-diff llvm-dis llvm-dsymutil llvm-dwarfdump llvm-dwp llvm-extract llvm-lib llvm-link llvm-lto llvm-lto2 llvm-mc llvm-mcmarkup llvm-modextract llvm-nm llvm-objdump llvm-opt-report llvm-pdbdump llvm-profdata llvm-ranlib llvm-readobj llvm-rtdyld llvm-size llvm-split llvm-stress llvm-strings llvm-symbolizer llvm-tblgen llvm-xray obj2yaml opt sancov sanstats scan-build scan-view set-xcode-analyzer verify-uselistorder yaml2obj
@@ -779,6 +781,7 @@ ddclient:ddclient
 ddd:ddd
 ddgr:ddgr
 ddrescue:ddrescue ddrescuelog
+deark:deark
 debianutils:ischroot run-parts tempfile
 defaultbrowser:defaultbrowser
 deheader:deheader
@@ -790,6 +793,7 @@ delta:delta multidelta topformflat
 denominator:denominator
 dep:dep
 dependency-check:dependency-check
+deployer:dep
 depqbf:depqbf
 derby:NetworkServerControl dblook ij setEmbeddedCP setNetworkClientCP setNetworkServerCP startNetworkServer stopNetworkServer sysinfo
 desk:desk
@@ -1021,6 +1025,7 @@ es:es
 esniper:esniper
 espeak:espeak
 etcd:etcd etcdctl
+ethereum:abigen bootnode clef ethkey evm examples faucet geth p2psim puppeth rlpdump swarm wnode
 etl:ETL-config
 etsh:osh sh6
 ettercap:ettercap etterfilter etterlog
@@ -1096,7 +1101,7 @@ ffe:ffe
 ffind:ffind
 ffmbc:ffmbc ffprobe-bc
 ffmpeg2theora:ffmpeg2theora
-ffmpeg:ffmpeg ffprobe ffserver
+ffmpeg:ffmpeg ffprobe
 ffmpeg@2.8:ffmpeg ffprobe ffserver
 ffmpegthumbnailer:ffmpegthumbnailer
 ffms2:ffmsindex
@@ -1239,10 +1244,11 @@ gawk:awk gawk gawk-4.2.1
 gbdfed:gbdfed
 gcab:gcab
 gcal:gcal gcal2txt tcal txt2gcal
-gcc:c++-7 cpp-7 g++-7 gcc-7 gcc-ar-7 gcc-nm-7 gcc-ranlib-7 gcov-7 gcov-dump-7 gcov-tool-7 gfortran gfortran-7 x86_64-apple-darwin17.3.0-c++-7 x86_64-apple-darwin17.3.0-g++-7 x86_64-apple-darwin17.3.0-gcc-7 x86_64-apple-darwin17.3.0-gcc-7.3.0 x86_64-apple-darwin17.3.0-gcc-ar-7 x86_64-apple-darwin17.3.0-gcc-nm-7 x86_64-apple-darwin17.3.0-gcc-ranlib-7 x86_64-apple-darwin17.3.0-gfortran-7
+gcc:c++-8 cpp-8 g++-8 gcc-8 gcc-ar-8 gcc-nm-8 gcc-ranlib-8 gcov-8 gcov-dump-8 gcov-tool-8 gfortran gfortran-8 x86_64-apple-darwin17.5.0-c++-8 x86_64-apple-darwin17.5.0-g++-8 x86_64-apple-darwin17.5.0-gcc-8 x86_64-apple-darwin17.5.0-gcc-8.1.0 x86_64-apple-darwin17.5.0-gcc-ar-8 x86_64-apple-darwin17.5.0-gcc-nm-8 x86_64-apple-darwin17.5.0-gcc-ranlib-8 x86_64-apple-darwin17.5.0-gfortran-8
 gcc@4.9:c++-4.9 cpp-4.9 g++-4.9 gcc-4.9 gcc-ar-4.9 gcc-nm-4.9 gcc-ranlib-4.9 gcov-4.9 gfortran-4.9 x86_64-apple-darwin16.4.0-c++-4.9 x86_64-apple-darwin16.4.0-g++-4.9 x86_64-apple-darwin16.4.0-gcc-4.9 x86_64-apple-darwin16.4.0-gcc-4.9.4 x86_64-apple-darwin16.4.0-gcc-ar-4.9 x86_64-apple-darwin16.4.0-gcc-nm-4.9 x86_64-apple-darwin16.4.0-gcc-ranlib-4.9 x86_64-apple-darwin16.4.0-gfortran-4.9
 gcc@5:c++-5 cpp-5 g++-5 gcc-5 gcc-ar-5 gcc-nm-5 gcc-ranlib-5 gcov-5 gcov-tool-5 gfortran-5 x86_64-apple-darwin16.3.0-c++-5 x86_64-apple-darwin16.3.0-g++-5 x86_64-apple-darwin16.3.0-gcc-5 x86_64-apple-darwin16.3.0-gcc-5.4.0 x86_64-apple-darwin16.3.0-gcc-ar-5 x86_64-apple-darwin16.3.0-gcc-nm-5 x86_64-apple-darwin16.3.0-gcc-ranlib-5 x86_64-apple-darwin16.3.0-gfortran-5
 gcc@6:c++-6 cpp-6 g++-6 gcc-6 gcc-ar-6 gcc-nm-6 gcc-ranlib-6 gcov-6 gcov-tool-6 gfortran-6 x86_64-apple-darwin16.5.0-c++-6 x86_64-apple-darwin16.5.0-g++-6 x86_64-apple-darwin16.5.0-gcc-6 x86_64-apple-darwin16.5.0-gcc-6.3.0 x86_64-apple-darwin16.5.0-gcc-ar-6 x86_64-apple-darwin16.5.0-gcc-nm-6 x86_64-apple-darwin16.5.0-gcc-ranlib-6 x86_64-apple-darwin16.5.0-gfortran-6
+gcc@7:c++-7 cpp-7 g++-7 gcc-7 gcc-ar-7 gcc-nm-7 gcc-ranlib-7 gcov-7 gcov-dump-7 gcov-tool-7 gfortran-7 x86_64-apple-darwin17.5.0-c++-7 x86_64-apple-darwin17.5.0-g++-7 x86_64-apple-darwin17.5.0-gcc-7 x86_64-apple-darwin17.5.0-gcc-7.3.0 x86_64-apple-darwin17.5.0-gcc-ar-7 x86_64-apple-darwin17.5.0-gcc-nm-7 x86_64-apple-darwin17.5.0-gcc-ranlib-7 x86_64-apple-darwin17.5.0-gfortran-7
 gconf:gconf-merge-tree gconftool-2 gsettings-data-convert gsettings-schema-convert
 gcore:gcore
 gcovr:gcovr
@@ -1270,6 +1276,7 @@ gedit:gedit gnome-text-editor
 geeqie:geeqie
 gegl:gegl gegl-imgcmp
 gem-completion:
+genact:genact
 genders:nodeattr
 generate-json-schema:generate-schema
 genext2fs:genext2fs
@@ -1288,7 +1295,6 @@ gerrit-tools:gerrit-cherry-pick gerrit-setup git-review
 get-flash-videos:get_flash_videos
 get_iplayer:get_iplayer get_iplayer_web_pvr
 getdns:
-geth:geth
 getmail:getmail getmail_fetch getmail_maildir getmail_mbox
 gettext:autopoint envsubst gettext gettext.sh gettextize msgattrib msgcat msgcmp msgcomm msgconv msgen msgexec msgfilter msgfmt msggrep msginit msgmerge msgunfmt msguniq ngettext recode-sr-latin xgettext
 getxbook:getabook getbnbook getgbook
@@ -1526,6 +1532,7 @@ grafana:grafana-cli grafana-server
 grails:grails
 grakn:cassandra cassandra.in.sh create-admin-user.sh grakn-cassandra.sh grakn-engine.sh grakn-redis.sh grakn.in.sh grakn.sh graql.sh kafka-run-class.sh kafka-server-start.sh kafka-server-status.sh kafka-server-stop.sh migration.sh nodetool redis-cli-linux redis-cli-osx redis-server-linux redis-server-osx zookeeper-server-start.sh zookeeper-server-status.sh zookeeper-server-stop.sh
 grap:grap
+graph-tool:
 graphene:
 graphicsmagick:GraphicsMagick++-config GraphicsMagick-config GraphicsMagickWand-config gm
 graphite2:gr2fonttest
@@ -1627,6 +1634,7 @@ halibut:halibut
 hamlib:rigctl rigctld rigmem rigsmtr rigswr rotctl rotctld rpc.rigd rpc.rotd
 hana:
 handbrake:HandBrakeCLI
+hapi-fhir-cli:hapi-fhir-cli
 haproxy:haproxy
 harbour:harbour hb3rdpat.hbs hbformat hbi18n hbmk2 hbnetio hbpp hbrun hbtest
 hardlink-osx:hln
@@ -1730,8 +1738,6 @@ hyperspec:
 hypre:
 i2p:eepget i2prouter
 i2util:aespasswd pfstore
-i3:i3 i3-config-wizard i3-dmenu-desktop i3-dump-log i3-input i3-migrate-config-to-v4 i3-msg i3-nagbar i3-save-tree i3-sensible-editor i3-sensible-pager i3-sensible-terminal i3-with-shmlog i3bar
-i3status:i3status
 iamy:iamy
 iat:iat
 ib:ib
@@ -2072,6 +2078,7 @@ libbi:bi libbi
 libbind:
 libbinio:
 libbitcoin-blockchain:
+libbitcoin-client:
 libbitcoin-consensus:
 libbitcoin-database:
 libbitcoin-explorer:bx
@@ -2111,6 +2118,7 @@ libdazzle:dazzle-list-counters
 libdbi:
 libdc1394:
 libdca:dcadec dtsdec extract_dca extract_dts
+libde265:bjoentegaard enc265 gen-enc-table rd-curves yuv-distortion
 libdill:
 libdiscid:
 libdivecomputer:dctool
@@ -2171,7 +2179,7 @@ libglademm:
 libgnomecanvas:
 libgnomecanvasmm:
 libgosu:
-libgpg-error:gpg-error gpg-error-config
+libgpg-error:gpg-error gpg-error-config gpgrt-config yat2m
 libgphoto2:gphoto2-config gphoto2-port-config
 libgraphqlparser:
 libgsf:gsf gsf-office-thumbnailer gsf-vba-dump
@@ -2278,6 +2286,7 @@ libpcl:
 libpeas:peas-demo
 libpgm:
 libphonenumber:
+libplctag:
 libplist:plistutil
 libpng:libpng-config libpng16-config png-fix-itxt pngfix
 libpointing:
@@ -2690,7 +2699,6 @@ monitoring-plugins:check_apt check_breeze check_by_ssh check_clamd check_cluster
 monkeysphere:monkeysphere openpgp2pem openpgp2spki openpgp2ssh pem2openpgp monkeysphere-authentication monkeysphere-host
 mono-libgdiplus:
 mono:al al2 caspol cccheck ccrewrite cert-sync cert2spc certmgr chktrust crlupdate csharp disco dmcs dtd2rng dtd2xsd fsharpc fsharpi fsharpiAnyCpu gacutil gacutil2 genxs httpcfg ikdasm ilasm installvst lc macpack makecert mconfig mcs mdassembler mdbrebase mdoc mdoc-assemble mdoc-export-html mdoc-export-msxdoc mdoc-update mdoc-validate mdvalidater mkbundle mod mono mono-api-info mono-boehm mono-cil-strip mono-configuration-crypto mono-find-provides mono-find-requires mono-heapviz mono-service mono-service2 mono-sgen mono-shlib-cop mono-symbolicate mono-test-install mono-xmltool monodis monodocer monodocs2html monodocs2slashdoc monolinker monop monop2 mozroots mprof-report nunit-console nunit-console2 nunit-console4 pdb2mdb pedump permview peverify prj2make resgen resgen2 secutil setreg sgen signcode sn soapsuds sqlmetal sqlsharp svcutil wsdl wsdl2 xbuild xsd
-monotone:mtn mtn-cleanup mtnopt
 montage:mAdd mAddExec mArchiveExec mArchiveGet mArchiveList mBackground mBestImage mBgExec mBgModel mCatMap mConcatFit mConvert mCoverageCheck mDAG mDAGFiles mDAGGalacticPlane mDAGTbls mDiff mDiffExec mDiffFit mDiffFitExec mExamine mExec mExecTG mFitExec mFitplane mFixHdr mFixNaN mFlattenExec mGetHdr mGridExec mHdr mHdrCheck mHdrtbl mImgtbl mJPEG mMakeHdr mMakeImg mNotify mNotifyTG mOverlaps mPix2Coord mPresentation mProject mProjectPP mProjExec mPutHdr mQuickSearch mRotate mShrink mShrinkHdr mSubimage mSubset mTANHdr mTblExec mTblSort mTileHdr mTileImage
 moon-buggy:moon-buggy
 moreutils:chronic combine errno ifdata ifne isutf8 lckdo mispipe parallel pee sponge ts vidir vipe zrun
@@ -3134,8 +3142,9 @@ percona-toolkit:pt-align pt-archiver pt-config-diff pt-deadlock-logger pt-diskst
 percona-xtrabackup:innobackupex xbcloud xbcloud_osenv xbcrypt xbstream xtrabackup
 perkeep:camdeploy camget camlistored cammount camput camtool devcam hello publisher
 perl-build:perl-build plenv-install plenv-uninstall
-perl:corelist cpan enc2xs encguess h2ph h2xs instmodsh json_pp libnetcfg perl perl5.26.1 perlbug perldoc perlivp perlthanks piconv pl2pm pod2html pod2man pod2text pod2usage podchecker podselect prove ptar ptardiff ptargrep shasum splain xsubpp zipdetails
+perl:corelist cpan enc2xs encguess h2ph h2xs instmodsh json_pp libnetcfg perl perl5.26.2 perlbug perldoc perlivp perlthanks piconv pl2pm pod2html pod2man pod2text pod2usage podchecker podselect prove ptar ptardiff ptargrep shasum splain xsubpp zipdetails
 perl@5.18:a2p c2ph config_data corelist cpan cpan2dist cpanp cpanp-run-perl enc2xs find2perl h2ph h2xs instmodsh json_pp libnetcfg perl perl5.18.2 perlbug perldoc perlivp perlthanks piconv pl2pm pod2html pod2latex pod2man pod2text pod2usage podchecker podselect prove psed pstruct ptar ptardiff ptargrep s2p shasum splain xsubpp zipdetails
+petsc:
 pev:ofs2rva pedis pehash pepack peres pescan pesec pestr readpe rva2ofs
 pex:pex
 pg_top:pg_top
@@ -3152,6 +3161,7 @@ pgroonga:
 pgrouting:
 pgtoolkit:pgcompact
 pgtune:pgtune
+pgweb:pgweb
 phantomjs:phantomjs
 phoon:phoon
 phoronix-test-suite:phoronix-test-suite
@@ -3872,6 +3882,7 @@ stgit:stg
 stk:treesed
 stlink:st-flash st-info st-util
 stlviewer:stlviewer
+stm32flash:stm32flash
 stockfish:stockfish
 stoken:stoken
 stone-soup:crawl
@@ -4181,6 +4192,7 @@ uniutils:ExplicateUTF8 unidesc unifuzz unihist uniname unireverse utf8lookup
 unixodbc:dltest isql iusql odbc_config odbcinst slencheck
 unnethack:unnethack
 unoconv:unoconv
+unp64:unp64
 unp:ucat unp
 unpaper:unpaper
 unrar:unrar
@@ -4350,6 +4362,7 @@ with-readline:with-readline
 wla-dx:wla-6502 wla-6510 wla-65816 wla-65c02 wla-gb wla-huc6280 wla-spc700 wla-z80 wlab wlad wlalink
 wmctrl:wmctrl
 woboq_codebrowser:codebrowser_generator codebrowser_indexgenerator
+woff2:woff2_compress woff2_decompress woff2_info
 wolfssl:wolfssl-config
 woof:woof
 wordnet:wishwn wn wnb
@@ -4396,6 +4409,7 @@ xdot:xdot
 xdotool:xdotool
 xerces-c:CreateDOMDocument DOMCount DOMPrint EnumVal PParse PSVIWriter Redirect SAX2Count SAX2Print SAXCount SAXPrint SCMPrint SEnumVal StdInParse XInclude
 xhyve:xhyve
+xidel:xidel
 xlispstat:xlispstat
 xlslib:
 xmake:xmake
@@ -4444,6 +4458,7 @@ yajl:json_reformat json_verify
 yamcha:yamcha yamcha-config yamcha-mkmodel
 yamdi:yamdi
 yaml-cpp:
+yamllint:yamllint
 yank:yank
 yara:yara yarac
 yarn:yarn
