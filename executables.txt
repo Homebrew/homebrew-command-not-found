@@ -145,6 +145,7 @@ argus-clients:argusclientbug ra rabins racluster raconvert racount radark radeco
 argus:argus argus-extip argus-lsof argus-snmp argus-vmstat argusbug
 argyll-cms:applycal average cb2ti3 cctiff ccxxmake chartread collink colprof colverify dispcal dispread dispwin extracticc extractttag fakeCMY fakeread greytiff iccdump iccgamut icclu illumread invprofcheck kodak2ti3 ls2ti3 mppcheck mpplu mppprof oeminst printcal printtarg profcheck refine revfix scanin spec2cie specplot splitti3 spotread synthcal synthread targen tiffgamut timage txt2ti3 viewgam xicclu
 aria2:aria2c
+ark:ark
 arm-linux-gnueabihf-binutils:arm-linux-gnueabihf-addr2line arm-linux-gnueabihf-ar arm-linux-gnueabihf-as arm-linux-gnueabihf-c++filt arm-linux-gnueabihf-dwp arm-linux-gnueabihf-elfedit arm-linux-gnueabihf-gprof arm-linux-gnueabihf-ld arm-linux-gnueabihf-ld.bfd arm-linux-gnueabihf-ld.gold arm-linux-gnueabihf-nm arm-linux-gnueabihf-objcopy arm-linux-gnueabihf-objdump arm-linux-gnueabihf-ranlib arm-linux-gnueabihf-readelf arm-linux-gnueabihf-size arm-linux-gnueabihf-strings arm-linux-gnueabihf-strip
 armadillo:
 armor:armor
@@ -227,7 +228,6 @@ awf:awf-gtk2 awf-gtk3
 awk:awk
 aws-apigateway-importer:aws-api-import
 aws-cfn-tools:cfn-cancel-update-stack cfn-cmd cfn-create-stack cfn-delete-stack cfn-describe-stack-events cfn-describe-stack-resource cfn-describe-stack-resources cfn-describe-stacks cfn-get-template cfn-list-stack-resources cfn-list-stacks cfn-update-stack cfn-validate-template cfn-version
-aws-cloudsearch:cs-cmd cs-configure-from-batches cs-import-documents
 aws-elasticache:elasticache elasticache-authorize-cache-security-group-ingress elasticache-copy-snapshot elasticache-create-cache-cluster elasticache-create-cache-parameter-group elasticache-create-cache-security-group elasticache-create-cache-subnet-group elasticache-create-replication-group elasticache-create-snapshot elasticache-delete-cache-cluster elasticache-delete-cache-parameter-group elasticache-delete-cache-security-group elasticache-delete-cache-subnet-group elasticache-delete-replication-group elasticache-delete-snapshot elasticache-describe-cache-clusters elasticache-describe-cache-engine-versions elasticache-describe-cache-parameter-groups elasticache-describe-cache-parameters elasticache-describe-cache-security-groups elasticache-describe-cache-subnet-groups elasticache-describe-engine-default-parameters elasticache-describe-events elasticache-describe-replication-groups elasticache-describe-reserved-cache-nodes elasticache-describe-reserved-cache-nodes-offerings elasticache-describe-snapshots elasticache-modify-cache-cluster elasticache-modify-cache-parameter-group elasticache-modify-cache-subnet-group elasticache-modify-replication-group elasticache-purchase-reserved-cache-nodes-offering elasticache-reboot-cache-cluster elasticache-reset-cache-parameter-group elasticache-revoke-cache-security-group-ingress elasticache-version
 aws-elasticbeanstalk:eb ebp
 aws-es-proxy:aws-es-proxy
@@ -272,6 +272,7 @@ bashish:bashish bashishtheme
 bastet:bastet
 bat:bat
 batik:batik batik-rasterizer batik-ttf2svg
+bats-core:bats
 bats:bats
 bazaar:bzr
 bazel:bazel bazel-real
@@ -329,6 +330,7 @@ bitcoin:bench_bitcoin bitcoin-cli bitcoin-tx bitcoind test_bitcoin
 bitlbee:bitlbee
 bitrise:bitrise
 bittwist:bittwist bittwiste
+bitwarden-cli:bw
 blackbox:_blackbox_common.sh _blackbox_common_test.sh _stack_lib.sh blackbox_addadmin blackbox_cat blackbox_decrypt_all_files blackbox_deregister_file blackbox_diff blackbox_edit blackbox_edit_end blackbox_edit_start blackbox_initialize blackbox_list_files blackbox_postdeploy blackbox_recurse blackbox_register_new_file blackbox_removeadmin blackbox_shred_all_files blackbox_update_all_files blackbox_whatsnew
 blahtexml:blahtex blahtexml
 blast:blast_formatter blastdb_aliastool blastdbcheck blastdbcmd blastdbcp blastn blastp blastx convert2blastmask datatool deltablast dustmasker gene_info_reader legacy_blast.pl makeblastdb makembindex makeprofiledb project_tree_builder psiblast rpsblast rpstblastn run_with_lock seedtop segmasker seqdb_demo seqdb_perf tblastn tblastx test_pcre update_blastdb.pl windowmasker windowmasker_2.2.22_adapter.py
@@ -549,6 +551,7 @@ cidrmerge:cidrmerge
 cifer:cifer cifer-dict
 cig:cig
 cimg:
+circleci:circleci
 citus:
 cityhash:
 civl:civl
@@ -590,6 +593,7 @@ closure-compiler:closure-compiler
 closure-linter:fixjsstyle gjslint
 closure-stylesheets:closure-stylesheets
 cloud-watch:mon-cmd mon-delete-alarms mon-describe-alarm-history mon-describe-alarms mon-describe-alarms-for-metric mon-disable-alarm-actions mon-enable-alarm-actions mon-get-stats mon-list-metrics mon-put-data mon-put-metric-alarm mon-set-alarm-state mon-version
+clozure-cl:ccl64
 clpbar:clpbar
 clucene:
 clutter-gst:
@@ -621,6 +625,7 @@ codemod:codemod
 codequery:codequery cqmakedb cqsearch
 coffeescript:cake coffee
 cogl:
+cointop:cointop
 collada-dom:
 collectd:collectd collectd-nagios collectd-tg collectdctl collectdmon
 collector-sidecar:graylog-collector-sidecar
@@ -637,6 +642,7 @@ composer:composer
 conan:conan conan_build_info conan_server
 concurrencykit:
 configen:configen
+confluent-oss:camus-config camus-run confluent connect-distributed connect-standalone kafka-acls kafka-avro-console-consumer kafka-avro-console-producer kafka-broker-api-versions kafka-configs kafka-console-consumer kafka-console-producer kafka-consumer-groups kafka-consumer-offset-checker kafka-consumer-perf-test kafka-delegation-tokens kafka-delete-records kafka-log-dirs kafka-mirror-maker kafka-preferred-replica-election kafka-producer-perf-test kafka-reassign-partitions kafka-replay-log-producer kafka-replica-verification kafka-rest-run-class kafka-rest-start kafka-rest-stop kafka-rest-stop-service kafka-run-class kafka-run-class.orig kafka-server-start kafka-server-stop kafka-simple-consumer-shell kafka-streams-application-reset kafka-topics kafka-verifiable-consumer kafka-verifiable-producer ksql ksql-datagen ksql-node ksql-print-metrics ksql-run-class ksql-server-start ksql-server-stop ksql-stop schema-registry-run-class schema-registry-start schema-registry-stop schema-registry-stop-service support-metrics-bundle zookeeper-security-migration zookeeper-server-start zookeeper-server-stop zookeeper-shell
 confuse:
 conjure-up:conjure-down conjure-up
 connect:connect
@@ -841,6 +847,7 @@ disktype:disktype
 dislocker:dislocker dislocker-bek dislocker-file dislocker-fuse dislocker-metadata
 distcc:distcc distccd distccmon-text lsdistcc pump
 distribution:distribution
+dita-ot:dita
 ditaa:ditaa
 django-completion:
 djbdns:axfr-get axfrdns axfrdns-conf dnscache dnscache-conf dnsfilter dnsip dnsipq dnsmx dnsname dnsq dnsqr dnstrace dnstracesort dnstxt pickdns pickdns-conf pickdns-data random-ip rbldns rbldns-conf rbldns-data tinydns tinydns-conf tinydns-data tinydns-edit tinydns-get walldns walldns-conf
@@ -909,6 +916,7 @@ doxymacs:doxymacs_parser
 dpkg:dpkg dpkg-architecture dpkg-buildflags dpkg-buildpackage dpkg-checkbuilddeps dpkg-deb dpkg-distaddfile dpkg-divert dpkg-genbuildinfo dpkg-genchanges dpkg-gencontrol dpkg-gensymbols dpkg-maintscript-helper dpkg-mergechangelogs dpkg-name dpkg-parsechangelog dpkg-query dpkg-scanpackages dpkg-scansources dpkg-shlibdeps dpkg-source dpkg-split dpkg-statoverride dpkg-trigger dpkg-vendor update-alternatives
 dps8m:dps8
 draco:draco_decoder draco_encoder
+drafter:drafter
 drake:drake
 drip:drip
 dromeaudio:DromeAudioPlayer
@@ -967,7 +975,6 @@ ec2-api-tools:ec2-accept-vpc-peering-connection ec2-activate-license ec2-add-gro
 ecasound:ecaconvert ecafixdc ecalength ecamonitor ecanormalize ecaplay ecasignalview ecasound libecasound-config libecasoundc-config
 eccodes:bufr_compare bufr_compare_dir bufr_copy bufr_count bufr_dump bufr_filter bufr_get bufr_index_build bufr_ls bufr_set codes_bufr_filter codes_count codes_info codes_parser codes_split_file grib2ppm grib_compare grib_copy grib_count grib_dump grib_filter grib_get grib_get_data grib_histogram grib_index_build grib_ls grib_merge grib_set gts_compare gts_copy gts_dump gts_filter gts_get gts_ls metar_compare metar_copy metar_dump metar_filter metar_get metar_ls tigge_accumulations tigge_check tigge_name tigge_split
 echoprint-codegen:echoprint-codegen
-ecj:
 ecl:ecl ecl-config
 ecm:ecm unecm
 ed:ged gred
@@ -994,7 +1001,7 @@ elm-format:elm-format-0.17 elm-format-0.18
 elm:elm elm-make elm-package elm-reactor elm-repl
 elvish:elvish elvish-stub
 emacs-clang-complete-async:clang-complete
-emacs:ebrowse emacs emacs-25.3 emacsclient etags
+emacs:ebrowse emacs emacs-26.1 emacsclient etags
 embulk:embulk
 emojify:emojify
 emp:emp
@@ -1742,6 +1749,7 @@ hwloc:hwloc-annotate hwloc-assembler hwloc-assembler-remote hwloc-bind hwloc-cal
 hydra:dpl4hydra.sh hydra hydra-wizard.sh pw-inspector
 hyper:hyper
 hyperestraier:estbutler estcall estcmd estconfig estload estmaster estmttest estwaver estwolefind
+hyperfine:hyperfine
 hyperscan:
 hyperspec:
 hypre:
@@ -1783,6 +1791,7 @@ ilmbase:
 imagejs:imagejs
 imagemagick:Magick++-config MagickCore-config MagickWand-config animate compare composite conjure convert display identify import magick magick-script mogrify montage stream
 imagemagick@6:Magick++-config Magick-config MagickCore-config MagickWand-config Wand-config animate compare composite conjure convert display identify import mogrify montage stream
+imageoptim-cli:imageoptim
 imagesnap:imagesnap
 imageworsener:imagew
 imake:ccmakedep cleanlinks imake makeg mergelib mkdirhier mkhtmlindex revpath xmkmf
@@ -2492,7 +2501,6 @@ luabind:
 luajit:luajit luajit-2.0.5
 luaradio:luaradio
 luaver:luaver
-luciddb:lucidDbServer sqllineClient sqllineEngine
 lumo:lumo
 lutok:
 luvit:lit luvi luvit
@@ -2661,6 +2669,7 @@ mitie:ner_example ner_stream relation_extraction_example
 mitmproxy:mitmdump mitmproxy mitmweb
 mix-completion:
 mjpegtools:anytovcd.sh jpeg2yuv lav2avi.sh lav2mpeg lav2wav lav2yuv lavaddwav lavinfo lavpipe lavtc.sh lavtrans matteblend.flt mjpeg_simd_helper mp2enc mpeg2enc mpegtranscode mplex multiblend.flt pgmtoy4m pnmtoy4m ppmtoy4m transist.flt y4mblack y4mcolorbars y4mdenoise y4mhist y4minterlace y4mivtc y4mscaler y4mshift y4mspatialfilter y4mstabilizer y4mtopnm y4mtoppm y4mtoyuv y4munsharp ypipe yuv2lav yuv4mpeg yuvcorrect yuvcorrect_tune yuvdeinterlace yuvdenoise yuvfps yuvinactive yuvkineco yuvmedianfilter yuvscaler yuvycsnoise yuyvtoy4m
+mk-configure:mkc_check_compiler mkc_check_custom mkc_check_decl mkc_check_funclib mkc_check_header mkc_check_prog mkc_check_sizeof mkc_check_version mkc_get_deps mkc_install mkc_long_lines mkc_test_helper mkc_which mkcmake
 mkclean:mkclean mkcleanreg mkWDclean
 mkcue:mkcue
 mkdocs:mkdocs
@@ -2794,6 +2803,7 @@ mydumper:mydumper myloader
 myman:myman myman-0.7.1 myman.command
 mypy:mypy
 mysql++:
+mysql-client:lz4_decompress my_print_defaults mysql mysql_config mysql_config_editor mysql_plugin mysql_secure_installation mysql_ssl_rsa_setup mysqladmin mysqlbinlog mysqlcheck mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlimport mysqlpump mysqlshow mysqlslap mysqltest perror replace resolve_stack_dump resolveip zlib_decompress
 mysql-cluster:innochecksum memcached memclient msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_client_test_embedded mysql_config mysql_config_editor mysql_convert_table_format mysql_embedded mysql_find_rows mysql_fix_extensions mysql_install_db mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysql_zap mysqladmin mysqlbinlog mysqlbug mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest mysqltest_embedded ndb_blob_tool ndb_config ndb_delete_all ndb_desc ndb_drop_index ndb_drop_table ndb_error_reporter ndb_index_stat ndb_mgm ndb_mgmd ndb_move_data ndb_print_backup_file ndb_print_file ndb_print_schema_file ndb_print_sys_file ndb_redo_log_reader ndb_restore ndb_select_all ndb_select_count ndb_setup.py ndb_show_tables ndb_size.pl ndb_waiter ndbd ndbinfo_select_all ndbmtd perror replace resolve_stack_dump resolveip
 mysql-connector-c++:
 mysql-connector-c:my_print_defaults mysql_config perror
@@ -2803,6 +2813,7 @@ mysql-utilities:mysqlauditadmin mysqlauditgrep mysqlbinlogmove mysqlbinlogpurge 
 mysql:innochecksum lz4_decompress my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_client_test_embedded mysql_config mysql_config_editor mysql_embedded mysql_install_db mysql_plugin mysql_secure_installation mysql_ssl_rsa_setup mysql_tzinfo_to_sql mysql_upgrade mysqladmin mysqlbinlog mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlimport mysqlpump mysqlshow mysqlslap mysqltest mysqltest_embedded perror replace resolve_stack_dump resolveip zlib_decompress
 mysql@5.5:innochecksum msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_config mysql_convert_table_format mysql_find_rows mysql_fix_extensions mysql_install_db mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysql_zap mysqladmin mysqlbinlog mysqlbug mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest perror replace resolve_stack_dump resolveip
 mysql@5.6:innochecksum msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_client_test_embedded mysql_config mysql_config_editor mysql_convert_table_format mysql_embedded mysql_find_rows mysql_fix_extensions mysql_install_db mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysql_zap mysqladmin mysqlbinlog mysqlbug mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest mysqltest_embedded perror replace resolve_stack_dump resolveip
+mysql@5.7:innochecksum lz4_decompress my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_client_test_embedded mysql_config mysql_config_editor mysql_embedded mysql_install_db mysql_plugin mysql_secure_installation mysql_ssl_rsa_setup mysql_tzinfo_to_sql mysql_upgrade mysqladmin mysqlbinlog mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlimport mysqlpump mysqlshow mysqlslap mysqltest mysqltest_embedded mysqlxtest perror replace resolve_stack_dump resolveip zlib_decompress
 mysqltuner:mysqltuner
 mytop:mytop
 n:n
@@ -2996,6 +3007,7 @@ open-tyrian:opentyrian
 open-vcdiff:vcdiff
 open-zwave:MinOZW
 openal-soft:altonegen bsincgen makehrtf openal-info
+openapi-generator:openapi-generator
 openblas:
 opencascade:DRAWEXE DRAWEXE-7.2.0 custom.sh custom_clang_64.sh draw.sh env.sh
 opencbm:cbmcopy cbmctrl cbmformat cbmforng cbmlinetester cbmread cbmrpm41 cbmwrite d64copy d82copy frm_analyzer imgcopy opencbm_plugin_helper_tools samplelibtransf
@@ -3363,6 +3375,7 @@ pyenv-virtualenvwrapper:pyenv-sh-virtualenvwrapper pyenv-sh-virtualenvwrapper_la
 pyenv-which-ext:
 pyenv:pyenv pyenv-install pyenv-uninstall python-build
 pyexiv2:
+pygitup:git-up
 pygobject3:
 pygobject:pygobject-codegen-2.0
 pygtk:pygtk-codegen-2.0 pygtk-demo
@@ -3991,6 +4004,7 @@ tarsnapper:tarsnapper
 task-spooler:ts
 task:task
 taskd:taskd taskdctl
+taskell:taskell
 tasksh:tasksh
 taylor:taylor
 tbb:
@@ -4145,6 +4159,7 @@ tree:tree
 treecc:treecc
 treefrog:tadpole tmake treefrog tspawn
 trezor-agent:trezor-agent trezor-gpg trezor-gpg-agent trezor_agent.py
+triton:triton
 trr:trr_format trr_update
 truecrack:truecrack
 truncate:truncate
@@ -4308,6 +4323,7 @@ vramsteg:vramsteg
 vrpn:client_and_server forward last_of_sequence sample_analog sample_server test_analogfly test_auxiliary_logger test_freespace test_logging test_loopback test_mutexServer test_peerMutex test_radamec_spi test_rumble test_vrpn testimager_server testSharedObjectServer textServer vrpn_HID_device_watcher vrpn_server
 vsftpd:vsftpd
 vstr:
+vsts-cli:vsts
 vtclock:vtclock
 vte3:vte-2.91
 vte:vte
@@ -4386,8 +4402,8 @@ wolfssl:wolfssl-config
 woof:woof
 wordnet:wishwn wn wnb
 wordplay:wordplay
+wp-cli-completion:
 wp-cli:wp
-wpcli-completion:
 wpscan:wpscan
 wput:wdel wput
 wrangler:
