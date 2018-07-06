@@ -482,7 +482,6 @@ cd-discid:cd-discid
 cdargs:cdargs
 cdb:cdbdump cdbget cdbmake cdbmake-12 cdbmake-sv cdbstats cdbtest
 cdecl:c++decl cdecl
-cdiff:cdiff
 cdk:cdk5-config
 cdlabelgen:cdlabelgen
 cdogs-sdl:cdogs-sdl
@@ -704,7 +703,7 @@ cryfs:cryfs
 cryptol:cryptol
 cryptopp:cryptest.exe
 crystal-icr:icr
-crystal-lang:crystal shards
+crystal:crystal shards
 cscope:cscope ocs
 csfml:
 csmith:compiler_test.pl csmith launchn.pl test_csmith.pl
@@ -2076,6 +2075,7 @@ less:less lessecho lesskey
 lesspipe:code2color lesspipe.sh sxw2txt tarcolor
 lesstif:motif-config mwm mxmkmf uil xmbind
 leveldb:leveldbutil
+lf:lf
 lfe:lfe lfe-first-try lfe-test lfec lfedoc lfeexec lfescript
 lft:lft whob
 lftp:lftp lftpget
@@ -2673,6 +2673,7 @@ mitmproxy:mitmdump mitmproxy mitmweb
 mix-completion:
 mjpegtools:anytovcd.sh jpeg2yuv lav2avi.sh lav2mpeg lav2wav lav2yuv lavaddwav lavinfo lavpipe lavtc.sh lavtrans matteblend.flt mjpeg_simd_helper mp2enc mpeg2enc mpegtranscode mplex multiblend.flt pgmtoy4m pnmtoy4m ppmtoy4m transist.flt y4mblack y4mcolorbars y4mdenoise y4mhist y4minterlace y4mivtc y4mscaler y4mshift y4mspatialfilter y4mstabilizer y4mtopnm y4mtoppm y4mtoyuv y4munsharp ypipe yuv2lav yuv4mpeg yuvcorrect yuvcorrect_tune yuvdeinterlace yuvdenoise yuvfps yuvinactive yuvkineco yuvmedianfilter yuvscaler yuvycsnoise yuyvtoy4m
 mk-configure:mkc_check_compiler mkc_check_custom mkc_check_decl mkc_check_funclib mkc_check_header mkc_check_prog mkc_check_sizeof mkc_check_version mkc_get_deps mkc_install mkc_long_lines mkc_test_helper mkc_which mkcmake
+mkcert:mkcert
 mkclean:mkclean mkcleanreg mkWDclean
 mkcue:mkcue
 mkdocs:mkdocs
@@ -2717,6 +2718,7 @@ mongodb:bsondump mongo mongod mongodump mongoexport mongofiles mongoimport mongo
 mongodb@3.0:bsondump mongo mongod mongodump mongoexport mongofiles mongoimport mongooplog mongoperf mongorestore mongos mongosniff mongostat mongotop
 mongodb@3.2:bsondump mongo mongod mongodump mongoexport mongofiles mongoimport mongooplog mongoperf mongorestore mongos mongosniff mongostat mongotop
 mongodb@3.4:bsondump mongo mongod mongodump mongoexport mongofiles mongoimport mongooplog mongoperf mongoreplay mongorestore mongos mongostat mongotop
+mongodb@3.6:bsondump install_compass mongo mongod mongodump mongoexport mongofiles mongoimport mongoperf mongoreplay mongorestore mongos mongostat mongotop
 mongoose:mongoose
 mongrel2:m2sh mongrel2 procer
 mongroup:mongroup
@@ -3173,7 +3175,7 @@ percona-toolkit:pt-align pt-archiver pt-config-diff pt-deadlock-logger pt-diskst
 percona-xtrabackup:innobackupex xbcloud xbcloud_osenv xbcrypt xbstream xtrabackup
 perkeep:camdeploy camget camlistored cammount camput camtool devcam hello publisher
 perl-build:perl-build plenv-install plenv-uninstall
-perl:corelist cpan enc2xs encguess h2ph h2xs instmodsh json_pp libnetcfg perl perl5.26.2 perlbug perldoc perlivp perlthanks piconv pl2pm pod2html pod2man pod2text pod2usage podchecker podselect prove ptar ptardiff ptargrep shasum splain xsubpp zipdetails
+perl:corelist cpan enc2xs encguess h2ph h2xs instmodsh json_pp libnetcfg perl perl5.28.0 perlbug perldoc perlivp perlthanks piconv pl2pm pod2html pod2man pod2text pod2usage podchecker podselect prove ptar ptardiff ptargrep shasum splain xsubpp zipdetails
 perl@5.18:a2p c2ph config_data corelist cpan cpan2dist cpanp cpanp-run-perl enc2xs find2perl h2ph h2xs instmodsh json_pp libnetcfg perl perl5.18.2 perlbug perldoc perlivp perlthanks piconv pl2pm pod2html pod2latex pod2man pod2text pod2usage podchecker podselect prove psed pstruct ptar ptardiff ptargrep s2p shasum splain xsubpp zipdetails
 petsc:
 pev:ofs2rva pedis pehash pepack peres pescan pesec pestr readpe rva2ofs
@@ -3290,7 +3292,7 @@ posh:posh
 poster:poster
 postgis:create_undef.pl pgsql2shp postgis_proc_upgrade.pl postgis_restore.pl profile_intersects.pl raster2pgsql shp2pgsql test_estimation.pl test_geography_estimation.pl test_geography_joinestimation.pl test_joinestimation.pl
 postgres-xc:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg gtm gtm_ctl gtm_proxy initdb initgtm makesgml oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_resetxlog pg_restore pg_standby pg_test_fsync pg_upgrade pgbench pgxc_clean postgres postmaster psql reindexdb vacuumdb vacuumlo
-postgresql:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivexlog pg_recvlogical pg_resetxlog pg_restore pg_rewind pg_standby pg_test_fsync pg_test_timing pg_upgrade pg_xlogdump pgbench pltcl_delmod pltcl_listmod pltcl_loadmod postgres postmaster psql reindexdb vacuumdb vacuumlo
+postgresql:clusterdb createdb createuser dropdb dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivewal pg_recvlogical pg_resetwal pg_restore pg_rewind pg_standby pg_test_fsync pg_test_timing pg_upgrade pg_waldump pgbench postgres postmaster psql reindexdb vacuumdb vacuumlo
 postgresql@9.4:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivexlog pg_recvlogical pg_resetxlog pg_restore pg_standby pg_test_fsync pg_test_timing pg_upgrade pg_xlogdump pgbench pltcl_delmod pltcl_listmod pltcl_loadmod postgres postmaster psql reindexdb vacuumdb vacuumlo
 postgresql@9.5:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivexlog pg_recvlogical pg_resetxlog pg_restore pg_rewind pg_standby pg_test_fsync pg_test_timing pg_upgrade pg_xlogdump pgbench pltcl_delmod pltcl_listmod pltcl_loadmod postgres postmaster psql reindexdb vacuumdb vacuumlo
 postgresql@9.6:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivexlog pg_recvlogical pg_resetxlog pg_restore pg_rewind pg_standby pg_test_fsync pg_test_timing pg_upgrade pg_xlogdump pgbench pltcl_delmod pltcl_listmod pltcl_loadmod postgres postmaster psql reindexdb vacuumdb vacuumlo
@@ -3391,7 +3393,7 @@ pypy3:pypy3 pypy3.3
 pypy:pypy
 pyqt:pylupdate5 pyrcc5 pyuic5
 python-markdown:markdown_py
-python:2to3 2to3-3.6 easy_install-3.6 idle3 idle3.6 pip3 pip3.6 pydoc3 pydoc3.6 python3 python3-config python3.6 python3.6-config python3.6m python3.6m-config pyvenv pyvenv-3.6 wheel3
+python:2to3 2to3-3.7 easy_install-3.7 idle3 idle3.7 pip3 pip3.7 pydoc3 pydoc3.7 python3 python3-config python3.7 python3.7-config python3.7m python3.7m-config pyvenv pyvenv-3.7 wheel3
 python@2:2to3-2 2to3-2.7 easy_install easy_install-2.7 idle idle2 idle2.7 pip pip2 pip2.7 pydoc pydoc2 pydoc2.7 python python-config python2 python2-config python2.7 python2.7-config pythonw pythonw2 pythonw2.7 smtpd.py smtpd2.7.py smtpd2.py wheel
 pytouhou:pytouhou
 pyvim:ptipython ptpython pyflakes pygmentize pyvim
@@ -3622,7 +3624,7 @@ s6:execlineb s6-accessrules-cdb-from-fs s6-accessrules-fs-from-cdb s6-applyuidgi
 safe-rm:safe-rm
 sagittarius-scheme:compile-r7rs compile-sagittarius sagittarius sagittarius-config sagittarius-package sash
 saldl:saldl
-saltstack:salt salt-api salt-call salt-cloud salt-cp salt-key salt-master salt-minion salt-proxy salt-run salt-ssh salt-syndic salt-unity spm
+salt:salt salt-api salt-call salt-cloud salt-cp salt-key salt-master salt-minion salt-proxy salt-run salt-ssh salt-syndic salt-unity spm
 samtools:ace2sam blast2sam.pl bowtie2sam.pl export2sam.pl interpolate_sam.pl maq2sam-long maq2sam-short md5fa md5sum-lite novo2sam.pl plot-bamstats psl2sam.pl sam2vcf.pl samtools samtools.pl seq_cache_populate.pl soap2sam.pl varfilter.py wgsim wgsim_eval.pl zoom2sam.pl
 sane-backends:gamma4scanimage sane-config sane-find-scanner saned scanimage umax_pp
 sary:mksary sary
@@ -3650,6 +3652,7 @@ scale2x:scalerx scalex
 scamper:sc_ally sc_analysis_dump sc_attach sc_bdrmap sc_filterpolicy sc_ipiddump sc_prefixscan sc_radargun sc_remoted sc_speedtrap sc_tbitblind sc_tracediff sc_warts2csv sc_warts2json sc_warts2pcap sc_warts2text sc_wartscat sc_wartsdump sc_wartsfix scamper
 sccache:sccache
 sceptre:sceptre
+schema-evolution-manager:sem-add sem-apply sem-baseline sem-dist sem-info sem-init
 scheme48:scheme-r5rs scheme-srfi-7 scheme48 scheme48-config
 schismtracker:schismtracker
 schroedinger:
@@ -4510,6 +4513,7 @@ yaze-ag:cdm cpm yaze yaze_bin z80
 yazpp:yazpp-config
 yconalyzer:yconalyzer
 ydcv:ydcv
+ydiff:ydiff
 yelp-tools:yelp-build yelp-check yelp-new
 yeti:yeti
 yetris:yetris
