@@ -18,14 +18,15 @@ class ExecutablesDB
   attr_reader :changes
 
   # initialize a new DB with the given filename. The file will be used to
-  # populate the DB if it exists. It'll be created or overrided when saving the
+  # populate the DB if it exists. It'll be created or overridden when saving the
   # DB.
   # @see #save!
   def initialize(filename)
     @filename = filename
     @exes = {}
-
-    reset_changes
+    # keeps track of things that changed in the DB between its creation and
+    # each {#save!} call. This is used to generate commit messages
+    @changes = { :add => Set.new, :remove => Set.new, :update => Set.new }
 
     if File.file? @filename
       File.new(@filename).each do |line|
@@ -36,39 +37,16 @@ class ExecutablesDB
     end
   end
 
+  def formula_names
+    @exes.keys
+  end
+
   def root
     @root ||= Pathname.new(@filename).parent
   end
 
-  # @private
-  def reset_changes
-    # keeps track of things that changed in the DB between its creation and
-    # each {#save!} call. This is used to generate commit messages
-    @changes = { :added => Set.new, :removed => Set.new, :updated => Set.new }
-  end
-
   def changed?
     @changes.any? { |_, v| !v.empty? }
-  end
-
-  # update the binaries of {name} given the prefix path {path}.
-  # @private
-  def update_from(name, path)
-    binaries = Set.new
-    Dir["#{path}/{bin,sbin}/*"].each do |f|
-      next unless File.executable? f
-      binaries << Pathname.new(f).basename.to_s
-    end
-
-    binaries = binaries.to_a.sort
-
-    if @exes.key?(name)
-      @changes[:updated] << name unless @exes[name] == binaries
-    else
-      @changes[:added] << name
-    end
-
-    @exes[name] = binaries
   end
 
   # update the DB with the installed formulae
@@ -80,7 +58,11 @@ class ExecutablesDB
 
       # note: f.installed? is true only if the *latest* version is installed.
       # We thus don't need to worry about updating outdated versions
-      update_from name, f.prefix if f.installed?
+      if f.installed?
+        update_installed_formula f
+      elsif missing_formula?(f) && f.bottled?
+        update_bottled_formula f
+      end
 
       # renamed formulae
       mv f.oldname, name if !f.oldname.nil? && @exes[f.oldname]
@@ -94,7 +76,7 @@ class ExecutablesDB
     removed = @exes.keys - Formula.full_names
     removed.each do |name|
       @exes.delete name
-      @changes[:removed] << name
+      @changes[:remove] << name
     end
     nil
   end
@@ -110,20 +92,6 @@ class ExecutablesDB
         f.write(line)
       end
     end
-
-    reset_changes
-  end
-
-  # Add a formulae binaries from its bottle. It'll abort if the formula doesn't
-  # have a bottle.
-  def add_from_bottle(name)
-    f = Formula[name]
-    abort "Formula #{name} has no bottle" unless f.bottled?
-
-    f.bottle.fetch
-    f.bottle.resource.stage do
-      update_from f.full_name, Dir["*"].first
-    end
   end
 
   private
@@ -131,11 +99,50 @@ class ExecutablesDB
   def mv(old, new)
     unless @exes[new]
       @exes[new] = @exes[old]
-      @changes[:added] << new
+      @changes[:add] << new
     end
     @exes.delete old
-    @changes[:removed] << old
+    @changes[:remove] << old
     puts "Moving #{old} => #{new}"
+  end
+
+  def missing_formula?(f)
+    !@exes.key? f.full_name
+  end
+
+  def update_formula_binaries(f, prefix = nil)
+    name = f.full_name
+    prefix ||= f.prefix
+
+    binaries = Set.new
+
+    Dir["#{prefix}/{bin,sbin}/*"].each do |file|
+      binaries << File.basename(file).to_s if File.executable? file
+    end
+
+    binaries = binaries.to_a.sort
+
+    if missing_formula? f
+      @changes[:add] << name
+    else
+      @changes[:update] << name if @exes[name] != binaries
+    end
+
+    @exes[name] = binaries
+  end
+
+  # update the binaries of {f}, assuming it's installed
+  def update_installed_formula(f)
+    update_formula_binaries f
+  end
+
+  # Add a formula's binaries from its bottle
+  def update_bottled_formula(f)
+    f.bottle.fetch
+    # NOTE: we may want to just list the bottle content without unarchiving it
+    f.bottle.resource.stage do
+      update_formula_binaries f, Dir["*"].first
+    end
   end
 end
 
@@ -157,7 +164,7 @@ if ARGV.include? "--stats"
   opoo "The DB file doesn't exist." unless File.exist? source
   db = ExecutablesDB.new source
 
-  formulae = db.exes.keys
+  formulae = db.formula_names
   core = Formula.core_names
 
   cmds_count = db.exes.values.reduce(0) { |s, exs| s + exs.size }
@@ -181,29 +188,24 @@ def english_list(els, verb)
   "#{verb.capitalize} #{msg}"
 end
 
-db = ExecutablesDB.new source
-db.update!
-changes = db.changes
-changed = db.changed?
-db.save!
-
-if ARGV.include?("--commit") && changed
+def git_commit_message(changes)
   msg = ""
+  [:add, :update, :remove].each do |action|
+    names = changes[action]
+    next if names.empty?
 
-  added = changes[:added].to_a.sort
-  updated = changes[:updated].to_a.sort
-  removed = changes[:removed].to_a.sort
-
-  # we don't try to report everything, only the most common stuff
-  if !added.empty?
-    msg << english_list(added, "add")
-  elsif !updated.empty?
-    msg << english_list(updated, "update")
-  elsif !removed.empty?
-    msg << english_list(removed, "remove")
+    msg << english_list(names.to_a.sort, action.to_s)
+    break
   end
 
-  db.save!
+  msg
+end
 
+db = ExecutablesDB.new source
+db.update!
+db.save!
+
+if ARGV.include?("--commit") && db.changed?
+  msg = git_commit_message(db.changes)
   safe_system "git", "-C", db.root.to_s, "commit", "-m", msg, source
 end
