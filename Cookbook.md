@@ -1,13 +1,13 @@
 # Cookbook
 
 This document describes how I update the list, just so you know how it works if
-I get hit by a truck. The near-future goal is to automate this process.
+I get hit by a truck.
 
-1. Run `brew update` and check if there are new formulae
-2. If so, install them. You can also install updated formulae, they might have
-   changed their binaries.
-3. In the root directory of this tap, run `brew which-update --commit`
-4. Push.
+1. Run `brew update`
+2. Run `brew which-update --commit`. It’ll update installed formulae and fetch
+   the bottles of the ones that are missing in order to get their executables
+   without installing anything.
+3. Push.
 
-You can also run `brew which-update --stats` to see which
-formulae are missing.
+The process above doesn’t support non-bottled formulae; you can  run `brew
+which-update --stats` to see which formulae are missing.
