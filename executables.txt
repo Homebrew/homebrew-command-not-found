@@ -65,7 +65,6 @@ alpine:alpine pico pilot rpdump rpload
 alure:alurecdplay alureplay alurestream
 amap:amap amap6 amapcrap
 amazon-ecs-cli:ecs-cli
-amber:amber
 amdatu-bootstrap:amdatu-bootstrap
 ammonite-repl:amm
 ampl-mp:tableproxy64
@@ -232,6 +231,7 @@ aws-elasticache:elasticache elasticache-authorize-cache-security-group-ingress e
 aws-elasticbeanstalk:eb ebp
 aws-es-proxy:aws-es-proxy
 aws-keychain:aws-keychain
+aws-okta:aws-okta
 aws-sdk-cpp:
 aws-shell:aws-shell aws-shell-mkindex
 aws-sns-cli:sns-add-permission sns-cmd sns-confirm-subscription sns-create-topic sns-delete-topic sns-get-subscription-attributes sns-get-topic-attributes sns-list-subscriptions sns-list-subscriptions-by-topic sns-list-topics sns-publish sns-remove-permission sns-set-subscription-attributes sns-set-topic-attributes sns-subscribe sns-unsubscribe sns-version
@@ -247,6 +247,7 @@ babeld:babeld
 babl:
 backupninja:backupninja ninjahelper
 bacula-fd:bacula bacula-fd bconsole btraceback
+badtouch:badtouch
 bagit:bag
 balance:balance
 ballerburg:ballerburg
@@ -332,6 +333,7 @@ bitlbee:bitlbee
 bitrise:bitrise
 bittwist:bittwist bittwiste
 bitwarden-cli:bw
+black:black
 blackbox:_blackbox_common.sh _blackbox_common_test.sh _stack_lib.sh blackbox_addadmin blackbox_cat blackbox_decrypt_all_files blackbox_deregister_file blackbox_diff blackbox_edit blackbox_edit_end blackbox_edit_start blackbox_initialize blackbox_list_files blackbox_postdeploy blackbox_recurse blackbox_register_new_file blackbox_removeadmin blackbox_shred_all_files blackbox_update_all_files blackbox_whatsnew
 blahtexml:blahtex blahtexml
 blast:blast_formatter blastdb_aliastool blastdbcheck blastdbcmd blastdbcp blastn blastp blastx convert2blastmask datatool deltablast dustmasker gene_info_reader legacy_blast.pl makeblastdb makembindex makeprofiledb project_tree_builder psiblast rpsblast rpstblastn run_with_lock seedtop segmasker seqdb_demo seqdb_perf tblastn tblastx test_pcre update_blastdb.pl windowmasker windowmasker_2.2.22_adapter.py
@@ -341,6 +343,7 @@ blazegraph:bigdata
 blink1:blink1-tool
 blitz:
 blitzwave:blitzwave-config
+bloaty:bloaty
 blockhash:blockhash
 bltool:bltool
 bluepill:bluepill
@@ -452,6 +455,7 @@ cargo-completion:
 carina:carina
 carrot2:carrot2
 carthage:carthage
+cash-cli:cash
 cask:cask
 casperjs:casperjs
 cassandra:cassandra cassandra-stress cassandra-stressd compaction-stress cqlsh cqlsh.py debug-cql nodetool sstabledump sstableexpiredblockers sstablelevelreset sstableloader sstablemetadata sstableofflinerelevel sstablerepairedset sstablescrub sstablesplit sstableupgrade sstableutil sstableverify
@@ -601,6 +605,7 @@ cmake:ccmake cmake cmakexbuild cpack ctest
 cmark-gfm:cmark-gfm
 cmark:cmark
 cmatrix:cmatrix
+cmdshelf:cmdshelf
 cmigemo:cmigemo
 cminpack:
 cmocka:
@@ -738,6 +743,7 @@ cvsps:cvsps
 cvsutils:cvschroot cvsco cvsdiscard cvsdo cvspurge cvstrim cvsu
 cvsync:cvscan cvsup2cvsync cvsync cvsync2cvsup cvsyncd rcscan rcscmp
 cweb:ctangle cweave
+cwlogs:cwlogs
 cxxtest:cxxtestgen
 cython:cygdb cython cythonize
 czmq:zmakecert
@@ -837,7 +843,6 @@ digitemp:digitemp_DS2490 digitemp_DS9097 digitemp_DS9097U
 dirac:BMPtoRGB RGBtoBMP RGBtoUYVY RGBtoYUV411 RGBtoYUV420 RGBtoYUV422 RGBtoYUV444 UYVYtoRGB UYVYtoYUV422 YUV411toRGB YUV420Down2x2 YUV420ItoYUV422I YUV420pt75filter YUV420toRGB YUV420toYUV422 YUV422ItoYUV420I YUV422toRGB YUV422toUYVY YUV422toYUV420 YUV444toRGB create_dirac_testfile.pl dirac_decoder dirac_encoder dirac_instrumentation
 direnv:direnv
 direvent:direvent
-dirmngr:dirmngr dirmngr-client
 dirt:dirt
 discount:makepage markdown mkd2html theme
 disktype:disktype
@@ -879,10 +884,12 @@ docker-cloud:docker-cloud
 docker-completion:
 docker-compose-completion:
 docker-compose:docker-compose
+docker-credential-helper-ecr:docker-credential-ecr-login
 docker-credential-helper:docker-credential-osxkeychain
 docker-gen:docker-gen
 docker-ls:docker-ls docker-rm
 docker-machine-completion:
+docker-machine-driver-hyperkit:docker-machine-driver-hyperkit
 docker-machine-driver-vultr:docker-machine-driver-vultr
 docker-machine-driver-xhyve:docker-machine-driver-xhyve
 docker-machine-nfs:docker-machine-nfs
@@ -1032,6 +1039,7 @@ erlang@18:ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
 erlang@19:ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
 erlang@20:ct_run dialyzer epmd erl erlc escript run_erl to_erl
 es:es
+eslint:eslint
 esniper:esniper
 espeak:espeak
 etcd:etcd etcdctl
@@ -1088,6 +1096,7 @@ fastjar:fastjar grepjar
 fastme:fastme
 fastqc:fastqc
 fatsort:fatsort
+fauna-shell:fauna
 fb-client:fb
 fbi-servefiles:sendurls.py servefiles.py
 fceux:fceux
@@ -1243,6 +1252,7 @@ g3log:
 gabedit:gabedit
 gaffitter:fit
 galen:galen
+gambit:gambit gambit-convert gambit-enummixed gambit-enumpoly gambit-enumpure gambit-gnm gambit-ipa gambit-lcp gambit-liap gambit-logit gambit-lp gambit-simpdiv
 game-music-emu:
 gammaray:
 gammu:gammu gammu-config gammu-detect gammu-smsd gammu-smsd-inject gammu-smsd-monitor jadmaker
@@ -1296,6 +1306,7 @@ gengetopt:gengetopt
 genometools:genometools-config gt
 genstats:genstats
 geocode-glib:
+geogram:geobox geocod geodump geogram_demo_Delaunay2d geogram_demo_Evert geogram_demo_GLUP vorpalite vorpaview
 geographiclib:CartConvert ConicProj GeoConvert GeodSolve GeodesicProj GeoidEval Gravity MagneticField Planimeter RhumbSolve TransverseMercatorProj geographiclib-get-geoids geographiclib-get-gravity geographiclib-get-magnetic
 geoip:geoiplookup geoiplookup6
 geoipupdate:geoipupdate
@@ -1315,7 +1326,6 @@ gf-complete:gf_add gf_div gf_example_1 gf_example_2 gf_example_3 gf_example_4 gf
 gflags:gflags_completions.sh
 gforth:gforth gforth-0.7.3 gforth-fast gforth-fast-0.7.3 gforth-itc gforth-itc-0.7.3 gforthmi gforthmi-0.7.3 vmgen vmgen-0.7.3
 ghc:ghc ghc-8.0.2 ghc-pkg ghc-pkg-8.0.2 ghci ghci-8.0.2 haddock haddock-ghc-8.0.2 hp2ps hpc hsc2hs runghc runghc-8.0.2 runhaskell
-ghc@8.0:ghc ghc-8.0.2 ghc-pkg ghc-pkg-8.0.2 ghci ghci-8.0.2 haddock haddock-ghc-8.0.2 hp2ps hpc hsc2hs runghc runghc-8.0.2 runhaskell
 ghc@8.2:ghc ghc-8.2.2 ghc-pkg ghc-pkg-8.2.2 ghci ghci-8.2.2 haddock haddock-ghc-8.2.2 hp2ps hpc hsc2hs runghc runghc-8.2.2 runhaskell
 ghex:ghex
 ghi:ghi
@@ -1465,7 +1475,6 @@ gnumeric:gnumeric gnumeric-1.12.34 ssconvert ssdiff ssgrep ssindex
 gnupg-pkcs11-scd:gnupg-pkcs11-scd
 gnupg:addgnupghome applygnupgdefaults dirmngr dirmngr-client gpg gpg-agent gpg-connect-agent gpgconf gpgparsemail gpgscm gpgsm gpgtar gpgv kbxutil symcryptrun watchgnupg
 gnupg@1.4:gpg-zip1 gpg1 gpgsplit1 gpgv1
-gnupg@2.0:addgnupghome applygnupgdefaults gpg gpg-connect-agent gpg-zip gpg2 gpgconf gpgkey2ssh gpgparsemail gpgsm gpgsm-gencert.sh gpgv gpgv2 kbxutil symcryptrun watchgnupg
 gnuplot:gnuplot
 gnuplot@4:gnuplot
 gnuradio:gnuradio-config-info gr_filter_design gr_modtool gr_plot_char gr_plot_const gr_plot_fft gr_plot_fft_c gr_plot_fft_f gr_plot_float gr_plot_int gr_plot_iq gr_plot_psd gr_plot_psd_c gr_plot_psd_f gr_plot_qt gr_plot_short gr_read_file_metadata grcc polar_channel_construction uhd_fft uhd_rx_cfile uhd_rx_nogui uhd_siggen uhd_siggen_gui usrp_flex usrp_flex_all usrp_flex_band volk-config-info volk_modtool volk_profile
@@ -1476,6 +1485,7 @@ go-bindata:go-bindata
 go-jira:jira
 go-statik:statik
 go:go godoc gofmt
+go@1.10:go godoc gofmt
 go@1.4:go godoc gofmt
 go@1.8:go godoc gofmt
 go@1.9:go godoc gofmt
@@ -1490,6 +1500,7 @@ godep:godep
 goenv:go-build goenv goenv-install goenv-uninstall
 gofabric8:gofabric8
 goffice:
+golang-migrate:migrate
 gollum:gollum
 golo:golo vanilla-golo
 gom:
@@ -1521,7 +1532,6 @@ gpatch:patch
 gpcslots2:gpcslots2
 gperf:gperf
 gperftools:pprof
-gpg-agent:gpg-agent
 gpgme:gpgme-config gpgme-tool
 gphoto2:gphoto2
 gplcver:cver
@@ -1673,6 +1683,7 @@ heartbeat:heartbeat
 hebcal:hebcal
 heimdal:afslog bsearch gsstool heimtools hxtool idn-lookup iprop-log kadmin kdestroy kf kgetcred kinit klist kpasswd krb5-config kstash kswitch ktutil otp otpprint pagsh string2key su verify_krb5_conf
 hello:hello
+helmfile:helmfile
 help2man:help2man
 henplus:henplus
 hercules:bldlvlck cckd2ckd cckdcdsk cckdcomp cckddiag cckdswap cfba2fba ckd2cckd dasdcat dasdconv dasdcopy dasdinit dasdisup dasdlist dasdload dasdls dasdpdsu dasdseq dmap2hrc fba2cfba hercifc herclin hercules hetget hetinit hetmap hetupd tapecopy tapemap tapesplt
@@ -1807,6 +1818,7 @@ inetutils:dnsdomainname gdnsdomainname gftp ghostname gifconfig glogger gping gp
 infer:infer infer-analyze infer-capture infer-compile infer-report infer-reportdiff infer-run inferTraceBugs
 influxdb:influx influx_stress influx_tsm influxd
 inform6:inform
+infrakit:infrakit
 iniparser:
 innoextract:innoextract
 innotop:innotop
@@ -1937,6 +1949,7 @@ json-c:
 json-fortran:
 json-glib:json-glib-format json-glib-validate
 json-table:jt
+json11:
 json_spirit:
 jsoncpp:
 jsonlint:jsonlint
@@ -2016,7 +2029,9 @@ kubectx:kubectx kubens
 kubeless:kubeless
 kubernetes-cli:kubectl
 kubernetes-helm:helm tiller
+kubernetes-service-catalog-client:svcat
 kumo:kumo
+kustomize:kustomize
 kvazaar:kvazaar
 kyoto-cabinet:kccachetest kcdirmgr kcdirtest kcforestmgr kcforesttest kcgrasstest kchashmgr kchashtest kclangctest kcpolymgr kcpolytest kcprototest kcstashtest kctreemgr kctreetest kcutilmgr kcutiltest
 kyoto-tycoon:ktremotemgr ktremotetest ktserver kttimedmgr kttimedtest ktutilmgr ktutilserv ktutiltest
@@ -2320,6 +2335,7 @@ libpq:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg ini
 libpqxx:pqxx-config
 libprotoident:lpi_arff lpi_find_unknown lpi_protoident
 libproxy:proxy
+libpsl:psl
 libpst:lspst nick2ldif pst2ldif readpst
 libpuzzle:puzzle-diff
 libqalculate:qalc
@@ -2350,6 +2366,7 @@ libsecret:secret-tool
 libserialport:
 libshout:
 libsigc++:
+libsignal-protocol-c:
 libsigsegv:
 libslax:gt oxtradoc slax-config slaxproc
 libsmf:smfsh
@@ -2495,15 +2512,18 @@ lrzsz:lrb lrx lrz lsb lsx lsz rz sz
 lsdvd:lsdvd
 lsh:lcp lsftp lsh lsh-authorize lsh-decode-key lsh-decrypt-key lsh-execuv lsh-export-key lsh-keygen lsh-make-seed lsh-pam-checkpw lsh-upgrade lsh-upgrade-key lsh-writekey lshd lshg sftp-server srp-gen ssh-conv
 lsof:lsof
+lsusb:lsusb
 lsyncd:lsyncd
 ltc-tools:jltc2mtc jltcdump jltcgen ltcdump ltcgen
 ltl2ba:ltl2ba
-lua:lua lua-5.3 lua5.3 luac luac-5.3 luac5.3 luarocks luarocks-5.3 luarocks-admin luarocks-admin-5.3
+lua:lua lua-5.3 lua5.3 luac luac-5.3 luac5.3
 lua@5.1:lua-5.1 lua5.1 luac-5.1 luac5.1 luarocks-5.1 luarocks-admin-5.1
 luabind:
 luajit:luajit luajit-2.0.5
 luaradio:luaradio
+luarocks:luarocks luarocks-admin
 luaver:luaver
+luit:luit
 lumo:lumo
 lutok:
 luvit:lit luvi luvit
@@ -2660,6 +2680,7 @@ minio-mc:mc
 minio:minio
 minisat:minisat
 minised:minised
+miniserve:miniserve
 minisign:minisign
 miniupnpc:external-ip upnpc
 minizinc:mzn-fzn mzn2doc mzn2fzn mzn2fzn_test solns2out
@@ -2913,7 +2934,6 @@ nnn:nlay nnn
 no-more-secrets:nms sneakers
 node-build:node-build nodenv-install nodenv-uninstall
 node:node
-node@4:node
 node@6:node
 node@8:node
 node_exporter:node_exporter
@@ -3098,6 +3118,7 @@ packmol:packmol
 pacman4console:pacman pacmanedit
 pacparser:pactester
 pacvim:pacvim
+pagmo:
 pakchois:
 paket:paket
 pam-u2f:pamu2fcfg
@@ -3135,6 +3156,7 @@ pbrt:bsdftest exravg exrdiff pbrt
 pbzip2:pbunzip2 pbzcat pbzip2
 pc6001vx:PC6001VX
 pcal:pcal
+pcapplusplus:ArpSpoofing Arping DNSResolver DnsSpoofing HttpAnalyzer IPDefragUtil IPFragUtil IcmpFileTransfer-catcher IcmpFileTransfer-pitcher PcapPrinter PcapSearch PcapSplitter SSLAnalyzer TcpReassembly
 pcb2gcode:pcb2gcode
 pcb:MergePCBPS Merge_dimPCBPS pcb
 pce:pbit pce-ibmpc pce-img pce-macplus pce-rc759 pce-sim405 pce-sim6502 pce-simarm pce-sims32 pfdc
@@ -3177,6 +3199,8 @@ perkeep:camdeploy camget camlistored cammount camput camtool devcam hello publis
 perl-build:perl-build plenv-install plenv-uninstall
 perl:corelist cpan enc2xs encguess h2ph h2xs instmodsh json_pp libnetcfg perl perl5.28.0 perlbug perldoc perlivp perlthanks piconv pl2pm pod2html pod2man pod2text pod2usage podchecker podselect prove ptar ptardiff ptargrep shasum splain xsubpp zipdetails
 perl@5.18:a2p c2ph config_data corelist cpan cpan2dist cpanp cpanp-run-perl enc2xs find2perl h2ph h2xs instmodsh json_pp libnetcfg perl perl5.18.2 perlbug perldoc perlivp perlthanks piconv pl2pm pod2html pod2latex pod2man pod2text pod2usage podchecker podselect prove psed pstruct ptar ptardiff ptargrep s2p shasum splain xsubpp zipdetails
+perltidy:perltidy
+petsc-complex:
 petsc:
 pev:ofs2rva pedis pehash pepack peres pescan pesec pestr readpe rva2ofs
 pex:pex
@@ -3339,6 +3363,7 @@ protobuf:protoc
 protobuf@2.5:protoc
 protobuf@2.6:protoc
 protobuf@3.1:protoc
+prototool:prototool
 proxychains-ng:proxychains4
 proxytunnel:proxytunnel
 ps2eps:bbox ps2eps
@@ -3358,6 +3383,7 @@ puf:puf
 pugixml:
 pulledpork:pulledpork.pl
 pulseaudio:esdcompat pacat pacmd pactl pamon paplay parec parecord pasuspender pulseaudio
+pulumi:pulumi pulumi-language-go pulumi-language-nodejs pulumi-language-python pulumi-language-python-exec
 pumba:pumba
 pup:pup
 pure-ftpd:pure-authd pure-ftpd pure-ftpwho pure-mrtginfo pure-pw pure-pwconvert pure-quotacheck pure-statsdecode pure-uploadscript
@@ -3459,6 +3485,7 @@ rancher-cli:rancher
 rancher-compose:rancher-compose
 rancid:a10login agmrancid alogin anlogin arancid avologin avorancid blogin brancid brlogin cat5rancid clogin complogin control_rancid cssrancid dllogin elogin erancid f10rancid f5rancid flogin fnlogin fnrancid hlogin hpuifilter hrancid htlogin htrancid jerancid jlogin lg.cgi lgform.cgi mrancid mrvlogin mtlogin mtrancid nlogin nrancid nslogin nsrancid panlogin par plogin rancid rancid-cvs rancid-fe rancid-run rblogin rivlogin rivrancid rrancid rtftpcopy srancid tlogin trancid ulogin wlogin xilogin xirancid xlogin zrancid
 randomize-lines:rl
+range-v3:
 ranger:ranger
 rapidjson:
 raptor:rapper
@@ -3483,6 +3510,7 @@ rbenv-use:rbenv-sh-use
 rbenv-vars:rbenv-vars
 rbenv-whatis:rbenv-whatis
 rbenv:rbenv
+rbspy:rbspy
 rc:rc
 rclone:rclone
 rcs:ci co ident merge rcs rcsclean rcsdiff rcsmerge rlog
@@ -3498,8 +3526,8 @@ readline:
 readosm:
 reattach-to-user-namespace:reattach-to-user-namespace
 reaver:reaver wash
+rebar3:rebar3
 rebar:rebar
-rebar@3:rebar3
 reclass:reclass reclass-ansible reclass-salt
 recode:recode
 recon-ng:recon-ng
@@ -3626,6 +3654,7 @@ s3cmd:s3cmd
 s3fs:s3fs
 s6:execlineb s6-accessrules-cdb-from-fs s6-accessrules-fs-from-cdb s6-applyuidgid s6-cleanfifodir s6-connlimit s6-envdir s6-envuidgid s6-fdholder-daemon s6-fdholder-delete s6-fdholder-deletec s6-fdholder-getdump s6-fdholder-getdumpc s6-fdholder-list s6-fdholder-listc s6-fdholder-retrieve s6-fdholder-retrievec s6-fdholder-setdump s6-fdholder-setdumpc s6-fdholder-store s6-fdholder-storec s6-fdholder-transferdump s6-fdholder-transferdumpc s6-fdholderd s6-fghack s6-ftrig-listen s6-ftrig-listen1 s6-ftrig-notify s6-ftrig-wait s6-ftrigrd s6-ioconnect s6-ipcclient s6-ipcserver s6-ipcserver-access s6-ipcserver-socketbinder s6-ipcserverd s6-log s6-mkfifodir s6-setlock s6-setsid s6-setuidgid s6-softlimit s6-sudo s6-sudoc s6-sudod s6-supervise s6-svc s6-svlisten s6-svlisten1 s6-svok s6-svscan s6-svscanctl s6-svstat s6-svwait s6-tai64n s6-tai64nlocal s6lockd ucspilogd
 safe-rm:safe-rm
+safe:safe
 sagittarius-scheme:compile-r7rs compile-sagittarius sagittarius sagittarius-config sagittarius-package sash
 saldl:saldl
 salt:salt salt-api salt-call salt-cloud salt-cp salt-key salt-master salt-minion salt-proxy salt-run salt-ssh salt-syndic salt-unity spm
@@ -3710,6 +3739,7 @@ serf:serf
 serialosc:serialosc-detector serialosc-device serialoscd
 sersniff:sersniff
 serveit:serveit
+serverless:serverless sls slss
 servus:
 setweblocthumb:setWeblocThumb
 sf-pwgen:sf-pwgen
@@ -3717,6 +3747,7 @@ sfcgal:sfcgal-config
 sfk:sfk
 sflowtool:sflowtool
 sfml:
+sfst:fst-compact fst-compare fst-compiler fst-compiler-utf8 fst-generate fst-infl fst-infl2 fst-infl2-daemon fst-infl3 fst-lattice fst-lowmem fst-match fst-mor fst-parse fst-parse2 fst-print fst-text2bin fst-train
 sgrep:sgrep
 sha1dc:sha1dcsum sha1dcsum_partialcoll
 sha2:sha2
@@ -3778,6 +3809,7 @@ ski:ski
 skinny:skinny yo
 skipfish:skipfish
 skktools:skkdic-count skkdic-expr skkdic-expr2 skkdic-sort
+skopeo:skopeo
 sl:sl
 slackcat:slackcat
 slacknimate:slacknimate
@@ -4149,6 +4181,7 @@ tomee-plume:tomee-plume-startup
 tomee-plus:tomee-plus-startup
 tomee-webprofile:tomee-webprofile-startup
 topgit:tg
+topgrade:topgrade
 tor:tor tor-gencert tor-resolve torify
 torrentcheck:torrentcheck
 torsocks:torsocks
@@ -4364,9 +4397,11 @@ watchman:watchman
 watson:watson
 wavpack:wavpack wvgain wvunpack
 wbox:wbox
+wcslib:HPXcvt fitshdr wcsware
 wdc:
 wdfs:wdfs
 wdiff:mdiff unify wdiff wdiff2
+weaver:weaver
 web100clt:web100clt
 webalizer:wcmgr webalizer webazolver
 webarchiver:webarchiver
@@ -4426,6 +4461,8 @@ write-good:write-good writegood
 writerperfect:wpd2odt wpg2odg
 wrk-trello:wrk
 wrk:wrk
+wsk:wsk
+wskdeploy:wskdeploy
 wslay:
 wtf:wtf
 wu:wu
@@ -4490,6 +4527,7 @@ xrootd:cconfig cmsd cns_ssi frm_admin frm_purged frm_xfragent frm_xfrd mpxstats 
 xsane:xsane
 xsd:xsd
 xshogi:xshogi
+xsimd:
 xspin:xspin
 xsv:xsv
 xsw:xsw xsw2jpeg xsw2pdf xsw2png xswconv
@@ -4560,6 +4598,7 @@ zint:zint
 zip:zip zipcloak zipnote zipsplit
 zita-convolver:
 zlib:
+zlog:
 zmap:zblacklist zmap ztee
 zmqpp:
 znapzend:znapzend znapzendzetup znapzendztatz
