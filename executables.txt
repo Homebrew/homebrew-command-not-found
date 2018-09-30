@@ -133,6 +133,7 @@ aptly:aptly
 aqbanking:aqbanking-cli aqbanking-config aqebics-tool aqhbci-tool4 hbcixml3
 arabica:mangle
 arangodb:arango-dfdb arango-init-database arango-secure-installation arangobench arangod arangodump arangoimp arangorestore arangosh arangovpack foxx-manager
+aravis:arv-fake-gv-camera-0.6 arv-test-0.6 arv-tool-0.6 arv-viewer
 arcade-learning-environment:ale
 archey:archey
 archi-steam-farm:asf
@@ -453,6 +454,7 @@ capnp:capnp capnpc capnpc-c++ capnpc-capnp
 capstone:
 cargo-completion:
 carina:carina
+carla:carla carla-control carla-control-e carla-database carla-database-e carla-e carla-jack-multi carla-jack-multi-e carla-jack-single carla-jack-single-e carla-patchbay carla-patchbay-e carla-rack carla-rack-e carla-settings carla-settings-e carla-single carla-single-e
 carrot2:carrot2
 carthage:carthage
 cash-cli:cash
@@ -829,6 +831,7 @@ dhex:dhex
 di:di mi
 dialog:dialog dialog-config
 diamond:diamond
+diceware:diceware
 dict:colorit dict dict_lookup dictd dictdplugin-config dictfmt dictfmt_index2suffix dictfmt_index2word dictl dictunformat dictzip
 diction:diction style
 dieharder:dieharder
@@ -1419,7 +1422,7 @@ glew:glewinfo visualinfo
 glfw:
 glib-networking:
 glib-openssl:
-glib:gapplication gdbus gdbus-codegen gio gio-querymodules glib-compile-resources glib-compile-schemas glib-genmarshal glib-gettextize glib-mkenums gobject-query gresource gsettings gtester gtester-report
+glib:gapplication gdbus gdbus-codegen gio gio-launch-desktop gio-querymodules glib-compile-resources glib-compile-schemas glib-genmarshal glib-gettextize glib-mkenums gobject-query gresource gsettings gtester gtester-report
 glibmm:
 glide:glide
 glkterm:
@@ -1762,6 +1765,7 @@ hydra:dpl4hydra.sh hydra hydra-wizard.sh pw-inspector
 hyper:hyper
 hyperestraier:estbutler estcall estcmd estconfig estload estmaster estmttest estwaver estwolefind
 hyperfine:hyperfine
+hyperkit:hyperkit
 hyperscan:
 hyperspec:
 hypre:
@@ -2478,10 +2482,10 @@ livestreamer:livestreamer
 lldpd:lldpcli lldpctl lldpd
 llnode:
 llvm:FileCheck bugpoint c-index-test clang clang++ clang-4.0 clang-apply-replacements clang-change-namespace clang-check clang-cl clang-cpp clang-format clang-import-test clang-include-fixer clang-offload-bundler clang-query clang-rename clang-reorder-fields clang-tblgen clang-tidy count find-all-symbols git-clang-format ld.lld llc lld lld-link lli lli-child-target llvm-PerfectShuffle llvm-ar llvm-as llvm-bcanalyzer llvm-c-test llvm-cat llvm-config llvm-cov llvm-cxxdump llvm-cxxfilt llvm-diff llvm-dis llvm-dsymutil llvm-dwarfdump llvm-dwp llvm-extract llvm-lib llvm-link llvm-lto llvm-lto2 llvm-mc llvm-mcmarkup llvm-modextract llvm-nm llvm-objdump llvm-opt-report llvm-pdbdump llvm-profdata llvm-ranlib llvm-readobj llvm-rtdyld llvm-size llvm-split llvm-stress llvm-strings llvm-symbolizer llvm-tblgen llvm-xray modularize not obj2yaml opt sancov sanstats scan-build scan-view set-xcode-analyzer verify-uselistorder yaml-bench yaml2obj
-llvm@3.7:FileCheck-3.7 bugpoint-3.7 c-index-test-3.7 clang++-3.7 clang-3.7 clang-apply-replacements-3.7 clang-check-3.7 clang-format-3.7 clang-modernize-3.7 clang-query-3.7 clang-rename-3.7 clang-tblgen-3.7 clang-tidy-3.7 count-3.7 llc-3.7 lli-3.7 lli-child-target-3.7 llvm-ar-3.7 llvm-as-3.7 llvm-bcanalyzer-3.7 llvm-config-3.7 llvm-cov-3.7 llvm-cxxdump-3.7 llvm-diff-3.7 llvm-dis-3.7 llvm-dsymutil-3.7 llvm-dwarfdump-3.7 llvm-extract-3.7 llvm-link-3.7 llvm-mc-3.7 llvm-mcmarkup-3.7 llvm-nm-3.7 llvm-objdump-3.7 llvm-pdbdump-3.7 llvm-profdata-3.7 llvm-ranlib-3.7 llvm-readobj-3.7 llvm-rtdyld-3.7 llvm-size-3.7 llvm-stress-3.7 llvm-symbolizer-3.7 llvm-tblgen-3.7 macho-dump-3.7 not-3.7 obj2yaml-3.7 opt-3.7 pp-trace-3.7 scan-build-3.7 scan-view-3.7 verify-uselistorder-3.7 yaml2obj-3.7
 llvm@3.9:FileCheck bugpoint c-index-test clang clang++ clang-3.9 clang-apply-replacements clang-check clang-cl clang-format clang-include-fixer clang-query clang-rename clang-tblgen clang-tidy count find-all-symbols git-clang-format ld.lld llc lld lld-link lli lli-child-target llvm-PerfectShuffle llvm-ar llvm-as llvm-bcanalyzer llvm-c-test llvm-config llvm-cov llvm-cxxdump llvm-diff llvm-dis llvm-dsymutil llvm-dwarfdump llvm-dwp llvm-extract llvm-lib llvm-link llvm-lto llvm-mc llvm-mcmarkup llvm-nm llvm-objdump llvm-pdbdump llvm-profdata llvm-ranlib llvm-readobj llvm-rtdyld llvm-size llvm-split llvm-stress llvm-symbolizer llvm-tblgen modularize not obj2yaml opt sancov sanstats scan-build scan-view set-xcode-analyzer verify-uselistorder yaml-bench yaml2obj
 llvm@4:FileCheck bugpoint c-index-test clang clang++ clang-4.0 clang-apply-replacements clang-change-namespace clang-check clang-cl clang-cpp clang-format clang-import-test clang-include-fixer clang-offload-bundler clang-query clang-rename clang-reorder-fields clang-tidy count find-all-symbols git-clang-format ld.lld llc lld lld-link lli lli-child-target llvm-PerfectShuffle llvm-ar llvm-as llvm-bcanalyzer llvm-c-test llvm-cat llvm-config llvm-cov llvm-cxxdump llvm-cxxfilt llvm-diff llvm-dis llvm-dsymutil llvm-dwarfdump llvm-dwp llvm-extract llvm-lib llvm-link llvm-lto llvm-lto2 llvm-mc llvm-mcmarkup llvm-modextract llvm-nm llvm-objdump llvm-opt-report llvm-pdbdump llvm-profdata llvm-ranlib llvm-readobj llvm-rtdyld llvm-size llvm-split llvm-stress llvm-strings llvm-symbolizer llvm-tblgen llvm-xray modularize not obj2yaml opt sancov sanstats scan-build scan-view set-xcode-analyzer verify-uselistorder yaml-bench yaml2obj
 llvm@5:FileCheck bugpoint c-index-test clang clang++ clang-5.0 clang-apply-replacements clang-change-namespace clang-check clang-cl clang-cpp clang-format clang-import-test clang-include-fixer clang-offload-bundler clang-query clang-rename clang-reorder-fields clang-tidy clangd count find-all-symbols git-clang-format ld.lld llc lld lld-link lli lli-child-target llvm-PerfectShuffle llvm-ar llvm-as llvm-bcanalyzer llvm-c-test llvm-cat llvm-config llvm-cov llvm-cvtres llvm-cxxdump llvm-cxxfilt llvm-diff llvm-dis llvm-dlltool llvm-dsymutil llvm-dwarfdump llvm-dwp llvm-extract llvm-lib llvm-link llvm-lto llvm-lto2 llvm-mc llvm-mcmarkup llvm-modextract llvm-mt llvm-nm llvm-objdump llvm-opt-report llvm-pdbutil llvm-profdata llvm-ranlib llvm-readelf llvm-readobj llvm-rtdyld llvm-size llvm-split llvm-stress llvm-strings llvm-symbolizer llvm-tblgen llvm-xray modularize not obj2yaml opt sancov sanstats scan-build scan-view set-xcode-analyzer verify-uselistorder yaml-bench yaml2obj
+llvm@6:FileCheck bugpoint c-index-test clang clang++ clang-6.0 clang-apply-replacements clang-change-namespace clang-check clang-cl clang-cpp clang-format clang-func-mapping clang-import-test clang-include-fixer clang-offload-bundler clang-query clang-refactor clang-rename clang-reorder-fields clang-tidy clangd count find-all-symbols git-clang-format ld.lld ld64.lld llc lld lld-link lli lli-child-target llvm-PerfectShuffle llvm-ar llvm-as llvm-bcanalyzer llvm-c-test llvm-cat llvm-cfi-verify llvm-config llvm-cov llvm-cvtres llvm-cxxdump llvm-cxxfilt llvm-diff llvm-dis llvm-dlltool llvm-dsymutil llvm-dwarfdump llvm-dwp llvm-extract llvm-lib llvm-link llvm-lto llvm-lto2 llvm-mc llvm-mcmarkup llvm-modextract llvm-mt llvm-nm llvm-objcopy llvm-objdump llvm-opt-report llvm-pdbutil llvm-profdata llvm-ranlib llvm-rc llvm-readelf llvm-readobj llvm-rtdyld llvm-size llvm-split llvm-stress llvm-strings llvm-symbolizer llvm-tblgen llvm-xray modularize not obj2yaml opt sancov sanstats scan-build scan-view set-xcode-analyzer verify-uselistorder wasm-ld yaml-bench yaml2obj
 lm4tools:lm4flash lmicdi
 lmdb:mdb_copy mdb_dump mdb_load mdb_stat
 lmod:
@@ -2626,7 +2630,6 @@ mecab-unidic:
 mecab:mecab mecab-config
 media-info:mediainfo
 mediaconch:mediaconch
-mediatomb:mediatomb
 mednafen:mednafen
 megacmd:megacmd
 megatools:megacopy megadf megadl megaget megals megamkdir megaput megareg megarm
@@ -2930,6 +2933,7 @@ nload:nload
 nlopt:
 nmap:ncat ndiff nmap nping uninstall_ndiff
 nmh:ali anno burst comp dist flist flists fmttest fnext folder folders forw fprev inc install-mh mark mhbuild mhfixmsg mhlist mhmail mhn mhparam mhpath mhshow mhstore msgchk msh new next packf pick prev prompter refile repl rmf rmm scan send sendfiles show sortm unseen whatnow whom
+nng:nngcat
 nnn:nlay nnn
 no-more-secrets:nms sneakers
 node-build:node-build nodenv-install nodenv-uninstall
@@ -2977,6 +2981,7 @@ nuxeo:nuxeoctl
 nvc:nvc
 nvi:nex nvi nview
 nvm:
+nwchem:nwchem
 nxengine:nx
 nyancat:nyancat
 nylon:nylon
@@ -2991,6 +2996,7 @@ ocaml-num:
 ocaml:ocaml ocamlc ocamlc.byte ocamlc.opt ocamlcp ocamlcp.byte ocamlcp.opt ocamldebug ocamldep ocamldep.byte ocamldep.opt ocamldoc ocamldoc.opt ocamllex ocamllex.byte ocamllex.opt ocamlmklib ocamlmklib.byte ocamlmklib.opt ocamlmktop ocamlmktop.byte ocamlmktop.opt ocamlobjinfo ocamlobjinfo.byte ocamlobjinfo.opt ocamlopt ocamlopt.byte ocamlopt.opt ocamloptp ocamloptp.byte ocamloptp.opt ocamlprof ocamlprof.byte ocamlprof.opt ocamlrun ocamlrund ocamlyacc
 ocamlbuild:ocamlbuild ocamlbuild.byte ocamlbuild.native
 ocamlsdl:
+oclgrind:oclgrind oclgrind-kernel
 ocp:ocp ocp-0.1.21 ocp-curses ultrafix.sh
 ocproxy:ocproxy
 ocrad:ocrad
@@ -3200,6 +3206,7 @@ perl-build:perl-build plenv-install plenv-uninstall
 perl:corelist cpan enc2xs encguess h2ph h2xs instmodsh json_pp libnetcfg perl perl5.28.0 perlbug perldoc perlivp perlthanks piconv pl2pm pod2html pod2man pod2text pod2usage podchecker podselect prove ptar ptardiff ptargrep shasum splain xsubpp zipdetails
 perl@5.18:a2p c2ph config_data corelist cpan cpan2dist cpanp cpanp-run-perl enc2xs find2perl h2ph h2xs instmodsh json_pp libnetcfg perl perl5.18.2 perlbug perldoc perlivp perlthanks piconv pl2pm pod2html pod2latex pod2man pod2text pod2usage podchecker podselect prove psed pstruct ptar ptardiff ptargrep s2p shasum splain xsubpp zipdetails
 perltidy:perltidy
+peru:peru
 petsc-complex:
 petsc:
 pev:ofs2rva pedis pehash pepack peres pescan pesec pestr readpe rva2ofs
@@ -3235,6 +3242,7 @@ physfs:test_physfs
 pianobar:pianobar
 pianod:piano pianod runmix
 picard-tools:picard
+picat:picat
 pick:pick
 picoc:picoc
 picocom:picocom
@@ -3537,7 +3545,6 @@ redex:apkutil redex redexdump
 redir:redir
 redis-leveldb:redis-leveldb
 redis:redis-benchmark redis-check-aof redis-check-rdb redis-cli redis-sentinel redis-server
-redis@2.8:redis28-benchmark redis28-check-aof redis28-check-dump redis28-cli redis28-sentinel redis28-server
 redis@3.2:redis-benchmark redis-check-aof redis-check-rdb redis-cli redis-sentinel redis-server
 redland:rdfproc redland-config redland-db-upgrade
 redo:redo redo-always redo-ifchange redo-ifcreate redo-ood redo-sources redo-stamp redo-targets redo-unlocked
@@ -3826,6 +3833,7 @@ smake:smake
 smali:baksmali smali
 smartmontools:smartctl smartd update-smart-drivedb
 smartypants:smartypants
+smimesign:smimesign
 smlnj:heap2asm heap2exec ml-antlr ml-build ml-burg ml-lex ml-makedepend ml-nlffigen ml-ulex ml-yacc sml
 smpeg2:plaympeg2 smpeg2-config
 smpeg:plaympeg smpeg-config
@@ -3981,7 +3989,6 @@ stuntman:stunclient stunserver stuntestcode
 style-check:style-check.rb
 sub2srt:sub2srt
 subliminal:subliminal
-submarine:submarine
 subnetcalc:subnetcalc
 subversion:svn svnadmin svnbench svndumpfilter svnfsfs svnlook svnmucc svnrdump svnserve svnsync svnversion
 subversion@1.8:svn svnadmin svndumpfilter svnlook svnmucc svnrdump svnserve svnsync svnversion
@@ -4244,6 +4251,7 @@ ubertooth:ubertooth-afh ubertooth-btle ubertooth-debug ubertooth-dfu ubertooth-d
 ucg:ucg
 uchardet:uchardet
 ucl:
+ucloud:ucloud
 ucommon:args car commoncpp-config keywait mdsum pdetach scrub-files sockaddr ucommon-config zerofill
 ucon64:ucon64
 ucspi-tcp:addcr argv0 date@ delcr finger@ fixcrio http@ mconnect mconnect-io rblsmtpd recordio tcpcat tcpclient tcprules tcprulescheck tcpserver who@
