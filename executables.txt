@@ -163,7 +163,6 @@ ascii:ascii
 asciidoc:a2x a2x.py asciidoc asciidoc.py
 asciidoctor:asciidoctor asciidoctor-safe
 asciidoctorj:asciidoctorj
-asciinema2gif:asciinema2gif
 asciinema:asciinema
 asciiquarium:asciiquarium
 asciitex:asciiTeX
@@ -427,6 +426,7 @@ bzr-xmloutput:
 bzrtools:
 bzt:bzt jmx2yaml soapui2yaml
 c-ares:
+c-blosc:
 c-kermit:ckermit.ini kermit kermit-sshsub
 c10t:c10t
 c14-cli:c14
@@ -459,7 +459,6 @@ carrot2:carrot2
 carthage:carthage
 cash-cli:cash
 cask:cask
-casperjs:casperjs
 cassandra:cassandra cassandra-stress cassandra-stressd compaction-stress cqlsh cqlsh.py debug-cql nodetool sstabledump sstableexpiredblockers sstablelevelreset sstableloader sstablemetadata sstableofflinerelevel sstablerepairedset sstablescrub sstablesplit sstableupgrade sstableutil sstableverify
 cassandra@2.1:cassandra cassandra-cli cqlsh debug-cql nodetool sstablekeys sstableloader sstablescrub sstableupgrade
 cassandra@2.2:cassandra cqlsh cqlsh.py debug-cql nodetool sstablekeys sstableloader sstablescrub sstableupgrade sstableverify
@@ -1292,6 +1291,7 @@ gdmap:gdmap
 gdnsd:gdnsd gdnsd_geoip_test
 gdrive:gdrive
 gdub:gw
+geant4:geant4-config geant4.csh geant4.sh
 gearboy:Gearboy
 gearman:gearadmin gearman gearmand
 gearsystem:Gearsystem
@@ -1655,7 +1655,6 @@ gzrt:gzrecover
 h264bitstream:h264_analyze
 h2:h2
 h2o:h2o
-hachoir-metadata:hachoir-metadata hachoir-metadata-gtk hachoir-metadata-qt
 hackrf:hackrf_cpldjtag hackrf_debug hackrf_info hackrf_spiflash hackrf_sweep hackrf_transfer
 hadolint:hadolint
 hadoop:container-executor distribute-exclude.sh hadoop hadoop-daemon.sh hadoop-daemons.sh hdfs hdfs-config.sh httpfs.sh kms.sh mapred mr-jobhistory-daemon.sh refresh-namenodes.sh slaves.sh start-all.sh start-balancer.sh start-dfs.sh start-secure-dns.sh start-yarn.sh stop-all.sh stop-balancer.sh stop-dfs.sh stop-secure-dns.sh stop-yarn.sh test-container-executor yarn yarn-daemon.sh yarn-daemons.sh
@@ -1770,10 +1769,10 @@ hyperscan:
 hyperspec:
 hypre:
 i2p:eepget i2prouter
+i2pd:i2pd
 i2util:aespasswd pfstore
 iamy:iamy
 iat:iat
-ib:ib
 ibex:
 ical-buddy:icalBuddy
 icarus-verilog:iverilog iverilog-vpi vvp
@@ -1964,7 +1963,6 @@ jsonschema2pojo:jsonschema2pojo
 jsvc:jsvc
 jthread:
 juise:juise juise-config
-juju-quickstart:juju-quickstart
 juju-wait:juju-wait
 juju:juju juju-metadata
 julius:accept_check.dSYM adinrec.dSYM adintool.dSYM dfa_determinize.dSYM dfa_minimize.dSYM generate-ngram.dSYM generate.dSYM gram2sapixml.pl jclient.pl jcontrol.dSYM julius.dSYM libjulius-config libsent-config mkbingram.dSYM mkbinhmm.dSYM mkbinhmmlist.dSYM mkgshmm mkss.dSYM nextword.dSYM yomi2voca.pl
@@ -2143,6 +2141,7 @@ libcdr:cdr2raw cdr2text cdr2xhtml cmx2raw cmx2text cmx2xhtml
 libcds:
 libcec:cec-client cec-client-4.0.2 cecc-client cecc-client-4.0.2 pyCecClient
 libcello:
+libcerf:
 libchamplain:
 libchaos:
 libchewing:
@@ -2669,7 +2668,6 @@ mikutter:mikutter
 mill:mill
 miller:mlr
 mimic:compile_regexes mimic mimic_time mimicvox_info t2p
-mimms:mimms
 minbif:minbif
 minetest:
 mingw-w64:i686-w64-mingw32-addr2line i686-w64-mingw32-ar i686-w64-mingw32-as i686-w64-mingw32-c++ i686-w64-mingw32-c++filt i686-w64-mingw32-cpp i686-w64-mingw32-dlltool i686-w64-mingw32-dllwrap i686-w64-mingw32-elfedit i686-w64-mingw32-g++ i686-w64-mingw32-gcc i686-w64-mingw32-gcc-6.3.0 i686-w64-mingw32-gcc-ar i686-w64-mingw32-gcc-nm i686-w64-mingw32-gcc-ranlib i686-w64-mingw32-gcov i686-w64-mingw32-gcov-tool i686-w64-mingw32-gfortran i686-w64-mingw32-gprof i686-w64-mingw32-ld i686-w64-mingw32-ld.bfd i686-w64-mingw32-nm i686-w64-mingw32-objcopy i686-w64-mingw32-objdump i686-w64-mingw32-ranlib i686-w64-mingw32-readelf i686-w64-mingw32-size i686-w64-mingw32-strings i686-w64-mingw32-strip i686-w64-mingw32-windmc i686-w64-mingw32-windres x86_64-w64-mingw32-addr2line x86_64-w64-mingw32-ar x86_64-w64-mingw32-as x86_64-w64-mingw32-c++ x86_64-w64-mingw32-c++filt x86_64-w64-mingw32-cpp x86_64-w64-mingw32-dlltool x86_64-w64-mingw32-dllwrap x86_64-w64-mingw32-elfedit x86_64-w64-mingw32-g++ x86_64-w64-mingw32-gcc x86_64-w64-mingw32-gcc-6.3.0 x86_64-w64-mingw32-gcc-ar x86_64-w64-mingw32-gcc-nm x86_64-w64-mingw32-gcc-ranlib x86_64-w64-mingw32-gcov x86_64-w64-mingw32-gcov-tool x86_64-w64-mingw32-gfortran x86_64-w64-mingw32-gprof x86_64-w64-mingw32-ld x86_64-w64-mingw32-ld.bfd x86_64-w64-mingw32-nm x86_64-w64-mingw32-objcopy x86_64-w64-mingw32-objdump x86_64-w64-mingw32-ranlib x86_64-w64-mingw32-readelf x86_64-w64-mingw32-size x86_64-w64-mingw32-strings x86_64-w64-mingw32-strip x86_64-w64-mingw32-windmc x86_64-w64-mingw32-windres
@@ -2991,6 +2989,7 @@ oath-toolkit:oathtool pskctool
 oauth2_proxy:oauth2_proxy
 objc-codegenutils:objc-assetgen objc-colordump objc-identifierconstants
 objc-run:objc-run
+objfw:objfw-compile objfw-config objfw-new ofhash ofhttp ofzip
 ocaml-findlib:ocamlfind
 ocaml-num:
 ocaml:ocaml ocamlc ocamlc.byte ocamlc.opt ocamlcp ocamlcp.byte ocamlcp.opt ocamldebug ocamldep ocamldep.byte ocamldep.opt ocamldoc ocamldoc.opt ocamllex ocamllex.byte ocamllex.opt ocamlmklib ocamlmklib.byte ocamlmklib.opt ocamlmktop ocamlmktop.byte ocamlmktop.opt ocamlobjinfo ocamlobjinfo.byte ocamlobjinfo.opt ocamlopt ocamlopt.byte ocamlopt.opt ocamloptp ocamloptp.byte ocamloptp.opt ocamlprof ocamlprof.byte ocamlprof.opt ocamlrun ocamlrund ocamlyacc
@@ -3019,7 +3018,6 @@ omniorb:catior convertior genior nameclt omkdepend omnicpp omniidl omniidlrun.py
 ompl:ompl_benchmark_statistics.py
 ondir:ondir
 one-ml:1ml
-onepass:1pass
 onetime:onetime
 oniguruma:onig-config
 onioncat:ocat
@@ -3074,7 +3072,9 @@ openslp:slpd slptool
 openssh:scp sftp slogin ssh ssh-add ssh-agent ssh-keygen ssh-keyscan sshd
 openssl:c_rehash openssl
 openssl@1.1:c_rehash openssl
+opensubdiv:far_perf far_regression hbr_baseline hbr_regression osd_regression stringify
 opensyobon:SyobonAction
+opentracing-cpp:
 opentsdb:start-tsdb.sh tsdb
 openttd:openttd
 openvdb:vdb_lod vdb_print vdb_render
@@ -3226,7 +3226,6 @@ pgrouting:
 pgtoolkit:pgcompact
 pgtune:pgtune
 pgweb:pgweb
-phantomjs:phantomjs
 phoon:phoon
 phoronix-test-suite:phoronix-test-suite
 php-code-sniffer:phpcbf phpcs
@@ -3459,14 +3458,12 @@ qscintilla2:
 qsoas:QSoas
 qstat:qstat
 qt:canbusutil fixqt4headers.pl lconvert lrelease lupdate macchangeqt macdeployqt moc qcollectiongenerator qdbus qdbuscpp2xml qdbusxml2cpp qdoc qgltf qhelpconverter qhelpgenerator qlalr qmake qmlcachegen qmleasing qmlimportscanner qmllint qmlmin qmlplugindump qmlprofiler qmlscene qmltestrunner qscxmlc qtattributionsscanner qtdiag qtpaths qtplugininfo qwebengine_convert_dict rcc repc syncqt.pl uic xmlpatterns xmlpatternsvalidator
-qt@5.5:lconvert lrelease lupdate macchangeqt macdeployqt moc qcollectiongenerator qdbus qdbuscpp2xml qdbusxml2cpp qdoc qhelpconverter qhelpgenerator qlalr qmake qml1plugindump qmleasing qmlimportscanner qmllint qmlmin qmlplugindump qmlprofiler qmlscene qmltestrunner qtdiag qtpaths qtplugininfo rcc syncqt.pl uic xmlpatterns xmlpatternsvalidator
 qtads:QTads
 qtfaststart:qt-faststart
 qtkeychain:
 quantlib:quantlib-config quantlib-test-suite
 quasi88:quasi88
 quazip:
-queequeg:qq
 questdb:questdb
 quex:quex
 quicktype:quicktype
@@ -3536,7 +3533,6 @@ reattach-to-user-namespace:reattach-to-user-namespace
 reaver:reaver wash
 rebar3:rebar3
 rebar:rebar
-reclass:reclass reclass-ansible reclass-salt
 recode:recode
 recon-ng:recon-ng
 recoverjpeg:recoverjpeg recovermov remove-duplicates sort-pictures
@@ -3590,6 +3586,7 @@ rinetd:rinetd
 ringojs:ringo ringo-admin ringo-doc ringo-web
 ripgrep:rg
 ripmime:ripmime
+rke:rke
 rkflashtool:rkcrc rkflashtool rkmisc rkpad rkparameters rkparametersblock rkunpack rkunsign
 rkhunter:rkhunter
 rlog:
@@ -3785,7 +3782,6 @@ shtool:shtool shtoolize
 shunit2:shunit2
 shyaml:shyaml
 sic:sic
-sickbeard:sickbeard
 sickle:sickle
 siege:bombardment siege siege.config siege2csv.pl
 sift:sift
@@ -3864,7 +3860,6 @@ somagic-tools:somagic-extract-firmware
 somagic:somagic-capture somagic-init
 sonar-completion:
 sonar-scanner:sonar-scanner
-sonarlint:sonarlint
 sonarqube-lts:sonar
 sonarqube:sonar
 sops:sops
@@ -4079,6 +4074,7 @@ tcptrack:tcptrack
 tcptunnel:tcptunnel
 tcsh:tcsh
 td:td
+tdlib:
 teapot:teapot
 tectonic:tectonic
 tee-clc:tf
