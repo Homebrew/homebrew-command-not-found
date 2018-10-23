@@ -1,0 +1,17 @@
+jobs:
+- job: macOS
+  pool:
+    vmImage: xcode9-macos10.13
+  steps:
+    - bash: |
+        sudo xcode-select --switch /Applications/Xcode_10.app/Contents/Developer
+        brew update-reset
+        ln -s "$PWD" "/usr/local/Homebrew/Library/Taps/homebrew/homebrew-command-not-found"
+        export HOMEBREW_DEVELOPER="1"
+        brew style homebrew/command-not-found
+        brew install bash fish
+        bash -n handler.sh
+        fish -n handler.fish
+        zsh -n handler.sh
+        rake test
+      displayName: Tests
