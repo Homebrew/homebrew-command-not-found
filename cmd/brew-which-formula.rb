@@ -20,7 +20,11 @@ end
 
 # Test if we have to reject the given formula, i.e. not suggest it.
 def reject_formula?(name)
-  f = Formula[name] rescue nil
+  f = begin
+        Formula[name]
+      rescue
+        nil
+      end
   f.nil? || f.installed? || f.requirements.any? { |r| r.required? && !r.satisfied? }
 end
 

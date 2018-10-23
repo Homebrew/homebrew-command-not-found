@@ -106,13 +106,13 @@ class ExecutablesDB
     puts "Moving #{old} => #{new}"
   end
 
-  def missing_formula?(f)
-    !@exes.key? f.full_name
+  def missing_formula?(formula)
+    !@exes.key? formula.full_name
   end
 
-  def update_formula_binaries(f, prefix = nil)
-    name = f.full_name
-    prefix ||= f.prefix
+  def update_formula_binaries(formula, prefix = nil)
+    name = formula.full_name
+    prefix ||= formula.prefix
 
     binaries = Set.new
 
@@ -124,23 +124,23 @@ class ExecutablesDB
 
     if missing_formula? f
       @changes[:add] << name
-    else
-      @changes[:update] << name if @exes[name] != binaries
+    elsif @exes[name] != binaries
+      @changes[:update] << name
     end
 
     @exes[name] = binaries
   end
 
   # update the binaries of {f}, assuming it's installed
-  def update_installed_formula(f)
-    update_formula_binaries f
+  def update_installed_formula(formula)
+    update_formula_binaries formula
   end
 
   # Add a formula's binaries from its bottle
-  def update_bottled_formula(f)
-    f.bottle.fetch
+  def update_bottled_formula(formula)
+    formula.bottle.fetch
     # NOTE: we may want to just list the bottle content without unarchiving it
-    f.bottle.resource.stage do
+    formula.bottle.resource.stage do
       update_formula_binaries f, Dir["*"].first
     end
   end
