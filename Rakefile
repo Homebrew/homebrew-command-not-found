@@ -1,6 +1,7 @@
 require "open3"
 require "test/unit/assertions"
-include Test::Unit::Assertions
+
+include Test::Unit::Assertions # rubocop:disable Style/MixinUsage
 
 task :test => ["test:bash", "test:fish", "test:zsh"]
 
@@ -12,10 +13,10 @@ namespace :test do
       # -e: exit on first error
       # -x: trace
       # -c: execute the command
-      output, status = Open3.capture2e("#{sh}", "-ex", "-c", command)
+      output, status = Open3.capture2e(sh.to_s, "-ex", "-c", command)
       puts output
       assert_equal status.exitstatus, 127
-      assert_match /brew install when/, output
+      assert_match(/brew install when/, output)
     end
   end
 
@@ -26,6 +27,6 @@ namespace :test do
     output, status = Open3.capture2e("fish", "--debug-level=3", "-c", command)
     puts output
     assert_equal status.exitstatus, 127
-    assert_match /brew install when/, output
+    assert_match(/brew install when/, output)
   end
 end

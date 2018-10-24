@@ -1,6 +1,6 @@
-# homebrew-command-not-found
+# Homebrew Command Not Found
 
-[![Build Status](https://travis-ci.org/Homebrew/homebrew-command-not-found.svg?branch=master)](https://travis-ci.org/Homebrew/homebrew-command-not-found)
+[![Azure Pipelines](https://img.shields.io/vso/build/Homebrew/56a87eb4-3180-495a-9117-5ed6c79da737/6.svg)](https://dev.azure.com/Homebrew/Homebrew/_build/latest?definitionId=6)
 
 This project reproduces Ubuntu’s `command-not-found` for Homebrew users on
 macOS.
@@ -9,7 +9,7 @@ On Ubuntu, when you try to use a command that doesn’t exist locally but is
 available through a package, Bash will suggest you a command to install it.
 Using this script, you can replicate this feature on macOS:
 
-```
+```bash
 # on Ubuntu
 $ when
 The program 'when' is currently not installed.  You can install it by typing:
@@ -62,7 +62,7 @@ sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
 chsh -s /usr/local/bin/bash
 ```
 
-## How does it work?
+## How does it work
 
 When you tap the repo you’ll get two more `brew` commands: `brew which-formula`
 and `brew which-update`. The first one uses a database file which gives you the
