@@ -122,7 +122,7 @@ class ExecutablesDB
 
     binaries = binaries.to_a.sort
 
-    if missing_formula? f
+    if missing_formula? formula
       @changes[:add] << name
     elsif @exes[name] != binaries
       @changes[:update] << name
@@ -131,7 +131,7 @@ class ExecutablesDB
     @exes[name] = binaries
   end
 
-  # update the binaries of {f}, assuming it's installed
+  # update the binaries of {formula}, assuming it's installed
   def update_installed_formula(formula)
     update_formula_binaries formula
   end
@@ -141,7 +141,7 @@ class ExecutablesDB
     formula.bottle.fetch
     # NOTE: we may want to just list the bottle content without unarchiving it
     formula.bottle.resource.stage do
-      update_formula_binaries f, Dir["*"].first
+      update_formula_binaries formula, Dir["*"].first
     end
   end
 end
