@@ -94,6 +94,7 @@ antlr:antlr4 grun
 antlr@2:antlr2
 anttweakbar:
 aoeui:aoeui asdfg
+aom:aomdec aomenc
 apache-archiva:archiva
 apache-arrow-glib:
 apache-arrow:
@@ -122,13 +123,11 @@ apollo:apollo
 app-engine-java:appcfg.sh dev_appserver.sh endpoints.sh google_sql.sh run_java.sh
 app-engine-python:_php_runtime.py _python_runtime.py api_server.py appcfg.py bulkload_client.py bulkloader.py dev_appserver.py download_appstats.py endpointscfg.py gen_protorpc.py google_sql.py remote_api_shell.py
 apparix:apparix
-apple-gcc42:c++-4.2 cpp-4.2 g++-4.2 gcc-4.2 gcov-4.2 gfortran-4.2 i686-apple-darwin11-cpp-4.2.1 i686-apple-darwin11-g++-4.2.1 i686-apple-darwin11-gcc-4.2.1 i686-apple-darwin11-gfortran-4.2.1
 appledoc:appledoc
 appscale-tools:appscale appscale-add-instances appscale-add-keypair appscale-describe-instances appscale-gather-logs appscale-get-property appscale-relocate-app appscale-remove-app appscale-reset-pwd appscale-run-instances appscale-set-property appscale-terminate-instances appscale-upgrade appscale-upload-app
 apr-util:apu-1-config
 apr:apr-1-config
 apt-dater:apt-dater
-aptly-completion:
 aptly:aptly
 aqbanking:aqbanking-cli aqbanking-config aqebics-tool aqhbci-tool4 hbcixml3
 arabica:mangle
@@ -175,6 +174,7 @@ aspectj:aj aj5 ajbrowser ajc ajdoc
 aspell:aspell aspell-import precat preunzip prezip prezip-bin pspell-config run-with-aspell word-list-compress
 assh:assh
 assimp:assimp
+astrometry-net:an-fitstopnm an-pnmtofits astrometry-engine build-astrometry-index degtohms downsample-fits fit-wcs fits-column-merge fits-flip-endian fits-guess-scale fitscopy fitsgetext fitsverify get-healpix get-wcs hmstodeg hpsplit image2pnm image2xy imarith imcopy imstat listhead liststruc merge-columns modhead new-wcs pad-file plot-constellations plotann.py plotquad plotxy query-starkd removelines solve-field startree subtable tablist tabmerge tabsort text2fits uniformize votabletofits wcs-grab wcs-match wcs-pv2sip wcs-rd2xy wcs-resample wcs-to-tan wcs-xy2rd wcsinfo
 astyle:astyle
 at-spi2-atk:
 at-spi2-core:
@@ -868,6 +868,7 @@ dmd:catdoc ddemangle detab dmd dustmite rdmd tolf
 dmenu:dmenu dmenu_path dmenu_run stest
 dmtx-utils:dmtxquery dmtxread dmtxwrite
 dns2tcp:dns2tcpc dns2tcpd
+dnscontrol:dnscontrol
 dnscrypt-proxy:dnscrypt-proxy dnscrypt-update-resolvers hostip
 dnscrypt-wrapper:dnscrypt-wrapper
 dnsdist:dnsdist
@@ -1526,6 +1527,7 @@ goose:goose
 gopass:gopass
 gor:gor
 goreleaser:goreleaser
+goreman:goreman
 gost:gost
 gosu:gosu
 gotags:gotags
@@ -1561,7 +1563,6 @@ grace:convcal fdf2fit gracebat grconvert xmgrace
 gradio:gradio
 gradle-completion:
 gradle:gradle
-gradle@2.14:gradle
 grafana:grafana-cli grafana-server
 grails:grails
 grakn:cassandra cassandra.in.sh create-admin-user.sh grakn-cassandra.sh grakn-engine.sh grakn-redis.sh grakn.in.sh grakn.sh graql.sh kafka-run-class.sh kafka-server-start.sh kafka-server-status.sh kafka-server-stop.sh migration.sh nodetool redis-cli-linux redis-cli-osx redis-server-linux redis-server-osx zookeeper-server-start.sh zookeeper-server-status.sh zookeeper-server-stop.sh
@@ -1704,7 +1705,6 @@ hfstospell:hfst-ospell
 hfsutils:hattrib hcd hcopy hdel hdir hformat hls hmkdir hmount hpwd hrename hrmdir humount hvol
 hg-fast-export:hg-fast-export.py hg-fast-export.sh hg-reset.py hg-reset.sh hg2git.py
 hg-flow:
-hh:hh hstr
 hicolor-icon-theme:
 hidapi:hidtest
 highlight:highlight
@@ -1734,6 +1734,7 @@ hqx:hqx
 hr:hr
 hspell:hspell hspell-i multispell
 hss:hss
+hstr:hh hstr
 ht:ht
 html-xml-utils:asc2xml hxaddid hxcite hxcite-mkbib hxclean hxcopy hxcount hxextract hxincl hxindex hxmkbib hxmultitoc hxname2id hxnormalize hxnsxml hxnum hxpipe hxprintlinks hxprune hxref hxremove hxselect hxtabletrans hxtoc hxuncdata hxunent hxunpipe hxunxmlns hxwls hxxmlns xml2asc
 html2text:html2text
@@ -1777,6 +1778,7 @@ i2pd:i2pd
 i2util:aespasswd pfstore
 i386-elf-binutils:i386-elf-addr2line i386-elf-ar i386-elf-as i386-elf-c++filt i386-elf-elfedit i386-elf-gprof i386-elf-ld i386-elf-ld.bfd i386-elf-nm i386-elf-objcopy i386-elf-objdump i386-elf-ranlib i386-elf-readelf i386-elf-size i386-elf-strings i386-elf-strip
 i386-elf-gcc:i386-elf-c++ i386-elf-cpp i386-elf-g++ i386-elf-gcc i386-elf-gcc-8.2.0 i386-elf-gcc-ar i386-elf-gcc-nm i386-elf-gcc-ranlib i386-elf-gcov i386-elf-gcov-dump i386-elf-gcov-tool
+i386-elf-gdb:i386-elf-gdb i386-elf-gdb-add-index
 iamy:iamy
 iat:iat
 ibex:
@@ -1837,6 +1839,7 @@ insect:insect
 inspectrum:inspectrum
 inspircd:inspircd
 instead:instead sdl-instead
+interactive-rebase-tool:interactive-rebase-tool
 intercal:convickt ick
 internetarchive:ia
 intltool:intltool-extract intltool-merge intltool-prepare intltool-update intltoolize
@@ -2677,6 +2680,7 @@ mimic:compile_regexes mimic mimic_time mimicvox_info t2p
 minbif:minbif
 minetest:
 mingw-w64:i686-w64-mingw32-addr2line i686-w64-mingw32-ar i686-w64-mingw32-as i686-w64-mingw32-c++ i686-w64-mingw32-c++filt i686-w64-mingw32-cpp i686-w64-mingw32-dlltool i686-w64-mingw32-dllwrap i686-w64-mingw32-elfedit i686-w64-mingw32-g++ i686-w64-mingw32-gcc i686-w64-mingw32-gcc-6.3.0 i686-w64-mingw32-gcc-ar i686-w64-mingw32-gcc-nm i686-w64-mingw32-gcc-ranlib i686-w64-mingw32-gcov i686-w64-mingw32-gcov-tool i686-w64-mingw32-gfortran i686-w64-mingw32-gprof i686-w64-mingw32-ld i686-w64-mingw32-ld.bfd i686-w64-mingw32-nm i686-w64-mingw32-objcopy i686-w64-mingw32-objdump i686-w64-mingw32-ranlib i686-w64-mingw32-readelf i686-w64-mingw32-size i686-w64-mingw32-strings i686-w64-mingw32-strip i686-w64-mingw32-windmc i686-w64-mingw32-windres x86_64-w64-mingw32-addr2line x86_64-w64-mingw32-ar x86_64-w64-mingw32-as x86_64-w64-mingw32-c++ x86_64-w64-mingw32-c++filt x86_64-w64-mingw32-cpp x86_64-w64-mingw32-dlltool x86_64-w64-mingw32-dllwrap x86_64-w64-mingw32-elfedit x86_64-w64-mingw32-g++ x86_64-w64-mingw32-gcc x86_64-w64-mingw32-gcc-6.3.0 x86_64-w64-mingw32-gcc-ar x86_64-w64-mingw32-gcc-nm x86_64-w64-mingw32-gcc-ranlib x86_64-w64-mingw32-gcov x86_64-w64-mingw32-gcov-tool x86_64-w64-mingw32-gfortran x86_64-w64-mingw32-gprof x86_64-w64-mingw32-ld x86_64-w64-mingw32-ld.bfd x86_64-w64-mingw32-nm x86_64-w64-mingw32-objcopy x86_64-w64-mingw32-objdump x86_64-w64-mingw32-ranlib x86_64-w64-mingw32-readelf x86_64-w64-mingw32-size x86_64-w64-mingw32-strings x86_64-w64-mingw32-strip x86_64-w64-mingw32-windmc x86_64-w64-mingw32-windres
+minica:minica
 minicom:ascii-xfr minicom runscript xminicom
 minidjvu:minidjvu
 minidlna:minidlnad
@@ -3029,6 +3033,7 @@ oniguruma:onig-config
 onioncat:ocat
 onscripter:nsaconv nsadec onscripter sarconv sardec
 ooniprobe:oonideckgen ooniprobe oonireport ooniresources
+opa:opa
 opam:opam opam-admin opam-installer
 open-babel:babel obabel obchiral obconformer obenergy obfit obgen obgrep obminimize obprobe obprop obrms obrotamer obrotate obspectrophore roundtrip
 open-cobol:cob-config cobc cobcrun
@@ -3236,8 +3241,8 @@ php-code-sniffer:phpcbf phpcs
 php-cs-fixer:php-cs-fixer
 php:pear peardev pecl phar phar.phar php php-cgi php-config php-fpm phpdbg phpize
 php@5.6:pear peardev pecl phar phar.phar php php-cgi php-config php-fpm phpdbg phpize
-php@7.0:pear peardev pecl phar phar.phar php php-cgi php-config php-fpm phpdbg phpize
 php@7.1:pear peardev pecl phar phar.phar php php-cgi php-config php-fpm phpdbg phpize
+php@7.2:pear peardev pecl phar phar.phar php php-cgi php-config php-fpm phpdbg phpize
 phplint:phpl
 phpmyadmin:
 phpunit:phpunit
@@ -3249,6 +3254,7 @@ picat:picat
 pick:pick
 picoc:picoc
 picocom:picocom
+pict:pict
 pidcat:pidcat
 pidgin:finch pidgin
 pidof:pidof
@@ -3289,7 +3295,6 @@ plank:plank
 plantuml:plantuml
 platformio:pio platformio
 platypus:platypus
-pldebugger:
 plenv:plenv
 plod:plod
 ploticus:ploticus
@@ -3329,6 +3334,7 @@ poster:poster
 postgis:create_undef.pl pgsql2shp postgis_proc_upgrade.pl postgis_restore.pl profile_intersects.pl raster2pgsql shp2pgsql test_estimation.pl test_geography_estimation.pl test_geography_joinestimation.pl test_joinestimation.pl
 postgres-xc:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg gtm gtm_ctl gtm_proxy initdb initgtm makesgml oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_resetxlog pg_restore pg_standby pg_test_fsync pg_upgrade pgbench pgxc_clean postgres postmaster psql reindexdb vacuumdb vacuumlo
 postgresql:clusterdb createdb createuser dropdb dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivewal pg_recvlogical pg_resetwal pg_restore pg_rewind pg_standby pg_test_fsync pg_test_timing pg_upgrade pg_waldump pgbench postgres postmaster psql reindexdb vacuumdb vacuumlo
+postgresql@10:clusterdb createdb createuser dropdb dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivewal pg_recvlogical pg_resetwal pg_restore pg_rewind pg_standby pg_test_fsync pg_test_timing pg_upgrade pg_waldump pgbench postgres postmaster psql reindexdb vacuumdb vacuumlo
 postgresql@9.4:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivexlog pg_recvlogical pg_resetxlog pg_restore pg_standby pg_test_fsync pg_test_timing pg_upgrade pg_xlogdump pgbench pltcl_delmod pltcl_listmod pltcl_loadmod postgres postmaster psql reindexdb vacuumdb vacuumlo
 postgresql@9.5:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivexlog pg_recvlogical pg_resetxlog pg_restore pg_rewind pg_standby pg_test_fsync pg_test_timing pg_upgrade pg_xlogdump pgbench pltcl_delmod pltcl_listmod pltcl_loadmod postgres postmaster psql reindexdb vacuumdb vacuumlo
 postgresql@9.6:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivexlog pg_recvlogical pg_resetxlog pg_restore pg_rewind pg_standby pg_test_fsync pg_test_timing pg_upgrade pg_xlogdump pgbench pltcl_delmod pltcl_listmod pltcl_loadmod postgres postmaster psql reindexdb vacuumdb vacuumlo
@@ -3461,7 +3467,7 @@ qrupdate:
 qscintilla2:
 qsoas:QSoas
 qstat:qstat
-qt:canbusutil fixqt4headers.pl lconvert lrelease lupdate macchangeqt macdeployqt moc qcollectiongenerator qdbus qdbuscpp2xml qdbusxml2cpp qgltf qhelpconverter qhelpgenerator qlalr qmake qmlcachegen qmleasing qmlimportscanner qmllint qmlmin qmlplugindump qmlprofiler qmlscene qmltestrunner qscxmlc qtattributionsscanner qtdiag qtpaths qtplugininfo qvkgen qwebengine_convert_dict rcc repc syncqt.pl uic xmlpatterns xmlpatternsvalidator
+qt:canbusutil fixqt4headers.pl lconvert lrelease lupdate macchangeqt macdeployqt moc qdbus qdbuscpp2xml qdbusxml2cpp qdistancefieldgenerator qgltf qhelpgenerator qlalr qmake qmlcachegen qmleasing qmlimportscanner qmllint qmlmin qmlplugindump qmlpreview qmlprofiler qmlscene qmltestrunner qscxmlc qtattributionsscanner qtdiag qtpaths qtplugininfo qvkgen qwebengine_convert_dict rcc repc syncqt.pl uic xmlpatterns xmlpatternsvalidator
 qtads:QTads
 qtfaststart:qt-faststart
 qtkeychain:
@@ -3498,6 +3504,7 @@ range-v3:
 ranger:ranger
 rapidjson:
 raptor:rapper
+rargs:rargs
 rarian:rarian-example rarian-sk-config rarian-sk-extract rarian-sk-gen-uuid rarian-sk-get-cl rarian-sk-get-content-list rarian-sk-get-extended-content-list rarian-sk-get-scripts rarian-sk-install rarian-sk-migrate rarian-sk-preinstall rarian-sk-rebuild rarian-sk-update scrollkeeper-config scrollkeeper-extract scrollkeeper-gen-seriesid scrollkeeper-get-cl scrollkeeper-get-content-list scrollkeeper-get-extended-content-list scrollkeeper-get-index-from-docpath scrollkeeper-get-toc-from-docpath scrollkeeper-get-toc-from-id scrollkeeper-install scrollkeeper-preinstall scrollkeeper-rebuilddb scrollkeeper-uninstall scrollkeeper-update
 rasqal:rasqal-config roqet
 ratfor:ratfor
@@ -3846,6 +3853,7 @@ snapcraft:snapcraft snapcraft-parser
 snappy:
 snappystream:
 snapraid:snapraid
+sng:sng
 sngrep:sngrep
 snobol4:sdb sdb-1.5 snobol4 snobol4-1.5
 snort:snort u2boat u2spewfoo
@@ -4293,6 +4301,7 @@ unrtf:unrtf
 unshield:unshield
 unyaffs:unyaffs
 unzip:funzip unzip unzipsfx zipgrep zipinfo
+up:up
 upscaledb:ups_bench ups_dump ups_export ups_import ups_info ups_recover upszilla
 uptimed:uprecords uptimed
 upx:upx
@@ -4422,6 +4431,7 @@ webkit2png:webkit2png
 weboob:boobank boobathon boobcoming boobill booblyrics boobmsg boobooks boobsize boobtracker cineoob comparoob cookboob flatboob galleroob geolooc handjoob havedate monboob parceloob pastoob radioob suboob translaboob traveloob videoob webcontentedit weboob-cli weboob-config weboob-debug weboob-repos weboorrents wetboobs
 webp:cwebp dwebp img2webp webpinfo webpmux
 webpack:webpack
+websocat:websocat
 websocketd:websocketd
 webtorrent-cli:webtorrent
 weechat:weechat weechat-curses
