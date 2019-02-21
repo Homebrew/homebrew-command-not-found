@@ -95,9 +95,12 @@ antlr:antlr4 grun
 antlr@2:antlr2
 anttweakbar:
 anycable-go:anycable-go
+anyenv:anyenv
 aoeui:aoeui asdfg
 aom:aomdec aomenc
 apache-archiva:archiva
+apache-arrow-glib:
+apache-arrow:plasma_store_server
 apache-brooklyn-cli:br
 apache-ctakes:ant ctakes-ytex runClinicalPipeline.sh runDictionaryCreator.sh runPiperCreator.sh runPiperFile.sh runctakesCPE.sh runctakesCVD.sh ytexweb.sh
 apache-drill:drill-conf drill-config.sh drill-embedded drill-localhost drillbit.sh dumpcat hadoop-excludes.txt runbit sqlline sqlline.bat submit_plan
@@ -231,6 +234,7 @@ aws-cfn-tools:cfn-cancel-update-stack cfn-cmd cfn-create-stack cfn-delete-stack 
 aws-elasticache:elasticache elasticache-authorize-cache-security-group-ingress elasticache-copy-snapshot elasticache-create-cache-cluster elasticache-create-cache-parameter-group elasticache-create-cache-security-group elasticache-create-cache-subnet-group elasticache-create-replication-group elasticache-create-snapshot elasticache-delete-cache-cluster elasticache-delete-cache-parameter-group elasticache-delete-cache-security-group elasticache-delete-cache-subnet-group elasticache-delete-replication-group elasticache-delete-snapshot elasticache-describe-cache-clusters elasticache-describe-cache-engine-versions elasticache-describe-cache-parameter-groups elasticache-describe-cache-parameters elasticache-describe-cache-security-groups elasticache-describe-cache-subnet-groups elasticache-describe-engine-default-parameters elasticache-describe-events elasticache-describe-replication-groups elasticache-describe-reserved-cache-nodes elasticache-describe-reserved-cache-nodes-offerings elasticache-describe-snapshots elasticache-modify-cache-cluster elasticache-modify-cache-parameter-group elasticache-modify-cache-subnet-group elasticache-modify-replication-group elasticache-purchase-reserved-cache-nodes-offering elasticache-reboot-cache-cluster elasticache-reset-cache-parameter-group elasticache-revoke-cache-security-group-ingress elasticache-version
 aws-elasticbeanstalk:eb ebp
 aws-es-proxy:aws-es-proxy
+aws-iam-authenticator:aws-iam-authenticator
 aws-keychain:aws-keychain
 aws-okta:aws-okta
 aws-sdk-cpp:
@@ -252,6 +256,7 @@ bacula-fd:bacula bacula-fd bconsole btraceback
 badtouch:badtouch
 bagit:bag
 balance:balance
+balena-cli:balena
 ballerburg:ballerburg
 ballerina:ballerina
 bam:bam
@@ -349,6 +354,7 @@ bloaty:bloaty
 blockhash:blockhash
 bltool:bltool
 bluepill:bluepill
+bluetoothconnector:BluetoothConnector
 blueutil:blueutil
 bmake:bmake
 bmon:bmon
@@ -404,6 +410,7 @@ buildifier:buildifier
 buku:buku
 bulk_extractor:BEViewer bulk_extractor plugin_test
 bullet:
+bumpversion:bumpversion
 bundler-completion:
 bup:bup
 burl:burl
@@ -618,6 +625,7 @@ cmu-pocketsphinx:pocketsphinx_batch pocketsphinx_continuous pocketsphinx_mdef_co
 cmu-sphinxbase:sphinx_cepview sphinx_cont_adseg sphinx_cont_fileseg sphinx_fe sphinx_jsgf2fsg sphinx_lm_convert sphinx_lm_eval sphinx_lm_sort sphinx_pitch
 cmuclmtk:binlm2arpa evallm idngram2lm idngram2stats lm_combine lm_interpolate mergeidngram ngram2mgram text2idngram text2wfreq text2wngram wfreq2vocab wngram2idngram
 cmus:cmus cmus-remote
+cmusfm:cmusfm
 cnats:
 cntlm:cntlm
 coccinelle:pycocci spatch spatch.opt spgen
@@ -665,7 +673,7 @@ cookiecutter:cookiecutter
 coq:coq-tex coq_makefile coqc coqchk coqdep coqdoc coqmktop coqtop coqtop.byte coqwc coqworkmgr gallina
 corectl:corectl corectld corectld.runner qcow-tool
 coreos-ct:ct
-coreutils:g[ gb2sum gbase32 gbase64 gbasename gcat gchcon gchgrp gchmod gchown gchroot gcksum gcomm gcp gcsplit gcut gdate gdd gdf gdir gdircolors gdirname gdu gecho genv gexpand gexpr gfactor gfalse gfmt gfold ggroups ghead ghostid gid ginstall gjoin gkill glink gln glogname gls gmd5sum gmkdir gmkfifo gmknod gmktemp gmv gnice gnl gnohup gnproc gnumfmt god gpaste gpathchk gpinky gpr gprintenv gprintf gptx gpwd greadlink grealpath grm grmdir gruncon gseq gsha1sum gsha224sum gsha256sum gsha384sum gsha512sum gshred gshuf gsleep gsort gsplit gstat gstdbuf gstty gsum gsync gtac gtail gtee gtest gtimeout gtouch gtr gtrue gtruncate gtsort gtty guname gunexpand guniq gunlink guptime gusers gvdir gwc gwho gwhoami gyes realpath
+coreutils:b2sum base32 chcon g[ gb2sum gbase32 gbase64 gbasename gcat gchcon gchgrp gchmod gchown gchroot gcksum gcomm gcp gcsplit gcut gdate gdd gdf gdir gdircolors gdirname gdu gecho genv gexpand gexpr gfactor gfalse gfmt gfold ggroups ghead ghostid gid ginstall gjoin gkill glink gln glogname gls gmd5sum gmkdir gmkfifo gmknod gmktemp gmv gnice gnl gnohup gnproc gnumfmt god gpaste gpathchk gpinky gpr gprintenv gprintf gptx gpwd greadlink grealpath grm grmdir gruncon gseq gsha1sum gsha224sum gsha256sum gsha384sum gsha512sum gshred gshuf gsleep gsort gsplit gstat gstdbuf gstty gsum gsync gtac gtail gtee gtest gtimeout gtouch gtr gtrue gtruncate gtsort gtty guname gunexpand guniq gunlink guptime gusers gvdir gwc gwho gwhoami gyes hostid md5sum nproc numfmt pinky ptx realpath runcon sha1sum sha224sum sha256sum sha384sum sha512sum shred shuf stdbuf tac timeout truncate
 corkscrew:corkscrew
 corsixth:CorsixTH
 cosi:cosi
@@ -717,6 +725,7 @@ cspice:brief chronos ckbrief commnt frmdiff inspekt mkspk msopck simple spacit s
 css-crush:csscrush
 cssembed:cssembed
 csshx:csshX
+cstore_fdw:
 csup:csup
 csv-fix:csvfix
 csvkit:csvclean csvcut csvformat csvgrep csvjoin csvjson csvlook csvpy csvsort csvsql csvstack csvstat in2csv sql2csv
@@ -852,6 +861,7 @@ direvent:direvent
 dirt:dirt
 discount:makepage markdown mkd2html theme
 disktype:disktype
+diskus:diskus
 dislocker:dislocker dislocker-bek dislocker-file dislocker-fuse dislocker-metadata
 distcc:distcc distccd distccmon-text lsdistcc pump
 distribution:distribution
@@ -868,6 +878,7 @@ dlite:dlite
 dmalloc:dmalloc
 dmd:catdoc ddemangle detab dmd dustmite rdmd tolf
 dmenu:dmenu dmenu_path dmenu_run stest
+dmg2img:dmg2img vfdecrypt
 dmtx-utils:dmtxquery dmtxread dmtxwrite
 dns2tcp:dns2tcpc dns2tcpd
 dnscontrol:dnscontrol
@@ -1189,7 +1200,7 @@ folly:
 foma:cgflookup flookup foma
 fon-flash-cli:fon-flash
 fondu:dfont2res fondu frombin lumper setfondname showfond tobin ufond
-fontconfig:fc-cache fc-cat fc-list fc-match fc-pattern fc-query fc-scan fc-validate
+fontconfig:fc-cache fc-cat fc-conflist fc-list fc-match fc-pattern fc-query fc-scan fc-validate
 fontforge:fontforge fontimage fontlint sfddiff
 fonttools:fonttools pyftinspect pyftmerge pyftsubset ttx
 fop:fop
@@ -1359,6 +1370,7 @@ gimme:gimme
 ginac:ginsh viewgar
 gist:gist
 gistit:gistit
+git-absorb:git-absorb
 git-annex:git-annex git-annex-shell git-remote-tor-annex
 git-appraise:git-appraise
 git-archive-all:git-archive-all
@@ -1642,6 +1654,7 @@ gtksourceviewmm3:
 gtksourceviewmm:
 gtkspell3:
 gtmess:gtmess gtmess-notify gtmess_w
+gtranslator:gtranslator
 gts:delaunay gts-config gts2dxf gts2oogl gts2stl gtscheck gtscompare gtstemplate happrox stl2gts transform
 gucharmap:charmap gnome-character-map gucharmap
 guetzli:guetzli
@@ -1677,7 +1690,7 @@ haproxy:haproxy
 harbour:harbour hb3rdpat.hbs hbformat hbi18n hbmk2 hbnetio hbpp hbrun hbtest
 hardlink-osx:hln
 hardlink:hardlink
-harfbuzz:hb-ot-shape-closure hb-shape
+harfbuzz:hb-ot-shape-closure hb-shape hb-subset hb-view
 hashcash:hashcash sha1
 hashcat:hashcat
 hashpump:hashpump
@@ -1932,6 +1945,7 @@ jhipster:jhipster
 jid:jid
 jigdo:jigdo-file jigdo-lite jigdo-mirror
 jing-trang:jing trang
+jinja2-cli:jinja2
 jlog:jlog_change_endian jlog_sanity_check jlogctl jlogtail
 jmeter:jmeter
 jmxtrans:jmxtrans
@@ -1947,6 +1961,7 @@ jose:jose
 joshua:bleu decoder extract-1best joshua-decoder meteor pipeline.pl
 jove:jove teachjove
 jp2a:jp2a
+jp:jp
 jpcsp:jpcsp
 jpeg-archive:jpeg-archive jpeg-compare jpeg-hash jpeg-recompress
 jpeg-turbo:cjpeg djpeg jpegtran rdjpgcom tjbench wrjpgcom
@@ -2044,6 +2059,7 @@ kube-ps1:
 kubecfg:kubecfg
 kubectx:kubectx kubens
 kubeless:kubeless
+kubeprod:kubeprod
 kubernetes-cli:kubectl
 kubernetes-helm:helm tiller
 kubernetes-service-catalog-client:svcat
@@ -2270,11 +2286,11 @@ libiscsi:iscsi-inq iscsi-ls iscsi-perf iscsi-readcapacity16 iscsi-swp
 libjson-rpc-cpp:jsonrpcstub
 libjwt:
 libkate:KateDJ katalyzer katedec kateenc
+libkeccak:
 libkml:
 libksba:ksba-config
 liblacewing:
 liblas:las2col las2las las2ogr las2pg las2txt lasblock lasinfo liblas-config ts2las txt2las
-liblastfm:
 liblcf:
 liblinear:predict train
 liblo:oscdump oscsend
@@ -2380,7 +2396,7 @@ librevenge:
 librsvg:rsvg-convert
 librsync:rdiff
 librtlsdr:rtl_adsb rtl_eeprom rtl_fm rtl_power rtl_sdr rtl_tcp rtl_test
-libsamplerate:
+libsamplerate:sndfile-resample
 libsass:
 libsbol:
 libscrypt:
@@ -2575,6 +2591,7 @@ macvim:gview gvim gvimdiff gvimex mview mvim mvimdiff mvimex
 mad:
 madplay:abxtest madplay
 mafft:einsi fftns fftnsi ginsi linsi mafft mafft-distance mafft-einsi mafft-fftns mafft-fftnsi mafft-ginsi mafft-homologs.rb mafft-linsi mafft-nwns mafft-nwnsi mafft-profile mafft-qinsi mafft-sparsecore.rb mafft-xinsi nwns nwnsi
+mage:mage
 magic-wormhole:wormhole wormhole-server
 magnetix:magnetiX
 mahout:mahout
@@ -2592,6 +2609,7 @@ makepp:makepp makepp_build_cache_control makeppbuiltin makeppclean makeppgraph m
 makeself:makeself
 malbolge:malbolge
 mame:mame
+man-db:accessdb catman gaccessdb gapropos gcatman glexgrog gman gmandb gmanpath gwhatis lexgrog mandb
 man2html:man2html
 mandoc:bsdapropos bsdmakewhatis bsdman bsdwhatis demandoc mandoc manpage soelim
 mapcrafter:mapcrafter mapcrafter_export mapcrafter_markers mapcrafter_png-it.py mapcrafter_textures.py
@@ -3225,7 +3243,6 @@ perceptualdiff:perceptualdiff
 percol:percol
 percona-server-mongodb:bsondump mongo mongod mongodump mongoexport mongofiles mongoimport mongooplog mongoperf mongorestore mongos mongostat mongotop
 percona-server:innochecksum lz4_decompress my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_client_test_embedded mysql_config mysql_config_editor mysql_embedded mysql_install_db mysql_plugin mysql_secure_installation mysql_ssl_rsa_setup mysql_tzinfo_to_sql mysql_upgrade mysqladmin mysqlbinlog mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlimport mysqlpump mysqlshow mysqlslap mysqltest mysqltest_embedded mysqlxtest perror ps_tokudb_admin replace resolve_stack_dump resolveip zlib_decompress
-percona-server@5.6:innochecksum msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_client_test_embedded mysql_config mysql_config_editor mysql_convert_table_format mysql_embedded mysql_find_rows mysql_fix_extensions mysql_install_db mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysql_zap mysqladmin mysqlbinlog mysqlbug mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest mysqltest_embedded perror ps_tokudb_admin replace resolve_stack_dump resolveip
 percona-toolkit:pt-align pt-archiver pt-config-diff pt-deadlock-logger pt-diskstats pt-duplicate-key-checker pt-fifo-split pt-find pt-fingerprint pt-fk-error-logger pt-heartbeat pt-index-usage pt-ioprofile pt-kill pt-mext pt-mysql-summary pt-online-schema-change pt-pmp pt-query-digest pt-show-grants pt-sift pt-slave-delay pt-slave-find pt-slave-restart pt-stalk pt-summary pt-table-checksum pt-table-sync pt-table-usage pt-upgrade pt-variable-advisor pt-visual-explain
 percona-xtrabackup:innobackupex xbcloud xbcloud_osenv xbcrypt xbstream xtrabackup
 perkeep:camdeploy camget camlistored cammount camput camtool devcam hello publisher
@@ -3397,6 +3414,7 @@ protobuf:protoc
 protobuf@2.5:protoc
 protobuf@2.6:protoc
 protobuf@3.1:protoc
+protoc-gen-go:protoc-gen-go
 prototool:prototool
 proxychains-ng:proxychains4
 proxytunnel:proxytunnel
@@ -3483,7 +3501,7 @@ qrupdate:
 qscintilla2:
 qsoas:QSoas
 qstat:qstat
-qt:canbusutil fixqt4headers.pl lconvert lrelease lupdate macchangeqt macdeployqt moc qdbus qdbuscpp2xml qdbusxml2cpp qdistancefieldgenerator qgltf qhelpgenerator qlalr qmake qmlcachegen qmleasing qmlimportscanner qmllint qmlmin qmlplugindump qmlpreview qmlprofiler qmlscene qmltestrunner qscxmlc qtattributionsscanner qtdiag qtpaths qtplugininfo qvkgen qwebengine_convert_dict rcc repc syncqt.pl uic xmlpatterns xmlpatternsvalidator
+qt:canbusutil fixqt4headers.pl lconvert lrelease lupdate macchangeqt macdeployqt moc qcollectiongenerator qdbus qdbuscpp2xml qdbusxml2cpp qdistancefieldgenerator qgltf qhelpgenerator qlalr qmake qmlcachegen qmleasing qmlimportscanner qmllint qmlmin qmlplugindump qmlpreview qmlprofiler qmlscene qmltestrunner qscxmlc qtattributionsscanner qtdiag qtpaths qtplugininfo qvkgen qwebengine_convert_dict rcc repc syncqt.pl uic xmlpatterns xmlpatternsvalidator
 qtads:QTads
 qtfaststart:qt-faststart
 qtkeychain:
@@ -3595,7 +3613,6 @@ repl:repl
 repo:repo
 reposurgeon:cyreposurgeon repocutter repodiffer repomapper reposurgeon repotool
 residualvm:residualvm
-resin-cli:resin
 rest-shell:rest-shell
 restic:restic
 restund:restund
@@ -3667,7 +3684,6 @@ ruby-build:rbenv-install rbenv-uninstall ruby-build
 ruby-completion:
 ruby-install:ruby-install
 ruby:bundle bundler erb gem irb rake rdoc ri ruby
-ruby@1.8:erb gem irb rdoc ri ruby testrb
 ruby@2.0:erb gem irb rake rdoc ri ruby testrb
 ruby@2.3:erb gem irb rake rdoc ri ruby
 ruby@2.4:erb gem irb rake rdoc ri ruby
@@ -3687,6 +3703,7 @@ s-search:s
 s3-backer:s3backer
 s3cmd:s3cmd
 s3fs:s3fs
+s3ql:fsck_s3ql mkfs_s3ql mount_s3ql s3ql_oauth_client s3ql_verify s3qladm s3qlcp s3qlctrl s3qllock s3qlrm s3qlstat umount_s3ql
 s6:execlineb s6-accessrules-cdb-from-fs s6-accessrules-fs-from-cdb s6-applyuidgid s6-cleanfifodir s6-connlimit s6-envdir s6-envuidgid s6-fdholder-daemon s6-fdholder-delete s6-fdholder-deletec s6-fdholder-getdump s6-fdholder-getdumpc s6-fdholder-list s6-fdholder-listc s6-fdholder-retrieve s6-fdholder-retrievec s6-fdholder-setdump s6-fdholder-setdumpc s6-fdholder-store s6-fdholder-storec s6-fdholder-transferdump s6-fdholder-transferdumpc s6-fdholderd s6-fghack s6-ftrig-listen s6-ftrig-listen1 s6-ftrig-notify s6-ftrig-wait s6-ftrigrd s6-ioconnect s6-ipcclient s6-ipcserver s6-ipcserver-access s6-ipcserver-socketbinder s6-ipcserverd s6-log s6-mkfifodir s6-setlock s6-setsid s6-setuidgid s6-softlimit s6-sudo s6-sudoc s6-sudod s6-supervise s6-svc s6-svlisten s6-svlisten1 s6-svok s6-svscan s6-svscanctl s6-svstat s6-svwait s6-tai64n s6-tai64nlocal s6lockd ucspilogd
 safe-rm:safe-rm
 safe:safe
@@ -3785,6 +3802,7 @@ sfst:fst-compact fst-compare fst-compiler fst-compiler-utf8 fst-generate fst-inf
 sgrep:sgrep
 sha1dc:sha1dcsum sha1dcsum_partialcoll
 sha2:sha2
+sha3sum:keccak-224sum keccak-256sum keccak-384sum keccak-512sum keccaksum rawshake256sum rawshake512sum sha3-224sum sha3-256sum sha3-384sum sha3-512sum shake256sum shake512sum
 shadowsocks-libev:ss-local ss-manager ss-server ss-tunnel
 shairport-sync:shairport-sync
 shairport:shairport
@@ -3867,6 +3885,7 @@ smimesign:smimesign
 smlnj:heap2asm heap2exec ml-antlr ml-build ml-burg ml-lex ml-makedepend ml-nlffigen ml-ulex ml-yacc sml
 smpeg2:plaympeg2 smpeg2-config
 smpeg:plaympeg smpeg-config
+sn0int:sn0int
 snag:snag
 snakemake:snakemake snakemake-bash-completion
 snap-telemetry:snaptel snapteld
@@ -3934,6 +3953,7 @@ spigot:spigot
 spim:spim
 spin:ispin spin
 spiped:spipe spiped
+spirv-cross:spirv-cross
 splint:splint
 spoof-mac:spoof-mac spoof-mac.py
 spotbugs:fb findbugs
@@ -3994,6 +4014,7 @@ statik:statik
 stdman:
 stella:Stella
 stellar-core:stellar-core
+step:step step-ca
 stern:stern
 stgit:stg
 stk:treesed
@@ -4145,6 +4166,7 @@ terraform:terraform
 terraform_landscape:landscape
 terraforming:terraforming
 terragrunt:terragrunt
+tesseract-lang:
 tesseract:tesseract
 testdisk:fidentify photorec testdisk
 testssl:testssl.sh
@@ -4209,7 +4231,6 @@ tnftp:ftp
 tnftpd:ftpd
 tnote:tnote
 todo-txt:todo.sh
-todolist:todolist
 todoman:todo
 tofrodos:fromdos todos
 toilet:toilet
@@ -4302,6 +4323,7 @@ ufraw:ufraw-batch
 uftp:uftp uftp_keymgt uftpd uftpproxyd
 uggconv:uggconv
 uhd:octoclock_firmware_burner uhd_cal_rx_iq_balance uhd_cal_tx_dc_offset uhd_cal_tx_iq_balance uhd_config_info uhd_find_devices uhd_image_loader uhd_usrp_probe usrp_n2xx_simple_net_burner usrp_x3xx_fpga_burner
+ultralist:ultralist
 um:um
 umlet:umlet umlet-14.2
 unac:unaccent
@@ -4309,6 +4331,7 @@ unar:lsar unar
 unarj:unarj
 unbound:unbound unbound-anchor unbound-checkconf unbound-control unbound-control-setup unbound-host
 uncrustify:uncrustify
+ungit:0ungit-credentials-helper ungit
 uni2ascii:ascii2uni u2a uni2ascii
 unibilium:
 unicorn:
@@ -4342,6 +4365,7 @@ urlview:urlview
 uru:uru_rt
 urweb:urweb
 usbmuxd:iproxy
+usbredir:usbredirserver
 userspace-rcu:
 utf8proc:
 util-linux:blkid findfs fsck.cramfs fsck.minix ipcmk isosize mcookie mkfs mkfs.bfs mkfs.cramfs mkfs.minix mkswap namei rename scriptreplay setsid swaplabel
@@ -4425,6 +4449,7 @@ vte3:vte-2.91
 vte:vte
 vtk:vtk vtkEncodeString-8.0 vtkHashSource-8.0 vtkParseJava-8.0 vtkWrapHierarchy-8.0 vtkWrapJava-8.0 vtkWrapPython-8.0 vtkWrapPythonInit-8.0 vtkWrapTcl-8.0 vtkWrapTclInit-8.0 vtkpython
 vttest:vttest
+vulkan-headers:
 vultr:vultr
 w-calc:wcalc
 w3m:w3m w3mman
