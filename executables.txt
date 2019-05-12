@@ -61,6 +61,7 @@ align:align width
 aliyun-cli:aliyun
 allegro:
 allure:allure
+allureofthestars:Allure
 alluxio:tachyon tachyon-mount.sh tachyon-start.sh tachyon-stop.sh tachyon-workers.sh
 alot:alot
 alpine:alpine pico pilot rpdump rpload
@@ -375,6 +376,7 @@ boost@1.59:
 boost@1.60:
 boot-clj:boot
 borg:borg
+boringtun:boringtun
 bork:bork bork-compile
 botan:botan
 bower:bower
@@ -514,6 +516,7 @@ cf:cf
 cfengine:cf-agent cf-execd cf-key cf-monitord cf-promises cf-runagent cf-serverd cf-upgrade rpmvercmp
 cfitsio:
 cflow:cflow
+cfn-lint:cfn-lint
 cfr-decompiler:cfr-decompiler
 cfssl:cfssl cfssljson cfsslmkbundle
 cfv:cfv
@@ -620,6 +623,7 @@ cmatrix:cmatrix
 cmdshelf:cmdshelf
 cmigemo:cmigemo
 cminpack:
+cmix:cmix
 cmocka:
 cmockery2:
 cmockery:
@@ -688,6 +692,7 @@ cp2k:cp2k.popt cp2k.psmp cp2k.sopt cp2k.ssmp cp2k_shell.popt cp2k_shell.psmp cp2
 cpanminus:cpanm
 cpansearch:cpans
 cpmtools:cpmchattr cpmchmod cpmcp cpmls cpmrm fsck.cpm fsed.cpm mkfs.cpm
+cpp-gsl:
 cppad:
 cppcheck:cppcheck cppcheck-htmlreport
 cppcms:cppcms_config_find_param cppcms_make_key cppcms_run cppcms_scale cppcms_tmpl_cc
@@ -699,6 +704,7 @@ cppunit:DllPlugInTester
 cpputest:
 cproto:cproto
 cpulimit:cpulimit
+cql:cql
 cquery:cquery
 cracklib:cracklib-check cracklib-format cracklib-packer cracklib-unpacker create-cracklib-dict
 crash:crash.sh
@@ -723,6 +729,7 @@ crystal:crystal shards
 cscope:cscope ocs
 csfml:
 csmith:compiler_test.pl csmith launchn.pl test_csmith.pl
+csound:atsa cs csanalyze csb64enc csbeats csdebugger csound cvanal dnoise envext extract extractor het_export het_import hetro lpanal lpc_export lpc_import makecsd mixer pv_export pv_import pvanal pvlook scale scot scsort sdif2ad sndinfo src_conv srconv
 cspice:brief chronos ckbrief commnt frmdiff inspekt mkspk msopck simple spacit spkdiff spkmerge states subpt tictoc tobin toxfr version
 css-crush:csscrush
 cssembed:cssembed
@@ -741,6 +748,7 @@ ctop:ctop
 ctunnel:ctunnel
 cuba:
 cubeb:
+cubelib:cube3to4 cube4to3 cube_calltree cube_canonize cube_clean cube_cmp cube_commoncalltree cube_cut cube_derive cube_diff cube_dump cube_exclusify cube_inclusify cube_info cube_is_empty cube_mean cube_merge cube_nodeview cube_part cube_rank cube_regioninfo cube_remap2 cube_sanity cube_score cube_server cube_stat cube_test cube_topoassist cubelib-config tau2cube
 cucumber-cpp:
 cuetools:cuebreakpoints cueconvert cueprint cuetag.sh
 cunit:
@@ -1029,6 +1037,7 @@ elm:elm elm-make elm-package elm-reactor elm-repl
 elvish:elvish elvish-stub
 emacs-clang-complete-async:clang-complete
 emacs:ebrowse emacs emacs-26.1 emacsclient etags
+embree:
 embulk:embulk
 emojify:emojify
 emp:emp
@@ -1119,7 +1128,9 @@ fastd:fastd
 fastjar:fastjar grepjar
 fastme:fastme
 fastqc:fastqc
+fasttext:fasttext
 fatsort:fatsort
+faudio:
 fauna-shell:fauna
 fb-client:fb
 fbi-servefiles:sendurls.py servefiles.py
@@ -1246,6 +1257,8 @@ frei0r:
 fribidi:fribidi
 frobtads:frob t3make tadsc
 frotz:frotz
+frpc:frpc
+frps:frps
 frugal:frugal
 fruit:
 fs-uae:fs-uae fs-uae-device-helper
@@ -1289,15 +1302,16 @@ garmintools:garmin_dump garmin_gchart garmin_get_info garmin_gmap garmin_gpx gar
 gauche:gauche-cesconv gauche-config gauche-install gauche-package gosh
 gauge:gauge gauge_screenshot
 gaul:gaul_diagnostics
-gawk:awk gawk gawk-4.2.1
+gawk:awk gawk gawk-5.0.0
 gbdfed:gbdfed
 gcab:gcab
 gcal:gcal gcal2txt tcal txt2gcal
-gcc:c++-8 cpp-8 g++-8 gcc-8 gcc-ar-8 gcc-nm-8 gcc-ranlib-8 gcov-8 gcov-dump-8 gcov-tool-8 gfortran gfortran-8 x86_64-apple-darwin18.2.0-c++-8 x86_64-apple-darwin18.2.0-g++-8 x86_64-apple-darwin18.2.0-gcc-8 x86_64-apple-darwin18.2.0-gcc-8.3.0 x86_64-apple-darwin18.2.0-gcc-ar-8 x86_64-apple-darwin18.2.0-gcc-nm-8 x86_64-apple-darwin18.2.0-gcc-ranlib-8 x86_64-apple-darwin18.2.0-gfortran-8
+gcc:c++-9 cpp-9 g++-9 gcc-9 gcc-ar-9 gcc-nm-9 gcc-ranlib-9 gcov-9 gcov-dump-9 gcov-tool-9 gfortran gfortran-9 x86_64-apple-darwin18-c++-9 x86_64-apple-darwin18-g++-9 x86_64-apple-darwin18-gcc-9 x86_64-apple-darwin18-gcc-9.1.0 x86_64-apple-darwin18-gcc-ar-9 x86_64-apple-darwin18-gcc-nm-9 x86_64-apple-darwin18-gcc-ranlib-9 x86_64-apple-darwin18-gfortran-9
 gcc@4.9:c++-4.9 cpp-4.9 g++-4.9 gcc-4.9 gcc-ar-4.9 gcc-nm-4.9 gcc-ranlib-4.9 gcov-4.9 gfortran-4.9 x86_64-apple-darwin16.4.0-c++-4.9 x86_64-apple-darwin16.4.0-g++-4.9 x86_64-apple-darwin16.4.0-gcc-4.9 x86_64-apple-darwin16.4.0-gcc-4.9.4 x86_64-apple-darwin16.4.0-gcc-ar-4.9 x86_64-apple-darwin16.4.0-gcc-nm-4.9 x86_64-apple-darwin16.4.0-gcc-ranlib-4.9 x86_64-apple-darwin16.4.0-gfortran-4.9
 gcc@5:c++-5 cpp-5 g++-5 gcc-5 gcc-ar-5 gcc-nm-5 gcc-ranlib-5 gcov-5 gcov-tool-5 gfortran-5 x86_64-apple-darwin16.3.0-c++-5 x86_64-apple-darwin16.3.0-g++-5 x86_64-apple-darwin16.3.0-gcc-5 x86_64-apple-darwin16.3.0-gcc-5.4.0 x86_64-apple-darwin16.3.0-gcc-ar-5 x86_64-apple-darwin16.3.0-gcc-nm-5 x86_64-apple-darwin16.3.0-gcc-ranlib-5 x86_64-apple-darwin16.3.0-gfortran-5
 gcc@6:c++-6 cpp-6 g++-6 gcc-6 gcc-ar-6 gcc-nm-6 gcc-ranlib-6 gcov-6 gcov-tool-6 gfortran-6 x86_64-apple-darwin16.5.0-c++-6 x86_64-apple-darwin16.5.0-g++-6 x86_64-apple-darwin16.5.0-gcc-6 x86_64-apple-darwin16.5.0-gcc-6.3.0 x86_64-apple-darwin16.5.0-gcc-ar-6 x86_64-apple-darwin16.5.0-gcc-nm-6 x86_64-apple-darwin16.5.0-gcc-ranlib-6 x86_64-apple-darwin16.5.0-gfortran-6
 gcc@7:c++-7 cpp-7 g++-7 gcc-7 gcc-ar-7 gcc-nm-7 gcc-ranlib-7 gcov-7 gcov-dump-7 gcov-tool-7 gfortran-7 x86_64-apple-darwin17.5.0-c++-7 x86_64-apple-darwin17.5.0-g++-7 x86_64-apple-darwin17.5.0-gcc-7 x86_64-apple-darwin17.5.0-gcc-7.3.0 x86_64-apple-darwin17.5.0-gcc-ar-7 x86_64-apple-darwin17.5.0-gcc-nm-7 x86_64-apple-darwin17.5.0-gcc-ranlib-7 x86_64-apple-darwin17.5.0-gfortran-7
+gcc@8:c++-8 cpp-8 g++-8 gcc-8 gcc-ar-8 gcc-nm-8 gcc-ranlib-8 gcov-8 gcov-dump-8 gcov-tool-8 gfortran-8 x86_64-apple-darwin18-c++-8 x86_64-apple-darwin18-g++-8 x86_64-apple-darwin18-gcc-8 x86_64-apple-darwin18-gcc-8.3.0 x86_64-apple-darwin18-gcc-ar-8 x86_64-apple-darwin18-gcc-nm-8 x86_64-apple-darwin18-gcc-ranlib-8 x86_64-apple-darwin18-gfortran-8
 gconf:gconf-merge-tree gconftool-2 gsettings-data-convert gsettings-schema-convert
 gcore:gcore
 gcovr:gcovr
@@ -1324,6 +1338,7 @@ gecode:fzn-gecode mzn-gecode
 gedit:gedit gnome-text-editor
 geeqie:geeqie
 gegl:gegl gegl-imgcmp
+gel:gel
 gem-completion:
 genact:genact
 genders:nodeattr
@@ -1858,6 +1873,7 @@ influxdb:influx influx_stress influx_tsm influxd
 inform6:inform
 infrakit:infrakit
 iniparser:
+inlets:inlets
 innoextract:innoextract
 innotop:innotop
 ino:ino
@@ -1912,6 +1928,7 @@ ispell:buildhash defmt-c defmt-sh findaffix icombine ijoin ispell munchlist trya
 istioctl:istioctl
 isync:get-cert mbsync
 itex2mml:itex2MML
+itk:itkTestDriver
 itpp:itpp-config
 itstool:itstool
 ivy:ivy
@@ -2017,6 +2034,7 @@ jxrlib:JxrDecApp JxrEncApp
 jython:jython
 kafka:connect-distributed connect-standalone kafka-acls kafka-broker-api-versions kafka-configs kafka-console-consumer kafka-console-producer kafka-consumer-groups kafka-consumer-offset-checker kafka-consumer-perf-test kafka-mirror-maker kafka-preferred-replica-election kafka-producer-perf-test kafka-reassign-partitions kafka-replay-log-producer kafka-replica-verification kafka-run-class kafka-server-start kafka-server-stop kafka-simple-consumer-shell kafka-streams-application-reset kafka-topics kafka-verifiable-consumer kafka-verifiable-producer zookeeper-security-migration zookeeper-server-start zookeeper-server-stop zookeeper-shell
 kafkacat:kafkacat
+kahip:dspac edge_list_to_metis_graph edge_partitioning evaluator friendster_list_to_metis_graph graph2binary graph2binary_external graphchecker interface_test kaffpa kaffpaE label_propagation node_separator parhip partition_to_vertex_separator readbgf toolbox
 kaitai-struct-compiler:kaitai-struct-compiler
 kakasi:atoc_conv kakasi kakasi-config mkkanwa rdic_conv wx2_conv
 kakoune:kak
@@ -2065,6 +2083,7 @@ ktmpl:ktmpl
 ktoblzcheck:ktoblzcheck
 kube-aws:kube-aws
 kube-ps1:
+kubeaudit:kubeaudit
 kubecfg:kubecfg
 kubectx:kubectx kubens
 kubeless:kubeless
@@ -2123,6 +2142,7 @@ lean:lean leanchecker leanemacs leanpkg
 leaps:leaps
 ledger:ledger
 ledit:ledit
+leela-zero:leelaz
 legit:legit
 lego:lego
 leiningen:lein
@@ -2264,6 +2284,7 @@ libgnomecanvasmm:
 libgosu:
 libgpg-error:gpg-error gpg-error-config gpgrt-config yat2m
 libgphoto2:gphoto2-config gphoto2-port-config
+libgr:gksm
 libgraphqlparser:
 libgsf:gsf gsf-office-thumbnailer gsf-vba-dump
 libgsm:toast
@@ -2730,7 +2751,6 @@ minimesos:minimesos
 minimodem:minimodem
 minio-mc:mc
 minio:minio
-minisat:minisat
 minised:minised
 miniserve:miniserve
 minisign:minisign
@@ -2978,6 +2998,7 @@ ninja:ninja
 ninvaders:nInvaders
 nkf:nkf
 nload:nload
+nlohmann-json:
 nlopt:
 nmap:ncat ndiff nmap nping uninstall_ndiff
 nmh:ali anno burst comp dist flist flists fmttest fnext folder folders forw fprev inc install-mh mark mhbuild mhfixmsg mhlist mhmail mhn mhparam mhpath mhshow mhstore msgchk msh new next packf pick prev prompter refile repl rmf rmm scan send sendfiles show sortm unseen whatnow whom
@@ -2987,7 +3008,6 @@ no-more-secrets:nms sneakers
 node-build:node-build nodenv-install nodenv-uninstall
 node:node
 node@10:node npm npx
-node@6:node
 node@8:node
 node_exporter:node_exporter
 nodebrew:nodebrew
@@ -3154,12 +3174,15 @@ osm2pgsql:osm2pgsql
 osmfilter:osmconvert osmfilter osmupdate
 osmium-tool:osmium
 osmosis:osmosis
+ospray:
+osqp:
 osquery:osqueryctl osqueryd osqueryi
 osrm-backend:osrm-components osrm-contract osrm-datastore osrm-extract osrm-partition osrm-routed
 osslsigncode:osslsigncode
 ossp-uuid:uuid uuid-config
 osx-cpu-temp:osx-cpu-temp
 osxutils:cpath fileinfo getfcomment geticon getvolume google hfsdata lsmac mkalias osxutils rcmac setfcomment setfctypes setfflags seticon setlabel setsuffix setvolume trash wiki wsupdate
+otf2:otf2-config otf2-estimator otf2-marker otf2-print otf2-snapshots otf2-template
 otf2bdf:otf2bdf
 ott:ott
 overmind:overmind
@@ -3322,6 +3345,7 @@ pipebench:pipebench
 pipemeter:pipemeter
 pipenv:pipenv
 pipes-sh:pipes.sh
+pipx:pipx
 pit:pit
 pius:pius pius-keyring-mgr pius-party-worksheet pius-report
 pixman:
@@ -3419,6 +3443,7 @@ prometheus:prometheus promtool
 proof-general:coqtags isartags legotags proofgeneral
 proper:
 proselint:proselint
+proteinortho:proteinortho proteinortho2html.pl proteinortho2tree.pl proteinortho2xml.pl proteinortho6.pl proteinortho_cleanupblastgraph proteinortho_clustering proteinortho_compareProteinorthoGraphs.pl proteinortho_do_mcl.pl proteinortho_extract_from_graph.pl proteinortho_ffadj_mcs.py proteinortho_formatUsearch.pl proteinortho_grab_proteins.pl proteinortho_graphMinusRemovegraph proteinortho_singletons.pl proteinortho_treeBuilderCore
 protobuf-c:protoc-c
 protobuf-swift:protoc-gen-swift
 protobuf:protoc
@@ -3704,7 +3729,7 @@ ruby@2.5:erb gem irb rake rdoc ri ruby
 runcocoa:runc runcocoa
 runit:chpst runit runit-init runsv runsvchdir runsvdir sv svlogd utmpset
 rush:rush rushlast rushwho
-rust:cargo racer rust-gdb rust-lldb rustc rustdoc
+rust:cargo racer rust-gdb rust-gdbgui rust-lldb rustc rustdoc
 rustc-completion:
 rustup-init:rustup-init
 rxvt-unicode:urxvt urxvtc urxvtd
@@ -3720,7 +3745,6 @@ s3fs:s3fs
 s3ql:fsck_s3ql mkfs_s3ql mount_s3ql s3ql_oauth_client s3ql_verify s3qladm s3qlcp s3qlctrl s3qllock s3qlrm s3qlstat umount_s3ql
 s6:execlineb s6-accessrules-cdb-from-fs s6-accessrules-fs-from-cdb s6-applyuidgid s6-cleanfifodir s6-connlimit s6-envdir s6-envuidgid s6-fdholder-daemon s6-fdholder-delete s6-fdholder-deletec s6-fdholder-getdump s6-fdholder-getdumpc s6-fdholder-list s6-fdholder-listc s6-fdholder-retrieve s6-fdholder-retrievec s6-fdholder-setdump s6-fdholder-setdumpc s6-fdholder-store s6-fdholder-storec s6-fdholder-transferdump s6-fdholder-transferdumpc s6-fdholderd s6-fghack s6-ftrig-listen s6-ftrig-listen1 s6-ftrig-notify s6-ftrig-wait s6-ftrigrd s6-ioconnect s6-ipcclient s6-ipcserver s6-ipcserver-access s6-ipcserver-socketbinder s6-ipcserverd s6-log s6-mkfifodir s6-setlock s6-setsid s6-setuidgid s6-softlimit s6-sudo s6-sudoc s6-sudod s6-supervise s6-svc s6-svlisten s6-svlisten1 s6-svok s6-svscan s6-svscanctl s6-svstat s6-svwait s6-tai64n s6-tai64nlocal s6lockd ucspilogd
 safe-rm:safe-rm
-safe:safe
 sagittarius-scheme:compile-r7rs compile-sagittarius sagittarius sagittarius-config sagittarius-package sash
 saldl:saldl
 salt:salt salt-api salt-call salt-cloud salt-cp salt-key salt-master salt-minion salt-proxy salt-run salt-ssh salt-syndic salt-unity spm
@@ -3770,6 +3794,7 @@ scrypt:scrypt
 scummvm-tools:construct_mohawk create_sjisfnt decine decompile degob dekyra deriven descumm desword2 extract_mohawk gob_loadcalc pegasus_save_types scummvm-tools scummvm-tools-cli
 scummvm:scummvm
 scw:scw
+scws:scws scws-gen-dict
 sd:sd
 sdb:sdb
 sdcc:as2gbmap makebin packihx s51 sdar sdas390 sdas6808 sdas8051 sdasgb sdasrab sdasstm8 sdastlcs90 sdasz80 sdcc sdcclib sdcdb sdcpp sdld sdld6808 sdldgb sdldstm8 sdldz80 sdnm sdobjcopy sdranlib shc08 sstm8 sz80
@@ -3873,6 +3898,7 @@ siril:siril
 sisc-scheme:sisc
 sispmctl:sispmctl
 sjk:sjk
+sk:sk sk-tmux
 skaffold:skaffold
 skafos:skafos
 ski:ski
@@ -4183,6 +4209,7 @@ terraform:terraform
 terraform_landscape:landscape
 terraforming:terraforming
 terragrunt:terragrunt
+terrahub:terrahub thub
 tesseract-lang:
 tesseract:tesseract
 testdisk:fidentify photorec testdisk
@@ -4398,6 +4425,9 @@ vala:vala vala-0.36 vala-gen-introspect vala-gen-introspect-0.36 valac valac-0.3
 valabind:valabind valabind-cc
 valgrind:callgrind_annotate callgrind_control cg_annotate cg_diff cg_merge ms_print valgrind valgrind-di-server valgrind-listener vgdb
 vamp-plugin-sdk:vamp-rdf-template-generator vamp-simple-host
+vapoursynth-imwri:
+vapoursynth-ocr:
+vapoursynth-sub:
 vapoursynth:vspipe
 varnish:varnishadm varnishd varnishhist varnishlog varnishncsa varnishstat varnishtest varnishtop
 varnish@4:varnishadm varnishd varnishhist varnishlog varnishncsa varnishstat varnishtest varnishtop
@@ -4672,6 +4702,7 @@ z3:z3
 z80asm:z80asm
 z80dasm:z80dasm
 z:
+zabbix-cli:zabbix-cli zabbix-cli-bulk-execution zabbix-cli-init
 zabbix:zabbix_agentd zabbix_get zabbix_proxy zabbix_sender zabbix_server
 zanata-client:zanata-cli
 zbackup:zbackup
