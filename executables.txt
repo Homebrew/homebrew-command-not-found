@@ -183,6 +183,7 @@ assh:assh
 assimp:assimp
 astrometry-net:an-fitstopnm an-pnmtofits astrometry-engine build-astrometry-index degtohms downsample-fits fit-wcs fits-column-merge fits-flip-endian fits-guess-scale fitscopy fitsgetext fitsverify get-healpix get-wcs hmstodeg hpsplit image2pnm image2xy imarith imcopy imstat listhead liststruc merge-columns modhead new-wcs pad-file plot-constellations plotann.py plotquad plotxy query-starkd removelines solve-field startree subtable tablist tabmerge tabsort text2fits uniformize votabletofits wcs-grab wcs-match wcs-pv2sip wcs-rd2xy wcs-resample wcs-to-tan wcs-xy2rd wcsinfo
 astyle:astyle
+asyncplusplus:
 atari800:atari800
 atdtool:atdtool
 aterm:atdiff atreverse atrmannos atsum baf2taf baf2trm baffle dicttoc taf2baf taf2trm termsize trm2baf trm2taf trmcat
@@ -237,6 +238,7 @@ aws-cfn-tools:cfn-cancel-update-stack cfn-cmd cfn-create-stack cfn-delete-stack 
 aws-elasticache:elasticache elasticache-authorize-cache-security-group-ingress elasticache-copy-snapshot elasticache-create-cache-cluster elasticache-create-cache-parameter-group elasticache-create-cache-security-group elasticache-create-cache-subnet-group elasticache-create-replication-group elasticache-create-snapshot elasticache-delete-cache-cluster elasticache-delete-cache-parameter-group elasticache-delete-cache-security-group elasticache-delete-cache-subnet-group elasticache-delete-replication-group elasticache-delete-snapshot elasticache-describe-cache-clusters elasticache-describe-cache-engine-versions elasticache-describe-cache-parameter-groups elasticache-describe-cache-parameters elasticache-describe-cache-security-groups elasticache-describe-cache-subnet-groups elasticache-describe-engine-default-parameters elasticache-describe-events elasticache-describe-replication-groups elasticache-describe-reserved-cache-nodes elasticache-describe-reserved-cache-nodes-offerings elasticache-describe-snapshots elasticache-modify-cache-cluster elasticache-modify-cache-parameter-group elasticache-modify-cache-subnet-group elasticache-modify-replication-group elasticache-purchase-reserved-cache-nodes-offering elasticache-reboot-cache-cluster elasticache-reset-cache-parameter-group elasticache-revoke-cache-security-group-ingress elasticache-version
 aws-elasticbeanstalk:eb ebp
 aws-es-proxy:aws-es-proxy
+aws-google-auth:aws-google-auth
 aws-iam-authenticator:aws-iam-authenticator
 aws-keychain:aws-keychain
 aws-okta:aws-okta
@@ -287,6 +289,7 @@ bats-core:bats
 bats:bats
 bazaar:bzr
 bazel:bazel bazel-real
+bazelisk:bazelisk
 bbcolors:bbcolors
 bbe:bbe
 bbftp-client:bbftp bbftpstatus
@@ -310,6 +313,7 @@ bee:bee
 beecrypt:
 befunge93:bef bef2c befprof
 bench:bench
+benthos:benthos
 bento4:aac2mp4 avcinfo hevcinfo mp42aac mp42hevc mp42hls mp42ts mp4compact mp4dcfpackager mp4decrypt mp4dump mp4edit mp4encrypt mp4extract mp4fragment mp4info mp4mux mp4rtphintinfo mp4split mp4tag
 berkeley-db:db_archive db_checkpoint db_deadlock db_dump db_hotbackup db_load db_log_verify db_printlog db_recover db_replicate db_sql_codegen db_stat db_tuner db_upgrade db_verify dbsql
 berkeley-db@4:db_archive db_checkpoint db_deadlock db_dump db_hotbackup db_load db_printlog db_recover db_sql db_stat db_upgrade db_verify
@@ -343,6 +347,7 @@ bitlbee:bitlbee
 bitrise:bitrise
 bittwist:bittwist bittwiste
 bitwarden-cli:bw
+bitwise:bitwise
 black:black
 blackbox:_blackbox_common.sh _blackbox_common_test.sh _stack_lib.sh blackbox_addadmin blackbox_cat blackbox_decrypt_all_files blackbox_deregister_file blackbox_diff blackbox_edit blackbox_edit_end blackbox_edit_start blackbox_initialize blackbox_list_files blackbox_postdeploy blackbox_recurse blackbox_register_new_file blackbox_removeadmin blackbox_shred_all_files blackbox_update_all_files blackbox_whatsnew
 blahtexml:blahtex blahtexml
@@ -380,6 +385,7 @@ boost@1.59:
 boost@1.60:
 boot-clj:boot
 borg:borg
+borgmatic:borgmatic generate-borgmatic-config upgrade-borgmatic-config validate-borgmatic-config
 boringtun:boringtun
 bork:bork bork-compile
 botan:botan
@@ -624,7 +630,7 @@ clutter-gst:
 clutter-gtk:
 clutter:
 clzip:clzip
-cmake:ccmake cmake cmakexbuild cpack ctest
+cmake:ccmake cmake cpack ctest
 cmark-gfm:cmark-gfm
 cmark:cmark
 cmatrix:cmatrix
@@ -668,7 +674,7 @@ composer:composer
 conan:conan conan_build_info conan_server
 concurrencykit:
 configen:configen
-confluent-oss:camus-config camus-run confluent connect-distributed connect-standalone kafka-acls kafka-avro-console-consumer kafka-avro-console-producer kafka-broker-api-versions kafka-configs kafka-console-consumer kafka-console-producer kafka-consumer-groups kafka-consumer-offset-checker kafka-consumer-perf-test kafka-delegation-tokens kafka-delete-records kafka-log-dirs kafka-mirror-maker kafka-preferred-replica-election kafka-producer-perf-test kafka-reassign-partitions kafka-replay-log-producer kafka-replica-verification kafka-rest-run-class kafka-rest-start kafka-rest-stop kafka-rest-stop-service kafka-run-class kafka-run-class.orig kafka-server-start kafka-server-stop kafka-simple-consumer-shell kafka-streams-application-reset kafka-topics kafka-verifiable-consumer kafka-verifiable-producer ksql ksql-datagen ksql-node ksql-print-metrics ksql-run-class ksql-server-start ksql-server-stop ksql-stop schema-registry-run-class schema-registry-start schema-registry-stop schema-registry-stop-service support-metrics-bundle zookeeper-security-migration zookeeper-server-start zookeeper-server-stop zookeeper-shell
+confluent-platform:camus-config camus-run confluent connect-distributed connect-standalone kafka-acls kafka-avro-console-consumer kafka-avro-console-producer kafka-broker-api-versions kafka-configs kafka-console-consumer kafka-console-producer kafka-consumer-groups kafka-consumer-offset-checker kafka-consumer-perf-test kafka-delegation-tokens kafka-delete-records kafka-log-dirs kafka-mirror-maker kafka-preferred-replica-election kafka-producer-perf-test kafka-reassign-partitions kafka-replay-log-producer kafka-replica-verification kafka-rest-run-class kafka-rest-start kafka-rest-stop kafka-rest-stop-service kafka-run-class kafka-run-class.orig kafka-server-start kafka-server-stop kafka-simple-consumer-shell kafka-streams-application-reset kafka-topics kafka-verifiable-consumer kafka-verifiable-producer ksql ksql-datagen ksql-node ksql-print-metrics ksql-run-class ksql-server-start ksql-server-stop ksql-stop schema-registry-run-class schema-registry-start schema-registry-stop schema-registry-stop-service support-metrics-bundle zookeeper-security-migration zookeeper-server-start zookeeper-server-stop zookeeper-shell
 confuse:
 conjure-up:conjure-down conjure-up
 connect:connect
@@ -699,6 +705,7 @@ cowsay:cowsay cowthink
 cp2k:cp2k.popt cp2k.psmp cp2k.sopt cp2k.ssmp cp2k_shell.popt cp2k_shell.psmp cp2k_shell.sopt cp2k_shell.ssmp
 cpanminus:cpanm
 cpansearch:cpans
+cpl:
 cpmtools:cpmchattr cpmchmod cpmcp cpmls cpmrm fsck.cpm fsed.cpm mkfs.cpm
 cpp-gsl:
 cppad:
@@ -858,6 +865,7 @@ dfmt:dfmt
 dfu-programmer:dfu-programmer
 dfu-util:dfu-prefix dfu-suffix dfu-util
 dgen:dgen dgen_tobin
+dhall-bash:dhall-to-bash
 dhall-json:dhall-to-json dhall-to-yaml
 dhall:dhall
 dhcpdump:dhcpdump
@@ -890,6 +898,7 @@ distcc:distcc distccd distccmon-text lsdistcc pump
 distribution:distribution
 dita-ot:dita
 ditaa:ditaa
+dive:dive
 django-completion:
 djbdns:axfr-get axfrdns axfrdns-conf dnscache dnscache-conf dnsfilter dnsip dnsipq dnsmx dnsname dnsq dnsqr dnstrace dnstracesort dnstxt pickdns pickdns-conf pickdns-data random-ip rbldns rbldns-conf rbldns-data tinydns tinydns-conf tinydns-data tinydns-edit tinydns-get walldns walldns-conf
 djmount:djmount
@@ -1640,6 +1649,7 @@ groovy:grape groovy groovyConsole groovyc groovydoc groovysh java2groovy startGr
 groovysdk:grape groovy groovyc groovyConsole groovydoc groovysh java2groovy startGroovy
 groovyserv:groovyclient groovyserver
 growly:growly
+grpc-swift:protoc-gen-swiftgrpc
 grpc:grpc_cli grpc_cpp_plugin grpc_csharp_plugin grpc_node_plugin grpc_objective_c_plugin grpc_php_plugin grpc_python_plugin grpc_ruby_plugin
 grpcurl:grpcurl
 grsync:grsync grsync-batch
@@ -2141,6 +2151,7 @@ launch:launch
 launch_socket_server:launch_socket_server
 launchctl-completion:
 launchdns:launchdns
+lazydocker:lazydocker
 lazygit:lazygit
 lbdb:lbdb-fetchaddr lbdb_dotlock lbdbq nodelist2lbdb
 lbzip2:lbunzip2 lbzcat lbzip2
@@ -2170,6 +2181,7 @@ lemon:lemon
 lensfun:g-lensfun-update-data lensfun-add-adapter lensfun-update-data
 lepton:lepton lepton-avx lepton-slow-best-ratio
 leptonica:convertfilestopdf convertfilestops convertformat convertsegfilestopdf convertsegfilestops converttopdf converttops fileinfo imagetops xtractprotos
+lerna:lerna
 less:less lessecho lesskey
 lesspipe:code2color lesspipe.sh sxw2txt tarcolor
 lesstif:motif-config mwm mxmkmf uil xmbind
@@ -2293,7 +2305,6 @@ libgee:
 libgeotiff:applygeo geotifcp listgeo
 libgetdata:checkdirfile dirfile2ascii
 libgfshare:gfcombine gfsplit
-libggz:
 libghthash:
 libgig:dlsdump gigdump gigextract rifftree
 libgit2-glib:
@@ -2310,7 +2321,6 @@ libgraphqlparser:
 libgsf:gsf gsf-office-thumbnailer gsf-vba-dump
 libgsm:toast
 libgtop:libgtop_daemon2 libgtop_server2
-libguess:
 libgusb:gusbcmd
 libgweather:
 libgxps:xpstopdf xpstopng xpstops xpstosvg
@@ -2459,6 +2469,7 @@ libshout:
 libsigc++:
 libsignal-protocol-c:
 libsigsegv:
+libsixel:img2sixel libsixel-config sixel2png
 libslax:gt oxtradoc slax-config slaxproc
 libsmf:smfsh
 libsmi:smicache smidiff smidump smilint smiquery smistrip smixlate
@@ -2472,6 +2483,7 @@ libspectre:
 libspectrum:
 libspiro:
 libspnav:
+libspng:
 libsquish:
 libssh2:
 libssh:
@@ -2518,6 +2530,7 @@ libvirt-glib:
 libvirt:libvirtd virsh virt-admin virt-host-validate virt-pki-validate virt-xml-validate virtlockd virtlogd
 libvisio:vsd2raw vsd2text vsd2xhtml vss2raw vss2text vss2xhtml
 libvmaf:
+libvncserver:
 libvo-aacenc:
 libvoikko:voikkogc voikkohyphenate voikkospell voikkovfstc
 libvorbis:
@@ -2629,7 +2642,6 @@ lxc:lxc
 lxsplit:lxsplit
 lynis:lynis
 lynx:lynx
-lysp:gclysp lysp
 lz4:lz4 lz4c lz4cat unlz4
 lzfse:lzfse
 lzip:lzip
@@ -3500,6 +3512,7 @@ ptunnel:ptunnel
 puf:puf
 pugixml:
 pulledpork:pulledpork.pl
+pulp:pulp
 pulseaudio:esdcompat pacat pacmd pactl pamon paplay parec parecord pasuspender pulseaudio
 pulumi:pulumi pulumi-language-go pulumi-language-nodejs pulumi-language-python pulumi-language-python-exec
 pumba:pumba
@@ -3568,7 +3581,7 @@ qrupdate:
 qscintilla2:
 qsoas:QSoas
 qstat:qstat
-qt:canbusutil fixqt4headers.pl lconvert lrelease lupdate macchangeqt macdeployqt moc qcollectiongenerator qdbus qdbuscpp2xml qdbusxml2cpp qdistancefieldgenerator qgltf qhelpgenerator qlalr qmake qmlcachegen qmleasing qmlimportscanner qmllint qmlmin qmlplugindump qmlpreview qmlprofiler qmlscene qmltestrunner qscxmlc qtattributionsscanner qtdiag qtpaths qtplugininfo qvkgen qwebengine_convert_dict rcc repc syncqt.pl uic xmlpatterns xmlpatternsvalidator
+qt:canbusutil fixqt4headers.pl lconvert lprodump lrelease lrelease-pro lupdate lupdate-pro macchangeqt macdeployqt moc qcollectiongenerator qdbus qdbuscpp2xml qdbusxml2cpp qdistancefieldgenerator qgltf qhelpgenerator qlalr qmake qmlcachegen qmleasing qmlimportscanner qmllint qmlmin qmlplugindump qmlpreview qmlprofiler qmlscene qmltestrunner qscxmlc qtattributionsscanner qtdiag qtpaths qtplugininfo qvkgen qwebengine_convert_dict rcc repc syncqt.pl uic xmlpatterns xmlpatternsvalidator
 qtads:QTads
 qtfaststart:qt-faststart
 qtkeychain:
@@ -3577,6 +3590,7 @@ quasi88:quasi88
 quazip:
 questdb:questdb
 quex:quex
+quickjs:qjs qjsbn qjsbnc qjsc qjscalc
 quicktype:quicktype
 quilt:guards quilt
 quotatool:quotatool
@@ -3874,6 +3888,7 @@ sgrep:sgrep
 sha1dc:sha1dcsum sha1dcsum_partialcoll
 sha2:sha2
 sha3sum:keccak-224sum keccak-256sum keccak-384sum keccak-512sum keccaksum rawshake256sum rawshake512sum sha3-224sum sha3-256sum sha3-384sum sha3-512sum shake256sum shake512sum
+shadowenv:shadowenv
 shadowsocks-libev:ss-local ss-manager ss-server ss-tunnel
 shairport-sync:shairport-sync
 shairport:shairport
@@ -4082,6 +4097,7 @@ stanford-corenlp:corenlp.sh
 stanford-ner:ner-gui.sh ner.sh
 stanford-parser:lexparser-gui.sh lexparser-lang-train-test.sh lexparser-lang.sh lexparser.sh
 star:mt rmt scpio smt spax star star_sym suntar tartest ustar
+starship:starship
 startup-notification:
 statik:statik
 stdman:
@@ -4254,6 +4270,7 @@ texinfo:info install-info makeinfo pdftexi2dvi pod2texi texi2any texi2dvi texi2p
 texmath:texmath
 textql:textql
 tfenv:terraform tfenv
+tflint:tflint
 tgif:tgif
 tgui:
 thc-pptp-bruter:thc-pptp-bruter
@@ -4577,6 +4594,7 @@ wemux:wemux
 wesnoth:wesnoth wesnothd
 wget:wget
 wgetpaste:wgetpaste
+whalebrew:whalebrew
 whatmask:whatmask
 whatmp3:whatmp3
 when:when
@@ -4620,6 +4638,7 @@ wsk:wsk
 wskdeploy:wskdeploy
 wslay:
 wtf:wtf
+wtfutil:wtfutil
 wu:wu
 wumpus:superhack wumpus
 wv2:wv2-config
