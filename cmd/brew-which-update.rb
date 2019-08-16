@@ -54,6 +54,7 @@ class ExecutablesDB
   def update!
     Formula.each do |f|
       next if f.tap?
+
       name = f.full_name
 
       # note: f.installed? is true only if the *latest* version is installed.
