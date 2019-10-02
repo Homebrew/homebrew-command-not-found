@@ -1,9 +1,9 @@
 # Homebrew Command Not Found
 
-[![Azure Pipelines](https://img.shields.io/vso/build/Homebrew/56a87eb4-3180-495a-9117-5ed6c79da737/6.svg)](https://dev.azure.com/Homebrew/Homebrew/_build/latest?definitionId=6)
-
 This project reproduces Ubuntu’s `command-not-found` for Homebrew users on
 macOS.
+
+[![GitHub Actions](https://github.com/Homebrew/homebrew-command-not-found/workflows/GitHub%20Actions%20CI/badge.svg)](https://github.com/Homebrew/homebrew-command-not-found/actions)
 
 On Ubuntu, when you try to use a command that doesn’t exist locally but is
 available through a package, Bash will suggest you a command to install it.
