@@ -62,7 +62,7 @@ sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
 chsh -s /usr/local/bin/bash
 ```
 
-## How does it work
+## How it works
 
 When you tap the repo you’ll get two more `brew` commands: `brew which-formula`
 and `brew which-update`. The first one uses a database file which gives you the
