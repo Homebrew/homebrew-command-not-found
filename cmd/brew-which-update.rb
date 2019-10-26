@@ -10,6 +10,7 @@
 require "formula"
 require "pathname"
 require "set"
+require "utils"
 
 # ExecutablesDB represents a DB associating formulae to the binaries they
 # provide.
@@ -111,8 +112,7 @@ class ExecutablesDB
     !@exes.key? formula.full_name
   end
 
-  def update_formula_binaries(formula, prefix = nil)
-    name = formula.full_name
+  def update_formula_binaries_from_prefix(formula, prefix = nil)
     prefix ||= formula.prefix
 
     binaries = Set.new
@@ -121,6 +121,11 @@ class ExecutablesDB
       binaries << File.basename(file).to_s if File.executable? file
     end
 
+    update_formula_binaries(formula, binaries)
+  end
+
+  def update_formula_binaries(formula, binaries)
+    name = formula.full_name
     binaries = binaries.to_a.sort
 
     if missing_formula? formula
@@ -134,16 +139,31 @@ class ExecutablesDB
 
   # update the binaries of {formula}, assuming it's installed
   def update_installed_formula(formula)
-    update_formula_binaries formula
+    update_formula_binaries_from_prefix formula
   end
 
   # Add a formula's binaries from its bottle
   def update_bottled_formula(formula)
     formula.bottle.fetch
-    # NOTE: we may want to just list the bottle content without unarchiving it
-    formula.bottle.resource.stage do
-      update_formula_binaries formula, Dir["*"].first
+    path = formula.bottle.resource.cached_download.to_s
+    content = Utils.popen_read("tar", "tzvf", path, "*/bin/*")
+    binaries = []
+    prefix = formula.prefix.relative_path_from(HOMEBREW_CELLAR).to_s
+    binpath_re = %r{^#{prefix}/s?bin/}
+    content.each_line do |line|
+      # skip directories and non-executable files
+      # 'l' = symlink, '-' = regular file
+      next unless /^[l-]r.x/.match?(line)
+
+      # ignore symlink targets
+      line = line.chomp.sub(/\s+->.+$/, "")
+      path = line.split(/\s+/).last
+      next unless binpath_re.match?(path)
+
+      binaries << Pathname.new(path).basename.to_s
     end
+
+    update_formula_binaries formula, binaries
   end
 end
 
