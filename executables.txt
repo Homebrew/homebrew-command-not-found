@@ -414,7 +414,7 @@ briss:briss
 bro:bro bro-config bro-cut broccoli-config broctl capstats trace-summary
 brogue:brogue
 broot:broot
-brotli:bro
+brotli:brotli
 browser:browser
 bsdconv:bsdconv bsdconv-completion bsdconv-man bsdconv-mktable
 bsdiff:bsdiff
@@ -433,6 +433,7 @@ bulk_extractor:BEViewer bulk_extractor plugin_test
 bullet:
 bumpversion:bumpversion
 bundler-completion:
+bundletool:bundletool
 bup:bup
 burl:burl
 burp:bedup bsigs burp burp_ca vss_strip
@@ -490,6 +491,7 @@ carrot2:carrot2
 carthage:carthage
 cash-cli:cash
 cask:cask
+cassandra-reaper:cassandra-reaper spreaper
 cassandra:cassandra cassandra-stress cassandra-stressd compaction-stress cqlsh cqlsh.py debug-cql nodetool sstabledump sstableexpiredblockers sstablelevelreset sstableloader sstablemetadata sstableofflinerelevel sstablerepairedset sstablescrub sstablesplit sstableupgrade sstableutil sstableverify
 cassandra@2.1:cassandra cassandra-cli cqlsh debug-cql nodetool sstablekeys sstableloader sstablescrub sstableupgrade
 cassandra@2.2:cassandra cqlsh cqlsh.py debug-cql nodetool sstablekeys sstableloader sstablescrub sstableupgrade sstableverify
@@ -794,6 +796,7 @@ cweb:ctangle cweave
 cwlogs:cwlogs
 cxxopts:
 cxxtest:cxxtestgen
+cypher-shell:cypher-shell
 cython:cygdb cython cythonize
 czmq:zmakecert
 daemon:daemon
@@ -1037,6 +1040,7 @@ e2fsprogs:badblocks blkid chattr compile_et debugfs dumpe2fs e2freefrag e2fsck e
 e2tools:e2cp e2ln e2ls e2mkdir e2mv e2rm e2tail
 easy-git:eg
 easy-tag:easytag
+easyengine:ee
 easyrpg-player:easyrpg-player
 ebook-tools:einfo lit2epub
 ec2-ami-tools:ec2-ami-tools-version ec2-bundle-image ec2-bundle-vol ec2-delete-bundle ec2-download-bundle ec2-migrate-bundle ec2-migrate-manifest ec2-unbundle ec2-upload-bundle
@@ -1189,6 +1193,7 @@ fetch-crl:clean-crl fetch-crl
 fetchmail:fetchmail fetchmailconf
 fex:fex
 ffe:ffe
+fff:fff
 ffind:ffind
 ffmpeg2theora:ffmpeg2theora
 ffmpeg:aviocat bisect-create cl2c clean-diff crypto_bench cws2fws dvd2concat ffescape ffeval ffhash ffmpeg ffplay ffprobe fourcc2pixfmt gen-rc graph2dot ismindex libav-merge-next-commit loudnorm.rb make_chlayout_test missing_codec_desc murge normalize.py patcheck pktdumper plotframes probetest qt-faststart seek_print sidxindex target_dec_fate.sh trasher uncoded_frame unwrap-diff zmqshell.py
@@ -1283,7 +1288,7 @@ freeling:analyze analyzer analyzer_client dicc2phon threaded_analyzer treeler
 freeradius-server:checkrad dhcpclient map_unit radattr radclient radcrypt raddebug radeapclient radiusd radlast radmin radsniff radsqlrelay radtest radwho radzap rc.radiusd smbencrypt
 freerdp:xfreerdp
 freeswitch:freeswitch fs_cli fs_encode fs_ivrd fsxs gentls_cert tone2wav
-freetds:bsqldb datacopy defncopy fisql freebcp osql tdspool tsql
+freetds:bsqldb bsqlodbc datacopy defncopy fisql freebcp osql tdspool tsql
 freetype:freetype-config
 freexl:
 frege-repl:frege-repl
@@ -1985,6 +1990,7 @@ janet:janet jpm
 jansson:
 jasmin:jasmin
 jasper:imgcmp imginfo jasper jiv
+javacc:javacc jjdoc jjtree
 javarepl:javarepl
 jbake:jbake
 jbig2dec:jbig2dec
@@ -2016,6 +2022,7 @@ jing-trang:jing trang
 jinja2-cli:jinja2
 jlog:jlog_change_endian jlog_sanity_check jlogctl jlogtail
 jmeter:jmeter
+jmxterm:jmxterm
 jmxtrans:jmxtrans
 jnethack:jnethack
 jnettop:jnettop
@@ -2123,6 +2130,7 @@ krakend:krakend
 krb5:compile_et gss-client gss-server k5srvutil kadmin kadmin.local kadmind kdb5_util kdestroy kinit klist kpasswd kprop kpropd kproplog krb5-config krb5-send-pr krb5kdc kswitch ktutil kvno sclient sim_client sim_server sserver uuclient uuserver
 ksh:ksh ksh93
 kstart:k5start krenew
+ktlint:ktlint
 ktmpl:ktmpl
 ktoblzcheck:ktoblzcheck
 kube-aws:kube-aws
@@ -2445,7 +2453,7 @@ libplist:plistutil
 libpng:libpng-config libpng16-config png-fix-itxt pngfix
 libpointing:
 libpoker-eval:
-libpq:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg initdb pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivexlog pg_recvlogical pg_resetxlog pg_restore pg_rewind pg_test_fsync pg_test_timing pg_upgrade pg_xlogdump pgbench psql reindexdb vacuumdb
+libpq:clusterdb createdb createuser dropdb dropuser ecpg initdb pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivewal pg_recvlogical pg_resetwal pg_restore pg_rewind pg_test_fsync pg_test_timing pg_upgrade pg_verify_checksums pg_waldump pgbench psql reindexdb vacuumdb
 libpqxx:pqxx-config
 libprotoident:lpi_arff lpi_find_unknown lpi_protoident
 libproxy:proxy
@@ -2691,6 +2699,7 @@ makepkg:cleanupdelta makepkg makepkg-template pacman pacman-db-upgrade pacman-ke
 makepp:makepp makepp_build_cache_control makeppbuiltin makeppclean makeppgraph makeppinfo makepplog makeppreplay mpp mppb mppbcc mppc mppg mppi mppl mppr
 makeself:makeself
 malbolge:malbolge
+mallet:classifier2info csv2classify csv2vectors mallet mallethon prepend-license.sh svmlight2vectors text2classify text2vectors vectors2classify vectors2info vectors2topics vectors2vectors
 mame:mame
 man-db:accessdb catman gaccessdb gapropos gcatman glexgrog gman gmandb gmanpath gwhatis lexgrog mandb
 man2html:man2html
@@ -2719,6 +2728,7 @@ maven-shell:mvnsh
 maven:mvn mvnDebug mvnyjp
 maven@3.2:mvn mvnDebug mvnyjp
 maven@3.3:mvn mvn.cmd mvnDebug mvnDebug.cmd mvnyjp
+maven@3.5:mvn mvnDebug mvnyjp
 mawk:mawk
 maxima:maxima rmaxima xmaxima
 maxwell:maxwell maxwell-bootstrap
@@ -2781,6 +2791,7 @@ mg:mg
 mgba:mGBA
 mhash:
 micro:micro
+micronaut:mn
 micropython:micropython
 midgard2:midgard2-query midgard2-schema
 midicsv:csvmidi midicsv
@@ -3373,7 +3384,9 @@ php:pear peardev pecl phar phar.phar php php-cgi php-config php-fpm phpdbg phpiz
 php@7.1:pear peardev pecl phar phar.phar php php-cgi php-config php-fpm phpdbg phpize
 php@7.2:pear peardev pecl phar phar.phar php php-cgi php-config php-fpm phpdbg phpize
 phplint:phpl
+phpmd:phpmd
 phpmyadmin:
+phpstan:phpstan
 phpunit:phpunit
 physfs:test_physfs
 pianobar:pianobar
@@ -3833,6 +3846,7 @@ sc-im:scim
 sc68:as68 debug68 info68 sc68 sc68-config sourcer68 unice68
 scala:fsc scala scalac scaladoc scalap
 scala@2.11:fsc scala scalac scaladoc scalap
+scala@2.12:fsc scala scalac scaladoc scalap
 scalaenv:scalaenv scalaenv-install
 scalapack:
 scalariform:scalariform
@@ -3946,6 +3960,7 @@ sic:sic
 sickle:sickle
 siege:bombardment siege siege.config siege2csv.pl
 sift:sift
+signal-cli:signal-cli
 signify-osx:signify
 sile:sile
 silk:flowcap mapsid num2dot rwaddrcount rwallformats rwappend rwbag rwbagbuild rwbagcat rwbagtool rwcat rwcombine rwcompare rwcount rwcut rwdedupe rwfglob rwfileinfo rwfilter rwflowappend rwflowpack rwgeoip2ccmap rwgroup rwguess rwidsquery rwip2cc rwipfix2silk rwmatch rwnetmask rwp2yaf2silk rwpackchecker rwpcut rwpdedupe rwpdu2silk rwpmapbuild rwpmapcat rwpmaplookup rwpmatch rwpollexec rwptoflow rwrandomizeip rwreceiver rwrecgenerator rwresolve rwrtd2split rwscan rwscanquery rwsender rwset rwsetbuild rwsetcat rwsetmember rwsettool rwsilk2ipfix rwsiteinfo rwsort rwsplit rwstats rwswapbytes rwtotal rwtuc rwuniq silk_config
@@ -4019,6 +4034,7 @@ softhsm:softhsm2-dump-file softhsm2-keyconv softhsm2-util
 solarus:solarus-run
 solid:
 solr:solr
+solr@7.7:oom_solr.sh post solr
 somagic-tools:somagic-extract-firmware
 somagic:somagic-capture somagic-init
 sonar-completion:
@@ -4177,6 +4193,7 @@ svgo:svgo
 svtplay-dl:svtplay-dl
 swagger-codegen:swagger-codegen
 swagger-codegen@2:swagger-codegen
+swagger2markup-cli:swagger2markup
 swaks:swaks
 swfmill:swfmill
 swftools:as3compile font2swf png2swf swfbbox swfc swfcombine swfdump swfextract swfrender swfstrings wav2swf
@@ -4526,6 +4543,7 @@ verilator:verilator verilator_bin verilator_bin_dbg verilator_coverage verilator
 vert.x:vertx
 vert:vert
 vf:
+vfuse:vfuse
 vgmstream:vgmstream
 vice:c1541 cartconv petcat vice-launcher.sh x128 x64 x64dtv x64sc xcbm2 xcbm5x0 xpet xplus4 xvic
 viennacl:
@@ -4640,6 +4658,7 @@ winexe:
 wiredtiger:wt
 wireguard-go:wireguard-go
 wireguard-tools:wg
+wiremock-standalone:wiremock
 wireshark:capinfos captype dftest dumpcap editcap mergecap randpkt rawshark reordercap text2pcap tshark
 wirouter_keyrec:wirouterkeyrec wr_iwlist.sh
 with-readline:with-readline
@@ -4749,6 +4768,7 @@ yamllint:yamllint
 yank:yank
 yapf:yapf
 yara:yara yarac
+yarn-completion:
 yarn:yarn
 yash:yash
 yasm:vsyasm yasm ytasm
