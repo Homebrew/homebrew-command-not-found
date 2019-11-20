@@ -22,6 +22,7 @@ acmetool:acmetool
 acpica:acpibin acpidump acpiexamples acpiexec acpihelp acpinames acpisrc acpixtract iasl
 activemq-cpp:activemqcpp-config example
 activemq:activemq activemq-admin
+adios2:adios2-config adios_deactivate_bp.sh adios_iotest adios_reorganize bpls sst_conn_tool
 admesh:admesh
 adns:adnsheloex adnshost adnslogres adnsresfilter
 adplug:adplugdb
@@ -46,7 +47,6 @@ aggregate:aggregate aggregate-ios
 aha:aha
 ahcpd:ahcpd
 ahoy:ahoy
-aiccu:aiccu
 aide:aide
 aircrack-ng:airbase-ng aircrack-ng airdecap-ng airdecloak-ng airdriver-ng aireplay-ng airmon-ng airodump-ng airodump-ng-oui-update airserv-ng airtun-ng ivstools kstats makeivs-ng packetforge-ng
 airspy:airspy_gpio airspy_gpiodir airspy_info airspy_lib_version airspy_r820t airspy_rx airspy_si5351c airspy_spiflash
@@ -307,7 +307,6 @@ bchunk:bchunk
 bcpp:bcpp cb++
 bcrypt:bcrypt
 bde:
-bdsup2sub:BDSup2Sub
 bdw-gc:
 beagle:
 beansdb:beansdb
@@ -341,6 +340,7 @@ bigloo:bglafile bglafile.sh bgldepend bgljas bgljfile bglmake bglmco bglpp bglpr
 binaryen:asm2wasm s2wasm wasm-as wasm-dis wasm-merge wasm-opt wasm-shell
 bind:arpaname bind9-config ddns-confgen delv dig dnssec-dsfromkey dnssec-importkey dnssec-keyfromlabel dnssec-keygen dnssec-revoke dnssec-settime dnssec-signzone dnssec-verify genrandom host isc-config.sh isc-hmac-fixup lwresd mdig named named-checkconf named-checkzone named-compilezone named-journalprint named-rrchecker nsec3hash nslookup nsupdate rndc rndc-confgen tsig-keygen
 bindfs:bindfs
+bingrep:bingrep
 binkd:binkd binkd-1.0.4
 binutils:gaddr2line gar gc++filt gcoffdump gdlltool gdllwrap gelfedit gnlmconv gnm gobjcopy gobjdump granlib greadelf gsize gsrconv gstrings gstrip gsysdump gwindmc gwindres
 binwalk:binwalk
@@ -476,6 +476,7 @@ cairomm:
 cake:cake
 calabash:calabash
 calc:calc
+calceph:calceph_inspector calceph_queryorientation calceph_queryposition
 calcurse:calcurse calcurse-caldav calcurse-upgrade
 calicoctl:calicoctl
 camellia:cam_demo cam_myobjects cam_yalefaces
@@ -489,6 +490,7 @@ carina:carina
 carla:carla carla-control carla-control-e carla-database carla-database-e carla-e carla-jack-multi carla-jack-multi-e carla-jack-single carla-jack-single-e carla-patchbay carla-patchbay-e carla-rack carla-rack-e carla-settings carla-settings-e carla-single carla-single-e
 carrot2:carrot2
 carthage:carthage
+cartridge-cli:cartridge
 cash-cli:cash
 cask:cask
 cassandra-reaper:cassandra-reaper spreaper
@@ -532,6 +534,7 @@ certbot:certbot letsencrypt
 certigo:certigo
 certstrap:certstrap
 ceylon:ceylon ceylon-sh-setup
+cf-tool:cf
 cf4ocl:ccl_c ccl_c-2.1.0 ccl_devinfo ccl_devinfo-2.1.0 ccl_plot_events.py
 cf:cf
 cfengine:cf-agent cf-execd cf-key cf-monitord cf-promises cf-runagent cf-serverd cf-upgrade rpmvercmp
@@ -659,7 +662,6 @@ cmusfm:cmusfm
 cnats:
 cntlm:cntlm
 coccinelle:pycocci spatch spatch.opt spgen
-cockroach:cockroach
 cocoapods:pod xcodeproj
 cocot:cocot
 coda-cli:coda
@@ -679,6 +681,7 @@ colordiff:cdiff colordiff
 colormake:clmake clmake-short colormake colormake-short
 colorsvn:colorsvn
 colortail:colortail
+comby:comby
 commandbox:box
 compcert:ccomp
 compface:compface uncompface
@@ -779,6 +782,7 @@ cubelib:cube3to4 cube4to3 cube_calltree cube_canonize cube_clean cube_cmp cube_c
 cucumber-cpp:
 cuetools:cuebreakpoints cueconvert cueprint cuetag.sh
 cunit:
+cups:cups-config ippeveprinter ippfind ipptool
 curaengine:CuraEngine
 curl-openssl:curl curl-config
 curl:curl curl-config
@@ -832,7 +836,6 @@ dbus:dbus-cleanup-sockets dbus-daemon dbus-launch dbus-monitor dbus-run-session 
 dbxml:dbxml dbxml_dump dbxml_load dbxml_load_container
 dc3dd:dc3dd
 dcadec:dcadec
-dcal:dcal
 dcd:dcd-client dcd-server
 dcfldd:dcfldd
 dcled:dcled
@@ -1105,8 +1108,6 @@ epstool:epstool
 epubcheck:epubcheck
 eralchemy:eralchemy
 erlang:ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
-erlang@17:ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
-erlang@19:ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
 erlang@20:ct_run dialyzer epmd erl erlc escript run_erl to_erl
 erlang@21:ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
 es:es
@@ -1421,7 +1422,7 @@ gibo:gibo
 gif2png:gif2png web2png
 gifcap:gifcap
 gifify:gifify
-giflib:gif2rgb gifbuild gifclrmp gifecho giffix gifinto giftext giftool
+giflib:gif2rgb gifbuild gifclrmp giffix giftext giftool
 giflossy:gifdiff gifsicle
 gifsicle:gifdiff gifsicle
 gifski:gifski
@@ -1535,8 +1536,7 @@ gmime:
 gmp:
 gmsh:gmsh
 gmt:backtracker blockmean blockmedian blockmode dimfilter filter1d fitcircle gmt gmt-config gmt2kml gmt2rgb gmt_shell_functions.sh gmtconnect gmtconvert gmtdefaults gmtdp gmtflexure gmtget gmtgravmag3d gmtinfo gmtlogo gmtmath gmtpmodeler gmtregress gmtselect gmtset gmtsimplify gmtspatial gmtstitch gmtswitch gmtvector gmtwhich gpsgridder gravfft grd2cpt grd2rgb grd2xyz grdblend grdclip grdcontour grdconvert grdcut grdedit grdfft grdfilter grdflexure grdgradient grdgravmag3d grdhisteq grdimage grdinfo grdlandmask grdmask grdmath grdpaste grdpmodeler grdproject grdraster grdredpol grdreformat grdrotater grdsample grdseamount grdspotter grdtrack grdtrend grdvector grdview grdvolume greenspline gshhg hotspotter img2grd isogmt kml2gmt makecpt mapproject mgd77convert mgd77header mgd77info mgd77list mgd77magref mgd77manage mgd77path mgd77sniffer mgd77track minmax nearneighbor originator project ps2raster psbasemap psclip pscoast pscontour psconvert pscoupe pshistogram psimage pslegend psmask psmeca pspolar psrose pssac psscale pssegy pssegyz pssolar psternary pstext psvelo pswiggle psxy psxyz rotconverter rotsmoother sample1d segy2grd spectrum1d sph2grd sphdistance sphinterpolate sphtriangulate splitxyz surface talwani2d talwani3d trend1d trend2d triangulate x2sys_binlist x2sys_cross x2sys_datalist x2sys_get x2sys_init x2sys_list x2sys_merge x2sys_put x2sys_report x2sys_solve xyz2grd
-gmt@4:GMT backtracker binlegs blockmean blockmedian blockmode dat2gmt dimfilter filter1d fitcircle gmt2bin gmt2dat gmt2kml gmt2rgb gmt_shell_functions.sh gmtconvert gmtdefaults gmtdigitize gmtdp gmtget gmtinfo gmtlegs gmtlist gmtlogo gmtmath gmtpath gmtselect gmtset gmtstitch gmtswitch gmttrack grd2cpt grd2xyz grdblend grdclip grdcontour grdcut grdedit grdfft grdfilter grdgradient grdhisteq grdimage grdinfo grdlandmask grdmask grdmath grdpaste grdproject grdraster grdreformat grdrotater grdsample grdspotter grdtrack grdtrend grdvector grdview grdvolume greenspline gshhg gshhg_dp gshhgtograss hotspotter img2google img2grd img2mercgrd isogmt kml2gmt makecpt makepattern mapproject mgd77convert mgd77header mgd77info mgd77list mgd77magref mgd77manage mgd77path mgd77sniffer mgd77togmt mgd77track minmax nc2xy nearneighbor originator project ps2raster psbasemap psbbox.sh psclip pscoast pscontour pscoupe pshistogram psimage pslegend psmask psmeca psmegaplot pspolar psrose psscale pssegy pssegyz pstext psvelo pswiggle psxy psxyz rotconverter sample1d segy2grd spectrum1d sphdistance sphinterpolate sphtriangulate splitxyz surface trend1d trend2d triangulate x2sys_binlist x2sys_cross x2sys_datalist x2sys_get x2sys_init x2sys_list x2sys_merge x2sys_put x2sys_report x2sys_solve x_edit x_init x_list x_over x_remove x_report x_setup x_solve_dc_drift x_update xyz2grd
-gmtl:gmtl-config
+gmt@5:backtracker blockmean blockmedian blockmode dimfilter filter1d fitcircle gmt gmt-config gmt2kml gmt2rgb gmt_shell_functions.sh gmtconnect gmtconvert gmtdefaults gmtdp gmtflexure gmtget gmtgravmag3d gmtinfo gmtlogo gmtmath gmtpmodeler gmtregress gmtselect gmtset gmtsimplify gmtspatial gmtstitch gmtswitch gmtvector gmtwhich gpsgridder gravfft grd2cpt grd2rgb grd2xyz grdblend grdclip grdcontour grdconvert grdcut grdedit grdfft grdfilter grdflexure grdgradient grdgravmag3d grdhisteq grdimage grdinfo grdlandmask grdmask grdmath grdpaste grdpmodeler grdproject grdraster grdredpol grdreformat grdrotater grdsample grdseamount grdspotter grdtrack grdtrend grdvector grdview grdvolume greenspline gshhg hotspotter img2grd isogmt kml2gmt makecpt mapproject mgd77convert mgd77header mgd77info mgd77list mgd77magref mgd77manage mgd77path mgd77sniffer mgd77track minmax nearneighbor originator project ps2raster psbasemap psclip pscoast pscontour psconvert pscoupe pshistogram psimage pslegend psmask psmeca pspolar psrose pssac psscale pssegy pssegyz pssolar psternary pstext psvelo pswiggle psxy psxyz rotconverter rotsmoother sample1d segy2grd spectrum1d sph2grd sphdistance sphinterpolate sphtriangulate splitxyz surface talwani2d talwani3d trend1d trend2d triangulate x2sys_binlist x2sys_cross x2sys_datalist x2sys_get x2sys_init x2sys_list x2sys_merge x2sys_put x2sys_report x2sys_solve xyz2grd
 gnome-autoar:
 gnome-builder:gnome-builder gnome-builder-cli
 gnome-common:gnome-autogen.sh
@@ -1659,7 +1659,6 @@ grc:grc grcat
 greed:greed
 grep:gegrep gfgrep ggrep
 grepcidr:grepcidr
-grib-api:big2gribex gg_sub_area_check grib1to2 grib2ppm grib_add grib_cmp grib_compare grib_convert grib_copy grib_corruption_check grib_count grib_debug grib_distance grib_dump grib_error grib_filter grib_get grib_get_data grib_histogram grib_index_build grib_info grib_keys grib_list_keys grib_ls grib_moments grib_packing grib_parser grib_repair grib_set grib_to_json tigge_accumulations tigge_check tigge_name tigge_split
 griffon:griffon griffon-debug griffonsh startGriffon
 grin-wallet:grin-wallet
 grin:grin
@@ -1750,7 +1749,6 @@ hadolint:hadolint
 hadoop:container-executor distribute-exclude.sh hadoop hadoop-daemon.sh hadoop-daemons.sh hdfs hdfs-config.sh httpfs.sh kms.sh mapred mr-jobhistory-daemon.sh refresh-namenodes.sh slaves.sh start-all.sh start-balancer.sh start-dfs.sh start-secure-dns.sh start-yarn.sh stop-all.sh stop-balancer.sh stop-dfs.sh stop-secure-dns.sh stop-yarn.sh test-container-executor yarn yarn-daemon.sh yarn-daemons.sh
 halibut:halibut
 hamlib:rigctl rigctld rigmem rigsmtr rigswr rotctl rotctld rpc.rigd rpc.rotd
-hana:
 handbrake:HandBrakeCLI
 hapi-fhir-cli:hapi-fhir-cli
 haproxy:haproxy
@@ -1777,6 +1775,8 @@ heatshrink:heatshrink
 hebcal:hebcal
 heimdal:afslog bsearch gsstool heimtools hxtool idn-lookup iprop-log kadmin kdestroy kf kgetcred kinit klist kpasswd krb5-config kstash kswitch ktutil otp otpprint pagsh string2key su verify_krb5_conf
 hello:hello
+helm:helm
+helm@2:helm tiller
 helmfile:helmfile
 helmsman:helmsman
 help2man:help2man
@@ -2000,6 +2000,7 @@ jbig2enc:jbig2 pdf.py
 jbigkit:jbgtopbm jbgtopbm85 pbmtojbg pbmtojbg85
 jboss-forge:forge
 jcal:jcal jdate
+jd:jd
 jdnssec-tools:jdnssec-dstool jdnssec-keygen jdnssec-keyinfo jdnssec-signkeyset jdnssec-signrrset jdnssec-signzone jdnssec-verifyzone jdnssec-zoneformat
 jdupes:jdupes
 jed:jed jed-script
@@ -2076,7 +2077,7 @@ julius:accept_check.dSYM adinrec.dSYM adintool.dSYM dfa_determinize.dSYM dfa_min
 juman:juman
 jumanpp:jumanpp mkdarts_jumanpp
 jump:jump
-jupyter:jupyter jupyter-bundlerextension jupyter-console jupyter-kernelspec jupyter-migrate jupyter-nbconvert jupyter-nbextension jupyter-notebook jupyter-run jupyter-serverextension jupyter-troubleshoot jupyter-trust
+jupyterlab:jupyter jupyter-bundlerextension jupyter-console jupyter-kernel jupyter-kernelspec jupyter-migrate jupyter-nbconvert jupyter-nbextension jupyter-notebook jupyter-run jupyter-serverextension jupyter-troubleshoot jupyter-trust
 just:just
 jvgrep:jvgrep
 jvm-mon:jvm-mon
@@ -2112,6 +2113,7 @@ kibana:kibana kibana-plugin
 kibana@5.6:kibana kibana-plugin
 kim-api:kim-api-activate kim-api-collections-management kim-api-deactivate
 kimwitu++:kc++
+kind:kind
 kitchen-completion:
 kitchen-sync:ks ks_mysql
 kite:build_kdocs ikt kdb kite
@@ -2144,7 +2146,6 @@ kubectx:kubectx kubens
 kubeless:kubeless
 kubeprod:kubeprod
 kubernetes-cli:kubectl
-kubernetes-helm:helm tiller
 kubernetes-service-catalog-client:svcat
 kubeseal:kubeseal
 kubespy:kubespy
@@ -2382,6 +2383,7 @@ liblcf:
 liblinear:predict train
 liblo:oscdump oscsend
 liblockfile:dotlockfile
+liblouis:lou_allround lou_checkhyphens lou_checktable lou_compare lou_debug lou_tableinfo lou_trace lou_translate
 liblqr:
 libltc:
 liblunar:
@@ -2547,6 +2549,7 @@ libunwind-headers:
 libupnp:
 libusb-compat:libusb-config
 libusb:
+libusbmuxd:iproxy
 libusrsctp:
 libuv:
 libuvc:
@@ -2612,7 +2615,6 @@ lizard:lz5 lz5cat unlz5
 lldpd:lldpcli lldpctl lldpd
 llnode:
 llvm:FileCheck bugpoint c-index-test clang clang++ clang-8 clang-apply-replacements clang-change-namespace clang-check clang-cl clang-cpp clang-extdef-mapping clang-format clang-import-test clang-include-fixer clang-offload-bundler clang-query clang-refactor clang-rename clang-reorder-fields clang-tidy clangd clangd-xpc-test-client count diagtool dsymutil find-all-symbols git-clang-format hmaptool ld.lld ld64.lld llc lld lld-link lli lli-child-target llvm-PerfectShuffle llvm-ar llvm-as llvm-bcanalyzer llvm-c-test llvm-cat llvm-cfi-verify llvm-config llvm-cov llvm-cvtres llvm-cxxdump llvm-cxxfilt llvm-cxxmap llvm-diff llvm-dis llvm-dlltool llvm-dwarfdump llvm-dwp llvm-elfabi llvm-exegesis llvm-extract llvm-lib llvm-link llvm-lto llvm-lto2 llvm-mc llvm-mca llvm-modextract llvm-mt llvm-nm llvm-objcopy llvm-objdump llvm-opt-report llvm-pdbutil llvm-profdata llvm-ranlib llvm-rc llvm-readelf llvm-readobj llvm-rtdyld llvm-size llvm-split llvm-stress llvm-strings llvm-strip llvm-symbolizer llvm-tblgen llvm-undname llvm-xray modularize not obj2yaml opt sancov sanstats scan-build scan-view set-xcode-analyzer verify-uselistorder wasm-ld yaml-bench yaml2obj
-llvm@4:FileCheck bugpoint c-index-test clang clang++ clang-4.0 clang-apply-replacements clang-change-namespace clang-check clang-cl clang-cpp clang-format clang-import-test clang-include-fixer clang-offload-bundler clang-query clang-rename clang-reorder-fields clang-tidy count find-all-symbols git-clang-format ld.lld llc lld lld-link lli lli-child-target llvm-PerfectShuffle llvm-ar llvm-as llvm-bcanalyzer llvm-c-test llvm-cat llvm-config llvm-cov llvm-cxxdump llvm-cxxfilt llvm-diff llvm-dis llvm-dsymutil llvm-dwarfdump llvm-dwp llvm-extract llvm-lib llvm-link llvm-lto llvm-lto2 llvm-mc llvm-mcmarkup llvm-modextract llvm-nm llvm-objdump llvm-opt-report llvm-pdbdump llvm-profdata llvm-ranlib llvm-readobj llvm-rtdyld llvm-size llvm-split llvm-stress llvm-strings llvm-symbolizer llvm-tblgen llvm-xray modularize not obj2yaml opt sancov sanstats scan-build scan-view set-xcode-analyzer verify-uselistorder yaml-bench yaml2obj
 llvm@6:FileCheck bugpoint c-index-test clang clang++ clang-6.0 clang-apply-replacements clang-change-namespace clang-check clang-cl clang-cpp clang-format clang-func-mapping clang-import-test clang-include-fixer clang-offload-bundler clang-query clang-refactor clang-rename clang-reorder-fields clang-tidy clangd count find-all-symbols git-clang-format ld.lld ld64.lld llc lld lld-link lli lli-child-target llvm-PerfectShuffle llvm-ar llvm-as llvm-bcanalyzer llvm-c-test llvm-cat llvm-cfi-verify llvm-config llvm-cov llvm-cvtres llvm-cxxdump llvm-cxxfilt llvm-diff llvm-dis llvm-dlltool llvm-dsymutil llvm-dwarfdump llvm-dwp llvm-extract llvm-lib llvm-link llvm-lto llvm-lto2 llvm-mc llvm-mcmarkup llvm-modextract llvm-mt llvm-nm llvm-objcopy llvm-objdump llvm-opt-report llvm-pdbutil llvm-profdata llvm-ranlib llvm-rc llvm-readelf llvm-readobj llvm-rtdyld llvm-size llvm-split llvm-stress llvm-strings llvm-symbolizer llvm-tblgen llvm-xray modularize not obj2yaml opt sancov sanstats scan-build scan-view set-xcode-analyzer verify-uselistorder wasm-ld yaml-bench yaml2obj
 llvm@7:FileCheck bugpoint c-index-test clang clang++ clang-7 clang-apply-replacements clang-change-namespace clang-check clang-cl clang-cpp clang-format clang-func-mapping clang-import-test clang-include-fixer clang-offload-bundler clang-query clang-refactor clang-rename clang-reorder-fields clang-tidy clangd count diagtool dsymutil find-all-symbols git-clang-format hmaptool ld.lld ld64.lld llc lld lld-link lli lli-child-target llvm-PerfectShuffle llvm-ar llvm-as llvm-bcanalyzer llvm-c-test llvm-cat llvm-cfi-verify llvm-config llvm-cov llvm-cvtres llvm-cxxdump llvm-cxxfilt llvm-diff llvm-dis llvm-dlltool llvm-dwarfdump llvm-dwp llvm-exegesis llvm-extract llvm-lib llvm-link llvm-lto llvm-lto2 llvm-mc llvm-mca llvm-modextract llvm-mt llvm-nm llvm-objcopy llvm-objdump llvm-opt-report llvm-pdbutil llvm-profdata llvm-ranlib llvm-rc llvm-readelf llvm-readobj llvm-rtdyld llvm-size llvm-split llvm-stress llvm-strings llvm-strip llvm-symbolizer llvm-tblgen llvm-undname llvm-xray modularize not obj2yaml opt sancov sanstats scan-build scan-view set-xcode-analyzer verify-uselistorder wasm-ld yaml-bench yaml2obj
 llvm@8:FileCheck bugpoint c-index-test clang clang++ clang-8 clang-apply-replacements clang-change-namespace clang-check clang-cl clang-cpp clang-extdef-mapping clang-format clang-import-test clang-include-fixer clang-offload-bundler clang-query clang-refactor clang-rename clang-reorder-fields clang-tidy clangd clangd-xpc-test-client count darwin-debug diagtool dsymutil find-all-symbols git-clang-format hmaptool ld.lld ld64.lld llc lld lld-link lldb lldb-argdumper lldb-mi lldb-server lldb-test lldb-vscode lli lli-child-target llvm-PerfectShuffle llvm-ar llvm-as llvm-bcanalyzer llvm-c-test llvm-cat llvm-cfi-verify llvm-config llvm-cov llvm-cvtres llvm-cxxdump llvm-cxxfilt llvm-cxxmap llvm-diff llvm-dis llvm-dlltool llvm-dwarfdump llvm-dwp llvm-elfabi llvm-exegesis llvm-extract llvm-lib llvm-link llvm-lto llvm-lto2 llvm-mc llvm-mca llvm-modextract llvm-mt llvm-nm llvm-objcopy llvm-objdump llvm-opt-report llvm-pdbutil llvm-profdata llvm-ranlib llvm-rc llvm-readelf llvm-readobj llvm-rtdyld llvm-size llvm-split llvm-stress llvm-strings llvm-strip llvm-symbolizer llvm-tblgen llvm-undname llvm-xray modularize not obj2yaml opt sancov sanstats scan-build scan-view set-xcode-analyzer verify-uselistorder wasm-ld yaml-bench yaml2obj
@@ -2706,6 +2708,7 @@ mame:mame
 man-db:accessdb catman gaccessdb gapropos gcatman glexgrog gman gmandb gmanpath gwhatis lexgrog mandb
 man2html:man2html
 mandoc:bsdapropos bsdmakewhatis bsdman bsdwhatis demandoc mandoc manpage soelim
+manticoresearch:index_converter indexer indextool searchd spelldump wordbreaker
 mapcrafter:mapcrafter mapcrafter_export mapcrafter_markers mapcrafter_png-it.py mapcrafter_textures.py
 mapnik:mapnik-config mapnik-index mapnik-render shapeindex
 mapserver:legend mapserv msencrypt scalebar shp2img shptree shptreetst shptreevis sortshp tile4ms
@@ -2713,7 +2716,6 @@ marathon-swift:marathon
 mariadb-connector-c:mariadb_config
 mariadb-connector-odbc:
 mariadb:aria_chk aria_dump_log aria_ftdump aria_pack aria_read_log innochecksum mariabackup mbstream msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_config mysql_convert_table_format mysql_find_rows mysql_fix_extensions mysql_install_db mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysql_zap mysqlaccess mysqladmin mysqlbinlog mysqlbug mysqlcheck mysqld mysqld_multi mysqld_safe mysqld_safe_helper mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest mytop perror replace resolve_stack_dump resolveip wsrep_sst_mariabackup wsrep_sst_mysqldump wsrep_sst_rsync wsrep_sst_xtrabackup wsrep_sst_xtrabackup-v2
-mariadb@10.0:aria_chk aria_dump_log aria_ftdump aria_pack aria_read_log innochecksum msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_config mysql_convert_table_format mysql_find_rows mysql_fix_extensions mysql_install_db mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysql_zap mysqlaccess mysqladmin mysqlbinlog mysqlbug mysqlcheck mysqld mysqld_multi mysqld_safe mysqld_safe_helper mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest mytop perror replace resolve_stack_dump resolveip
 mariadb@10.1:aria_chk aria_dump_log aria_ftdump aria_pack aria_read_log innochecksum mariabackup mbstream msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_config mysql_convert_table_format mysql_find_rows mysql_fix_extensions mysql_install_db mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysql_zap mysqlaccess mysqladmin mysqlbinlog mysqlbug mysqlcheck mysqld mysqld_multi mysqld_safe mysqld_safe_helper mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest mytop perror rcmysql replace resolve_stack_dump resolveip wsrep_sst_mariabackup wsrep_sst_mysqldump wsrep_sst_rsync wsrep_sst_xtrabackup wsrep_sst_xtrabackup-v2
 mariadb@10.2:aria_chk aria_dump_log aria_ftdump aria_pack aria_read_log innochecksum mariabackup mariadb_config mbstream msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack myrocks_hotbackup mysql mysql.server mysql_client_test mysql_config mysql_convert_table_format mysql_find_rows mysql_fix_extensions mysql_install_db mysql_ldb mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysqlaccess mysqladmin mysqlbinlog mysqlcheck mysqld mysqld_multi mysqld_safe mysqld_safe_helper mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest mytop perror rcmysql replace resolve_stack_dump resolveip sst_dump wsrep_sst_mariabackup wsrep_sst_mysqldump wsrep_sst_rsync wsrep_sst_xtrabackup wsrep_sst_xtrabackup-v2
 mariadb@10.3:aria_chk aria_dump_log aria_ftdump aria_pack aria_read_log innochecksum mariabackup mariadb_config mbstream msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack myrocks_hotbackup mysql mysql.server mysql_client_test mysql_config mysql_convert_table_format mysql_find_rows mysql_fix_extensions mysql_install_db mysql_ldb mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysqlaccess mysqladmin mysqlbinlog mysqlcheck mysqld mysqld_multi mysqld_safe mysqld_safe_helper mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest mytop perror replace resolve_stack_dump resolveip sst_dump wsrep_sst_mariabackup wsrep_sst_mysqldump wsrep_sst_rsync wsrep_sst_rsync_wan
@@ -2920,6 +2922,7 @@ mpfr:
 mpg123:mpg123 mpg123-id3dump mpg123-strip out123
 mpg321:mpg321
 mpgtx:mpgcat mpgdemux mpginfo mpgjoin mpgsplit mpgtx tagmp3
+mpi4py:
 mpich:hydra_nameserver hydra_persist hydra_pmi_proxy mpic++ mpicc mpichversion mpicxx mpiexec mpiexec.hydra mpif77 mpif90 mpifort mpirun mpivars parkill
 mpir:
 mplayer:mencoder mplayer
@@ -2927,6 +2930,7 @@ mplayershell:mps
 mpop:mpop
 mps-youtube:mpsyt
 mpssh:mpssh
+mpv:mpv
 mpw:mpw
 mr:mr webcheckout
 mrboom:mrboom
@@ -2965,14 +2969,13 @@ myman:myman myman-0.7.1 myman.command
 mypy:mypy
 mysql++:
 mysql-client:lz4_decompress my_print_defaults mysql mysql_config mysql_config_editor mysql_plugin mysql_secure_installation mysql_ssl_rsa_setup mysqladmin mysqlbinlog mysqlcheck mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlimport mysqlpump mysqlshow mysqlslap mysqltest perror replace resolve_stack_dump resolveip zlib_decompress
+mysql-client@5.7:lz4_decompress my_print_defaults mysql mysql_config mysql_config_editor mysql_plugin mysql_secure_installation mysql_ssl_rsa_setup mysqladmin mysqlbinlog mysqlcheck mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlimport mysqlpump mysqlshow mysqlslap mysqltest perror replace resolve_stack_dump resolveip zlib_decompress
 mysql-connector-c++:
 mysql-connector-c++@1.1:
-mysql-connector-c:my_print_defaults mysql_config perror
 mysql-sandbox:deploy_to_remote_sandboxes.sh low_level_make_sandbox make_multiple_custom_sandbox make_multiple_sandbox make_replication_sandbox make_sandbox make_sandbox_from_installed make_sandbox_from_source msandbox msb sbtool test_sandbox
 mysql-search-replace:srdb
 mysql-utilities:mysqlauditadmin mysqlauditgrep mysqlbinlogmove mysqlbinlogpurge mysqlbinlogrotate mysqldbcompare mysqldbcopy mysqldbexport mysqldbimport mysqldiff mysqldiskusage mysqlfailover mysqlfrm mysqlgrants mysqlindexcheck mysqlmetagrep mysqlprocgrep mysqlreplicate mysqlrpladmin mysqlrplcheck mysqlrplms mysqlrplshow mysqlrplsync mysqlserverclone mysqlserverinfo mysqlslavetrx mysqluc mysqluserclone
 mysql:innochecksum lz4_decompress my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_client_test_embedded mysql_config mysql_config_editor mysql_embedded mysql_install_db mysql_plugin mysql_secure_installation mysql_ssl_rsa_setup mysql_tzinfo_to_sql mysql_upgrade mysqladmin mysqlbinlog mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlimport mysqlpump mysqlshow mysqlslap mysqltest mysqltest_embedded perror replace resolve_stack_dump resolveip zlib_decompress
-mysql@5.5:innochecksum msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_config mysql_convert_table_format mysql_find_rows mysql_fix_extensions mysql_install_db mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysql_zap mysqladmin mysqlbinlog mysqlbug mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest perror replace resolve_stack_dump resolveip
 mysql@5.6:innochecksum msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_client_test_embedded mysql_config mysql_config_editor mysql_convert_table_format mysql_embedded mysql_find_rows mysql_fix_extensions mysql_install_db mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysql_zap mysqladmin mysqlbinlog mysqlbug mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest mysqltest_embedded perror replace resolve_stack_dump resolveip
 mysql@5.7:innochecksum lz4_decompress my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_client_test_embedded mysql_config mysql_config_editor mysql_embedded mysql_install_db mysql_plugin mysql_secure_installation mysql_ssl_rsa_setup mysql_tzinfo_to_sql mysql_upgrade mysqladmin mysqlbinlog mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlimport mysqlpump mysqlshow mysqlslap mysqltest mysqltest_embedded mysqlxtest perror replace resolve_stack_dump resolveip zlib_decompress
 mysqltuner:mysqltuner
@@ -3077,6 +3080,7 @@ no-more-secrets:nms sneakers
 node-build:node-build nodenv-install nodenv-uninstall
 node:node
 node@10:node npm npx
+node@12:node npm npx
 node@8:node
 node_exporter:node_exporter
 nodebrew:nodebrew
@@ -3132,6 +3136,7 @@ nyx:nyx
 nzbget:nzbget
 oath-toolkit:oathtool pskctool
 oauth2_proxy:oauth2_proxy
+oauth2l:oauth2l
 objc-codegenutils:objc-assetgen objc-colordump objc-identifierconstants
 objc-run:objc-run
 objfw:objfw-compile objfw-config objfw-new ofhash ofhttp ofzip
@@ -3207,6 +3212,9 @@ openh264:
 openhmd:simple
 openimageio:iconvert idiff igrep iinfo maketx oiiotool
 openjazz:OpenJazz
+openjdk:
+openjdk@11:
+openjdk@12:
 openjpeg:opj_compress opj_decompress opj_dump
 openkim-models:
 openldap:ldapadd ldapcompare ldapdelete ldapexop ldapmodify ldapmodrdn ldappasswd ldapsearch ldapurl ldapwhoami slapacl slapadd slapauth slapcat slapdn slapindex slappasswd slapschema slaptest
@@ -3488,7 +3496,6 @@ postgresql@9.6:clusterdb createdb createlang createuser dropdb droplang dropuser
 postgrest:postgrest
 postmark:postmark
 potrace:mkbitmap potrace
-pound:pound poundctl
 povray:povray
 pow:pow
 powerman:httppower plmpower pm powerman powermand vpcd
@@ -3621,7 +3628,7 @@ qrupdate:
 qscintilla2:
 qsoas:QSoas
 qstat:qstat
-qt:canbusutil fixqt4headers.pl lconvert lprodump lrelease lrelease-pro lupdate lupdate-pro macchangeqt macdeployqt moc qcollectiongenerator qdbus qdbuscpp2xml qdbusxml2cpp qdistancefieldgenerator qgltf qhelpgenerator qlalr qmake qmlcachegen qmleasing qmlimportscanner qmllint qmlmin qmlplugindump qmlpreview qmlprofiler qmlscene qmltestrunner qscxmlc qtattributionsscanner qtdiag qtpaths qtplugininfo qvkgen qwebengine_convert_dict rcc repc syncqt.pl uic xmlpatterns xmlpatternsvalidator
+qt:canbusutil fixqt4headers.pl lconvert lprodump lrelease lrelease-pro lupdate lupdate-pro macchangeqt macdeployqt moc qcollectiongenerator qdbus qdbuscpp2xml qdbusxml2cpp qdistancefieldgenerator qgltf qhelpgenerator qlalr qmake qmlcachegen qmleasing qmlimportscanner qmllint qmlmin qmlplugindump qmlpreview qmlprofiler qmlscene qmltestrunner qscxmlc qtattributionsscanner qtdiag qtpaths qtplugininfo qvkgen qwebengine_convert_dict rcc repc syncqt.pl tracegen uic xmlpatterns xmlpatternsvalidator
 qtads:QTads
 qtfaststart:qt-faststart
 qtkeychain:
@@ -3648,7 +3655,6 @@ radare2:r2 r2agent r2pm rabin2 radare2 radiff2 rafind2 ragg2 ragg2-cc rahash2 ra
 ragel:ragel
 rails-completion:
 rainbarf:rainbarf
-raine:raine
 rake-completion:
 rakudo-star:lwp-download.p6 lwp-download.p6-j lwp-download.p6-js lwp-download.p6-m lwp-get.p6 lwp-get.p6-j lwp-get.p6-js lwp-get.p6-m moar nqp nqp-m p6doc p6doc-j p6doc-js p6doc-m perl6 perl6-debug-m perl6-gdb-m perl6-lldb-m perl6-m perl6-valgrind-m pod2onepage pod2onepage-j pod2onepage-js pod2onepage-m prove6 prove6-j prove6-js prove6-m zef zef-j zef-js zef-m
 rakudo:perl6 perl6-debug-m perl6-gdb-m perl6-install-dist perl6-lldb-m perl6-m perl6-valgrind-m
@@ -3665,6 +3671,7 @@ rarian:rarian-example rarian-sk-config rarian-sk-extract rarian-sk-gen-uuid rari
 rasqal:rasqal-config roqet
 ratfor:ratfor
 rats:rats
+rav1e:rav1e
 rawgl:rawgl
 rawtoaces:rawtoaces
 raylib:
@@ -3749,7 +3756,6 @@ rgbds:rgbasm rgbfix rgbgfx rgblink
 rgxg:rgxg
 rhash:ed2k-link gost-hash has160-hash magnet-link rhash sfv-hash tiger-hash tth-hash whirlpool-hash
 rhino:rhino
-riak:riak riak-admin riak-debug search-cmd
 riemann-client:riemann-client
 riemann:riemann
 riff:riff
@@ -3808,7 +3814,6 @@ ruby-build:rbenv-install rbenv-uninstall ruby-build
 ruby-completion:
 ruby-install:ruby-install
 ruby:bundle bundler erb gem irb rake rdoc ri ruby
-ruby@2.0:erb gem irb rake rdoc ri ruby testrb
 ruby@2.4:erb gem irb rake rdoc ri ruby
 ruby@2.5:erb gem irb rake rdoc ri ruby
 runcocoa:runc runcocoa
@@ -3910,6 +3915,7 @@ seexpr:asciiCalc asciiGraph imageSynth
 selecta:selecta
 selenium-server-standalone:selenium-server
 sendemail:sendEmail
+sentencepiece:spm_decode spm_encode spm_export_vocab spm_normalize spm_train
 seqtk:seqtk
 ser2net:ser2net
 serd:serdi
@@ -4394,6 +4400,7 @@ tpp:tpp
 trace2html:trace2html
 tracebox:luatracebox tracebox
 tractorgen:tractorgen
+trader:trader
 traefik:traefik
 traefik@1:traefik
 trafficserver:traffic_cop traffic_crashlog traffic_ctl traffic_layout traffic_logcat traffic_logstats traffic_manager traffic_server traffic_top traffic_via trafficserver tspush tsxs
@@ -4433,6 +4440,7 @@ tunnel:tunnel
 tup:tup
 tvnamer:tvnamer
 twarc:twarc
+tweak:tweak
 twemcache:twemcache
 twine-pypi:twine
 two-lame:
@@ -4503,7 +4511,6 @@ uriparser:uriparse
 urlview:urlview
 uru:uru_rt
 urweb:urweb
-usbmuxd:iproxy
 usbredir:usbredirserver
 userspace-rcu:
 utf8proc:
@@ -4565,6 +4572,7 @@ virgil:virgil
 virtualhost.sh:virtualhost.sh
 virtualpg:
 virtuoso:inifile isql isqlw virt_mail virtuoso-t
+virustotal-cli:vt
 vis:vis-clipboard vis-complete vis-digraph vis-menu vis-open vise
 visionmedia-watch:watch
 visitors:visitors
@@ -4657,7 +4665,6 @@ wiki:wiki
 wildfly-as:
 willgit:git-publish-branch git-rank-contributors git-show-merges git-wt-add git-wtf
 wimlib:mkwinpeimg wimappend wimapply wimcapture wimdelete wimdir wimexport wimextract wiminfo wimjoin wimlib-imagex wimmount wimmountrw wimoptimize wimsplit wimunmount wimupdate wimverify
-wine:function_grep.pl msiexec notepad regedit regsvr32 widl wine wine.bin wineboot winebuild winecfg wineconsole winecpp winedbg winedump winefile wineg++ winegcc winemaker winemine winepath wineserver wmc wrc
 winetricks:winetricks
 winexe:
 wiredtiger:wt
