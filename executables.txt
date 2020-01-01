@@ -3,7 +3,6 @@ a52dec:a52dec extract_a52
 aacgain:aacgain
 aalib:aafire aainfo aalib-config aasavefont aatest
 aamath:aamath
-aap:aap
 aardvark_shell_utils:filebase fileext realpath
 abcde:abcde abcde-musicbrainz-tool cddb-tool
 abcl:abcl
@@ -85,8 +84,6 @@ annie:annie
 ansible-cmdb:ansible-cmdb
 ansible-lint:ansible-lint
 ansible:ansible ansible-connection ansible-console ansible-doc ansible-galaxy ansible-playbook ansible-pull ansible-vault
-ansible@1.9:ansible ansible-doc ansible-galaxy ansible-playbook ansible-pull ansible-vault
-ansible@2.0:ansible ansible-doc ansible-galaxy ansible-playbook ansible-pull ansible-vault
 ansifilter:ansifilter
 ansiweather:ansiweather
 ant-contrib:
@@ -124,7 +121,6 @@ apib:apib apibmon
 apibuilder-cli:apibuilder read-config
 apktool:apktool
 apm-bash-completion:
-apm-server:apm-server
 apng2gif:apng2gif
 apngasm:apngasm
 apollo:apollo
@@ -146,7 +142,6 @@ aravis:arv-fake-gv-camera-0.6 arv-test-0.6 arv-tool-0.6 arv-viewer
 arcade-learning-environment:ale
 archey:archey
 archi-steam-farm:asf
-archivemail:archivemail
 archivemount:archivemount
 arduino-cli:arduino-cli
 argon2:argon2
@@ -266,6 +261,7 @@ backupninja:backupninja ninjahelper
 bacula-fd:bacula bacula-fd bconsole btraceback
 badtouch:badtouch
 bagit:bag
+baidupcs-go:baidupcs-go
 balance:balance
 balena-cli:balena
 ballerburg:ballerburg
@@ -364,6 +360,7 @@ blastem:blastem
 blazeblogger:blaze blaze-add blaze-config blaze-edit blaze-init blaze-list blaze-log blaze-make blaze-remove
 blazegraph:bigdata
 blink1:blink1-tool
+blis:
 blitz:
 blitzwave:blitzwave-config
 bloaty:bloaty
@@ -385,14 +382,12 @@ boost-build:b2 bjam
 boost-mpi:
 boost-python3:
 boost-python:
-boost-python@1.59:
 boost:
 boost@1.55:
 boost@1.57:
 boost@1.59:
 boost@1.60:
 boot-clj:boot
-borg:borg
 borgmatic:borgmatic generate-borgmatic-config upgrade-borgmatic-config validate-borgmatic-config
 boringtun:boringtun
 bork:bork bork-compile
@@ -411,7 +406,6 @@ brew-php-switcher:brew-php-switcher phpswitch.sh
 brew-pip:brew-pip
 brightness:brightness
 briss:briss
-bro:bro bro-config bro-cut broccoli-config broctl capstats trace-summary
 brogue:brogue
 broot:broot
 brotli:brotli
@@ -424,7 +418,6 @@ bsponmpi:
 btfs:btfs
 btparse:bibparse
 btpd:btcli btinfo btpd
-bubbros:bubbros bubbros-client bubbros-server
 buildapp:buildapp
 buildifier:buildifier
 buildkit:buildctl
@@ -450,7 +443,6 @@ bzr-builder:
 bzr-colo:
 bzr-externals:
 bzr-extmerge:
-bzr-fastimport:
 bzr-rewrite:
 bzr-upload:
 bzr-xmloutput:
@@ -485,6 +477,7 @@ camlp5:camlp5 camlp5o camlp5o.opt camlp5r camlp5r.opt camlp5sch mkcamlp5 mkcamlp
 cap-completion:
 capnp:capnp capnpc capnpc-c++ capnpc-capnp
 capstone:
+cargo-c:cargo-cbuild cargo-cinstall
 cargo-completion:
 carina:carina
 carla:carla carla-control carla-control-e carla-database carla-database-e carla-e carla-jack-multi carla-jack-multi-e carla-jack-single carla-jack-single-e carla-patchbay carla-patchbay-e carla-rack carla-rack-e carla-settings carla-settings-e carla-single carla-single-e
@@ -510,6 +503,7 @@ ccal:ccal ccalpdf
 ccat:ccat
 ccd2iso:ccd2iso
 ccextractor:ccextractor
+ccfits:cookbook
 ccls:ccls
 ccm:ccm
 cconv:cconv
@@ -526,6 +520,8 @@ cdparanoia:cdparanoia
 cdpr:cdpr
 cdrdao:cdrdao cue2toc toc2cddb toc2cue toc2mp3
 cdrtools:btcflash cdda2mp3 cdda2ogg cdda2wav cdrecord devdump isodebug isodump isoinfo isovfy mkhybrid mkisofs readcd rscsi scgcheck scgskeleton
+cedille:cedille cedille-core
+celero:
 center-im:CenterIMLog2HTML.py centerim cimconv cimextracthistory.pl cimformathistory
 cereal:
 ceres-solver:
@@ -632,7 +628,6 @@ clojure:clj clojure
 clojurescript:cljsc
 cloog:cloog
 closure-compiler:closure-compiler
-closure-linter:fixjsstyle gjslint
 closure-stylesheets:closure-stylesheets
 cloud-watch:mon-cmd mon-delete-alarms mon-describe-alarm-history mon-describe-alarms mon-describe-alarms-for-metric mon-disable-alarm-actions mon-enable-alarm-actions mon-get-stats mon-list-metrics mon-put-data mon-put-metric-alarm mon-set-alarm-state mon-version
 clozure-cl:ccl64
@@ -710,6 +705,7 @@ corectl:corectl corectld corectld.runner qcow-tool
 coreos-ct:ct
 coreutils:b2sum base32 chcon g[ gb2sum gbase32 gbase64 gbasename gbasenc gcat gchcon gchgrp gchmod gchown gchroot gcksum gcomm gcp gcsplit gcut gdate gdd gdf gdir gdircolors gdirname gdu gecho genv gexpand gexpr gfactor gfalse gfmt gfold ggroups ghead ghostid gid ginstall gjoin gkill glink gln glogname gls gmd5sum gmkdir gmkfifo gmknod gmktemp gmv gnice gnl gnohup gnproc gnumfmt god gpaste gpathchk gpinky gpr gprintenv gprintf gptx gpwd greadlink grealpath grm grmdir gruncon gseq gsha1sum gsha224sum gsha256sum gsha384sum gsha512sum gshred gshuf gsleep gsort gsplit gstat gstdbuf gstty gsum gsync gtac gtail gtee gtest gtimeout gtouch gtr gtrue gtruncate gtsort gtty guname gunexpand guniq gunlink guptime gusers gvdir gwc gwho gwhoami gyes hostid md5sum nproc numfmt pinky ptx realpath runcon sha1sum sha224sum sha256sum sha384sum sha512sum shred shuf stdbuf tac timeout truncate
 corkscrew:corkscrew
+corral:corral
 corsixth:CorsixTH
 cosi:cosi
 coturn:turnadmin turnserver turnutils_natdiscovery turnutils_oauth turnutils_peer turnutils_stunclient turnutils_uclient
@@ -740,6 +736,7 @@ cquery:cquery
 cracklib:cracklib-check cracklib-format cracklib-packer cracklib-unpacker create-cracklib-dict
 crash:crash.sh
 crc32c:
+crc:crc
 create-dmg:create-dmg
 credstash:credstash credstash.py
 creduce:creduce
@@ -787,11 +784,9 @@ curaengine:CuraEngine
 curl-openssl:curl curl-config
 curl:curl curl-config
 curlftpfs:curlftpfs
-curlish:curlish
 curlpp:curlpp-config
 curseofwar:curseofwar
 cutter:cut-diff cutter
-cvs2svn:cvs2bzr cvs2git cvs2svn
 cvs:cvs cvsbug rcs2log
 cvsps:cvsps
 cvsutils:cvschroot cvsco cvsdiscard cvsdo cvspurge cvstrim cvsu
@@ -843,7 +838,6 @@ dcm2niix:dcm2niix
 dcmtk:dcm2json dcm2pdf dcm2pnm dcm2xml dcmcjpeg dcmcjpls dcmconv dcmcrle dcmdata_tests dcmdjpeg dcmdjpls dcmdrle dcmdspfn dcmdump dcmftest dcmgpdir dcmiod_tests dcmj2pnm dcml2pnm dcmmkcrv dcmmkdir dcmmklut dcmnet_tests dcmodify dcmp2pgm dcmprscp dcmprscu dcmpschk dcmpsmk dcmpsprt dcmpsrcv dcmpssnd dcmqridx dcmqrscp dcmqrti dcmquant dcmrecv dcmrt_tests dcmscale dcmseg_tests dcmsend dcmsign dcmsr_tests dcod2lum dconvlum drtdump drttest dsr2html dsr2xml dsrdump dump2dcm echoscu findscu getscu img2dcm mkreport movescu ofstd_tests pdf2dcm storescp storescu termscu wlmscpfs xml2dcm xml2dsr
 dcos-cli:dcos
 dcraw:dcraw
-ddar:ddar
 ddate:ddate
 ddclient:ddclient
 ddd:ddd
@@ -870,6 +864,7 @@ desk:desk
 desktop-file-utils:desktop-file-edit desktop-file-install desktop-file-validate update-desktop-database
 detox:detox inline-detox
 devd:devd
+devdash:devdash
 devil:
 devspace:devspace
 devtodo:devtodo tda tdd tde tdl tdr todo
@@ -894,6 +889,7 @@ diceware:diceware
 dict:colorit dict dict_lookup dictd dictdplugin-config dictfmt dictfmt_index2suffix dictfmt_index2word dictl dictunformat dictzip
 diction:diction style
 dieharder:dieharder
+diesel:diesel
 diff-pdf:diff-pdf
 diff-so-fancy:diff-highlight diff-so-fancy
 diffoscope:diffoscope
@@ -947,7 +943,6 @@ docbook2x:db2x_manxml db2x_texixml db2x_xsltproc docbook2man docbook2texi sgml2x
 docbook:
 docfx:docfx
 docker-clean:docker-clean
-docker-cloud:docker-cloud
 docker-completion:
 docker-compose-completion:
 docker-compose:docker-compose
@@ -963,6 +958,7 @@ docker-machine-driver-xhyve:docker-machine-driver-xhyve
 docker-machine-nfs:docker-machine-nfs
 docker-machine-parallels:docker-machine-driver-parallels
 docker-machine:docker-machine
+docker-slim:docker-slim
 docker-squash:docker-squash
 docker-swarm:docker-swarm
 docker2aci:docker2aci
@@ -1012,6 +1008,7 @@ duc:duc
 duck:duck
 duff:duff
 dumb:dumb2wav dumbout
+dune:dune
 dungeon:dungeon
 duo_unix:login_duo
 duplicity:duplicity rdiffdir
@@ -1092,6 +1089,7 @@ enchant:enchant enchant-lsmod
 enet:
 enigma:enigma
 enscript:diffpp enscript mkafmmap over sliceprint states
+ensmallen:
 ent:ent
 entityx:
 entr:entr
@@ -1120,7 +1118,6 @@ ethereum:abigen bootnode clef ethkey evm examples faucet geth p2psim puppeth rlp
 etl:ETL-config
 etsh:osh sh6
 ettercap:ettercap etterfilter etterlog
-euca2ools:euare-accountaliascreate euare-accountaliasdelete euare-accountaliaslist euare-accountcreate euare-accountdel euare-accountdelpolicy euare-accountgetpolicy euare-accountgetsummary euare-accountlist euare-accountlistpolicies euare-accountuploadpolicy euare-assumerole euare-getcallerid euare-getldapsyncstatus euare-groupaddpolicy euare-groupadduser euare-groupcreate euare-groupdel euare-groupdelpolicy euare-groupgetpolicy euare-grouplistbypath euare-grouplistpolicies euare-grouplistusers euare-groupmod euare-groupremoveuser euare-groupuploadpolicy euare-instanceprofileaddrole euare-instanceprofilecreate euare-instanceprofiledel euare-instanceprofilegetattributes euare-instanceprofilelistbypath euare-instanceprofilelistforrole euare-instanceprofileremoverole euare-oidcprovideraddclientid euare-oidcproviderchangethumbprint euare-oidcprovidercreate euare-oidcproviderdel euare-oidcproviderdelclientid euare-oidcprovidergetattributes euare-oidcproviderlist euare-releaserole euare-roleaddpolicy euare-rolecreate euare-roledel euare-roledelpolicy euare-rolegetattributes euare-rolegetpolicy euare-rolelistbypath euare-rolelistpolicies euare-roleupdateassumepolicy euare-roleuploadpolicy euare-servercertdel euare-servercertgetattributes euare-servercertlistbypath euare-servercertmod euare-servercertupload euare-useraddcert euare-useraddkey euare-useraddloginprofile euare-useraddpolicy euare-usercreate euare-usercreatecert euare-userdeactivatemfadevice euare-userdel euare-userdelcert euare-userdelkey euare-userdelloginprofile euare-userdelpolicy euare-userenablemfadevice euare-usergetattributes euare-usergetinfo euare-usergetloginprofile euare-usergetpolicy euare-userlistbypath euare-userlistcerts euare-userlistgroups euare-userlistkeys euare-userlistmfadevices euare-userlistpolicies euare-usermod euare-usermodcert euare-usermodkey euare-usermodloginprofile euare-userresyncmfadevice euare-userupdateinfo euare-useruploadpolicy euca-accept-vpc-peering-connection euca-allocate-address euca-assign-private-ip-addresses euca-associate-address euca-associate-dhcp-options euca-associate-route-table euca-attach-internet-gateway euca-attach-network-interface euca-attach-volume euca-attach-vpn-gateway euca-authorize euca-bundle-and-upload-image euca-bundle-image euca-bundle-instance euca-bundle-vol euca-cancel-bundle-task euca-cancel-conversion-task euca-confirm-product-instance euca-copy-image euca-create-customer-gateway euca-create-dhcp-options euca-create-group euca-create-image euca-create-internet-gateway euca-create-keypair euca-create-nat-gateway euca-create-network-acl euca-create-network-acl-entry euca-create-network-interface euca-create-route euca-create-route-table euca-create-snapshot euca-create-subnet euca-create-tags euca-create-volume euca-create-vpc euca-create-vpc-peering-connection euca-create-vpn-connection euca-create-vpn-connection-route euca-create-vpn-gateway euca-delete-bundle euca-delete-customer-gateway euca-delete-dhcp-options euca-delete-disk-image euca-delete-group euca-delete-internet-gateway euca-delete-keypair euca-delete-nat-gateway euca-delete-network-acl euca-delete-network-acl-entry euca-delete-network-interface euca-delete-route euca-delete-route-table euca-delete-snapshot euca-delete-subnet euca-delete-tags euca-delete-volume euca-delete-vpc euca-delete-vpc-peering-connection euca-delete-vpn-connection euca-delete-vpn-connection-route euca-delete-vpn-gateway euca-deregister euca-describe-account-attributes euca-describe-addresses euca-describe-availability-zones euca-describe-bundle-tasks euca-describe-conversion-tasks euca-describe-customer-gateways euca-describe-dhcp-options euca-describe-group euca-describe-groups euca-describe-image-attribute euca-describe-images euca-describe-instance-attribute euca-describe-instance-status euca-describe-instance-types euca-describe-instances euca-describe-internet-gateways euca-describe-keypairs euca-describe-nat-gateways euca-describe-network-acls euca-describe-network-interface-attribute euca-describe-network-interfaces euca-describe-regions euca-describe-route-tables euca-describe-snapshot-attribute euca-describe-snapshots euca-describe-subnets euca-describe-tags euca-describe-volumes euca-describe-vpc-attribute euca-describe-vpc-peering-connections euca-describe-vpcs euca-describe-vpn-connections euca-describe-vpn-gateways euca-detach-internet-gateway euca-detach-network-interface euca-detach-volume euca-detach-vpn-gateway euca-disable-vgw-route-propagation euca-disassociate-address euca-disassociate-route-table euca-download-and-unbundle euca-download-bundle euca-enable-vgw-route-propagation euca-fingerprint-key euca-generate-environment-config euca-get-console-output euca-get-password euca-get-password-data euca-import-instance euca-import-keypair euca-import-volume euca-install-image euca-modify-image-attribute euca-modify-instance-attribute euca-modify-instance-type euca-modify-network-interface-attribute euca-modify-snapshot-attribute euca-modify-subnet-attribute euca-modify-vpc-attribute euca-monitor-instances euca-reboot-instances euca-register euca-reject-vpc-peering-connection euca-release-address euca-replace-network-acl-association euca-replace-network-acl-entry euca-replace-route euca-replace-route-table-association euca-reset-image-attribute euca-reset-instance-attribute euca-reset-network-interface-attribute euca-reset-snapshot-attribute euca-resume-import euca-revoke euca-run-instances euca-start-instances euca-stop-instances euca-terminate-instances euca-unassign-private-ip-addresses euca-unbundle euca-unbundle-stream euca-unmonitor-instances euca-upload-bundle euca-version euform-cancel-update-stack euform-continue-rollback euform-create-stack euform-delete-stack euform-describe-stack-events euform-describe-stack-resource euform-describe-stack-resources euform-describe-stacks euform-get-template euform-get-template-summary euform-list-stack-resources euform-list-stacks euform-update-stack euform-validate-template euimage-describe-pack euimage-install-pack euimage-pack-image eulb-apply-security-groups-to-lb eulb-attach-lb-to-subnets eulb-configure-healthcheck eulb-create-app-cookie-stickiness-policy eulb-create-lb eulb-create-lb-cookie-stickiness-policy eulb-create-lb-listeners eulb-create-lb-policy eulb-create-tags eulb-delete-lb eulb-delete-lb-listeners eulb-delete-lb-policy eulb-delete-tags eulb-deregister-instances-from-lb eulb-describe-instance-health eulb-describe-lb-attributes eulb-describe-lb-policies eulb-describe-lb-policy-types eulb-describe-lbs eulb-describe-tags eulb-detach-lb-from-subnets eulb-disable-zones-for-lb eulb-enable-zones-for-lb eulb-modify-lb-attributes eulb-register-instances-with-lb eulb-set-lb-listener-ssl-cert eulb-set-lb-policies-for-backend-server eulb-set-lb-policies-of-listener euscale-create-auto-scaling-group euscale-create-launch-config euscale-create-or-update-tags euscale-delete-auto-scaling-group euscale-delete-launch-config euscale-delete-notification-configuration euscale-delete-policy euscale-delete-scheduled-action euscale-delete-tags euscale-describe-account-limits euscale-describe-adjustment-types euscale-describe-auto-scaling-groups euscale-describe-auto-scaling-instances euscale-describe-auto-scaling-notification-types euscale-describe-launch-configs euscale-describe-metric-collection-types euscale-describe-notification-configurations euscale-describe-policies euscale-describe-process-types euscale-describe-scaling-activities euscale-describe-scheduled-actions euscale-describe-tags euscale-describe-termination-policy-types euscale-disable-metrics-collection euscale-enable-metrics-collection euscale-execute-policy euscale-put-notification-configuration euscale-put-scaling-policy euscale-put-scheduled-update-group-action euscale-resume-processes euscale-set-desired-capacity euscale-set-instance-health euscale-suspend-processes euscale-terminate-instance-in-auto-scaling-group euscale-update-auto-scaling-group euwatch-delete-alarms euwatch-describe-alarm-history euwatch-describe-alarms euwatch-describe-alarms-for-metric euwatch-disable-alarm-actions euwatch-enable-alarm-actions euwatch-get-stats euwatch-list-metrics euwatch-put-data euwatch-put-metric-alarm euwatch-set-alarm-state
 euler-py:euler
 eventlog:
 eventql:cstable_tool evql evqlbench evqlctl evqld evqlslap
@@ -1166,6 +1163,7 @@ fasd:fasd
 fastbit:ardea fastbit-config fastbitjni fbmerge ibis rara tcapi thula tiapi
 fastd:fastd
 fastjar:fastjar grepjar
+fastlane:fastlane
 fastme:fastme
 fastmod:fastmod
 fastqc:fastqc
@@ -1203,6 +1201,7 @@ ffmpegthumbnailer:ffmpegthumbnailer
 ffms2:ffmsindex
 ffsend:ffsend
 fftw:fftw-wisdom fftw-wisdom-to-conf fftwf-wisdom fftwl-wisdom
+ffuf:ffuf
 fibjs:fibjs
 ficy:fIcy fPls fResync
 field3d:
@@ -1212,7 +1211,9 @@ figlet:chkfont figlet figlist showfigfonts
 file-formula:file
 file-roller:file-roller
 filebeat:filebeat
+fileicon:fileicon
 finatra:finatra
+findent:findent wfindent
 findutils:gfind glocate gupdatedb gxargs
 fio:fio fio-dedupe fio-genzipf fio-verify-state fio2gnuplot fio_generate_plots fiologparser.py fiologparser_hist.py genfio
 firebase-cli:firebase
@@ -1236,6 +1237,7 @@ flex:flex flex++
 flickcurl:flickcurl flickcurl-config flickrdf
 flif:apng2flif flif gif2flif
 flint-checker:flint
+flint:
 flintrock:flintrock
 flow-tools:flow-capture flow-cat flow-dscan flow-expire flow-export flow-fanout flow-filter flow-gen flow-header flow-import flow-log2rrd flow-mask flow-merge flow-nfilter flow-print flow-receive flow-report flow-rpt2rrd flow-rptfmt flow-send flow-split flow-stat flow-tag flow-xlate
 flow:flow
@@ -1347,7 +1349,7 @@ gawk:awk gawk gawk-5.0.1
 gbdfed:gbdfed
 gcab:gcab
 gcal:gcal gcal2txt tcal txt2gcal
-gcc:c++-9 cpp-9 g++-9 gcc-9 gcc-ar-9 gcc-nm-9 gcc-ranlib-9 gcov-9 gcov-dump-9 gcov-tool-9 gfortran gfortran-9 x86_64-apple-darwin18-c++-9 x86_64-apple-darwin18-g++-9 x86_64-apple-darwin18-gcc-9 x86_64-apple-darwin18-gcc-9.2.0 x86_64-apple-darwin18-gcc-ar-9 x86_64-apple-darwin18-gcc-nm-9 x86_64-apple-darwin18-gcc-ranlib-9 x86_64-apple-darwin18-gfortran-9
+gcc:c++-9 cpp-9 g++-9 gcc-9 gcc-ar-9 gcc-nm-9 gcc-ranlib-9 gcov-9 gcov-dump-9 gcov-tool-9 gfortran gfortran-9 x86_64-apple-darwin19-c++-9 x86_64-apple-darwin19-g++-9 x86_64-apple-darwin19-gcc-9 x86_64-apple-darwin19-gcc-9.2.0 x86_64-apple-darwin19-gcc-ar-9 x86_64-apple-darwin19-gcc-nm-9 x86_64-apple-darwin19-gcc-ranlib-9 x86_64-apple-darwin19-gfortran-9
 gcc@4.9:c++-4.9 cpp-4.9 g++-4.9 gcc-4.9 gcc-ar-4.9 gcc-nm-4.9 gcc-ranlib-4.9 gcov-4.9 gfortran-4.9 x86_64-apple-darwin16.4.0-c++-4.9 x86_64-apple-darwin16.4.0-g++-4.9 x86_64-apple-darwin16.4.0-gcc-4.9 x86_64-apple-darwin16.4.0-gcc-4.9.4 x86_64-apple-darwin16.4.0-gcc-ar-4.9 x86_64-apple-darwin16.4.0-gcc-nm-4.9 x86_64-apple-darwin16.4.0-gcc-ranlib-4.9 x86_64-apple-darwin16.4.0-gfortran-4.9
 gcc@5:c++-5 cpp-5 g++-5 gcc-5 gcc-ar-5 gcc-nm-5 gcc-ranlib-5 gcov-5 gcov-tool-5 gfortran-5 x86_64-apple-darwin16.3.0-c++-5 x86_64-apple-darwin16.3.0-g++-5 x86_64-apple-darwin16.3.0-gcc-5 x86_64-apple-darwin16.3.0-gcc-5.4.0 x86_64-apple-darwin16.3.0-gcc-ar-5 x86_64-apple-darwin16.3.0-gcc-nm-5 x86_64-apple-darwin16.3.0-gcc-ranlib-5 x86_64-apple-darwin16.3.0-gfortran-5
 gcc@6:c++-6 cpp-6 g++-6 gcc-6 gcc-ar-6 gcc-nm-6 gcc-ranlib-6 gcov-6 gcov-tool-6 gfortran-6 x86_64-apple-darwin16.5.0-c++-6 x86_64-apple-darwin16.5.0-g++-6 x86_64-apple-darwin16.5.0-gcc-6 x86_64-apple-darwin16.5.0-gcc-6.3.0 x86_64-apple-darwin16.5.0-gcc-ar-6 x86_64-apple-darwin16.5.0-gcc-nm-6 x86_64-apple-darwin16.5.0-gcc-ranlib-6 x86_64-apple-darwin16.5.0-gfortran-6
@@ -1426,6 +1428,7 @@ giflib:gif2rgb gifbuild gifclrmp giffix giftext giftool
 giflossy:gifdiff gifsicle
 gifsicle:gifdiff gifsicle
 gifski:gifski
+gimme-aws-creds:gimme-aws-creds gimme-aws-creds.cmd
 gimme:gimme
 ginac:ginsh viewgar
 gist:gist
@@ -1440,7 +1443,7 @@ git-cola:cola git-cola git-dag
 git-credential-manager:git-credential-manager
 git-crypt:git-crypt
 git-delta:delta
-git-extras:git-alias git-archive-file git-authors git-back git-bug git-bulk git-changelog git-chore git-clear git-clear-soft git-commits-since git-contrib git-count git-create-branch git-delete-branch git-delete-merged-branches git-delete-submodule git-delete-tag git-delta git-effort git-extras git-feature git-force-clone git-fork git-fresh-branch git-gh-pages git-graft git-guilt git-ignore git-ignore-io git-info git-local-commits git-lock git-locked git-merge-into git-merge-repo git-missing git-mr git-obliterate git-pr git-psykorebase git-pull-request git-reauthor git-rebase-patch git-refactor git-release git-rename-branch git-rename-remote git-rename-tag git-repl git-reset-file git-root git-rscp git-scp git-sed git-setup git-show-merged-branches git-show-tree git-show-unmerged-branches git-squash git-stamp git-standup git-summary git-sync git-touch git-undo git-unlock
+git-extras:git-alias git-archive-file git-authors git-back git-bug git-bulk git-changelog git-chore git-clear git-clear-soft git-coauthor git-commits-since git-contrib git-count git-create-branch git-delete-branch git-delete-merged-branches git-delete-submodule git-delete-tag git-delta git-effort git-extras git-feature git-force-clone git-fork git-fresh-branch git-gh-pages git-graft git-guilt git-ignore git-ignore-io git-info git-local-commits git-lock git-locked git-merge-into git-merge-repo git-missing git-mr git-obliterate git-paste git-pr git-psykorebase git-pull-request git-reauthor git-rebase-patch git-refactor git-release git-rename-branch git-rename-remote git-rename-tag git-repl git-reset-file git-root git-rscp git-scp git-sed git-setup git-show-merged-branches git-show-tree git-show-unmerged-branches git-squash git-stamp git-standup git-summary git-sync git-touch git-undo git-unlock
 git-fixup:git-fixup
 git-flow-avh:git-flow
 git-flow:git-flow
@@ -1461,6 +1464,7 @@ git-open:git-open
 git-plus:git-multi git-old-branches git-relation
 git-quick-stats:git-quick-stats
 git-recent:git-recent
+git-remote-gcrypt:git-remote-gcrypt
 git-remote-hg:git-remote-hg
 git-review:git-review
 git-revise:git-revise
@@ -1537,6 +1541,7 @@ gmp:
 gmsh:gmsh
 gmt:backtracker blockmean blockmedian blockmode dimfilter filter1d fitcircle gmt gmt-config gmt2kml gmt2rgb gmt_shell_functions.sh gmtconnect gmtconvert gmtdefaults gmtdp gmtflexure gmtget gmtgravmag3d gmtinfo gmtlogo gmtmath gmtpmodeler gmtregress gmtselect gmtset gmtsimplify gmtspatial gmtstitch gmtswitch gmtvector gmtwhich gpsgridder gravfft grd2cpt grd2rgb grd2xyz grdblend grdclip grdcontour grdconvert grdcut grdedit grdfft grdfilter grdflexure grdgradient grdgravmag3d grdhisteq grdimage grdinfo grdlandmask grdmask grdmath grdpaste grdpmodeler grdproject grdraster grdredpol grdreformat grdrotater grdsample grdseamount grdspotter grdtrack grdtrend grdvector grdview grdvolume greenspline gshhg hotspotter img2grd isogmt kml2gmt makecpt mapproject mgd77convert mgd77header mgd77info mgd77list mgd77magref mgd77manage mgd77path mgd77sniffer mgd77track minmax nearneighbor originator project ps2raster psbasemap psclip pscoast pscontour psconvert pscoupe pshistogram psimage pslegend psmask psmeca pspolar psrose pssac psscale pssegy pssegyz pssolar psternary pstext psvelo pswiggle psxy psxyz rotconverter rotsmoother sample1d segy2grd spectrum1d sph2grd sphdistance sphinterpolate sphtriangulate splitxyz surface talwani2d talwani3d trend1d trend2d triangulate x2sys_binlist x2sys_cross x2sys_datalist x2sys_get x2sys_init x2sys_list x2sys_merge x2sys_put x2sys_report x2sys_solve xyz2grd
 gmt@5:backtracker blockmean blockmedian blockmode dimfilter filter1d fitcircle gmt gmt-config gmt2kml gmt2rgb gmt_shell_functions.sh gmtconnect gmtconvert gmtdefaults gmtdp gmtflexure gmtget gmtgravmag3d gmtinfo gmtlogo gmtmath gmtpmodeler gmtregress gmtselect gmtset gmtsimplify gmtspatial gmtstitch gmtswitch gmtvector gmtwhich gpsgridder gravfft grd2cpt grd2rgb grd2xyz grdblend grdclip grdcontour grdconvert grdcut grdedit grdfft grdfilter grdflexure grdgradient grdgravmag3d grdhisteq grdimage grdinfo grdlandmask grdmask grdmath grdpaste grdpmodeler grdproject grdraster grdredpol grdreformat grdrotater grdsample grdseamount grdspotter grdtrack grdtrend grdvector grdview grdvolume greenspline gshhg hotspotter img2grd isogmt kml2gmt makecpt mapproject mgd77convert mgd77header mgd77info mgd77list mgd77magref mgd77manage mgd77path mgd77sniffer mgd77track minmax nearneighbor originator project ps2raster psbasemap psclip pscoast pscontour psconvert pscoupe pshistogram psimage pslegend psmask psmeca pspolar psrose pssac psscale pssegy pssegyz pssolar psternary pstext psvelo pswiggle psxy psxyz rotconverter rotsmoother sample1d segy2grd spectrum1d sph2grd sphdistance sphinterpolate sphtriangulate splitxyz surface talwani2d talwani3d trend1d trend2d triangulate x2sys_binlist x2sys_cross x2sys_datalist x2sys_get x2sys_init x2sys_list x2sys_merge x2sys_put x2sys_report x2sys_solve xyz2grd
+gnirehtet:gnirehtet
 gnome-autoar:
 gnome-builder:gnome-builder gnome-builder-cli
 gnome-common:gnome-autogen.sh
@@ -1610,7 +1615,6 @@ gopass:gopass
 gor:gor
 goreleaser:goreleaser
 goreman:goreman
-gost:gost
 gosu:gosu
 gotags:gotags
 goto:
@@ -1768,7 +1772,6 @@ hbase:hbase start-hbase.sh stop-hbase.sh
 hcloud:hcloud
 hdf5:gif2h5 h52gif h5cc h5clear h5copy h5debug h5diff h5dump h5format_convert h5import h5jam h5ls h5mkgrp h5perf_serial h5redeploy h5repack h5repart h5stat h5unjam h5watch
 hdf5@1.8:gif2h5 h52gif h5c++ h5cc h5copy h5debug h5diff h5dump h5fc h5import h5jam h5ls h5mkgrp h5perf_serial h5redeploy h5repack h5repart h5stat h5unjam
-headphones:headphones
 healpix:alm2map_cxx anafast_cxx calc_powspec compute_weights hotspots_cxx map2tga median_filter_cxx mult_alm needlet_tool rotalm_cxx smoothing_cxx syn_alm_cxx udgrade_cxx udgrade_harmonic_cxx
 heartbeat:heartbeat
 heatshrink:heatshrink
@@ -1819,6 +1822,7 @@ hostdb:canonzone catif checkrootcache copy-if-change Example_comparezones genran
 hostess:hostess
 howard-hinnant-date:
 howdoi:howdoi
+hpack:hpack
 hping:hping hping2 hping3
 hqx:hqx
 hr:hr
@@ -1864,8 +1868,6 @@ hypre:
 i2p:eepget i2prouter
 i2pd:i2pd
 i2util:aespasswd pfstore
-i386-elf-binutils:i386-elf-addr2line i386-elf-ar i386-elf-as i386-elf-c++filt i386-elf-elfedit i386-elf-gprof i386-elf-ld i386-elf-ld.bfd i386-elf-nm i386-elf-objcopy i386-elf-objdump i386-elf-ranlib i386-elf-readelf i386-elf-size i386-elf-strings i386-elf-strip
-i386-elf-gcc:i386-elf-c++ i386-elf-cpp i386-elf-g++ i386-elf-gcc i386-elf-gcc-8.2.0 i386-elf-gcc-ar i386-elf-gcc-nm i386-elf-gcc-ranlib i386-elf-gcov i386-elf-gcov-dump i386-elf-gcov-tool
 i386-elf-gdb:i386-elf-gdb i386-elf-gdb-add-index
 i386-elf-grub:i386-elf-grub-bios-setup i386-elf-grub-editenv i386-elf-grub-file i386-elf-grub-fstest i386-elf-grub-glue-efi i386-elf-grub-install i386-elf-grub-kbdcomp i386-elf-grub-macbless i386-elf-grub-menulst2cfg i386-elf-grub-mkconfig i386-elf-grub-mkimage i386-elf-grub-mklayout i386-elf-grub-mknetdir i386-elf-grub-mkpasswd-pbkdf2 i386-elf-grub-mkrelpath i386-elf-grub-mkrescue i386-elf-grub-mkstandalone i386-elf-grub-mount i386-elf-grub-ofpathname i386-elf-grub-probe i386-elf-grub-reboot i386-elf-grub-render-label i386-elf-grub-script-check i386-elf-grub-set-default i386-elf-grub-sparc64-setup i386-elf-grub-syslinux2cfg
 iamy:iamy
@@ -1911,6 +1913,7 @@ imap-uw:dmail imapd ipop2d ipop3d mailutil tmail
 imapfilter:imapfilter
 imapsync:imapsync
 imessage-ruby:imessage
+imgproxy:imgproxy
 imgur-screenshot:imgur-screenshot.sh
 imlib2:imlib2-config imlib2_bumpmap imlib2_colorspace imlib2_conv imlib2_grab imlib2_poly imlib2_show imlib2_test imlib2_view
 immortal:immortal immortalctl immortaldir
@@ -1925,10 +1928,10 @@ iniparser:
 inlets:inlets
 innoextract:innoextract
 innotop:innotop
-ino:ino
 insect:insect
 inspectrum:inspectrum
 inspircd:inspircd
+instalooter:instalooter
 instead:instead sdl-instead
 interactive-rebase-tool:interactive-rebase-tool
 intercal:convickt ick
@@ -1964,7 +1967,6 @@ ircd-hybrid:ircd mkpasswd
 ircd-irc2:chkconf iauth ircd ircd-mkpasswd ircdwatch
 ircii:irc irc-20151120 ircbug ircflush
 ired:bdiff ired vired
-iron-functions:fn
 ironcli:iron
 irrlicht:
 irrtoolset:peval rpslcheck rtconfig
@@ -2132,6 +2134,7 @@ kpcli:kpcli
 kqwait:kqwait
 krakend:krakend
 krb5:compile_et gss-client gss-server k5srvutil kadmin kadmin.local kadmind kdb5_util kdestroy kinit klist kpasswd kprop kpropd kproplog krb5-config krb5-send-pr krb5kdc kswitch ktutil kvno sclient sim_client sim_server sserver uuclient uuserver
+krew:kubectl-krew
 ksh:ksh ksh93
 kstart:k5start krenew
 ktlint:ktlint
@@ -2312,6 +2315,7 @@ libexosip:sip_reg
 libextractor:extract
 libfabric:fi_info fi_pingpong fi_strerror
 libfaketime:faketime
+libffcall:
 libffi:
 libfishsound:
 libfixbuf:
@@ -2457,7 +2461,7 @@ libplist:plistutil
 libpng:libpng-config libpng16-config png-fix-itxt pngfix
 libpointing:
 libpoker-eval:
-libpq:clusterdb createdb createuser dropdb dropuser ecpg initdb pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivewal pg_recvlogical pg_resetwal pg_restore pg_rewind pg_test_fsync pg_test_timing pg_upgrade pg_verify_checksums pg_waldump pgbench psql reindexdb vacuumdb
+libpq:clusterdb createdb createuser dropdb dropuser ecpg initdb pg_archivecleanup pg_basebackup pg_checksums pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivewal pg_recvlogical pg_resetwal pg_restore pg_rewind pg_test_fsync pg_test_timing pg_upgrade pg_waldump pgbench psql reindexdb vacuumdb
 libpqxx:pqxx-config
 libprotoident:lpi_arff lpi_find_unknown lpi_protoident
 libproxy:proxy
@@ -2490,6 +2494,7 @@ libsass:
 libsbol:
 libscrypt:
 libsecret:secret-tool
+libserdes:
 libserialport:
 libshout:
 libsigc++:
@@ -2524,7 +2529,7 @@ libsvm:svm-predict svm-scale svm-train
 libswiften:sluift swiften-config
 libswiftnav:
 libtar:libtar
-libtasn1:asn1Coding asn1Decoding asn1Parser
+libtasn1:asn1Coding asn1Decoding asn1Parser corpus2array
 libtcod:
 libtecla:enhance
 libtensorflow:
@@ -2536,6 +2541,7 @@ libtins:
 libtomcrypt:
 libtommath:
 libtool:glibtool glibtoolize
+libtorch:
 libtorrent-rasterbar:
 libtrace:traceanon traceconvert tracediff traceends tracefilter tracemerge tracepktdump tracereplay tracereport tracertstats tracesplit tracesplit_dir tracestats tracesummary tracetop tracetopends
 libtrng:
@@ -2606,6 +2612,7 @@ linklint:linklint
 links:links
 liquibase:liquibase
 liquid-dsp:
+liquidctl:liquidctl
 liquidprompt:
 liquigraph:liquigraph
 little-cms2:jpgicc linkicc psicc tificc transicc
@@ -2614,7 +2621,7 @@ livestreamer:livestreamer
 lizard:lz5 lz5cat unlz5
 lldpd:lldpcli lldpctl lldpd
 llnode:
-llvm:FileCheck bugpoint c-index-test clang clang++ clang-8 clang-apply-replacements clang-change-namespace clang-check clang-cl clang-cpp clang-extdef-mapping clang-format clang-import-test clang-include-fixer clang-offload-bundler clang-query clang-refactor clang-rename clang-reorder-fields clang-tidy clangd clangd-xpc-test-client count diagtool dsymutil find-all-symbols git-clang-format hmaptool ld.lld ld64.lld llc lld lld-link lli lli-child-target llvm-PerfectShuffle llvm-ar llvm-as llvm-bcanalyzer llvm-c-test llvm-cat llvm-cfi-verify llvm-config llvm-cov llvm-cvtres llvm-cxxdump llvm-cxxfilt llvm-cxxmap llvm-diff llvm-dis llvm-dlltool llvm-dwarfdump llvm-dwp llvm-elfabi llvm-exegesis llvm-extract llvm-lib llvm-link llvm-lto llvm-lto2 llvm-mc llvm-mca llvm-modextract llvm-mt llvm-nm llvm-objcopy llvm-objdump llvm-opt-report llvm-pdbutil llvm-profdata llvm-ranlib llvm-rc llvm-readelf llvm-readobj llvm-rtdyld llvm-size llvm-split llvm-stress llvm-strings llvm-strip llvm-symbolizer llvm-tblgen llvm-undname llvm-xray modularize not obj2yaml opt sancov sanstats scan-build scan-view set-xcode-analyzer verify-uselistorder wasm-ld yaml-bench yaml2obj
+llvm:FileCheck bugpoint c-index-test clang clang++ clang-9 clang-apply-replacements clang-change-namespace clang-check clang-cl clang-cpp clang-doc clang-extdef-mapping clang-format clang-import-test clang-include-fixer clang-offload-bundler clang-query clang-refactor clang-rename clang-reorder-fields clang-scan-deps clang-tidy clangd clangd-xpc-test-client count darwin-debug debugserver diagtool dsymutil find-all-symbols git-clang-format hmaptool ld.lld ld64.lld lit-cpuid llc lld lld-link lldb lldb-argdumper lldb-instr lldb-mi lldb-server lldb-vscode lli lli-child-target llvm-PerfectShuffle llvm-addr2line llvm-ar llvm-as llvm-bcanalyzer llvm-c-test llvm-cat llvm-cfi-verify llvm-config llvm-cov llvm-cvtres llvm-cxxdump llvm-cxxfilt llvm-cxxmap llvm-diff llvm-dis llvm-dlltool llvm-dwarfdump llvm-dwp llvm-elfabi llvm-exegesis llvm-extract llvm-jitlink llvm-lib llvm-link llvm-lipo llvm-lto llvm-lto2 llvm-mc llvm-mca llvm-modextract llvm-mt llvm-nm llvm-objcopy llvm-objdump llvm-opt-report llvm-pdbutil llvm-profdata llvm-ranlib llvm-rc llvm-readelf llvm-readobj llvm-rtdyld llvm-size llvm-split llvm-stress llvm-strings llvm-strip llvm-symbolizer llvm-tblgen llvm-undname llvm-xray modularize not obj2yaml opt sancov sanstats scan-build scan-view set-xcode-analyzer verify-uselistorder wasm-ld yaml-bench yaml2obj
 llvm@6:FileCheck bugpoint c-index-test clang clang++ clang-6.0 clang-apply-replacements clang-change-namespace clang-check clang-cl clang-cpp clang-format clang-func-mapping clang-import-test clang-include-fixer clang-offload-bundler clang-query clang-refactor clang-rename clang-reorder-fields clang-tidy clangd count find-all-symbols git-clang-format ld.lld ld64.lld llc lld lld-link lli lli-child-target llvm-PerfectShuffle llvm-ar llvm-as llvm-bcanalyzer llvm-c-test llvm-cat llvm-cfi-verify llvm-config llvm-cov llvm-cvtres llvm-cxxdump llvm-cxxfilt llvm-diff llvm-dis llvm-dlltool llvm-dsymutil llvm-dwarfdump llvm-dwp llvm-extract llvm-lib llvm-link llvm-lto llvm-lto2 llvm-mc llvm-mcmarkup llvm-modextract llvm-mt llvm-nm llvm-objcopy llvm-objdump llvm-opt-report llvm-pdbutil llvm-profdata llvm-ranlib llvm-rc llvm-readelf llvm-readobj llvm-rtdyld llvm-size llvm-split llvm-stress llvm-strings llvm-symbolizer llvm-tblgen llvm-xray modularize not obj2yaml opt sancov sanstats scan-build scan-view set-xcode-analyzer verify-uselistorder wasm-ld yaml-bench yaml2obj
 llvm@7:FileCheck bugpoint c-index-test clang clang++ clang-7 clang-apply-replacements clang-change-namespace clang-check clang-cl clang-cpp clang-format clang-func-mapping clang-import-test clang-include-fixer clang-offload-bundler clang-query clang-refactor clang-rename clang-reorder-fields clang-tidy clangd count diagtool dsymutil find-all-symbols git-clang-format hmaptool ld.lld ld64.lld llc lld lld-link lli lli-child-target llvm-PerfectShuffle llvm-ar llvm-as llvm-bcanalyzer llvm-c-test llvm-cat llvm-cfi-verify llvm-config llvm-cov llvm-cvtres llvm-cxxdump llvm-cxxfilt llvm-diff llvm-dis llvm-dlltool llvm-dwarfdump llvm-dwp llvm-exegesis llvm-extract llvm-lib llvm-link llvm-lto llvm-lto2 llvm-mc llvm-mca llvm-modextract llvm-mt llvm-nm llvm-objcopy llvm-objdump llvm-opt-report llvm-pdbutil llvm-profdata llvm-ranlib llvm-rc llvm-readelf llvm-readobj llvm-rtdyld llvm-size llvm-split llvm-stress llvm-strings llvm-strip llvm-symbolizer llvm-tblgen llvm-undname llvm-xray modularize not obj2yaml opt sancov sanstats scan-build scan-view set-xcode-analyzer verify-uselistorder wasm-ld yaml-bench yaml2obj
 llvm@8:FileCheck bugpoint c-index-test clang clang++ clang-8 clang-apply-replacements clang-change-namespace clang-check clang-cl clang-cpp clang-extdef-mapping clang-format clang-import-test clang-include-fixer clang-offload-bundler clang-query clang-refactor clang-rename clang-reorder-fields clang-tidy clangd clangd-xpc-test-client count darwin-debug diagtool dsymutil find-all-symbols git-clang-format hmaptool ld.lld ld64.lld llc lld lld-link lldb lldb-argdumper lldb-mi lldb-server lldb-test lldb-vscode lli lli-child-target llvm-PerfectShuffle llvm-ar llvm-as llvm-bcanalyzer llvm-c-test llvm-cat llvm-cfi-verify llvm-config llvm-cov llvm-cvtres llvm-cxxdump llvm-cxxfilt llvm-cxxmap llvm-diff llvm-dis llvm-dlltool llvm-dwarfdump llvm-dwp llvm-elfabi llvm-exegesis llvm-extract llvm-lib llvm-link llvm-lto llvm-lto2 llvm-mc llvm-mca llvm-modextract llvm-mt llvm-nm llvm-objcopy llvm-objdump llvm-opt-report llvm-pdbutil llvm-profdata llvm-ranlib llvm-rc llvm-readelf llvm-readobj llvm-rtdyld llvm-size llvm-split llvm-stress llvm-strings llvm-strip llvm-symbolizer llvm-tblgen llvm-undname llvm-xray modularize not obj2yaml opt sancov sanstats scan-build scan-view set-xcode-analyzer verify-uselistorder wasm-ld yaml-bench yaml2obj
@@ -2631,7 +2638,6 @@ log4cpp:log4cpp-config
 log4cxx:
 log4shib:log4shib-config
 logcheck:logcheck logcheck-test logtail logtail2
-logentries:le
 logrotate:logrotate
 logstalgia:logstalgia
 logstash:logstash
@@ -2733,6 +2739,7 @@ maven:mvn mvnDebug mvnyjp
 maven@3.2:mvn mvnDebug mvnyjp
 maven@3.3:mvn mvn.cmd mvnDebug mvnDebug.cmd mvnyjp
 maven@3.5:mvn mvnDebug mvnyjp
+mavsdk:mavsdk_server
 mawk:mawk
 maxima:maxima rmaxima xmaxima
 maxwell:maxwell maxwell-bootstrap
@@ -2768,6 +2775,7 @@ mediaconch:mediaconch
 mednafen:mednafen
 megacmd:megacmd
 megatools:megacopy megadf megadl megaget megals megamkdir megaput megareg megarm
+meilisearch:meilisearch
 memcache-top:memcache-top
 memcached:memcached
 memcacheq:memcacheq
@@ -2885,6 +2893,7 @@ monitoring-plugins:check_apt check_breeze check_by_ssh check_clamd check_cluster
 monkeysphere:monkeysphere openpgp2pem openpgp2spki openpgp2ssh pem2openpgp monkeysphere-authentication monkeysphere-host
 mono-libgdiplus:
 mono:al al2 caspol cccheck ccrewrite cert-sync cert2spc certmgr chktrust crlupdate csharp disco dmcs dtd2rng dtd2xsd fsharpc fsharpi fsharpiAnyCpu gacutil gacutil2 genxs httpcfg ikdasm ilasm installvst lc macpack makecert mconfig mcs mdassembler mdbrebase mdoc mdoc-assemble mdoc-export-html mdoc-export-msxdoc mdoc-update mdoc-validate mdvalidater mkbundle mod mono mono-api-info mono-boehm mono-cil-strip mono-configuration-crypto mono-find-provides mono-find-requires mono-heapviz mono-service mono-service2 mono-sgen mono-shlib-cop mono-symbolicate mono-test-install mono-xmltool monodis monodocer monodocs2html monodocs2slashdoc monolinker monop monop2 mozroots mprof-report nunit-console nunit-console2 nunit-console4 pdb2mdb pedump permview peverify prj2make resgen resgen2 secutil setreg sgen signcode sn soapsuds sqlmetal sqlsharp svcutil wsdl wsdl2 xbuild xsd
+monolith:monolith
 montage:mAdd mAddExec mArchiveExec mArchiveGet mArchiveList mBackground mBestImage mBgExec mBgModel mCatMap mConcatFit mConvert mCoverageCheck mDAG mDAGFiles mDAGGalacticPlane mDAGTbls mDiff mDiffExec mDiffFit mDiffFitExec mExamine mExec mExecTG mFitExec mFitplane mFixHdr mFixNaN mFlattenExec mGetHdr mGridExec mHdr mHdrCheck mHdrtbl mImgtbl mJPEG mMakeHdr mMakeImg mNotify mNotifyTG mOverlaps mPix2Coord mPresentation mProject mProjectPP mProjExec mPutHdr mQuickSearch mRotate mShrink mShrinkHdr mSubimage mSubset mTANHdr mTblExec mTblSort mTileHdr mTileImage
 moon-buggy:moon-buggy
 moreutils:chronic combine errno ifdata ifne isutf8 lckdo mispipe parallel pee sponge ts vidir vipe zrun
@@ -2960,7 +2969,6 @@ mupen64plus:mupen64plus
 musepack:mpc2sv8 mpcchap mpccut mpcdec mpcenc mpcgain wavcmp
 mussh:mussh
 mutt:flea mutt muttbug pgpewrap pgpring smime_keys
-muttils:pybrowser sigpager urlbatcher urlpager viewhtmlmsg wrap
 mvnvm:mvn
 mvtools:
 mycli:mycli
@@ -3020,6 +3028,7 @@ ndpi:ndpiReader
 ne:ne
 neal:neal
 neatvi:neatvi
+nebula:nebula nebula-cert
 nedit:ncl nedit
 needle:needle
 negfix8:negfix8
@@ -3041,7 +3050,7 @@ nethack:nethack
 nethacked:nethacked
 nethogs:nethogs
 netlify-cli:netlify ntl
-netpbm:411toppm anytopnm asciitopgm atktopbm avstopam bioradtopgm bmptopnm bmptoppm brushtopbm cameratopam cistopbm cmuwmtopbm ddbugtopbm escp2topbm eyuvtoppm fiascotopnm fitstopnm fstopgm g3topbm gemtopbm gemtopnm giftopnm gouldtoppm hdifftopam hipstopgm hpcdtoppm icontopbm ilbmtoppm imgtoppm infotopam jbigtopnm jpeg2ktopam jpegtopnm leaftoppm lispmtopgm macptopbm manweb mdatopbm mgrtopbm mrftopbm mtvtoppm neotoppm palmtopnm pamaddnoise pamarith pambackground pambayer pamchannel pamcomp pamcrater pamcut pamdeinterlace pamdepth pamdice pamditherbw pamedge pamendian pamenlarge pamexec pamfile pamfix pamfixtrunc pamflip pamfunc pamgauss pamgradient pamlookup pammasksharpen pammixinterlace pammosaicknit pamoil pampaintspill pamperspective pampick pampop9 pamrecolor pamrgbatopng pamrubber pamscale pamseq pamshadedrelief pamsharpmap pamsharpness pamsistoaglyph pamslice pamsplit pamstack pamstereogram pamstretch pamstretch-gen pamsumm pamsummcol pamthreshold pamtilt pamtoavs pamtodjvurle pamtofits pamtogif pamtohdiff pamtohtmltbl pamtojpeg2k pamtompfont pamtooctaveimg pamtopam pamtopdbimg pamtopfm pamtopng pamtopnm pamtosrf pamtosvg pamtotga pamtotiff pamtouil pamtowinicon pamtoxvmini pamundice pamunlookup pamvalidate pamwipeout pbmclean pbmlife pbmmake pbmmask pbmminkowski pbmpage pbmpscale pbmreduce pbmtext pbmtextps pbmto10x pbmto4425 pbmtoascii pbmtoatk pbmtobbnbg pbmtocis pbmtocmuwm pbmtodjvurle pbmtoepsi pbmtoepson pbmtoescp2 pbmtog3 pbmtogem pbmtogo pbmtoibm23xx pbmtoicon pbmtolj pbmtoln03 pbmtolps pbmtomacp pbmtomatrixorbital pbmtomda pbmtomgr pbmtomrf pbmtonokia pbmtopgm pbmtopi3 pbmtopk pbmtoplot pbmtoppa pbmtopsg3 pbmtoptx pbmtosunicon pbmtowbmp pbmtox10bm pbmtoxbm pbmtoybm pbmtozinc pbmupc pc1toppm pcdovtoppm pcxtoppm pdbimgtopam pfmtopam pgmabel pgmbentley pgmcrater pgmdeshadow pgmedge pgmenhance pgmhist pgmkernel pgmmake pgmmedian pgmminkowski pgmmorphconv pgmnoise pgmnorm pgmoil pgmramp pgmslice pgmtexture pgmtofs pgmtolispm pgmtopbm pgmtopgm pgmtoppm pgmtosbig pgmtost4 pi1toppm pi3topbm picttoppm pjtoppm pktopbm pngtopam pngtopnm pnmalias pnmarith pnmcat pnmcolormap pnmcomp pnmconvol pnmcrop pnmcut pnmdepth pnmenlarge pnmfile pnmflip pnmgamma pnmhisteq pnmhistmap pnmindex pnminterp pnminvert pnmmargin pnmmercator pnmmontage pnmnlfilt pnmnoraw pnmnorm pnmpad pnmpaste pnmpsnr pnmquant pnmquantall pnmremap pnmrotate pnmscale pnmscalefixed pnmshear pnmsmooth pnmsplit pnmstitch pnmtile pnmtoddif pnmtofiasco pnmtofits pnmtojbig pnmtojpeg pnmtopalm pnmtopclxl pnmtoplainpnm pnmtopng pnmtopnm pnmtops pnmtorast pnmtorle pnmtosgi pnmtosir pnmtotiff pnmtotiffcmyk pnmtoxwd ppm3d ppmbrighten ppmchange ppmcie ppmcolormask ppmcolors ppmdcfont ppmddumpfont ppmdim ppmdist ppmdither ppmdmkfont ppmdraw ppmfade ppmflash ppmforge ppmglobe ppmhist ppmlabel ppmmake ppmmix ppmnorm ppmntsc ppmpat ppmquant ppmquantall ppmrainbow ppmrelief ppmrough ppmshadow ppmshift ppmspread ppmtoacad ppmtoapplevol ppmtoarbtxt ppmtoascii ppmtobmp ppmtoeyuv ppmtogif ppmtoicr ppmtoilbm ppmtojpeg ppmtoleaf ppmtolj ppmtomap ppmtomitsu ppmtompeg ppmtoneo ppmtopcx ppmtopgm ppmtopi1 ppmtopict ppmtopj ppmtopjxl ppmtoppm ppmtopuzz ppmtorgb3 ppmtosixel ppmtospu ppmtoterm ppmtotga ppmtouil ppmtowinicon ppmtoxpm ppmtoyuv ppmtoyuvsplit ppmtv ppmwheel psidtopgm pstopnm qrttoppm rasttopnm rawtopgm rawtoppm rgb3toppm rlatopam rletopnm sbigtopgm sgitopnm sirtopnm sldtoppm spctoppm spottopgm sputoppm srftopam st4topgm sunicontopnm svgtopam tgatoppm thinkjettopbm tifftopnm wbmptopbm winicontopam winicontoppm xbmtopbm ximtoppm xpmtoppm xvminitoppm xwdtopnm ybmtopbm yuvsplittoppm yuvtoppm yuy2topam zeisstopnm
+netpbm:411toppm anytopnm asciitopgm atktopbm avstopam bioradtopgm bmptopnm bmptoppm brushtopbm cameratopam cistopbm cmuwmtopbm ddbugtopbm escp2topbm eyuvtoppm fiascotopnm fitstopnm fstopgm g3topbm gemtopbm gemtopnm giftopnm gouldtoppm hdifftopam hipstopgm hpcdtoppm icontopbm ilbmtoppm imgtoppm infotopam jbigtopnm jpeg2ktopam jpegtopnm leaftoppm lispmtopgm macptopbm manweb mdatopbm mgrtopbm mrftopbm mtvtoppm neotoppm palmtopnm pamaddnoise pamaltsat pamarith pambackground pambayer pambrighten pamchannel pamcomp pamcrater pamcut pamdeinterlace pamdepth pamdice pamditherbw pamedge pamendian pamenlarge pamexec pamfile pamfind pamfix pamfixtrunc pamflip pamfunc pamgauss pamgetcolor pamgradient pamhue pamlevels pamlookup pammasksharpen pammixinterlace pammixmulti pammosaicknit pamoil pampaintspill pamperspective pampick pampop9 pamrecolor pamrgbatopng pamrubber pamscale pamseq pamshadedrelief pamsharpmap pamsharpness pamsistoaglyph pamslice pamsplit pamstack pamstereogram pamstretch pamstretch-gen pamsumm pamsummcol pamtable pamthreshold pamtilt pamtoavs pamtodjvurle pamtofits pamtogif pamtohdiff pamtohtmltbl pamtojpeg2k pamtompfont pamtooctaveimg pamtopam pamtopdbimg pamtopfm pamtopng pamtopnm pamtosrf pamtosvg pamtotga pamtotiff pamtouil pamtowinicon pamtoxvmini pamtris pamundice pamunlookup pamvalidate pamwipeout pbmclean pbmlife pbmmake pbmmask pbmminkowski pbmpage pbmpscale pbmreduce pbmtext pbmtextps pbmto10x pbmto4425 pbmtoascii pbmtoatk pbmtobbnbg pbmtocis pbmtocmuwm pbmtodjvurle pbmtoepsi pbmtoepson pbmtoescp2 pbmtog3 pbmtogem pbmtogo pbmtoibm23xx pbmtoicon pbmtolj pbmtoln03 pbmtolps pbmtomacp pbmtomatrixorbital pbmtomda pbmtomgr pbmtomrf pbmtonokia pbmtopgm pbmtopi3 pbmtopk pbmtoplot pbmtoppa pbmtopsg3 pbmtoptx pbmtosunicon pbmtowbmp pbmtox10bm pbmtoxbm pbmtoybm pbmtozinc pbmupc pc1toppm pcdindex pcdovtoppm pcxtoppm pdbimgtopam pfmtopam pgmabel pgmbentley pgmcrater pgmdeshadow pgmedge pgmenhance pgmhist pgmkernel pgmmake pgmmedian pgmminkowski pgmmorphconv pgmnoise pgmnorm pgmoil pgmramp pgmslice pgmtexture pgmtofs pgmtolispm pgmtopbm pgmtopgm pgmtoppm pgmtosbig pgmtost4 pi1toppm pi3topbm picttoppm pjtoppm pktopbm pngtopam pngtopnm pnmalias pnmarith pnmcat pnmcolormap pnmcomp pnmconvol pnmcrop pnmcut pnmdepth pnmenlarge pnmfile pnmflip pnmgamma pnmhisteq pnmhistmap pnmindex pnminterp pnminvert pnmmargin pnmmercator pnmmontage pnmnlfilt pnmnoraw pnmnorm pnmpad pnmpaste pnmpsnr pnmquant pnmquantall pnmremap pnmrotate pnmscale pnmscalefixed pnmshear pnmsmooth pnmsplit pnmstitch pnmtile pnmtoddif pnmtofiasco pnmtofits pnmtojbig pnmtojpeg pnmtopalm pnmtopclxl pnmtoplainpnm pnmtopng pnmtopnm pnmtops pnmtorast pnmtorle pnmtosgi pnmtosir pnmtotiff pnmtotiffcmyk pnmtoxwd ppm3d ppmbrighten ppmchange ppmcie ppmcolormask ppmcolors ppmdcfont ppmddumpfont ppmdim ppmdist ppmdither ppmdmkfont ppmdraw ppmfade ppmflash ppmforge ppmglobe ppmhist ppmlabel ppmmake ppmmix ppmnorm ppmntsc ppmpat ppmquant ppmquantall ppmrainbow ppmrelief ppmrough ppmshadow ppmshift ppmspread ppmtoacad ppmtoapplevol ppmtoarbtxt ppmtoascii ppmtobmp ppmtoeyuv ppmtogif ppmtoicr ppmtoilbm ppmtojpeg ppmtoleaf ppmtolj ppmtomap ppmtomitsu ppmtompeg ppmtoneo ppmtopcx ppmtopgm ppmtopi1 ppmtopict ppmtopj ppmtopjxl ppmtoppm ppmtopuzz ppmtorgb3 ppmtosixel ppmtospu ppmtoterm ppmtotga ppmtouil ppmtowinicon ppmtoxpm ppmtoyuv ppmtoyuvsplit ppmtv ppmwheel psidtopgm pstopnm qrttoppm rasttopnm rawtopgm rawtoppm rgb3toppm rlatopam rletopnm sbigtopgm sgitopnm sirtopnm sldtoppm spctoppm spottopgm sputoppm srftopam st4topgm sunicontopnm svgtopam tgatoppm thinkjettopbm tifftopnm wbmptopbm winicontopam winicontoppm xbmtopbm ximtoppm xpmtoppm xvminitoppm xwdtopnm ybmtopbm yuvsplittoppm yuvtoppm yuy2topam zeisstopnm
 netperf:netperf netserver
 netris:netris
 nettle:nettle-hash nettle-lfib-stream nettle-pbkdf2 pkcs1-conv sexp-conv
@@ -3060,10 +3069,10 @@ ngrep:ngrep
 ngspice:cmpp ngmakeidx ngmultidec ngnutmeg ngproc2mod ngsconvert ngspice
 ngt:ngt ngtq
 nickle:nickle
-nicotine-plus:nicotine
 nicovideo-dl:nicovideo-dl
 nifi-registry:nifi-registry
 nifi:nifi
+nift:nift nsm
 nikto:nikto
 nim:nim nimrod
 ninja:ninja
@@ -3078,6 +3087,7 @@ nng:nngcat
 nnn:nlay nnn
 no-more-secrets:nms sneakers
 node-build:node-build nodenv-install nodenv-uninstall
+node-sass:sass
 node:node
 node@10:node npm npx
 node@12:node npm npx
@@ -3161,6 +3171,7 @@ offlineimap:offlineimap
 oggz:oggz oggz-chop oggz-codecs oggz-comment oggz-diff oggz-dump oggz-info oggz-known-codecs oggz-merge oggz-rip oggz-scan oggz-sort oggz-validate
 ogmtools:ogmcat ogmdemux ogminfo ogmmerge ogmsplit
 ohcount:ohcount
+okteto:okteto
 ola:ola_artnet ola_dev_info ola_dmxconsole ola_dmxmonitor ola_e131 ola_patch ola_plugin_info ola_plugin_state ola_rdm_discover ola_rdm_get ola_rdm_set ola_recorder ola_set_dmx ola_set_priority ola_streaming_client ola_timecode ola_trigger ola_uni_info ola_uni_merge ola_uni_name ola_uni_stats ola_usbpro olad rdmpro_sniffer usbpro_firmware
 olsrd:olsrd
 omega-rpg:omega
@@ -3173,6 +3184,7 @@ onefetch:onefetch
 onetime:onetime
 oniguruma:onig-config
 onioncat:ocat
+onnxruntime:onnx_test_runner
 onscripter:nsaconv nsadec onscripter sarconv sardec
 ooniprobe:oonideckgen ooniprobe oonireport ooniresources
 opa:opa
@@ -3228,7 +3240,6 @@ openshift-cli:oadm oc
 openslide:openslide-quickhash1sum openslide-show-properties openslide-write-png
 openslp:slpd slptool
 openssh:scp sftp slogin ssh ssh-add ssh-agent ssh-keygen ssh-keyscan sshd
-openssl:c_rehash openssl
 openssl@1.1:c_rehash openssl
 opensubdiv:far_perf far_regression hbr_baseline hbr_regression osd_regression stringify
 opentracing-cpp:
@@ -3393,8 +3404,8 @@ phoronix-test-suite:phoronix-test-suite
 php-code-sniffer:phpcbf phpcs
 php-cs-fixer:php-cs-fixer
 php:pear peardev pecl phar phar.phar php php-cgi php-config php-fpm phpdbg phpize
-php@7.1:pear peardev pecl phar phar.phar php php-cgi php-config php-fpm phpdbg phpize
 php@7.2:pear peardev pecl phar phar.phar php php-cgi php-config php-fpm phpdbg phpize
+php@7.3:pear peardev pecl phar phar.phar php php-cgi php-config phpdbg phpize
 phplint:phpl
 phpmd:phpmd
 phpmyadmin:
@@ -3488,8 +3499,9 @@ portmidi:
 posh:posh
 poster:poster
 postgis:create_undef.pl pgsql2shp postgis_proc_upgrade.pl postgis_restore.pl profile_intersects.pl raster2pgsql shp2pgsql test_estimation.pl test_geography_estimation.pl test_geography_joinestimation.pl test_joinestimation.pl
-postgresql:clusterdb createdb createuser dropdb dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivewal pg_recvlogical pg_resetwal pg_restore pg_rewind pg_standby pg_test_fsync pg_test_timing pg_upgrade pg_verify_checksums pg_waldump pgbench postgres postmaster psql reindexdb vacuumdb vacuumlo
+postgresql:clusterdb createdb createuser dropdb dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_checksums pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivewal pg_recvlogical pg_resetwal pg_restore pg_rewind pg_standby pg_test_fsync pg_test_timing pg_upgrade pg_waldump pgbench postgres postmaster psql reindexdb vacuumdb vacuumlo
 postgresql@10:clusterdb createdb createuser dropdb dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivewal pg_recvlogical pg_resetwal pg_restore pg_rewind pg_standby pg_test_fsync pg_test_timing pg_upgrade pg_waldump pgbench postgres postmaster psql reindexdb vacuumdb vacuumlo
+postgresql@11:clusterdb createdb createuser dropdb dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivewal pg_recvlogical pg_resetwal pg_restore pg_rewind pg_standby pg_test_fsync pg_test_timing pg_upgrade pg_verify_checksums pg_waldump pgbench postgres postmaster psql reindexdb vacuumdb vacuumlo
 postgresql@9.4:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivexlog pg_recvlogical pg_resetxlog pg_restore pg_standby pg_test_fsync pg_test_timing pg_upgrade pg_xlogdump pgbench pltcl_delmod pltcl_listmod pltcl_loadmod postgres postmaster psql reindexdb vacuumdb vacuumlo
 postgresql@9.5:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivexlog pg_recvlogical pg_resetxlog pg_restore pg_rewind pg_standby pg_test_fsync pg_test_timing pg_upgrade pg_xlogdump pgbench pltcl_delmod pltcl_listmod pltcl_loadmod postgres postmaster psql reindexdb vacuumdb vacuumlo
 postgresql@9.6:clusterdb createdb createlang createuser dropdb droplang dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivexlog pg_recvlogical pg_resetxlog pg_restore pg_rewind pg_standby pg_test_fsync pg_test_timing pg_upgrade pg_xlogdump pgbench pltcl_delmod pltcl_listmod pltcl_loadmod postgres postmaster psql reindexdb vacuumdb vacuumlo
@@ -3498,6 +3510,7 @@ postmark:postmark
 potrace:mkbitmap potrace
 povray:povray
 pow:pow
+powerline-go:powerline-go
 powerman:httppower plmpower pm powerman powermand vpcd
 ppl:ppl-config ppl_lcdd ppl_pips
 pprint:
@@ -3539,6 +3552,7 @@ protobuf@3.6:protoc
 protobuf@3.7:protoc
 protoc-gen-go:protoc-gen-go
 prototool:prototool
+prover9:mace4 prover9
 proxychains-ng:proxychains4
 proxytunnel:proxytunnel
 ps2eps:bbox ps2eps
@@ -3594,6 +3608,7 @@ pygtksourceview:
 pyinstaller:pyi-archive_viewer pyi-bindepend pyi-grab_version pyi-makespec pyi-set_version pyinstaller
 pyinvoke:inv invoke
 pylint:epylint pylint pyreverse symilar
+pympress:pympress
 pypy3:pypy3 pypy3.3
 pypy:pypy
 pyqt:pylupdate5 pyrcc5 pyuic5
@@ -3602,6 +3617,7 @@ python-markdown:markdown_py
 python-yq:xq yq
 python:2to3 2to3-3.7 easy_install-3.7 idle3 idle3.7 pip3 pip3.7 pydoc3 pydoc3.7 python3 python3-config python3.7 python3.7-config python3.7m python3.7m-config pyvenv pyvenv-3.7 wheel3
 python@2:2to3-2 2to3-2.7 easy_install easy_install-2.7 idle idle2 idle2.7 pip pip2 pip2.7 pydoc pydoc2 pydoc2.7 python python-config python2 python2-config python2.7 python2.7-config pythonw pythonw2 pythonw2.7 smtpd.py smtpd2.7.py smtpd2.py wheel
+python@3.8:2to3 2to3-3.8 idle3 idle3.8 pydoc3 pydoc3.8 python3 python3-config python3.8 python3.8-config
 pytouhou:pytouhou
 pyvim:ptipython ptpython pyflakes pygmentize pyvim
 q:q
@@ -3628,7 +3644,7 @@ qrupdate:
 qscintilla2:
 qsoas:QSoas
 qstat:qstat
-qt:canbusutil fixqt4headers.pl lconvert lprodump lrelease lrelease-pro lupdate lupdate-pro macchangeqt macdeployqt moc qcollectiongenerator qdbus qdbuscpp2xml qdbusxml2cpp qdistancefieldgenerator qgltf qhelpgenerator qlalr qmake qmlcachegen qmleasing qmlimportscanner qmllint qmlmin qmlplugindump qmlpreview qmlprofiler qmlscene qmltestrunner qscxmlc qtattributionsscanner qtdiag qtpaths qtplugininfo qvkgen qwebengine_convert_dict rcc repc syncqt.pl tracegen uic xmlpatterns xmlpatternsvalidator
+qt:balsam canbusutil fixqt4headers.pl lconvert lprodump lrelease lrelease-pro lupdate lupdate-pro macchangeqt macdeployqt meshdebug moc qcollectiongenerator qdbus qdbuscpp2xml qdbusxml2cpp qdistancefieldgenerator qgltf qhelpgenerator qlalr qmake qmlcachegen qmleasing qmlimportscanner qmllint qmlmin qmlplugindump qmlpreview qmlprofiler qmlscene qmltestrunner qscxmlc qtattributionsscanner qtdiag qtpaths qtplugininfo qvkgen qwebengine_convert_dict rcc repc syncqt.pl tracegen uic xmlpatterns xmlpatternsvalidator
 qtads:QTads
 qtfaststart:qt-faststart
 qtkeychain:
@@ -3816,6 +3832,7 @@ ruby-install:ruby-install
 ruby:bundle bundler erb gem irb rake rdoc ri ruby
 ruby@2.4:erb gem irb rake rdoc ri ruby
 ruby@2.5:erb gem irb rake rdoc ri ruby
+run:run
 runcocoa:runc runcocoa
 runit:chpst runit runit-init runsv runsvchdir runsvdir sv svlogd utmpset
 rush:rush rushlast rushwho
@@ -3838,7 +3855,9 @@ safe-rm:safe-rm
 sagittarius-scheme:compile-r7rs compile-sagittarius sagittarius sagittarius-config sagittarius-package sash
 saldl:saldl
 salt:salt salt-api salt-call salt-cloud salt-cp salt-key salt-master salt-minion salt-proxy salt-run salt-ssh salt-syndic salt-unity spm
+sampler:sampler
 samtools:ace2sam blast2sam.pl bowtie2sam.pl export2sam.pl interpolate_sam.pl maq2sam-long maq2sam-short md5fa md5sum-lite novo2sam.pl plot-bamstats psl2sam.pl sam2vcf.pl samtools samtools.pl seq_cache_populate.pl soap2sam.pl varfilter.py wgsim wgsim_eval.pl zoom2sam.pl
+samurai:samu
 sane-backends:gamma4scanimage sane-config sane-find-scanner saned scanimage umax_pp
 sassc:sassc
 savana:sav
@@ -3959,7 +3978,6 @@ shmcat:shmcat
 shml:shml shml.sh
 shmux:shmux
 shntool:shncat shncmp shnconv shncue shnfix shngen shnhash shninfo shnjoin shnlen shnpad shnsplit shnstrip shntool shntrim
-shocco:shocco
 shogun:
 shorten:shorten
 shpotify:spotify
@@ -4000,6 +4018,7 @@ ski:ski
 skinny:skinny yo
 skktools:skkdic-count skkdic-expr skkdic-expr2 skkdic-sort
 skopeo:skopeo
+skymaker:sky
 sl:sl
 slackcat:slackcat
 slacknimate:slacknimate
@@ -4031,6 +4050,7 @@ snappystream:
 snapraid:snapraid
 sng:sng
 sngrep:sngrep
+sniffglue:sniffglue
 snobol4:sdb sdb-1.5 snobol4 snobol4-1.5
 snort:snort u2boat u2spewfoo
 snow:snow
@@ -4127,7 +4147,6 @@ ssh-audit:ssh-audit
 ssh-copy-id:ssh-copy-id
 ssh-permit-a38:ssh-permit-a38
 ssh-vault:ssh-vault
-sshconfigfs:sshconfigfs
 sshfs:sshfs
 sshguard:sshguard
 sshrc:sshrc
@@ -4167,7 +4186,6 @@ stone-soup:crawl
 stone:stone
 storm:storm
 stormlib:
-stormpath-cli:stormpath
 stormssh-completion:
 stormssh:storm
 stout:stout
@@ -4244,6 +4262,7 @@ tailor:tailor
 takt:mid2takt takt
 taktuk:taktuk
 tal:tal
+talisman:talisman
 talloc:
 tarantool:tarantool tarantoolctl
 tarsnap-gui:
@@ -4310,6 +4329,7 @@ terraform_landscape:landscape
 terraformer:terraformer
 terraforming:terraforming
 terragrunt:terragrunt
+terrahelp:terrahelp
 terrahub:terrahub thub
 tesseract-lang:
 tesseract:tesseract
@@ -4318,6 +4338,7 @@ testssl:testssl.sh
 texapp:texapp
 texi2html:texi2html
 texinfo:info install-info makeinfo pdftexi2dvi pod2texi texi2any texi2dvi texi2pdf texindex
+texlab:texlab
 texmath:texmath
 textql:textql
 tfenv:terraform tfenv
@@ -4353,6 +4374,7 @@ tinyproxy:tinyproxy
 tinysvm:svm_classify svm_learn svm_model
 tinyxml2:
 tinyxml:
+tio:tio
 tippecanoe:tile-join tippecanoe tippecanoe-decode tippecanoe-enumerate
 titan-server:titan titan-rexster-console
 titlecase:
@@ -4372,7 +4394,6 @@ tmx:
 tnef:tnef
 tnftp:ftp
 tnftpd:ftpd
-tnote:tnote
 toast:toast
 todo-txt:todo.sh
 todoman:todo
@@ -4480,6 +4501,7 @@ unbound:unbound unbound-anchor unbound-checkconf unbound-control unbound-control
 uncrustify:uncrustify
 ungit:0ungit-credentials-helper ungit
 uni2ascii:ascii2uni u2a uni2ascii
+uni:uni
 unibilium:
 unicorn:
 unifdef:unifdef unifdefall
@@ -4525,6 +4547,7 @@ v:v
 vagrant-completion:
 vala:vala vala-0.36 vala-gen-introspect vala-gen-introspect-0.36 valac valac-0.36 vapicheck vapicheck-0.36 vapigen vapigen-0.36
 valabind:valabind valabind-cc
+vale:vale
 valgrind:callgrind_annotate callgrind_control cg_annotate cg_diff cg_merge ms_print valgrind valgrind-di-server valgrind-listener vgdb
 vamp-plugin-sdk:vamp-rdf-template-generator vamp-simple-host
 vapoursynth-imwri:
@@ -4563,7 +4586,6 @@ viewvc:viewvc-cvsdbadmin viewvc-loginfo-handler viewvc-make-database viewvc-stan
 vifm:vifm vifm-convert-dircolors vifm-pause vifmrc-converter
 vilistextum:vilistextum
 vim:ex rview rvim vi view vim vimdiff vimtutor xxd
-vim@7.4:ex rview rvim view vim vimdiff vimtutor xxd
 vimpager:vimcat vimpager
 vimpc:vimpc
 vip:vip
@@ -4616,7 +4638,6 @@ walkmod:walkmod
 wallpaper:wallpaper
 wandio:wandiocat
 waon:waon
-warp:warp
 wartremover:wartremover
 watch-sim:watch-sim
 watch:watch
@@ -4647,13 +4668,13 @@ wego:wego
 weighttp:weighttp
 wellington:wt
 wemux:wemux
-wesnoth:wesnoth wesnothd
 wget:wget
 wgetpaste:wgetpaste
 whalebrew:whalebrew
 whatmask:whatmask
 whatmp3:whatmp3
 when:when
+whistle:w2 whistle wproxy
 whitedb:wgdb
 whohas:whohas
 whois:whois
@@ -4680,6 +4701,7 @@ woboq_codebrowser:codebrowser_generator codebrowser_indexgenerator
 woff2:woff2_compress woff2_decompress woff2_info
 wolfssl:wolfssl-config
 woof:woof
+wordgrinder:wordgrinder
 wordnet:wishwn wn wnb
 wordplay:wordplay
 wp-cli-completion:
@@ -4709,6 +4731,8 @@ x11vnc:x11vnc
 x264:x264
 x265:x265
 x3270:x3270
+x86_64-elf-binutils:x86_64-elf-addr2line x86_64-elf-c++filt x86_64-elf-coffdump x86_64-elf-dllwrap x86_64-elf-elfedit x86_64-elf-gprof x86_64-elf-size x86_64-elf-srconv x86_64-elf-strings x86_64-elf-sysdump x86_64-elf-windmc x86_64-elf-windres
+x86_64-elf-gcc:x86_64-elf-c++ x86_64-elf-cpp x86_64-elf-gcc x86_64-elf-gcc-ar x86_64-elf-gcc-nm x86_64-elf-gcc-ranlib x86_64-elf-gcov x86_64-elf-gcov-dump x86_64-elf-gcov-tool
 xa:file65 ldo65 printcbm reloc65 uncpk xa
 xalan-c:Xalan
 xapian:copydatabase delve quest simpleexpand simpleindex simplesearch xapian-check xapian-chert-update xapian-compact xapian-config xapian-inspect xapian-metadata xapian-progsrv xapian-replicate xapian-replicate-server xapian-tcpsrv
@@ -4728,6 +4752,7 @@ xerces-c:CreateDOMDocument DOMCount DOMPrint EnumVal PParse PSVIWriter Redirect 
 xgboost:xgboost
 xhyve:xhyve
 xidel:xidel
+xlearn:xlearn_predict xlearn_train
 xlispstat:xlispstat
 xlslib:
 xmake:xmake
@@ -4818,6 +4843,7 @@ zbar:zbarimg
 zboy:zboy
 zdelta:zdc zdu
 zebra:idzebra-abs2dom idzebra-config-2.0 zebraidx zebraidx-2.0 zebrasrv zebrasrv-2.0
+zeek:bifcl binpac bro bro-config bro-cut broctl capstats paraglob-test trace-summary zeek zeek-config zeek-cut zeek-wrapper zeekctl
 zelda-roth-se:zelda_roth_se
 zenity:gdialog zenity
 zero-install:0alias 0desktop 0install 0launch 0store 0store-secure-add
