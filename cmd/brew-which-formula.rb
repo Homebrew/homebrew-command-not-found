@@ -33,7 +33,7 @@ end
 def explain_formulae_install(cmd, formulae)
   formulae.reject! { |f| reject_formula? f }
   case formulae.size
-  when 0 then return
+  when 0
   when 1
     puts <<~EOS
       The program '#{cmd}' is currently not installed. You can install it by typing:
