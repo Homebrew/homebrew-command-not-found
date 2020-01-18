@@ -71,7 +71,7 @@ def which_formula(cmd, explain = false)
   end
 end
 
-explain = ARGV.flag? "--explain"
+explain = ARGV.include? "--explain"
 # Note: It probably doesn't make sense to use that on multiple commands since
 # each one might print multiple formulae
 ARGV.named.each { |cmd| which_formula cmd, explain }
