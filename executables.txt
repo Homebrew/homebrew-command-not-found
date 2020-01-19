@@ -84,6 +84,7 @@ annie:annie
 ansible-cmdb:ansible-cmdb
 ansible-lint:ansible-lint
 ansible:ansible ansible-connection ansible-console ansible-doc ansible-galaxy ansible-playbook ansible-pull ansible-vault
+ansible@2.8:ansible ansible-config ansible-connection ansible-console ansible-doc ansible-galaxy ansible-inventory ansible-playbook ansible-pull ansible-vault
 ansifilter:ansifilter
 ansiweather:ansiweather
 ant-contrib:
@@ -115,7 +116,6 @@ apache-zeppelin:common.sh functions.sh install-interpreter.sh interpreter.sh zep
 apachetop:apachetop
 apcupsd:apcaccess apctest apcupsd apcupsd-start smtp
 ape:aped
-apel:
 apgdiff:apgdiff
 apib:apib apibmon
 apibuilder-cli:apibuilder read-config
@@ -203,7 +203,6 @@ augeas:augparse augtool fadot
 augustus:augustus bam2hints etraining fastBlockSearch filterBam homGeneMapping joingenes prepareAlign
 aurora-cli:aurora aurora_admin
 aurora:aurora
-auto-scaling:as-attach-instances as-cmd as-complete-lifecycle-action as-create-auto-scaling-group as-create-launch-config as-create-or-update-tags as-delete-auto-scaling-group as-delete-launch-config as-delete-lifecycle-hook as-delete-notification-configuration as-delete-policy as-delete-scheduled-action as-delete-tags as-describe-account-limits as-describe-adjustment-types as-describe-auto-scaling-groups as-describe-auto-scaling-instances as-describe-auto-scaling-notification-types as-describe-launch-configs as-describe-lifecycle-hook-types as-describe-lifecycle-hooks as-describe-metric-collection-types as-describe-notification-configurations as-describe-policies as-describe-process-types as-describe-scaling-activities as-describe-scheduled-actions as-describe-tags as-describe-termination-policy-types as-detach-instances as-disable-metrics-collection as-enable-metrics-collection as-enter-standby as-execute-policy as-exit-standby as-put-lifecycle-hook as-put-notification-configuration as-put-scaling-policy as-put-scheduled-update-group-action as-record-lifecycle-action-heartbeat as-resume-processes as-set-desired-capacity as-set-instance-health as-suspend-processes as-terminate-instance-in-auto-scaling-group as-update-auto-scaling-group as-version
 autobench:autobench autobench_admin autobenchd bench2graph crfile sesslog
 autocode:autocode
 autoconf-archive:
@@ -235,7 +234,6 @@ awk:awk
 aws-apigateway-importer:aws-api-import
 aws-cdk:cdk
 aws-cfn-tools:cfn-cancel-update-stack cfn-cmd cfn-create-stack cfn-delete-stack cfn-describe-stack-events cfn-describe-stack-resource cfn-describe-stack-resources cfn-describe-stacks cfn-get-template cfn-list-stack-resources cfn-list-stacks cfn-update-stack cfn-validate-template cfn-version
-aws-elasticache:elasticache elasticache-authorize-cache-security-group-ingress elasticache-copy-snapshot elasticache-create-cache-cluster elasticache-create-cache-parameter-group elasticache-create-cache-security-group elasticache-create-cache-subnet-group elasticache-create-replication-group elasticache-create-snapshot elasticache-delete-cache-cluster elasticache-delete-cache-parameter-group elasticache-delete-cache-security-group elasticache-delete-cache-subnet-group elasticache-delete-replication-group elasticache-delete-snapshot elasticache-describe-cache-clusters elasticache-describe-cache-engine-versions elasticache-describe-cache-parameter-groups elasticache-describe-cache-parameters elasticache-describe-cache-security-groups elasticache-describe-cache-subnet-groups elasticache-describe-engine-default-parameters elasticache-describe-events elasticache-describe-replication-groups elasticache-describe-reserved-cache-nodes elasticache-describe-reserved-cache-nodes-offerings elasticache-describe-snapshots elasticache-modify-cache-cluster elasticache-modify-cache-parameter-group elasticache-modify-cache-subnet-group elasticache-modify-replication-group elasticache-purchase-reserved-cache-nodes-offering elasticache-reboot-cache-cluster elasticache-reset-cache-parameter-group elasticache-revoke-cache-security-group-ingress elasticache-version
 aws-elasticbeanstalk:eb ebp
 aws-es-proxy:aws-es-proxy
 aws-google-auth:aws-google-auth
@@ -244,8 +242,8 @@ aws-keychain:aws-keychain
 aws-okta:aws-okta
 aws-sdk-cpp:
 aws-shell:aws-shell aws-shell-mkindex
-aws-sns-cli:sns-add-permission sns-cmd sns-confirm-subscription sns-create-topic sns-delete-topic sns-get-subscription-attributes sns-get-topic-attributes sns-list-subscriptions sns-list-subscriptions-by-topic sns-list-topics sns-publish sns-remove-permission sns-set-subscription-attributes sns-set-topic-attributes sns-subscribe sns-unsubscribe sns-version
 awscli:aws aws.cmd aws_bash_completer aws_completer aws_zsh_completer.sh
+awscurl:awscurl
 awslogs:awslogs
 awsume:autoawsume awsume awsume-autocomplete awsume-configure awsume.bat awsume.fish awsume.ps1 awsumepy
 axel:axel
@@ -269,6 +267,7 @@ ballerina:ballerina
 bam:bam
 bamtools:bamtools
 bandcamp-dl:bandcamp-dl
+bandwhich:bandwhich
 baobab:baobab
 bar:bar
 bareos-client:bareos bareos-fd bconsole btraceback
@@ -544,6 +543,7 @@ cgal:cgal_create_CMakeLists cgal_create_cmake_script cgal_make_macosx_app
 cgdb:cgdb
 cgit:
 cglm:
+cgns:adf2hdf cgnscheck cgnscompress cgnsconvert cgnsdiff cgnslist cgnsnames cgnsupdate hdf2adf
 cgoban:cgoban
 cgrep:cgrep
 cgvg:cg vg
@@ -656,6 +656,7 @@ cmus:cmus cmus-remote
 cmusfm:cmusfm
 cnats:
 cntlm:cntlm
+cobalt:cobalt
 coccinelle:pycocci spatch spatch.opt spgen
 cocoapods:pod xcodeproj
 cocot:cocot
@@ -895,7 +896,6 @@ diff-so-fancy:diff-highlight diff-so-fancy
 diffoscope:diffoscope
 diffr:diffr
 diffstat:diffstat
-diffuse:diffuse
 diffutils:cmp diff diff3 sdiff
 digdag:digdag
 digitemp:digitemp_DS2490 digitemp_DS9097 digitemp_DS9097U
@@ -999,6 +999,7 @@ dshb:dshb
 dsocks:dsocks.sh
 dspdfviewer:dspdfviewer
 dssim:dssim
+dsvpn:
 dtach:dtach
 dtc:convert-dtsv0 dtc dtdiff fdtdump fdtget fdtput
 dterm:dterm
@@ -1214,6 +1215,7 @@ filebeat:filebeat
 fileicon:fileicon
 finatra:finatra
 findent:findent wfindent
+findomain:findomain
 findutils:gfind glocate gupdatedb gxargs
 fio:fio fio-dedupe fio-genzipf fio-verify-state fio2gnuplot fio_generate_plots fiologparser.py fiologparser_hist.py genfio
 firebase-cli:firebase
@@ -1444,6 +1446,7 @@ git-credential-manager:git-credential-manager
 git-crypt:git-crypt
 git-delta:delta
 git-extras:git-alias git-archive-file git-authors git-back git-bug git-bulk git-changelog git-chore git-clear git-clear-soft git-coauthor git-commits-since git-contrib git-count git-create-branch git-delete-branch git-delete-merged-branches git-delete-submodule git-delete-tag git-delta git-effort git-extras git-feature git-force-clone git-fork git-fresh-branch git-gh-pages git-graft git-guilt git-ignore git-ignore-io git-info git-local-commits git-lock git-locked git-merge-into git-merge-repo git-missing git-mr git-obliterate git-paste git-pr git-psykorebase git-pull-request git-reauthor git-rebase-patch git-refactor git-release git-rename-branch git-rename-remote git-rename-tag git-repl git-reset-file git-root git-rscp git-scp git-sed git-setup git-show-merged-branches git-show-tree git-show-unmerged-branches git-squash git-stamp git-standup git-summary git-sync git-touch git-undo git-unlock
+git-filter-repo:git-filter-repo
 git-fixup:git-fixup
 git-flow-avh:git-flow
 git-flow:git-flow
@@ -1523,10 +1526,10 @@ glm:
 global:global globash gozilla gtags gtags-cscope htags htags-server
 globe:globe
 globjects:
-globus-toolkit:globus-domainname globus-gass-cache globus-gass-cache-destroy globus-gass-cache-util globus-gass-server globus-gass-server-shutdown globus-hostname globus-job-cancel globus-job-clean globus-job-get-output globus-job-get-output-helper globus-job-run globus-job-status globus-job-submit globus-makefile-header globus-sh-exec globus-url-copy globus-version globus-xioperf globusrun grid-ca-create grid-ca-package grid-ca-sign grid-cert-diagnostics grid-cert-info grid-cert-request grid-change-pass-phrase grid-proxy-destroy grid-proxy-info grid-proxy-init gsiscp gsisftp gsislogin gsissh gsissh-add gsissh-agent gsissh-keygen gsissh-keyscan
 glog:
 glooctl:glooctl
 gloox:gloox-config
+glow:glow
 glpk:glpsol
 glslang:glslangValidator spirv-remap
 glslviewer:glslLoader glslViewer
@@ -1796,7 +1799,6 @@ hey:hey
 hfstospell:hfst-ospell
 hfsutils:hattrib hcd hcopy hdel hdir hformat hls hmkdir hmount hpwd hrename hrmdir humount hvol
 hg-fast-export:hg-fast-export.py hg-fast-export.sh hg-reset.py hg-reset.sh hg2git.py
-hg-flow:
 hicolor-icon-theme:
 hidapi:hidtest
 highlight:highlight
@@ -1962,7 +1964,6 @@ ipsumdump:ipaggcreate ipaggmanip ipsumdump
 ipv6calc:ipv6calc ipv6loganon ipv6logconv ipv6logstats
 ipv6toolkit:addr6 blackhole6 flow6 frag6 icmp6 jumbo6 na6 ni6 ns6 path6 ra6 rd6 rs6 scan6 script6 tcp6 udp6
 ipython:iptest iptest3 ipython ipython3
-ipython@5:iptest iptest2 ipython ipython2
 ircd-hybrid:ircd mkpasswd
 ircd-irc2:chkconf iauth ircd ircd-mkpasswd ircdwatch
 ircii:irc irc-20151120 ircbug ircflush
@@ -2127,6 +2128,7 @@ known_hosts:known_hosts
 kobalt:kobaltw
 kommit:git-kommit
 kompose:kompose
+komposition:komposition komposition-split
 kops:kops
 kore:kore
 kotlin:kotlin kotlinc kotlinc-js kotlinc-jvm
@@ -2197,7 +2199,6 @@ ldc:ldc-profdata ldc-prune-cache ldc2 ldmd2
 ldid:ldid
 ldns:drill ldns-chaos ldns-compare-zones ldns-config ldns-dane ldns-dpa ldns-gen-zone ldns-key2ds ldns-keyfetcher ldns-keygen ldns-mx ldns-notify ldns-nsec3-hash ldns-read-zone ldns-resolver ldns-revoke ldns-rrsig ldns-signzone ldns-test-edns ldns-testns ldns-update ldns-verify-zone ldns-version ldns-walk ldns-zcat ldns-zsplit ldnsd
 le:le
-leafnode:leafnode-version newsq applyfilter checkgroups fetchnews leafnode texpire
 lean-cli:lean
 lean:lean leanchecker leanemacs leanpkg
 leaps:leaps
@@ -2225,7 +2226,6 @@ lha:lha
 lhasa:lha
 lib3ds:3dsdump lib3ds-config
 libaacs:aacs_info
-libagar:agar-au-config agar-config agar-core-config agar-dev-config agar-math-config agar-vg-config
 libagg:
 libantlr3c:
 libao:
@@ -2236,6 +2236,7 @@ libassuan:libassuan-config
 libatomic_ops:
 libav:avconv avprobe
 libb2:
+libb64:
 libbdplus:
 libbi:bi libbi
 libbind:
@@ -2858,10 +2859,12 @@ mkvtoolnix:mkvextract mkvinfo mkvmerge mkvpropedit
 mldonkey:mlbt mldc mldonkey mlgnut mlnet mlslsk
 mlkit:kittester mlkit mlkit-mllex mlkit-mlyacc rp2ps
 mlogger:mlogger
+mlpack:mlpack_adaboost mlpack_approx_kfn mlpack_cf mlpack_dbscan mlpack_decision_stump mlpack_decision_tree mlpack_det mlpack_emst mlpack_fastmks mlpack_gmm_generate mlpack_gmm_probability mlpack_gmm_train mlpack_hmm_generate mlpack_hmm_loglik mlpack_hmm_train mlpack_hmm_viterbi mlpack_hoeffding_tree mlpack_kde mlpack_kernel_pca mlpack_kfn mlpack_kmeans mlpack_knn mlpack_krann mlpack_lars mlpack_linear_regression mlpack_linear_svm mlpack_lmnn mlpack_local_coordinate_coding mlpack_logistic_regression mlpack_lsh mlpack_mean_shift mlpack_nbc mlpack_nca mlpack_nmf mlpack_pca mlpack_perceptron mlpack_preprocess_binarize mlpack_preprocess_describe mlpack_preprocess_imputer mlpack_preprocess_scale mlpack_preprocess_split mlpack_radical mlpack_random_forest mlpack_range_search mlpack_softmax_regression mlpack_sparse_coding
 mlt:melt
 mlton:mllex mlnlffigen mlprof mlton mlyacc
 mm-common:mm-common-prepare
 mmark:mmark
+mmctl:mmctl
 mmix:mmix mmixal mmmix mmotype
 mmseqs2:mmseqs
 mmsrip:mmsrip
@@ -2982,7 +2985,6 @@ mysql-connector-c++:
 mysql-connector-c++@1.1:
 mysql-sandbox:deploy_to_remote_sandboxes.sh low_level_make_sandbox make_multiple_custom_sandbox make_multiple_sandbox make_replication_sandbox make_sandbox make_sandbox_from_installed make_sandbox_from_source msandbox msb sbtool test_sandbox
 mysql-search-replace:srdb
-mysql-utilities:mysqlauditadmin mysqlauditgrep mysqlbinlogmove mysqlbinlogpurge mysqlbinlogrotate mysqldbcompare mysqldbcopy mysqldbexport mysqldbimport mysqldiff mysqldiskusage mysqlfailover mysqlfrm mysqlgrants mysqlindexcheck mysqlmetagrep mysqlprocgrep mysqlreplicate mysqlrpladmin mysqlrplcheck mysqlrplms mysqlrplshow mysqlrplsync mysqlserverclone mysqlserverinfo mysqlslavetrx mysqluc mysqluserclone
 mysql:innochecksum lz4_decompress my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_client_test_embedded mysql_config mysql_config_editor mysql_embedded mysql_install_db mysql_plugin mysql_secure_installation mysql_ssl_rsa_setup mysql_tzinfo_to_sql mysql_upgrade mysqladmin mysqlbinlog mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlimport mysqlpump mysqlshow mysqlslap mysqltest mysqltest_embedded perror replace resolve_stack_dump resolveip zlib_decompress
 mysql@5.6:innochecksum msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_client_test_embedded mysql_config mysql_config_editor mysql_convert_table_format mysql_embedded mysql_find_rows mysql_fix_extensions mysql_install_db mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysql_zap mysqladmin mysqlbinlog mysqlbug mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest mysqltest_embedded perror replace resolve_stack_dump resolveip
 mysql@5.7:innochecksum lz4_decompress my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_client_test_embedded mysql_config mysql_config_editor mysql_embedded mysql_install_db mysql_plugin mysql_secure_installation mysql_ssl_rsa_setup mysql_tzinfo_to_sql mysql_upgrade mysqladmin mysqlbinlog mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlimport mysqlpump mysqlshow mysqlslap mysqltest mysqltest_embedded mysqlxtest perror replace resolve_stack_dump resolveip zlib_decompress
@@ -3007,6 +3009,7 @@ nativefier:nativefier
 nats-server:nats-server
 nats-streaming-server:nats-streaming-server
 naturaldocs:NaturalDocs
+nauty:NRswitchg addedgeg amtog biplabg catg complg converseg copyg countg cubhamg deledgeg delptg directg dreadnaut dretodot dretog genbg genbgL geng genquarticg genrang genspecialg gentourng gentreeg hamheuristic labelg linegraphg listg multig newedgeg pickg planarg ranlabg shortg showg subdivideg twohamg vcolg watercluster2
 nave:nave
 navi:navi
 nbdime:git-nbdiffdriver git-nbdifftool git-nbmergedriver git-nbmergetool hg-nbdiff hg-nbdiffweb hg-nbmerge hg-nbmergeweb nbdiff nbdiff-web nbdime nbmerge nbmerge-web nbshow
@@ -3091,7 +3094,6 @@ node-sass:sass
 node:node
 node@10:node npm npx
 node@12:node npm npx
-node@8:node
 node_exporter:node_exporter
 nodebrew:nodebrew
 nodeenv:nodeenv
@@ -3105,7 +3107,6 @@ notifiers:notifiers
 notmuch:notmuch
 now-cli:now
 noweb:cpif htmltoc nodefs noindex noroff noroots notangle nountangle noweave noweb nuweb2noweb sl2h
-np2:np2
 npth:npth-config
 npush:npush
 nq:fq nq tq
@@ -3218,7 +3219,7 @@ opencv@2:opencv_annotation opencv_createsamples opencv_haartraining opencv_perfo
 opencv@3:opencv_annotation opencv_createsamples opencv_interactive-calibration opencv_traincascade opencv_version opencv_visualisation opencv_waldboost_detector setup_vars_opencv3.sh
 opendbx:odbx-sql
 opendetex:delatex detex
-openexr:exrenvmap exrheader exrmakepreview exrmaketiled exrmultipart exrmultiview exrstdattr
+openexr:exr2aces exrenvmap exrheader exrmakepreview exrmaketiled exrmultipart exrmultiview exrstdattr
 openfortivpn:openfortivpn
 openh264:
 openhmd:simple
@@ -3376,7 +3377,7 @@ percona-toolkit:pt-align pt-archiver pt-config-diff pt-deadlock-logger pt-diskst
 percona-xtrabackup:innobackupex xbcloud xbcloud_osenv xbcrypt xbstream xtrabackup
 perkeep:camdeploy camget camlistored cammount camput camtool devcam hello publisher
 perl-build:perl-build plenv-install plenv-uninstall
-perl:corelist cpan enc2xs encguess h2ph h2xs instmodsh json_pp libnetcfg perl perl5.30.0 perlbug perldoc perlivp perlthanks piconv pl2pm pod2html pod2man pod2text pod2usage podchecker podselect prove ptar ptardiff ptargrep shasum splain xsubpp zipdetails
+perl:corelist cpan enc2xs encguess h2ph h2xs instmodsh json_pp libnetcfg perl perl5.30.1 perlbug perldoc perlivp perlthanks piconv pl2pm pod2html pod2man pod2text pod2usage podchecker podselect prove ptar ptardiff ptargrep shasum splain xsubpp zipdetails
 perl@5.18:a2p c2ph config_data corelist cpan cpan2dist cpanp cpanp-run-perl enc2xs find2perl h2ph h2xs instmodsh json_pp libnetcfg perl perl5.18.2 perlbug perldoc perlivp perlthanks piconv pl2pm pod2html pod2latex pod2man pod2text pod2usage podchecker podselect prove psed pstruct ptar ptardiff ptargrep s2p shasum splain xsubpp zipdetails
 perltidy:perltidy
 peru:peru
@@ -3484,6 +3485,7 @@ poco:cpspc f2cpsp
 pod2man:pod2man pod2text
 podiff:podiff
 podofo:podofobox podofocolor podofocountpages podofocrop podofoencrypt podofogc podofoimg2pdf podofoimgextract podofoimpose podofoincrementalupdates podofomerge podofopages podofopdfinfo podofosign podofotxt2pdf podofotxtextract podofouncompress podofoxmp
+poetry:poetry
 points2grid:points2grid
 pokerstove:penum_tests peval_tests ps-colex ps-eval ps-lut util_tests
 polipo:polipo
@@ -3601,10 +3603,6 @@ pyenv:pyenv pyenv-install pyenv-uninstall python-build
 pygitup:git-up
 pygments:pygmentize
 pygobject3:
-pygobject:pygobject-codegen-2.0
-pygtk:pygtk-codegen-2.0 pygtk-demo
-pygtkglext:
-pygtksourceview:
 pyinstaller:pyi-archive_viewer pyi-bindepend pyi-grab_version pyi-makespec pyi-set_version pyinstaller
 pyinvoke:inv invoke
 pylint:epylint pylint pyreverse symilar
@@ -3639,7 +3637,6 @@ qpid-proton:
 qpm:qpm
 qprint:qprint
 qrencode:qrencode
-qriollo:qr
 qrupdate:
 qscintilla2:
 qsoas:QSoas
@@ -3736,7 +3733,6 @@ redis:redis-benchmark redis-check-aof redis-check-rdb redis-cli redis-sentinel r
 redis@3.2:redis-benchmark redis-check-aof redis-check-rdb redis-cli redis-sentinel redis-server
 redis@4.0:redis-benchmark redis-check-aof redis-check-rdb redis-cli redis-sentinel redis-server
 redland:rdfproc redland-config redland-db-upgrade
-redo:redo redo-always redo-ifchange redo-ifcreate redo-ood redo-sources redo-stamp redo-targets redo-unlocked
 redpen:redpen
 redshift:redshift
 redsocks:redsocks
@@ -4135,7 +4131,6 @@ squirrel:sq
 sratom:
 sratoolkit:abi-dump abi-dump.2 abi-dump.2.8.2 abi-load abi-load.2 abi-load.2.8.2 align-info align-info.2 align-info.2.8.2 bam-load bam-load.2 bam-load.2.8.2 cache-mgr cache-mgr.2 cache-mgr.2.8.2 cg-load cg-load.2 cg-load.2.8.2 copycat copycat.2 copycat.2.8.2 fastdump fastdump.2 fastdump.2.8.2 fastq-dump fastq-dump.2 fastq-dump.2.8.2 fastq-load fastq-load.2 fastq-load.2.8.2 helicos-load helicos-load.2 helicos-load.2.8.2 illumina-dump illumina-dump.2 illumina-dump.2.8.2 illumina-load illumina-load.2 illumina-load.2.8.2 kar kar.2 kar.2.8.2 kdbmeta kdbmeta.2 kdbmeta.2.8.2 kget kget.2 kget.2.8.2 latf-load latf-load.2 latf-load.2.8.2 pacbio-load pacbio-load.2 pacbio-load.2.8.2 prefetch prefetch.2 prefetch.2.8.2 rcexplain rcexplain.2 rcexplain.2.8.2 sam-dump sam-dump.2 sam-dump.2.8.2 sff-dump sff-dump.2 sff-dump.2.8.2 sff-load sff-load.2 sff-load.2.8.2 sra-pileup sra-pileup.2 sra-pileup.2.8.2 sra-sort sra-sort.2 sra-sort.2.8.2 sra-stat sra-stat.2 sra-stat.2.8.2 srapath srapath.2 srapath.2.8.2 srf-load srf-load.2 srf-load.2.8.2 test-sra test-sra.2 test-sra.2.8.2 vdb-config vdb-config.2 vdb-config.2.8.2 vdb-copy vdb-copy.2 vdb-copy.2.8.2 vdb-decrypt vdb-decrypt.2 vdb-decrypt.2.8.2 vdb-dump vdb-dump.2 vdb-dump.2.8.2 vdb-encrypt vdb-encrypt.2 vdb-encrypt.2.8.2 vdb-lock vdb-lock.2 vdb-lock.2.8.2 vdb-passwd vdb-passwd.2 vdb-passwd.2.8.2 vdb-unlock vdb-unlock.2 vdb-unlock.2.8.2 vdb-validate vdb-validate.2 vdb-validate.2.8.2
 src:src
-srclib:srclib
 srecord:srec_cat srec_cmp srec_info
 srmio:srmcmd srmdump srmsync
 srt:sfplay stransmit
@@ -4314,7 +4309,6 @@ tepl:
 term:term
 termbox:
 terminal-notifier:terminal-notifier
-terminator:remotinator terminator terminator.wrapper
 termius:termius
 termrec:proxyrec termcat termplay termrec termtime
 termshare:termshare
@@ -4441,7 +4435,6 @@ treefrog:tadpole tmake treefrog tspawn
 trezor-agent:trezor-agent trezor-gpg trezor-gpg-agent trezor_agent.py
 triangle:triangle
 triton:triton
-trr:trr_format trr_update
 truecrack:truecrack
 truncate:truncate
 tsung:tsplot tsung tsung-recorder
@@ -4473,7 +4466,6 @@ typescript:tsc tsserver
 typespeed:typespeed
 u-boot-tools:mkimage
 uade:mod2ogg2.sh uade123
-uberftp:uberftp
 ubertooth:ubertooth-afh ubertooth-btle ubertooth-debug ubertooth-dfu ubertooth-dump ubertooth-ego ubertooth-rx ubertooth-specan ubertooth-specan-ui ubertooth-tx ubertooth-util
 ucg:ucg
 uchardet:uchardet
@@ -4621,7 +4613,6 @@ vstr:
 vsts-cli:vsts
 vtclock:vtclock
 vte3:vte-2.91
-vte:vte
 vtk:vtk vtkEncodeString-8.0 vtkHashSource-8.0 vtkParseJava-8.0 vtkWrapHierarchy-8.0 vtkWrapJava-8.0 vtkWrapPython-8.0 vtkWrapPythonInit-8.0 vtkWrapTcl-8.0 vtkWrapTclInit-8.0 vtkpython
 vttest:vttest
 vulkan-headers:
@@ -4639,6 +4630,7 @@ wallpaper:wallpaper
 wandio:wandiocat
 waon:waon
 wartremover:wartremover
+wasmer:kwasmd wasmer
 watch-sim:watch-sim
 watch:watch
 watchexec:watchexec
@@ -4795,6 +4787,7 @@ xxhash:xxhsum
 xz:lzcat lzcmp lzdiff lzegrep lzfgrep lzgrep lzless lzma lzmadec lzmainfo lzmore unlzma unxz xz xzcat xzcmp xzdec xzdiff xzegrep xzfgrep xzgrep xzless xzmore
 yacas:yacas ytxt2tex
 yadm:yadm
+yaegi:yaegi
 yaf:airdaemon filedaemon getFlowKeyHash ipfixDump yaf yafcollect yafMeta2Pcap yafscii
 yafc:yafc
 yajl:json_reformat json_verify
@@ -4850,7 +4843,6 @@ zero-install:0alias 0desktop 0install 0launch 0store 0store-secure-add
 zeromq:curve_keygen
 zig:zig
 zile:zile
-zim:zim
 zimg:
 zinc:zinc
 zint:zint
