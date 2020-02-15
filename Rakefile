@@ -24,7 +24,7 @@ namespace :test do
     puts "Testing with fish"
     # use `emit fish_prompt` to simulate interactive shell
     command = ". (brew command-not-found-init); emit fish_prompt; when"
-    output, status = Open3.capture2e("fish", "--debug-level=3", "-c", command)
+    output, status = Open3.capture2e("fish", "-c", command)
     puts output
     assert_equal status.exitstatus, 127
     assert_match(/brew install when/, output)
