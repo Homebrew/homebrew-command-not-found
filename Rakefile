@@ -14,8 +14,10 @@ namespace :test do
       # -x: trace
       # -c: execute the command
       output, status = Open3.capture2e(sh.to_s, "-ex", "-c", command)
+      puts
       puts output
-      assert_equal status.exitstatus, 127
+      puts
+      assert_equal 127, status.exitstatus
       assert_match(/brew install when/, output)
     end
   end
@@ -25,8 +27,10 @@ namespace :test do
     # use `emit fish_prompt` to simulate interactive shell
     command = ". (brew command-not-found-init); emit fish_prompt; when"
     output, status = Open3.capture2e("fish", "-c", command)
+    puts
     puts output
-    assert_equal status.exitstatus, 127
+    puts
+    assert_equal 127, status.exitstatus
     assert_match(/brew install when/, output)
   end
 end

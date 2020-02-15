@@ -1,0 +1,33 @@
+require "cli/parser"
+require_relative "../lib/which_update"
+
+module Homebrew
+  module_function
+
+  def which_update_args
+    Homebrew::CLI::Parser.new do
+      usage_banner <<~EOS
+        `which-update` [<database>]
+
+        Database update for `brew-which-formula`
+      EOS
+      switch "--stats",
+        description: "print statistics about the database contents (number of commands and formulae, " \
+                     "list of missing formulae)."
+      switch "--commit",
+        description: "commit the changes using `git`."
+      conflicts "--stats", "--commit"
+      max_named 1
+    end
+  end
+
+  def which_update
+    which_update_args.parse
+
+    if Homebrew.args.stats?
+      Homebrew::WhichUpdate.stats
+    else
+      Homebrew::WhichUpdate.update_and_save!
+    end
+  end
+end

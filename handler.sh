@@ -1,5 +1,5 @@
 #
-# brew-command-not-found script for OS X
+# brew-command-not-found script for macOS
 #
 # Usage: Source it somewhere in your .bashrc (bash) or .zshrc (zsh)
 #
@@ -18,8 +18,7 @@ homebrew_command_not_found_handle() {
     # The code below is based off this Linux Journal article:
     #   http://www.linuxjournal.com/content/bash-command-not-found
 
-    # do not run when inside Midnight Commander or within a Pipe, except if on
-    # Travis-CI
+    # do not run when inside Midnight Commander or within a Pipe, except if CI
     if test -z "$CONTINUOUS_INTEGRATION" && test -n "$MC_SID" -o ! -t 1 ; then
         [ -n "$BASH_VERSION" ] && \
             TEXTDOMAIN=command-not-found echo $"$cmd: command not found"
