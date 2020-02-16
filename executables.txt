@@ -123,6 +123,7 @@ apktool:apktool
 apm-bash-completion:
 apng2gif:apng2gif
 apngasm:apngasm
+apollo-cli:apollo
 apollo:apollo
 app-engine-java:appcfg.sh dev_appserver.sh endpoints.sh google_sql.sh run_java.sh
 app-engine-python:_php_runtime.py _python_runtime.py api_server.py appcfg.py bulkload_client.py bulkloader.py dev_appserver.py download_appstats.py endpointscfg.py gen_protorpc.py google_sql.py remote_api_shell.py
@@ -181,6 +182,7 @@ assh:assh
 assimp:assimp
 astrometry-net:an-fitstopnm an-pnmtofits astrometry-engine build-astrometry-index degtohms downsample-fits fit-wcs fits-column-merge fits-flip-endian fits-guess-scale fitscopy fitsgetext fitsverify get-healpix get-wcs hmstodeg hpsplit image2pnm image2xy imarith imcopy imstat listhead liststruc merge-columns modhead new-wcs pad-file plot-constellations plotann.py plotquad plotxy query-starkd removelines solve-field startree subtable tablist tabmerge tabsort text2fits uniformize votabletofits wcs-grab wcs-match wcs-pv2sip wcs-rd2xy wcs-resample wcs-to-tan wcs-xy2rd wcsinfo
 astyle:astyle
+asymptote:asy xasy
 asyncplusplus:
 atari800:atari800
 atasm:atasm
@@ -243,6 +245,7 @@ aws-okta:aws-okta
 aws-sdk-cpp:
 aws-shell:aws-shell aws-shell-mkindex
 awscli:aws aws.cmd aws_bash_completer aws_completer aws_zsh_completer.sh
+awscli@1:aws aws_completer
 awscurl:awscurl
 awslogs:awslogs
 awsume:autoawsume awsume awsume-autocomplete awsume-configure awsume.bat awsume.fish awsume.ps1 awsumepy
@@ -251,6 +254,7 @@ azure-cli:azure
 azure-storage-cpp:
 b2-tools:b2
 b2sum:b2sum
+b3sum:b3sum
 b43-fwcutter:b43-fwcutter
 babel:babel babel-doctor babel-external-helpers babel-node
 babeld:babeld
@@ -456,6 +460,7 @@ c2048:2048
 cabal-install:cabal
 cabextract:cabextract
 cabocha:cabocha cabocha-config
+cacli:cacli
 cadaver:cadaver
 caddy:caddy
 cadubi:cadubi
@@ -507,6 +512,7 @@ ccls:ccls
 ccm:ccm
 cconv:cconv
 ccrypt:ccat ccdecrypt ccencrypt ccguess ccrypt
+cctz:time_tool
 ccze:ccze ccze-cssdump
 cd-discid:cd-discid
 cdargs:cdargs
@@ -649,6 +655,7 @@ cmix:cmix
 cmocka:
 cmockery2:
 cmockery:
+cmt:cmt
 cmu-pocketsphinx:pocketsphinx_batch pocketsphinx_continuous pocketsphinx_mdef_convert
 cmu-sphinxbase:sphinx_cepview sphinx_cont_adseg sphinx_cont_fileseg sphinx_fe sphinx_jsgf2fsg sphinx_lm_convert sphinx_lm_eval sphinx_lm_sort sphinx_pitch
 cmuclmtk:binlm2arpa evallm idngram2lm idngram2stats lm_combine lm_interpolate mergeidngram ngram2mgram text2idngram text2wfreq text2wngram wfreq2vocab wngram2idngram
@@ -724,6 +731,7 @@ cppad:
 cppcheck:cppcheck cppcheck-htmlreport
 cppcms:cppcms_config_find_param cppcms_make_key cppcms_run cppcms_scale cppcms_tmpl_cc
 cppi:cppi
+cppman:cppman
 cppp:cppp
 cpprestsdk:
 cpptest:
@@ -879,6 +887,7 @@ dfu-util:dfu-prefix dfu-suffix dfu-util
 dgen:dgen dgen_tobin
 dhall-bash:dhall-to-bash
 dhall-json:dhall-to-json dhall-to-yaml
+dhall-lsp-server:dhall-lsp-server
 dhall:dhall
 dhcpdump:dhcpdump
 dhcping:dhcping
@@ -1037,6 +1046,7 @@ dyld-headers:
 dylibbundler:dylibbundler
 dynamips:dynamips nvram_export
 dynare:dynare++
+dynet:
 e2fsprogs:badblocks blkid chattr compile_et debugfs dumpe2fs e2freefrag e2fsck e2image e2label e2undo filefrag findfs fsck fsck.ext2 fsck.ext3 fsck.ext4 fuse2fs logsave lsattr mk_cmds mke2fs mkfs.ext2 mkfs.ext3 mkfs.ext4 mklost+found resize2fs tune2fs uuidd uuidgen
 e2tools:e2cp e2ln e2ls e2mkdir e2mv e2rm e2tail
 easy-git:eg
@@ -1120,6 +1130,7 @@ etl:ETL-config
 etsh:osh sh6
 ettercap:ettercap etterfilter etterlog
 euler-py:euler
+eureka:eureka
 eventlog:
 eventql:cstable_tool evql evqlbench evqlctl evqld evqlslap
 evince:evince evince-previewer evince-thumbnailer
@@ -1157,6 +1168,7 @@ fabric:fab
 fades:fades
 fail2ban:fail2ban-client fail2ban-regex fail2ban-server
 fairymax:fairymax maxqi shamax
+faiss:
 fakeroot:faked fakeroot
 falcon:falcon falcon-conf falconeer.fal falconenv.sh faldisass faldoc fallc.fal falpack falrun faltest icomp.sh
 fantom:fan fanlaunch fanp fanr fansh fansubstitute fant flux jstub
@@ -1312,7 +1324,6 @@ fsevent_watch:fsevent_watch
 fsevents-tools:autorsync notifyloop notifywait
 fsh:fcp fsh fshd in.fshd
 fsql:fsql
-fstar:fstar.exe
 fstrm:fstrm_capture fstrm_dump
 fsw:fsw fswatch-run fswatch-run-bash fswatch-run-zsh
 fswatch:fswatch
@@ -1413,6 +1424,7 @@ gexiv2:
 gf-complete:gf_add gf_div gf_example_1 gf_example_2 gf_example_3 gf_example_4 gf_example_5 gf_example_6 gf_example_7 gf_inline_time gf_methods gf_mult gf_poly gf_time gf_unit
 gflags:gflags_completions.sh
 gforth:gforth gforth-0.7.3 gforth-fast gforth-fast-0.7.3 gforth-itc gforth-itc-0.7.3 gforthmi gforthmi-0.7.3 vmgen vmgen-0.7.3
+gh:gh
 ghc:ghc ghc-8.0.2 ghc-pkg ghc-pkg-8.0.2 ghci ghci-8.0.2 haddock haddock-ghc-8.0.2 hp2ps hpc hsc2hs runghc runghc-8.0.2 runhaskell
 ghc@8.2:ghc ghc-8.2.2 ghc-pkg ghc-pkg-8.2.2 ghci ghci-8.2.2 haddock haddock-ghc-8.2.2 hp2ps hpc hsc2hs runghc runghc-8.2.2 runhaskell
 ghc@8.6:ghc ghc-8.6.5 ghc-pkg ghc-pkg-8.6.5 ghci ghci-8.6.5 haddock haddock-ghc-8.6.5 hp2ps hpc hsc2hs runghc runghc-8.6.5 runhaskell
@@ -1454,6 +1466,7 @@ git-fresh:git-fresh
 git-ftp:git-ftp
 git-game:git-game
 git-gerrit:gerrit gerrit-cherry-pick git-gerrit
+git-gui:git-gui git-gui--askpass gitk
 git-hooks:git-hooks
 git-if:git-if
 git-imerge:git-imerge
@@ -1488,7 +1501,8 @@ git-url-sub:git-url-sub
 git-utils:git-addremove git-incoming git-index git-last git-outgoing git-patch git-pull-request git-rank-contributors git-rm-conflicts git-switch git-unwip git-wip git-wtf
 git-vendor:git-vendor
 git-when-merged:git-when-merged
-git:git git-cvsserver git-receive-pack git-shell git-upload-archive git-upload-pack gitk
+git:git git-cvsserver git-receive-pack git-shell git-upload-archive git-upload-pack
+gitbatch:gitbatch
 gitbucket:
 giter8:g8
 gitfs:gitfs
@@ -1621,6 +1635,7 @@ goreman:goreman
 gosu:gosu
 gotags:gotags
 goto:
+gotop:gotop
 gource:gource
 govc:govc
 govendor:govendor
@@ -1666,6 +1681,7 @@ grc:grc grcat
 greed:greed
 grep:gegrep gfgrep ggrep
 grepcidr:grepcidr
+grex:grex
 griffon:griffon griffon-debug griffonsh startGriffon
 grin-wallet:grin-wallet
 grin:grin
@@ -1780,6 +1796,7 @@ heartbeat:heartbeat
 heatshrink:heatshrink
 hebcal:hebcal
 heimdal:afslog bsearch gsstool heimtools hxtool idn-lookup iprop-log kadmin kdestroy kf kgetcred kinit klist kpasswd krb5-config kstash kswitch ktutil otp otpprint pagsh string2key su verify_krb5_conf
+helib:
 hello:hello
 helm:helm
 helm@2:helm tiller
@@ -2099,8 +2116,10 @@ kallisto:kallisto
 kanif:kaget kanif kaput kash
 kapacitor:kapacitor kapacitord
 karn:karn
+katago:katago
 kawa:kawa
 kcov:kcov
+kcptun:kcptun_client kcptun_server
 kedge:kedge
 keepassc:keepassc keepassc-agent keepassc-server
 keepkey-agent:keepkey-agent keepkey_agent.py
@@ -2109,6 +2128,7 @@ kerl:kerl
 kestrel:kestrel
 kettle:pdicarte pdikitchen pdipan
 keychain:keychain
+keydb:keydb-benchmark keydb-check-aof keydb-check-rdb keydb-cli keydb-sentinel keydb-server
 keystone:kstool
 khal:ikhal khal
 khard:khard
@@ -2171,7 +2191,6 @@ languagetool:languagetool languagetool-gui languagetool-server
 lapack:
 lasi:
 lasso:
-lastfmfpclient:lastfmfpclient
 lastpass-cli:lpass
 laszip:laszip-config laszippertest
 latex2html:latex2html pstoimg texexpand
@@ -2285,6 +2304,7 @@ libdbi:
 libdc1394:
 libdca:dcadec dtsdec extract_dca extract_dts
 libde265:bjoentegaard enc265 gen-enc-table rd-curves yuv-distortion
+libdeflate:libdeflate-gzip
 libdill:
 libdiscid:
 libdivecomputer:dctool
@@ -2474,6 +2494,7 @@ libqalculate:qalc
 libquantum:
 libquicktime:lqt_transcode lqtremux qt2text qtdechunk qtdump qtinfo qtrechunk qtstreamize qtyuv4toyuv
 libquvi:
+libraqm:
 librasterlite:rasterlite_grid rasterlite_load rasterlite_pyramid rasterlite_tool rasterlite_topmost
 libraw:4channels dcraw_emu dcraw_half half_mt mem_image multirender_test postprocessing_benchmark raw-identify simple_dcraw unprocessed_raw
 librcsc:librcsc-config librcscenv rcg2txt rcgrenameteam rcgresultprinter rcgreverse rcgverconv rcgversion rclmscheduler rclmtableprinter
@@ -2530,7 +2551,7 @@ libsvm:svm-predict svm-scale svm-train
 libswiften:sluift swiften-config
 libswiftnav:
 libtar:libtar
-libtasn1:asn1Coding asn1Decoding asn1Parser corpus2array
+libtasn1:asn1Coding asn1Decoding asn1Parser
 libtcod:
 libtecla:enhance
 libtensorflow:
@@ -2856,7 +2877,6 @@ mkvalidator:mkvalidator
 mkvdts2ac3:mkvdts2ac3
 mkvtomp4:mkvtomp4 mkvtomp4.py
 mkvtoolnix:mkvextract mkvinfo mkvmerge mkvpropedit
-mldonkey:mlbt mldc mldonkey mlgnut mlnet mlslsk
 mlkit:kittester mlkit mlkit-mllex mlkit-mlyacc rp2ps
 mlogger:mlogger
 mlpack:mlpack_adaboost mlpack_approx_kfn mlpack_cf mlpack_dbscan mlpack_decision_stump mlpack_decision_tree mlpack_det mlpack_emst mlpack_fastmks mlpack_gmm_generate mlpack_gmm_probability mlpack_gmm_train mlpack_hmm_generate mlpack_hmm_loglik mlpack_hmm_train mlpack_hmm_viterbi mlpack_hoeffding_tree mlpack_kde mlpack_kernel_pca mlpack_kfn mlpack_kmeans mlpack_knn mlpack_krann mlpack_lars mlpack_linear_regression mlpack_linear_svm mlpack_lmnn mlpack_local_coordinate_coding mlpack_logistic_regression mlpack_lsh mlpack_mean_shift mlpack_nbc mlpack_nca mlpack_nmf mlpack_pca mlpack_perceptron mlpack_preprocess_binarize mlpack_preprocess_describe mlpack_preprocess_imputer mlpack_preprocess_scale mlpack_preprocess_split mlpack_radical mlpack_random_forest mlpack_range_search mlpack_softmax_regression mlpack_sparse_coding
@@ -3225,7 +3245,7 @@ openh264:
 openhmd:simple
 openimageio:iconvert idiff igrep iinfo maketx oiiotool
 openjazz:OpenJazz
-openjdk:
+openjdk:jaotc jar jarsigner java javac javadoc javap jcmd jconsole jdb jdeprscan jdeps jfr jhsdb jimage jinfo jjs jlink jmap jmod jps jrunscript jshell jstack jstat jstatd keytool pack200 rmic rmid rmiregistry serialver unpack200
 openjdk@11:
 openjdk@12:
 openjpeg:opj_compress opj_decompress opj_dump
@@ -3558,6 +3578,7 @@ prover9:mace4 prover9
 proxychains-ng:proxychains4
 proxytunnel:proxytunnel
 ps2eps:bbox ps2eps
+psc-package:psc-package
 psftools:bbc2psf cpi2psf cpicomp cpidcomp fnt2psf fnts2fon fon2fnts mda2psf page2cp2 psf2bbc psf2bdf psf2bsd psf2fnt psf2inc psf2pbms psf2raw psf2txt psf2wof psf2wyse psf2xbm psf2zx psfjoin psfmerge psfpages psfs2cpi psfxform raw2psf txt2psf wof2psf wyse2psf zx2psf
 psgrep:psgrep
 pspg:pspg
@@ -3570,6 +3591,7 @@ psutils:epsffit extractres fixdlsrps fixfmps fixmacps fixpsditps fixpspps fixscr
 ptex:ptxinfo
 pth:pth-config
 ptunnel:ptunnel
+pueue:pueue pueued
 puf:puf
 pugixml:
 pulledpork:pulledpork.pl
@@ -3614,7 +3636,6 @@ pyside:pyside2-uic
 python-markdown:markdown_py
 python-yq:xq yq
 python:2to3 2to3-3.7 easy_install-3.7 idle3 idle3.7 pip3 pip3.7 pydoc3 pydoc3.7 python3 python3-config python3.7 python3.7-config python3.7m python3.7m-config pyvenv pyvenv-3.7 wheel3
-python@2:2to3-2 2to3-2.7 easy_install easy_install-2.7 idle idle2 idle2.7 pip pip2 pip2.7 pydoc pydoc2 pydoc2.7 python python-config python2 python2-config python2.7 python2.7-config pythonw pythonw2 pythonw2.7 smtpd.py smtpd2.7.py smtpd2.py wheel
 python@3.8:2to3 2to3-3.8 idle3 idle3.8 pydoc3 pydoc3.8 python3 python3-config python3.8 python3.8-config
 pytouhou:pytouhou
 pyvim:ptipython ptpython pyflakes pygmentize pyvim
@@ -3828,6 +3849,7 @@ ruby-install:ruby-install
 ruby:bundle bundler erb gem irb rake rdoc ri ruby
 ruby@2.4:erb gem irb rake rdoc ri ruby
 ruby@2.5:erb gem irb rake rdoc ri ruby
+rubyfmt:rubyfmt
 run:run
 runcocoa:runc runcocoa
 runit:chpst runit runit-init runsv runsvchdir runsvdir sv svlogd utmpset
@@ -4444,6 +4466,7 @@ ttf2pt1:ttf2pt1
 ttfautohint:ttfautohint
 tth:latex2gif ps2gif ps2png tth
 tty-clock:tty-clock
+tty-share:tty-share
 tty-solitaire:ttysolitaire
 ttyd:ttyd
 ttygif:ttygif
@@ -4630,6 +4653,7 @@ wallpaper:wallpaper
 wandio:wandiocat
 waon:waon
 wartremover:wartremover
+wasm3:wasm3
 wasmer:kwasmd wasmer
 watch-sim:watch-sim
 watch:watch
