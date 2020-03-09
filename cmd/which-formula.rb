@@ -13,13 +13,12 @@ module Homebrew
       EOS
       switch "--explain",
         description: "Output explanation of how to get 'cmd' by installing one of the providing formulae."
+      min_named 1
     end
   end
 
   def which_formula
     which_formula_args.parse
-
-    raise UsageError if Homebrew.args.named.blank?
 
     # Note: It probably doesn't make sense to use that on multiple commands since
     # each one might print multiple formulae
