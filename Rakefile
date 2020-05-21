@@ -1,7 +1,7 @@
 require "open3"
 require "test/unit/assertions"
 
-include Test::Unit::Assertions # rubocop:disable Style/MixinUsage
+include Test::Unit::Assertions
 
 task :test => ["test:bash", "test:fish", "test:zsh"]
 
