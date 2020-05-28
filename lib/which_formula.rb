@@ -17,7 +17,7 @@ module Homebrew
           rescue
             nil
           end
-      f.nil? || f.installed? || f.requirements.any? { |r| r.required? && !r.satisfied? }
+      f.nil? || f.latest_version_installed? || f.requirements.any? { |r| r.required? && !r.satisfied? }
     end
 
     # Output explanation of how to get 'cmd' by installing one of the providing

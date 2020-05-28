@@ -47,7 +47,7 @@ module Homebrew
 
         # note: f.installed? is true only if the *latest* version is installed.
         # We thus don't need to worry about updating outdated versions
-        if f.installed?
+        if f.latest_version_installed?
           update_installed_formula f
         elsif missing_formula?(f) && f.bottled?
           update_bottled_formula f
