@@ -43,9 +43,17 @@ end
 
 def init
   case shell
-  when :bash, :zsh, :fish
-    help
+  when :bash, :zsh
+    puts File.read(File.expand_path("#{File.dirname(__FILE__)}/../handler.sh"))
+  when :fish
+    puts File.expand_path "#{File.dirname(__FILE__)}/../handler.fish"
   else
     raise "Unsupported shell type #{shell}"
   end
+end
+
+if $stdout.tty?
+  help
+else
+  init
 end
