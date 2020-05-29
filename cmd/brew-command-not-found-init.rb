@@ -11,8 +11,9 @@ def help
       # To enable homebrew-command-not-found
       # Add the following lines to ~/.bashrc
 
-      if brew command command-not-found-init > /dev/null; then
-        eval "$(brew command-not-found-init)";
+      HB_CNF_HANDER="$(brew --prefix)/Homebrew/Library/Taps/homebrew/homebrew-command-not-found/handler.sh"
+      if [ -f "$HB_CNF_HANDER" ]; then
+        source "$HB_CNF_HANDER";
       fi
     EOS
   when :fish
@@ -20,15 +21,19 @@ def help
       # To enable homebrew-command-not-found
       # Add the following line to ~/.config/fish/config.fish
 
-      brew command command-not-found-init > /dev/null; and . (brew command-not-found-init)
+      HB_CNF_HANDER="$(brew --prefix)/Homebrew/Library/Taps/homebrew/homebrew-command-not-found/handler.fish"
+      if [ -f "$HB_CNF_HANDER" ]; then
+        source "$HB_CNF_HANDER";
+      fi
     EOS
   when :zsh
     puts <<~EOS
       # To enable homebrew-command-not-found
       # Add the following lines to ~/.zshrc
 
-      if brew command command-not-found-init > /dev/null; then
-        eval "$(brew command-not-found-init)";
+      HB_CNF_HANDER="$(brew --prefix)/Homebrew/Library/Taps/homebrew/homebrew-command-not-found/handler.sh"
+      if [ -f "$HB_CNF_HANDER" ]; then
+        source "$HB_CNF_HANDER";
       fi
     EOS
   else
@@ -38,17 +43,9 @@ end
 
 def init
   case shell
-  when :bash, :zsh
-    puts File.read(File.expand_path("#{File.dirname(__FILE__)}/../handler.sh"))
-  when :fish
-    puts File.expand_path "#{File.dirname(__FILE__)}/../handler.fish"
+  when :bash, :zsh, :fish
+    help
   else
     raise "Unsupported shell type #{shell}"
   end
-end
-
-if $stdout.tty?
-  help
-else
-  init
 end
