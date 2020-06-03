@@ -11,9 +11,9 @@ def help
       # To enable homebrew-command-not-found
       # Add the following lines to ~/.bashrc
 
-      HB_CNF_HANDER="$(brew --prefix)/Homebrew/Library/Taps/homebrew/homebrew-command-not-found/handler.sh"
-      if [ -f "$HB_CNF_HANDER" ]; then
-        source "$HB_CNF_HANDER";
+      HB_CNF_HANDLER="$(brew --prefix)/Homebrew/Library/Taps/homebrew/homebrew-command-not-found/handler.sh"
+      if [ -f "$HB_CNF_HANDLER" ]; then
+        source "$HB_CNF_HANDLER";
       fi
     EOS
   when :fish
@@ -21,19 +21,19 @@ def help
       # To enable homebrew-command-not-found
       # Add the following line to ~/.config/fish/config.fish
 
-      HB_CNF_HANDER="$(brew --prefix)/Homebrew/Library/Taps/homebrew/homebrew-command-not-found/handler.fish"
-      if [ -f "$HB_CNF_HANDER" ]; then
-        source "$HB_CNF_HANDER";
-      fi
+      set HB_CNF_HANDLER (brew --prefix)"/Homebrew/Library/Taps/homebrew/homebrew-command-not-found/handler.fish"
+      if test -f $HB_CNF_HANDLER
+        source $HB_CNF_HANDLER
+      end
     EOS
   when :zsh
     puts <<~EOS
       # To enable homebrew-command-not-found
       # Add the following lines to ~/.zshrc
 
-      HB_CNF_HANDER="$(brew --prefix)/Homebrew/Library/Taps/homebrew/homebrew-command-not-found/handler.sh"
-      if [ -f "$HB_CNF_HANDER" ]; then
-        source "$HB_CNF_HANDER";
+      HB_CNF_HANDLER="$(brew --prefix)/Homebrew/Library/Taps/homebrew/homebrew-command-not-found/handler.sh"
+      if [ -f "$HB_CNF_HANDLER" ]; then
+        source "$HB_CNF_HANDLER";
       fi
     EOS
   else

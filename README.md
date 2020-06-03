@@ -21,7 +21,7 @@ The program 'when' is currently not installed. You can install it by typing:
   brew install when
 ```
 
-Over 4500 formulae are supported, representing more than 16000 different commands
+Over 5000 formulae are supported, representing more than 17000 different commands
 (100% of the main Homebrew repo).
 
 ## Install
@@ -35,19 +35,19 @@ brew tap homebrew/command-not-found
 * **Bash and Zsh**: Add the following line to your `~/.bash_profile` (bash) or `~/.zshrc` (zsh):
 
     ```bash
-    HB_CNF_HANDER="$(brew --prefix)/Homebrew/Library/Taps/homebrew/homebrew-command-not-found/handler.sh"
-    if [ -f "$HB_CNF_HANDER" ]; then
-	source "$HB_CNF_HANDER";
+    HB_CNF_HANDLER="$(brew --prefix)/Homebrew/Library/Taps/homebrew/homebrew-command-not-found/handler.sh"
+    if [ -f "$HB_CNF_HANDLER" ]; then
+	source "$HB_CNF_HANDLER";
     fi
     ```
 
 * **Fish**: Add the following line to your `~/.config/fish/config.fish`:
 
     ```fish
-    HB_CNF_HANDER="$(brew --prefix)/Homebrew/Library/Taps/homebrew/homebrew-command-not-found/handler.fish"
-    if [ -f "$HB_CNF_HANDER" ]; then
-        source "$HB_CNF_HANDER";
-    fi
+    set HB_CNF_HANDLER (brew --prefix)"/Homebrew/Library/Taps/homebrew/homebrew-command-not-found/handler.fish"
+    if test -f $HB_CNF_HANDLER
+       source $HB_CNF_HANDLER
+    end
     ```
 
 ## Requirements
