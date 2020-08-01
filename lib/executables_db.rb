@@ -14,7 +14,7 @@ module Homebrew
       @exes = {}
       # keeps track of things that changed in the DB between its creation and
       # each {#save!} call. This is used to generate commit messages
-      @changes = { :add => Set.new, :remove => Set.new, :update => Set.new }
+      @changes = { add: Set.new, remove: Set.new, update: Set.new }
 
       if File.file? @filename
         File.new(@filename).each do |line|

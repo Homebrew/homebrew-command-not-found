@@ -1,6 +1,6 @@
 module Homebrew
   module WhichFormula
-    LIST_PATH = File.expand_path("#{File.dirname(__FILE__)}/../executables.txt")
+    LIST_PATH = File.expand_path("#{File.dirname(__FILE__)}/../executables.txt").freeze
 
     module_function
 
