@@ -1,11 +1,11 @@
 require "open3"
 require "test/unit/assertions"
 
-include Test::Unit::Assertions
-
-task :test => ["test:bash", "test:fish", "test:zsh"]
+task test: ["test:bash", "test:fish", "test:zsh"]
 
 namespace :test do
+  include Test::Unit::Assertions
+
   [:bash, :zsh].each do |sh|
     task sh do
       puts "Testing with #{sh}"
