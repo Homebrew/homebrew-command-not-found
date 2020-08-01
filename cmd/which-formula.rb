@@ -18,12 +18,12 @@ module Homebrew
   end
 
   def which_formula
-    which_formula_args.parse
+    args = which_formula_args.parse
 
     # Note: It probably doesn't make sense to use that on multiple commands since
     # each one might print multiple formulae
-    Homebrew.args.named.each do |command|
-      Homebrew::WhichFormula.which_formula command, Homebrew.args.explain?
+    args.named.each do |command|
+      Homebrew::WhichFormula.which_formula command, args.explain?
     end
   end
 end

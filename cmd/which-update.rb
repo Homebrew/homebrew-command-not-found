@@ -22,9 +22,9 @@ module Homebrew
   end
 
   def which_update
-    which_update_args.parse
+    args = which_update_args.parse
 
-    if Homebrew.args.stats?
+    if args.stats?
       Homebrew::WhichUpdate.stats
     else
       Homebrew::WhichUpdate.update_and_save!
