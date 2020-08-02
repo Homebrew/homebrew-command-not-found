@@ -25,9 +25,9 @@ module Homebrew
     args = which_update_args.parse
 
     if args.stats?
-      Homebrew::WhichUpdate.stats
+      Homebrew::WhichUpdate.stats source: args.named.first
     else
-      Homebrew::WhichUpdate.update_and_save!
+      Homebrew::WhichUpdate.update_and_save! source: args.named.first, commit: args.commit?
     end
   end
 end

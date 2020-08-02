@@ -4,9 +4,8 @@ module Homebrew
   module WhichUpdate
     module_function
 
-    def source
-      @source ||= Homebrew.args.first.presence
-      @source ||= begin
+    def default_source
+      @default_source ||= begin
         pwd = Pathname.pwd
         tap_path = Tap.fetch("homebrew", "command-not-found").path
         source = tap_path/"executables.txt"
@@ -19,7 +18,8 @@ module Homebrew
       end
     end
 
-    def stats
+    def stats(source: nil)
+      source ||= default_source
       opoo "The DB file doesn't exist." unless File.exist? source
       db = ExecutablesDB.new source
 
@@ -41,11 +41,12 @@ module Homebrew
       nil
     end
 
-    def update_and_save!
+    def update_and_save!(source: nil, commit: false)
+      source ||= default_source
       db = ExecutablesDB.new source
       db.update!
       db.save!
-      if Homebrew.args.commit? && db.changed?
+      if commit && db.changed?
         msg = git_commit_message(db.changes)
         safe_system "git", "-C", db.root.to_s, "commit", "-m", msg, source
       end
