@@ -2,24 +2,19 @@ name: GitHub Actions CI
 on:
   push:
     branches: master
-  pull_request: []
+  pull_request:
+
 jobs:
   tests:
     runs-on: macOS-latest
     steps:
-    - name: Set up Git repository
-      uses: actions/checkout@master
-
     - name: Set up Homebrew
-      run: |
-        export HOMEBREW_DEVELOPER="1"
-        export HOMEBREW_NO_AUTO_UPDATE=1
-        brew update-reset
-        brew install bash fish
-        ln -s "$PWD" "/usr/local/Homebrew/Library/Taps/homebrew/homebrew-command-not-found"
+      id: set-up-homebrew
+      uses: Homebrew/actions/setup-homebrew@master
 
-    - name: Run brew style
-      run: brew style homebrew/command-not-found
+    - run: brew style $GITHUB_REPOSITORY
+
+    - run: brew install bash fish
 
     - name: Validate shell syntax
       run: |
