@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
+require "utils/shell"
+
 def shell
   Utils::Shell.parent || Utils::Shell.preferred
 end
