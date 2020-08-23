@@ -44,7 +44,7 @@ module Homebrew
     # if 'explain' is false, print all formulae that can be installed to get the
     # given command. If it's true, print them in human-readable form with an help
     # text.
-    def which_formula(cmd, explain = false)
+    def which_formula(cmd, explain: false)
       cmd = cmd.downcase
 
       formulae = (matches cmd).map do |m|

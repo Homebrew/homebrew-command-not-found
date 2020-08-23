@@ -23,7 +23,7 @@ module Homebrew
     # Note: It probably doesn't make sense to use that on multiple commands since
     # each one might print multiple formulae
     args.named.each do |command|
-      Homebrew::WhichFormula.which_formula command, args.explain?
+      Homebrew::WhichFormula.which_formula command, explain: args.explain?
     end
   end
 end
