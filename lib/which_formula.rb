@@ -1,3 +1,5 @@
+require "formula"
+
 module Homebrew
   module WhichFormula
     LIST_PATH = File.expand_path("#{File.dirname(__FILE__)}/../executables.txt").freeze
