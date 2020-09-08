@@ -1,4 +1,4 @@
-require 'formula'
+require "formula"
 
 module Homebrew
   # ExecutablesDB represents a DB associating formulae to the binaries they

@@ -12,7 +12,7 @@ module Homebrew
         Prints the formula(e) which provides the given command.
       EOS
       switch "--explain",
-        description: "Output explanation of how to get 'cmd' by installing one of the providing formulae."
+             description: "Output explanation of how to get 'cmd' by installing one of the providing formulae."
       min_named 1
     end
   end

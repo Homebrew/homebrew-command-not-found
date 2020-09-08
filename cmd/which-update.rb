@@ -12,10 +12,10 @@ module Homebrew
         Database update for `brew-which-formula`
       EOS
       switch "--stats",
-        description: "print statistics about the database contents (number of commands and formulae, " \
-                     "list of missing formulae)."
+             description: "print statistics about the database contents (number of commands and formulae, " \
+                          "list of missing formulae)."
       switch "--commit",
-        description: "commit the changes using `git`."
+             description: "commit the changes using `git`."
       conflicts "--stats", "--commit"
       max_named 1
     end
