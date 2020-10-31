@@ -172,6 +172,7 @@ arpoison:arpoison
 arrayfire:
 arss:arss
 artifactory:artifactory.default artifactory.sh
+arturo:arturo
 arx-libertatis:arx arx-install-data arxsavetool arxunpak
 ascii:ascii
 asciidoc:a2x a2x.py asciidoc asciidoc.py
@@ -366,6 +367,7 @@ bioawk:bioawk
 biosig:biosig_fhir heka2itx physicalunits save2aecg save2gdf save2scp
 bison:bison yacc
 bison@2.7:bison yacc
+bit-git:bit bit-git
 bit:bit bit.js bitNode
 bitchx:BitchX BitchX-1.2.1 scr-bx
 bitcoin:bench_bitcoin bitcoin-cli bitcoin-tx bitcoind test_bitcoin
@@ -379,6 +381,7 @@ blackbox:_blackbox_common.sh _blackbox_common_test.sh _stack_lib.sh blackbox_add
 blahtexml:blahtex blahtexml
 blast:blast_formatter blastdb_aliastool blastdbcheck blastdbcmd blastdbcp blastn blastp blastx convert2blastmask datatool deltablast dustmasker gene_info_reader legacy_blast.pl makeblastdb makembindex makeprofiledb project_tree_builder psiblast rpsblast rpstblastn run_with_lock seedtop segmasker seqdb_demo seqdb_perf tblastn tblastx test_pcre update_blastdb.pl windowmasker windowmasker_2.2.22_adapter.py
 blastem:blastem
+blaze:
 blazeblogger:blaze blaze-add blaze-config blaze-edit blaze-init blaze-list blaze-log blaze-make blaze-remove
 blazegraph:bigdata
 blink1:blink1-tool
@@ -409,9 +412,7 @@ boost-mpi:
 boost-python3:
 boost-python:
 boost:
-boost@1.55:
 boost@1.57:
-boost@1.59:
 boost@1.60:
 boot-clj:boot
 bootloadhid:bootloadHID
@@ -1333,6 +1334,7 @@ flactag:checkflac discid flactag ripdataflac ripflac
 flake8:flake8
 flake:flake
 flamegraph:difffolded.pl files.pl flamegraph.pl pkgsplit-perf.pl range-perf.pl stackcollapse-aix.pl stackcollapse-elfutils.pl stackcollapse-gdb.pl stackcollapse-go.pl stackcollapse-instruments.pl stackcollapse-jstack.pl stackcollapse-ljp.awk stackcollapse-perf-sched.awk stackcollapse-perf.pl stackcollapse-pmc.pl stackcollapse-recursive.pl stackcollapse-sample.awk stackcollapse-stap.pl stackcollapse-vsprof.pl stackcollapse-vtune.pl
+flank:flank
 flann:flann_example_c flann_example_cpp
 flarectl:flarectl
 flash:flash
@@ -1366,6 +1368,7 @@ fmpp:fmpp
 fmsx:fmsx
 fmt:
 fn:fn
+fnm:fnm
 fobis:FoBiS.py
 folderify:folderify
 folly:
@@ -1632,6 +1635,7 @@ gitlab-gem:gitlab
 gitlab-runner:gitlab-ci-multi-runner gitlab-runner
 gitleaks:gitleaks
 gitless:gl
+gitlint:gitlint
 gitmoji:gitmoji
 gitql:gitql
 gitslave:gits
@@ -1753,12 +1757,14 @@ google-java-format:google-java-format
 google-sparsehash:
 google-sql-tool:google_sql
 googler:googler
+googletest:
 goolabs:goolabs
 goose:goose
 gopass:gopass
 gor:gor
 goreleaser:goreleaser
 goreman:goreman
+gost:gost
 gostatic:gostatic
 gosu:gosu
 gotags:gotags
@@ -1795,6 +1801,7 @@ gr-osmosdr:osmocom_fft osmocom_siggen osmocom_siggen_nogui osmocom_spectrum_sens
 grace:convcal fdf2fit gracebat grconvert xmgrace
 gradio:gradio
 gradle-completion:
+gradle-profiler:gradle-profiler
 gradle:gradle
 grafana:grafana-cli grafana-server
 grails:grails
@@ -2144,6 +2151,7 @@ irssi:botti irssi
 isc-dhcp:dhclient dhcpd dhcrelay omshell
 isl:
 iso-codes:
+isort:isort
 ispc:ispc
 ispell:buildhash defmt-c defmt-sh findaffix icombine ijoin ispell munchlist tryaffix
 istioctl:istioctl
@@ -2447,7 +2455,7 @@ libbitcoin-protocol:
 libbitcoin-server:bs
 libbitcoin:
 libbladerf:bladeRF-cli
-libbluray:bd_info
+libbluray:bd_info bd_list_titles bd_splice
 libbpg:bpgdec bpgenc
 libbs2b:bs2bconvert bs2bstream
 libbtbb:btaptap
@@ -2718,6 +2726,7 @@ libsignal-protocol-c:
 libsigsegv:
 libsixel:img2sixel libsixel-config sixel2png
 libslax:gt oxtradoc slax-config slaxproc
+libslirp:
 libsm:
 libsmf:smfsh
 libsmi:smicache smidiff smidump smilint smiquery smistrip smixlate
@@ -2871,7 +2880,6 @@ lizard:lz5 lz5cat unlz5
 lldpd:lldpcli lldpctl lldpd
 llnode:
 llvm:FileCheck bugpoint c-index-test clang clang++ clang-9 clang-apply-replacements clang-change-namespace clang-check clang-cl clang-cpp clang-doc clang-extdef-mapping clang-format clang-import-test clang-include-fixer clang-offload-bundler clang-query clang-refactor clang-rename clang-reorder-fields clang-scan-deps clang-tidy clangd clangd-xpc-test-client count darwin-debug debugserver diagtool dsymutil find-all-symbols git-clang-format hmaptool ld.lld ld64.lld lit-cpuid llc lld lld-link lldb lldb-argdumper lldb-instr lldb-mi lldb-server lldb-vscode lli lli-child-target llvm-PerfectShuffle llvm-addr2line llvm-ar llvm-as llvm-bcanalyzer llvm-c-test llvm-cat llvm-cfi-verify llvm-config llvm-cov llvm-cvtres llvm-cxxdump llvm-cxxfilt llvm-cxxmap llvm-diff llvm-dis llvm-dlltool llvm-dwarfdump llvm-dwp llvm-elfabi llvm-exegesis llvm-extract llvm-jitlink llvm-lib llvm-link llvm-lipo llvm-lto llvm-lto2 llvm-mc llvm-mca llvm-modextract llvm-mt llvm-nm llvm-objcopy llvm-objdump llvm-opt-report llvm-pdbutil llvm-profdata llvm-ranlib llvm-rc llvm-readelf llvm-readobj llvm-rtdyld llvm-size llvm-split llvm-stress llvm-strings llvm-strip llvm-symbolizer llvm-tblgen llvm-undname llvm-xray modularize not obj2yaml opt sancov sanstats scan-build scan-view set-xcode-analyzer verify-uselistorder wasm-ld yaml-bench yaml2obj
-llvm@6:FileCheck bugpoint c-index-test clang clang++ clang-6.0 clang-apply-replacements clang-change-namespace clang-check clang-cl clang-cpp clang-format clang-func-mapping clang-import-test clang-include-fixer clang-offload-bundler clang-query clang-refactor clang-rename clang-reorder-fields clang-tidy clangd count find-all-symbols git-clang-format ld.lld ld64.lld llc lld lld-link lli lli-child-target llvm-PerfectShuffle llvm-ar llvm-as llvm-bcanalyzer llvm-c-test llvm-cat llvm-cfi-verify llvm-config llvm-cov llvm-cvtres llvm-cxxdump llvm-cxxfilt llvm-diff llvm-dis llvm-dlltool llvm-dsymutil llvm-dwarfdump llvm-dwp llvm-extract llvm-lib llvm-link llvm-lto llvm-lto2 llvm-mc llvm-mcmarkup llvm-modextract llvm-mt llvm-nm llvm-objcopy llvm-objdump llvm-opt-report llvm-pdbutil llvm-profdata llvm-ranlib llvm-rc llvm-readelf llvm-readobj llvm-rtdyld llvm-size llvm-split llvm-stress llvm-strings llvm-symbolizer llvm-tblgen llvm-xray modularize not obj2yaml opt sancov sanstats scan-build scan-view set-xcode-analyzer verify-uselistorder wasm-ld yaml-bench yaml2obj
 llvm@7:FileCheck bugpoint c-index-test clang clang++ clang-7 clang-apply-replacements clang-change-namespace clang-check clang-cl clang-cpp clang-format clang-func-mapping clang-import-test clang-include-fixer clang-offload-bundler clang-query clang-refactor clang-rename clang-reorder-fields clang-tidy clangd count diagtool dsymutil find-all-symbols git-clang-format hmaptool ld.lld ld64.lld llc lld lld-link lli lli-child-target llvm-PerfectShuffle llvm-ar llvm-as llvm-bcanalyzer llvm-c-test llvm-cat llvm-cfi-verify llvm-config llvm-cov llvm-cvtres llvm-cxxdump llvm-cxxfilt llvm-diff llvm-dis llvm-dlltool llvm-dwarfdump llvm-dwp llvm-exegesis llvm-extract llvm-lib llvm-link llvm-lto llvm-lto2 llvm-mc llvm-mca llvm-modextract llvm-mt llvm-nm llvm-objcopy llvm-objdump llvm-opt-report llvm-pdbutil llvm-profdata llvm-ranlib llvm-rc llvm-readelf llvm-readobj llvm-rtdyld llvm-size llvm-split llvm-stress llvm-strings llvm-strip llvm-symbolizer llvm-tblgen llvm-undname llvm-xray modularize not obj2yaml opt sancov sanstats scan-build scan-view set-xcode-analyzer verify-uselistorder wasm-ld yaml-bench yaml2obj
 llvm@8:FileCheck bugpoint c-index-test clang clang++ clang-8 clang-apply-replacements clang-change-namespace clang-check clang-cl clang-cpp clang-extdef-mapping clang-format clang-import-test clang-include-fixer clang-offload-bundler clang-query clang-refactor clang-rename clang-reorder-fields clang-tidy clangd clangd-xpc-test-client count darwin-debug diagtool dsymutil find-all-symbols git-clang-format hmaptool ld.lld ld64.lld llc lld lld-link lldb lldb-argdumper lldb-mi lldb-server lldb-test lldb-vscode lli lli-child-target llvm-PerfectShuffle llvm-ar llvm-as llvm-bcanalyzer llvm-c-test llvm-cat llvm-cfi-verify llvm-config llvm-cov llvm-cvtres llvm-cxxdump llvm-cxxfilt llvm-cxxmap llvm-diff llvm-dis llvm-dlltool llvm-dwarfdump llvm-dwp llvm-elfabi llvm-exegesis llvm-extract llvm-lib llvm-link llvm-lto llvm-lto2 llvm-mc llvm-mca llvm-modextract llvm-mt llvm-nm llvm-objcopy llvm-objdump llvm-opt-report llvm-pdbutil llvm-profdata llvm-ranlib llvm-rc llvm-readelf llvm-readobj llvm-rtdyld llvm-size llvm-split llvm-stress llvm-strings llvm-strip llvm-symbolizer llvm-tblgen llvm-undname llvm-xray modularize not obj2yaml opt sancov sanstats scan-build scan-view set-xcode-analyzer verify-uselistorder wasm-ld yaml-bench yaml2obj
 llvm@9:FileCheck bugpoint c-index-test clang clang++ clang-9 clang-apply-replacements clang-change-namespace clang-check clang-cl clang-cpp clang-doc clang-extdef-mapping clang-format clang-import-test clang-include-fixer clang-offload-bundler clang-query clang-refactor clang-rename clang-reorder-fields clang-scan-deps clang-tidy clangd clangd-xpc-test-client count darwin-debug debugserver diagtool dsymutil find-all-symbols git-clang-format hmaptool ld.lld ld64.lld lit-cpuid llc lld lld-link lldb lldb-argdumper lldb-instr lldb-mi lldb-server lldb-vscode lli lli-child-target llvm-PerfectShuffle llvm-addr2line llvm-ar llvm-as llvm-bcanalyzer llvm-c-test llvm-cat llvm-cfi-verify llvm-config llvm-cov llvm-cvtres llvm-cxxdump llvm-cxxfilt llvm-cxxmap llvm-diff llvm-dis llvm-dlltool llvm-dwarfdump llvm-dwp llvm-elfabi llvm-exegesis llvm-extract llvm-jitlink llvm-lib llvm-link llvm-lipo llvm-lto llvm-lto2 llvm-mc llvm-mca llvm-modextract llvm-mt llvm-nm llvm-objcopy llvm-objdump llvm-opt-report llvm-pdbutil llvm-profdata llvm-ranlib llvm-rc llvm-readelf llvm-readobj llvm-rtdyld llvm-size llvm-split llvm-stress llvm-strings llvm-strip llvm-symbolizer llvm-tblgen llvm-undname llvm-xray modularize not obj2yaml opt sancov sanstats scan-build scan-view set-xcode-analyzer verify-uselistorder wasm-ld yaml-bench yaml2obj
@@ -3046,7 +3054,6 @@ mergelog:mergelog zmergelog
 mergepbx:mergepbx
 mesa:
 mesalib-glw:
-meson-internal:meson mesonconf mesonintrospect mesontest wraptool
 meson:meson mesonconf mesonintrospect mesontest wraptool
 mesos:mesos mesos-agent mesos-cat mesos-daemon.sh mesos-execute mesos-local mesos-log mesos-master mesos-ps mesos-resolve mesos-scp mesos-slave mesos-start-agents.sh mesos-start-cluster.sh mesos-start-masters.sh mesos-start-slaves.sh mesos-stop-agents.sh mesos-stop-cluster.sh mesos-stop-masters.sh mesos-stop-slaves.sh mesos-tail
 metabase:metabase
@@ -3243,7 +3250,6 @@ mysql++:
 mysql-client:lz4_decompress my_print_defaults mysql mysql_config mysql_config_editor mysql_plugin mysql_secure_installation mysql_ssl_rsa_setup mysqladmin mysqlbinlog mysqlcheck mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlimport mysqlpump mysqlshow mysqlslap mysqltest perror replace resolve_stack_dump resolveip zlib_decompress
 mysql-client@5.7:lz4_decompress my_print_defaults mysql mysql_config mysql_config_editor mysql_plugin mysql_secure_installation mysql_ssl_rsa_setup mysqladmin mysqlbinlog mysqlcheck mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlimport mysqlpump mysqlshow mysqlslap mysqltest perror replace resolve_stack_dump resolveip zlib_decompress
 mysql-connector-c++:
-mysql-connector-c++@1.1:
 mysql-sandbox:deploy_to_remote_sandboxes.sh low_level_make_sandbox make_multiple_custom_sandbox make_multiple_sandbox make_replication_sandbox make_sandbox make_sandbox_from_installed make_sandbox_from_source msandbox msb sbtool test_sandbox
 mysql-search-replace:srdb
 mysql:innochecksum lz4_decompress my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_client_test_embedded mysql_config mysql_config_editor mysql_embedded mysql_install_db mysql_plugin mysql_secure_installation mysql_ssl_rsa_setup mysql_tzinfo_to_sql mysql_upgrade mysqladmin mysqlbinlog mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlimport mysqlpump mysqlshow mysqlslap mysqltest mysqltest_embedded perror replace resolve_stack_dump resolveip zlib_decompress
@@ -3264,6 +3270,7 @@ nano:nano rnano
 nanomsg:nanocat nn_bus nn_pair nn_pub nn_pull nn_push nn_rep nn_req nn_respondent nn_sub nn_surveyor
 nanomsgxx:
 nanopb-generator:nanopb_generator protoc-gen-nanopb
+nanorc:
 narwhal:js json narwhal sea tusk
 nasm:ldrdf nasm ndisasm rdf2bin rdf2com rdf2ihx rdf2ith rdf2srec rdfdump rdflib rdx
 natalie:natalie.swift
@@ -3285,6 +3292,7 @@ nco:ncap ncap2 ncatted ncbo ncclimo ncdiff ncea ncecat nces ncflint ncks ncpdq n
 ncompress:compress uncompress zcat zcmp zdiff zmore
 ncp:ncp npoll npush
 ncrack:ncrack
+ncspot:ncspot
 ncurses:captoinfo clear infocmp infotocap ncurses6-config ncursesw6-config reset tabs tic toe tput tset
 ncview:ncview
 ndenv:ndenv
@@ -3340,6 +3348,7 @@ ngs:cleanup-vpc-amis.ngs cloudfront-distros.ngs cloudfront-invalidations.ngs ec2
 ngspice:cmpp ngmakeidx ngmultidec ngnutmeg ngproc2mod ngsconvert ngspice
 ngt:ngt ngtq
 nickle:nickle
+nicotine-plus:nicotine
 nicovideo-dl:nicovideo-dl
 nifi-registry:nifi-registry
 nifi:nifi
@@ -3362,6 +3371,7 @@ node-sass:sass
 node:node
 node@10:node npm npx
 node@12:node npm npx
+node@14:node npm npx
 node_exporter:node_exporter
 nodebrew:nodebrew
 nodeenv:nodeenv
@@ -3502,8 +3512,9 @@ openh264:
 openhmd:simple
 openimageio:iconvert idiff igrep iinfo maketx oiiotool
 openjazz:OpenJazz
-openjdk:jaotc jar jarsigner java javac javadoc javap jcmd jconsole jdb jdeprscan jdeps jfr jhsdb jimage jinfo jjs jlink jmap jmod jpackage jps jrunscript jshell jstack jstat jstatd keytool rmic rmid rmiregistry serialver
+openjdk:jaotc jar jarsigner java javac javadoc javap jcmd jconsole jdb jdeprscan jdeps jfr jhsdb jimage jinfo jlink jmap jmod jpackage jps jrunscript jshell jstack jstat jstatd keytool rmid rmiregistry serialver
 openjdk@11:jaotc jar jarsigner java javac javadoc javap jcmd jconsole jdb jdeprscan jdeps jfr jhsdb jimage jinfo jjs jlink jmap jmod jps jrunscript jshell jstack jstat jstatd keytool pack200 rmic rmid rmiregistry serialver unpack200
+openjdk@8:
 openjpeg:opj_compress opj_decompress opj_dump
 openkim-models:
 openldap:ldapadd ldapcompare ldapdelete ldapexop ldapmodify ldapmodrdn ldappasswd ldapsearch ldapurl ldapwhoami slapacl slapadd slapauth slapcat slapdn slapindex slappasswd slapschema slaptest
@@ -3533,6 +3544,7 @@ opus-tools:opusdec opusenc opusinfo
 opus:
 opusfile:
 oq:oq
+or-tools:
 orbit:ior-decode-2 linc-cleanup-sockets orbit-idl-2 orbit2-config typelib-dump
 orc-tools:orc-tools
 orc:orc-bugreport orcc
@@ -3650,6 +3662,7 @@ pdfsandwich:pdfsandwich
 pdftk-java:pdftk
 pdftohtml:pdftohtml
 pdftoipe:pdftoipe
+pdm:pdm
 pdns:pdns_control pdns_server pdnsutil zone2json zone2sql
 pdnsd:pdnsd pdnsd-ctl
 pdnsrec:pdns_recursor rec_control
@@ -3794,7 +3807,7 @@ portmidi:
 posh:posh
 poster:poster
 postgis:create_undef.pl pgsql2shp postgis_proc_upgrade.pl postgis_restore.pl profile_intersects.pl raster2pgsql shp2pgsql test_estimation.pl test_geography_estimation.pl test_geography_joinestimation.pl test_joinestimation.pl
-postgresql:clusterdb createdb createuser dropdb dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_checksums pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivewal pg_recvlogical pg_resetwal pg_restore pg_rewind pg_standby pg_test_fsync pg_test_timing pg_upgrade pg_waldump pgbench postgres postmaster psql reindexdb vacuumdb vacuumlo
+postgresql:clusterdb createdb createuser dropdb dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_checksums pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivewal pg_recvlogical pg_resetwal pg_restore pg_rewind pg_standby pg_test_fsync pg_test_timing pg_upgrade pg_verifybackup pg_waldump pgbench postgres postmaster psql reindexdb vacuumdb vacuumlo
 postgresql@10:clusterdb createdb createuser dropdb dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivewal pg_recvlogical pg_resetwal pg_restore pg_rewind pg_standby pg_test_fsync pg_test_timing pg_upgrade pg_waldump pgbench postgres postmaster psql reindexdb vacuumdb vacuumlo
 postgresql@11:clusterdb createdb createuser dropdb dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivewal pg_recvlogical pg_resetwal pg_restore pg_rewind pg_standby pg_test_fsync pg_test_timing pg_upgrade pg_verify_checksums pg_waldump pgbench postgres postmaster psql reindexdb vacuumdb vacuumlo
 postgresql@12:clusterdb createdb createuser dropdb dropuser ecpg initdb oid2name pg_archivecleanup pg_basebackup pg_checksums pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivewal pg_recvlogical pg_resetwal pg_restore pg_rewind pg_standby pg_test_fsync pg_test_timing pg_upgrade pg_waldump pgbench postgres postmaster psql reindexdb vacuumdb vacuumlo
@@ -3974,9 +3987,10 @@ radamsa:radamsa
 radare2:r2 r2agent r2pm rabin2 radare2 radiff2 rafind2 ragg2 ragg2-cc rahash2 rarun2 rasm2 rax2
 ragel:ragel
 rails-completion:
+rain:rain
 rainbarf:rainbarf
 rake-completion:
-rakudo-star:lwp-download.p6 lwp-download.p6-j lwp-download.p6-js lwp-download.p6-m lwp-get.p6 lwp-get.p6-j lwp-get.p6-js lwp-get.p6-m moar nqp nqp-m p6doc p6doc-j p6doc-js p6doc-m perl6 perl6-debug perl6-debug-m perl6-gdb-m perl6-lldb-m perl6-m perl6-valgrind-m pod2onepage pod2onepage-j pod2onepage-js pod2onepage-m prove6 prove6-j prove6-js prove6-m raku raku-debug rakudo rakudo-debug rakudo-debug-m rakudo-gdb-m rakudo-lldb-m rakudo-m rakudo-valgrind-m zef zef-j zef-js zef-m
+rakudo-star:lwp-download.p6 lwp-download.p6-j lwp-download.p6-js lwp-download.p6-m lwp-get.p6 lwp-get.p6-j lwp-get.p6-js lwp-get.p6-m moar nqp nqp-m perl6 perl6-debug perl6-debug-m perl6-gdb-m perl6-lldb-m perl6-m perl6-valgrind-m pod2onepage pod2onepage-j pod2onepage-js pod2onepage-m prove6 prove6-j prove6-js prove6-m raku raku-debug rakudo rakudo-debug rakudo-debug-m rakudo-gdb-m rakudo-lldb-m rakudo-m rakudo-valgrind-m zef zef-j zef-js zef-m
 rakudo:perl6 perl6-debug-m perl6-gdb-m perl6-install-dist perl6-lldb-m perl6-m perl6-valgrind-m
 rancher-cli:rancher
 rancher-compose:rancher-compose
@@ -4222,7 +4236,6 @@ scs:
 scummvm-tools:construct_mohawk create_sjisfnt decine decompile degob dekyra deriven descumm desword2 extract_mohawk gob_loadcalc pegasus_save_types scummvm-tools scummvm-tools-cli
 scummvm:scummvm
 scw:scw
-scw@1:scw
 scws:scws scws-gen-dict
 sd:sd
 sdb:sdb
@@ -4614,6 +4627,7 @@ task:task
 taskd:taskd taskdctl
 taskell:taskell
 tasksh:tasksh
+taskwarrior-tui:taskwarrior-tui
 tass64:64tass
 tbb:
 tbox:
@@ -4948,6 +4962,7 @@ vilistextum:vilistextum
 vim:ex rview rvim vi view vim vimdiff vimtutor xxd
 vimpager:vimcat vimpager
 vimpc:vimpc
+vint:vint
 vip:vip
 vips:batch_crop batch_image_convert batch_rubber_sheet light_correct shrink_width vips vips-8.5 vipsedit vipsheader vipsprofile vipsthumbnail
 virgil:virgil
@@ -5071,7 +5086,6 @@ wirouter_keyrec:wirouterkeyrec wr_iwlist.sh
 with-readline:with-readline
 wla-dx:wla-6502 wla-6510 wla-65816 wla-65c02 wla-gb wla-huc6280 wla-spc700 wla-z80 wlab wlad wlalink
 wmctrl:wmctrl
-woboq_codebrowser:codebrowser_generator codebrowser_indexgenerator
 woff2:woff2_compress woff2_decompress woff2_info
 wolfmqtt:wolfmqtt-config
 wolfssl:wolfssl-config
