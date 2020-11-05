@@ -61,7 +61,7 @@ module Homebrew
     end
 
     def git_commit_message(changes)
-      msg = ""
+      msg = []
       [:add, :update, :remove].each do |action|
         names = changes[action]
         next if names.empty?
@@ -70,7 +70,7 @@ module Homebrew
         break
       end
 
-      msg
+      msg.join("")
     end
   end
 end
