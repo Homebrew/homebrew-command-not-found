@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require "cli/parser"
 require_relative "../lib/which_formula"
 

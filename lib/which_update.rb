@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative "../lib/executables_db"
 
 module Homebrew
@@ -46,10 +48,10 @@ module Homebrew
       db = ExecutablesDB.new source
       db.update!
       db.save!
-      if commit && db.changed?
-        msg = git_commit_message(db.changes)
-        safe_system "git", "-C", db.root.to_s, "commit", "-m", msg, source
-      end
+      return unless commit && db.changed?
+
+      msg = git_commit_message(db.changes)
+      safe_system "git", "-C", db.root.to_s, "commit", "-m", msg, source
     end
 
     def english_list(els, verb)

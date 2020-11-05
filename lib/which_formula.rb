@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require "formula"
 
 module Homebrew
@@ -15,10 +17,10 @@ module Homebrew
     # Test if we have to reject the given formula, i.e. not suggest it.
     def reject_formula?(name)
       f = begin
-            Formula[name]
-          rescue
-            nil
-          end
+        Formula[name]
+      rescue
+        nil
+      end
       f.nil? || f.latest_version_installed? || f.requirements.any? { |r| r.required? && !r.satisfied? }
     end
 

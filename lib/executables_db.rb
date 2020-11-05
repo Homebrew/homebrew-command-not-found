@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require "formula"
 
 module Homebrew
@@ -18,12 +20,12 @@ module Homebrew
       # each {#save!} call. This is used to generate commit messages
       @changes = { add: Set.new, remove: Set.new, update: Set.new }
 
-      if File.file? @filename
-        File.new(@filename).each do |line|
-          formula, exes_line = line.split(":")
-          @exes[formula] ||= []
-          @exes[formula].concat exes_line.split(" ") if exes_line
-        end
+      return unless File.file? @filename
+
+      File.new(@filename).each do |line|
+        formula, exes_line = line.split(":")
+        @exes[formula] ||= []
+        @exes[formula].concat exes_line.split(" ") if exes_line
       end
     end
 
