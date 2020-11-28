@@ -54,19 +54,9 @@ brew tap homebrew/command-not-found
 
 This tool requires one of the following:
 
+* [Zsh](https://www.zsh.org) (the default on macOS Catalina and above)
 * [Bash](https://www.gnu.org/software/bash/) (version 4 and higher)
 * [Fish](https://fishshell.com)
-* [Zsh](https://www.zsh.org)
-
-macOS ships Bash 3.x so you must upgrade to v4.x and configure it to be used with:
-
-```bash
-brew update && brew install bash
-# Add the new shell to the list of allowed shells
-sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
-# Change to the new shell
-chsh -s /usr/local/bin/bash
-```
 
 ## How it works
 

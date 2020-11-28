@@ -49,7 +49,7 @@ module Homebrew
 
         name = f.full_name
 
-        # note: f.installed? is true only if the *latest* version is installed.
+        # NOTE: f.installed? is true only if the *latest* version is installed.
         # We thus don't need to worry about updating outdated versions
         if f.latest_version_installed?
           update_installed_formula f
