@@ -22,7 +22,7 @@ module Homebrew
   def which_formula
     args = which_formula_args.parse
 
-    # Note: It probably doesn't make sense to use that on multiple commands since
+    # NOTE: It probably doesn't make sense to use that on multiple commands since
     # each one might print multiple formulae
     args.named.each do |command|
       Homebrew::WhichFormula.which_formula command, explain: args.explain?
