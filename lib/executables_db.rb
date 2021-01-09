@@ -25,7 +25,7 @@ module Homebrew
       File.new(@filename).each do |line|
         formula, exes_line = line.split(":")
         @exes[formula] ||= []
-        @exes[formula].concat exes_line.split(" ") if exes_line
+        @exes[formula].concat exes_line.split if exes_line
       end
     end
 

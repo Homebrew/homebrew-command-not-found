@@ -55,7 +55,7 @@ module Homebrew
         formula, cmds_text = m.split(":", 2)
         next if formula.nil? || cmds_text.nil?
 
-        cmds = cmds_text.split(" ")
+        cmds = cmds_text.split
         formula if !cmds.nil? && cmds.include?(cmd)
       end.compact
 

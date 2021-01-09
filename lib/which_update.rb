@@ -70,7 +70,7 @@ module Homebrew
         break
       end
 
-      msg.join("")
+      msg.join
     end
   end
 end

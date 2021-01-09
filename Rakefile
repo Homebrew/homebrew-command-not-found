@@ -9,7 +9,7 @@ namespace :test do
   include Test::Unit::Assertions
 
   [:bash, :zsh].each do |sh|
-    task sh do
+    task sh => :environment do
       puts "Testing with #{sh}"
       command = "eval \"$(brew command-not-found-init)\"; when"
       # -e: exit on first error
@@ -24,7 +24,7 @@ namespace :test do
     end
   end
 
-  task :fish do
+  task fish: :environment do
     puts "Testing with fish"
     # use `emit fish_prompt` to simulate interactive shell
     command = ". (brew command-not-found-init); emit fish_prompt; when"
