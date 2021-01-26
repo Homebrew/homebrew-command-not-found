@@ -48,7 +48,7 @@ module Homebrew
       db = ExecutablesDB.new source
       db.update!
       db.save!
-      return unless commit && db.changed?
+      return if !commit || !db.changed?
 
       msg = git_commit_message(db.changes)
       safe_system "git", "-C", db.root.to_s, "commit", "-m", msg, source
