@@ -35,7 +35,7 @@ brew tap homebrew/command-not-found
 * **Bash and Zsh**: Add the following line to your `~/.bash_profile` (bash) or `~/.zshrc` (zsh):
 
     ```bash
-    HB_CNF_HANDLER="$(brew --prefix)/Homebrew/Library/Taps/homebrew/homebrew-command-not-found/handler.sh"
+    HB_CNF_HANDLER="$(brew --repository)/Library/Taps/homebrew/homebrew-command-not-found/handler.sh"
     if [ -f "$HB_CNF_HANDLER" ]; then
 	source "$HB_CNF_HANDLER";
     fi
@@ -44,7 +44,7 @@ brew tap homebrew/command-not-found
 * **Fish**: Add the following line to your `~/.config/fish/config.fish`:
 
     ```fish
-    set HB_CNF_HANDLER (brew --prefix)"/Homebrew/Library/Taps/homebrew/homebrew-command-not-found/handler.fish"
+    set HB_CNF_HANDLER (brew --repository)"/Library/Taps/homebrew/homebrew-command-not-found/handler.fish"
     if test -f $HB_CNF_HANDLER
        source $HB_CNF_HANDLER
     end
