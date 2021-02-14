@@ -19,7 +19,7 @@ module Homebrew
       switch "--commit",
              description: "commit the changes using `git`."
       conflicts "--stats", "--commit"
-      max_named 1
+      named_args max: 1
     end
   end
 
