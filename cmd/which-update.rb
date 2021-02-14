@@ -8,9 +8,7 @@ module Homebrew
 
   def which_update_args
     Homebrew::CLI::Parser.new do
-      usage_banner <<~EOS
-        `which-update` [<database>]
-
+      description <<~EOS
         Database update for `brew-which-formula`
       EOS
       switch "--stats",
@@ -19,7 +17,7 @@ module Homebrew
       switch "--commit",
              description: "commit the changes using `git`."
       conflicts "--stats", "--commit"
-      named_args max: 1
+      named_args :database, max: 1
     end
   end
 
