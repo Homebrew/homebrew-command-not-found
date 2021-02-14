@@ -13,7 +13,7 @@ module Homebrew
       EOS
       switch "--explain",
              description: "Output explanation of how to get 'cmd' by installing one of the providing formulae."
-      named_args :database, min: 1
+      named_args :command, min: 1
     end
   end
 
