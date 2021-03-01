@@ -93,6 +93,7 @@ ansible-cmdb:ansible-cmdb
 ansible-lint:ansible-lint
 ansible:ansible ansible-connection ansible-console ansible-doc ansible-galaxy ansible-playbook ansible-pull ansible-vault
 ansible@2.8:ansible ansible-config ansible-connection ansible-console ansible-doc ansible-galaxy ansible-inventory ansible-playbook ansible-pull ansible-vault
+ansible@2.9:ansible ansible-config ansible-connection ansible-console ansible-doc ansible-galaxy ansible-inventory ansible-playbook ansible-pull ansible-test ansible-vault
 ansifilter:ansifilter
 ansiweather:ansiweather
 ant-contrib:
@@ -243,7 +244,6 @@ autossh:autossh rscreen
 avanor:avanor
 avce00:avcdelete avcexport avcimport avctest
 avfs:avfs-config avfsd davpass ftppass mountavfs umountavfs
-avian:avian avian-dynamic
 aview:aaflip asciiview aview
 avimetaedit:avimetaedit
 avra:avra
@@ -347,7 +347,7 @@ bench:bench
 benthos:benthos
 bento4:aac2mp4 avcinfo hevcinfo mp42aac mp42hevc mp42hls mp42ts mp4compact mp4dcfpackager mp4decrypt mp4dump mp4edit mp4encrypt mp4extract mp4fragment mp4info mp4mux mp4rtphintinfo mp4split mp4tag
 berglas:berglas
-berkeley-db:db_archive db_checkpoint db_deadlock db_dump db_hotbackup db_load db_log_verify db_printlog db_recover db_replicate db_sql_codegen db_stat db_tuner db_upgrade db_verify dbsql
+berkeley-db:db_archive db_checkpoint db_convert db_deadlock db_dump db_hotbackup db_load db_log_verify db_printlog db_recover db_replicate db_stat db_tuner db_upgrade db_verify
 berkeley-db@4:db_archive db_checkpoint db_deadlock db_dump db_hotbackup db_load db_printlog db_recover db_sql db_stat db_upgrade db_verify
 bettercap:bettercap
 betty:betty
@@ -630,6 +630,7 @@ checkbashisms:checkbashisms
 checkov:checkov checkov.cmd
 checkstyle:checkstyle
 cheops:cheops
+cherrytree:cherrytree
 chezmoi:chezmoi
 chezscheme:chez petite scheme-script
 chgems:chgems
@@ -705,6 +706,7 @@ closure-compiler:closure-compiler
 closure-stylesheets:closure-stylesheets
 cloud-nuke:cloud-nuke
 cloud-watch:mon-cmd mon-delete-alarms mon-describe-alarm-history mon-describe-alarms mon-describe-alarms-for-metric mon-disable-alarm-actions mon-enable-alarm-actions mon-get-stats mon-list-metrics mon-put-data mon-put-metric-alarm mon-set-alarm-state mon-version
+cloudflare-wrangler:wrangler
 cloudformation-cli:cfn cfn-cli
 cloudformation-guard:cfn-guard
 clozure-cl:ccl64
@@ -747,6 +749,7 @@ codequery:codequery cqmakedb cqsearch
 codespell:codespell
 coffeescript:cake coffee
 cogl:
+coin3d:coin-config
 cointop:cointop
 coinutils:
 colfer:colf
@@ -813,6 +816,7 @@ cppad:
 cppcheck:cppcheck cppcheck-htmlreport
 cppcms:cppcms_config_find_param cppcms_make_key cppcms_run cppcms_scale cppcms_tmpl_cc
 cppi:cppi
+cpplint:cpplint
 cppman:cppman
 cppp:cppp
 cpprestsdk:
@@ -835,6 +839,7 @@ create-dmg:create-dmg
 credstash:credstash credstash.py
 creduce:creduce
 crf++:crf_learn crf_test
+crispy-doom:crispy-doom crispy-doom-setup crispy-heretic crispy-heretic-setup crispy-server
 crm114:crm cssdiff cssmerge cssutil osbf-util
 croaring:
 croc:croc
@@ -880,6 +885,7 @@ cups:cups-config ippeveprinter ippfind ipptool
 curaengine:CuraEngine
 curl:curl curl-config
 curlftpfs:curlftpfs
+curlie:curlie
 curlpp:curlpp-config
 curseofwar:curseofwar
 cutter:cut-diff cutter
@@ -910,10 +916,12 @@ darkice:darkice
 darksky-weather:weather
 darkstat:darkstat
 dartsim:
+dasel:dasel
 dash:dash
 dashing:dashing
 dasht:dasht dasht-docsets dasht-docsets-extract dasht-docsets-install dasht-docsets-remove dasht-docsets-update dasht-query-exec dasht-query-html dasht-query-line dasht-server dasht-server-http
 dasm:dasm ftohex
+datalad:datalad git-annex-remote-datalad git-annex-remote-datalad-archives git-annex-remote-ora
 datamash:datamash
 datasette:datasette
 datetime-fortran:
@@ -1335,7 +1343,7 @@ fff:fff
 ffind:ffind
 ffmpeg2theora:ffmpeg2theora
 ffmpeg:aviocat bisect-create cl2c clean-diff crypto_bench cws2fws dvd2concat ffescape ffeval ffhash ffmpeg ffplay ffprobe fourcc2pixfmt gen-rc graph2dot ismindex libav-merge-next-commit loudnorm.rb make_chlayout_test missing_codec_desc murge normalize.py patcheck pktdumper plotframes probetest qt-faststart seek_print sidxindex target_dec_fate.sh trasher uncoded_frame unwrap-diff venc_data_dump zmqsend zmqshell.py
-ffmpeg@2.8:ffmpeg ffprobe ffserver
+ffmpeg@2.8:aviocat bisect-create clean-diff crypto_bench cws2fws dvd2concat ffescape ffeval ffhash ffmpeg ffplay ffprobe ffserver fourcc2pixfmt gen-rc graph2dot ismindex make_chlayout_test missing_codec_desc normalize.py patcheck pktdumper plotframes probetest qt-faststart seek_print sidxindex trasher uncoded_frame unwrap-diff zmqshell.py
 ffmpegthumbnailer:ffmpegthumbnailer
 ffms2:ffmsindex
 ffsend:ffsend
@@ -1536,7 +1544,6 @@ gdmap:gdmap
 gdrive:gdrive
 gdu:gdu
 gdub:gw
-geant4:geant4-config geant4.csh geant4.sh
 gearman:gearadmin gearman gearmand
 geckodriver:geckodriver wires
 gecode:fzn-gecode mzn-gecode
@@ -1575,9 +1582,10 @@ gf-complete:gf_add gf_div gf_example_1 gf_example_2 gf_example_3 gf_example_4 gf
 gflags:gflags_completions.sh
 gforth:gforth gforth-0.7.3 gforth-fast gforth-fast-0.7.3 gforth-itc gforth-itc-0.7.3 gforthmi gforthmi-0.7.3 vmgen vmgen-0.7.3
 gh:gh
-ghc:ghc ghc-8.10.3 ghc-pkg ghc-pkg-8.10.3 ghci ghci-8.10.3 haddock haddock-ghc-8.10.3 hp2ps hpc hsc2hs runghc runghc-8.10.3 runhaskell
+ghc:ghc ghc-8.10.4 ghc-pkg ghc-pkg-8.10.4 ghci ghci-8.10.4 haddock haddock-ghc-8.10.4 hp2ps hpc hsc2hs runghc runghc-8.10.4 runhaskell
 ghc@8.6:ghc ghc-8.6.5 ghc-pkg ghc-pkg-8.6.5 ghci ghci-8.6.5 haddock haddock-ghc-8.6.5 hp2ps hpc hsc2hs runghc runghc-8.6.5 runhaskell
 ghc@8.8:ghc ghc-8.8.3 ghc-pkg ghc-pkg-8.8.3 ghci ghci-8.8.3 haddock haddock-ghc-8.8.3 hp2ps hpc hsc2hs runghc runghc-8.8.3 runhaskell
+ghc@9:ghc ghc-9.0.1 ghc-pkg ghc-pkg-9.0.1 ghci ghci-9.0.1 haddock haddock-ghc-9.0.1 hp2ps hpc hsc2hs runghc runghc-9.0.1 runhaskell
 ghex:ghex
 ghi:ghi
 ghostscript:dvipdf eps2eps gpcl6 gs gsbj gsc gsdj gsdj500 gslj gslp gsnd gsx gxps lprsetup.sh pdf2dsc pdf2ps pf2afm pfbtopfa pphs printafm ps2ascii ps2epsi ps2pdf ps2pdf12 ps2pdf13 ps2pdf14 ps2pdfwr ps2ps ps2ps2 unix-lpr.sh
@@ -1697,7 +1705,7 @@ glib-networking:
 glib-openssl:
 glib:gdbus gdbus-codegen gio gio-querymodules glib-compile-resources glib-compile-schemas glib-genmarshal glib-gettextize glib-mkenums gobject-query gresource gsettings gtester gtester-report
 glibmm:
-glibmm@2.64:
+glibmm@2.66:
 glide:glide
 glkterm:
 glktermw:
@@ -1763,12 +1771,13 @@ go-jira:jira
 go-jsonnet:jsonnet
 go-md2man:go-md2man
 go-statik:statik
-go:go godoc gofmt
+go:go gofmt
 go@1.10:go godoc gofmt
 go@1.11:go godoc gofmt
 go@1.12:go godoc gofmt
 go@1.13:go godoc gofmt
 go@1.14:go godoc gofmt
+go@1.15:go gofmt
 go@1.9:go godoc gofmt
 goaccess:goaccess
 goad:goad
@@ -1871,6 +1880,7 @@ grip:grip
 groff:addftinfo afmtodit chem eqn eqn2graph gdiffmk glilypond gperl gpinyin grap2graph grn grodvi groff groffer grog grolbp grolj4 gropdf grops grotty hpftodit indxbib lkbib lookbib mmroff neqn nroff pdfmom pdfroff pfbtops pic pic2graph post-grohtml pre-grohtml preconv refer roff2dvi roff2html roff2pdf roff2ps roff2text roff2x soelim tbl tfmtodit troff
 grok:discogrok grok
 grokj2k:grk_compress grk_decompress grk_dump
+grokmirror:grok-bundle grok-dumb-pull grok-fsck grok-manifest grok-pi-piper grok-pull
 gromacs:gmx
 gron:gron
 groonga:grndb groonga groonga-benchmark groonga-httpd groonga-httpd-restart groonga-suggest-create-dataset
@@ -2055,6 +2065,7 @@ htmlcleaner:htmlcleaner
 htmlcompressor:htmlcompressor
 htmlcxx:htmlcxx
 htmldoc:htmldoc
+htmltest:htmltest
 htop:htop
 htpdate:htpdate
 htslib:bgzip htsfile tabix
@@ -2411,6 +2422,7 @@ kubecm:kubecm
 kubectx:kubectx kubens
 kubeless:kubeless
 kubeprod:kubeprod
+kubergrunt:kubergrunt
 kubernetes-cli:kubectl
 kubernetes-service-catalog-client:svcat
 kubeseal:kubeseal
@@ -2752,6 +2764,7 @@ libpoker-eval:
 libpq:clusterdb createdb createuser dropdb dropuser ecpg initdb pg_archivecleanup pg_basebackup pg_checksums pg_config pg_controldata pg_ctl pg_dump pg_dumpall pg_isready pg_receivewal pg_recvlogical pg_resetwal pg_restore pg_rewind pg_test_fsync pg_test_timing pg_upgrade pg_verifybackup pg_waldump pgbench psql reindexdb vacuumdb
 libpqxx:pqxx-config
 libpqxx@6:
+libprelude:libprelude-config prelude-adduser prelude-admin
 libprotoident:lpi_arff lpi_find_unknown lpi_protoident
 libproxy:proxy
 libpsl:psl
@@ -3279,6 +3292,7 @@ mpc:mpc
 mpck:mpck
 mpd:mpd
 mpdas:mpdas
+mpdecimal:
 mpdscribble:mpdscribble
 mpdviz:mpdviz
 mpegdemux:mpegdemux
@@ -3302,6 +3316,7 @@ mrboom:mrboom
 mrtg:cfgmaker indexmaker mrtg mrtg-traffic-sum rateup
 mruby-cli:mruby-cli
 mruby:mirb mrbc mruby mruby-strip
+msc-generator:msc-gen
 mscgen:mscgen
 msdl:msdl
 msgpack-tools:json2msgpack msgpack2json
@@ -3352,6 +3367,7 @@ nagios-plugins:check_apt check_breeze check_by_ssh check_clamd check_cluster che
 nagios:nagios nagiostats
 nailgun:ng ng-server
 namazu:adnmz bnamazu gcnmz kwnmz lnnmz mailutime mknmz namazu nmz-config nmzcat nmzegrep nmzgrep nmzmerge rfnmz vfnmz
+name-that-hash:name-that-hash nth
 namebench:namebench namebench.py
 nano:nano rnano
 nanomsg:nanocat nn_bus nn_pair nn_pub nn_pull nn_push nn_rep nn_req nn_respondent nn_sub nn_surveyor
@@ -3490,6 +3506,7 @@ ntopng:ntopng
 ntp:ntp-keygen ntp-wait ntpd ntpdate ntpdc ntpq ntptrace sntp update-leap
 nu-smv:NuSMV ltl2smv
 nu:nubake nubile nudoc nuke nush nutemplate nutest nutmbundle
+nuclei:nuclei
 nudoku:nudoku
 nuget:nuget
 num-utils:average bound interval normalize numgrep numprocess numsum random range round
@@ -3564,6 +3581,7 @@ onscripter:nsaconv nsadec onscripter sarconv sardec
 ooniprobe:oonideckgen ooniprobe oonireport ooniresources
 opa:opa
 opam:opam opam-admin opam-installer
+open-adventure:advent
 open-babel:babel obabel obchiral obconformer obenergy obfit obgen obgrep obminimize obprobe obprop obrms obrotamer obrotate obspectrophore roundtrip
 open-completion:
 open-image-denoise:denoise
@@ -3650,6 +3668,7 @@ osm-pbf:
 osm2pgrouting:osm2pgrouting
 osm2pgsql:osm2pgsql
 osm:osm
+osmcoastline:osmcoastline osmcoastline_filter osmcoastline_readmeta osmcoastline_segments osmcoastline_ways
 osmfilter:osmconvert osmfilter osmupdate
 osmium-tool:osmium
 osmosis:osmosis
@@ -3696,7 +3715,7 @@ pandoc:pandoc
 pandocomatic:pandocomatic
 pango:pango-list pango-view
 pangomm:
-pangomm@2.42:
+pangomm@2.46:
 paperkey:paperkey
 paps:paps
 par2:par2 par2create par2repair par2verify
@@ -3705,6 +3724,7 @@ parallel-hashmap:
 parallel:env_parallel env_parallel.ash env_parallel.bash env_parallel.csh env_parallel.dash env_parallel.fish env_parallel.ksh env_parallel.pdksh env_parallel.sh env_parallel.tcsh env_parallel.zsh niceload parallel parcat sem sql
 parallelstl:
 pari:gp gp-2.9 gphelp tex2mail
+parliament:parliament
 parquet-tools:parquet-tools
 parrot:parrot parrot-nqp parrot-ops2c parrot-prove parrot_config parrot_nci_thunk_gen pbc_disassemble pbc_dump pbc_merge pbc_to_exe winxed
 partio:partattr partconv partinfo partview
@@ -3728,6 +3748,7 @@ pbc:
 pbzip2:pbunzip2 pbzcat pbzip2
 pc6001vx:PC6001VX
 pcal:pcal
+pcalc:pcalc
 pcapplusplus:ArpSpoofing Arping DNSResolver DnsSpoofing HttpAnalyzer IPDefragUtil IPFragUtil IcmpFileTransfer-catcher IcmpFileTransfer-pitcher PcapPrinter PcapSearch PcapSplitter SSLAnalyzer TcpReassembly
 pcb2gcode:pcb2gcode
 pcb:MergePCBPS Merge_dimPCBPS pcb
@@ -3771,7 +3792,7 @@ percona-xtrabackup:innobackupex xbcloud xbcloud_osenv xbcrypt xbstream xtrabacku
 periscope:psc
 perkeep:camdeploy camget camlistored cammount camput camtool devcam hello publisher
 perl-build:perl-build plenv-install plenv-uninstall
-perl:corelist cpan enc2xs encguess h2ph h2xs instmodsh json_pp libnetcfg perl perl5.32.0 perlbug perldoc perlivp perlthanks piconv pl2pm pod2html pod2man pod2text pod2usage podchecker prove ptar ptardiff ptargrep shasum splain streamzip xsubpp zipdetails
+perl:corelist cpan enc2xs encguess h2ph h2xs instmodsh json_pp libnetcfg perl perl5.32.1 perlbug perldoc perlivp perlthanks piconv pl2pm pod2html pod2man pod2text pod2usage podchecker prove ptar ptardiff ptargrep shasum splain streamzip xsubpp zipdetails
 perl@5.18:a2p c2ph config_data corelist cpan cpan2dist cpanp cpanp-run-perl enc2xs find2perl h2ph h2xs instmodsh json_pp libnetcfg perl perl5.18.2 perlbug perldoc perlivp perlthanks piconv pl2pm pod2html pod2latex pod2man pod2text pod2usage podchecker podselect prove psed pstruct ptar ptardiff ptargrep s2p shasum splain xsubpp zipdetails
 perltidy:perltidy
 peru:peru
@@ -3945,6 +3966,7 @@ proftpd:ftpasswd ftpcount ftpdctl ftpmail ftpquota ftpscrub ftpshut ftptop ftpwh
 progress:progress
 proguard:proguard proguardgui
 proj:cs2cs geod nad2bin proj
+projectm:projectM-unittest projectMSDL
 prometheus-cpp:
 prometheus:prometheus promtool
 promtail:promtail
@@ -4028,7 +4050,7 @@ pyside:pyside2-uic
 python-markdown:markdown_py
 python-yq:xq yq
 python@3.7:2to3 2to3-3.7 idle3 idle3.7 pydoc3 pydoc3.7 python3 python3-config python3.7 python3.7-config python3.7m python3.7m-config pyvenv pyvenv-3.7
-python@3.8:2to3 2to3-3.8 easy_install-3.8 idle3 idle3.8 pip3 pip3.8 pydoc3 pydoc3.8 python3 python3-config python3.8 python3.8-config wheel3
+python@3.8:2to3 2to3-3.8 idle3 idle3.8 pip3 pip3.8 pydoc3 pydoc3.8 python3 python3-config python3.8 python3.8-config wheel3
 python@3.9:2to3 2to3-3.9 easy_install-3.9 idle3 idle3.9 pip3 pip3.9 pydoc3 pydoc3.9 python3 python3-config python3.9 python3.9-config wheel3
 pytouhou:pytouhou
 pyvim:ptipython ptpython pyflakes pygmentize pyvim
@@ -4131,6 +4153,7 @@ rdate:rdate
 rdesktop:rdesktop
 rdfind:rdfind
 rdiff-backup:rdiff-backup rdiff-backup-statistics
+rdkit:
 rds-command-line-tools:rds rds-add-option-to-option-group rds-add-source-identifier-to-subscription rds-add-tag-to-resource rds-apply-pending-maintenance-action rds-authorize-db-security-group-ingress rds-copy-db-parameter-group rds-copy-db-snapshot rds-copy-option-group rds-create-db-instance rds-create-db-instance-read-replica rds-create-db-parameter-group rds-create-db-security-group rds-create-db-snapshot rds-create-db-subnet-group rds-create-event-subscription rds-create-option-group rds-delete-db-instance rds-delete-db-parameter-group rds-delete-db-security-group rds-delete-db-snapshot rds-delete-db-subnet-group rds-delete-event-subscription rds-delete-option-group rds-describe-account-attributes rds-describe-certificates rds-describe-db-engine-versions rds-describe-db-instances rds-describe-db-log-files rds-describe-db-parameter-groups rds-describe-db-parameters rds-describe-db-security-groups rds-describe-db-snapshots rds-describe-db-subnet-groups rds-describe-engine-default-parameters rds-describe-event-categories rds-describe-event-subscriptions rds-describe-events rds-describe-option-group-options rds-describe-option-groups rds-describe-orderable-db-instance-options rds-describe-pending-maintenance-actions rds-describe-reserved-db-instances rds-describe-reserved-db-instances-offerings rds-download-db-logfile rds-list-tags-for-resource rds-modify-db-instance rds-modify-db-parameter-group rds-modify-db-subnet-group rds-modify-event-subscription rds-promote-read-replica rds-purchase-reserved-db-instances-offering rds-reboot-db-instance rds-remove-option-from-option-group rds-remove-source-identifier-from-subscription rds-remove-tags-from-resource rds-reset-db-parameter-group rds-restore-db-instance-from-db-snapshot rds-restore-db-instance-to-point-in-time rds-revoke-db-security-group-ingress rds-update-option-in-option-group rds-version rds-watch-db-logfile
 rdup:rdup rdup-simple rdup-tr rdup-up
 re-flex:reflex
@@ -4244,6 +4267,7 @@ rsyslog:msggen rsyslog_diag_hostname rsyslogd zpipe
 rt-audio:
 rtags:gcc-rtags-wrapper.sh rc rdm rp
 rtf2latex2e:rtf2latex2e
+rtl_433:rtl_433
 rtmidi:
 rtmpdump:rtmpdump rtmpgw rtmpsrv rtmpsuck
 rtorrent:rtorrent
@@ -4287,6 +4311,7 @@ sagittarius-scheme:compile-r7rs compile-sagittarius sagittarius sagittarius-conf
 saldl:saldl
 salt:salt salt-api salt-call salt-cloud salt-cp salt-key salt-master salt-minion salt-proxy salt-run salt-ssh salt-syndic salt-unity spm
 saltwater:swcc
+saml2aws:saml2aws
 sampler:sampler
 samtools:ace2sam blast2sam.pl bowtie2sam.pl export2sam.pl interpolate_sam.pl maq2sam-long maq2sam-short md5fa md5sum-lite novo2sam.pl plot-bamstats psl2sam.pl sam2vcf.pl samtools samtools.pl seq_cache_populate.pl soap2sam.pl varfilter.py wgsim wgsim_eval.pl zoom2sam.pl
 samurai:samu
@@ -4922,6 +4947,7 @@ triangle:triangle
 trimage:trimage
 triton:triton
 truecrack:truecrack
+truffle:truffle
 truncate:truncate
 trunk:trunk
 tsung:tsplot tsung tsung-recorder
@@ -5090,6 +5116,7 @@ visionmedia-watch:watch
 visitors:visitors
 visp:visp-config
 vit:vit
+vitess:mysqlctl mysqlctld vtbackup vtctl vtctlclient vtctld vtctldclient vtgate vtorc vttablet vtworker
 vitetris:tetris
 vivid:vivid
 vlang:v
@@ -5129,6 +5156,7 @@ vulture:vulture
 w-calc:wcalc
 w3m:w3m w3mman
 wabt:wasm-interp wasm-link wasm2wast wasmdump wasmopcodecnt wast-desugar wast2wasm
+waffle:wflinfo
 wagyu:wagyu
 wait_on:wait_on
 wakatime-cli:wakatime
@@ -5263,6 +5291,7 @@ xclip:xclip xclip-copyfile xclip-cutfile xclip-pastefile
 xclogparser:xclogparser
 xcodegen:xcodegen
 xcproj:xcproj
+xcprojectlint:xcprojectlint
 xctool:xctool
 xcv:xcv
 xdelta:xdelta3
@@ -5271,6 +5300,7 @@ xdotool:xdotool
 xdpyinfo:xdpyinfo
 xerces-c:CreateDOMDocument DOMCount DOMPrint EnumVal PParse PSVIWriter Redirect SAX2Count SAX2Print SAXCount SAXPrint SCMPrint SEnumVal StdInParse XInclude
 xgboost:xgboost
+xh:xh xhs
 xhyve:xhyve
 xidel:xidel
 xinput:xinput
@@ -5362,6 +5392,7 @@ youtubedr:youtubedr
 yq:yq
 yq@3:yq
 yubico-piv-tool:yubico-piv-tool
+yubikey-agent:yubikey-agent
 yuicompressor:yuicompressor
 yydecode:yydecode
 z.lua:
