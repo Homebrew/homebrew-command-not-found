@@ -178,6 +178,7 @@ arss:arss
 artifactory:artifactory.default artifactory.sh
 arturo:arturo
 arx-libertatis:arx arx-install-data arxsavetool arxunpak
+as-tree:as-tree
 ascii:ascii
 asciidoc:a2x a2x.py asciidoc asciidoc.py
 asciidoctor:asciidoctor asciidoctor-safe
@@ -301,6 +302,7 @@ bar:bar
 bareos-client:bareos bareos-fd bconsole btraceback
 baresip:baresip
 bartycrouch:bartycrouch
+bas55:bas55
 base64:base64
 base91:b91dec b91enc base91
 basex:basex basexclient basexgui basexhttp basexhttpstop basexserver basexserverstop
@@ -446,6 +448,7 @@ brew-pip:brew-pip
 brightness:brightness
 briss:briss
 brogue:brogue
+brook:brook
 broot:broot
 brotli:brotli
 browser:browser
@@ -713,6 +716,7 @@ clozure-cl:ccl64
 clp:clp
 clpbar:clpbar
 clucene:
+clusterctl:clusterctl
 clutter-gst:
 clutter-gtk:
 clutter:
@@ -899,6 +903,7 @@ cwlogs:cwlogs
 cxxopts:
 cxxtest:cxxtestgen
 cypher-shell:cypher-shell
+cyrus-sasl:
 cython:cygdb cython cythonize
 czmq:zmakecert
 daemon:daemon
@@ -958,6 +963,7 @@ deheader:deheader
 dehydrated:dehydrated
 deja-gnu:runtest
 delta:delta multidelta topformflat
+delve:dlv
 deno:deno
 denominator:denominator
 density:
@@ -1231,6 +1237,7 @@ envchain:envchain
 envconsul:envconsul
 envoy:envoy
 envv:envv
+enzyme:
 eot-utils:eotinfo mkeot
 epeg:epeg
 ephemeralpg:getsocket pg_tmp
@@ -1281,6 +1288,7 @@ expect:autoexpect autopasswd cryptdir decryptdir dislocate expect ftp-rfc kibitz
 exploitdb:searchsploit
 ext2fuse:ext2fuse
 ext4fuse:ext4fuse
+extra-cmake-modules:
 extract_url:extract_url
 exult:exult
 eye-d3:eyeD3
@@ -1568,6 +1576,7 @@ geomview:anytooff anytoucd bdy bez2mesh clip geomview math2oogl offconsol oogl2r
 geos:geos-config
 geoserver:geoserver
 geph2:geph-client
+geph4:geph4-client
 gerbil-scheme:gxc gxi gxi-build-script gxpkg gxprof gxtags
 gerbv:gerbv
 gerrit-tools:gerrit-cherry-pick gerrit-setup git-review
@@ -1767,6 +1776,7 @@ gnuski:gnuski
 gnustep-make:
 gnutls:danetool gnutls-certtool gnutls-cli gnutls-cli-debug gnutls-serv ocsptool p11tool psktool srptool
 go-bindata:go-bindata
+go-boring:go gofmt
 go-jira:jira
 go-jsonnet:jsonnet
 go-md2man:go-md2man
@@ -1810,6 +1820,7 @@ googler:googler
 googletest:
 goolabs:goolabs
 goose:goose
+gopass-jsonapi:gopass-jsonapi
 gopass:gopass
 gopls:gopls
 gor:gor
@@ -1983,6 +1994,7 @@ hashcash:hashcash sha1
 hashcat:hashcat
 hashlink:hl
 hashpump:hashpump
+haskell-language-server:haskell-language-server-8.10.4 haskell-language-server-8.6.5 haskell-language-server-8.8.4 haskell-language-server-wrapper
 haskell-stack:stack
 haste-client:haste
 hasura-cli:hasura
@@ -2118,6 +2130,7 @@ icecream:icecc icecc-create-env icecc-scheduler icecc-test-env iceccd icerun
 icemon:icemon
 icon-naming-utils:
 icon:icon icont iconx
+iconsur:iconsur
 icoutils:extresso genresscript icotool wrestool
 icu4c:derb escapesrc genbrk genccode gencfu gencmn gencnval gendict gennorm2 genrb gensprep icu-config icuinfo icupkg makeconv pkgdata uconv
 id3ed:id3ed
@@ -2160,6 +2173,7 @@ indicators:
 inetutils:dnsdomainname gdnsdomainname gftp ghostname gifconfig glogger gping gping6 grcp grexec grlogin grsh gtalk gtelnet gtftp gtraceroute gwhois rcp rexec rlogin rsh
 infer:infer infer-analyze infer-capture infer-compile infer-report infer-reportdiff infer-run inferTraceBugs
 influxdb:influx influx_stress influx_tsm influxd
+influxdb@1:influx influx_inspect influx_stress influx_tsm influxd
 inform6:inform
 infracost:infracost
 infrakit:infrakit
@@ -2352,23 +2366,21 @@ kallisto:kallisto
 kamel:kamel
 kanif:kaget kanif kaput kash
 kapacitor:kapacitor kapacitord
+karchive:
 karn:karn
 katago:katago
 kawa:kawa
 kcgi:
 kcov:kcov
 kcptun:kcptun_client kcptun_server
-kde-extra-cmake-modules:
-kde-karchive:
-kde-kdoctools:checkXML5 meinproc5
-kde-ki18n:
-kde-threadweaver:
+kdoctools:checkXML5 meinproc5
 kedge:kedge
 keepassc:keepassc keepassc-agent keepassc-server
 keepkey-agent:keepkey-agent keepkey_agent.py
 keptn:keptn
 kepubify:kepubify
 kerl:kerl
+kertish-dfs:krtadm krtfs
 kestrel:kestrel
 kettle:pdicarte pdikitchen pdipan
 keychain:keychain
@@ -2377,6 +2389,7 @@ keystone:kstool
 khal:ikhal khal
 khard:khard
 khiva:
+ki18n:
 kibana:kibana kibana-plugin
 kibana@6:kibana kibana-keystore kibana-plugin
 killswitch:killswitch
@@ -2387,6 +2400,7 @@ kitchen-completion:
 kitchen-sync:ks ks_mysql
 kite:build_kdocs ikt kdb kite
 klavaro:klavaro
+klee:gen-bout gen-random-bout kleaver klee klee-replay klee-stats klee-zesti ktest-tool
 knock:knock knockd
 knot-resolver:kresd
 knot:kdig keymgr khost kjournalprint knotc knotd knsec3hash knsupdate kzonecheck
@@ -2400,6 +2414,7 @@ kona:k
 kondo:kondo
 kops:kops
 kore:kore
+kotlin-language-server:kotlin-language-server
 kotlin:kotlin kotlinc kotlinc-js kotlinc-jvm
 kpcli:kpcli
 kqwait:kqwait
@@ -2456,6 +2471,7 @@ latex2rtf:latex2png latex2rtf
 latexdiff:latexdiff latexdiff-fast latexdiff-so latexdiff-vc latexrevise
 latexindent:latexindent
 latexml:imgsize latexml latexmlc latexmlfind latexmlmath latexmlpost
+latino:latino
 launch4j:launch4j
 launch:launch
 launch_socket_server:launch_socket_server
@@ -2479,6 +2495,7 @@ ldid:ldid
 ldns:drill ldns-chaos ldns-compare-zones ldns-config ldns-dane ldns-dpa ldns-gen-zone ldns-key2ds ldns-keyfetcher ldns-keygen ldns-mx ldns-notify ldns-nsec3-hash ldns-read-zone ldns-resolver ldns-revoke ldns-rrsig ldns-signzone ldns-test-edns ldns-testns ldns-update ldns-verify-zone ldns-version ldns-walk ldns-zcat ldns-zsplit ldnsd
 ldpl:ldpl lpm
 le:le
+leaf-proxy:leaf
 leaf:leaf
 leakcanary-shark:shark-cli
 lean-cli:lean
@@ -2756,6 +2773,7 @@ libpeas:peas-demo
 libpgm:
 libphonenumber:
 libpinyin:gen_binary_files gen_unigram import_interpolation
+libpipeline:
 libplctag:
 libplist:plistutil
 libpng:libpng-config libpng16-config png-fix-itxt pngfix
@@ -3072,6 +3090,7 @@ man2html:man2html
 mandoc:bsdapropos bsdmakewhatis bsdman bsdwhatis demandoc mandoc manpage soelim
 mandown:mdn
 manticoresearch:index_converter indexer indextool searchd spelldump wordbreaker
+mapcidr:mapcidr
 mapcrafter:mapcrafter mapcrafter_export mapcrafter_markers mapcrafter_png-it.py mapcrafter_textures.py
 mapnik:mapnik-config mapnik-index mapnik-render shapeindex
 mapserver:legend mapserv msencrypt scalebar shp2img shptree shptreetst shptreevis sortshp tile4ms
@@ -3199,7 +3218,7 @@ miniserve:miniserve
 minisign:minisign
 miniupnpc:external-ip upnpc
 minizinc:mzn-fzn mzn2doc mzn2fzn mzn2fzn_test solns2out
-minizip2:
+minizip-ng:
 minizip:
 mint:mint
 minuit2:
@@ -3271,6 +3290,7 @@ mosh:mosh mosh-client mosh-server
 mosml:camlrunm mosml mosmlc mosmllex mosmlyac
 mosquitto:mosquitto_passwd mosquitto_pub mosquitto_sub mosquitto
 most:most
+moto:moto_server
 movgrab:movgrab
 moz-git-tools:git-branchname git-bzexport git-edit-files git-fix-whitespace git-new-workdir git-patch-to-hg-patch git-push-to-hg git-push-to-try git-push-to-trychooser git-qapplied git-qparent git-qrebase git-remote-link git-to-hg-commit git-tracks hg-patch-to-git-patch
 mozilla-addon-sdk:cfx
@@ -3335,6 +3355,7 @@ muffet:muffet
 mujs:mujs
 multimarkdown:markdown mmd mmd2all mmd2odf mmd2opml mmd2pdf mmd2rtf mmd2tex multimarkdown
 multitail:multitail
+multitime:multitime
 muparser:
 mupdf-tools:mudraw mujstest mutool
 mupdf:mudraw mujstest mupdf-gl muraster mutool
@@ -3532,6 +3553,7 @@ oakc:oak
 oath-toolkit:oathtool pskctool
 oauth2_proxy:oauth2_proxy
 oauth2l:oauth2l
+obfs4proxy:obfs4proxy
 objc-codegenutils:objc-assetgen objc-colordump objc-identifierconstants
 objc-run:objc-run
 objfw:objfw-compile objfw-config objfw-new ofhash ofhttp ofzip
@@ -3626,6 +3648,8 @@ openjpeg:opj_compress opj_decompress opj_dump
 openkim-models:
 openldap:ldapadd ldapcompare ldapdelete ldapexop ldapmodify ldapmodrdn ldappasswd ldapsearch ldapurl ldapwhoami slapacl slapadd slapauth slapcat slapdn slapindex slappasswd slapschema slaptest
 openlibm:
+openmama:atomicbookbuilder atomicbookticker auctionticker bookpublisher bookticker bookviewer comboticker currencyticker fundamentallisten mamaftmemberc mamaftmembercpp mamainboxc mamainboxcpp mamaio mamaiocpp mamalistenc mamalistencachedc mamalistencachedcpp mamalistencpp mamamultisubscriberc mamaproxyc mamaproxycpp mamapublisherc mamapublishercpp mamasubscriberc mamasubscribercpp mamasymbollistsubscriberc mamasymbollistsubscribercpp mamdalisten multipartticker multisecurityticker newsticker optionchainer optionview orderimbalanceticker quoteticker secstatuslisten tradeticker
+openmodelica:OMCppOSUSimulation OMSimulator omc
 openmotif:mwm uil xmbind
 openmsx:openmsx
 openrct2:openrct2
@@ -3652,9 +3676,11 @@ opus:
 opusfile:
 oq:oq
 or-tools:
+oras:oras
 orbit:ior-decode-2 linc-cleanup-sockets orbit-idl-2 orbit2-config typelib-dump
 orc-tools:orc-tools
 orc:orc-bugreport orcc
+orgalorg:orgalorg
 orientdb:orientdb orientdb-console orientdb-gremlin
 ormolu:ormolu
 orocos-kdl:
@@ -3711,6 +3737,7 @@ pam_yubico:ykpamcfg
 pandoc-citeproc:pandoc-citeproc
 pandoc-crossref:pandoc-crossref
 pandoc-include-code:pandoc-include-code
+pandoc-plot:pandoc-plot
 pandoc:pandoc
 pandocomatic:pandocomatic
 pango:pango-list pango-view
@@ -4045,9 +4072,16 @@ pylint:epylint pylint pyreverse symilar
 pympress:pympress
 pypy3:pypy3 pypy3.3
 pypy:pypy
+pyqt-3d:
+pyqt-builder:pyqt-bundle pyqt-qt-wheel
+pyqt-networkauth:
 pyqt:pylupdate5 pyrcc5 pyuic5
+pyqt@5:pylupdate5 pyrcc5 pyuic5
 pyside:pyside2-uic
+pyside@2:pyside2-lupdate pyside_tool.py rcc shiboken2 shiboken_tool.py uic
 python-markdown:markdown_py
+python-tabulate:tabulate
+python-tk@3.9:
 python-yq:xq yq
 python@3.7:2to3 2to3-3.7 idle3 idle3.7 pydoc3 pydoc3.7 python3 python3-config python3.7 python3.7-config python3.7m python3.7m-config pyvenv pyvenv-3.7
 python@3.8:2to3 2to3-3.8 idle3 idle3.8 pip3 pip3.8 pydoc3 pydoc3.8 python3 python3-config python3.8 python3.8-config wheel3
@@ -4079,7 +4113,14 @@ qrupdate:
 qscintilla2:
 qsoas:QSoas
 qstat:qstat
+qt-libiodbc:
+qt-mariadb:
+qt-mysql:
+qt-percona-server:
+qt-postgresql:
+qt-unixodbc:
 qt:balsam canbusutil fixqt4headers.pl lconvert lprodump lrelease lrelease-pro lupdate lupdate-pro macchangeqt macdeployqt meshdebug moc qcollectiongenerator qdbus qdbuscpp2xml qdbusxml2cpp qdistancefieldgenerator qgltf qhelpgenerator qlalr qmake qmlcachegen qmleasing qmlformat qmlimportscanner qmllint qmlmin qmlplugindump qmlpreview qmlprofiler qmlscene qmltestrunner qmltyperegistrar qscxmlc qtattributionsscanner qtdiag qtpaths qtplugininfo qvkgen qwebengine_convert_dict rcc repc syncqt.pl tracegen uic xmlpatterns xmlpatternsvalidator
+qt@5:balsam canbusutil fixqt4headers.pl lconvert lprodump lrelease lrelease-pro lupdate lupdate-pro macchangeqt macdeployqt meshdebug moc qcollectiongenerator qdbus qdbuscpp2xml qdbusxml2cpp qdistancefieldgenerator qgltf qhelpgenerator qlalr qmake qmlcachegen qmleasing qmlformat qmlimportscanner qmllint qmlmin qmlplugindump qmlpreview qmlprofiler qmlscene qmltestrunner qmltyperegistrar qscxmlc qtattributionsscanner qtdiag qtpaths qtplugininfo qvkgen qwebengine_convert_dict rcc repc syncqt.pl tracegen uic xmlpatterns xmlpatternsvalidator
 qtads:QTads
 qtfaststart:qt-faststart
 qtkeychain:
@@ -4246,6 +4287,7 @@ roll:roll
 rolldice:rolldice
 rom-tools:aueffectutil castool chdman floptool imgtool jedutil ldresample ldverify nltool nlwav pngcmp regrep rom-split romcmp src2html srcclean unidasm
 root:g2root genreflex h2root hadd hist2workspace memprobe pq2 prepareHistFactory proofd proofexecv proofserv proofserv.exe rmkdepend root root-config root.exe rootbrowse rootcint rootcling rootcp rootd rootdrawtree rooteventselector rootls rootmkdir rootmv rootn.exe rootnb.exe rootprint rootrm roots roots.exe rootslimtree setenvwrap.csh setxrd.csh setxrd.sh ssh2rpd thisroot.csh thisroot.sh xpdtest xproofd
+rosa-cli:rosa
 roswell:ros
 roundup:roundup
 rp:rp-osx
@@ -4526,6 +4568,7 @@ snobol4:sdb sdb-1.5 snobol4 snobol4-1.5
 snort:snort u2boat u2spewfoo
 snow:snow
 snownews:opml2snow snow2opml snownews
+snowpack:snowpack sp
 sntop:sntop
 snzip:snzip
 so:so
@@ -4597,6 +4640,7 @@ spring-loaded:
 spring-roo:org.apache.felix.framework-4.4.1.jar org.springframework.roo.bootstrap-1.3.1.RELEASE.jar roo
 sproxy:sproxy
 sql-translator:sqlt sqlt-diagram sqlt-diff sqlt-diff-old sqlt-dumper sqlt-graph
+sqlancer:sqlancer
 sqlc:sqlc
 sqlcipher:sqlcipher
 sqldiff:sqldiff
@@ -4848,6 +4892,8 @@ theharvester:theharvester
 theora:
 thors-serializer:
 thrax:thraxcompiler thraxmakedep thraxrandom-generator thraxrewrite-tester
+threadweaver:
+threemux:3mux
 thrift:thrift
 thrift@0.9:thrift
 thrulay:thrulay thrulayd
@@ -4861,6 +4907,7 @@ tile38:tile38-cli tile38-server
 timedog:timedog
 timelimit:timelimit
 timewarrior:timew
+timg:timg
 timidity:timidity
 tin:metamutt opt-case.pl rtin tin tinews.pl url_handler.pl w2r.pl
 tinc:tincd
@@ -4978,6 +5025,7 @@ txr:txr
 txt2tags:txt2tags
 typescript:tsc tsserver
 typespeed:typespeed
+tz:tz
 u-boot-tools:mkimage
 uade:mod2ogg2.sh uade123
 ubertooth:ubertooth-afh ubertooth-btle ubertooth-debug ubertooth-dfu ubertooth-dump ubertooth-ego ubertooth-rx ubertooth-specan ubertooth-specan-ui ubertooth-tx ubertooth-util
@@ -5107,6 +5155,7 @@ vint:vint
 vip:vip
 vips:batch_crop batch_image_convert batch_rubber_sheet light_correct shrink_width vips vips-8.5 vipsedit vipsheader vipsprofile vipsthumbnail
 virgil:virgil
+virtualenv:virtualenv
 virtualhost.sh:virtualhost.sh
 virtualpg:
 virtuoso:inifile isql isqlw virt_mail virtuoso-t
@@ -5231,6 +5280,7 @@ wireshark:capinfos captype dftest dumpcap editcap mergecap randpkt rawshark reor
 wirouter_keyrec:wirouterkeyrec wr_iwlist.sh
 with-readline:with-readline
 wla-dx:wla-6502 wla-6510 wla-65816 wla-65c02 wla-gb wla-huc6280 wla-spc700 wla-z80 wlab wlad wlalink
+wllvm:extract-bc wfortran wllvm wllvm++ wllvm-as wllvm-sanity-checker wparse-args
 wmctrl:wmctrl
 woff2:woff2_compress woff2_decompress woff2_info
 wolfmqtt:wolfmqtt-config
@@ -5332,6 +5382,7 @@ xpa:xpaaccess xpaget xpainfo xpamb xpans xpaset
 xpdf:pdfdetach pdffonts pdfimages pdfinfo pdftohtml pdftopng pdftoppm pdftops pdftotext xpdf
 xplanet:xplanet
 xqilla:xqilla
+xray:xray
 xrick:xrick
 xrootd:cconfig cmsd cns_ssi frm_admin frm_purged frm_xfragent frm_xfrd mpxstats wait41 xprep xrd xrdadler32 XrdCnsd xrdcopy xrdcp xrdcp-old xrdfs xrdgsiproxy xrdmapc xrdpwdadmin xrdsssadmin xrdstagetool xrootd xrootd-config
 xsane:xsane
@@ -5422,6 +5473,7 @@ zinc:zinc
 zint:zint
 zip:zip zipcloak zipnote zipsplit
 zita-convolver:
+zlib-ng:
 zlib:
 zlog:
 zmap:zblacklist zmap ztee
