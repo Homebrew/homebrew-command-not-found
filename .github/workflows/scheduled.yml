@@ -1,0 +1,35 @@
+name: Scheduled database updates
+on:
+  push:
+    paths:
+      - .github/workflows/scheduled.yml
+  schedule:
+    # Once every day at midnight UTC
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    if: startsWith( github.repository, 'Homebrew/' )
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [macOS-latest, ubuntu-latest]
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@main
+        with:
+          fetch-depth: 0
+
+      - name: Set up Homebrew
+        id: set-up-homebrew
+        uses: Homebrew/actions/setup-homebrew@master
+
+      - name: Update database
+        run: brew which-update --commit --install-missing executables.txt
+
+      - name: Output database stats
+        run: brew which-update --stats executables.txt
+
+      - name: Push commits
+        uses: Homebrew/actions/git-try-push@master
