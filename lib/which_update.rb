@@ -43,10 +43,19 @@ module Homebrew
       nil
     end
 
-    def update_and_save!(source: nil, commit: false)
+    def update_and_save!(source: nil, commit: false, install_missing: false)
       source ||= default_source
       db = ExecutablesDB.new source
       db.update!
+
+      if install_missing
+        (Formula.core_names - db.formula_names).each do |formula|
+          ohai "Installing #{formula}"
+          system HOMEBREW_BREW_FILE, "install", "--formula", formula
+        end
+        db.update!
+      end
+
       db.save!
       return if !commit || !db.changed?
 
