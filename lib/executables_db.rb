@@ -9,6 +9,8 @@ module Homebrew
     attr_accessor :exes
     attr_reader :changes
 
+    DB_LINE_REGEX = /^(?<name>.*?)(?:\((?<version>.*)\))?:(?<exes_line>.*)?$/.freeze
+
     # initialize a new DB with the given filename. The file will be used to
     # populate the DB if it exists. It'll be created or overridden when saving the
     # DB.
@@ -18,14 +20,20 @@ module Homebrew
       @exes = {}
       # keeps track of things that changed in the DB between its creation and
       # each {#save!} call. This is used to generate commit messages
-      @changes = { add: Set.new, remove: Set.new, update: Set.new }
+      @changes = { add: Set.new, remove: Set.new, update: Set.new, version_bump: Set.new }
 
       return unless File.file? @filename
 
       File.new(@filename).each do |line|
-        formula, exes_line = line.split(":")
-        @exes[formula] ||= []
-        @exes[formula].concat exes_line.split if exes_line
+        matches = line.match DB_LINE_REGEX
+        next unless matches
+
+        name = matches[:name]
+        version = matches[:version]
+        exes_line = matches[:exes_line]
+
+        @exes[name] ||= [version, []]
+        @exes[name][1].concat exes_line.split if exes_line.present?
       end
     end
 
@@ -43,17 +51,24 @@ module Homebrew
 
     # update the DB with the installed formulae
     # @see #save!
-    def update!
+    def update!(update_existing: false, install_missing: false)
       Formula.each do |f|
         next if f.tap?
 
         name = f.full_name
 
-        # NOTE: f.installed? is true only if the *latest* version is installed.
-        # We thus don't need to worry about updating outdated versions
+        update_formula = missing_formula?(f) || (update_existing && outdated_formula?(f))
+
+        # Install unbottled formulae if they should be added/updated
+        if !f.bottled? && install_missing && update_formula
+          ohai "Installing #{f}"
+          system HOMEBREW_BREW_FILE, "install", "--formula", f
+        end
+
+        # We don't need to worry about updating outdated versions unless update_existing is true
         if f.latest_version_installed?
           update_installed_formula f
-        elsif missing_formula?(f) && f.bottled?
+        elsif f.bottled? && update_formula
           update_bottled_formula f
         end
 
@@ -76,8 +91,10 @@ module Homebrew
 
     # save the DB in the underlying file
     def save!
-      ordered_db = @exes.map do |formula, exs|
-        "#{formula}:#{exs.join(" ")}\n"
+      ordered_db = @exes.map do |formula, data|
+        version, exs = data
+        version_string = "(#{version})" if version.present?
+        "#{formula}#{version_string}:#{exs.join(" ")}\n"
       end.sort
 
       File.open(@filename, "w") do |f|
@@ -103,6 +120,11 @@ module Homebrew
       !@exes.key? formula.full_name
     end
 
+    def outdated_formula?(formula)
+      current_version = @exes[formula.full_name][0]
+      formula.pkg_version != current_version
+    end
+
     def update_formula_binaries_from_prefix(formula, prefix = nil)
       prefix ||= formula.prefix
 
@@ -117,15 +139,18 @@ module Homebrew
 
     def update_formula_binaries(formula, binaries)
       name = formula.full_name
+      version = formula.pkg_version
       binaries = binaries.to_a.sort
 
       if missing_formula? formula
         @changes[:add] << name
-      elsif @exes[name] != binaries
+      elsif @exes[name][1] != binaries
         @changes[:update] << name
+      elsif outdated_formula? formula
+        @changes[:version_bump] << name
       end
 
-      @exes[name] = binaries
+      @exes[name] = [version, binaries]
     end
 
     # update the binaries of {formula}, assuming it's installed
