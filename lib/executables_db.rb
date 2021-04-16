@@ -62,7 +62,7 @@ module Homebrew
         # Install unbottled formulae if they should be added/updated
         if !f.bottled? && install_missing && update_formula
           ohai "Installing #{f}"
-          system HOMEBREW_BREW_FILE, "install", "--formula", f
+          system HOMEBREW_BREW_FILE, "install", "--formula", f.to_s
         end
 
         # We don't need to worry about updating outdated versions unless update_existing is true
@@ -122,7 +122,7 @@ module Homebrew
 
     def outdated_formula?(formula)
       current_version = @exes[formula.full_name][0]
-      formula.pkg_version != current_version
+      formula.pkg_version.to_s != current_version
     end
 
     def update_formula_binaries_from_prefix(formula, prefix = nil)

@@ -62,10 +62,11 @@ module Homebrew
 
     def git_commit_message(changes)
       msg = []
-      [:add, :update, :remove].each do |action|
+      [:add, :update, :remove, :version_bump].each do |action|
         names = changes[action]
         next if names.empty?
 
+        action = "bump version for" if action == :version_bump
         msg << english_list(names.to_a.sort, action.to_s)
         break
       end
