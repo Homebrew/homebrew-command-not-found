@@ -2,14 +2,14 @@ name: Scheduled database updates
 on:
   push:
     paths:
-      - .github/workflows/scheduled.yml
+      - .github/workflows/update-database.yml
   schedule:
     # Once every day at midnight UTC
     - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
-  generate:
+  update-database:
     if: startsWith( github.repository, 'Homebrew/' )
     runs-on: macos-latest
     steps:
