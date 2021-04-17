@@ -61,6 +61,10 @@ module Homebrew
 
       return if formulae.blank?
 
+      formulae.map! do |formula|
+        formula.sub(/\(.*\)$/, "")
+      end
+
       if explain
         explain_formulae_install(cmd, formulae)
       else
