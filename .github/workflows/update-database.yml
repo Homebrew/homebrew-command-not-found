@@ -26,6 +26,11 @@ jobs:
         id: set-up-homebrew
         uses: Homebrew/actions/setup-homebrew@master
 
+      - name: Configure Git user
+        uses: Homebrew/actions/git-user-config@master
+        with:
+          username: BrewTestBot
+
       - name: Set up commit signing
         uses: Homebrew/actions/setup-commit-signing@master
         with:
