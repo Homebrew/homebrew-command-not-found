@@ -13,15 +13,11 @@ on:
       max-downloads:
         description: Maximum number of formulae to download when updating
         required: false
-      runs-on:
-        description: GitHub actions runner to use when updating the database
-        required: true
-        default: macos-latest
 
 jobs:
   update-database:
     if: startsWith( github.repository, 'Homebrew/' )
-    runs-on: ${{ github.event.inputs.runs-on || 'macos-latest' }}
+    runs-on: macos-latest
     steps:
       - name: Check out repository
         uses: actions/checkout@main
