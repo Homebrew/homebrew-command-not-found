@@ -166,7 +166,7 @@ module Homebrew
     def update_bottled_formula(formula)
       formula.bottle.fetch
       path = formula.bottle.resource.cached_download.to_s
-      content = Utils.popen_read("tar", "tzvf", path, "*/bin/*")
+      content = Utils.popen_read("tar", "tzvf", path, "*/bin/*", "*/sbin/*")
       binaries = []
       prefix = formula.prefix.relative_path_from(HOMEBREW_CELLAR).to_s
       binpath_re = %r{^#{prefix}/s?bin/}
