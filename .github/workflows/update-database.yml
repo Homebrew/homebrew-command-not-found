@@ -51,3 +51,5 @@ jobs:
 
       - name: Push commits
         uses: Homebrew/actions/git-try-push@master
+        with:
+          token: ${{ secrets.HOMEBREW_GITHUB_PUBLIC_REPO_TOKEN }}
