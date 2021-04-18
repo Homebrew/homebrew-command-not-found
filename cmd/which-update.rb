@@ -20,9 +20,12 @@ module Homebrew
              description: "Update database entries with outdated formula versions."
       switch "--install-missing",
              description: "Install and update formulae that are missing from the database and don't have bottles."
+      flag   "--max-downloads=",
+             description: "Specify a maximum number of formulae to download and update."
       conflicts "--stats", "--commit"
       conflicts "--stats", "--install-missing"
       conflicts "--stats", "--update-existing"
+      conflicts "--stats", "--max-downloads"
       named_args :database, max: 1
     end
   end
@@ -35,7 +38,8 @@ module Homebrew
     else
       Homebrew::WhichUpdate.update_and_save! source: args.named.first, commit: args.commit?,
                                              update_existing: args.update_existing?,
-                                             install_missing: args.install_missing?
+                                             install_missing: args.install_missing?,
+                                             max_downloads: args.max_downloads
     end
   end
 end

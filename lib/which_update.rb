@@ -43,10 +43,11 @@ module Homebrew
       nil
     end
 
-    def update_and_save!(source: nil, commit: false, update_existing: false, install_missing: false)
+    def update_and_save!(source: nil, commit: false, update_existing: false, install_missing: false,
+                         max_downloads: nil)
       source ||= default_source
       db = ExecutablesDB.new source
-      db.update!(update_existing: update_existing, install_missing: install_missing)
+      db.update!(update_existing: update_existing, install_missing: install_missing, max_downloads: max_downloads)
       db.save!
       return if !commit || !db.changed?
 
