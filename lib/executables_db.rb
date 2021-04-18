@@ -51,8 +51,11 @@ module Homebrew
 
     # update the DB with the installed formulae
     # @see #save!
-    def update!(update_existing: false, install_missing: false)
+    def update!(update_existing: false, install_missing: false, max_downloads: nil)
+      downloads = 0
+      opoo max_downloads
       Formula.each do |f|
+        break if max_downloads.present? && downloads > max_downloads.to_i
         next if f.tap?
 
         name = f.full_name
@@ -61,6 +64,7 @@ module Homebrew
 
         # Install unbottled formulae if they should be added/updated
         if !f.bottled? && install_missing && update_formula
+          downloads += 1
           ohai "Installing #{f}"
           system HOMEBREW_BREW_FILE, "install", "--formula", f.to_s
         end
@@ -69,6 +73,7 @@ module Homebrew
         if f.latest_version_installed?
           update_installed_formula f
         elsif f.bottled? && update_formula
+          downloads += 1
           update_bottled_formula f
         end
 
