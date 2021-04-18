@@ -53,7 +53,6 @@ module Homebrew
     # @see #save!
     def update!(update_existing: false, install_missing: false, max_downloads: nil)
       downloads = 0
-      opoo max_downloads
       Formula.each do |f|
         break if max_downloads.present? && downloads > max_downloads.to_i
         next if f.tap?
