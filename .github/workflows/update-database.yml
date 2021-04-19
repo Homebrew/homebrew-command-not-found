@@ -19,12 +19,6 @@ jobs:
     if: startsWith( github.repository, 'Homebrew/' )
     runs-on: macos-latest
     steps:
-      - name: Check out repository
-        uses: actions/checkout@main
-        with:
-          fetch-depth: 0
-          ref: master
-
       - name: Set up Homebrew
         id: set-up-homebrew
         uses: Homebrew/actions/setup-homebrew@master
@@ -39,7 +33,15 @@ jobs:
         with:
           signing_key: ${{ secrets.BREWTESTBOT_GPG_SIGNING_SUBKEY }}
 
+      - name: Check out repository
+        uses: actions/checkout@main
+        with:
+          fetch-depth: 0
+          ref: master
+          path: repo
+
       - name: Update database
+        working-directory: repo
         env:
           HOMEBREW_GPG_PASSPHRASE: ${{ secrets.BREWTESTBOT_GPG_SIGNING_SUBKEY_PASSPHRASE }}
         run: |
@@ -50,9 +52,11 @@ jobs:
           brew which-update --commit --update-existing --install-missing $MAX_DOWNLOADS_ARGS executables.txt
 
       - name: Output database stats
+        working-directory: repo
         run: brew which-update --stats executables.txt
 
       - name: Push commits
         uses: Homebrew/actions/git-try-push@master
         with:
           token: ${{ secrets.HOMEBREW_GITHUB_PUBLIC_REPO_TOKEN }}
+          directory: repo
