@@ -32,10 +32,11 @@ module Homebrew
 
       core_percentage = ((formulae & core).size * 1000 / core.size.to_f).round / 10.0
 
+      missing = (core - formulae).reject { |f| Formula[f].disabled? }
       puts <<~EOS
         #{formulae.size} formulae
         #{cmds_count} commands
-        #{core_percentage}%  (missing: #{(core - formulae) * " "})
+        #{core_percentage}%  (missing: #{missing * " "})
       EOS
 
       unknown = formulae - Formula.full_names

@@ -53,11 +53,17 @@ module Homebrew
     # @see #save!
     def update!(update_existing: false, install_missing: false, max_downloads: nil)
       downloads = 0
+      disabled_formulae = []
       Formula.each do |f|
         break if max_downloads.present? && downloads > max_downloads.to_i
         next if f.tap?
 
         name = f.full_name
+
+        if f.disabled?
+          disabled_formulae << name
+          next
+        end
 
         update_formula = missing_formula?(f) || (update_existing && outdated_formula?(f))
 
@@ -85,7 +91,7 @@ module Homebrew
         end
       end
 
-      removed = @exes.keys - Formula.full_names
+      removed = (@exes.keys - Formula.full_names) | disabled_formulae
       removed.each do |name|
         @exes.delete name
         @changes[:remove] << name
