@@ -21,7 +21,7 @@ acl2(8.3_7):acl2 acl2p
 acme(0.97):acme
 acmetool(0.0.67_1):acmetool
 acpica(20210331):acpibin acpidump acpiexamples acpiexec acpihelp acpisrc acpixtract iasl
-act(0.2.21):act
+act(0.2.22):act
 activemq(5.16.2):activemq
 activemq-cpp(3.9.5_1):activemqcpp-config example
 adios2(2.7.1):adios2-config adios2_deactivate_bp adios2_iotest adios2_reorganize adios2_reorganize_mpi bpls sst_conn_tool
@@ -261,7 +261,7 @@ aws-okta(1.0.11):aws-okta
 aws-rotate-key(1.0.7):aws-rotate-key
 aws-sdk-cpp(1.8.170):
 aws-shell(0.2.2):aws-shell aws-shell-mkindex
-awscli(2.2.2):aws aws_completer aws_legacy_completer
+awscli(2.2.3):aws aws_completer aws_legacy_completer
 awscli@1(1.19.60):aws aws_completer
 awscurl(0.21_2):awscurl
 awslogs(0.14.0_1):awslogs
@@ -618,7 +618,7 @@ cheat(4.2.1):cheat
 check(0.15.2):checkmk
 check_postgres(2.25.0_1):check_postgres
 checkbashisms(2.21.2):checkbashisms
-checkov(2.0.105):checkov checkov.cmd
+checkov(2.0.120):checkov checkov.cmd
 checkstyle(8.42):checkstyle
 cheops(1.3):cheops
 cherrytree(0.99.36):cherrytree
@@ -679,7 +679,7 @@ clib(2.7.0):clib clib-build clib-configure clib-init clib-install clib-search cl
 click(0.5.3):click
 cliclick(5.0):cliclick
 clinfo(3.0.21.02.21):clinfo
-cling(0.7):cling
+cling(0.9):cling
 clingo(5.5.0):clasp clingo gringo lpconvert reify
 clip(0.7):clip
 clipper(2.0.0):clipper
@@ -693,7 +693,7 @@ clojure(1.10.3.822):clj clojure
 clojure-lsp(20210427T201745):clojure-lsp
 clojurescript(1.10.758_1):cljsc
 cloog(0.18.4_3):cloog
-closure-compiler(20210406):closure-compiler
+closure-compiler(20210505):closure-compiler
 closure-stylesheets(1.5.0_1):closure-stylesheets
 cloud-nuke(0.1.30):cloud-nuke
 cloud-watch(1.0.20.0_1):mon-cmd mon-delete-alarms mon-describe-alarm-history mon-describe-alarms mon-describe-alarms-for-metric mon-disable-alarm-actions mon-enable-alarm-actions mon-get-stats mon-list-metrics mon-put-data mon-put-metric-alarm mon-set-alarm-state mon-version
@@ -762,7 +762,7 @@ concurrencykit(0.7.0):
 condure(1.2.0):condure
 confd(0.16.0):confd
 configen(1.1.2):configen
-conftest(0.24.0):conftest
+conftest(0.25.0):conftest
 confuse(3.3):
 conjure-up(2.6.14_3):conjure-down conjure-up kv-cli
 connect(1.105):connect
@@ -793,7 +793,7 @@ coturn(4.5.2):turnadmin turnserver turnutils_natdiscovery turnutils_oauth turnut
 couchdb(3.1.1_2):couchdb couchjs remsh
 couchdb-lucene(2.1.0_2):cl_kill_ppid cl_run
 couchpotatoserver(3.0.1):couchpotatoserver
-counterfeiter(6.4.0):counterfeiter
+counterfeiter(6.4.1):counterfeiter
 cowsay(3.04_1):cowsay cowthink
 cp2k(6.1_2):cp2k.popt cp2k.psmp cp2k.sopt cp2k.ssmp cp2k_shell.popt cp2k_shell.psmp cp2k_shell.sopt cp2k_shell.ssmp
 cpanminus(1.9019):cpanm
@@ -834,8 +834,8 @@ crf++(0.58):
 crispy-doom(5.10.1):crispy-doom crispy-doom-setup crispy-heretic crispy-heretic-setup crispy-server
 crm114(20100106):crm cssdiff cssmerge cssutil osbf-util
 croaring(0.3.1):
-croc(9.1.1):croc
-cromwell(61):cromwell womtool
+croc(9.1.2):croc
+cromwell(62):cromwell womtool
 cronolog(1.6.2):
 crosstool-ng(1.24.0_2):ct-ng
 crowdin(3.6.0):crowdin
@@ -938,6 +938,7 @@ dcmtk(3.6.6):cda2dcm dcm2json dcm2pdf dcm2pnm dcm2xml dcmcjpeg dcmcjpls dcmconv 
 dcos-cli(1.2.0):dcos
 dcraw(9.28.0):dcraw
 ddate(0.2.2):ddate
+ddcctl(0):ddcctl
 ddclient(3.9.1):
 ddd(3.3.12_1):ddd
 ddgr(1.9_1):ddgr
@@ -995,7 +996,7 @@ dieharder(3.31.1_3):dieharder
 diesel(1.4.6):diesel
 diff-pdf(0.5):diff-pdf
 diff-so-fancy(1.4.0):diff-so-fancy
-diffoscope(173):diffoscope
+diffoscope(174):diffoscope
 diffr(0.1.4):diffr
 diffstat(1.64):diffstat
 diffutils(3.7):cmp diff diff3 sdiff
@@ -1183,7 +1184,7 @@ ejabberd(21.04):
 ejdb(2.0.58):jbs
 ekg2(0.3.1_4):ekg2
 ekhtml(0.3.2):
-eksctl(0.47.0):eksctl
+eksctl(0.48.0):eksctl
 elasticsearch(7.10.2):elasticsearch elasticsearch-keystore elasticsearch-plugin elasticsearch-shard
 elasticsearch@6(6.8.13):elasticsearch elasticsearch-keystore elasticsearch-plugin elasticsearch-translog
 elb-tools(1.0.35.0_1):elb-apply-security-groups-to-lb elb-associate-route53-hosted-zone elb-attach-lb-to-subnets elb-cmd elb-configure-healthcheck elb-create-app-cookie-stickiness-policy elb-create-lb elb-create-lb-cookie-stickiness-policy elb-create-lb-listeners elb-create-lb-policy elb-delete-lb elb-delete-lb-listeners elb-delete-lb-policy elb-deregister-instances-from-lb elb-describe-instance-health elb-describe-lb-attributes elb-describe-lb-policies elb-describe-lb-policy-types elb-describe-lbs elb-detach-lb-from-subnets elb-disable-zones-for-lb elb-disassociate-route53-hosted-zone elb-enable-zones-for-lb elb-modify-lb-attributes elb-register-instances-with-lb elb-set-lb-listener-ssl-cert elb-set-lb-policies-for-backend-server elb-set-lb-policies-of-listener elb-version
@@ -1379,7 +1380,7 @@ flint(2.7.1):
 flint-checker(0.1.0):flint
 flintrock(1.0.0_3):flintrock
 flit(3.2.0):flit
-flow(0.150.0):flow
+flow(0.150.1):flow
 flow-cli(0.19.0):flow
 flow-tools(0.68.5.1):flow-capture flow-cat flow-dscan flow-expire flow-export flow-fanout flow-filter flow-gen flow-header flow-import flow-log2rrd flow-mask flow-merge flow-nfilter flow-print flow-receive flow-report flow-rpt2rrd flow-rptfmt flow-send flow-split flow-stat flow-tag flow-xlate
 flowgrind(0.8.0_2):flowgrind flowgrind-stop
@@ -1454,7 +1455,7 @@ frps(0.36.2):frps
 frugal(3.14.4):frugal
 fruit(3.6.0):
 fs-uae(3.0.5_1):fs-uae fs-uae-device-helper
-fselect(0.7.4):fselect
+fselect(0.7.5):fselect
 fsevent_watch(0.2):fsevent_watch
 fsevents-tools(1.0.0):autorsync notifyloop notifywait
 fsh(1.2):fcp fsh fshd in.fshd
@@ -1631,7 +1632,7 @@ git-remote-gcrypt(1.4):git-remote-gcrypt
 git-remote-hg(0.4_2):git-remote-hg
 git-review(2.1.0):git-review
 git-revise(0.6.0_1):git-revise
-git-secret(0.3.3):git-secret
+git-secret(0.4.0):git-secret
 git-secrets(1.3.0):git-secrets
 git-series(0.9.1_3):git-series
 git-sizer(1.4.0):git-sizer
@@ -1675,7 +1676,7 @@ glade(3.38.2):glade glade-previewer
 glances(3.1.7):glances
 glassfish(6.0.0):asadmin debug-asadmin
 glbinding(2.1.4):
-gleam(0.15.0):gleam
+gleam(0.15.1):gleam
 glew(2.2.0_1):glewinfo visualinfo
 glfw(3.3.4):
 glib(2.68.1):gdbus gdbus-codegen gio gio-querymodules glib-compile-resources glib-compile-schemas glib-genmarshal glib-gettextize glib-mkenums gobject-query gresource gsettings gtester gtester-report
@@ -1691,7 +1692,7 @@ global(6.6.4_1):global globash gozilla gtags gtags-cscope htags htags-server
 globe(0.0.20140814):globe
 globjects(1.1.0):
 glog(0.4.0):
-glooctl(1.7.3):glooctl
+glooctl(1.7.4):glooctl
 gloox(1.0.24):gloox-config
 glow(1.4.1):glow
 glpk(5.0):glpsol
@@ -1785,7 +1786,7 @@ goolabs(0.4.0_3):goolabs
 goose(2.7.0):goose
 gopass(1.12.6):gopass
 gopass-jsonapi(1.11.1):gopass-jsonapi
-gopls(0.6.10):gopls
+gopls(0.6.11):gopls
 gor(1.2.0):gor
 goredo(1.3.0):goredo redo redo-always redo-cleanup redo-dot redo-ifchange redo-ifcreate redo-log redo-ood redo-sources redo-stamp redo-targets redo-whichdo
 goreleaser(0.164.0):goreleaser
@@ -2452,7 +2453,7 @@ ldns(1.7.1_3):drill ldns-chaos ldns-compare-zones ldns-config ldns-dane ldns-dpa
 ldpl(4.4):ldpl lpm
 le(1.16.7):le
 leaf(1.3.0):leaf
-leaf-proxy(0.3.0):leaf
+leaf-proxy(0.3.1):leaf
 leakcanary-shark(2.7):shark-cli
 lean(3.29.0):lean leanchecker leanpkg
 lean-cli(0.24.3):lean
@@ -2752,7 +2753,7 @@ librcsc(4.1.0):librcsc-config librcscenv rcg2txt rcgrenameteam rcgresultprinter 
 librdkafka(1.6.1):
 libre(0.6.1):
 libreadline-java(0.8.0_3):
-librealsense(2.43.0):realsense-viewer rs-align rs-align-advanced rs-ar-advanced rs-ar-basic rs-benchmark rs-callback rs-capture rs-color rs-convert rs-data-collect rs-depth rs-depth-quality rs-distance rs-enumerate-devices rs-fw-logger rs-fw-update rs-hdr rs-hello-realsense rs-measure rs-motion rs-multicam rs-pointcloud rs-pose rs-pose-and-image rs-pose-predict rs-post-processing rs-record rs-record-playback rs-rosbag-inspector rs-save-to-disk rs-sensor-control rs-software-device rs-terminal rs-tracking-and-depth rs-trajectory
+librealsense(2.44.0):realsense-viewer rs-align rs-align-advanced rs-ar-advanced rs-ar-basic rs-benchmark rs-callback rs-capture rs-color rs-convert rs-data-collect rs-depth rs-depth-quality rs-distance rs-enumerate-devices rs-fw-logger rs-fw-update rs-hdr rs-hello-realsense rs-measure rs-motion rs-multicam rs-pointcloud rs-pose rs-pose-and-image rs-pose-predict rs-post-processing rs-record rs-record-playback rs-rosbag-inspector rs-save-to-disk rs-sensor-control rs-software-device rs-terminal rs-tracking-and-depth rs-trajectory
 librem(0.6.0):
 libreplaygain(r475):
 libresample(0.1.3):
@@ -2995,7 +2996,7 @@ luvit(2.17.0_1):lit luvi luvit
 lv(4.51_1):lgrep lv
 lv2(1.18.2):lv2_validate lv2specgen.py
 lwtools(4.18):lwar lwasm lwcc lwcc-cc lwcc-cpp lwlink lwobjdump
-lxc(4.13):lxc
+lxc(4.14):lxc
 lxsplit(0.2.4):lxsplit
 lychee(0.7.0):lychee
 lynis(3.0.3):lynis
@@ -3006,7 +3007,7 @@ lzip(1.22):lzip
 lzlib(1.12):
 lzo(2.10):
 lzop(1.04):lzop
-m-cli(0.2.5):m
+m-cli(0.3.0):m
 m4(1.4.18):m4
 mac-robber(1.02):mac-robber
 macchina(0.7.4):macchina
@@ -3038,7 +3039,7 @@ man-db(2.9.4_1):catman gapropos gcatman glexgrog gman gman-recode gmandb gmanpat
 man2html(3.0.1):man2html
 mandoc(1.14.5):demandoc soelim
 mandown(1.0.1):mdn
-manticoresearch(3.5.4):index_converter indexer indextool searchd spelldump wordbreaker
+manticoresearch(3.6.0):index_converter indexer indextool searchd spelldump wordbreaker
 mapcidr(0.0.6):mapcidr
 mapcrafter(2.4_3):mapcrafter mapcrafter_export mapcrafter_markers mapcrafter_png-it.py mapcrafter_textures.py
 mapnik(3.1.0_2):mapnik-config mapnik-index mapnik-render shapeindex
@@ -3153,7 +3154,7 @@ minica(1.0.2):minica
 minicom(2.8):ascii-xfr minicom runscript xminicom
 minidjvu(0.8):minidjvu
 minidlna(1.3.0):
-minikube(1.19.0):minikube
+minikube(1.20.0):minikube
 minimal-racket(8.1):racket raco
 minimesos(0.13.0_1):minimesos
 minimodem(0.24):minimodem
@@ -3314,7 +3315,7 @@ mvnvm:mvn
 mvtools(23_1):
 mx(5.296.0):mx
 mycli(1.24.1_1):mycli
-mydumper(0.10.3):mydumper myloader
+mydumper(0.10.5):mydumper myloader
 myman(2009-10-30):myman myman-0.7.1 myman.command
 mypy(0.812):dmypy mypy mypyc stubgen stubtest
 mysql(8.0.23_1):comp_err ibd2sdi innochecksum lz4_decompress my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_config mysql_config_editor mysql_secure_installation mysql_ssl_rsa_setup mysql_tzinfo_to_sql mysql_upgrade mysqladmin mysqlbinlog mysqlcheck mysqld mysqld_multi mysqld_safe mysqldump mysqldumpslow mysqlimport mysqlpump mysqlrouter mysqlrouter_keyring mysqlrouter_passwd mysqlrouter_plugin_info mysqlshow mysqlslap mysqltest mysqltest_safe_process mysqlxtest perror zlib_decompress
@@ -3517,7 +3518,7 @@ ocrad(0.27):ocrad
 ocrmypdf(12.0.1):ocrmypdf
 octant(0.19.0):octant
 octave(6.2.0_2):mkoctfile mkoctfile-6.2.0 octave octave-6.2.0 octave-cli octave-cli-6.2.0 octave-config octave-config-6.2.0
-octomap(1.9.6):binvox2bt bt2vrml compare_octrees convert_octree edit_octree eval_octree_accuracy graph2tree log2graph
+octomap(1.9.7):binvox2bt bt2vrml compare_octrees convert_octree edit_octree eval_octree_accuracy graph2tree log2graph
 ode(0.16.2):ode-config
 odin(0.13.0_1):odin
 odo(0.2.2):odo
@@ -3564,14 +3565,14 @@ open-tyrian(2.1.20130907):opentyrian
 open-zwave(1.6.1080):MinOZW ozw_config
 openal-soft(1.21.1):openal-info
 openalpr(2.3.0):alpr alprd openalpr-utils-benchmark openalpr-utils-calibrate openalpr-utils-classifychars openalpr-utils-prepcharsfortraining openalpr-utils-tagplates
-openapi-generator(5.1.0):openapi-generator
+openapi-generator(5.1.1):openapi-generator
 openblas(0.3.15):
 opencascade(7.5.1):DRAWEXE DRAWEXE-7.5.1 custom.sh custom_clang_64.sh draw.sh env.sh
 opencbm(0.4.99.103):cbmcopy cbmctrl cbmformat cbmforng cbmlinetester cbmread cbmrpm41 cbmwrite d64copy d82copy frm_analyzer imgcopy opencbm_plugin_helper_tools samplelibtransf testlines xum1541cfg
 opencc(1.1.2):opencc opencc_dict opencc_phrase_extract
 openclonk(7.0_3):c4group c4script openclonk
 opencoarrays(2.9.2):caf cafrun
-opencolorio(2.0.0):ociobakelut ociocheck ociochecklut ociomakeclf ociowrite
+opencolorio(2.0.1):ociobakelut ociocheck ociochecklut ociomakeclf ociowrite
 openconnect(8.10):openconnect
 opencore-amr(0.1.5):
 opencsg(1.4.2_3):
@@ -3586,7 +3587,7 @@ openfortivpn(1.16.0):openfortivpn
 openfst(1.8.0):farcompilestrings farconvert farcreate farequal farextract farinfo farisomorphic farprintstrings fstarcsort fstclosure fstcompile fstcompose fstcompress fstconcat fstconnect fstconvert fstdeterminize fstdifference fstdisambiguate fstdraw fstencode fstepsnormalize fstequal fstequivalent fstinfo fstintersect fstinvert fstisomorphic fstlinear fstloglinearapply fstmap fstminimize fstprint fstproject fstprune fstpush fstrandgen fstrelabel fstreplace fstreverse fstreweight fstrmepsilon fstshortestdistance fstshortestpath fstspecial fstsymbols fstsynchronize fsttopsort fstunion mpdtcompose mpdtexpand mpdtinfo mpdtreverse pdtcompose pdtexpand pdtinfo pdtreplace pdtreverse pdtshortestpath
 openh264(2.1.1_1):
 openhmd(0.3.0):simple
-openimageio(2.2.13.1):iconvert idiff igrep iinfo maketx oiiotool
+openimageio(2.2.14.0):iconvert idiff igrep iinfo maketx oiiotool
 openj9(0.26.0):jar jarsigner java javac javadoc javap jcmd jconsole jdb jdeprscan jdeps jdmpview jextract jimage jlink jmap jmod jpackage jpackcore jps jrunscript jshell jstack jstat keytool rmid rmiregistry serialver traceformat
 openjazz(20190106):OpenJazz
 openjdk(15.0.2):jaotc jar jarsigner java javac javadoc javap jcmd jconsole jdb jdeprscan jdeps jfr jhsdb jimage jinfo jlink jmap jmod jpackage jps jrunscript jshell jstack jstat jstatd keytool rmid rmiregistry serialver
@@ -3623,7 +3624,7 @@ opus(1.3.1):
 opus-tools(0.2):opusdec opusenc opusinfo
 opusfile(0.12):
 oq(1.2.0):oq
-or-tools(8.2_2):fz
+or-tools(9.0):fz
 oras(0.11.1):oras
 orbit(2.14.19_1):ior-decode-2 linc-cleanup-sockets orbit-idl-2 orbit2-config typelib-dump
 orc(0.4.32):orc-bugreport orcc
@@ -3633,8 +3634,8 @@ organize-tool(1.10.1):organize
 orientdb(3.2.0):orientdb orientdb-console orientdb-gremlin
 ormolu(0.1.4.1):ormolu
 orocos-kdl(1.4.0):
-ortp(4.5.10):
-ory-hydra(1.10.1):hydra
+ortp(4.5.13):
+ory-hydra(1.10.2):hydra
 osc(0.172.0):osc
 oscats(0.6_4):
 osi(0.108.6):
@@ -3794,7 +3795,7 @@ pgxnclient(1.3.1):pgxn pgxnclient
 phive(0.14.5):phive
 phoon(04A):phoon
 phoronix-test-suite(10.2.2):phoronix-test-suite
-php(8.0.5):pear peardev pecl phar phar.phar php php-cgi php-config php-fpm phpdbg phpize
+php(8.0.6):pear peardev pecl phar phar.phar php php-cgi php-config php-fpm phpdbg phpize
 php-code-sniffer(3.6.0):phpcbf phpcs
 php-cs-fixer(3.0.0):php-cs-fixer
 php@7.2(7.2.34_3):pear peardev pecl phar phar.phar php php-cgi php-config php-fpm phpdbg phpize
@@ -3891,7 +3892,7 @@ polyglot(2.0.4):polyglot
 polyml(5.8.2):poly polyc polyimport
 polynote(0.3.12):polynote
 pony-stable(0.2.2):stable
-ponyc(0.39.1):ponyc
+ponyc(0.41.0):ponyc
 ponysay(3.0.3_6):ponysay ponysay-tool ponythink
 poppler(21.05.0):pdfattach pdfdetach pdffonts pdfimages pdfinfo pdfseparate pdfsig pdftocairo pdftohtml pdftoppm pdftops pdftotext pdfunite
 popt(1.18):
@@ -3918,7 +3919,7 @@ pprint(0.9.1):
 ppss(2.97):ppss
 ppsspp(1.11.3):ppsspp
 pqiv(2.12_2):pqiv
-pre-commit(2.12.1):pre-commit pre-commit-validate-config pre-commit-validate-manifest
+pre-commit(2.12.1_1):pre-commit pre-commit-validate-config pre-commit-validate-manifest
 precomp(0.4.7):precomp
 predictionio(0.14.0_1):pio
 prefixsuffix(0.6.9_9):prefixsuffix
@@ -4024,7 +4025,7 @@ pyqt-3d(6.0.3):
 pyqt-builder(1.9.1):pyqt-bundle pyqt-qt-wheel
 pyqt-networkauth(6.0.3):
 pyqt@5(5.15.4_1):pylupdate5 pyrcc5 pyuic5
-pyside(6.0.3):pyside_tool.py shiboken6 shiboken_tool.py
+pyside(6.0.4):pyside_tool.py shiboken6 shiboken_tool.py
 pyside@2(5.15.2):pyside2-lupdate pyside_tool.py rcc shiboken2 shiboken_tool.py uic
 python-markdown(3.3.4):markdown_py
 python-tabulate(0.8.9):tabulate
@@ -4227,7 +4228,7 @@ rnv(1.7.11):arx rnv rvp xsdck
 robodoc(4.99.44):robodoc robohdrs
 robot-framework(4.0.1):libdoc rebot robot
 robotfindskitten(2.8284271.702_1):robotfindskitten
-rocksdb(6.19.3):rocksdb_dump rocksdb_ldb rocksdb_repl_stress rocksdb_sanity_test rocksdb_sst_dump rocksdb_stress rocksdb_undump rocksdb_write_stress
+rocksdb(6.20.3):rocksdb_dump rocksdb_ldb rocksdb_repl_stress rocksdb_sanity_test rocksdb_sst_dump rocksdb_stress rocksdb_undump rocksdb_write_stress
 rogue(5.4.4):rogue
 roll(2.5.0):roll
 rolldice(1.16):rolldice
@@ -4280,7 +4281,7 @@ rust(1.51.0):cargo rust-gdb rust-gdbgui rust-lldb rustc rustdoc
 rust-analyzer(2021-05-03):rust-analyzer
 rustc-completion(0.12.1):
 rustscan(2.0.1):rustscan
-rustup-init(1.23.1):rustup-init
+rustup-init(1.24.1):rustup-init
 rxvt-unicode(9.22_4):urxvt urxvtc urxvtd
 ry(0.5.2):ry
 rzip(2.1):runzip rzip
@@ -4288,7 +4289,7 @@ s-lang(2.3.2):slsh
 s-nail(14.9.22):s-nail s-nail-uninstall.sh
 s-search(0.5.15):s
 s2geometry(0.9.0_2):
-s2n(1.0.5):
+s2n(1.0.7):
 s3cmd(2.1.0_2):s3cmd
 s6(2.9.2.0):execlineb s6-accessrules-cdb-from-fs s6-accessrules-fs-from-cdb s6-applyuidgid s6-cleanfifodir s6-connlimit s6-envdir s6-envuidgid s6-fdholder-daemon s6-fdholder-delete s6-fdholder-getdump s6-fdholder-list s6-fdholder-retrieve s6-fdholder-setdump s6-fdholder-store s6-fdholder-transferdump s6-fdholderd s6-fghack s6-ftrig-listen s6-ftrig-listen1 s6-ftrig-notify s6-ftrig-wait s6-ftrigrd s6-ioconnect s6-ipcclient s6-ipcserver s6-ipcserver-access s6-ipcserver-socketbinder s6-ipcserverd s6-log s6-mkfifodir s6-notifyoncheck s6-permafailon s6-setlock s6-setsid s6-setuidgid s6-softlimit s6-sudo s6-sudoc s6-sudod s6-supervise s6-svc s6-svdt s6-svdt-clear s6-svlisten s6-svlisten1 s6-svok s6-svscan s6-svscanctl s6-svstat s6-svwait s6-tai64n s6-tai64nlocal s6lockd ucspilogd
 safe-rm(1.1.0):safe-rm
@@ -4375,7 +4376,7 @@ sec(2.8.3):sec
 seexpr(3.0.1):asciiCalc2 asciiGraph2 imageSynth2 imageSynthPaint3d2
 selecta(0.0.7):selecta
 selenium-server-standalone(3.141.59_2):selenium-server
-semgrep(0.49.0):semgrep spacegrep
+semgrep(0.50.1):semgrep spacegrep
 semtag(0.1.1):semtag
 sendemail(1.56):sendEmail
 sentencepiece(0.1.95):spm_decode spm_encode spm_export_vocab spm_normalize spm_train
@@ -4759,7 +4760,7 @@ tcptrace(6.6.7):tcptrace
 tcptraceroute(1.5beta7_2):tcptraceroute
 tcptunnel(0.8):tcptunnel
 tcsh(6.22.03_1):csh tcsh
-tctl(1.9.0):tctl
+tctl(1.9.1):tctl
 td(1.4.1):td
 tdkjs(3.2.0):tdkjs
 tdlib(1.7.0):
@@ -4792,7 +4793,7 @@ termshare(0.2.0_1):termshare
 termshark(2.2.0):termshark
 termtosvg(1.1.0_2):termtosvg
 terracognita(0.6.4):terracognita
-terraform(0.15.2):terraform
+terraform(0.15.3):terraform
 terraform-docs(0.13.0):terraform-docs
 terraform-inventory(0.9):terraform-inventory
 terraform-ls(0.16.1):terraform-ls
@@ -5096,7 +5097,7 @@ virtualenvwrapper(4.8.4):virtualenvwrapper.sh virtualenvwrapper_lazy.sh
 virtualhost.sh(1.35):virtualhost.sh
 virtualpg(2.0.1):
 virtuoso(7.2.5.1_1):inifile isql isqlw virt_mail virtuoso-t
-virustotal-cli(0.9.5):vt
+virustotal-cli(0.9.6):vt
 vis(0.7):vis-clipboard vis-complete vis-digraph vis-menu vis-open vise
 visionmedia-watch(0.3.1):watch
 visitors(0.7):visitors
@@ -5315,7 +5316,7 @@ xorriso(1.5.4):osirrox xorrecord xorriso xorriso-tcltk xorrisofs
 xpa(2.1.20):xpaaccess xpaget xpainfo xpamb xpans xpaset
 xpdf(4.03_1):pdfdetach pdffonts pdfimages pdfinfo pdftohtml pdftopng pdftoppm pdftops pdftotext xpdf
 xplanet(1.3.1_4):xplanet
-xplr(0.5.12):xplr
+xplr(0.5.13):xplr
 xqilla(2.3.4):xqilla
 xray(1.4.2):xray
 xrick(021212):xrick
@@ -5326,7 +5327,7 @@ xshogi(1.4.2_1):xshogi
 xsimd(7.5.0):
 xsv(0.13.0):xsv
 xsw(0.3.5):xsw xsw2jpeg xsw2pdf xsw2png xswconv
-xtensor(0.23.8):
+xtensor(0.23.9):
 xterm(367):koi8rxterm resize uxterm xterm
 xtitle(1.0.4):xtctl xtitle
 xtrans(1.4.0):
