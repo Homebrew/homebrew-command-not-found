@@ -77,7 +77,7 @@ amdatu-bootstrap(9_1):amdatu-bootstrap
 ammonite-repl(2.3.8):amm
 amp(0.6.2_1):amp
 ampl-mp(3.1.0_3):tableproxy64
-amqp-cpp(4.3.11):
+amqp-cpp(4.3.12):
 amtk(5.2.0):
 amtterm(1.6):amtterm amttool
 analog(6.0_1):analog
@@ -250,7 +250,7 @@ avro-tools(1.10.2):avro-tools
 awf(1.4.0_2):awf-gtk2 awf-gtk3
 awk(20180827):awk
 aws-apigateway-importer(1.0.1_1):aws-api-import
-aws-cdk(1.103.0):cdk
+aws-cdk(1.104.0):cdk
 aws-cfn-tools(1.0.12_1):cfn-cancel-update-stack cfn-cmd cfn-create-stack cfn-delete-stack cfn-describe-stack-events cfn-describe-stack-resource cfn-describe-stack-resources cfn-describe-stacks cfn-get-template cfn-list-stack-resources cfn-list-stacks cfn-update-stack cfn-validate-template cfn-version
 aws-console(1.2.0):aws-console
 aws-elasticbeanstalk(3.19.4):eb ebp
@@ -262,7 +262,7 @@ aws-okta(1.0.11):aws-okta
 aws-rotate-key(1.0.7):aws-rotate-key
 aws-sdk-cpp(1.9.10):sha256_profile
 aws-shell(0.2.2):aws-shell aws-shell-mkindex
-awscli(2.2.4):aws aws_completer aws_legacy_completer
+awscli(2.2.5):aws aws_completer aws_legacy_completer
 awscli@1(1.19.70):aws aws_completer
 awscurl(0.21_2):awscurl
 awslogs(0.14.0_1):awslogs
@@ -371,7 +371,7 @@ bison@2.7(2.7.1_1):bison yacc
 bit(14.8.8):bit
 bit-git(1.1.1):bit bit-git
 bitchx(1.2.1_1):BitchX BitchX-1.2.1 scr-bx
-bitcoin(0.21.0):bench_bitcoin bitcoin-cli bitcoin-tx bitcoin-wallet bitcoind test_bitcoin
+bitcoin(0.21.1):bench_bitcoin bitcoin-cli bitcoin-tx bitcoin-wallet bitcoind test_bitcoin
 bitlbee(3.6):
 bitrise(1.46.0):bitrise
 bittwist(2.0):bittwist bittwiste
@@ -420,7 +420,7 @@ boringtun(0.3.0):boringtun
 bork(0.12.0):bork
 botan(2.18.1):botan
 bower(1.8.10):bower
-bowtie2(2.4.2):bowtie2 bowtie2-align-l bowtie2-align-s bowtie2-build bowtie2-build-l bowtie2-build-s bowtie2-inspect bowtie2-inspect-l bowtie2-inspect-s
+bowtie2(2.4.3):bowtie2 bowtie2-align-l bowtie2-align-s bowtie2-build bowtie2-build-l bowtie2-build-s bowtie2-inspect bowtie2-inspect-l bowtie2-inspect-s
 box2d(2.4.1):
 boxes(2.0.0):boxes
 bpm-tools(0.3):bpm bpm-tag
@@ -693,7 +693,7 @@ clockywock(0.3.1a):clockywock
 clog(1.3.0):clog
 clojure(1.10.3.833):clj clojure
 clojure-lsp(20210506T194400):clojure-lsp
-clojurescript(1.10.758_1):cljsc
+clojurescript(1.10.844):cljsc
 cloog(0.18.4_3):cloog
 closure-compiler(20210505):closure-compiler
 closure-stylesheets(1.5.0_1):closure-stylesheets
@@ -964,7 +964,7 @@ derby(10.15.2.0):NetworkServerControl dblook ij setEmbeddedCP setNetworkClientCP
 desk(0.6.0):desk
 desktop-file-utils(0.26):desktop-file-edit desktop-file-install desktop-file-validate update-desktop-database
 detach(0.2.3):detach
-detekt(1.16.0):detekt
+detekt(1.17.0):detekt
 detox(1.4.2):detox inline-detox
 devd(0.9):devd
 devdash(0.5.0):devdash
@@ -1152,7 +1152,7 @@ dwdiff(2.1.4_2):dwdiff dwfilter
 dwm(6.2_2):dwm
 dxflib(2.5.0.0-1):
 dxpy(0.310.0):dx dx-app-wizard dx-build-app dx-build-applet dx-clone-asset dx-docker dx-download-all-inputs dx-fetch-bundled-depends dx-generate-dxapp dx-jobutil-add-output dx-jobutil-dxlink dx-jobutil-new-job dx-jobutil-parse-link dx-jobutil-report-error dx-log-stream dx-mount-all-inputs dx-notebook-reconnect dx-print-bash-vars dx-upload-all-outputs
-dyld-headers(832.7.3):
+dyld-headers(851.27):
 dylibbundler(1.0.0):dylibbundler
 dynamips(0.2.21):dynamips nvram_export
 dynare(4.6.4_1):dynare++ dynare_m
@@ -1187,6 +1187,7 @@ ejdb(2.0.60):jbs
 ekg2(0.3.1_4):ekg2
 ekhtml(0.3.2):
 eksctl(0.49.0):eksctl
+elan-init(1.0.3):elan elan-init lean leanc leanchecker leanmake leanpkg
 elasticsearch(7.10.2):elasticsearch elasticsearch-keystore elasticsearch-plugin elasticsearch-shard
 elasticsearch@6(6.8.13):elasticsearch elasticsearch-keystore elasticsearch-plugin elasticsearch-translog
 elb-tools(1.0.35.0_1):elb-apply-security-groups-to-lb elb-associate-route53-hosted-zone elb-attach-lb-to-subnets elb-cmd elb-configure-healthcheck elb-create-app-cookie-stickiness-policy elb-create-lb elb-create-lb-cookie-stickiness-policy elb-create-lb-listeners elb-create-lb-policy elb-delete-lb elb-delete-lb-listeners elb-delete-lb-policy elb-deregister-instances-from-lb elb-describe-instance-health elb-describe-lb-attributes elb-describe-lb-policies elb-describe-lb-policy-types elb-describe-lbs elb-detach-lb-from-subnets elb-disable-zones-for-lb elb-disassociate-route53-hosted-zone elb-enable-zones-for-lb elb-modify-lb-attributes elb-register-instances-with-lb elb-set-lb-listener-ssl-cert elb-set-lb-policies-for-backend-server elb-set-lb-policies-of-listener elb-version
@@ -1243,7 +1244,7 @@ espeak(1.48.04_1):espeak
 esptool(3.0_2):espefuse.py espsecure.py esptool.py
 etcd(3.4.16):etcd etcdctl
 ethereum(1.10.3):abidump abigen bootnode checkpoint-admin clef devp2p ethkey evm faucet geth p2psim puppeth rlpdump
-etl(1.4.0):ETL-config
+etl(1.4.1):ETL-config
 etsh(5.4.0):etsh osh sh6 tsh
 ettercap(0.8.3.1):ettercap ettercap-pkexec etterfilter etterlog
 euler-py(1.4.0_1):euler
@@ -1268,7 +1269,7 @@ exiv2(0.27.3):exiv2
 exodriver(2.6.0):
 expat(2.3.0):xmlwf
 expect(5.45.4_1):autoexpect autopasswd cryptdir decryptdir dislocate expect ftp-rfc kibitz lpunlock mkpasswd multixterm passmass rftp rlogin-cwd timed-read timed-run tknewsbiff tkpasswd unbuffer weather xkibitz xpstat
-exploitdb(2021-05-14):searchsploit
+exploitdb(2021-05-15):searchsploit
 extra-cmake-modules(5.81.0):
 extract_url(1.6.2):extract_url
 exult(1.6):exult
@@ -1350,7 +1351,7 @@ filebeat(7.12.1):filebeat
 fileicon(0.2.4):fileicon
 finatra(1.5.3):finatra
 findent(3.1.7):findent wfindent
-findomain(4.2.0):findomain
+findomain(4.2.1):findomain
 findutils(4.8.0_1):gfind glocate gupdatedb gxargs
 fio(3.26):fio fio-dedupe fio-genzipf fio-histo-log-pctiles.py fio-verify-state fio2gnuplot fio_generate_plots fio_jsonplus_clat2csv fiologparser.py fiologparser_hist.py genfio
 firebase-cli(9.10.2):firebase
@@ -1964,7 +1965,7 @@ haskell-stack(2.7.1_1):stack
 haste-client(0.2.3_5):haste
 hasura-cli(1.3.3-patch.1):hasura
 hatari(2.3.1):hatari
-haxe(4.2.1):haxe haxelib
+haxe(4.2.2):haxe haxelib
 hayai(1.0.2):
 hbase(2.4.2):hbase start-hbase.sh stop-hbase.sh
 hblock(3.2.1):hblock
@@ -2216,7 +2217,7 @@ jasmin(2.4_2):jasmin
 jasper(2.0.32):imgcmp imginfo jasper jiv
 javacc(7.0.10):javacc jjdoc jjtree
 javarepl(428_2):javarepl
-jbake(2.6.6):jbake
+jbake(2.6.7):jbake
 jbig2dec(0.19):jbig2dec
 jbig2enc(0.29):jbig2 pdf.py
 jbigkit(2.1):jbgtopbm jbgtopbm85 pbmtojbg pbmtojbg85
@@ -2238,7 +2239,7 @@ jerryscript(2.4.0):jerry
 jetty(9.4.40.v20210413):jetty
 jetty-runner(9.4.40.v20210413):jetty-runner
 jflex(1.8.2_1):jflex
-jfrog-cli(1.47.2):jfrog
+jfrog-cli(1.47.3):jfrog
 jhead(3.04):jhead
 jhiccup(2.0.10):jHiccup jHiccupLogProcessor jHiccupPlotter
 jhipster(7.0.1_1):jhipster
@@ -2302,6 +2303,7 @@ jthread(1.3.3):
 juise(0.9.0):juise juise-config
 juju(2.9.0):juju juju-metadata
 juju-wait(2.8.4_1):juju-wait
+julia(1.6.1):julia
 julius(4.6):accept_check adinrec adintool binlm2arpa dfa_determinize dfa_minimize generate generate-ngram gram2sapixml.pl jclient.pl jcontrol julius libjulius-config libsent-config mkbingram mkbinhmm mkbinhmmlist mkdfa.pl mkdfa.py mkfa mkgshmm mkss nextword yomi2voca.pl
 juman(7.01):juman
 jumanpp(1.02):jumanpp mkdarts_jumanpp
@@ -2458,13 +2460,13 @@ le(1.16.7):le
 leaf(1.3.0):leaf
 leaf-proxy(0.3.1):leaf
 leakcanary-shark(2.7):shark-cli
-lean(3.29.0):lean leanchecker leanpkg
+lean(3.30.0):lean leanchecker leanpkg
 lean-cli(0.24.4):lean
 leaps(0.9.1):leaps
 ledger(3.2.1_4):ledger
 ledit(2.05):ledit
 leela-zero(0.17):leelaz
-lefthook(0.7.4):lefthook
+lefthook(0.7.5):lefthook
 legit(1.2.0.post0_1):legit
 lego(4.3.1):lego
 leiningen(2.9.6):lein
@@ -3139,7 +3141,7 @@ mhash(0.9.9.9):
 mhonarc(2.6.19_1):mha-dbedit mha-dbrecover mha-decode mhonarc
 micro(2.0.8):micro
 micronaut(2.4.4):mn
-microplane(0.0.28):mp
+microplane(0.0.30):mp
 micropython(1.15):micropython mpy-cross
 midgard2(12.09_2):midgard2-query midgard2-schema
 midicsv(1.1):csvmidi midicsv
@@ -3491,7 +3493,7 @@ nutcracker(0.4.1):
 nuttcp(8.2.2):nuttcp
 nuvie(0.5):nuvie
 nuxeo(10.10):nuxeoctl
-nvc(1.5_3):nvc
+nvc(1.5.1):nvc
 nvi(1.81.6_5):nex
 nvm(0.38.0):
 nwchem(7.0.2_1):nwchem
@@ -3832,7 +3834,7 @@ pillar(2.3.0_1):pillar
 pilosa(1.4.1):pilosa
 pinboard-notes-backup(1.0.5.3):pnbackup
 pinentry(1.1.1):pinentry pinentry-curses pinentry-tty
-pinentry-mac(1.1.0.3):pinentry-mac
+pinentry-mac(1.1.1.1):pinentry-mac
 pinfo(0.6.13_1):pinfo
 pioneer(20210203):modelcompiler pioneer savegamedump
 pioneers(15.6):pioneers pioneers-editor pioneers-metaserver pioneers-server-console pioneers-server-gtk pioneersai
@@ -3841,7 +3843,7 @@ pipebench(0.40):pipebench
 pipemeter(1.1.5):pipemeter
 pipenv(2020.11.15):pipenv
 pipes-sh(1.3.0):pipes.sh
-pipgrip(0.6.7):pipgrip
+pipgrip(0.6.8):pipgrip
 pipx(0.16.2.1):pipx register-python-argcomplete
 pit(0.1.0):pit
 pius(3.0.0_2):pius pius-keyring-mgr pius-party-worksheet pius-report
@@ -3858,7 +3860,7 @@ pktanon(1.4.0_2):pktanon
 pla(1.3):pla
 planck(2.25.0_2):planck plk
 plank(1.6):plank
-plantuml(1.2021.5):plantuml
+plantuml(1.2021.6):plantuml
 platformio(5.1.1):pio piodebuggdb platformio
 platypus(5.3):platypus
 plenv(2.3.1):plenv
@@ -4021,7 +4023,7 @@ pygobject3(3.40.1):
 pyinstaller(4.3):pyi-archive_viewer pyi-bindepend pyi-grab_version pyi-makespec pyi-set_version pyinstaller
 pyinvoke(1.5.0):inv invoke
 pylint(2.8.2):epylint pylint pyreverse symilar
-pympress(1.5.3_2):pympress
+pympress(1.6.1):pympress
 pypy(7.3.4):pypy
 pypy3(7.3.4):pypy3 pypy3.7
 pyqt(6.0.3_1):pylupdate6 pyuic6
@@ -4637,7 +4639,7 @@ stanford-corenlp(4.2.0):corenlp.sh
 stanford-ner(4.2.0):ner-gui.sh ner.sh
 stanford-parser(4.2.0):lexparser-gui.sh lexparser-lang-train-test.sh lexparser-lang.sh lexparser.sh
 star(1.5.3):mt scpio smt spax star star_sym suntar tartest ustar
-starship(0.53.0):starship
+starship(0.54.0):starship
 startup-notification(0.12_1):
 staticcheck(2020.2.4):staticcheck
 statik(0.23.0_3):statik
@@ -4717,7 +4719,7 @@ syck(0.70):
 sylpheed(3.7.0_4):sylpheed
 sync_gateway(2.8.2):sync_gateway_ce
 syncthing(1.16.1):syncthing
-synfig(1.4.0_3):synfig synfig-config
+synfig(1.4.1):synfig synfig-config
 synscan(5.02_1):sslog synscan
 syntaxerl(0.15.0):syntaxerl
 sysbench(1.0.20):sysbench
@@ -4748,7 +4750,7 @@ task-spooler(1.0.1):ts
 taskd(1.1.0_1):taskd taskdctl
 taskell(1.11.0):taskell
 tasksh(1.2.0_1):tasksh
-taskwarrior-tui(0.13.22):taskwarrior-tui
+taskwarrior-tui(0.13.23):taskwarrior-tui
 tass64(1.56.2625):64tass
 tbb(2020_U3_1):
 tbox(1.6.6):
@@ -4803,7 +4805,7 @@ terracognita(0.6.4):terracognita
 terraform(0.15.3):terraform
 terraform-docs(0.13.0):terraform-docs
 terraform-inventory(0.9):terraform-inventory
-terraform-ls(0.16.1):terraform-ls
+terraform-ls(0.16.3):terraform-ls
 terraform-provider-libvirt(0.6.3):terraform-provider-libvirt
 terraform@0.11(0.11.15):terraform
 terraform@0.12(0.12.31):terraform
@@ -4811,23 +4813,23 @@ terraform@0.13(0.13.7):terraform
 terraform_landscape(0.3.4):landscape
 terraformer(0.8.13):terraformer
 terraforming(0.18.0):terraforming
-terragrunt(0.29.2):terragrunt
+terragrunt(0.29.3):terragrunt
 terrahelp(0.7.4):terrahelp
 terrahub(0.5.2):terrahub thub
 terrascan(1.5.1):terrascan
 tesseract(4.1.1):tesseract
 tesseract-lang(4.1.0):
 testdisk(7.1):fidentify photorec testdisk
-testssl(3.0.4):testssl.sh
+testssl(3.0.5):testssl.sh
 texapp(0.6.11):texapp
 texi2html(5.0):texi2html
 texinfo(6.7):info install-info makeinfo pdftexi2dvi pod2texi texi2any texi2dvi texi2pdf texindex
 texlab(2.2.2):texlab
-texmath(0.12.2):texmath
+texmath(0.12.3):texmath
 textql(2.0.3):textql
 tfenv(2.2.2):terraform tfenv
 tflint(0.28.1):tflint
-tfsec(0.39.29):tfsec
+tfsec(0.39.34):tfsec
 tgenv(0.0.3):terragrunt tgenv
 tgif(4.2.5_1):tgif
 tgui(0.9.1):
@@ -5046,7 +5048,7 @@ uwsgi(2.0.19.1):uwsgi
 v(1.1):v
 v2ray(4.38.3):v2ctl v2ray
 v2ray-plugin(1.3.1):v2ray-plugin
-v8(9.0.257.17):d8
+v8(9.0.257.29):d8
 v8@3.15(3.15.11.18_1):d8 lineprocessor mksnapshot preparser process v8
 vagrant-completion(2.2.16):
 vala(0.52.3):vala vala-0.52 vala-gen-introspect vala-gen-introspect-0.52 valac valac-0.52 valadoc valadoc-0.52 vapigen vapigen-0.52
