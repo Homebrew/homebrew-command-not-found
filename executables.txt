@@ -63,7 +63,7 @@ algernon(1.12.12):algernon mdview
 algol68g(2.8.5):a68g
 aliddns(0.0.9):aliddns
 align(1.7.5):align width
-aliyun-cli(3.0.79):aliyun
+aliyun-cli(3.0.80):aliyun
 allegro(5.2.7.0):
 allure(2.14.0):allure
 allureofthestars(0.10.2.0_2):Allure
@@ -264,7 +264,7 @@ aws-okta(1.0.11):aws-okta
 aws-rotate-key(1.0.7):aws-rotate-key
 aws-sdk-cpp(1.9.40):sha256_profile
 aws-shell(0.2.2):aws-shell aws-shell-mkindex
-awscli(2.2.12):aws aws_completer aws_legacy_completer
+awscli(2.2.13):aws aws_completer aws_legacy_completer
 awscli@1(1.19.90):aws aws_completer
 awscurl(0.21_2):awscurl
 awslogs(0.14.0_1):awslogs
@@ -417,7 +417,7 @@ boost-python3(1.76.0):
 boot-clj(2.8.3_2):boot
 bootloadhid(2012-12-08):bootloadHID
 borgbackup(1.1.16):borg borgfs
-borgmatic(1.5.14):borgmatic generate-borgmatic-config upgrade-borgmatic-config validate-borgmatic-config
+borgmatic(1.5.15):borgmatic generate-borgmatic-config upgrade-borgmatic-config validate-borgmatic-config
 boringtun(0.3.0):boringtun
 bork(0.12.0):bork
 botan(2.18.1):botan
@@ -454,7 +454,7 @@ buildapp(1.5.6_3):buildapp
 buildifier(4.0.1):buildifier
 buildkit(0.8.3):buildctl
 buildozer(4.0.1):buildozer
-buku(4.5_1):buku bukuserver
+buku(4.6):buku bukuserver
 bulk_extractor(1.5.5_3):bulk_extractor plugin_test
 bullet(3.17):
 bumpversion(1.0.1):bump2version bumpversion
@@ -494,9 +494,9 @@ cabextract(1.9.1):cabextract
 cabocha(0.69):cabocha cabocha-config
 cacli(1.3.2):cacli
 cadaver(0.23.3_5):cadaver
-caddy(2.4.2):caddy
+caddy(2.4.3):caddy
 cadence(0.18.0):cadence
-cadence-workflow(0.21.0):cadence cadence-canary cadence-cassandra-tool cadence-server cadence-sql-tool
+cadence-workflow(0.21.3):cadence cadence-canary cadence-cassandra-tool cadence-server cadence-sql-tool
 cadical(1.4.0):cadical
 cadubi(1.3.4):cadubi
 caf(0.18.3):
@@ -518,7 +518,7 @@ cap-completion(1.0.0):
 capnp(0.8.0):capnp capnpc capnpc-c++ capnpc-capnp
 capstone(4.0.2):cstool
 cargo-audit(0.14.1):cargo-audit
-cargo-c(0.8.1):cargo-capi cargo-cbuild cargo-cinstall cargo-ctest
+cargo-c(0.8.2):cargo-capi cargo-cbuild cargo-cinstall cargo-ctest
 cargo-edit(0.7.0_1):cargo-add cargo-rm cargo-upgrade
 cargo-instruments(0.4.1):cargo-instruments
 cargo-watch(7.7.2):cargo-watch
@@ -1175,12 +1175,12 @@ ebook-tools(0.2.2_3):einfo lit2epub
 ec2-ami-tools(1.5.7_1):ec2-ami-tools-version ec2-bundle-image ec2-bundle-vol ec2-delete-bundle ec2-download-bundle ec2-migrate-bundle ec2-migrate-manifest ec2-unbundle ec2-upload-bundle
 ec2-api-tools(1.7.5.1_1):ec2-accept-vpc-peering-connection ec2-activate-license ec2-add-group ec2-add-keypair ec2-allocate-address ec2-assign-private-ip-addresses ec2-associate-address ec2-associate-dhcp-options ec2-associate-route-table ec2-attach-classic-link-vpc ec2-attach-internet-gateway ec2-attach-network-interface ec2-attach-volume ec2-attach-vpn-gateway ec2-authorize ec2-bundle-instance ec2-cancel-bundle-task ec2-cancel-conversion-task ec2-cancel-export-task ec2-cancel-reserved-instances-listing ec2-cancel-spot-instance-requests ec2-cmd ec2-confirm-product-instance ec2-copy-image ec2-copy-snapshot ec2-create-customer-gateway ec2-create-dhcp-options ec2-create-group ec2-create-image ec2-create-instance-export-task ec2-create-internet-gateway ec2-create-keypair ec2-create-network-acl ec2-create-network-acl-entry ec2-create-network-interface ec2-create-placement-group ec2-create-reserved-instances-listing ec2-create-route ec2-create-route-table ec2-create-snapshot ec2-create-spot-datafeed-subscription ec2-create-subnet ec2-create-tags ec2-create-volume ec2-create-vpc ec2-create-vpc-endpoint ec2-create-vpc-peering-connection ec2-create-vpn-connection ec2-create-vpn-connection-route ec2-create-vpn-gateway ec2-deactivate-license ec2-delete-customer-gateway ec2-delete-dhcp-options ec2-delete-disk-image ec2-delete-group ec2-delete-internet-gateway ec2-delete-keypair ec2-delete-network-acl ec2-delete-network-acl-entry ec2-delete-network-interface ec2-delete-placement-group ec2-delete-route ec2-delete-route-table ec2-delete-snapshot ec2-delete-spot-datafeed-subscription ec2-delete-subnet ec2-delete-tags ec2-delete-volume ec2-delete-vpc ec2-delete-vpc-endpoints ec2-delete-vpc-peering-connection ec2-delete-vpn-connection ec2-delete-vpn-connection-route ec2-delete-vpn-gateway ec2-deregister ec2-describe-account-attributes ec2-describe-addresses ec2-describe-availability-zones ec2-describe-bundle-tasks ec2-describe-classic-link-instances ec2-describe-conversion-tasks ec2-describe-customer-gateways ec2-describe-dhcp-options ec2-describe-export-tasks ec2-describe-group ec2-describe-image-attribute ec2-describe-images ec2-describe-instance-attribute ec2-describe-instance-status ec2-describe-instances ec2-describe-internet-gateways ec2-describe-keypairs ec2-describe-licenses ec2-describe-network-acls ec2-describe-network-interface-attribute ec2-describe-network-interfaces ec2-describe-placement-groups ec2-describe-prefix-lists ec2-describe-regions ec2-describe-reserved-instances ec2-describe-reserved-instances-listings ec2-describe-reserved-instances-modifications ec2-describe-reserved-instances-offerings ec2-describe-route-tables ec2-describe-snapshot-attribute ec2-describe-snapshots ec2-describe-spot-datafeed-subscription ec2-describe-spot-instance-requests ec2-describe-spot-price-history ec2-describe-subnets ec2-describe-tags ec2-describe-volume-attribute ec2-describe-volume-status ec2-describe-volumes ec2-describe-vpc-attribute ec2-describe-vpc-classic-link ec2-describe-vpc-endpoint-services ec2-describe-vpc-endpoints ec2-describe-vpc-peering-connections ec2-describe-vpcs ec2-describe-vpn-connections ec2-describe-vpn-gateways ec2-detach-classic-link-vpc ec2-detach-internet-gateway ec2-detach-network-interface ec2-detach-volume ec2-detach-vpn-gateway ec2-disable-vgw-route-propagation ec2-disable-vpc-classic-link ec2-disassociate-address ec2-disassociate-route-table ec2-enable-vgw-route-propagation ec2-enable-volume-io ec2-enable-vpc-classic-link ec2-fingerprint-key ec2-get-console-output ec2-get-password ec2-import-instance ec2-import-keypair ec2-import-volume ec2-migrate-image ec2-modify-image-attribute ec2-modify-instance-attribute ec2-modify-network-interface-attribute ec2-modify-reserved-instances ec2-modify-snapshot-attribute ec2-modify-subnet-attribute ec2-modify-volume-attribute ec2-modify-vpc-attribute ec2-modify-vpc-endpoint ec2-monitor-instances ec2-purchase-reserved-instances-offering ec2-reboot-instances ec2-register ec2-reject-vpc-peering-connection ec2-release-address ec2-replace-network-acl-association ec2-replace-network-acl-entry ec2-replace-route ec2-replace-route-table-association ec2-report-instance-status ec2-request-spot-instances ec2-reset-image-attribute ec2-reset-instance-attribute ec2-reset-network-interface-attribute ec2-reset-snapshot-attribute ec2-resume-import ec2-revoke ec2-run-instances ec2-start-instances ec2-stop-instances ec2-terminate-instances ec2-unassign-private-ip-addresses ec2-unmonitor-instances ec2-upload-disk-image ec2-version ec2actlic ec2addcgw ec2adddopt ec2addgrp ec2addigw ec2addixt ec2addkey ec2addnacl ec2addnae ec2addnic ec2addpcx ec2addpgrp ec2addrt ec2addrtb ec2addsds ec2addsnap ec2addsubnet ec2addtag ec2addvgw ec2addvol ec2addvpc ec2addvpn ec2allocaddr ec2apcx ec2apip ec2assocaddr ec2assocdopt ec2assocrtb ec2attachcl ec2attigw ec2attnic ec2attvgw ec2attvol ec2auth ec2bundle ec2caril ec2cbun ec2cct ec2cim ec2cpi ec2cpimg ec2cpsnap ec2crril ec2csir ec2cvcr ec2cve ec2cxt ec2daa ec2daddr ec2datt ec2daz ec2dbun ec2dcgw ec2dcli ec2dct ec2ddi ec2ddopt ec2deactlic ec2delcgw ec2deldopt ec2delgrp ec2deligw ec2delkey ec2delnacl ec2delnae ec2delnic ec2delpcx ec2delpgrp ec2delrt ec2delrtb ec2delsds ec2delsnap ec2delsubnet ec2deltag ec2delvgw ec2delvol ec2delvpc ec2delvpce ec2delvpn ec2dereg ec2detachcl ec2detigw ec2detnic ec2detvgw ec2detvol ec2dgrp ec2diatt ec2digw ec2dim ec2dimatt ec2din ec2dinatt ec2dins ec2disablecl ec2disaddr ec2disrtb ec2dkey ec2dlic ec2dnacl ec2dnic ec2dnicatt ec2dpcx ec2dpgrp ec2dpl ec2dre ec2dri ec2dril ec2drim ec2drio ec2drp ec2drtb ec2dsds ec2dsir ec2dsnap ec2dsnapatt ec2dsph ec2dsubnet ec2dtag ec2dva ec2dvcl ec2dvcr ec2dve ec2dves ec2dvgw ec2dvol ec2dvolatt ec2dvpc ec2dvpn ec2dvs ec2dxt ec2enablecl ec2erp ec2evio ec2fp ec2gcons ec2gpass ec2ii ec2iin ec2ikey ec2iv ec2ivol ec2kill ec2matt ec2miatt ec2mim ec2mimatt ec2min ec2minatt ec2mnicatt ec2mri ec2msnapatt ec2msubnetatt ec2mva ec2mve ec2mvolatt ec2prio ec2ratt ec2reboot ec2reg ec2reladdr ec2rep ec2repnaclassoc ec2repnae ec2reprt ec2reprtbassoc ec2revoke ec2riatt ec2rim ec2rimatt ec2rinatt ec2rnicatt ec2rpcx ec2rsi ec2rsnapatt ec2run ec2start ec2stop ec2tag ec2udi ec2umin ec2upip ec2ver
 ecasound(2.9.3):ecaconvert ecafixdc ecalength ecamonitor ecanormalize ecaplay ecasignalview ecasound libecasound-config libecasoundc-config
-eccodes(2.22.0):bufr_compare bufr_compare_dir bufr_copy bufr_count bufr_dump bufr_filter bufr_get bufr_ls bufr_set codes_bufr_filter codes_count codes_info codes_parser codes_split_file grib2ppm grib_compare grib_copy grib_count grib_dump grib_filter grib_get grib_get_data grib_histogram grib_index_build grib_ls grib_merge grib_set grib_to_netcdf gts_compare gts_copy gts_count gts_dump gts_filter gts_get gts_ls metar_compare metar_copy metar_dump metar_filter metar_get metar_ls tigge_check
+eccodes(2.22.1):bufr_compare bufr_compare_dir bufr_copy bufr_count bufr_dump bufr_filter bufr_get bufr_ls bufr_set codes_bufr_filter codes_count codes_info codes_parser codes_split_file grib2ppm grib_compare grib_copy grib_count grib_dump grib_filter grib_get grib_get_data grib_histogram grib_index_build grib_ls grib_merge grib_set grib_to_netcdf gts_compare gts_copy gts_count gts_dump gts_filter gts_get gts_ls metar_compare metar_copy metar_dump metar_filter metar_get metar_ls tigge_check
 echoprint-codegen(4.12_2):echoprint-codegen
 ecl(21.2.1):ecl ecl-config
 ecm(1.0):ecm unecm
 ed(1.17):ged gred
-editorconfig(0.12.4):editorconfig editorconfig-0.12.4
+editorconfig(0.12.5):editorconfig editorconfig-0.12.5
 efl(1.25.1_4):diffeet ecore_evas_convert edje_cc edje_codegen edje_decc edje_external_inspector edje_inspector edje_pick edje_player edje_recc edje_watch eet eetpack efl_debug efl_debugd efreetd eina_btlog eina_modinfo eldbus-codegen elementary_codegen elementary_config elementary_perf elementary_quicklaunch elementary_run elementary_test elm_prefs_cc embryo_cc eo_debug eolian_cxx eolian_gen ethumb ethumbd ethumbd_client exactness exactness_inject exactness_inspect exactness_play exactness_record vieet
 efm-langserver(0.0.31):efm-langserver
 eg(1.02):eg
@@ -1193,7 +1193,7 @@ ejabberd(21.04):
 ejdb(2.0.60):jbs
 ekg2(0.3.1_4):ekg2
 ekhtml(0.3.2):
-eksctl(0.53.0):eksctl
+eksctl(0.54.0):eksctl
 elan-init(1.0.6):elan elan-init lean leanc leanchecker leanmake leanpkg
 elasticsearch(7.10.2):elasticsearch elasticsearch-keystore elasticsearch-plugin elasticsearch-shard
 elasticsearch@6(6.8.13):elasticsearch elasticsearch-keystore elasticsearch-plugin elasticsearch-translog
@@ -1218,7 +1218,7 @@ empty(0.6.21b):empty
 ems-flasher(0.03):ems-flasher
 emscripten(2.0.22):em++ em-config emar emcc emcmake emconfigure emlink.py emmake emranlib emrun emscons
 enca(1.19):enca enconv
-enchant(2.2.15):enchant-2 enchant-lsmod-2
+enchant(2.3.0):enchant-2 enchant-lsmod-2
 enet(1.3.17):
 enigma(1.21_4):enigma
 enkits(1.9):
@@ -1273,11 +1273,11 @@ exiftags(1.01):exifcom exiftags exiftime
 exiftool(12.26):exiftool
 exiftran(2.14):exiftran
 exim(4.94.2):exicyclog exigrep exim exim-4.94.2-2 exim_checkaccess exim_ctl exim_dbmbuild exim_dumpdb exim_fixdb exim_lock exim_tidydb eximstats exinext exipick exiqgrep exiqsumm exiwhat
-exiv2(0.27.3):exiv2
+exiv2(0.27.4):exiv2
 exodriver(2.6.0):
 expat(2.4.1):xmlwf
 expect(5.45.4_1):autoexpect autopasswd cryptdir decryptdir dislocate expect ftp-rfc kibitz lpunlock mkpasswd multixterm passmass rftp rlogin-cwd timed-read timed-run tknewsbiff tkpasswd unbuffer weather xkibitz xpstat
-exploitdb(2021-06-17):searchsploit
+exploitdb(2021-06-18):searchsploit
 extra-cmake-modules(5.83.0):
 extract_url(1.6.2):extract_url
 exult(1.6):exult
@@ -1374,7 +1374,7 @@ flactag(2.0.4_1):checkflac discid flactag ripdataflac ripflac
 flake(0.11):flake
 flake8(3.9.2):flake8
 flamegraph(1.0_1):difffolded.pl files.pl flamegraph.pl pkgsplit-perf.pl range-perf.pl stackcollapse-aix.pl stackcollapse-elfutils.pl stackcollapse-gdb.pl stackcollapse-go.pl stackcollapse-instruments.pl stackcollapse-jstack.pl stackcollapse-ljp.awk stackcollapse-perf-sched.awk stackcollapse-perf.pl stackcollapse-pmc.pl stackcollapse-recursive.pl stackcollapse-sample.awk stackcollapse-stap.pl stackcollapse-vsprof.pl stackcollapse-vtune.pl stackcollapse.pl
-flank(21.06.0):flank
+flank(21.06.1):flank
 flann(1.9.1_10):flann_example_c flann_example_cpp
 flarectl(0.17.0):flarectl
 flash(2.7.2):flash
@@ -1392,7 +1392,7 @@ flint-checker(0.1.0):flint
 flintrock(2.0.0):flintrock
 flit(3.2.0):flit
 flow(0.153.0):flow
-flow-cli(0.22.0):flow
+flow-cli(0.23.0):flow
 flow-tools(0.68.5.1):flow-capture flow-cat flow-dscan flow-expire flow-export flow-fanout flow-filter flow-gen flow-header flow-import flow-log2rrd flow-mask flow-merge flow-nfilter flow-print flow-receive flow-report flow-rpt2rrd flow-rptfmt flow-send flow-split flow-stat flow-tag flow-xlate
 flowgrind(0.8.0_2):flowgrind flowgrind-stop
 fltk(1.3.6):fltk-config fluid
@@ -1681,7 +1681,7 @@ gitui(0.16.1):gitui
 gitup(0.5.1_4):gitup
 gitversion(5.6.10):gitversion
 gitwatch(0.1):gitwatch
-giza(1.2.0_1):
+giza(1.2.1):
 gjs(1.68.1):gjs gjs-console
 gkrellm(2.3.11_2):gkrellm gkrellmd
 gl2ps(1.4.2):
@@ -1823,7 +1823,7 @@ gpatch(2.7.6):patch
 gpcslots2(0.4.5b):gpcslots2
 gperf(3.1):gperf
 gperftools(2.9.1):pprof pprof-symbolize
-gpg-tui(0.4.1):gpg-tui
+gpg-tui(0.5.0):gpg-tui
 gpgme(1.15.1):gpgme-config gpgme-json gpgme-tool
 gphoto2(2.5.27):gphoto2
 gping(1.2.1):gping
@@ -1847,7 +1847,7 @@ gradle(7.1):gradle
 gradle-completion(1.4.1):
 gradle-profiler(0.16.0_1):gradle-profiler
 gradle@6(6.9_1):gradle
-grafana(8.0.2):grafana-cli grafana-server
+grafana(8.0.3):grafana-cli grafana-server
 grails(4.0.10):grails
 grap(1.46):grap
 graph-tool(2.37):
@@ -1963,7 +1963,7 @@ halide(12.0.1):featurization_to_sample get_host_target retrain_cost_model weight
 hamlib(4.2):ampctl ampctld rigctl rigctlcom rigctld rigmem rigsmtr rigswr rotctl rotctld
 handbrake(1.3.3_1):HandBrakeCLI
 hapi-fhir-cli(5.4.0):hapi-fhir-cli
-haproxy(2.4.0):haproxy
+haproxy(2.4.1):haproxy
 harbour(3.0.0):harbour hb3rdpat.hbs hbformat hbi18n hbmk2 hbnetio hbpp hbrun hbtest
 hardlink(0.3.0):hardlink
 harfbuzz(2.8.1):hb-ot-shape-closure hb-shape hb-subset hb-view
@@ -2074,7 +2074,7 @@ httrack(3.49.2_1):htsserver httrack proxytrack webhttrack
 hub(2.14.2):hub
 hubflow(1.5.3):git-hf
 huexpress(3.0.4_1):hucrc huexpress
-hugo(0.83.1):hugo
+hugo(0.84.0):hugo
 hunspell(1.7.0_2):affixcompress analyze chmorph hunspell hunzip hzip ispellaff2myspell makealias munch unmunch wordforms wordlist2hunspell
 hwloc(2.5.0):hwloc-annotate hwloc-bind hwloc-calc hwloc-compress-dir hwloc-diff hwloc-distrib hwloc-gather-cpuid hwloc-info hwloc-ls hwloc-patch hwloc-ps lstopo lstopo-no-graphics
 hy(0.20.0):hy hy2py hy2py3 hy3 hyc hyc3
@@ -2253,10 +2253,10 @@ jerryscript(2.4.0):jerry
 jetty(9.4.42.v20210604):jetty
 jetty-runner(9.4.42.v20210604):jetty-runner
 jflex(1.8.2_1):jflex
-jfrog-cli(1.48.1):jfrog
+jfrog-cli(1.49.0):jfrog
 jhead(3.04):jhead
 jhiccup(2.0.10):jHiccup jHiccupLogProcessor jHiccupPlotter
-jhipster(7.0.1_1):jhipster
+jhipster(7.1.0):jhipster
 jid(0.7.6):jid
 jigdo(0.7.3_6):jigdo-file jigdo-lite jigdo-mirror
 jimtcl(0.80):build-jim-ext jimsh
@@ -2353,7 +2353,7 @@ kdoctools(5.83.0):checkXML5 meinproc5
 kedge(0.12.0):kedge
 keepassc(1.8.2_3):keepassc keepassc-agent keepassc-server
 keepkey-agent(0.9.0_4):keepkey-agent keepkey_agent.py
-keptn(0.8.3):keptn
+keptn(0.8.4):keptn
 kepubify(3.1.6):covergen kepubify seriesmeta
 kerl(2.1.2):kerl
 kertish-dfs(21.2.0066):krtadm krtfs
@@ -2380,7 +2380,7 @@ kite(1.0.4_3):build_kdocs ikt kdb kite
 klavaro(3.11_1):klavaro
 klee(2.2_1):gen-bout gen-random-bout kleaver klee klee-replay klee-stats klee-zesti ktest-tool
 knock(0.8):knock knock_helper_ipt.sh knockd
-knot(3.0.6):kcatalogprint kdig keymgr khost kjournalprint knotc knotd knsec3hash knsupdate kzonecheck kzonesign
+knot(3.0.7):kcatalogprint kdig keymgr khost kjournalprint knotc knotd knsec3hash knsupdate kzonecheck kzonesign
 knot-resolver(5.3.2):kres-cache-gc kresc kresd
 known_hosts(1.0.0):known_hosts
 ko(0.8.3):ko
@@ -2421,7 +2421,7 @@ kubeseal(0.16.0):kubeseal
 kubespy(0.6.0):kubespy
 kubevela(1.0.6):vela
 kubie(0.15.0):kubie
-kumactl(1.1.6):kumactl
+kumactl(1.2.0):kumactl
 kumo(1.28):kumo
 kustomize(4.1.3):kustomize
 kvazaar(2.0.0):kvazaar
@@ -2744,7 +2744,7 @@ libpcap(1.10.1):pcap-config
 libpcl(1.12):
 libpeas(1.30.0):
 libpgm(5.2.122):
-libphonenumber(8.12.24_1):
+libphonenumber(8.12.25):
 libpinyin(2.6.0):gen_binary_files gen_unigram import_interpolation
 libpipeline(1.5.3):
 libplctag(2.3.6):
@@ -2798,7 +2798,7 @@ libsignal-protocol-c(2.3.3):
 libsigsegv(2.13):
 libsixel(1.8.6):img2sixel libsixel-config sixel2png
 libslax(0.22.1):gt oxtradoc slax-config slaxproc
-libslirp(4.6.0):
+libslirp(4.6.1):
 libsm(1.2.3):
 libsmf(1.3_1):smfsh
 libsmi(0.5.0):smicache smidiff smidump smilint smiquery smistrip smixlate
@@ -3085,7 +3085,7 @@ math-comp(1.12.0_5):
 mathlibtools(1.0.0):leanproject
 matlab2tikz(1.1.0):
 matplotplusplus(1.1.0):
-matterbridge(1.22.2):matterbridge
+matterbridge(1.22.3):matterbridge
 maturin(0.10.6):maturin
 maven(3.8.1):mvn mvnDebug mvnyjp
 maven-completion(20200420):
@@ -3422,7 +3422,7 @@ netdata(1.29.3):
 nethack(3.6.6):nethack
 nethacked(1.0):nethacked
 nethogs(0.8.6):
-netlify-cli(3.37.31):netlify ntl
+netlify-cli(3.37.37):netlify ntl
 netpbm(10.86.22):411toppm anytopnm asciitopgm atktopbm avstopam bioradtopgm bmptopnm bmptoppm brushtopbm cameratopam cistopbm cmuwmtopbm ddbugtopbm escp2topbm eyuvtoppm fiascotopnm fitstopnm fstopgm g3topbm gemtopbm gemtopnm giftopnm gouldtoppm hdifftopam hipstopgm hpcdtoppm icontopbm ilbmtoppm imgtoppm infotopam jbigtopnm jpeg2ktopam jpegtopnm leaftoppm lispmtopgm macptopbm manweb mdatopbm mgrtopbm mrftopbm mtvtoppm neotoppm palmtopnm pamaddnoise pamaltsat pamarith pambackground pambayer pambrighten pamchannel pamcomp pamcrater pamcut pamdeinterlace pamdepth pamdice pamditherbw pamedge pamendian pamenlarge pamexec pamfile pamfind pamfix pamfixtrunc pamflip pamfunc pamgauss pamgetcolor pamgradient pamhue pamlevels pamlookup pammasksharpen pammixinterlace pammixmulti pammosaicknit pamoil pampaintspill pamperspective pampick pampop9 pamrecolor pamrgbatopng pamrubber pamscale pamseq pamshadedrelief pamsharpmap pamsharpness pamsistoaglyph pamslice pamsplit pamstack pamstereogram pamstretch pamstretch-gen pamsumm pamsummcol pamtable pamthreshold pamtilt pamtoavs pamtodjvurle pamtofits pamtogif pamtohdiff pamtohtmltbl pamtojpeg2k pamtompfont pamtooctaveimg pamtopam pamtopdbimg pamtopfm pamtopng pamtopnm pamtosrf pamtosvg pamtotga pamtotiff pamtouil pamtowinicon pamtoxvmini pamtris pamundice pamunlookup pamvalidate pamwipeout pbmclean pbmlife pbmmake pbmmask pbmminkowski pbmpage pbmpscale pbmreduce pbmtext pbmtextps pbmto10x pbmto4425 pbmtoascii pbmtoatk pbmtobbnbg pbmtocis pbmtocmuwm pbmtodjvurle pbmtoepsi pbmtoepson pbmtoescp2 pbmtog3 pbmtogem pbmtogo pbmtoibm23xx pbmtoicon pbmtolj pbmtoln03 pbmtolps pbmtomacp pbmtomatrixorbital pbmtomda pbmtomgr pbmtomrf pbmtonokia pbmtopgm pbmtopi3 pbmtopk pbmtoplot pbmtoppa pbmtopsg3 pbmtoptx pbmtosunicon pbmtowbmp pbmtox10bm pbmtoxbm pbmtoybm pbmtozinc pbmupc pc1toppm pcdindex pcdovtoppm pcxtoppm pdbimgtopam pfmtopam pgmabel pgmbentley pgmcrater pgmdeshadow pgmedge pgmenhance pgmhist pgmkernel pgmmake pgmmedian pgmminkowski pgmmorphconv pgmnoise pgmnorm pgmoil pgmramp pgmslice pgmtexture pgmtofs pgmtolispm pgmtopbm pgmtopgm pgmtoppm pgmtosbig pgmtost4 pi1toppm pi3topbm picttoppm pjtoppm pktopbm pngtopam pngtopnm pnmalias pnmarith pnmcat pnmcolormap pnmcomp pnmconvol pnmcrop pnmcut pnmdepth pnmenlarge pnmfile pnmflip pnmgamma pnmhisteq pnmhistmap pnmindex pnminterp pnminvert pnmmargin pnmmercator pnmmontage pnmnlfilt pnmnoraw pnmnorm pnmpad pnmpaste pnmpsnr pnmquant pnmquantall pnmremap pnmrotate pnmscale pnmscalefixed pnmshear pnmsmooth pnmsplit pnmstitch pnmtile pnmtoddif pnmtofiasco pnmtofits pnmtojbig pnmtojpeg pnmtopalm pnmtopclxl pnmtoplainpnm pnmtopng pnmtopnm pnmtops pnmtorast pnmtorle pnmtosgi pnmtosir pnmtotiff pnmtotiffcmyk pnmtoxwd ppm3d ppmbrighten ppmchange ppmcie ppmcolormask ppmcolors ppmdcfont ppmddumpfont ppmdim ppmdist ppmdither ppmdmkfont ppmdraw ppmfade ppmflash ppmforge ppmglobe ppmhist ppmlabel ppmmake ppmmix ppmnorm ppmntsc ppmpat ppmquant ppmquantall ppmrainbow ppmrelief ppmrough ppmshadow ppmshift ppmspread ppmtoacad ppmtoapplevol ppmtoarbtxt ppmtoascii ppmtobmp ppmtoeyuv ppmtogif ppmtoicr ppmtoilbm ppmtojpeg ppmtoleaf ppmtolj ppmtomap ppmtomitsu ppmtompeg ppmtoneo ppmtopcx ppmtopgm ppmtopi1 ppmtopict ppmtopj ppmtopjxl ppmtoppm ppmtopuzz ppmtorgb3 ppmtosixel ppmtospu ppmtoterm ppmtotga ppmtouil ppmtowinicon ppmtoxpm ppmtoyuv ppmtoyuvsplit ppmtv ppmwheel psidtopgm pstopnm qrttoppm rasttopnm rawtopgm rawtoppm rgb3toppm rlatopam rletopnm sbigtopgm sgitopnm sirtopnm sldtoppm spctoppm spottopgm sputoppm srftopam st4topgm sunicontopnm svgtopam tgatoppm thinkjettopbm tifftopnm wbmptopbm winicontopam winicontoppm xbmtopbm ximtoppm xpmtoppm xvminitoppm xwdtopnm ybmtopbm yuvsplittoppm yuvtoppm yuy2topam zeisstopnm
 netperf(2.7.0):netperf netserver
 netris(0.52):netris
@@ -3432,7 +3432,7 @@ networkit(8.1):
 never(2.0.3):never
 newlisp(10.7.5):newlisp newlisp-10.7.5 newlispdoc
 newman(5.2.3):newman
-newrelic-cli(0.28.8):newrelic
+newrelic-cli(0.28.11):newrelic
 newsboat(2.23):newsboat podboat
 newt(0.52.21):whiptail
 nexus(3.30.1-01):nexus
@@ -3544,7 +3544,7 @@ ocp(0.2.90):ocp ocp-0.2.90 ocp-curses ocp-sdl2
 ocproxy(1.60_1):ocproxy
 ocrad(0.27):ocrad
 ocrmypdf(12.2.0):ocrmypdf
-octant(0.20.0):octant
+octant(0.21.0):octant
 octave(6.2.0_3):mkoctfile mkoctfile-6.2.0 octave octave-6.2.0 octave-cli octave-cli-6.2.0 octave-config octave-config-6.2.0
 octomap(1.9.7):binvox2bt bt2vrml compare_octrees convert_octree edit_octree eval_octree_accuracy graph2tree log2graph
 ode(0.16.2):ode-config
@@ -3559,7 +3559,7 @@ oha(0.4.5):oha
 ohcount(4.0.0):ohcount
 oil(0.8.11):oil oil.ovm osh
 oksh(6.9):oksh
-okteto(1.12.15):okteto
+okteto(1.13.0):okteto
 ola(0.10.8_2):ola_artnet ola_dev_info ola_dmxconsole ola_dmxmonitor ola_e131 ola_patch ola_plugin_info ola_plugin_state ola_rdm_discover ola_rdm_get ola_rdm_set ola_recorder ola_set_dmx ola_set_priority ola_streaming_client ola_timecode ola_trigger ola_uni_info ola_uni_merge ola_uni_name ola_uni_stats ola_usbpro olad rdm_model_collector.py rdm_responder_test.py rdm_test_server.py rdmpro_sniffer usbpro_firmware
 olsrd(0.9.8):
 omake(0.10.3):omake osh
@@ -3647,7 +3647,7 @@ opentsdb(2.4.0):start-tsdb.sh tsdb
 openttd(1.11.2):openttd
 openvdb(8.0.1_2):vdb_print
 openvpn(2.5.2):openvpn
-operator-sdk(1.8.0):ansible-operator helm-operator operator-sdk
+operator-sdk(1.9.0):ansible-operator helm-operator operator-sdk
 ophcrack(3.8.0_1):ophcrack
 optipng(0.7.7):optipng
 opus(1.3.1):
@@ -4432,7 +4432,7 @@ sersniff(0.0.5):sersniff
 serve(0.5.0):serve
 serveit(0.0.3_1):serveit
 server-go(1.1.72):server-go
-serverless(2.46.0):serverless sls
+serverless(2.47.0):serverless sls
 servus(1.5.2):
 setweblocthumb(1.0.0):setWeblocThumb
 sf-pwgen(1.5):sf-pwgen
@@ -4814,15 +4814,15 @@ tdkjs(3.2.0):tdkjs
 tdlib(1.7.0):
 tealdeer(1.4.1):tldr
 teapot(2.3.0):teapot
-tectonic(0.6.3):tectonic
+tectonic(0.6.4):tectonic
 tee-clc(14.135.0):tf
 teem(1.11.0):gprobe ilk miter mrender nrrdSanity overrgb puller tend unu vprobe
 teensy_loader_cli(2.1_2):teensy_loader_cli
 tektoncd-cli(0.19.0):tkn
 teleconsole(0.4.0):teleconsole
-telegraf(1.18.3):telegraf
+telegraf(1.19.0):telegraf
 telegram-cli(1.3.1_4):telegram
-teleport(6.2.4):tctl teleport tsh
+teleport(6.2.5):tctl teleport tsh
 telnet(63):telnet
 telnetd(63):
 template-glib(3.34.0_2):
@@ -4852,7 +4852,7 @@ terraform@0.13(0.13.7):terraform
 terraform_landscape(0.3.4):landscape
 terraformer(0.8.14):terraformer
 terraforming(0.18.0):terraforming
-terragrunt(0.30.4):terragrunt
+terragrunt(0.30.6):terragrunt
 terrahelp(0.7.4):terrahelp
 terrahub(0.5.2):terrahub thub
 terrascan(1.7.0):terrascan
