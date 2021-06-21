@@ -26,8 +26,7 @@ namespace :test do
 
   task :fish do
     puts "Testing with fish"
-    # use `emit fish_prompt` to simulate interactive shell
-    command = ". (brew command-not-found-init); emit fish_prompt; when"
+    command = ". (brew command-not-found-init); when"
     output, status = Open3.capture2e("fish", "-c", command)
     puts
     puts output
