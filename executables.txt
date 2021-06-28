@@ -7,7 +7,7 @@ aardvark_shell_utils(1.0):filebase fileext realpath
 abcde(2.9.3_1):abcde abcde-musicbrainz-tool cddb-tool
 abcl(1.8.0):abcl
 abcm2ps(8.14.11):abcm2ps
-abcmidi(2021.06.24):abc2abc abc2midi abcmatch mftext midi2abc midicopy yaps
+abcmidi(2021.06.27):abc2abc abc2midi abcmatch mftext midi2abc midicopy yaps
 abduco(0.6):abduco
 abnfgen(0.20):abnfgen
 abook(0.6.1):abook
@@ -342,7 +342,7 @@ beecrypt(4.2.1_7):
 befunge93(2.25):bef bef2c befprof
 bench(1.0.12_1):bench
 benthos(3.48.0):benthos
-bento4(1.6.0-637):aac2mp4 avcinfo cryptotest hevcinfo mp42aac mp42avc mp42hevc mp42hls mp42ts mp4audioclip mp4compact mp4dash mp4dashclone mp4dcfpackager mp4decrypt mp4diff mp4dump mp4edit mp4encrypt mp4extract mp4fragment mp4hls mp4iframeindex mp4info mp4mux mp4pssh mp4rtphintinfo mp4split mp4tag
+bento4(1.6.0-638):aac2mp4 avcinfo cryptotest hevcinfo mp42aac mp42avc mp42hevc mp42hls mp42ts mp4audioclip mp4compact mp4dash mp4dashclone mp4dcfpackager mp4decrypt mp4diff mp4dump mp4edit mp4encrypt mp4extract mp4fragment mp4hls mp4iframeindex mp4info mp4mux mp4pssh mp4rtphintinfo mp4split mp4tag
 berglas(0.6.0):berglas
 berkeley-db(18.1.40):db_archive db_checkpoint db_convert db_deadlock db_dump db_hotbackup db_load db_log_verify db_printlog db_recover db_replicate db_stat db_tuner db_upgrade db_verify
 berkeley-db@4(4.8.30):db_archive db_checkpoint db_deadlock db_dump db_hotbackup db_load db_printlog db_recover db_sql db_stat db_upgrade db_verify
@@ -626,8 +626,8 @@ cheat(4.2.2):cheat
 check(0.15.2):checkmk
 check_postgres(2.25.0_1):check_postgres
 checkbashisms(2.21.2):checkbashisms
-checkov(2.0.210):checkov checkov.cmd
-checkstyle(8.43):checkstyle
+checkov(2.0.225):checkov checkov.cmd
+checkstyle(8.44):checkstyle
 cheops(1.3):cheops
 cherrytree(0.99.38):cherrytree
 chezmoi(2.0.15):chezmoi
@@ -923,7 +923,7 @@ dash(0.5.11.4):dash
 dashing(0.4.0_1):dashing
 dasht(2.4.0):dasht dasht-docsets dasht-docsets-extract dasht-docsets-install dasht-docsets-remove dasht-docsets-update dasht-query-exec dasht-query-html dasht-query-line dasht-server dasht-server-http
 dasm(2.20.14.1):dasm ftohex
-datalad(0.14.5):datalad git-annex-remote-datalad git-annex-remote-datalad-archives git-annex-remote-ora
+datalad(0.14.6):datalad git-annex-remote-datalad git-annex-remote-datalad-archives git-annex-remote-ora
 datamash(1.7):datamash decorate
 datasette(0.57.1):datasette
 datetime-fortran(1.7.0):
@@ -973,6 +973,7 @@ derby(10.15.2.0):NetworkServerControl dblook ij setEmbeddedCP setNetworkClientCP
 desk(0.6.0):desk
 desktop-file-utils(0.26):desktop-file-edit desktop-file-install desktop-file-validate update-desktop-database
 detach(0.2.3):detach
+detect-secrets(1.1.0):detect-secrets detect-secrets-hook
 detekt(1.17.1_1):detekt
 detox(1.4.2):detox inline-detox
 devd(0.9):devd
@@ -1588,8 +1589,8 @@ ghi(1.2.0_4):ghi
 ghostscript(9.54.0):dvipdf eps2eps gpcl6 gpcl6c gpdlc gs gsbj gsc gsdj gsdj500 gslj gslp gsnd gsx gxps gxpsc lprsetup.sh pdf2dsc pdf2ps pf2afm pfbtopfa pphs printafm ps2ascii ps2epsi ps2pdf ps2pdf12 ps2pdf13 ps2pdf14 ps2pdfwr ps2ps ps2ps2 unix-lpr.sh
 ghq(1.2.1):ghq
 ghr(0.14.0):ghr
-ghz(0.95.0):ghz
-ghz-web(0.95.0):ghz-web
+ghz(0.96.0):ghz
+ghz-web(0.96.0):ghz-web
 gibbslda(0.2):lda
 gibo(2.2.4):gibo
 gif2png(2.5.13):gif2png web2png
@@ -1641,7 +1642,7 @@ git-number(1.0.1):git-id git-list git-number
 git-octopus(1.4):git-apply-conflict-resolution git-conflict git-octopus
 git-open(1.3):git-open
 git-plus(0.4.6_1):git-multi git-old-branches git-recent git-relation git-semver
-git-quick-stats(2.2.0):git-quick-stats
+git-quick-stats(2.3.0):git-quick-stats
 git-recent(1.1.1):git-recent
 git-remote-codecommit(1.15.1_1):git-remote-codecommit
 git-remote-gcrypt(1.4):git-remote-gcrypt
@@ -1665,6 +1666,7 @@ git-url-sub(1.0.1):git-url-sub
 git-utils(1.0):git-addremove git-incoming git-index git-last git-outgoing git-patch git-pull-request git-rank-contributors git-rm-conflicts git-switch git-unwip git-wip git-wtf
 git-vendor(1.2.1):git-vendor
 git-when-merged(1.2.0):git-when-merged
+git-xargs(0.0.10):git-xargs
 gitbackup(0.6):gitbackup
 gitbatch(0.6.1):gitbatch
 gitbucket(4.35.3):
@@ -1714,7 +1716,7 @@ glooctl(1.7.11):glooctl
 gloox(1.0.24):gloox-config
 glow(1.4.1):glow
 glpk(5.0):glpsol
-glslang(11.4.0):glslangValidator spirv-remap
+glslang(11.5.0):glslangValidator spirv-remap
 glslviewer(1.7.0):glslViewer
 glui(2.37):
 glulxe(0.5.4):glulxe
@@ -1807,7 +1809,7 @@ gopass-jsonapi(1.11.1):gopass-jsonapi
 gopls(0.7.0):gopls
 gor(1.2.0):gor
 goredo(1.3.0):goredo redo redo-always redo-cleanup redo-dot redo-ifchange redo-ifcreate redo-log redo-ood redo-sources redo-stamp redo-targets redo-whichdo
-goreleaser(0.171.0):goreleaser
+goreleaser(0.172.1):goreleaser
 goreman(0.3.7):goreman
 gosec(2.8.1):gosec
 gost(2.11.1):gost
@@ -1880,7 +1882,6 @@ groonga(11.0.3):grndb groonga groonga-benchmark groonga-httpd groonga-httpd-rest
 groovy(3.0.8):grape grape_completion groovy groovyConsole groovyConsole_completion groovy_completion groovyc groovyc_completion groovydoc groovydoc_completion groovysh groovysh_completion java2groovy startGroovy
 groovysdk(3.0.8):grape grape_completion groovy groovy.ico groovyConsole groovyConsole_completion groovy_completion groovyc groovyc_completion groovydoc groovydoc_completion groovysh groovysh_completion java2groovy startGroovy
 groovyserv(1.2.0):groovyclient groovyserver
-growly(0.2.0):growly
 grpc(1.38.1):grpc_cli grpc_cpp_plugin grpc_csharp_plugin grpc_node_plugin grpc_objective_c_plugin grpc_php_plugin grpc_python_plugin grpc_ruby_plugin
 grpc-swift(1.1.0):protoc-gen-grpc-swift
 grpcui(1.1.0):grpcui
@@ -2188,7 +2189,7 @@ ipcalc(0.41):ipcalc
 iperf(2.1.2):iperf
 iperf3(3.10.1):iperf3
 ipfs(0.9.0):ipfs
-iphotoexport:iphotoexport
+iphotoexport(1.6.4):iphotoexport
 ipinfo(1.2):ipinfo ipmatch
 ipinfo-cli(2.0.1):ipinfo
 ipmitool(1.8.18_3):ipmitool
@@ -2320,7 +2321,7 @@ jsonschema2pojo(1.1.1):jsonschema2pojo
 jsvc(1.2.4):jsvc
 jthread(1.3.3):
 juise(0.9.0):juise juise-config
-juju(2.9.0):juju juju-metadata
+juju(2.9.5):juju juju-metadata
 juju-wait(2.8.4_1):juju-wait
 julia(1.6.1):julia
 julius(4.6):accept_check adinrec adintool binlm2arpa dfa_determinize dfa_minimize generate generate-ngram gram2sapixml.pl jclient.pl jcontrol julius libjulius-config libsent-config mkbingram mkbinhmm mkbinhmmlist mkdfa.pl mkdfa.py mkfa mkgshmm mkss nextword yomi2voca.pl
@@ -2340,7 +2341,7 @@ k6(0.32.0):k6
 k9s(0.24.10):k9s
 kafka(2.8.0):connect-distributed connect-mirror-maker connect-standalone kafka-acls kafka-broker-api-versions kafka-cluster kafka-configs kafka-console-consumer kafka-console-producer kafka-consumer-groups kafka-consumer-perf-test kafka-delegation-tokens kafka-delete-records kafka-dump-log kafka-features kafka-leader-election kafka-log-dirs kafka-metadata-shell kafka-mirror-maker kafka-preferred-replica-election kafka-producer-perf-test kafka-reassign-partitions kafka-replica-verification kafka-run-class kafka-server-start kafka-server-stop kafka-storage kafka-streams-application-reset kafka-topics kafka-verifiable-consumer kafka-verifiable-producer trogdor zookeeper-security-migration zookeeper-server-start zookeeper-server-stop zookeeper-shell
 kafkacat(1.6.0):kafkacat
-kahip(3.10):dspac edge_list_to_metis_graph edge_partitioning evaluator global_multisection graph2binary graph2binary_external graphchecker interface_test kaffpa kaffpaE label_propagation node_ordering node_separator parhip partition_to_vertex_separator readbgf toolbox
+kahip(3.11):dspac edge_list_to_metis_graph edge_partitioning evaluator global_multisection graph2binary graph2binary_external graphchecker interface_test kaffpa kaffpaE label_propagation node_ordering node_separator parhip partition_to_vertex_separator readbgf toolbox
 kaitai-struct-compiler(0.9):kaitai-struct-compiler
 kakoune(2020.09.01):kak
 kallisto(0.46.2):kallisto
@@ -2382,7 +2383,7 @@ kind(0.11.1):kind
 kitchen-completion(1.0.0):
 kitchen-sync(2.11):ks ks_mysql ks_postgresql
 kite(1.0.4_3):build_kdocs ikt kdb kite
-klavaro(3.11_1):klavaro
+klavaro(3.13):klavaro
 klee(2.2_2):gen-bout gen-random-bout kleaver klee klee-replay klee-stats klee-zesti ktest-tool
 knock(0.8):knock knock_helper_ipt.sh knockd
 knot(3.0.7):kcatalogprint kdig keymgr khost kjournalprint knotc knotd knsec3hash knsupdate kzonecheck kzonesign
@@ -2440,7 +2441,7 @@ lablgtk(2.18.11_3):gdk_pixbuf_mlsource lablgtk2
 lame(3.100):lame
 lammps(2020-10-29):lmp_mpi lmp_serial
 landscaper(1.0.24_1):landscaper
-languagetool(5.3):languagetool languagetool-gui languagetool-server
+languagetool(5.4):languagetool languagetool-gui languagetool-server
 lanraragi(0.7.9):lanraragi
 lapack(3.9.1_1):
 lasi(1.1.3_2):
@@ -3489,8 +3490,8 @@ norm(1.5.8):
 normalize(0.7.7):normalize normalize-mp3 normalize-ogg
 noti(3.5.0):noti
 notifiers(1.2.1_3):notifiers
-notmuch(0.32.1_1):notmuch notmuch-emacs-mua
-notmuch-mutt(0.32.1):notmuch-mutt
+notmuch(0.32.2):notmuch notmuch-emacs-mua
+notmuch-mutt(0.32.2):notmuch-mutt
 noweb(2.11b):cpif htmltoc nodefs noindex noroff noroots notangle nountangle noweave noweb nuweb2noweb sl2h
 nox(2021.6.12):nox
 npth(1.6):npth-config
@@ -3933,7 +3934,7 @@ pokerstove(1.0_1):penum_tests peval_tests ps-colex ps-eval ps-lut util_tests
 polipo(1.1.1):polipo
 polyglot(2.0.4):polyglot
 polyml(5.8.2):poly polyc polyimport
-polynote(0.3.12):polynote
+polynote(0.4.2):polynote
 pony-stable(0.2.2):stable
 ponyc(0.41.0):ponyc
 ponysay(3.0.3_6):ponysay ponysay-tool ponythink
@@ -4051,7 +4052,7 @@ py2cairo(1.18.2_1):
 py3cairo(1.20.1):
 pybind11(2.6.2):pybind11-config
 pycodestyle(2.7.0):pycodestyle
-pyenv(2.0.1):pyenv pyenv-install pyenv-uninstall python-build
+pyenv(2.0.2):pyenv pyenv-install pyenv-uninstall python-build
 pyenv-ccache(0.0.2):
 pyenv-pip-migrate(20181205):pyenv-migrate
 pyenv-virtualenv(1.1.5):pyenv-activate pyenv-deactivate pyenv-sh-activate pyenv-sh-deactivate pyenv-virtualenv pyenv-virtualenv-delete pyenv-virtualenv-init pyenv-virtualenv-prefix pyenv-virtualenvs
@@ -4081,7 +4082,7 @@ python@3.8(3.8.10):2to3 2to3-3.8 idle3 idle3.8 pip3 pip3.8 pydoc3 pydoc3.8 pytho
 python@3.9(3.9.5):2to3 2to3-3.9 idle3 idle3.9 pip3 pip3.9 pydoc3 pydoc3.9 python3 python3-config python3.9 python3.9-config wheel3
 pytouhou(634_8):pytouhou
 pyvim(3.0.2_1):pyvim
-pywhat(3.1.0):pywhat what
+pywhat(3.2.0):pywhat what
 q(2.0.19_2):q
 qalculate-gtk(3.19.0):qalculate-gtk
 qbs(1.19.1):qbs qbs-config qbs-config-ui qbs-create-project qbs-setup-android qbs-setup-qt qbs-setup-toolchains
@@ -4218,7 +4219,7 @@ redstore(0.5.4):redstore
 reg(0.16.1):reg
 regex-opt(1.2.4):regex-opt
 regina-rexx(3.9.3):regina regina-config rexx rxqueue rxstack
-regipy(1.9.0):registry-diff registry-dump registry-parse-header registry-plugins-list registry-plugins-run registry-transaction-logs
+regipy(1.9.1):registry-diff registry-dump registry-parse-header registry-plugins-list registry-plugins-run registry-transaction-logs
 regldg(1.0.0):regldg
 rem(20150618):rem
 remake(4.3-1.5):remake
@@ -4287,7 +4288,7 @@ roundup(0.0.6):roundup
 rp(1.0):rp-osx
 rpcgen(66):rpcgen
 rpg(0.3.0):rpg rpg-sh-setup
-rpg-cli(0.4.1):rpg-cli
+rpg-cli(0.5.0):rpg-cli
 rpl(1.4.1):rpl
 rpm(4.16.1.3):gendiff rpm rpm2archive rpm2cpio rpmbuild rpmdb rpmgraph rpmkeys rpmquery rpmsign rpmspec rpmverify
 rpm2cpio(1.4):rpm2cpio
@@ -4395,7 +4396,7 @@ scrub(2.6.1):scrub
 scrypt(1.3.1):scrypt
 scs(2.1.3):
 scummvm(2.2.0):scummvm
-scummvm-tools(2.2.0_1):construct_mohawk create_sjisfnt decine decompile degob dekyra deprince descumm desword2 extract_mohawk gob_loadcalc pegasus_save_types scummvm-tools-cli
+scummvm-tools(2.2.0_2):construct_mohawk create_sjisfnt decine decompile degob dekyra deprince descumm desword2 extract_mohawk gob_loadcalc pegasus_save_types scummvm-tools scummvm-tools-cli
 scw(2.3.1):scw
 scws(1.2.3):scws scws-gen-dict
 sd(0.7.6_1):sd
@@ -5021,9 +5022,9 @@ twine-pypi(3.4.1):twine
 two-lame(0.4.0):stwolame
 twoping(4.5.1):2ping 2ping6
 twtxt(1.2.3_4):twtxt
-txr(263):txr
+txr(264):txr
 txt2tags(3.7_2):txt2tags
-typedb(2.1.4):typedb
+typedb(2.2.0):typedb
 typescript(4.3.4):tsc tsserver
 typespeed(0.6.5):typespeed
 tz(0.5):tz
@@ -5341,7 +5342,7 @@ xcenv(1.2.0):xcenv
 xcinfo(0.7.0):xcinfo
 xclip(0.13_1):xclip xclip-copyfile xclip-cutfile xclip-pastefile
 xclogparser(0.2.27):xclogparser
-xcodegen(2.23.1):xcodegen
+xcodegen(2.24.0):xcodegen
 xcproj(0.2.1):xcproj
 xcprojectlint(0.0.6):xcprojectlint
 xctool(0.3.7):xctool
