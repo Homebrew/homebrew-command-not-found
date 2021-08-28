@@ -270,8 +270,8 @@ aws-rotate-key(1.0.7):aws-rotate-key
 aws-sdk-cpp(1.9.80):sha256_profile
 aws-shell(0.2.2):aws-shell aws-shell-mkindex
 aws-vault(6.3.1):aws-vault
-awscli(2.2.32):aws aws_completer aws_legacy_completer
-awscli@1(1.20.20):aws aws_completer
+awscli(2.2.33):aws aws_completer aws_legacy_completer
+awscli@1(1.20.30):aws aws_completer
 awscurl(0.24):awscurl
 awslogs(0.14.0_1):awslogs
 awsume(4.5.3):autoawsume awsume awsume-autocomplete awsume-configure awsume.bat awsume.fish awsume.ps1 awsumepy
@@ -1027,7 +1027,7 @@ dieharder(3.31.1_3):dieharder
 diesel(1.4.7):diesel
 diff-pdf(0.5_2):diff-pdf
 diff-so-fancy(1.4.3):diff-so-fancy
-diffoscope(181):diffoscope
+diffoscope(182):diffoscope
 diffr(0.1.4):diffr
 diffstat(1.64):diffstat
 diffutils(3.8):cmp diff diff3 sdiff
@@ -1218,7 +1218,7 @@ ejabberd(21.07):ejabberdctl
 ejdb(2.61):jbs
 ekg2(0.3.1_4):ekg2
 ekhtml(0.3.2):
-eksctl(0.62.0):eksctl
+eksctl(0.63.0):eksctl
 elan-init(1.0.7):elan elan-init lean leanc leanchecker leanmake leanpkg
 elasticsearch(7.10.2):elasticsearch elasticsearch-keystore elasticsearch-plugin elasticsearch-shard
 elasticsearch@6(6.8.13):elasticsearch elasticsearch-keystore elasticsearch-plugin elasticsearch-translog
@@ -1255,7 +1255,7 @@ entr(5.0):entr
 envchain(1.0.1):envchain
 envconsul(0.11.0):envconsul
 envoy(1.19.1):envoy
-envoy@1.18(1.18.3):envoy
+envoy@1.18(1.18.4):envoy
 envv(1.7):envv
 enzyme(0.0.16):
 eot-utils(1.1):eotinfo mkeot
@@ -1272,6 +1272,7 @@ erlang(24.0.5):ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
 erlang@21(21.3.8.24_2):ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
 erlang@22(22.3.4.20_2):ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
 erlang@23(23.3.4.5_1):ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
+esbuild(0.12.24):esbuild
 eslint(7.32.0):eslint
 esniper(2.35.0):esniper
 espeak(1.48.04_1):espeak
@@ -1303,7 +1304,7 @@ exiv2(0.27.4):exiv2
 exodriver(2.6.0):
 expat(2.4.1):xmlwf
 expect(5.45.4_1):autoexpect autopasswd cryptdir decryptdir dislocate expect ftp-rfc kibitz lpunlock mkpasswd multixterm passmass rftp rlogin-cwd timed-read timed-run tknewsbiff tkpasswd unbuffer weather xkibitz xpstat
-exploitdb(2021-08-26):searchsploit
+exploitdb(2021-08-27):searchsploit
 extra-cmake-modules(5.85.0):
 extract_url(1.6.2):extract_url
 exult(1.6):exult
@@ -1795,7 +1796,7 @@ gnuradio(3.9.2.0_2):gnuradio-companion gnuradio-config-info gr_filter_design gr_
 gnuski(0.3):gnuski
 gnustep-make(2.9.0):
 gnutls(3.6.16):danetool gnutls-certtool gnutls-cli gnutls-cli-debug gnutls-serv ocsptool p11tool psktool srptool
-go(1.16.6):go gofmt
+go(1.17):go gofmt
 go-bindata(3.22.0_1):go-bindata
 go-boring(1.16.7b7):go gofmt
 go-jira(1.0.27):jira
@@ -1805,6 +1806,7 @@ go-statik(0.1.7):statik
 go@1.13(1.13.15):go godoc gofmt
 go@1.14(1.14.15):go godoc gofmt
 go@1.15(1.15.15):go gofmt
+go@1.16(1.16.7):go gofmt
 goaccess(1.5.1):goaccess
 goad(2.0.4):goad
 gobject-introspection(1.68.0_1):g-ir-annotation-tool g-ir-compiler g-ir-generate g-ir-inspect g-ir-scanner
@@ -2251,7 +2253,7 @@ iso-codes(4.7.0):
 isort(5.9.3):isort isort-identify-imports
 ispc(1.16.1):ispc
 ispell(3.4.04):buildhash defmt-c defmt-sh findaffix icombine ijoin ispell munchlist tryaffix
-istioctl(1.11.0):istioctl
+istioctl(1.11.1):istioctl
 isync(1.4.3):mbsync mbsync-get-cert mdconvert
 itex2mml(1.6.0):itex2MML
 itk(5.2.1):itkTestDriver
@@ -2449,7 +2451,7 @@ ktlint(0.42.1):ktlint
 ktmpl(0.9.1):ktmpl
 ktoblzcheck(1.53_1):ibanchk ktoblzcheck
 kube-aws(0.16.4):kube-aws
-kube-linter(0.2.2):kube-linter
+kube-linter(0.2.3):kube-linter
 kube-ps1(0.7.0):
 kubeaudit(0.14.2):kubeaudit
 kubebuilder(3.1.0):kubebuilder
@@ -2660,7 +2662,7 @@ libftdi0(0.20):baud_test bitbang bitbang2 bitbang_cbus bitbang_ft2232 find_all l
 libgadu(1.12.2):
 libgaiagraphics(0.5_8):
 libgccjit(11.2.0):
-libgcrypt(1.9.3_1):dumpsexp hmac256 libgcrypt-config mpicalc
+libgcrypt(1.9.4):dumpsexp hmac256 libgcrypt-config mpicalc
 libgda(5.2.10):gda-list-config gda-list-config-5.0 gda-list-server-op gda-list-server-op-5.0 gda-sql gda-sql-5.0 gda-test-connection-5.0
 libgdata(0.18.1):
 libgee(0.20.4):
@@ -3198,7 +3200,7 @@ mesa-glu(9.0.2):
 mesalib-glw(8.0.0_1):
 meson(0.59.1):meson
 mesos(1.11.0):mesos mesos-cat mesos-execute mesos-local mesos-log mesos-ps mesos-resolve mesos-scp mesos-tail
-metabase(0.40.3):metabase
+metabase(0.40.3.1):metabase
 metaproxy(1.19.4):metaproxy metaproxy-config
 metashell(4.0.0):metashell templight_metashell
 metis(5.1.0):cmpfillin gpmetis graphchk m2gmetis mpmetis ndmetis
@@ -3240,7 +3242,7 @@ minio-mc(20210727064619):mc
 minipro(0.5):minipro miniprohex
 minisat(2.2.1):minisat minisat_core
 minised(1.15):minised
-miniserve(0.14.0):miniserve
+miniserve(0.15.0):miniserve
 minisign(0.9):minisign
 miniupnpc(2.2.2):external-ip upnpc
 minizinc(2.5.5):minizinc mzn2doc
@@ -3428,7 +3430,7 @@ narwhal(0.3.2):js json narwhal sea tusk
 nasm(2.15.05):ldrdf nasm ndisasm rdf2bin rdf2com rdf2ihx rdf2ith rdf2srec rdfdump rdflib rdx
 natalie(0.7.0_1):natalie
 nativefier(45.0.0):nativefier
-nats-server(2.3.4):nats-server
+nats-server(2.4.0):nats-server
 nats-streaming-server(0.22.1):nats-streaming-server
 naturaldocs(2.1.1):naturaldocs
 nauty(27r1):NRswitchg addedgeg amtog assembleg biplabg catg complg converseg copyg countg cubhamg deledgeg delptg directg dreadnaut dretodot dretog edgetransg genbg genbgL geng gengL genquarticg genrang genspecialg gentourng gentreeg hamheuristic labelg linegraphg listg multig newedgeg pickg planarg ranlabg shortg showg subdivideg twohamg underlyingg vcolg watercluster2
@@ -3437,7 +3439,7 @@ navi(2.17.0):navi
 nbdime(3.1.0):git-nbdiffdriver git-nbdifftool git-nbmergedriver git-nbmergetool hg-nbdiff hg-nbdiffweb hg-nbmerge hg-nbmergeweb nbdiff nbdiff-web nbdime nbmerge nbmerge-web nbshow
 nbimg(1.2.1):nbimg
 nbsdgames(4.1.2):battleship checkers darrt fifteen fisher jewels memoblocks miketron mines muncher pipes rabbithole redsquare reversi snakeduel sos sudoku
-ncc(0.29.2):ncc
+ncc(0.30.0):ncc
 ncdc(1.22.1):ncdc
 ncdu(1.16):ncdu
 ncftp(3.2.6):ncftp ncftpbatch ncftpbookmarks ncftpget ncftpls ncftpput
@@ -3489,7 +3491,7 @@ networkit(9.0):
 never(2.0.3):never
 newlisp(10.7.5):newlisp newlisp-10.7.5 newlispdoc
 newman(5.2.4):newman
-newrelic-cli(0.34.9):newrelic
+newrelic-cli(0.34.21):newrelic
 newrelic-infra-agent(1.20.0):newrelic-infra newrelic-infra-ctl newrelic-infra-service
 newsboat(2.24_1):newsboat podboat
 newt(0.52.21):whiptail
@@ -3533,7 +3535,7 @@ node_exporter(1.2.2):node_exporter node_exporter_brew_services
 nodebrew(1.1.0):nodebrew
 nodeenv(1.6.0):nodeenv
 nodenv(1.4.0):nodenv
-nomad(1.1.3):nomad
+nomad(1.1.4):nomad
 nomino(1.1.0):nomino
 nopoll(0.4.7.b429):
 norm(1.5.8):
@@ -3603,7 +3605,7 @@ oclgrind(19.10_3):oclgrind oclgrind-kernel
 ocp(0.2.90):ocp ocp-0.2.90 ocp-curses ocp-sdl2
 ocproxy(1.60_1):ocproxy
 ocrad(0.27):ocrad
-ocrmypdf(12.3.2):ocrmypdf
+ocrmypdf(12.3.3):ocrmypdf
 octant(0.23.0):octant
 octave(6.3.0):mkoctfile mkoctfile-6.3.0 octave octave-6.3.0 octave-cli octave-cli-6.3.0 octave-config octave-config-6.3.0
 octomap(1.9.7):binvox2bt bt2vrml compare_octrees convert_octree edit_octree eval_octree_accuracy graph2tree log2graph
@@ -3705,7 +3707,7 @@ openshift-cli(4.6.0):oc
 openslide(3.4.1_5):openslide-quickhash1sum openslide-show-properties openslide-write-png
 openslp(2.0.0):slptool
 openssh(8.7p1):scp sftp slogin ssh ssh-add ssh-agent ssh-keygen ssh-keyscan sshd
-openssl@1.1(1.1.1k):c_rehash openssl
+openssl@1.1(1.1.1l):c_rehash openssl
 openstackclient(5.5.0):openstack
 opensubdiv(3.4.4):far_perf far_regression hbr_baseline hbr_regression osd_regression stringify
 opentracing-cpp(1.6.0):
@@ -3905,7 +3907,7 @@ php-cs-fixer(3.0.2):php-cs-fixer
 php-cs-fixer@2(2.19.2):php-cs-fixer
 php@7.2(7.2.34_4):pear peardev pecl phar phar.phar php php-cgi php-config php-fpm phpdbg phpize
 php@7.3(7.3.30):pear peardev pecl phar phar.phar php php-cgi php-config php-fpm phpdbg phpize
-php@7.4(7.4.22):pear peardev pecl phar phar.phar php php-cgi php-config php-fpm phpdbg phpize
+php@7.4(7.4.23):pear peardev pecl phar phar.phar php php-cgi php-config php-fpm phpdbg phpize
 phpbrew(1.27.0):phpbrew
 phplint(4.2.0-20200308):phpl
 phpmd(2.10.2):phpmd
@@ -4052,7 +4054,7 @@ proguard(7.1.1):proguard proguardgui retrace
 proj(8.1.0):cct cs2cs geod gie invgeod invproj proj projinfo projsync
 proj@7(7.2.1):cct cs2cs geod gie invgeod invproj proj projinfo projsync
 projectm(3.1.12):projectM-unittest projectMSDL
-prometheus(2.29.1):prometheus prometheus_brew_services promtool
+prometheus(2.29.2):prometheus prometheus_brew_services promtool
 prometheus-cpp(0.12.3):
 promtail(2.3.0):promtail
 proof-general(4.4_2):coqtags isartags legotags proofgeneral
@@ -4162,7 +4164,7 @@ qcli(1.2_3):qcli
 qd(2.3.23):qd-config
 qdae(0.0.10):apriboot dskdump dskform dskid dskscan dsktrans dskutil md3serial qdae
 qdbm(1.8.78):cbcodec cbtest crmgr crtest crtsv dpmgr dptest dptsv hvmgr hvtest odidx odmgr odtest qmttest rlmgr rltest vlmgr vltest vltsv
-qemu(6.0.0):elf2dmp qemu-edid qemu-img qemu-io qemu-nbd qemu-storage-daemon qemu-system-aarch64 qemu-system-alpha qemu-system-arm qemu-system-avr qemu-system-cris qemu-system-hppa qemu-system-i386 qemu-system-m68k qemu-system-microblaze qemu-system-microblazeel qemu-system-mips qemu-system-mips64 qemu-system-mips64el qemu-system-mipsel qemu-system-moxie qemu-system-nios2 qemu-system-or1k qemu-system-ppc qemu-system-ppc64 qemu-system-riscv32 qemu-system-riscv64 qemu-system-rx qemu-system-s390x qemu-system-sh4 qemu-system-sh4eb qemu-system-sparc qemu-system-sparc64 qemu-system-tricore qemu-system-x86_64 qemu-system-xtensa qemu-system-xtensaeb
+qemu(6.1.0):elf2dmp qemu-edid qemu-img qemu-io qemu-nbd qemu-storage-daemon qemu-system-aarch64 qemu-system-alpha qemu-system-arm qemu-system-avr qemu-system-cris qemu-system-hppa qemu-system-i386 qemu-system-m68k qemu-system-microblaze qemu-system-microblazeel qemu-system-mips qemu-system-mips64 qemu-system-mips64el qemu-system-mipsel qemu-system-nios2 qemu-system-or1k qemu-system-ppc qemu-system-ppc64 qemu-system-riscv32 qemu-system-riscv64 qemu-system-rx qemu-system-s390x qemu-system-sh4 qemu-system-sh4eb qemu-system-sparc qemu-system-sparc64 qemu-system-tricore qemu-system-x86_64 qemu-system-xtensa qemu-system-xtensaeb
 qhull(2020.2):qconvex qdelaunay qhalf qhull qvoronoi rbox
 qjackctl(0.9.4):qjackctl
 qjson(0.9.0_2):
@@ -4312,7 +4314,7 @@ restund(0.4.12):
 restview(2.9.2_3):restview
 resty(3.0):pp pypp
 rethinkdb(2.4.1):rethinkdb
-revive(1.1.0):revive
+revive(1.1.1):revive
 rex(1.11.0):rex rexify
 rfcmarkup(1.119):rfcmarkup
 rfcstrip(1.03):rfcstrip
@@ -4399,7 +4401,7 @@ run(0.7.2):run
 runcocoa(20120108):runc runcocoa
 runit(2.1.2):chpst runit runit-init runsv runsvchdir runsvdir sv svlogd utmpset
 rush(2.1):rush-po rushlast rushwho
-rust(1.54.0):cargo rust-gdb rust-gdbgui rust-lldb rustc rustdoc
+rust(1.54.0_1):cargo rust-gdb rust-gdbgui rust-lldb rustc rustdoc
 rust-analyzer(2021-08-23):rust-analyzer
 rustc-completion(0.12.1):
 rustscan(2.0.1):rustscan
@@ -5110,7 +5112,7 @@ twtxt(1.2.3_4):twtxt
 txr(268):txr
 txt2tags(3.7_2):txt2tags
 typedb(2.3.2):typedb
-typescript(4.3.5):tsc tsserver
+typescript(4.4.2):tsc tsserver
 typespeed(0.6.5):typespeed
 tz(0.5):tz
 u-boot-tools(2021.07):dumpimage mkimage
@@ -5254,6 +5256,7 @@ visionmedia-watch(0.3.1):watch
 visitors(0.7):visitors
 visp(3.4.0_3):visp-config
 vit(2.1.0):vit
+vite(2.5.1):vite
 vitess(10.0.2):mysqlctl mysqlctld vtbackup vtctl vtctlclient vtctld vtctldclient vtgate vtorc vttablet vtworker
 vitetris(0.59.1):tetris
 vivid(0.7.0):vivid
@@ -5288,6 +5291,7 @@ vte3(0.64.2):vte-2.91
 vtk(9.0.3):vtkParseJava-9.0 vtkProbeOpenGLVersion-9.0 vtkWrapHierarchy-9.0 vtkWrapJava-9.0 vtkWrapPython-9.0 vtkWrapPythonInit-9.0 vtkpython
 vtk@8.2(8.2.0_7):vtkParseJava-8.2 vtkWrapHierarchy-8.2 vtkWrapJava-8.2 vtkWrapPython-8.2 vtkWrapPythonInit-8.2 vtkpython
 vttest(20210210):vttest
+vue-cli(4.5.13):vue
 vulkan-headers(1.2.189):
 vultr(2.0.3):vultr
 vulture(2.3):vulture
@@ -5472,7 +5476,7 @@ xorriso(1.5.4):osirrox xorrecord xorriso xorriso-tcltk xorrisofs
 xpa(2.1.20):xpaaccess xpaget xpainfo xpamb xpans xpaset
 xpdf(4.03_1):pdfdetach pdffonts pdfimages pdfinfo pdftohtml pdftopng pdftoppm pdftops pdftotext xpdf
 xplanet(1.3.1_4):xplanet
-xplr(0.14.5):xplr
+xplr(0.14.6):xplr
 xqilla(2.3.4):xqilla
 xray(1.4.2_1):xray
 xrick(021212):xrick
@@ -5532,7 +5536,7 @@ you-get(0.4.1545):you-get
 youtube-dl(2021.6.6):youtube-dl
 youtube-dlc(2020.11.11-3):youtube-dlc
 youtubedr(2.7.4):youtubedr
-yq(4.12.0):yq
+yq(4.12.1):yq
 yubico-piv-tool(2.2.0):yubico-piv-tool
 yubikey-agent(0.1.5):yubikey-agent
 yuicompressor(2.4.8_1):yuicompressor
