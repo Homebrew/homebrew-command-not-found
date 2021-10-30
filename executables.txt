@@ -74,7 +74,7 @@ aliyun-cli(3.0.96):aliyun
 all-repos(1.21.2):all-repos-clone all-repos-complete all-repos-find-files all-repos-grep all-repos-list-repos all-repos-manual all-repos-sed
 allegro(5.2.7.0):
 allure(2.15.0):allure
-allureofthestars(0.10.2.0_4):Allure
+allureofthestars(0.10.3.0):Allure
 alluxio(2.6.2):alluxio alluxio-common.sh alluxio-masters.sh alluxio-monitor.sh alluxio-mount.sh alluxio-start.sh alluxio-stop.sh alluxio-workers.sh launch-process
 alot(0.9.1_2):alot
 alp(1.0.8):alp
@@ -190,7 +190,7 @@ arturo(0.9.77):arturo
 arx-libertatis(1.2):arx arx-install-data arxsavetool arxunpak
 as-tree(0.12.0):as-tree
 ascii(3.18):ascii
-asciidoc(10.0.0):a2x asciidoc
+asciidoc(10.0.1):a2x asciidoc
 asciidoctor(2.0.16_1):asciidoctor asciidoctor-pdf
 asciidoctorj(2.5.2):asciidoctorj
 asciinema(2.1.0):asciinema
@@ -279,7 +279,7 @@ aws-sdk-cpp(1.9.120):
 aws-shell(0.2.2_1):aws-shell aws-shell-mkindex
 aws-sso-util(4.25.0_1):aws-sso-util
 aws-vault(6.3.1):aws-vault
-awscli(2.3.1):aws aws_completer aws_legacy_completer
+awscli(2.3.2):aws aws_completer
 awscli@1(1.21.0):aws aws_completer
 awscurl(0.24_1):awscurl
 awslogs(0.14.0_2):awslogs
@@ -287,7 +287,7 @@ awsume(4.5.3_1):autoawsume awsume awsume-autocomplete awsume-configure awsume.ba
 awsweeper(0.11.1):awsweeper
 axel(2.17.10):axel
 azcopy(10.13.0):azcopy
-azure-cli(2.29.1):az
+azure-cli(2.29.2):az
 azure-storage-cpp(7.5.0_1):
 b2-tools(3.0.3_1):b2
 b2sum(20190724):b2sum
@@ -736,7 +736,7 @@ clog(1.3.0):clog
 clojure(1.10.3.998):clj clojure
 clojure-lsp(20210913T222535):clojure-lsp
 clojurescript(1.10.866):cljsc
-cloog(0.18.4_3):cloog
+cloog(0.18.4_4):cloog
 closure-compiler(20211006):closure-compiler
 closure-stylesheets(1.5.0_1):closure-stylesheets
 cloud-nuke(0.5.1):cloud-nuke
@@ -804,8 +804,8 @@ comby(1.7.0):comby
 commandbox(5.4.2):box
 commitizen(2.20.0):cz git-cz
 compface(1.5.2):compface uncompface
-composer(2.1.9):composer
-conan(1.41.0):conan conan_build_info conan_server
+composer(2.1.10):composer
+conan(1.42.0):conan conan_build_info conan_server
 concurrencykit(0.7.0):
 condure(1.4.1):condure
 confd(0.16.0):confd
@@ -1056,7 +1056,7 @@ dieharder(3.31.1_3):dieharder
 diesel(1.4.8):diesel
 diff-pdf(0.5_2):diff-pdf
 diff-so-fancy(1.4.3):diff-so-fancy
-diffoscope(188):diffoscope
+diffoscope(189):diffoscope
 diffr(0.1.4):diffr
 diffstat(1.64):diffstat
 diffutils(3.8):cmp diff diff3 sdiff
@@ -1119,7 +1119,7 @@ docker-ls(0.5.1):docker-ls docker-rm
 docker-machine(0.16.2):docker-machine
 docker-machine-completion(0.16.2):
 docker-machine-driver-hyperkit(1.0.0):docker-machine-driver-hyperkit
-docker-machine-driver-vmware(0.1.3):docker-machine-driver-vmware
+docker-machine-driver-vmware(0.1.5):docker-machine-driver-vmware
 docker-machine-driver-vultr(1.4.0):docker-machine-driver-vultr
 docker-machine-driver-xhyve(0.4.0):docker-machine-driver-xhyve
 docker-machine-nfs(0.5.4):docker-machine-nfs
@@ -1173,7 +1173,7 @@ druid(0.22.0):druid-broker.sh druid-coordinator.sh druid-historical.sh druid-jco
 dscanner(0.11.1):dscanner
 dsh(0.25.10):dsh
 dsocks(1.8):dsocks.sh
-dspdfviewer(1.15.1_10):
+dspdfviewer(1.15.1_11):dspdfviewer
 dssim(3.1.0):dssim
 dstask(0.25):dstask dstask-import
 dsvpn(0.1.4):
@@ -1303,7 +1303,7 @@ erlang(24.1.3):ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
 erlang@21(21.3.8.24_2):ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
 erlang@22(22.3.4.21):ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
 erlang@23(23.3.4.7):ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
-esbuild(0.13.9):esbuild
+esbuild(0.13.10):esbuild
 eslint(8.1.0):eslint
 esniper(2.35.0):esniper
 espeak(1.48.04_1):espeak
@@ -1428,7 +1428,7 @@ findomain(5.0.0):findomain
 findutils(4.8.0_1):gfind glocate gupdatedb gxargs
 fio(3.28):fio fio-dedupe fio-genzipf fio-histo-log-pctiles.py fio-verify-state fio2gnuplot fio_generate_plots fio_jsonplus_clat2csv fiologparser.py fiologparser_hist.py genfio
 firebase-cli(9.21.0):firebase
-firefoxpwa(1.2.0):firefoxpwa
+firefoxpwa(1.2.1):firefoxpwa
 fish(3.3.1):fish fish_indent fish_key_reader
 fits(1.5.0):fits fits-ngserver
 fizmo(0.8.5_2):fizmo-console fizmo-ncursesw fizmo-sdl2
@@ -1478,7 +1478,7 @@ fmt(8.0.1):
 fn(0.6.11):fn
 fnm(1.27.0):fnm
 fobis(3.0.5_1):FoBiS.py
-folderify(2.2.3):folderify
+folderify(2.3.0):folderify
 folly(2021.10.18.00):
 foma(0.9.18):cgflookup flookup foma
 fon-flash-cli(1.12.0):fon-flash
@@ -1580,7 +1580,7 @@ gau(1.2.0):gau
 gauche(0.9.10_3):gauche-cesconv gauche-config gauche-install gauche-package gosh
 gauge(1.4.2):gauge
 gaul(0.1850-0):gaul_diagnostics
-gawk(5.1.0_1):awk gawk
+gawk(5.1.1):awk gawk
 gbdfed(1.6_3):gbdfed
 gcab(1.4_1):gcab
 gcal(4.1):gcal gcal2txt tcal txt2gcal
@@ -1650,7 +1650,7 @@ gh(2.2.0):gh
 ghc(8.10.7_1):ghc ghc-8.10.7 ghc-pkg ghc-pkg-8.10.7 ghci ghci-8.10.7 haddock haddock-ghc-8.10.7 hp2ps hpc hsc2hs runghc runghc-8.10.7 runhaskell
 ghc@8.6(8.6.5_2):ghc ghc-8.6.5 ghc-pkg ghc-pkg-8.6.5 ghci ghci-8.6.5 haddock haddock-ghc-8.6.5 hp2ps hpc hsc2hs runghc runghc-8.6.5 runhaskell
 ghc@8.8(8.8.4_1):ghc ghc-8.8.4 ghc-pkg ghc-pkg-8.8.4 ghci ghci-8.8.4 haddock haddock-ghc-8.8.4 hp2ps hpc hsc2hs runghc runghc-8.8.4 runhaskell
-ghc@9(9.0.1):ghc ghc-9.0.1 ghc-pkg ghc-pkg-9.0.1 ghci ghci-9.0.1 haddock haddock-ghc-9.0.1 hp2ps hpc hsc2hs runghc runghc-9.0.1 runhaskell
+ghc@9(9.2.1):ghc ghc-9.2.1 ghc-pkg ghc-pkg-9.2.1 ghci ghci-9.2.1 haddock haddock-ghc-9.2.1 hp2ps hpc hsc2hs runghc runghc-9.2.1 runhaskell
 ghex(3.18.4_3):ghex
 ghi(1.2.0_4):ghi
 ghostscript(9.55.0):dvipdf eps2eps gpcl6 gpcl6c gpdlc gs gsbj gsc gsdj gsdj500 gslj gslp gsnd gsx gxps gxpsc lprsetup.sh pdf2dsc pdf2ps pf2afm pfbtopfa pphs printafm ps2ascii ps2epsi ps2pdf ps2pdf12 ps2pdf13 ps2pdf14 ps2pdfwr ps2ps ps2ps2 unix-lpr.sh
@@ -1675,7 +1675,7 @@ gist(6.0.0):gist
 gistit(0.1.4):gistit
 git(2.33.1_1):git git-cvsserver git-receive-pack git-shell git-upload-archive git-upload-pack
 git-absorb(0.6.6):git-absorb
-git-annex(8.20211011):git-annex git-annex-shell
+git-annex(8.20211028):git-annex git-annex-shell
 git-annex-remote-rclone(0.6):git-annex-remote-rclone
 git-appraise(0.6):git-appraise
 git-archive-all(1.23.0_2):git-archive-all
@@ -1687,14 +1687,14 @@ git-cola(3.11.0):cola git-cola git-cola-sequence-editor git-dag
 git-credential-libsecret(2.33.1):git-credential-libsecret
 git-credential-manager(2.0.4_2):git-credential-manager
 git-crypt(0.6.0_1):git-crypt
-git-delta(0.9.1):delta
+git-delta(0.9.2):delta
 git-extras(6.3.0):git-abort git-alias git-archive-file git-authors git-browse git-brv git-bulk git-changelog git-clear git-clear-soft git-coauthor git-commits-since git-contrib git-count git-cp git-create-branch git-delete-branch git-delete-merged-branches git-delete-squashed-branches git-delete-submodule git-delete-tag git-delta git-effort git-extras git-feature git-force-clone git-fork git-fresh-branch git-gh-pages git-graft git-guilt git-ignore git-ignore-io git-info git-local-commits git-lock git-locked git-merge-into git-merge-repo git-missing git-mr git-obliterate git-paste git-pr git-psykorebase git-pull-request git-reauthor git-rebase-patch git-release git-rename-branch git-rename-remote git-rename-tag git-repl git-reset-file git-root git-rscp git-scp git-sed git-setup git-show-merged-branches git-show-tree git-show-unmerged-branches git-squash git-stamp git-standup git-summary git-sync git-touch git-undo git-unlock git-utimes
 git-filter-repo(2.33.0_1):git-filter-repo
 git-fixup(1.4.0):git-fixup
 git-flow(0.4.1):git-flow
 git-flow-avh(1.12.3):git-flow
 git-fresh(1.13.0):git-fresh
-git-ftp(1.6.0):git-ftp
+git-ftp(1.6.0_1):git-ftp
 git-game(1.2):git-game
 git-gerrit(0.3.0):gerrit gerrit-cherry-pick git-gerrit
 git-gui(2.33.1):git-citool git-gui--askpass gitk
@@ -1705,7 +1705,7 @@ git-if(1.3.6):git-if
 git-imerge(1.2.0_1):git-imerge
 git-integration(0.4):git-integration
 git-interactive-rebase-tool(2.1.0):interactive-rebase-tool
-git-lfs(3.0.1):git-lfs
+git-lfs(3.0.2):git-lfs
 git-multipush(2.3):git-multipush
 git-now(0.1.1.0):git-now
 git-number(1.0.1):git-id git-list git-number
@@ -1745,7 +1745,7 @@ gitg(3.32.1_6):gitg
 github-keygen(1.305):github-keygen
 github-markdown-toc(1.2.0):gh-md-toc
 github-release(0.10.0):github-release
-gitlab-ci-local(4.25.1):gitlab-ci-local
+gitlab-ci-local(4.26.0):gitlab-ci-local
 gitlab-gem(4.17.0):gitlab
 gitlab-runner(14.4.0):gitlab-runner
 gitleaks(7.6.1):gitleaks
@@ -3237,6 +3237,7 @@ mdp(1.0.15):mdp
 mdr(1.0.1):mdr
 mdv(1.7.4):mdv
 mdxmini(1.0.0):mdxplay
+mdzk(0.4.2):mdzk
 mecab(0.996):mecab mecab-config
 mecab-ipadic(2.7.0-20070801):
 mecab-jumandic(7.0-20130310):
@@ -3502,7 +3503,7 @@ narwhal(0.3.2):js json narwhal sea tusk
 nasm(2.15.05):ldrdf nasm ndisasm rdf2bin rdf2com rdf2ihx rdf2ith rdf2srec rdfdump rdflib rdx
 natalie(0.7.0_1):natalie
 nativefier(45.0.4):nativefier
-nats-server(2.6.2):nats-server
+nats-server(2.6.3):nats-server
 nats-streaming-server(0.23.0):nats-streaming-server
 naturaldocs(2.1.1):naturaldocs
 nauty(2.7r3):NRswitchg addedgeg amtog assembleg biplabg catg complg converseg copyg countg cubhamg deledgeg delptg directg dreadnaut dretodot dretog edgetransg genbg genbgL geng gengL genquarticg genrang genspecialg gentourng gentreeg hamheuristic labelg linegraphg listg multig newedgeg pickg planarg ranlabg shortg showg subdivideg twohamg underlyingg vcolg watercluster2
@@ -3634,7 +3635,7 @@ nsh(0.4.2):nsh
 nsnake(3.0.1):nsnake
 nspr(4.32):nspr-config
 nsq(1.2.1):nsq_stat nsq_tail nsq_to_file nsq_to_http nsq_to_nsq nsqadmin nsqd nsqlookupd to_nsq
-nss(3.71):addbuiltin atob baddbdir bltest btoa certdb_gtest certhigh_gtest certutil chktest cmsutil conflict crlutil crmftest cryptohi_gtest dbtest der_gtest derdump dertimetest digest ecperf encodeinttest fbectest fipstest freebl_gtest httpserv listsuites makepqg mangle modutil multinit nonspr10 nss-config nss-policy-check nss_bogo_shim ocspclnt ocspresp oidcalc p7content p7env p7sign p7verify pk11_gtest pk11ectest pk11gcmtest pk11importtest pk11mode pk12util pk1sign pkix-errcodes pp pwdecrypt remtest rsaperf rsapoptst sdbthreadtst sdrtest secmodtest selfserv shlibsign signtool signver smime_gtest softoken_gtest ssl_gtest ssltap strsclnt symkeyutil tstclnt util_gtest vfychain vfyserv
+nss(3.72):addbuiltin atob baddbdir bltest btoa certdb_gtest certhigh_gtest certutil chktest cmsutil conflict crlutil crmftest cryptohi_gtest dbtest der_gtest derdump dertimetest digest ecperf encodeinttest fbectest fipstest freebl_gtest httpserv listsuites makepqg mangle modutil multinit nonspr10 nss-config nss-policy-check nss_bogo_shim ocspclnt ocspresp oidcalc p7content p7env p7sign p7verify pk11_gtest pk11ectest pk11gcmtest pk11importtest pk11mode pk12util pk1sign pkix-errcodes pp pwdecrypt remtest rsaperf rsapoptst sdbthreadtst sdrtest secmodtest selfserv shlibsign signtool signver smime_gtest softoken_gtest ssl_gtest ssltap strsclnt symkeyutil tstclnt util_gtest vfychain vfyserv
 nsuds(0.7B):nsuds
 ntl(11.5.1):
 ntopng(5.0_1):ntopng
@@ -3681,7 +3682,7 @@ oclgrind(21.10):oclgrind oclgrind-kernel
 ocp(0.2.90):ocp ocp-0.2.90 ocp-curses ocp-sdl2
 ocproxy(1.60_1):ocproxy
 ocrad(0.27):ocrad
-ocrmypdf(12.7.0_1):ocrmypdf
+ocrmypdf(12.7.1):ocrmypdf
 octant(0.24.0):octant
 octave(6.3.0_1):mkoctfile mkoctfile-6.3.0 octave octave-6.3.0 octave-cli octave-cli-6.3.0 octave-config octave-config-6.3.0
 octomap(1.9.7):binvox2bt bt2vrml compare_octrees convert_octree edit_octree eval_octree_accuracy graph2tree log2graph
@@ -4211,7 +4212,7 @@ pyflow(0.3.1):pyflow
 pygitup(2.1.0):git-up
 pygments(2.10.0_1):pygmentize
 pygobject3(3.42.0_1):
-pyinstaller(4.5.1):pyi-archive_viewer pyi-bindepend pyi-grab_version pyi-makespec pyi-set_version pyinstaller
+pyinstaller(4.6):pyi-archive_viewer pyi-bindepend pyi-grab_version pyi-makespec pyi-set_version pyinstaller
 pyinvoke(1.6.0_1):inv invoke
 pylint(2.11.1_1):epylint pylint pyreverse symilar
 pympress(1.6.4):pympress
@@ -4927,7 +4928,7 @@ swaks(20201014.0):swaks
 swfmill(0.3.6):swfmill
 swftools(0.9.2_1):as3compile font2swf png2swf swfbbox swfc swfcombine swfdump swfextract swfrender swfstrings wav2swf
 swi-prolog(8.4.0):swipl swipl-ld
-swift(5.5):sil-func-extractor sil-llvm-gen sil-nm sil-opt sil-passpipeline-dumper sourcekit-lsp sourcekitd-repl swift swift-api-checker.py swift-api-digester swift-api-dump.py swift-api-extract swift-ast-script swift-build swift-build-sdk-interfaces swift-build-tool swift-def-to-yaml-converter swift-demangle swift-demangle-yamldump swift-dependency-tool swift-driver swift-frontend swift-help swift-indent swift-llvm-opt swift-package swift-package-collection swift-refactor swift-reflection-dump swift-run swift-serialize-diagnostics swift-stdlib-tool swift-symbolgraph-extract swift-test swiftc
+swift(5.5.1):sil-func-extractor sil-llvm-gen sil-nm sil-opt sil-passpipeline-dumper sourcekit-lsp sourcekitd-repl swift swift-api-checker.py swift-api-digester swift-api-dump.py swift-api-extract swift-ast-script swift-build swift-build-sdk-interfaces swift-build-tool swift-def-to-yaml-converter swift-demangle swift-demangle-yamldump swift-dependency-tool swift-driver swift-frontend swift-help swift-indent swift-llvm-opt swift-package swift-package-collection swift-refactor swift-reflection-dump swift-run swift-serialize-diagnostics swift-stdlib-tool swift-symbolgraph-extract swift-test swiftc
 swift-format(0.50300.0):swift-format
 swift-protobuf(1.18.0_1):protoc-gen-swift
 swift-sh(2.3.1):swift-sh swift-sh-edit
@@ -4976,7 +4977,7 @@ task-spooler(1.0.1):ts
 taskd(1.1.0_1):taskd taskdctl
 taskell(1.11.4):taskell
 tasksh(1.2.0_1):tasksh
-taskwarrior-tui(0.13.36):taskwarrior-tui
+taskwarrior-tui(0.14.3):taskwarrior-tui
 tass64(1.56.2625):64tass
 tbb(2021.4.0):
 tbb@2020(2020_U3):
@@ -5140,7 +5141,7 @@ tomee-webprofile(8.0.4):tomee-webprofile-startup
 toml11(3.7.0):
 toot(0.28.0_1):toot
 topgit(0.19.13):tg
-topgrade(8.0.0):topgrade
+topgrade(8.0.3):topgrade
 tor(0.4.6.8):tor tor-gencert tor-print-ed-signing-cert tor-resolve torify
 torchvision(0.10.1):
 torsocks(2.3.0):torsocks
@@ -5160,7 +5161,7 @@ traildb(0.6):tdb traildb_bench
 trailscraper(0.7.0_1):trailscraper
 transcrypt(2.1.0):transcrypt
 translate-shell(0.9.6.12):trans
-translate-toolkit(3.4.1_1):build_firefox.sh build_tmdb buildxpi.py csv2po csv2tbx dtd2po flatxml2po get_moz_enUS.py html2po ical2po idml2po ini2po json2po junitmsgfmt moz2po mozfunny2prop mozlang2po odf2xliff oo2po oo2xliff php2po phppo2pypo po2csv po2dtd po2flatxml po2html po2ical po2idml po2ini po2json po2moz po2mozlang po2oo po2php po2prop po2rc po2resx po2sub po2symb po2tiki po2tmx po2ts po2txt po2web2py po2wordfast po2xliff po2yaml poclean pocommentclean pocompendium pocompile poconflicts pocount podebug pofilter pogrep pomerge pomigrate2 popuretext poreencode porestructure posegment posplit poswap pot2po poterminology pretranslate prop2mozfunny prop2po pydiff pypo2phppo rc2po resx2po sub2po symb2po tbx2po tiki2po tmserver ts2po txt2po web2py2po xliff2odf xliff2oo xliff2po yaml2po
+translate-toolkit(3.5.0):build_firefox.sh build_tmdb buildxpi.py csv2po csv2tbx dtd2po flatxml2po get_moz_enUS.py html2po ical2po idml2po ini2po json2po junitmsgfmt moz2po mozfunny2prop mozlang2po odf2xliff oo2po oo2xliff php2po phppo2pypo po2csv po2dtd po2flatxml po2html po2ical po2idml po2ini po2json po2moz po2mozlang po2oo po2php po2prop po2rc po2resx po2sub po2symb po2tiki po2tmx po2ts po2txt po2web2py po2wordfast po2xliff po2yaml poclean pocommentclean pocompendium pocompile poconflicts pocount podebug pofilter pogrep pomerge pomigrate2 popuretext poreencode porestructure posegment posplit poswap pot2po poterminology pretranslate prop2mozfunny prop2po pydiff pypo2phppo rc2po resx2po sub2po symb2po tbx2po tiki2po tmserver ts2po txt2po web2py2po xliff2odf xliff2oo xliff2po yaml2po
 transmission-cli(3.00):transmission-create transmission-daemon transmission-edit transmission-remote transmission-show
 trash(0.9.2):trash
 trash-cli(0.21.10.24):trash trash-empty trash-list trash-put trash-restore trash-rm
@@ -5391,7 +5392,7 @@ vte3(0.64.2):vte-2.91
 vtk(9.0.3):vtkParseJava-9.0 vtkProbeOpenGLVersion-9.0 vtkWrapHierarchy-9.0 vtkWrapJava-9.0 vtkWrapPython-9.0 vtkWrapPythonInit-9.0 vtkpython
 vtk@8.2(8.2.0_7):vtkParseJava-8.2 vtkWrapHierarchy-8.2 vtkWrapJava-8.2 vtkWrapPython-8.2 vtkWrapPythonInit-8.2 vtkpython
 vttest(20210210):vttest
-vue-cli(4.5.14):vue
+vue-cli(4.5.15):vue
 vulkan-headers(1.2.196):
 vultr(2.0.3):vultr
 vulture(2.3_1):vulture
@@ -5452,7 +5453,7 @@ whalebrew(0.3.1):whalebrew
 whatmask(1.2):whatmask
 whatmp3(3.8_5):whatmp3
 when(1.1.41):when
-whistle(2.8.0):w2 whistle wisl wproxy
+whistle(2.8.1):w2 whistle wisl wproxy
 whois(5.5.10):whois
 widelands(1.0):widelands
 wifi-password(0.1.0):wifi-password
