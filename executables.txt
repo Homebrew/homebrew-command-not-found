@@ -100,8 +100,8 @@ annie(0.11.0):annie
 ansible(5.1.0):ansible ansible-config ansible-connection ansible-console ansible-doc ansible-galaxy ansible-inventory ansible-playbook ansible-pull ansible-test ansible-vault
 ansible-cmdb(1.31):ansible-cmdb
 ansible-lint(5.3.1):ansible-lint
-ansible@2.8(2.8.20):ansible ansible-config ansible-connection ansible-console ansible-doc ansible-galaxy ansible-inventory ansible-playbook ansible-pull ansible-vault
-ansible@2.9(2.9.27_1):ansible ansible-config ansible-connection ansible-console ansible-doc ansible-galaxy ansible-inventory ansible-playbook ansible-pull ansible-test ansible-vault
+ansible@2.8(2.8.20_1):ansible ansible-config ansible-connection ansible-console ansible-doc ansible-galaxy ansible-inventory ansible-playbook ansible-pull ansible-vault
+ansible@2.9(2.9.27_2):ansible ansible-config ansible-connection ansible-console ansible-doc ansible-galaxy ansible-inventory ansible-playbook ansible-pull ansible-test ansible-vault
 ansifilter(2.18):ansifilter
 ansilove(4.1.5):ansilove
 ansiweather(1.18.0):ansiweather
@@ -176,7 +176,7 @@ argus-clients(3.0.8.2_4):argusclientbug ra rabins racluster raconvert racount ra
 argyll-cms(2.2.1):applycal average cb2ti3 cctiff ccxxmake chartread collink colprof colverify cxf2ti3 dispcal dispread dispwin extracticc extractttag fakeCMY fakeread greytiff iccdump iccgamut icclu iccvcgt illumread invprofcheck kodak2ti3 ls2ti3 mppcheck mpplu mppprof oeminst printcal printtarg profcheck refine revfix scanin spec2cie specplot splitti3 spotread synthcal synthread targen tiffgamut timage txt2ti3 viewgam xicclu
 aria2(1.36.0):aria2c
 arm-linux-gnueabihf-binutils(2.37):arm-linux-gnueabihf-addr2line arm-linux-gnueabihf-c++filt arm-linux-gnueabihf-dwp arm-linux-gnueabihf-elfedit arm-linux-gnueabihf-gprof arm-linux-gnueabihf-size arm-linux-gnueabihf-strings
-armadillo(10.7.5):
+armadillo(10.7.6):
 armor(0.4.14):armor
 arp-scan(1.9.7):arp-fingerprint arp-scan get-iab get-oui
 arp-sk(0.0.16_1):
@@ -211,7 +211,7 @@ assimp(5.1.4):assimp
 astrometry-net(0.85_2):an-fitstopnm an-pnmtofits astrometry-engine build-astrometry-index degtohms downsample-fits fit-wcs fits-column-merge fits-flip-endian fits-guess-scale fitscopy fitsgetext fitsverify get-healpix get-wcs hmstodeg hpsplit image2pnm image2xy imarith imcopy imstat listhead liststruc merge-columns modhead new-wcs pad-file plot-constellations plotquad plotxy query-starkd removelines solve-field startree subtable tablist tabmerge tabsort text2fits uniformize votabletofits wcs-grab wcs-match wcs-pv2sip wcs-rd2xy wcs-resample wcs-to-tan wcs-xy2rd wcsinfo
 astyle(3.1):astyle
 asuka(0.8.3):asuka
-asymptote(2.70):asy xasy
+asymptote(2.73):asy xasy
 asyncplusplus(1.1):
 atari800(4.2.0):atari800
 atasm(1.09):atasm
@@ -270,7 +270,7 @@ aws-apigateway-importer(1.0.1_1):aws-api-import
 aws-cdk(2.3.0):cdk
 aws-cfn-tools(1.0.12_1):cfn-cancel-update-stack cfn-cmd cfn-create-stack cfn-delete-stack cfn-describe-stack-events cfn-describe-stack-resource cfn-describe-stack-resources cfn-describe-stacks cfn-get-template cfn-list-stack-resources cfn-list-stacks cfn-update-stack cfn-validate-template cfn-version
 aws-console(1.2.0):aws-console
-aws-elasticbeanstalk(3.20.2_1):eb ebp
+aws-elasticbeanstalk(3.20.2_2):eb ebp
 aws-es-proxy(1.3):aws-es-proxy
 aws-google-auth(0.0.37_5):aws-google-auth
 aws-iam-authenticator(0.5.3):aws-iam-authenticator
@@ -295,7 +295,7 @@ b2-tools(3.2.0):b2
 b2sum(20190724):b2sum
 b3sum(1.2.0):b3sum
 b43-fwcutter(019):b43-fwcutter
-babel(7.16.5):babel babel-external-helpers
+babel(7.16.7):babel babel-external-helpers
 babeld(1.10):babeld
 babl(0.1.88):
 backupninja(1.1.0):
@@ -602,7 +602,7 @@ cdb(0.75):cdbdump cdbget cdbmake cdbmake-12 cdbmake-sv cdbstats cdbtest
 cddlib(0.94m):adjacency adjacency_gmp allfaces allfaces_gmp cddexec cddexec_gmp fourier fourier_gmp lcdd lcdd_gmp projection projection_gmp redcheck redcheck_gmp scdd scdd_gmp testcdd1 testcdd1_gmp testcdd2 testcdd2_gmp testlp1 testlp1_gmp testlp2 testlp2_gmp testlp3 testlp3_gmp testshoot testshoot_gmp
 cdecl(2.5):c++decl cdecl
 cdk(5.0-20211216):cdk5-config
-cdk8s(1.0.65):cdk8s
+cdk8s(1.0.66):cdk8s
 cdktf(0.8.3):cdktf
 cdlabelgen(4.3.0):cdlabelgen
 cdo(2.0.2):cdo
@@ -813,7 +813,7 @@ comby(1.7.0):comby
 commandbox(5.4.2):box
 commitizen(2.20.3):cz git-cz
 compface(1.5.2):compface uncompface
-composer(2.2.2):composer
+composer(2.2.3):composer
 conan(1.44.0):conan conan_build_info conan_server
 concurrencykit(0.7.0):
 condure(1.4.1):condure
@@ -864,7 +864,7 @@ cpl(7.1.4_1):
 cpm(0.997007):cpm
 cpmtools(2.21):cpmchattr cpmchmod cpmcp cpmls cpmrm fsck.cpm fsed.cpm mkfs.cpm
 cpp-gsl(3.1.0):
-cppad(20210000.8):
+cppad(20220000.0):
 cppcheck(2.6.3):cppcheck
 cppcms(1.2.1):cppcms_config_find_param cppcms_make_key cppcms_run cppcms_scale cppcms_tmpl_cc
 cppi(1.18):cppi
@@ -930,7 +930,7 @@ ctemplate(2.4_1):diff_tpl_auto_escape make_tpl_varnames_h template-converter
 ctl(1.5.2_6):ctlrender exr_ctl_exr exrdpx
 ctop(0.7.6):ctop
 cubeb(0.2):
-cubejs-cli(0.29.14):cubejs
+cubejs-cli(0.29.15):cubejs
 cubelib(4.6):cube3to4 cube4to3 cube_calltree cube_canonize cube_clean cube_cmp cube_commoncalltree cube_cut cube_derive cube_diff cube_dump cube_exclusify cube_inclusify cube_info cube_is_empty cube_mean cube_merge cube_nodeview cube_part cube_rank cube_regioninfo cube_remap2 cube_sanity cube_server cube_stat cube_test cube_topoassist cubelib-config tau2cube
 cucumber-cpp(0.5_9):
 cucumber-ruby(7.1.0):cucumber
@@ -992,7 +992,7 @@ davmail(6.0.1):davmail
 db-vcs(1.1):db
 dbacl(1.14.1):bayesol dbacl hmine hypex mailcross mailfoot mailinspect mailtoe
 dbdeployer(1.64.0):dbdeployer
-dbhash(3.37.0):dbhash
+dbhash(3.37.1):dbhash
 dbmate(1.12.1):dbmate
 dbus(1.12.20):dbus-cleanup-sockets dbus-daemon dbus-launch dbus-monitor dbus-run-session dbus-send dbus-test-tool dbus-update-activation-environment dbus-uuidgen
 dbus-glib(0.112):dbus-binding-tool
@@ -1167,7 +1167,7 @@ double-conversion(3.1.7):
 doublecpp(0.6.3):doublecpp
 doubledown(0.0.2):doubledown doubledown-fsevents doubledown-inotify
 dovecot(2.3.17_1):doveadm doveconf dovecot dovecot-sysreport dsync sieve-dump sieve-filter sieve-test sievec
-doxygen(1.9.2):doxygen
+doxygen(1.9.3):doxygen
 doxymacs(1.8.0):doxymacs_parser
 dpkg(1.21.1):dpkg dpkg-architecture dpkg-buildflags dpkg-buildpackage dpkg-checkbuilddeps dpkg-deb dpkg-distaddfile dpkg-divert dpkg-genbuildinfo dpkg-genchanges dpkg-gencontrol dpkg-gensymbols dpkg-maintscript-helper dpkg-mergechangelogs dpkg-name dpkg-parsechangelog dpkg-query dpkg-realpath dpkg-scanpackages dpkg-scansources dpkg-shlibdeps dpkg-source dpkg-split dpkg-statoverride dpkg-trigger dpkg-vendor update-alternatives
 dprint(0.19.2):dprint
@@ -1205,7 +1205,7 @@ dumb(0.9.3):dumb2wav dumbout
 dune(2.9.1):dune
 dungeon(4.1_2):dungeon
 duo_unix(1.11.5):duo_unix_support.sh login_duo
-duplicity(0.8.20_1):duplicity rdiffdir
+duplicity(0.8.20_2):duplicity rdiffdir
 duply(2.3.1):duply
 dupseek(1.3):dupseek
 dust(0.7.5):dust
@@ -1316,11 +1316,11 @@ erlang(24.2):ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
 erlang@21(21.3.8.24_2):ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
 erlang@22(22.3.4.24):ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
 erlang@23(23.3.4.10):ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
-esbuild(0.14.9):esbuild
+esbuild(0.14.10):esbuild
 eslint(8.5.0):eslint
 esniper(2.35.0):esniper
 espeak(1.48.04_1):espeak
-esptool(3.2):espefuse.py espsecure.py esptool.py
+esptool(3.2_1):espefuse.py espsecure.py esptool.py
 etcd(3.5.1):etcd etcdctl etcdutl
 etcd-cpp-apiv3(0.2.3_1):
 ethereum(1.10.14):abidump abigen bootnode checkpoint-admin clef devp2p ethkey evm faucet geth p2psim puppeth rlpdump
@@ -1357,12 +1357,12 @@ eye-d3(0.9.6):eyeD3
 ezstream(1.0.2):ezstream ezstream-cfgmigrate ezstream-file.sh
 f2(1.7.2):f2
 f3(8.0):f3read f3write
-f3d(1.1.0_3):f3d
+f3d(1.2.1):f3d
 faac(1.30):faac
 faad2(2.10.0):faad
 faas-cli(0.14.1):faas faas-cli
 fabio(1.5.15):fabio
-fabric(2.6.0_2):fab
+fabric(2.6.0_4):fab
 fabric-completion(1):
 fabric-installer(0.10.2):fabric-installer
 fades(9.0_2):fades
@@ -1406,7 +1406,7 @@ fd(8.3.0):fd
 fdclone(3.01j):fd
 fdk-aac(2.0.2):aac-enc
 fdk-aac-encoder(1.0.2):fdkaac
-fdroidserver(2.0.3_2):fdroid makebuildserver
+fdroidserver(2.0.3_3):fdroid makebuildserver
 fdupes(2.1.2):fdupes
 feedgnuplot(1.60):feedgnuplot
 feh(3.7.2):feh
@@ -1473,7 +1473,7 @@ flickcurl(1.26):flickcurl flickcurl-config flickrdf
 flif(0.4):apng2flif dflif flif gif2flif viewflif
 flint(2.8.4):
 flint-checker(0.1.0):flint
-flintrock(2.0.0_1):flintrock
+flintrock(2.0.0_2):flintrock
 flit(3.6.0):flit
 flow(0.168.0):flow
 flow-cli(0.30.2):flow
@@ -2498,7 +2498,7 @@ kim-api(2.2.1_3):kim-api-activate kim-api-collections-management kim-api-deactiv
 kimwitu++(2.3.13):
 kind(0.11.1):kind
 kitchen-completion(1.0.0):
-kitchen-sync(2.11_1):ks ks_mysql ks_postgresql
+kitchen-sync(2.12):ks ks_mysql ks_postgresql
 kite(1.0.4_3):build_kdocs ikt kdb kite
 klavaro(3.13):klavaro
 klee(2.2_3):gen-bout gen-random-bout kleaver klee klee-replay klee-stats klee-zesti ktest-tool
@@ -3224,7 +3224,6 @@ marcli(1.0.1):marcli
 mariadb(10.6.4):aria_chk aria_dump_log aria_ftdump aria_pack aria_read_log aria_s3_copy innochecksum mariabackup mariadb mariadb-access mariadb-admin mariadb-backup mariadb-binlog mariadb-check mariadb-client-test mariadb-config mariadb-conv mariadb-convert-table-format mariadb-dump mariadb-dumpslow mariadb-find-rows mariadb-fix-extensions mariadb-hotcopy mariadb-import mariadb-ldb mariadb-plugin mariadb-secure-installation mariadb-setpermission mariadb-show mariadb-slap mariadb-test mariadb-tzinfo-to-sql mariadb-upgrade mariadb-waitpid mariadb_config mariadbd mariadbd-multi mariadbd-safe mariadbd-safe-helper mbstream msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack myrocks_hotbackup mysql mysql.server mysql_client_test mysql_config mysql_convert_table_format mysql_find_rows mysql_fix_extensions mysql_install_db mysql_ldb mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysqlaccess mysqladmin mysqlbinlog mysqlcheck mysqld mysqld_multi mysqld_safe mysqld_safe_helper mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest mytop perror rcmysql replace resolve_stack_dump resolveip sst_dump wsrep_sst_mariabackup wsrep_sst_mysqldump wsrep_sst_rsync wsrep_sst_rsync_wan
 mariadb-connector-c(3.2.5):mariadb_config
 mariadb-connector-odbc(3.1.15):
-mariadb@10.1(10.1.48):aria_chk aria_dump_log aria_ftdump aria_pack aria_read_log innochecksum mariabackup mbstream msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack mysql mysql.server mysql_client_test mysql_config mysql_convert_table_format mysql_find_rows mysql_fix_extensions mysql_install_db mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysql_zap mysqlaccess mysqladmin mysqlbinlog mysqlbug mysqlcheck mysqld mysqld_multi mysqld_safe mysqld_safe_helper mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest mytop perror rcmysql replace resolve_stack_dump resolveip wsrep_sst_mariabackup wsrep_sst_mysqldump wsrep_sst_rsync wsrep_sst_rsync_wan wsrep_sst_xtrabackup wsrep_sst_xtrabackup-v2
 mariadb@10.2(10.2.41):aria_chk aria_dump_log aria_ftdump aria_pack aria_read_log innochecksum mariabackup mariadb_config mbstream msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack myrocks_hotbackup mysql mysql.server mysql_client_test mysql_config mysql_convert_table_format mysql_find_rows mysql_fix_extensions mysql_install_db mysql_ldb mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysqlaccess mysqladmin mysqlbinlog mysqlcheck mysqld mysqld_multi mysqld_safe mysqld_safe_helper mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest mytop perror rcmysql replace resolve_stack_dump resolveip sst_dump wsrep_sst_mariabackup wsrep_sst_mysqldump wsrep_sst_rsync wsrep_sst_rsync_wan wsrep_sst_xtrabackup wsrep_sst_xtrabackup-v2
 mariadb@10.3(10.3.32):aria_chk aria_dump_log aria_ftdump aria_pack aria_read_log innochecksum mariabackup mariadb_config mbstream msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack myrocks_hotbackup mysql mysql.server mysql_client_test mysql_config mysql_convert_table_format mysql_find_rows mysql_fix_extensions mysql_install_db mysql_ldb mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysqlaccess mysqladmin mysqlbinlog mysqlcheck mysqld mysqld_multi mysqld_safe mysqld_safe_helper mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest mytop perror rcmysql replace resolve_stack_dump resolveip sst_dump wsrep_sst_mariabackup wsrep_sst_mysqldump wsrep_sst_rsync wsrep_sst_rsync_wan
 mariadb@10.4(10.4.22):aria_chk aria_dump_log aria_ftdump aria_pack aria_read_log innochecksum mariabackup mariadb mariadb-access mariadb-admin mariadb-backup mariadb-binlog mariadb-check mariadb-client-test mariadb-convert-table-format mariadb-dump mariadb-dumpslow mariadb-find-rows mariadb-fix-extensions mariadb-hotcopy mariadb-import mariadb-ldb mariadb-plugin mariadb-secure-installation mariadb-setpermission mariadb-show mariadb-slap mariadb-test mariadb-tzinfo-to-sql mariadb-upgrade mariadb-waitpid mariadb_config mariadbd mariadbd-multi mariadbd-safe mariadbd-safe-helper mbstream msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack myrocks_hotbackup mysql mysql.server mysql_client_test mysql_config mysql_convert_table_format mysql_find_rows mysql_fix_extensions mysql_install_db mysql_ldb mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysqlaccess mysqladmin mysqlbinlog mysqlcheck mysqld mysqld_multi mysqld_safe mysqld_safe_helper mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest mytop perror rcmysql replace resolve_stack_dump resolveip sst_dump wsrep_sst_mariabackup wsrep_sst_mysqldump wsrep_sst_rsync wsrep_sst_rsync_wan
@@ -3244,7 +3243,7 @@ mathlibtools(1.1.0_2):leanproject
 matlab2tikz(1.1.0):
 matplotplusplus(1.1.0):
 matterbridge(1.23.2):matterbridge
-maturin(0.12.5):maturin
+maturin(0.12.6):maturin
 maven(3.8.4):mvn mvnDebug mvnyjp
 maven-completion(20200420):
 maven-shell(1.1.0):mvnsh
@@ -3403,8 +3402,8 @@ modman(1.14):modman
 modules(5.0.1):add.modules envml mkroot modulecmd
 moe(1.11):moe
 mogenerator(1.32):mogenerator
-mold(1.0.0):ld.mold ld64.mold mold
-molecule(3.5.2_2):mol molecule
+mold(1.0.1):ld.mold ld64.mold mold
+molecule(3.5.2_3):mol molecule
 molten-vk(1.1.6):MoltenVKShaderConverter
 mon(1.2.3):mon
 monero(0.17.3.0_1):monero-blockchain-ancestry monero-blockchain-depth monero-blockchain-export monero-blockchain-import monero-blockchain-mark-spent-outputs monero-blockchain-prune monero-blockchain-prune-known-spent-data monero-blockchain-stats monero-blockchain-usage monero-gen-ssl-cert monero-gen-trusted-multisig monero-wallet-cli monero-wallet-rpc monerod
@@ -3471,7 +3470,6 @@ mpssh(1.3.3):mpssh
 mpv(0.34.0_1):mpv
 mpw(2.7-cli-1):mpw
 mr(1.20180726):mr webcheckout
-mr2(20210401):mr2
 mrbayes(3.2.7_2):mb
 mrboom(5.2):mrboom
 mrtg(2.17.8):cfgmaker indexmaker mrtg mrtg-traffic-sum rateup
@@ -3584,7 +3582,7 @@ neofetch(7.1.0):neofetch
 neomutt(20211029):neomutt
 neon(0.32.1):neon-config
 neopop-sdl(0.2):NeoPop-SDL
-neovim(0.6.0):nvim
+neovim(0.6.1):nvim
 neovim-qt(0.2.16.1):nvim-qt
 neovim-remote(2.4.0_1):nvr
 nesc(1.4.0_2):nescc nescc-mig nescc-ncg nescc-wiring
@@ -3644,7 +3642,7 @@ nnn(4.4):nnn
 no-more-secrets(1.0.1):nms sneakers
 node(17.3.0):node
 node-build(4.9.64):node-build nodenv-install nodenv-uninstall
-node-sass(1.45.1):sass
+node-sass(1.45.2):sass
 node@10(10.24.1_1):node npm npx
 node@12(12.22.8):node npm npx
 node@14(14.18.2):node npm npx
@@ -3719,7 +3717,7 @@ ocaml-findlib(1.9.1_1):ocamlfind
 ocaml-num(1.4_2):
 ocaml-zarith(1.12_1):
 ocamlbuild(0.14.0_2):ocamlbuild ocamlbuild.byte ocamlbuild.native
-oci-cli(3.4.1):create_backup_from_onprem oci
+oci-cli(3.4.1_1):create_backup_from_onprem oci
 oclgrind(21.10):oclgrind oclgrind-kernel
 ocp(0.2.90):ocp ocp-0.2.90 ocp-curses ocp-sdl2
 ocproxy(1.60_1):ocproxy
@@ -4241,7 +4239,7 @@ pv(1.6.20):pv
 pwgen(2.08):pwgen
 pwnat(0.3-beta):pwnat
 pwncat(0.1.2):pwncat
-pwntools(4.7.0):
+pwntools(4.7.0_1):asm checksec common constgrep cyclic debug disablenx disasm elfdiff elfpatch errno hex main phd pwn pwnstrip scramble shellcraft template unhex update version
 pwsafe(0.2.0_4):pwsafe
 px(1.6.1):ptop px
 py-spy(0.3.11):py-spy
@@ -4432,7 +4430,7 @@ rem(20150618):rem
 remake(4.3-1.5):remake
 remarshal(0.14.0_2):cbor2cbor cbor2json cbor2msgpack cbor2toml cbor2yaml json2cbor json2json json2msgpack json2toml json2yaml msgpack2cbor msgpack2json msgpack2msgpack msgpack2toml msgpack2yaml remarshal toml2cbor toml2json toml2msgpack toml2toml toml2yaml yaml2cbor yaml2json yaml2msgpack yaml2toml yaml2yaml
 remctl(3.17):remctl
-remind(03.03.09):rem rem2ps remind tkremind
+remind(03.03.11):rem rem2ps remind tkremind
 reminiscence(0.4.8):reminiscence
 ren(1.0):ren
 rename(1.601):rename
@@ -4877,10 +4875,10 @@ sqlancer(1.1.0):sqlancer
 sqlbench(1.1.0):sqlbench
 sqlc(1.11.0):sqlc
 sqlcipher(4.5.0):sqlcipher
-sqldiff(3.37.0):sqldiff
+sqldiff(3.37.1):sqldiff
 sqlfluff(0.9.0):sqlfluff
-sqlite(3.37.0):sqlite3
-sqlite-analyzer(3.37.0):sqlite3_analyzer
+sqlite(3.37.1):sqlite3
+sqlite-analyzer(3.37.1):sqlite3_analyzer
 sqlite-utils(3.19):sqlite-utils
 sqliteodbc(0.9998):
 sqlmap(1.5.12):sqlmap sqlmap.py sqlmapapi sqlmapapi.py
@@ -4945,7 +4943,7 @@ stone-soup(0.27.1):crawl
 storj-uplink(1.35.3):uplink
 storm(2.3.0_1):storm
 stormlib(9.23):
-stormssh(0.7.0_7):storm
+stormssh(0.7.0_8):storm
 stormssh-completion(0.1.1):
 stout(1.3.2):stout
 stow(2.3.1):chkstow stow
@@ -4973,7 +4971,7 @@ sundials(5.8.0):
 superlu(5.2.2_1):
 supermodel(0.2a):supermodel
 supertux(0.6.3):supertux2
-supervisor(4.2.3):echo_supervisord_conf pidproxy supervisorctl supervisord
+supervisor(4.2.4):echo_supervisord_conf pidproxy supervisorctl supervisord
 surfraw(2.3.0):opensearch-discover opensearch-genquery sr surfraw surfraw-update-path
 suricata(6.0.4):suricata suricata-update suricatactl suricatasc
 svg2pdf(0.1.3_1):svg2pdf
@@ -5090,7 +5088,7 @@ termbox(1.1.2):
 termcolor(2.0.0):
 terminal-notifier(2.0.0):terminal-notifier
 terminator(2.1.1):remotinator terminator
-termius(1.2.15_2):termius
+termius(1.2.15_3):termius
 termrec(0.19):termcat termplay termrec termtime
 termshare(0.2.0_1):termshare
 termshark(2.3.0):termshark
@@ -5240,7 +5238,7 @@ trec_eval(9.0.8):trec_eval
 tree(2.0.0_1):tree
 tree-sitter(0.20.1):tree-sitter
 treecc(0.3.10):treecc
-treefrog(2.2.0):tadpole tmake treefrog tspawn
+treefrog(2.3.0):tadpole tmake treefrog tspawn
 trezor-agent(0.11.0_3):trezor-agent trezor-gpg trezor-gpg-agent trezor_agent.py
 triangle(1.2.3):triangle
 trimage(1.0.6_2):trimage
@@ -5417,7 +5415,7 @@ vint(0.3.21_1):vint
 vip(19971113):vip
 vips(8.12.1):batch_crop batch_image_convert batch_rubber_sheet light_correct shrink_width vips vips-8.12 vipsedit vipsheader vipsprofile vipsthumbnail
 virgil(5.2.9):virgil
-virtualenv(20.11.2):virtualenv
+virtualenv(20.12.0):virtualenv
 virtualenvwrapper(4.8.4_1):virtualenvwrapper.sh virtualenvwrapper_lazy.sh
 virtualhost.sh(1.35):virtualhost.sh
 virtualpg(2.0.1):
@@ -5458,7 +5456,7 @@ vsearch(2.19.0):vsearch
 vsftpd(3.0.5):vsftpd
 vsh(0.12.1):vsh
 vstr(1.0.15):
-vsts-cli(0.1.4_4):vsts
+vsts-cli(0.1.4_5):vsts
 vtclock(0.0.20161228):vtclock
 vte3(0.64.2):vte-2.91
 vtk(9.1.0):vtkParseJava-9.1 vtkProbeOpenGLVersion-9.1 vtkWrapHierarchy-9.1 vtkWrapJava-9.1 vtkWrapPython-9.1 vtkWrapPythonInit-9.1 vtkpython
@@ -5475,10 +5473,10 @@ waffle(1.7.0):wflinfo
 wagyu(0.6.1):wagyu
 wait_on(1.1):wait_on
 wakatime-cli(1.30.5):wakatime-cli
-wakeonlan(0.41):wakeonlan
+wakeonlan(0.42):wakeonlan
 wal2json(2.4):
 walkmod(3.0.0_1):walkmod
-wallpaper(2.1.0_1):wallpaper
+wallpaper(2.2.0):wallpaper
 wandio(4.2.3_1):wandiocat
 wangle(2021.12.27.00):
 waon(0.11):waon
@@ -5757,6 +5755,7 @@ zookeeper(3.7.0_1):zkCleanup zkCli zkServer zkServer-initialize zkSnapShotToolki
 zopfli(1.0.3):zopfli zopflipng
 zorba(3.1_14):testdriver zorba
 zork(1.0.3):zork
+zoro(20211230):zoro
 zoxide(0.8.0):zoxide
 zpaq(7.15_1):zpaq
 zplug(2.4.2):zplug-env
