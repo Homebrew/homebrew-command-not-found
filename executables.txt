@@ -29,7 +29,7 @@ act(0.2.26):act
 actionlint(1.6.10):actionlint
 activemq(5.17.0):activemq
 activemq-cpp(3.9.5_1):activemqcpp-config example
-adios2(2.7.1_1):adios2-config adios2_deactivate_bp adios2_iotest adios2_reorganize adios2_reorganize_mpi bpls sst_conn_tool
+adios2(2.8.0):adios2-config adios2_deactivate_bp adios2_iotest adios2_json_pp adios2_reorganize adios2_reorganize_mpi bp5dbg bpls sst_conn_tool
 admesh(0.98.4):admesh
 adns(1.6.0):adnsheloex adnshost adnslogres adnsresfilter
 adplug(2.3.3):adplugdb
@@ -369,7 +369,7 @@ beecrypt(4.2.1_7):
 befunge93(2.25):bef bef2c befprof
 bench(1.0.12_1):bench
 benthos(3.65.0):benthos
-bento4(1.6.0-639_1):aac2mp4 avcinfo cryptotest hevcinfo mp42aac mp42avc mp42hevc mp42hls mp42ts mp4audioclip mp4compact mp4dash mp4dashclone mp4dcfpackager mp4decrypt mp4diff mp4dump mp4edit mp4encrypt mp4extract mp4fragment mp4hls mp4iframeindex mp4info mp4mux mp4pssh mp4rtphintinfo mp4split mp4tag
+bento4(1.6.0-639_2):aac2mp4 avcinfo fixaacsampledescription hevcinfo mp42aac mp42avc mp42hevc mp42hls mp42ts mp4audioclip mp4compact mp4dash mp4dashclone mp4dcfpackager mp4decrypt mp4diff mp4dump mp4edit mp4encrypt mp4extract mp4fragment mp4hls mp4iframeindex mp4info mp4mux mp4pssh mp4rtphintinfo mp4split mp4tag
 berglas(0.6.2):berglas
 berkeley-db(18.1.40):db_archive db_checkpoint db_convert db_deadlock db_dump db_hotbackup db_load db_log_verify db_printlog db_recover db_replicate db_stat db_tuner db_upgrade db_verify
 berkeley-db@4(4.8.30):db_archive db_checkpoint db_deadlock db_dump db_hotbackup db_load db_printlog db_recover db_sql db_stat db_upgrade db_verify
@@ -477,7 +477,7 @@ brightness(1.2):brightness
 briss(0.9):briss
 brogue(1.7.5):brogue
 brook(20220406):brook
-broot(1.10.0):broot
+broot(1.11.0):broot
 brotli(1.0.9):brotli
 browser(7):browser
 bsdconv(11.6):bsdconv bsdconv-completion bsdconv-man bsdconv-mktable
@@ -613,7 +613,7 @@ cdb(0.75):cdbdump cdbget cdbmake cdbmake-12 cdbmake-sv cdbstats cdbtest
 cddlib(0.94m):adjacency adjacency_gmp allfaces allfaces_gmp cddexec cddexec_gmp fourier fourier_gmp lcdd lcdd_gmp projection projection_gmp redcheck redcheck_gmp scdd scdd_gmp testcdd1 testcdd1_gmp testcdd2 testcdd2_gmp testlp1 testlp1_gmp testlp2 testlp2_gmp testlp3 testlp3_gmp testshoot testshoot_gmp
 cdecl(2.5):c++decl cdecl
 cdk(5.0-20211216):cdk5-config
-cdk8s(1.0.140):cdk8s
+cdk8s(1.0.141):cdk8s
 cdktf(0.10.1):cdktf
 cdlabelgen(4.3.0):cdlabelgen
 cdo(2.0.5_1):cdo
@@ -948,7 +948,7 @@ ctlptl(0.7.7):ctlptl
 ctop(0.7.7):ctop
 cuba(4.2.2):
 cubeb(0.2):
-cubejs-cli(0.29.39):cubejs
+cubejs-cli(0.29.40):cubejs
 cubelib(4.6):cube3to4 cube4to3 cube_calltree cube_canonize cube_clean cube_cmp cube_commoncalltree cube_cut cube_derive cube_diff cube_dump cube_exclusify cube_inclusify cube_info cube_is_empty cube_mean cube_merge cube_nodeview cube_part cube_rank cube_regioninfo cube_remap2 cube_sanity cube_server cube_stat cube_test cube_topoassist cubelib-config tau2cube
 cucumber-cpp(0.5_9):
 cucumber-ruby(7.1.0_1):cucumber
@@ -1535,7 +1535,7 @@ folly(2022.03.21.00):
 foma(0.9.18):cgflookup flookup foma
 fon-flash-cli(1.13.0):fon-flash
 font-util(1.3.2):bdftruncate ucs2any
-fontconfig(2.13.1):fc-cache fc-cat fc-conflist fc-list fc-match fc-pattern fc-query fc-scan fc-validate
+fontconfig(2.14.0):fc-cache fc-cat fc-conflist fc-list fc-match fc-pattern fc-query fc-scan fc-validate
 fontforge(20220308):acorn2sfd dewoff findtable fontforge fontimage fontlint pcl2ttf pfadecrypt rmligamarks sfddiff showttf stripttc ttf2eps woff
 fonttools(4.31.2):fonttools pyftmerge pyftsubset ttx
 fop(2.7):fop
@@ -1576,7 +1576,7 @@ freeradius-server(3.0.25):checkrad dhcpclient map_unit radattr radclient radcryp
 freerdp(2.4.0_1):winpr-hash winpr-makecert xfreerdp
 freeswitch(1.10.7_3):freeswitch fs_cli fs_encode fs_ivrd fs_tts fsxs gentls_cert switch_eavesdrop tone2wav
 freetds(1.3.9):bsqldb bsqlodbc datacopy defncopy fisql freebcp osql tdspool tsql
-freetype(2.11.1):freetype-config
+freetype(2.12.0):freetype-config
 freexl(1.0.6):
 frege(3.24.405_3):fregec
 frege-repl(1.4-SNAPSHOT_2):frege-repl
@@ -2272,7 +2272,7 @@ idris(1.3.4):idris idris-codegen-c idris-codegen-javascript idris-codegen-node
 idris2(0.5.1_1):idris2
 idutils(4.6_1):aid defid eid fid fnid gid lid mkid xtokid
 ievms(0.3.3):ievms
-ifacemaker(1.1.0):ifacemaker
+ifacemaker(1.2.0):ifacemaker
 ifstat(1.1):ifstat
 iftop(1.0pre4):
 igraph(0.9.7):
@@ -2457,7 +2457,7 @@ jpeginfo(1.6.1_1):jpeginfo
 jpegoptim(1.4.6):jpegoptim
 jpegrescan(1.1.0):jpegrescan
 jq(1.6):jq
-jql(3.2.0):jql
+jql(3.2.2):jql
 jrnl(2.8.4):jrnl
 jrsonnet(0.4.2):jrsonnet
 jrtplib(3.11.2):
@@ -3408,7 +3408,7 @@ minio-mc(20220401234448):mc
 minipro(0.5):minipro miniprohex
 minisat(2.2.1):minisat minisat_core
 minised(1.16):minised
-miniserve(0.19.3):miniserve
+miniserve(0.19.4):miniserve
 minisign(0.10):minisign
 miniupnpc(2.2.3):external-ip upnpc
 minizinc(2.6.2):minizinc mzn2doc
@@ -3490,7 +3490,7 @@ mosh(1.3.2_18):mosh mosh-client mosh-server
 mosml(2.10.1):camlrunm mosml mosmlc mosmllex mosmlyac
 mosquitto(2.0.14):mosquitto mosquitto_ctrl mosquitto_passwd mosquitto_pub mosquitto_rr mosquitto_sub
 most(5.1.0):most
-moto(3.1.3):moto_server
+moto(3.1.4):moto_server
 movgrab(3.1.2_3):movgrab
 moz-git-tools(0.1):git-branchname git-bzexport git-edit-files git-fix-whitespace git-new-workdir git-patch-to-hg-patch git-push-to-hg git-push-to-try git-push-to-trychooser git-qapplied git-qparent git-qrebase git-remote-link git-to-hg-commit git-tracks hg-patch-to-git-patch
 mozjpeg(4.0.3):cjpeg djpeg jpegtran rdjpgcom tjbench wrjpgcom
@@ -3704,7 +3704,7 @@ nng(1.5.2):nngcat
 nnn(4.4_1):nnn
 no-more-secrets(1.0.1):nms sneakers
 node(17.8.0):node
-node-build(4.9.74):node-build nodenv-install nodenv-uninstall
+node-build(4.9.75):node-build nodenv-install nodenv-uninstall
 node-sass(1.49.11):sass
 node@10(10.24.1_2):node npm npx
 node@12(12.22.11):node npm npx
@@ -3832,7 +3832,7 @@ open-completion(1.0.4):
 open-image-denoise(1.4.3):oidnBenchmark oidnDenoise oidnTest
 open-jtalk(1.11):hts_engine open_jtalk
 open-mesh(9.0):
-open-mpi(4.1.2):aggregate_profile.pl mpic++ mpicc mpicxx mpiexec mpif77 mpif90 mpifort mpirun ompi-clean ompi-server ompi_info opal_wrapper orte-clean orte-info orte-server ortecc orted orterun profile2mat.pl
+open-mpi(4.1.3):aggregate_profile.pl mpic++ mpicc mpicxx mpiexec mpif77 mpif90 mpifort mpirun ompi-clean ompi-server ompi_info opal_wrapper orte-clean orte-info orte-server ortecc orted orterun profile2mat.pl
 open-ocd(0.11.0):openocd
 open-scene-graph(3.6.5_1):osgarchive osgconv osgfilecache osgversion osgviewer present3D
 open-sp(1.5.2):onsgmls osgmlnorm ospam ospcat ospent osx
@@ -3889,7 +3889,7 @@ openrct2(0.3.5.1_2):openrct2 openrct2-cli
 openrtsp(2022.02.07):MPEG2TransportStreamIndexer live555HLSProxy live555MediaServer live555ProxyServer mikeyParse openRTSP playSIP registerRTSPStream sapWatch vobStreamer
 opensaml(3.2.1):samlsign
 opensc(0.22.0):cardos-tool cryptoflex-tool dnie-tool egk-tool eidenv gids-tool goid-tool iasecc-tool netkey-tool npa-tool openpgp-tool opensc-asn1 opensc-explorer opensc-notify opensc-tool piv-tool pkcs11-register pkcs11-tool pkcs15-crypt pkcs15-init pkcs15-tool sc-hsm-tool westcos-tool
-opensearch(1.3.0):opensearch opensearch-keystore opensearch-plugin opensearch-shard
+opensearch(1.3.1):opensearch opensearch-keystore opensearch-plugin opensearch-shard
 opensearch-dashboards(1.3.0):opensearch-dashboards opensearch-dashboards-keystore opensearch-dashboards-plugin
 openshift-cli(4.6.0):oc
 openslide(3.4.1_5):openslide-quickhash1sum openslide-show-properties openslide-write-png
@@ -4227,7 +4227,7 @@ pprint(0.9.1):
 ppss(2.97):ppss
 ppsspp(1.11.3_1):ppsspp
 pqiv(2.12_3):pqiv
-pre-commit(2.17.0):pre-commit pre-commit-validate-config pre-commit-validate-manifest
+pre-commit(2.18.1):pre-commit pre-commit-validate-config pre-commit-validate-manifest
 precomp(0.4.7):precomp
 predictionio(0.14.0_1):pio
 prefixsuffix(0.6.9_9):prefixsuffix
@@ -4896,7 +4896,7 @@ sonar-scanner(4.7.0.2747):sonar-scanner
 sonarqube(9.3.0.51899):sonar
 sonarqube-lts(8.9.7.52159):sonar
 sonic(1.3.2):sonic
-sonobuoy(0.56.3):sonobuoy
+sonobuoy(0.56.4):sonobuoy
 sops(3.7.2):sops
 sord(0.16.8):sord_validate sordi
 sound-touch(2.3.1):soundstretch
@@ -4957,7 +4957,7 @@ sql-lint(0.0.19):sql-lint
 sql-translator(1.62):sqlt sqlt-diagram sqlt-diff sqlt-diff-old sqlt-dumper sqlt-graph
 sqlancer(2.0.0):sqlancer
 sqlbench(1.1.0):sqlbench
-sqlc(1.12.0):sqlc
+sqlc(1.13.0):sqlc
 sqlcipher(4.5.1):sqlcipher
 sqldiff(3.38.2):sqldiff
 sqlfluff(0.11.2):sqlfluff
@@ -5033,7 +5033,7 @@ stormssh-completion(0.1.1):
 stout(1.3.2):stout
 stow(2.3.1):chkstow stow
 stp(2.3.3):stp stp_simple
-streamlink(3.2.0_1):streamlink
+streamlink(3.2.0_2):streamlink
 streamripper(1.64.6_1):streamripper
 stress(1.0.5):stress
 stress-ng(0.13.12):stress-ng
@@ -5162,7 +5162,7 @@ teku(22.1.1):teku
 teleconsole(0.4.0):teleconsole
 telegraf(1.22.0):telegraf
 telegram-cli(1.3.1_4):telegram
-teleport(9.0.1):tbot tctl teleport tsh
+teleport(9.0.3):tbot tctl teleport tsh
 telnet(64):telnet
 telnetd(64):telnetd
 template-glib(3.34.1):
@@ -5415,7 +5415,7 @@ unison(2.52.0):unison
 unittest(0.50-62):
 unittest-cpp(2.0.0):
 uniutils(2.27):ExplicateUTF8 unidesc unifuzz unihist uniname unireverse utf8lookup
-universal-ctags(p5.9.20220327.0):ctags optscript readtags
+universal-ctags(p5.9.20220403.0):ctags optscript readtags
 unixodbc(2.3.9_1):dltest isql iusql odbc_config odbcinst slencheck
 unnethack(5.3.2):unnethack
 unoconv(0.9.0_3):unoconv
