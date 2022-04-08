@@ -9,7 +9,7 @@ aardvark_shell_utils(1.0):filebase fileext realpath
 abcde(2.9.3_1):abcde abcde-musicbrainz-tool cddb-tool
 abcl(1.8.0):abcl
 abcm2ps(8.14.13):abcm2ps
-abcmidi(2022.03.20):abc2abc abc2midi abcmatch mftext midi2abc midicopy yaps
+abcmidi(2022.04.06):abc2abc abc2midi abcmatch mftext midi2abc midicopy yaps
 abduco(0.6):abduco
 abi-compliance-checker(2.3):abi-compliance-checker
 abnfgen(0.20):abnfgen
@@ -77,7 +77,7 @@ all-repos(1.22.0):all-repos-clone all-repos-complete all-repos-find-files all-re
 allegro(5.2.7.0):
 allure(2.17.3):allure
 allureofthestars(0.11.0.0):Allure
-alluxio(2.7.3):alluxio alluxio-common.sh alluxio-masters.sh alluxio-monitor.sh alluxio-mount.sh alluxio-start.sh alluxio-stop.sh alluxio-workers.sh launch-process
+alluxio(2.7.4):alluxio alluxio-common.sh alluxio-masters.sh alluxio-monitor.sh alluxio-mount.sh alluxio-start.sh alluxio-stop.sh alluxio-workers.sh launch-process
 alot(0.9.1_2):alot
 alp(1.0.8):alp
 alpine(2.25_1):alpine mailutil pico pilot rpdump rpload
@@ -95,10 +95,10 @@ amtterm(1.6):amtterm amttool
 analog(6.0_1):analog
 angband(4.2.4):angband
 angle-grinder(0.18.0):agrind
-angular-cli(13.3.1):ng
+angular-cli(13.3.2):ng
 anime-downloader(5.0.9):anime
 anjuta(3.34.0_4):anjuta anjuta-launcher anjuta-tags
-ansible(5.5.0):ansible ansible-config ansible-connection ansible-console ansible-doc ansible-galaxy ansible-inventory ansible-playbook ansible-pull ansible-test ansible-vault
+ansible(5.6.0):ansible ansible-config ansible-connection ansible-console ansible-doc ansible-galaxy ansible-inventory ansible-playbook ansible-pull ansible-test ansible-vault
 ansible-cmdb(1.31):ansible-cmdb
 ansible-lint(6.0.2):ansible-lint
 ansible@2.8(2.8.20_2):
@@ -176,7 +176,7 @@ argus(3.0.8.2):argus-extip argus-lsof argus-snmp argus-vmstat argusbug
 argus-clients(3.0.8.2_4):argusclientbug ra rabins racluster raconvert racount radark radecode radump raevent rafilteraddr ragraph ragrep rahisto rahosts ralabel ranonymize rapath rapolicy raports rarpwatch raservices rasort rasplit rastream rastrip ratemplate ratimerange ratop rauserdata
 argyll-cms(2.3.0):applycal average cb2ti3 cctiff ccxxmake chartread collink colprof colverify cxf2ti3 dispcal dispread dispwin extracticc extractttag fakeCMY fakeread greytiff iccdump iccgamut icclu iccvcgt illumread invprofcheck kodak2ti3 ls2ti3 mppcheck mpplu mppprof oeminst printcal printtarg profcheck refine revfix scanin spec2cie specplot splitti3 spotread synthcal synthread targen tiffgamut timage txt2ti3 viewgam xicclu
 aria2(1.36.0):aria2c
-arkade(0.8.20):ark arkade
+arkade(0.8.22):ark arkade
 arm-linux-gnueabihf-binutils(2.38):arm-linux-gnueabihf-addr2line arm-linux-gnueabihf-c++filt arm-linux-gnueabihf-dwp arm-linux-gnueabihf-elfedit arm-linux-gnueabihf-gprof arm-linux-gnueabihf-size arm-linux-gnueabihf-strings
 armadillo(11.0.0):
 armor(0.4.14):armor
@@ -754,7 +754,7 @@ cln(1.3.6):pi
 cloc(1.92):cloc
 clockywock(0.3.1a):clockywock
 clog(1.3.0):clog
-clojure(1.11.0.1100):clj clojure
+clojure(1.11.1.1105):clj clojure
 clojure-lsp(20210913T222535):clojure-lsp
 clojurescript(1.11.4):cljsc
 cloog(0.20.0):cloog
@@ -828,7 +828,7 @@ commandbox(5.4.2):box
 commitizen(2.23.0):cz git-cz
 compface(1.5.2):compface uncompface
 compiledb(0.10.1):compiledb
-composer(2.3.3):composer
+composer(2.3.4):composer
 conan(1.47.0):conan conan_build_info conan_server
 concurrencykit(0.7.0):
 condure(1.5.0):condure
@@ -851,7 +851,7 @@ convmv(2.05):convmv
 convox(3.4.2):convox
 cookiecutter(1.7.3_1):cookiecutter
 copier(5.1.0):copier
-copilot(1.15.0):copilot
+copilot(1.16.0):copilot
 coq(8.15.0):coq-tex coq_makefile coqc coqc.byte coqchk coqdep coqdoc coqidetop.byte coqidetop.opt coqnative coqpp coqproofworker.opt coqqueryworker.opt coqtacticworker.opt coqtop coqtop.byte coqtop.opt coqwc coqworkmgr csdpcert ocamllibdep votour
 corectl(0.7.18_2):corectl corectld corectld.runner qcow-tool
 coredns(1.9.1):coredns
@@ -1092,7 +1092,7 @@ diffr(0.1.4):diffr
 diffstat(1.64):diffstat
 difftastic(0.25.0):difft
 diffutils(3.8):cmp diff diff3 sdiff
-digdag(0.10.4):digdag
+digdag(0.10.4_1):digdag
 digitemp(3.7.2):digitemp_DS2490 digitemp_DS9097 digitemp_DS9097U
 dirac(1.0.2):BMPtoRGB RGBtoBMP RGBtoUYVY RGBtoYUV411 RGBtoYUV420 RGBtoYUV422 RGBtoYUV444 UYVYtoRGB UYVYtoYUV422 YUV411toRGB YUV420Down2x2 YUV420ItoYUV422I YUV420pt75filter YUV420toRGB YUV420toYUV422 YUV422ItoYUV420I YUV422toRGB YUV422toUYVY YUV422toYUV420 YUV444toRGB create_dirac_testfile.pl dirac_decoder dirac_encoder dirac_instrumentation
 direnv(2.31.0):direnv
@@ -1297,7 +1297,7 @@ elektra(0.9.9):kdb
 eless(0.7):eless
 eleventy(1.0.0):eleventy
 elinks(0.11.7_3):elinks
-elixir(1.13.3):elixir elixirc iex mix
+elixir(1.13.4):elixir elixirc iex mix
 elixir-build(20141001):elixir-build exenv-install exenv-uninstall json
 elixir-ls(0.9.0):elixir-ls
 elm(0.19.1):elm
@@ -1522,8 +1522,8 @@ flux(0.161.0):flux
 fluxctl(1.25.0):fluxctl
 flvmeta(1.2.2):flvmeta
 flvstreamer(2.1c1):flvstreamer rtmpsrv rtmpsuck streams
-flyctl(0.0.314):fly flyctl
-flyway(8.5.5):flyway
+flyctl(0.0.316):fly flyctl
+flyway(8.5.6):flyway
 fmdiff(20150915):filemerge fmdiff fmdiff3 fmmerge fmresolve
 fmpp(0.9.16_2):fmpp
 fmt(8.1.1_1):
@@ -1808,7 +1808,7 @@ github-release(0.10.0):github-release
 gitlab-ci-local(4.30.1):gitlab-ci-local
 gitlab-gem(4.18.0):gitlab
 gitlab-runner(14.9.1):gitlab-runner
-gitleaks(8.6.0):gitleaks
+gitleaks(8.6.1):gitleaks
 gitless(0.8.8_12):gl
 gitlint(0.17.0):gitlint
 gitmoji(4.12.0):gitmoji
@@ -1951,7 +1951,7 @@ goredo(1.24.0):goredo redo redo-affects redo-always redo-cleanup redo-depfix red
 goreleaser(1.7.0):goreleaser
 goreman(0.3.11):goreman
 gosec(2.11.0):gosec
-gost(2.11.1):gost
+gost(2.11.2):gost
 gostatic(2.32):gostatic
 gosu(1.14.20):gosu
 gotags(1.4.1):gotags
@@ -2262,7 +2262,7 @@ icecream(1.4):icecc icecc-create-env icecc-scheduler icecc-test-env iceccd iceru
 icemon(3.3_1):icemon
 icon(9.5.21b):icon icont iconx
 icon-naming-utils(0.8.90):
-iconsur(1.6.2):iconsur
+iconsur(1.7.0):iconsur
 icoutils(0.32.3):extresso genresscript icotool wrestool
 icu4c(70.1):derb escapesrc genbrk genccode gencfu gencmn gencnval gendict gennorm2 genrb gensprep icu-config icuexportdata icuinfo icupkg makeconv pkgdata uconv
 id3ed(1.10.4):id3ed
@@ -2301,13 +2301,14 @@ imgur-screenshot(2.0.0):imgur-screenshot imgur-screenshot.sh
 imlib2(1.8.1):imlib2_bumpmap imlib2_colorspace imlib2_conv imlib2_grab imlib2_load imlib2_poly imlib2_show imlib2_test imlib2_view
 immortal(0.24.4):immortal immortalctl immortaldir
 immudb(1.2.2):immuadmin immuclient immudb
+imposm3(0.11.1):imposm
 inadyn(2.9.1):inadyn
 include-what-you-use(0.17):fix_includes.py include-what-you-use iwyu_tool.py
 indicators(2.2):
 inetutils(2.2):dnsdomainname ftp gdnsdomainname gftp ghostname gifconfig glogger gping gping6 grcp grexec grlogin grsh gtalk gtelnet gtftp gtraceroute gwhois rcp rexec rlogin rsh telnet
 infer(1.1.0_1):infer infer-analyze infer-capture infer-compile infer-debug infer-explore infer-help infer-report infer-reportdiff infer-run
 influxdb(2.2.0):influxd
-influxdb-cli(2.2.1):influx
+influxdb-cli(2.3.0):influx
 influxdb@1(1.9.6):influx influx_inspect influx_tools influxd
 inform6(6.36-r1):inform inform-6.36 pblorb pblorb.pl punyinform punyinform-6.36 punyinform.sh scanblorb scanblorb.pl
 infracost(0.9.21):infracost
@@ -2414,7 +2415,7 @@ jemalloc(5.2.1_1):jemalloc-config jemalloc.sh jeprof
 jena(4.4.0):arq infer iri jena jena.version juuid nquads ntriples qparse rdfcat rdfcompare rdfcopy rdfdiff rdfparse rdfxml riot rset rsparql rupdate schemagen shacl shex sparql tdb1.xloader tdb2.tdbbackup tdb2.tdbcompact tdb2.tdbdump tdb2.tdbloader tdb2.tdbquery tdb2.tdbstats tdb2.tdbupdate tdb2.xloader tdbbackup tdbdump tdbloader tdbloader2 tdbquery tdbstats tdbupdate trig turtle uparse update utf8 wwwdec wwwenc xload-common xload-data xload-index xload-main
 jenkins(2.342):jenkins jenkins-cli
 jenkins-job-builder(3.12.0):jenkins-jobs
-jenkins-lts(2.332.1):jenkins-lts jenkins-lts-cli
+jenkins-lts(2.332.2):jenkins-lts jenkins-lts-cli
 jenv(0.5.4):jenv
 jerm(0.8096):jerm tiocdtr
 jerryscript(2.4.0):jerry
@@ -2424,7 +2425,7 @@ jflex(1.8.2_1):jflex
 jfrog-cli(2.15.0):jf jfrog
 jhead(3.06.0.1):jhead
 jhiccup(2.0.10):jHiccup jHiccupLogProcessor jHiccupPlotter
-jhipster(7.8.0):jhipster
+jhipster(7.8.1):jhipster
 jid(0.7.6):jid
 jigdo(0.7.3_6):jigdo-file jigdo-lite jigdo-mirror
 jimtcl(0.81):build-jim-ext jimdb jimsh
@@ -2567,7 +2568,7 @@ kommit(1.1.0):git-kommit
 kompose(1.26.1):kompose
 kona(20211225):k
 kondo(0.5):kondo
-kopia(0.10.6):kopia
+kopia(0.10.7):kopia
 kops(1.23.0):kops
 kore(4.2.1):kodev kore
 kotlin(1.6.20):kapt kotlin kotlin-dce-js kotlinc kotlinc-js kotlinc-jvm
@@ -2610,7 +2611,7 @@ kumactl(1.5.0):kumactl
 kumo(1.28):kumo
 kustomize(4.5.4):kustomize
 kvazaar(2.1.0):kvazaar
-kyma-cli(2.1.1):kyma
+kyma-cli(2.1.2):kyma
 kyoto-cabinet(1.2.79):kccachetest kcdirmgr kcdirtest kcforestmgr kcforesttest kcgrasstest kchashmgr kchashtest kclangctest kcpolymgr kcpolytest kcprototest kcstashtest kctreemgr kctreetest kcutilmgr kcutiltest
 kyoto-tycoon(0.9.56_5):ktremotemgr ktremotetest ktserver kttimedmgr kttimedtest ktutilmgr ktutilserv ktutiltest
 kytea(0.4.7):api-example kytea train-kytea
@@ -3308,7 +3309,7 @@ mathlibtools(1.1.1):leanproject
 matlab2tikz(1.1.0):
 matplotplusplus(1.1.0):
 matterbridge(1.25.0):matterbridge
-maturin(0.12.11):maturin
+maturin(0.12.12):maturin
 maven(3.8.5):mvn mvnDebug mvnyjp
 maven-completion(20200420):
 maven-shell(1.1.0):mvnsh
@@ -3665,7 +3666,7 @@ nethacked(1.0):nethacked
 nethogs(0.8.6):
 netlify-cli(9.16.0):netlify ntl
 netmask(2.4.4):netmask
-netpbm(10.86.31):411toppm anytopnm asciitopgm atktopbm avstopam bioradtopgm bmptopnm bmptoppm brushtopbm cameratopam cistopbm cmuwmtopbm ddbugtopbm escp2topbm eyuvtoppm fiascotopnm fitstopnm fstopgm g3topbm gemtopbm gemtopnm giftopnm gouldtoppm hdifftopam hipstopgm hpcdtoppm icontopbm ilbmtoppm imgtoppm infotopam jbigtopnm jpeg2ktopam jpegtopnm leaftoppm lispmtopgm macptopbm manweb mdatopbm mgrtopbm mrftopbm mtvtoppm neotoppm palmtopnm pamaddnoise pamaltsat pamarith pambackground pambayer pambrighten pamchannel pamcomp pamcrater pamcut pamdeinterlace pamdepth pamdice pamditherbw pamedge pamendian pamenlarge pamexec pamfile pamfind pamfix pamfixtrunc pamflip pamfunc pamgauss pamgetcolor pamgradient pamhue pamlevels pamlookup pammasksharpen pammixinterlace pammixmulti pammosaicknit pamoil pampaintspill pamperspective pampick pampop9 pamrecolor pamrgbatopng pamrubber pamscale pamseq pamshadedrelief pamsharpmap pamsharpness pamsistoaglyph pamslice pamsplit pamstack pamstereogram pamstretch pamstretch-gen pamsumm pamsummcol pamtable pamthreshold pamtilt pamtoavs pamtodjvurle pamtofits pamtogif pamtohdiff pamtohtmltbl pamtojpeg2k pamtompfont pamtooctaveimg pamtopam pamtopdbimg pamtopfm pamtopng pamtopnm pamtosrf pamtosvg pamtotga pamtotiff pamtouil pamtowinicon pamtoxvmini pamtris pamundice pamunlookup pamvalidate pamwipeout pbmclean pbmlife pbmmake pbmmask pbmminkowski pbmpage pbmpscale pbmreduce pbmtext pbmtextps pbmto10x pbmto4425 pbmtoascii pbmtoatk pbmtobbnbg pbmtocis pbmtocmuwm pbmtodjvurle pbmtoepsi pbmtoepson pbmtoescp2 pbmtog3 pbmtogem pbmtogo pbmtoibm23xx pbmtoicon pbmtolj pbmtoln03 pbmtolps pbmtomacp pbmtomatrixorbital pbmtomda pbmtomgr pbmtomrf pbmtonokia pbmtopgm pbmtopi3 pbmtopk pbmtoplot pbmtoppa pbmtopsg3 pbmtoptx pbmtosunicon pbmtowbmp pbmtox10bm pbmtoxbm pbmtoybm pbmtozinc pbmupc pc1toppm pcdindex pcdovtoppm pcxtoppm pdbimgtopam pfmtopam pgmabel pgmbentley pgmcrater pgmdeshadow pgmedge pgmenhance pgmhist pgmkernel pgmmake pgmmedian pgmminkowski pgmmorphconv pgmnoise pgmnorm pgmoil pgmramp pgmslice pgmtexture pgmtofs pgmtolispm pgmtopbm pgmtopgm pgmtoppm pgmtosbig pgmtost4 pi1toppm pi3topbm picttoppm pjtoppm pktopbm pngtopam pngtopnm pnmalias pnmarith pnmcat pnmcolormap pnmcomp pnmconvol pnmcrop pnmcut pnmdepth pnmenlarge pnmfile pnmflip pnmgamma pnmhisteq pnmhistmap pnmindex pnminterp pnminvert pnmmargin pnmmercator pnmmontage pnmnlfilt pnmnoraw pnmnorm pnmpad pnmpaste pnmpsnr pnmquant pnmquantall pnmremap pnmrotate pnmscale pnmscalefixed pnmshear pnmsmooth pnmsplit pnmstitch pnmtile pnmtoddif pnmtofiasco pnmtofits pnmtojbig pnmtojpeg pnmtopalm pnmtopclxl pnmtoplainpnm pnmtopng pnmtopnm pnmtops pnmtorast pnmtorle pnmtosgi pnmtosir pnmtotiff pnmtotiffcmyk pnmtoxwd ppm3d ppmbrighten ppmchange ppmcie ppmcolormask ppmcolors ppmdcfont ppmddumpfont ppmdim ppmdist ppmdither ppmdmkfont ppmdraw ppmfade ppmflash ppmforge ppmglobe ppmhist ppmlabel ppmmake ppmmix ppmnorm ppmntsc ppmpat ppmquant ppmquantall ppmrainbow ppmrelief ppmrough ppmshadow ppmshift ppmspread ppmtoacad ppmtoapplevol ppmtoarbtxt ppmtoascii ppmtobmp ppmtoeyuv ppmtogif ppmtoicr ppmtoilbm ppmtojpeg ppmtoleaf ppmtolj ppmtomap ppmtomitsu ppmtompeg ppmtoneo ppmtopcx ppmtopgm ppmtopi1 ppmtopict ppmtopj ppmtopjxl ppmtoppm ppmtopuzz ppmtorgb3 ppmtosixel ppmtospu ppmtoterm ppmtotga ppmtouil ppmtowinicon ppmtoxpm ppmtoyuv ppmtoyuvsplit ppmtv ppmwheel psidtopgm pstopnm qrttoppm rasttopnm rawtopgm rawtoppm rgb3toppm rlatopam rletopnm sbigtopgm sgitopnm sirtopnm sldtoppm spctoppm spottopgm sputoppm srftopam st4topgm sunicontopnm svgtopam tgatoppm thinkjettopbm tifftopnm wbmptopbm winicontopam winicontoppm xbmtopbm ximtoppm xpmtoppm xvminitoppm xwdtopnm ybmtopbm yuvsplittoppm yuvtoppm yuy2topam zeisstopnm
+netpbm(10.86.32):411toppm anytopnm asciitopgm atktopbm avstopam bioradtopgm bmptopnm bmptoppm brushtopbm cameratopam cistopbm cmuwmtopbm ddbugtopbm escp2topbm eyuvtoppm fiascotopnm fitstopnm fstopgm g3topbm gemtopbm gemtopnm giftopnm gouldtoppm hdifftopam hipstopgm hpcdtoppm icontopbm ilbmtoppm imgtoppm infotopam jbigtopnm jpeg2ktopam jpegtopnm leaftoppm lispmtopgm macptopbm manweb mdatopbm mgrtopbm mrftopbm mtvtoppm neotoppm palmtopnm pamaddnoise pamaltsat pamarith pambackground pambayer pambrighten pamchannel pamcomp pamcrater pamcut pamdeinterlace pamdepth pamdice pamditherbw pamedge pamendian pamenlarge pamexec pamfile pamfind pamfix pamfixtrunc pamflip pamfunc pamgauss pamgetcolor pamgradient pamhue pamlevels pamlookup pammasksharpen pammixinterlace pammixmulti pammosaicknit pamoil pampaintspill pamperspective pampick pampop9 pamrecolor pamrgbatopng pamrubber pamscale pamseq pamshadedrelief pamsharpmap pamsharpness pamsistoaglyph pamslice pamsplit pamstack pamstereogram pamstretch pamstretch-gen pamsumm pamsummcol pamtable pamthreshold pamtilt pamtoavs pamtodjvurle pamtofits pamtogif pamtohdiff pamtohtmltbl pamtojpeg2k pamtompfont pamtooctaveimg pamtopam pamtopdbimg pamtopfm pamtopng pamtopnm pamtosrf pamtosvg pamtotga pamtotiff pamtouil pamtowinicon pamtoxvmini pamtris pamundice pamunlookup pamvalidate pamwipeout pbmclean pbmlife pbmmake pbmmask pbmminkowski pbmpage pbmpscale pbmreduce pbmtext pbmtextps pbmto10x pbmto4425 pbmtoascii pbmtoatk pbmtobbnbg pbmtocis pbmtocmuwm pbmtodjvurle pbmtoepsi pbmtoepson pbmtoescp2 pbmtog3 pbmtogem pbmtogo pbmtoibm23xx pbmtoicon pbmtolj pbmtoln03 pbmtolps pbmtomacp pbmtomatrixorbital pbmtomda pbmtomgr pbmtomrf pbmtonokia pbmtopgm pbmtopi3 pbmtopk pbmtoplot pbmtoppa pbmtopsg3 pbmtoptx pbmtosunicon pbmtowbmp pbmtox10bm pbmtoxbm pbmtoybm pbmtozinc pbmupc pc1toppm pcdindex pcdovtoppm pcxtoppm pdbimgtopam pfmtopam pgmabel pgmbentley pgmcrater pgmdeshadow pgmedge pgmenhance pgmhist pgmkernel pgmmake pgmmedian pgmminkowski pgmmorphconv pgmnoise pgmnorm pgmoil pgmramp pgmslice pgmtexture pgmtofs pgmtolispm pgmtopbm pgmtopgm pgmtoppm pgmtosbig pgmtost4 pi1toppm pi3topbm picttoppm pjtoppm pktopbm pngtopam pngtopnm pnmalias pnmarith pnmcat pnmcolormap pnmcomp pnmconvol pnmcrop pnmcut pnmdepth pnmenlarge pnmfile pnmflip pnmgamma pnmhisteq pnmhistmap pnmindex pnminterp pnminvert pnmmargin pnmmercator pnmmontage pnmnlfilt pnmnoraw pnmnorm pnmpad pnmpaste pnmpsnr pnmquant pnmquantall pnmremap pnmrotate pnmscale pnmscalefixed pnmshear pnmsmooth pnmsplit pnmstitch pnmtile pnmtoddif pnmtofiasco pnmtofits pnmtojbig pnmtojpeg pnmtopalm pnmtopclxl pnmtoplainpnm pnmtopng pnmtopnm pnmtops pnmtorast pnmtorle pnmtosgi pnmtosir pnmtotiff pnmtotiffcmyk pnmtoxwd ppm3d ppmbrighten ppmchange ppmcie ppmcolormask ppmcolors ppmdcfont ppmddumpfont ppmdim ppmdist ppmdither ppmdmkfont ppmdraw ppmfade ppmflash ppmforge ppmglobe ppmhist ppmlabel ppmmake ppmmix ppmnorm ppmntsc ppmpat ppmquant ppmquantall ppmrainbow ppmrelief ppmrough ppmshadow ppmshift ppmspread ppmtoacad ppmtoapplevol ppmtoarbtxt ppmtoascii ppmtobmp ppmtoeyuv ppmtogif ppmtoicr ppmtoilbm ppmtojpeg ppmtoleaf ppmtolj ppmtomap ppmtomitsu ppmtompeg ppmtoneo ppmtopcx ppmtopgm ppmtopi1 ppmtopict ppmtopj ppmtopjxl ppmtoppm ppmtopuzz ppmtorgb3 ppmtosixel ppmtospu ppmtoterm ppmtotga ppmtouil ppmtowinicon ppmtoxpm ppmtoyuv ppmtoyuvsplit ppmtv ppmwheel psidtopgm pstopnm qrttoppm rasttopnm rawtopgm rawtoppm rgb3toppm rlatopam rletopnm sbigtopgm sgitopnm sirtopnm sldtoppm spctoppm spottopgm sputoppm srftopam st4topgm sunicontopnm svgtopam tgatoppm thinkjettopbm tifftopnm wbmptopbm winicontopam winicontoppm xbmtopbm ximtoppm xpmtoppm xvminitoppm xwdtopnm ybmtopbm yuvsplittoppm yuvtoppm yuy2topam zeisstopnm
 netperf(2.7.0):netperf netserver
 netris(0.52):netris
 nettle(3.7.3):nettle-hash nettle-lfib-stream nettle-pbkdf2 pkcs1-conv sexp-conv
@@ -3711,7 +3712,7 @@ nnn(4.4_1):nnn
 no-more-secrets(1.0.1):nms sneakers
 node(17.8.0):node
 node-build(4.9.76):node-build nodenv-install nodenv-uninstall
-node-sass(1.49.11):sass
+node-sass(1.50.0):sass
 node@10(10.24.1_2):node npm npx
 node@12(12.22.12):node npm npx
 node@14(14.19.1):corepack node npm npx
@@ -4115,7 +4116,7 @@ phpunit(9.5.20):phpunit
 physfs(3.0.2):test_physfs
 pianobar(2020.11.28_2):pianobar
 pianod(388_1):piano pianod runmix
-picard-tools(2.26.11):picard
+picard-tools(2.27.0):picard
 picat(3.1#6):picat
 pick(4.0.0):pick
 pickle(0.7.9):pickle
@@ -4307,7 +4308,7 @@ pumba(0.9.0):pumba
 pup(0.4.0):pup
 pure(1.20.1):
 pure-ftpd(1.0.50):pure-authd pure-certd pure-ftpd pure-ftpwho pure-mrtginfo pure-pw pure-pwconvert pure-quotacheck pure-statsdecode pure-uploadscript
-purescript(0.14.7):purs
+purescript(0.14.9):purs
 pushpin(1.35.0):m2adapter pushpin pushpin-handler pushpin-proxy pushpin-publish
 putmail(1.4):putmail putmail.py
 putmail-queue(0.2):putmail_dequeue.py putmail_enqueue.py
@@ -4338,7 +4339,7 @@ pygments(2.11.2):pygmentize
 pygobject3(3.42.0_1):
 pyinstaller(4.10):pyi-archive_viewer pyi-bindepend pyi-grab_version pyi-makespec pyi-set_version pyinstaller
 pyinvoke(1.7.0):inv invoke
-pylint(2.13.4):epylint pylint pyreverse symilar
+pylint(2.13.5):epylint pylint pyreverse symilar
 pympress(1.7.1):pympress
 pyoxidizer(0.20.0):pyoxidizer
 pypy(7.3.8):pypy
@@ -4750,7 +4751,7 @@ sersniff(0.0.5):sersniff
 serve(0.5.0):serve
 serveit(0.0.3_1):serveit
 server-go(1.1.77):server-go
-serverless(3.11.0):serverless sls
+serverless(3.12.0):serverless sls
 servus(1.5.2):
 setweblocthumb(1.0.0):setWeblocThumb
 sevenzip(21.07):7zz
@@ -4764,7 +4765,7 @@ sgrep(1.94a):sgrep
 sha1dc(1.0.3):sha1dcsum sha1dcsum_partialcoll
 sha2(1.0.1):sha2
 sha3sum(1.2.2):keccak-224sum keccak-256sum keccak-384sum keccak-512sum keccaksum rawshake256sum rawshake512sum sha3-224sum sha3-256sum sha3-384sum sha3-512sum sha3sum shake256sum shake512sum
-shadowenv(2.0.6):shadowenv
+shadowenv(2.0.7):shadowenv
 shadowsocks-libev(3.3.5_4):ss-local ss-manager ss-server ss-tunnel
 shadowsocks-rust(1.14.3):sslocal ssmanager ssserver ssservice ssurl
 shairport(1.1.1_1):shairport
@@ -4862,7 +4863,7 @@ smu(1.5):smu
 smug(0.2.7):smug
 sn0int(0.24.2):sn0int
 snag(1.2.0):snag
-snakemake(7.3.7):snakemake snakemake-bash-completion
+snakemake(7.3.8):snakemake snakemake-bash-completion
 snap(2.55.2):snap
 snap-telemetry(2.0.0):snaptel
 snap7(1.4.2_1):
@@ -4967,7 +4968,7 @@ sqlbench(1.1.0):sqlbench
 sqlc(1.13.0):sqlc
 sqlcipher(4.5.1):sqlcipher
 sqldiff(3.38.2):sqldiff
-sqlfluff(0.11.2):sqlfluff
+sqlfluff(0.12.0):sqlfluff
 sqlite(3.38.2):sqlite3
 sqlite-analyzer(3.38.2):sqlite3_analyzer
 sqlite-utils(3.25.1):sqlite-utils
@@ -5169,7 +5170,7 @@ teku(22.1.1):teku
 teleconsole(0.4.0):teleconsole
 telegraf(1.22.1):telegraf
 telegram-cli(1.3.1_4):telegram
-teleport(9.0.3):tbot tctl teleport tsh
+teleport(9.0.4):tbot tctl teleport tsh
 telnet(64):telnet
 telnetd(64):telnetd
 template-glib(3.34.1):
@@ -5190,7 +5191,7 @@ termshare(0.2.0_1):termshare
 termshark(2.3.0):termshark
 termtosvg(1.1.0_3):termtosvg
 terracognita(0.7.4):terracognita
-terraform(1.1.7):terraform
+terraform(1.1.8):terraform
 terraform-docs(0.16.0):terraform-docs
 terraform-inventory(0.10):terraform-inventory
 terraform-ls(0.26.0):terraform-ls
@@ -5210,7 +5211,7 @@ terrascan(1.14.0):terrascan
 tesseract(5.1.0):tesseract
 tesseract-lang(4.1.0):
 testdisk(7.1):fidentify photorec testdisk
-testkube(0.11.15):kubectl-testkube
+testkube(0.11.18):kubectl-testkube
 testssl(3.0.7):testssl.sh
 texapp(0.6.11):texapp
 texi2html(5.0):texi2html
@@ -5226,7 +5227,7 @@ tflint(0.35.0):tflint
 tfmigrate(0.3.2):tfmigrate
 tfproviderlint(0.28.1_1):tfproviderlint
 tfschema(0.7.2):tfschema
-tfsec(1.16.2):tfsec
+tfsec(1.18.0):tfsec
 tfupdate(0.6.5):tfupdate
 tgenv(0.0.3):terragrunt tgenv
 tgif(4.2.5_1):tgif
@@ -5460,7 +5461,7 @@ uudeview(0.5.20_1):minews uudeview uuenview
 uutils-coreutils(0.0.13):base32 dircolors factor hashsum hostid nproc numfmt pinky ptx realpath shred shuf stdbuf tac timeout truncate u[ uarch ubase32 ubase64 ubasename ubasenc ucat uchgrp uchmod uchown uchroot ucksum ucomm ucp ucsplit ucut udate udd udf udircolors udirname udu uecho uenv uexpand uexpr ufactor ufalse ufmt ufold ugroups uhashsum uhead uhostid uhostname uid uinstall ujoin ukill ulink uln ulogname uls umkdir umkfifo umknod umktemp umore umv unice unl unohup unproc unumfmt uod upaste upathchk upinky upr uprintenv uprintf uptx upwd ureadlink urealpath urelpath urm urmdir useq ushred ushuf usleep usort usplit ustat ustdbuf usum usync utac utail utee utest utimeout utouch utr utrue utruncate utsort utty uuname uunexpand uuniq uunlink uuptime uusers uwc uwho uwhoami uyes
 uutils-findutils(0.3.0):ufind uxargs
 uuu(1.4.193):uuu
-uwsgi(2.0.19.1_2):uwsgi
+uwsgi(2.0.20):uwsgi
 v(1.1):v
 v2ray(4.44.0):v2ctl v2ray
 v2ray-plugin(1.3.1):v2ray-plugin
@@ -5628,7 +5629,7 @@ wego(2.1):wego
 weighttp(0.4):weighttp
 wellington(1.0.5):wt
 wemux(3.2.0):wemux
-west(0.12.0):west
+west(0.13.0):west
 wgcf(2.2.12):wgcf
 wget(1.21.3):wget
 wgetpaste(2.30):wgetpaste
