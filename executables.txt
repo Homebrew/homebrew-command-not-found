@@ -123,8 +123,8 @@ anyenv(1.1.4):anyenv
 aoeui(1.6):asdfg
 aom(3.3.0):aomdec aomenc
 apache-archiva(2.2.7):archiva
-apache-arrow(7.0.0_4):plasma-store-server
-apache-arrow-glib(7.0.0):
+apache-arrow(8.0.0):plasma-store-server
+apache-arrow-glib(8.0.0):
 apache-brooklyn-cli(1.0.0):br
 apache-ctakes(4.0.0.1):runClinicalPipeline.sh runDictionaryCreator.sh runPiperCreator.sh runPiperFile.sh runctakesCPE.sh runctakesCVD.sh ytexweb.sh
 apache-drill(1.20.0):auto-setup.sh drill-am.sh drill-conf drill-config.sh drill-embedded drill-localhost drill-on-yarn.sh drillbit.sh runbit sqlline submit_plan yarn-drillbit.sh
@@ -200,7 +200,7 @@ ascii2binary(2.14):ascii2binary binary2ascii
 asciidoc(10.1.4):a2x asciidoc
 asciidoctor(2.0.17):asciidoctor asciidoctor-pdf
 asciidoctorj(2.5.3):asciidoctorj
-asciinema(2.1.0):asciinema
+asciinema(2.2.0):asciinema
 asciiquarium(1.1_3):asciiquarium
 asciitex(0.21):asciiTeX
 asdf(0.10.0):asdf
@@ -286,11 +286,11 @@ aws-iam-authenticator(0.5.7):aws-iam-authenticator
 aws-keychain(3.0.0):aws-keychain
 aws-okta(1.0.11):aws-okta
 aws-rotate-key(1.0.8):aws-rotate-key
-aws-sdk-cpp(1.9.240):
+aws-sdk-cpp(1.9.250):
 aws-shell(0.2.2_2):aws-shell aws-shell-mkindex
 aws-sso-util(4.28.0):aws-sso-util
 aws-vault(6.5.0):aws-vault
-awscli(2.6.2):aws aws_completer
+awscli(2.6.3):aws aws_completer
 awscli@1(1.23.0):aws aws_completer
 awscurl(0.26_1):awscurl
 awslogs(0.14.0_3):awslogs
@@ -481,7 +481,7 @@ brightness(1.2):brightness
 briss(0.9):briss
 brogue(1.7.5):brogue
 brook(20220501):brook
-broot(1.11.1):broot
+broot(1.12.0):broot
 brotli(1.0.9):brotli
 browser(7):browser
 bsdconv(11.6):bsdconv bsdconv-completion bsdconv-man bsdconv-mktable
@@ -494,7 +494,7 @@ btparse(0.35):bibparse
 btpd(0.16_2):btcli btinfo btpd
 buildapp(1.5.6_3):buildapp
 buildifier(5.1.0):buildifier
-buildkit(0.10.2):buildctl
+buildkit(0.10.3):buildctl
 buildozer(5.1.0):buildozer
 buildpulse-test-reporter(0.24.0):buildpulse-test-reporter
 buku(4.6_3):buku bukuserver
@@ -540,7 +540,7 @@ cabextract(1.9.1):cabextract
 cabocha(0.69):cabocha cabocha-config
 cacli(1.3.2):cacli
 cadaver(0.23.3_5):cadaver
-caddy(2.5.0):caddy
+caddy(2.5.1):caddy
 cadence(0.23.4):cadence
 cadence-workflow(0.23.2):cadence cadence-canary cadence-cassandra-tool cadence-server cadence-sql-tool
 cadical(1.5.2_1):cadical
@@ -594,7 +594,7 @@ catimg(2.7.0):catimg
 cattle(1.4.0):
 cava(0.8.2):cava
 cayley(0.7.7):cayley
-cbc(2.10.7):cbc
+cbc(2.10.8):cbc
 cbmbasic(1.0):cbmbasic
 cbmc(5.56.0):cbmc crangler goto-analyzer goto-cc goto-diff goto-gcc goto-harness goto-instrument goto-ld janalyzer jbmc jdiff ls_parse.py symtab2gb
 cc65(2.19):ar65 ca65 cc65 chrcvt65 cl65 co65 da65 grc65 ld65 od65 sim65 sp65
@@ -632,7 +632,7 @@ center-im(4.22.10_2):CenterIMLog2HTML.py centerim cimconv cimextracthistory.pl c
 cereal(1.3.2):
 ceres-solver(2.1.0_1):
 cern-ndiff(5.08.01):ndiff
-certbot(1.26.0):certbot
+certbot(1.27.0):certbot
 certigo(1.15.1):certigo
 certstrap(1.2.0):certstrap
 ceylon(1.3.3_3):ceylon ceylon-sh-setup
@@ -743,7 +743,7 @@ clhep(2.4.5.1):Cast-config Evaluator-config Exceptions-config GenericFunctions-c
 cli11(2.2.0):
 cli53(0.8.18_1):cli53
 clib(2.8.1):clib clib-build clib-configure clib-init clib-install clib-search clib-uninstall clib-update clib-upgrade
-click(0.6.0):click
+click(0.6.1):click
 clickhouse-cpp(2.1.0):
 clickhouse-odbc(1.1.10.20210822_1):
 cliclick(5.0.1):cliclick
@@ -808,7 +808,7 @@ coconut(1.6.0):coconut coconut-py3 coconut-py3-run coconut-py3.10 coconut-py3.10
 cocot(1.2-20171118):cocot
 coda-cli(1.0.5):coda
 code-minimap(0.6.4):code-minimap
-code-server(4.3.0):code-server
+code-server(4.4.0):code-server
 codec2(1.0.3):c2dec c2demo c2enc c2sim
 codemod(1.0.0_5):codemod
 codequery(0.25.0):codequery cqmakedb cqsearch
@@ -1018,7 +1018,7 @@ davmail(6.0.1):davmail
 db-vcs(1.1):db
 dbacl(1.14.1):bayesol dbacl hmine hypex mailcross mailfoot mailinspect mailtoe
 dbdeployer(1.64.0):dbdeployer
-dbhash(3.38.4):dbhash
+dbhash(3.38.5):dbhash
 dbmate(1.15.0):dbmate
 dbus(1.14.0):dbus-cleanup-sockets dbus-daemon dbus-launch dbus-monitor dbus-run-session dbus-send dbus-test-tool dbus-update-activation-environment dbus-uuidgen
 dbus-glib(0.112):dbus-binding-tool
@@ -1048,7 +1048,7 @@ deja-gnu(1.6.3):dejagnu runtest
 delta(2006.08.03):delta multidelta topformflat
 delve(1.8.3):dlv
 demumble(1.2.2):demumble
-deno(1.21.1):deno
+deno(1.21.2):deno
 denominator(4.7.1):denominator
 density(0.14.2):
 dep(0.5.4):dep
@@ -1295,7 +1295,7 @@ ejabberd(21.12):ejabberdctl
 ejdb(2.72):jbs
 ekg2(0.3.1_4):ekg2
 ekhtml(0.3.2):
-eksctl(0.95.0):eksctl
+eksctl(0.96.0):eksctl
 elan-init(1.4.1):elan elan-init lake lean leanc leanchecker leanmake leanpkg
 elasticsearch(7.10.2):elasticsearch elasticsearch-keystore elasticsearch-plugin elasticsearch-shard
 elasticsearch@6(6.8.23):elasticsearch elasticsearch-keystore elasticsearch-plugin elasticsearch-translog
@@ -1354,7 +1354,7 @@ erlang@22(22.3.4.26):ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
 erlang@23(23.3.4.14):ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
 erofs-utils(1.4):dump.erofs fsck.erofs mkfs.erofs
 esbuild(0.14.38):esbuild
-eslint(8.14.0):eslint
+eslint(8.15.0):eslint
 esniper(2.35.0):esniper
 espeak(1.48.04_1):espeak
 esphome(2022.4.0):esphome
@@ -1618,7 +1618,7 @@ funcoeszz(21.1):funcoeszz
 functionalplus(0.2.18):
 fuse-emulator(1.6.0):fuse
 fuseki(4.5.0):fuseki fuseki-server s-delete s-get s-head s-post s-put s-query s-update s-update-form soh
-futhark(0.21.10):futhark
+futhark(0.21.11):futhark
 fuzzy-find(0.6.0):ff
 fwknop(2.6.10):fwknop
 fwup(1.9.0):fwup img2fwup
@@ -1664,7 +1664,7 @@ gcovr(5.1):gcovr
 gcutil(1.16.1):gcutil
 gcviewer(1.36_1):gcviewer
 gd(2.3.3_2):annotate bdftogd gd2copypal gd2togif gd2topng gdcmpgif gdparttopng gdtopng giftogd2 pngtogd pngtogd2 webpng
-gdal(3.4.3):gdal-config gdal2tiles.py gdal2xyz.py gdal_calc.py gdal_contour gdal_create gdal_edit.py gdal_fillnodata.py gdal_grid gdal_merge.py gdal_pansharpen.py gdal_polygonize.py gdal_proximity.py gdal_rasterize gdal_retile.py gdal_sieve.py gdal_translate gdal_viewshed gdaladdo gdalattachpct.py gdalbuildvrt gdalcompare.py gdaldem gdalenhance gdalinfo gdallocationinfo gdalmanage gdalmdiminfo gdalmdimtranslate gdalmove.py gdalsrsinfo gdaltindex gdaltransform gdalwarp gnmanalyse gnmmanage nearblack ogr2ogr ogrinfo ogrlineref ogrmerge.py ogrtindex pct2rgb.py rgb2pct.py
+gdal(3.4.3_1):gdal-config gdal2tiles.py gdal2xyz.py gdal_calc.py gdal_contour gdal_create gdal_edit.py gdal_fillnodata.py gdal_grid gdal_merge.py gdal_pansharpen.py gdal_polygonize.py gdal_proximity.py gdal_rasterize gdal_retile.py gdal_sieve.py gdal_translate gdal_viewshed gdaladdo gdalattachpct.py gdalbuildvrt gdalcompare.py gdaldem gdalenhance gdalinfo gdallocationinfo gdalmanage gdalmdiminfo gdalmdimtranslate gdalmove.py gdalsrsinfo gdaltindex gdaltransform gdalwarp gnmanalyse gnmmanage nearblack ogr2ogr ogrinfo ogrlineref ogrmerge.py ogrtindex pct2rgb.py rgb2pct.py
 gdb(12.1):gdb gdb-add-index
 gdbgui(0.15.0.1_1):gdbgui
 gdbm(1.23):gdbm_dump gdbm_load gdbmtool
@@ -1694,7 +1694,7 @@ genometools(1.6.2):genometools-config gt
 genstats(1.2):genstats
 geocode-glib(3.26.2_2):
 geogram(1.7.8):geobox geocod geodump geogram_demo_Application geogram_demo_Delaunay2d geogram_demo_Delaunay3d geogram_demo_Evert geogram_demo_GLUP geogram_demo_Raytrace geogram_demo_SimpleApp geoshade vorpalite vorpaview
-geographiclib(1.52):CartConvert ConicProj GeoConvert GeodSolve GeodesicProj GeoidEval Gravity MagneticField Planimeter RhumbSolve TransverseMercatorProj geographiclib-get-geoids geographiclib-get-gravity geographiclib-get-magnetic
+geographiclib(2.0):CartConvert ConicProj GeoConvert GeodSolve GeodesicProj GeoidEval Gravity MagneticField Planimeter RhumbSolve TransverseMercatorProj geographiclib-get-geoids geographiclib-get-gravity geographiclib-get-magnetic
 geoip(1.6.12):geoiplookup geoiplookup6
 geoipupdate(4.9.0):geoipupdate
 geomview(1.9.5_2):anytooff anytoucd bdy bez2mesh clip geomview math2oogl offconsol oogl2rib oogl2vrml oogl2vrml2 polymerge remotegv togeomview ucdtooff vrml2oogl
@@ -1743,7 +1743,7 @@ gimme-aws-creds(2.4.4):gimme-aws-creds gimme-aws-creds.cmd
 ginac(1.8.3):ginsh viewgar
 gist(6.0.0):gist
 gistit(0.1.4):gistit
-git(2.36.0):git git-cvsserver git-receive-pack git-shell git-upload-archive git-upload-pack
+git(2.36.1):git git-cvsserver git-receive-pack git-shell git-upload-archive git-upload-pack
 git-absorb(0.6.6):git-absorb
 git-annex(10.20220504):git-annex git-annex-shell
 git-annex-remote-rclone(0.6):git-annex-remote-rclone
@@ -1755,7 +1755,7 @@ git-cal(0.9.1_1):git-cal
 git-cinnabar(0.5.8_1):git-cinnabar git-cinnabar-helper git-remote-hg
 git-cliff(0.7.0):git-cliff git-cliff-completions git-cliff-mangen
 git-cola(3.12.0):cola git-cola git-cola-sequence-editor git-dag
-git-credential-libsecret(2.36.0):git-credential-libsecret
+git-credential-libsecret(2.36.1):git-credential-libsecret
 git-credential-manager(2.0.4_2):git-credential-manager
 git-crypt(0.7.0):git-crypt
 git-delta(0.12.1):delta
@@ -1768,7 +1768,7 @@ git-fresh(1.13.0):git-fresh
 git-ftp(1.6.0_1):git-ftp
 git-game(1.2):git-game
 git-gerrit(0.3.0):gerrit gerrit-cherry-pick git-gerrit
-git-gui(2.36.0):git-citool git-gui--askpass gitk
+git-gui(2.36.1):git-citool git-gui--askpass gitk
 git-hooks-go(1.3.1):git-hooks
 git-hound(1.0.0):git-hound
 git-if(1.3.6):git-if
@@ -1796,7 +1796,7 @@ git-sizer(1.5.0):git-sizer
 git-ssh(0.2.0):git-ssh
 git-standup(2.3.2):git-standup
 git-subrepo(0.4.3):git-subrepo
-git-svn(2.36.0):git-svn
+git-svn(2.36.1):git-svn
 git-svn-abandon(0.0.1):git-svn-abandon-cleanup git-svn-abandon-fix-refs git-svn-abandon-msg-filter
 git-test(1.0.4):git-test
 git-tf(2.0.3.20131219):git-tf
@@ -1869,7 +1869,7 @@ gmic(3.0.1):gmic
 gmime(3.2.7):
 gmp(6.2.1_1):
 gmsh(4.10.1):gmsh
-gmt(6.3.0_3):gmt gmt-config gmt_shell_functions.sh gmtswitch isogmt
+gmt(6.3.0_4):gmt gmt-config gmt_shell_functions.sh gmtswitch isogmt
 gmt@5(5.4.5_13):backtracker blockmean blockmedian blockmode dimfilter filter1d fitcircle gmt gmt-config gmt2kml gmt2rgb gmt_shell_functions.sh gmtconnect gmtconvert gmtdefaults gmtdp gmtflexure gmtget gmtgravmag3d gmtinfo gmtlogo gmtmath gmtpmodeler gmtregress gmtselect gmtset gmtsimplify gmtspatial gmtstitch gmtswitch gmtvector gmtwhich gpsgridder gravfft grd2cpt grd2rgb grd2xyz grdblend grdclip grdcontour grdconvert grdcut grdedit grdfft grdfilter grdflexure grdgradient grdgravmag3d grdhisteq grdimage grdinfo grdlandmask grdmask grdmath grdpaste grdpmodeler grdproject grdraster grdredpol grdreformat grdrotater grdsample grdseamount grdspotter grdtrack grdtrend grdvector grdview grdvolume greenspline gshhg hotspotter img2grd isogmt kml2gmt makecpt mapproject mgd77convert mgd77header mgd77info mgd77list mgd77magref mgd77manage mgd77path mgd77sniffer mgd77track minmax nearneighbor originator project ps2raster psbasemap psclip pscoast pscontour psconvert pscoupe pshistogram psimage pslegend psmask psmeca pspolar psrose pssac psscale pssegy pssegyz pssolar psternary pstext psvelo pswiggle psxy psxyz rotconverter rotsmoother sample1d segy2grd spectrum1d sph2grd sphdistance sphinterpolate sphtriangulate splitxyz surface talwani2d talwani3d trend1d trend2d triangulate x2sys_binlist x2sys_cross x2sys_datalist x2sys_get x2sys_init x2sys_list x2sys_merge x2sys_put x2sys_report x2sys_solve xyz2grd
 gnirehtet(2.5_1):gnirehtet
 gnome-autoar(0.4.3):
@@ -2307,7 +2307,7 @@ imap-uw(2007f_1):dmail mailutil tmail
 imapfilter(2.7.5):imapfilter
 imapsync(2.200):imapsync
 imath(3.1.5):
-imessage-ruby(0.3.1):imessage
+imessage-ruby(0.3.2):imessage
 imgproxy(3.5.0):imgproxy
 imgur-screenshot(2.0.0):imgur-screenshot imgur-screenshot.sh
 imlib2(1.9.0):imlib2_bumpmap imlib2_colorspace imlib2_conv imlib2_grab imlib2_load imlib2_poly imlib2_show imlib2_test imlib2_view
@@ -2543,7 +2543,7 @@ kdoctor(0.0.4):kdoctor
 kedge(0.12.0):kedge
 keepassc(1.8.2_4):keepassc keepassc-agent keepassc-server
 keepkey-agent(0.9.0_5):keepkey-agent keepkey_agent.py
-keptn(0.14.2):keptn
+keptn(0.15.0):keptn
 kepubify(4.0.4):covergen kepubify seriesmeta
 kerl(2.4.0):kerl
 kertish-dfs(22.2.0147-532592):krtadm krtfs
@@ -2850,7 +2850,7 @@ libgweather(40.0_1):
 libgxps(0.3.2_1):xpstojpeg xpstopdf xpstopng xpstops xpstosvg
 libhandy(1.6.2):handy-1-demo
 libharu(2.3.0):
-libhdhomerun(20210624):hdhomerun_config
+libhdhomerun(20220303):hdhomerun_config
 libheif(1.12.0_1):heif-convert heif-enc heif-info heif-thumbnailer
 libhid(0.2.16):libhid-detach-device
 libhttpserver(0.18.2):
@@ -3302,7 +3302,7 @@ mapcidr(0.0.9):mapcidr
 mapcrafter(2.4_4):mapcrafter mapcrafter_export mapcrafter_markers mapcrafter_png-it.py mapcrafter_textures.py
 mapnik(3.1.0_8):mapnik-config mapnik-index mapnik-render shapeindex
 mapproxy(1.14.0):mapproxy-seed mapproxy-util
-mapserver(7.6.4_3):legend mapserv msencrypt scalebar shp2img shptree shptreetst shptreevis sortshp tile4ms
+mapserver(7.6.4_4):legend mapserv msencrypt scalebar shp2img shptree shptreetst shptreevis sortshp tile4ms
 marcli(1.0.1):marcli
 mariadb(10.7.3):aria_chk aria_dump_log aria_ftdump aria_pack aria_read_log aria_s3_copy innochecksum mariabackup mariadb mariadb-access mariadb-admin mariadb-backup mariadb-binlog mariadb-check mariadb-client-test mariadb-config mariadb-conv mariadb-convert-table-format mariadb-dump mariadb-dumpslow mariadb-find-rows mariadb-fix-extensions mariadb-hotcopy mariadb-import mariadb-ldb mariadb-plugin mariadb-secure-installation mariadb-setpermission mariadb-show mariadb-slap mariadb-test mariadb-tzinfo-to-sql mariadb-upgrade mariadb-waitpid mariadb_config mariadbd mariadbd-multi mariadbd-safe mariadbd-safe-helper mbstream msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack myrocks_hotbackup mysql mysql.server mysql_client_test mysql_config mysql_convert_table_format mysql_find_rows mysql_fix_extensions mysql_install_db mysql_ldb mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysqlaccess mysqladmin mysqlbinlog mysqlcheck mysqld mysqld_multi mysqld_safe mysqld_safe_helper mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest mytop perror rcmysql replace resolve_stack_dump resolveip sst_dump wsrep_sst_mariabackup wsrep_sst_mysqldump wsrep_sst_rsync wsrep_sst_rsync_wan
 mariadb-connector-c(3.2.6):mariadb_config
@@ -3327,7 +3327,7 @@ mathlibtools(1.1.1):leanproject
 matlab2tikz(1.1.0):
 matplotplusplus(1.1.0_1):
 matterbridge(1.25.0):matterbridge
-maturin(0.12.14):maturin
+maturin(0.12.15):maturin
 maven(3.8.5):mvn mvnDebug mvnyjp
 maven-completion(20200420):
 maven-shell(1.1.0):mvnsh
@@ -3415,7 +3415,7 @@ midnight-commander(4.8.28):mc mcdiff mcedit mcview
 mighttpd2(4.0.2):mighty mighty-mkindex mightyctl
 mikmod(3.2.8):mikmod
 mikutter(4.1.1_2):mikutter
-mill(0.10.3):mill
+mill(0.10.4):mill
 miller(6.2.0):mlr
 mimalloc(1.7.6):
 mimic(1.3.0.1):compile_regexes mimic mimic_time mimicvox_info t2p
@@ -3520,7 +3520,7 @@ mosh(1.3.2_18):mosh mosh-client mosh-server
 mosml(2.10.1):camlrunm mosml mosmlc mosmllex mosmlyac
 mosquitto(2.0.14):mosquitto mosquitto_ctrl mosquitto_passwd mosquitto_pub mosquitto_rr mosquitto_sub
 most(5.1.0):most
-moto(3.1.7):moto_server
+moto(3.1.8):moto_server
 movgrab(3.1.2_3):movgrab
 moz-git-tools(0.1):git-branchname git-bzexport git-edit-files git-fix-whitespace git-new-workdir git-patch-to-hg-patch git-push-to-hg git-push-to-try git-push-to-trychooser git-qapplied git-qparent git-qrebase git-remote-link git-to-hg-commit git-tracks hg-patch-to-git-patch
 mozjpeg(4.0.3):cjpeg djpeg jpegtran rdjpgcom tjbench wrjpgcom
@@ -3620,7 +3620,7 @@ naabu(2.0.5):naabu
 nacl(20110221):
 naga(1.0):naga
 nagios(4.4.7):archivejson.cgi avail.cgi cmd.cgi config.cgi extinfo.cgi histogram.cgi history.cgi nagios nagiostats notifications.cgi objectjson.cgi outages.cgi showlog.cgi status.cgi statusjson.cgi statusmap.cgi statuswml.cgi statuswrl.cgi summary.cgi tac.cgi trends.cgi
-nagios-plugins(2.3.3):
+nagios-plugins(2.4.0):check_apt check_breeze check_by_ssh check_clamd check_cluster check_dig check_disk check_disk_smb check_dns check_dummy check_file_age check_flexlm check_ftp check_hpjd check_http check_ifoperstatus check_ifstatus check_imap check_ircd check_jabber check_ldap check_ldaps check_load check_log check_mailq check_mrtg check_mrtgtraf check_nagios check_nntp check_nntps check_nt check_ntp check_ntp_peer check_ntp_time check_nwstat check_oracle check_overcr check_ping check_pop check_procs check_real check_rpc check_sensors check_simap check_smtp check_snmp check_spop check_ssh check_ssl_validity check_ssmtp check_tcp check_time check_udp check_ups check_users check_wave negate remove_perfdata urlize utils.pm utils.sh
 nailgun(1.0.1):ng ng-server
 name-that-hash(1.10.0_1):name-that-hash nth
 namebench(1.3.1):namebench
@@ -3675,7 +3675,7 @@ neon(0.32.2):neon-config
 neopop-sdl(0.2):NeoPop-SDL
 neovim(0.7.0):nvim
 neovim-qt(0.2.16.1):nvim-qt
-neovim-remote(2.4.2):nvr
+neovim-remote(2.5.0):nvr
 nesc(1.4.0_2):nescc nescc-mig nescc-ncg nescc-wiring
 nest(3.3_1):nest nest-config nest-server nest-server-mpi nest_indirect nest_serial nest_vars.sh sli
 nestopia-ue(1.51.1):nestopia
@@ -3687,7 +3687,7 @@ netdata(1.34.1):netdata netdata-claim.sh netdatacli
 nethack(3.6.6):nethack
 nethacked(1.0):nethacked
 nethogs(0.8.6):
-netlify-cli(10.2.0):netlify ntl
+netlify-cli(10.3.0):netlify ntl
 netmask(2.4.4):netmask
 netpbm(10.86.32_1):411toppm anytopnm asciitopgm atktopbm avstopam bioradtopgm bmptopnm bmptoppm brushtopbm cameratopam cistopbm cmuwmtopbm ddbugtopbm escp2topbm eyuvtoppm fiascotopnm fitstopnm fstopgm g3topbm gemtopbm gemtopnm giftopnm gouldtoppm hdifftopam hipstopgm hpcdtoppm icontopbm ilbmtoppm imgtoppm infotopam jbigtopnm jpeg2ktopam jpegtopnm leaftoppm lispmtopgm macptopbm manweb mdatopbm mgrtopbm mrftopbm mtvtoppm neotoppm palmtopnm pamaddnoise pamaltsat pamarith pambackground pambayer pambrighten pamchannel pamcomp pamcrater pamcut pamdeinterlace pamdepth pamdice pamditherbw pamedge pamendian pamenlarge pamexec pamfile pamfind pamfix pamfixtrunc pamflip pamfunc pamgauss pamgetcolor pamgradient pamhue pamlevels pamlookup pammasksharpen pammixinterlace pammixmulti pammosaicknit pamoil pampaintspill pamperspective pampick pampop9 pamrecolor pamrgbatopng pamrubber pamscale pamseq pamshadedrelief pamsharpmap pamsharpness pamsistoaglyph pamslice pamsplit pamstack pamstereogram pamstretch pamstretch-gen pamsumm pamsummcol pamtable pamthreshold pamtilt pamtoavs pamtodjvurle pamtofits pamtogif pamtohdiff pamtohtmltbl pamtojpeg2k pamtompfont pamtooctaveimg pamtopam pamtopdbimg pamtopfm pamtopng pamtopnm pamtosrf pamtosvg pamtotga pamtotiff pamtouil pamtowinicon pamtoxvmini pamtris pamundice pamunlookup pamvalidate pamwipeout pbmclean pbmlife pbmmake pbmmask pbmminkowski pbmpage pbmpscale pbmreduce pbmtext pbmtextps pbmto10x pbmto4425 pbmtoascii pbmtoatk pbmtobbnbg pbmtocis pbmtocmuwm pbmtodjvurle pbmtoepsi pbmtoepson pbmtoescp2 pbmtog3 pbmtogem pbmtogo pbmtoibm23xx pbmtoicon pbmtolj pbmtoln03 pbmtolps pbmtomacp pbmtomatrixorbital pbmtomda pbmtomgr pbmtomrf pbmtonokia pbmtopgm pbmtopi3 pbmtopk pbmtoplot pbmtoppa pbmtopsg3 pbmtoptx pbmtosunicon pbmtowbmp pbmtox10bm pbmtoxbm pbmtoybm pbmtozinc pbmupc pc1toppm pcdindex pcdovtoppm pcxtoppm pdbimgtopam pfmtopam pgmabel pgmbentley pgmcrater pgmdeshadow pgmedge pgmenhance pgmhist pgmkernel pgmmake pgmmedian pgmminkowski pgmmorphconv pgmnoise pgmnorm pgmoil pgmramp pgmslice pgmtexture pgmtofs pgmtolispm pgmtopbm pgmtopgm pgmtoppm pgmtosbig pgmtost4 pi1toppm pi3topbm picttoppm pjtoppm pktopbm pngtopam pngtopnm pnmalias pnmarith pnmcat pnmcolormap pnmcomp pnmconvol pnmcrop pnmcut pnmdepth pnmenlarge pnmfile pnmflip pnmgamma pnmhisteq pnmhistmap pnmindex pnminterp pnminvert pnmmargin pnmmercator pnmmontage pnmnlfilt pnmnoraw pnmnorm pnmpad pnmpaste pnmpsnr pnmquant pnmquantall pnmremap pnmrotate pnmscale pnmscalefixed pnmshear pnmsmooth pnmsplit pnmstitch pnmtile pnmtoddif pnmtofiasco pnmtofits pnmtojbig pnmtojpeg pnmtopalm pnmtopclxl pnmtoplainpnm pnmtopng pnmtopnm pnmtops pnmtorast pnmtorle pnmtosgi pnmtosir pnmtotiff pnmtotiffcmyk pnmtoxwd ppm3d ppmbrighten ppmchange ppmcie ppmcolormask ppmcolors ppmdcfont ppmddumpfont ppmdim ppmdist ppmdither ppmdmkfont ppmdraw ppmfade ppmflash ppmforge ppmglobe ppmhist ppmlabel ppmmake ppmmix ppmnorm ppmntsc ppmpat ppmquant ppmquantall ppmrainbow ppmrelief ppmrough ppmshadow ppmshift ppmspread ppmtoacad ppmtoapplevol ppmtoarbtxt ppmtoascii ppmtobmp ppmtoeyuv ppmtogif ppmtoicr ppmtoilbm ppmtojpeg ppmtoleaf ppmtolj ppmtomap ppmtomitsu ppmtompeg ppmtoneo ppmtopcx ppmtopgm ppmtopi1 ppmtopict ppmtopj ppmtopjxl ppmtoppm ppmtopuzz ppmtorgb3 ppmtosixel ppmtospu ppmtoterm ppmtotga ppmtouil ppmtowinicon ppmtoxpm ppmtoyuv ppmtoyuvsplit ppmtv ppmwheel psidtopgm pstopnm qrttoppm rasttopnm rawtopgm rawtoppm rgb3toppm rlatopam rletopnm sbigtopgm sgitopnm sirtopnm sldtoppm spctoppm spottopgm sputoppm srftopam st4topgm sunicontopnm svgtopam tgatoppm thinkjettopbm tifftopnm wbmptopbm winicontopam winicontoppm xbmtopbm ximtoppm xpmtoppm xvminitoppm xwdtopnm ybmtopbm yuvsplittoppm yuvtoppm yuy2topam zeisstopnm
 netperf(2.7.0):netperf netserver
@@ -3698,7 +3698,7 @@ networkit(9.1.1):
 never(2.1.8_1):never
 newlisp(10.7.5):newlisp newlisp-10.7.5 newlispdoc
 newman(5.3.2):newman
-newrelic-cli(0.47.0):newrelic
+newrelic-cli(0.47.1):newrelic
 newrelic-infra-agent(1.24.2):newrelic-infra newrelic-infra-ctl newrelic-infra-service
 newsboat(2.27):newsboat podboat
 newt(0.52.21_2):whiptail
@@ -3738,7 +3738,7 @@ node-build(4.9.80):node-build nodenv-install nodenv-uninstall
 node-sass(1.51.0):sass
 node@10(10.24.1_2):node npm npx
 node@12(12.22.12):node npm npx
-node@14(14.19.1):corepack node npm npx
+node@14(14.19.2):corepack node npm npx
 node@16(16.15.0):corepack node npm npx
 node_exporter(1.3.1):node_exporter node_exporter_brew_services
 nodebrew(1.2.0):nodebrew
@@ -3831,7 +3831,7 @@ odt2txt(0.5):odt2txt
 offlineimap(8.0.0_1):offlineimap
 oggz(1.1.1):oggz oggz-chop oggz-codecs oggz-comment oggz-diff oggz-dump oggz-info oggz-known-codecs oggz-merge oggz-rip oggz-scan oggz-sort oggz-validate
 ogmtools(1.5):ogmcat ogmdemux ogminfo ogmmerge ogmsplit
-oh-my-posh(7.79.0):oh-my-posh
+oh-my-posh(7.79.1):oh-my-posh
 oha(0.5.1):oha
 ohcount(4.0.0):ohcount
 oil(0.10.0):oil oil.ovm osh
@@ -3905,7 +3905,7 @@ openjdk@17(17.0.3):jar jarsigner java javac javadoc javap jcmd jconsole jdb jdep
 openjdk@8(1.8.0+322):
 openjpeg(2.4.0):opj_compress opj_decompress opj_dump
 openkim-models(2021-08-11):
-openldap(2.6.1):ldapadd ldapcompare ldapdelete ldapexop ldapmodify ldapmodrdn ldappasswd ldapsearch ldapurl ldapvc ldapwhoami slapacl slapadd slapauth slapcat slapdn slapindex slapmodify slappasswd slapschema slaptest
+openldap(2.6.2):ldapadd ldapcompare ldapdelete ldapexop ldapmodify ldapmodrdn ldappasswd ldapsearch ldapurl ldapvc ldapwhoami slapacl slapadd slapauth slapcat slapdn slapindex slapmodify slappasswd slapschema slaptest
 openliberty-jakartaee8(22.0.0.4):openliberty-jakartaee8
 openliberty-jakartaee9(22.0.0.4):openliberty-jakartaee9
 openliberty-microprofile4(22.0.0.4):openliberty-microprofile4
@@ -3953,7 +3953,7 @@ orientdb(3.2.6):orientdb orientdb-console orientdb-gremlin
 ormolu(0.4.0.0):ormolu
 orocos-kdl(1.5.1):
 ortp(5.1.12):
-ory-hydra(1.11.7):hydra
+ory-hydra(1.11.8):hydra
 osc(0.177.0):osc
 osc-cli(1.8.0):osc-cli
 oscats(0.6_5):
@@ -3965,7 +3965,7 @@ osm-gps-map(1.2.0_1):
 osm-pbf(1.5.0_3):osmpbf-outline
 osm2pgrouting(2.3.8_2):osm2pgrouting
 osm2pgsql(1.6.0_2):osm2pgsql osm2pgsql-replication
-osmcoastline(2.3.1_2):osmcoastline osmcoastline_filter osmcoastline_readmeta osmcoastline_segments osmcoastline_ways
+osmcoastline(2.3.1_3):osmcoastline osmcoastline_filter osmcoastline_readmeta osmcoastline_segments osmcoastline_ways
 osmfilter(0.9):osmconvert osmfilter osmupdate
 osmium-tool(1.14.0):osmium
 osmosis(0.48.3):osmosis
@@ -4063,9 +4063,9 @@ pcre(8.45):pcre-config pcregrep pcretest
 pcre++(0.9.5):
 pcre2(10.40):pcre2-config pcre2grep pcre2test
 pcsc-lite(1.9.5):pcsc-spy pcscd
-pdal(2.4.0_2):pdal pdal-config
+pdal(2.4.0_3):pdal pdal-config
 pdf-redact-tools(0.1.2_1):pdf-redact-tools
-pdf2djvu(0.9.18.2_2):pdf2djvu
+pdf2djvu(0.9.18.2_3):pdf2djvu
 pdf2htmlex(0.14.6_24):pdf2htmlEX
 pdf2image(0.53_1):pdf2image pdffonts pdfimages pdfinfo pdftops pdftotext
 pdf2json(0.71):pdf2json
@@ -4078,7 +4078,7 @@ pdfsandwich(0.1.7_4):pdfsandwich
 pdftilecut(0.5):pdftilecut
 pdftk-java(3.3.2):pdftk
 pdftohtml(0.40a):pdftohtml
-pdftoipe(7.2.24.1_5):pdftoipe
+pdftoipe(7.2.24.1_6):pdftoipe
 pdm(1.14.1):pdm
 pdns(4.6.2):pdns_control pdns_server pdnsutil zone2json zone2sql
 pdnsd(1.2.9a-par):
@@ -4213,13 +4213,13 @@ pngcrush(1.8.13):pngcrush
 pngnq(1.1_1):pngcomp pngnq
 pngpaste(0.2.3):pngpaste
 pngquant(2.17.0):pngquant
-pnpm(7.0.0):pnpm pnpx
+pnpm(7.0.1):pnpm pnpx
 po4a(0.66):msguntypot po4a po4a-display-man po4a-display-pod po4a-gettextize po4a-normalize po4a-translate po4a-updatepo
 poco(1.11.2):arc cpspc f2cpsp
 pocsuite3(1.9.2):poc-console pocsuite
 pod2man(4.14_3):pod2man pod2text
 podiff(1.3):podiff
-podman(4.0.3):podman podman-mac-helper podman-remote
+podman(4.1.0):podman podman-mac-helper podman-remote
 podofo(0.9.8):podofobox podofocolor podofocountpages podofocrop podofoencrypt podofogc podofoimg2pdf podofoimgextract podofoimpose podofoincrementalupdates podofomerge podofonooc podofopages podofopdfinfo podofosign podofotxt2pdf podofotxtextract podofouncompress podofoxmp
 poetry(1.1.13):poetry
 points2grid(1.3.1_12):points2grid
@@ -4230,8 +4230,8 @@ polynote(0.4.5):polynote
 pony-stable(0.2.2):stable
 ponyc(0.50.0):ponyc
 ponysay(3.0.3_7):ponysay ponysay-tool ponythink
-poppler(22.04.0):pdfattach pdfdetach pdffonts pdfimages pdfinfo pdfseparate pdfsig pdftocairo pdftohtml pdftoppm pdftops pdftotext pdfunite
-poppler-qt5(22.04.0):pdfattach pdfdetach pdffonts pdfimages pdfinfo pdfseparate pdfsig pdftocairo pdftohtml pdftoppm pdftops pdftotext pdfunite
+poppler(22.05.0):pdfattach pdfdetach pdffonts pdfimages pdfinfo pdfseparate pdfsig pdftocairo pdftohtml pdftoppm pdftops pdftotext pdfunite
+poppler-qt5(22.05.0):pdfattach pdfdetach pdffonts pdfimages pdfinfo pdfseparate pdfsig pdftocairo pdftohtml pdftoppm pdftops pdftotext pdfunite
 popt(1.18):
 portaudio(19.7.0):
 portmidi(2.0.3):
@@ -4371,7 +4371,7 @@ pypy3(7.3.9):pypy3 pypy3.7
 pyqt(6.2.0):pylupdate6 pyuic6
 pyqt-builder(1.12.2):pyqt-bundle pyqt-qt-wheel
 pyqt@5(5.15.6):pylupdate5 pyrcc5 pyuic5
-pyright(1.1.244):pyright pyright-langserver
+pyright(1.1.245):pyright pyright-langserver
 pyside(6.2.4):pyside6-assistant pyside6-designer pyside6-genpyi pyside6-linguist pyside6-lrelease pyside6-lupdate pyside6-rcc pyside6-uic shiboken6 shiboken6-genpyi
 pyside@2(5.15.2_2):pyside2-lupdate pyside_tool.py shiboken2 shiboken_tool.py
 python-launcher(1.0.0):py
@@ -4500,7 +4500,7 @@ rdiff-backup(2.0.5_2):rdiff-backup rdiff-backup-delete rdiff-backup-statistics
 rdkit(2022.03.2):
 rds-command-line-tools(1.19.004_1):rds rds-add-option-to-option-group rds-add-source-identifier-to-subscription rds-add-tag-to-resource rds-apply-pending-maintenance-action rds-authorize-db-security-group-ingress rds-copy-db-parameter-group rds-copy-db-snapshot rds-copy-option-group rds-create-db-instance rds-create-db-instance-read-replica rds-create-db-parameter-group rds-create-db-security-group rds-create-db-snapshot rds-create-db-subnet-group rds-create-event-subscription rds-create-option-group rds-delete-db-instance rds-delete-db-parameter-group rds-delete-db-security-group rds-delete-db-snapshot rds-delete-db-subnet-group rds-delete-event-subscription rds-delete-option-group rds-describe-account-attributes rds-describe-certificates rds-describe-db-engine-versions rds-describe-db-instances rds-describe-db-log-files rds-describe-db-parameter-groups rds-describe-db-parameters rds-describe-db-security-groups rds-describe-db-snapshots rds-describe-db-subnet-groups rds-describe-engine-default-parameters rds-describe-event-categories rds-describe-event-subscriptions rds-describe-events rds-describe-option-group-options rds-describe-option-groups rds-describe-orderable-db-instance-options rds-describe-pending-maintenance-actions rds-describe-reserved-db-instances rds-describe-reserved-db-instances-offerings rds-download-db-logfile rds-list-tags-for-resource rds-modify-db-instance rds-modify-db-parameter-group rds-modify-db-subnet-group rds-modify-event-subscription rds-promote-read-replica rds-purchase-reserved-db-instances-offering rds-reboot-db-instance rds-remove-option-from-option-group rds-remove-source-identifier-from-subscription rds-remove-tags-from-resource rds-reset-db-parameter-group rds-restore-db-instance-from-db-snapshot rds-restore-db-instance-to-point-in-time rds-revoke-db-security-group-ingress rds-update-option-in-option-group rds-version rds-watch-db-logfile
 rdup(1.1.15_2):rdup rdup-simple rdup-tr rdup-up
-re-flex(3.2.5):reflex
+re-flex(3.2.6):reflex
 re2(20220401):
 re2c(3.0):re2c re2go re2rust
 react-native-cli(2.0.1):react-native
@@ -4705,7 +4705,7 @@ scale2x(4.0):scalerx scalex
 scalingo(1.22.1):scalingo
 scamper(20211212):sc_ally sc_analysis_dump sc_attach sc_bdrmap sc_erosprober sc_filterpolicy sc_ipiddump sc_pinger sc_prefixscan sc_radargun sc_remoted sc_speedtrap sc_tbitblind sc_tbitpmtud sc_tracediff sc_ttlexp sc_warts2csv sc_warts2json sc_warts2pcap sc_warts2text sc_wartscat sc_wartsdump sc_wartsfilter sc_wartsfix scamper
 scc(3.0.0):scc
-sccache(0.2.15):sccache
+sccache(0.3.0):sccache
 scdoc(1.11.2):scdoc
 sceptre(3.1.0):sceptre
 schema-evolution-manager(0.9.45):sem-add sem-apply sem-baseline sem-dist sem-info sem-init
@@ -4840,7 +4840,7 @@ simh(3.11.1):altair eclipse gri h316 i1401 i1620 i7094 id16 id32 lgp nova pdp1 p
 simple-amqp-client(2.5.1_1):
 simple-obfs(0.0.5_1):obfs-local obfs-server
 simple-scan(42.1):simple-scan
-simple-tiles(0.6.1_13):
+simple-tiles(0.6.1_14):
 simutrans(123.0.1):makeobj nettool simutrans
 since(1.1):since
 singular(4.2.1_1):ESingular Singular TSingular libpolys-config libsingular-config
@@ -4889,7 +4889,7 @@ smu(1.5):smu
 smug(0.2.8):smug
 sn0int(0.24.2):sn0int
 snag(1.2.0):snag
-snakemake(7.6.1):snakemake snakemake-bash-completion
+snakemake(7.6.2):snakemake snakemake-bash-completion
 snap(2.55.3):snap
 snap-telemetry(2.0.0):snaptel
 snap7(1.4.2_1):
@@ -4995,10 +4995,10 @@ sqlancer(2.0.0):sqlancer
 sqlbench(1.1.0):sqlbench
 sqlc(1.13.0):sqlc
 sqlcipher(4.5.1):sqlcipher
-sqldiff(3.38.4):sqldiff
-sqlfluff(0.13.0):sqlfluff
-sqlite(3.38.4):sqlite3
-sqlite-analyzer(3.38.4):sqlite3_analyzer
+sqldiff(3.38.5):sqldiff
+sqlfluff(0.13.1):sqlfluff
+sqlite(3.38.5):sqlite3
+sqlite-analyzer(3.38.5):sqlite3_analyzer
 sqlite-utils(3.26):sqlite-utils
 sqliteodbc(0.9998):
 sqlmap(1.6.5):sqlmap sqlmap.py sqlmapapi sqlmapapi.py
@@ -5079,7 +5079,7 @@ stress-ng(0.14.01):stress-ng
 strongswan(5.9.6):charon-cmd ipsec pki swanctl
 structurizr-cli(1.19.0):structurizr-cli
 stubby(0.4.0):stubby stubby-setdns-macos.sh
-stunnel(5.63):stunnel stunnel3
+stunnel(5.64):stunnel stunnel3
 stuntman(1.2.16):stunclient stunserver stuntestcode
 style-check(0.14):style-check.rb
 stylish-haskell(0.14.2.0):stylish-haskell
@@ -5136,7 +5136,7 @@ synfig(1.4.2_1):synfig synfig-config
 synscan(5.02_1):sslog synscan
 syntaxerl(0.15.0):syntaxerl
 sysbench(1.0.20_2):sysbench
-sysdig(0.29.2):csysdig sysdig
+sysdig(0.29.3):csysdig sysdig
 systemc(2.3.2):
 sz81(2.1.7):sz81
 t-completion(3.1.0):
@@ -5548,7 +5548,7 @@ viennacl(1.7.1):
 viewvc(1.2.1):viewvc-cvsdbadmin viewvc-loginfo-handler viewvc-make-database viewvc-standalone.py viewvc-svndbadmin
 vifm(0.12):vifm vifm-convert-dircolors vifm-pause vifm-screen-split
 vilistextum(2.6.9):vilistextum
-vim(8.2.4850):ex rview rvim vi view vim vimdiff vimtutor xxd
+vim(8.2.4900):ex rview rvim vi view vim vimdiff vimtutor xxd
 vimpager(2.06):vimcat vimpager
 vimpc(0.09.2):vimpc
 vint(0.3.21_1):vint
@@ -5624,7 +5624,7 @@ wandio(4.2.3_1):wandiocat
 wangle(2022.03.21.00_1):
 waon(0.11):waon
 wapm(0.5.4):wapm
-wartremover(3.0.2):wartremover
+wartremover(3.0.3):wartremover
 wasm-pack(0.10.2):wasm-pack
 wasm-tools(1.0.4):wasm-tools
 wasm3(0.5.0):wasm3
@@ -5664,7 +5664,7 @@ wego(2.1):wego
 weighttp(0.4):weighttp
 wellington(1.0.5):wt
 wemux(3.2.0):wemux
-werf(1.2.97):werf
+werf(1.2.98):werf
 west(0.13.1):west
 wgcf(2.2.14):wgcf
 wget(1.21.3):wget
@@ -5741,7 +5741,7 @@ xa(2.3.13):file65 ldo65 printcbm reloc65 uncpk xa
 xalan-c(1.12):Xalan
 xapian(1.4.19):copydatabase quest simpleexpand simpleindex simplesearch xapian-check xapian-compact xapian-config xapian-delve xapian-metadata xapian-pos xapian-progsrv xapian-replicate xapian-replicate-server xapian-tcpsrv
 xaric(0.13.9):xaric
-xauth(1.1.1):xauth
+xauth(1.1.2):xauth
 xbee-comm(1.5):xbfwup
 xbitmaps(1.1.2):
 xboard(4.9.1_3):xboard
@@ -5809,7 +5809,7 @@ xsane(0.999_4):xsane
 xsd(4.0.0_1):xsd
 xsel(1.2.0):xsel
 xshogi(1.4.2_1):xshogi
-xsimd(8.0.5):
+xsimd(8.1.0):
 xsv(0.13.0):xsv
 xsw(0.3.5):xsw xsw2jpeg xsw2pdf xsw2png xswconv
 xtensor(0.24.1):
