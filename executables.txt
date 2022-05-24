@@ -132,7 +132,7 @@ apache-flink(1.15.0):flink
 apache-forrest(0.9_1):forrest
 apache-geode(1.14.4):gfsh
 apache-opennlp(1.9.4):opennlp
-apache-pulsar(2.10.0):bookkeeper function-localrunner pulsar pulsar-admin pulsar-client pulsar-daemon pulsar-managed-ledger-admin pulsar-perf
+apache-pulsar(2.10.0_1):bookkeeper function-localrunner pulsar pulsar-admin pulsar-client pulsar-daemon pulsar-managed-ledger-admin pulsar-perf
 apache-spark(3.2.1):docker-image-tool.sh find-spark-home load-spark-env.sh pyspark run-example spark-beeline spark-class spark-shell spark-sql spark-submit sparkR
 apachetop(0.19.7):apachetop
 apcupsd(3.14.14):
@@ -472,7 +472,7 @@ brag(1.4.3):brag
 braid(1.1.6):braid
 brainfuck(2.7.3):brainfuck
 breezy(3.2.2):brz bzr bzr-receive-pack bzr-upload-pack git-remote-bzr
-brev(0.6.61):brev
+brev(0.6.62):brev
 brew-cask-completion(2.1_1):
 brew-gem(1.1.1):brew-gem
 brew-php-switcher(2.4):brew-php-switcher phpswitch.sh
@@ -618,7 +618,7 @@ cdb(0.75):cdbdump cdbget cdbmake cdbmake-12 cdbmake-sv cdbstats cdbtest
 cddlib(0.94m):adjacency adjacency_gmp allfaces allfaces_gmp cddexec cddexec_gmp fourier fourier_gmp lcdd lcdd_gmp projection projection_gmp redcheck redcheck_gmp scdd scdd_gmp testcdd1 testcdd1_gmp testcdd2 testcdd2_gmp testlp1 testlp1_gmp testlp2 testlp2_gmp testlp3 testlp3_gmp testshoot testshoot_gmp
 cdecl(2.5):c++decl cdecl
 cdk(5.0-20211216):cdk5-config
-cdk8s(1.1.5):cdk8s
+cdk8s(1.1.6):cdk8s
 cdktf(0.10.4):cdktf
 cdlabelgen(4.3.0):cdlabelgen
 cdo(2.0.5_1):cdo
@@ -828,7 +828,7 @@ color-code(0.8.5_2):colorcode
 colordiff(1.0.20):cdiff colordiff
 colormake(0.9.20140503):clmake clmake-short colormake colormake-short
 colortail(0.3.4):colortail
-comby(1.7.0):comby
+comby(1.7.1):comby
 commandbox(5.5.2):box
 commitizen(2.27.1):cz git-cz
 compface(1.5.2):compface uncompface
@@ -884,7 +884,7 @@ cpl(7.2.2):
 cpm(0.997011):cpm
 cpmtools(2.21):cpmchattr cpmchmod cpmcp cpmls cpmrm fsck.cpm fsed.cpm mkfs.cpm
 cpp-gsl(4.0.0):
-cppad(20220000.3):
+cppad(20220000.4):
 cppcheck(2.8):cppcheck
 cppcms(1.2.1):cppcms_config_find_param cppcms_make_key cppcms_run cppcms_scale cppcms_tmpl_cc
 cppi(1.18):cppi
@@ -955,7 +955,7 @@ ctlptl(0.8.2):ctlptl
 ctop(0.7.7):ctop
 cuba(4.2.2):
 cubeb(0.2):
-cubejs-cli(0.30.4):cubejs
+cubejs-cli(0.30.5):cubejs
 cubelib(4.7):cube3to4 cube4to3 cube_calltree cube_canonize cube_clean cube_cmp cube_commoncalltree cube_cut cube_derive cube_diff cube_dump cube_exclusify cube_inclusify cube_info cube_is_empty cube_mean cube_merge cube_nodeview cube_part cube_rank cube_regioninfo cube_remap2 cube_sanity cube_server cube_stat cube_test cube_topoassist cubelib-config tau2cube
 cucumber-cpp(0.5_9):
 cucumber-ruby(7.1.0_1):cucumber
@@ -977,19 +977,20 @@ cvsync(0.24.19):cvscan cvsup2cvsync cvsync cvsync2cvsup cvsyncd rcscan rcscmp
 cwb3(3.4.33_2):cqp cqpcl cqpserver cwb-align cwb-align-decode cwb-align-encode cwb-align-show cwb-atoi cwb-compress-rdx cwb-config cwb-decode cwb-decode-nqrfile cwb-describe-corpus cwb-encode cwb-huffcode cwb-itoa cwb-lexdecode cwb-makeall cwb-s-decode cwb-s-encode cwb-scan-corpus
 cweb(4.7):ctangle cweave
 cwlogs(1.2.0):cwlogs
+cxgo(0.3.3):cxgo
 cxxopts(3.0.0):
 cxxtest(4.4_3):cxxtestgen
 cypher-shell(4.4.6):cypher-shell
 cyral-gimme-db-token(0.8.0):gimme_db_token
 cyrus-sasl(2.1.28):pluginviewer saslauthd sasldblistusers2 saslpasswd2 testsaslauthd
-cython(0.29.29):cygdb cython cythonize
+cython(0.29.30):cygdb cython cythonize
 czmq(4.2.1):zmakecert
 daemon(0.8):daemon
 daemonize(1.7.8):
 daemonlogger(1.2.1):daemonlogger
 daemontools(0.76_1):envdir envuidgid fghack multilog pgrphack readproctitle setlock setuidgid softlimit supervise svc svok svscan svscanboot svstat tai64n tai64nlocal
 dafny(3.6.0):dafny
-dagger(0.2.10):dagger
+dagger(0.2.11):dagger
 dante(1.4.3):sockd socksify
 daq(3.0.7):daqtest daqtest-static
 dar(2.7.5):dar dar_cp dar_manager dar_slave dar_split dar_xform
@@ -1174,7 +1175,7 @@ dockutil(2.0.5):dockutil
 dockviz(0.6.3):dockviz
 dockward(0.0.4):dockward
 doctest(2.4.8):
-doctl(1.75.0):doctl
+doctl(1.76.0):doctl
 docui(2.0.4):docui
 docutils(0.18.1):rst2html rst2html.py rst2html4 rst2html4.py rst2html5 rst2html5.py rst2latex rst2latex.py rst2man rst2man.py rst2odt rst2odt.py rst2odt_prepstyles rst2odt_prepstyles.py rst2pseudoxml rst2pseudoxml.py rst2s5 rst2s5.py rst2xetex rst2xetex.py rst2xml rst2xml.py rstpep2html rstpep2html.py
 docuum(0.21.1):docuum
@@ -1201,7 +1202,7 @@ doxygen(1.9.4):doxygen
 doxymacs(1.8.0):doxymacs_parser
 dpkg(1.21.7):dpkg dpkg-architecture dpkg-buildflags dpkg-buildpackage dpkg-checkbuilddeps dpkg-deb dpkg-distaddfile dpkg-divert dpkg-genbuildinfo dpkg-genchanges dpkg-gencontrol dpkg-gensymbols dpkg-maintscript-helper dpkg-mergechangelogs dpkg-name dpkg-parsechangelog dpkg-query dpkg-realpath dpkg-scanpackages dpkg-scansources dpkg-shlibdeps dpkg-source dpkg-split dpkg-statoverride dpkg-trigger dpkg-vendor update-alternatives
 dpp(0.4.10):d++
-dprint(0.29.0):dprint
+dprint(0.29.1):dprint
 dps8m(2.0):dps8
 draco(1.5.2):draco_decoder draco_decoder-1.5.2 draco_encoder draco_encoder-1.5.2
 drafter(5.0.0):drafter
@@ -1278,7 +1279,7 @@ ebook-tools(0.2.2_3):einfo lit2epub
 ec2-ami-tools(1.5.7_1):ec2-ami-tools-version ec2-bundle-image ec2-bundle-vol ec2-delete-bundle ec2-download-bundle ec2-migrate-bundle ec2-migrate-manifest ec2-unbundle ec2-upload-bundle
 ec2-api-tools(1.7.5.1_1):ec2-accept-vpc-peering-connection ec2-activate-license ec2-add-group ec2-add-keypair ec2-allocate-address ec2-assign-private-ip-addresses ec2-associate-address ec2-associate-dhcp-options ec2-associate-route-table ec2-attach-classic-link-vpc ec2-attach-internet-gateway ec2-attach-network-interface ec2-attach-volume ec2-attach-vpn-gateway ec2-authorize ec2-bundle-instance ec2-cancel-bundle-task ec2-cancel-conversion-task ec2-cancel-export-task ec2-cancel-reserved-instances-listing ec2-cancel-spot-instance-requests ec2-cmd ec2-confirm-product-instance ec2-copy-image ec2-copy-snapshot ec2-create-customer-gateway ec2-create-dhcp-options ec2-create-group ec2-create-image ec2-create-instance-export-task ec2-create-internet-gateway ec2-create-keypair ec2-create-network-acl ec2-create-network-acl-entry ec2-create-network-interface ec2-create-placement-group ec2-create-reserved-instances-listing ec2-create-route ec2-create-route-table ec2-create-snapshot ec2-create-spot-datafeed-subscription ec2-create-subnet ec2-create-tags ec2-create-volume ec2-create-vpc ec2-create-vpc-endpoint ec2-create-vpc-peering-connection ec2-create-vpn-connection ec2-create-vpn-connection-route ec2-create-vpn-gateway ec2-deactivate-license ec2-delete-customer-gateway ec2-delete-dhcp-options ec2-delete-disk-image ec2-delete-group ec2-delete-internet-gateway ec2-delete-keypair ec2-delete-network-acl ec2-delete-network-acl-entry ec2-delete-network-interface ec2-delete-placement-group ec2-delete-route ec2-delete-route-table ec2-delete-snapshot ec2-delete-spot-datafeed-subscription ec2-delete-subnet ec2-delete-tags ec2-delete-volume ec2-delete-vpc ec2-delete-vpc-endpoints ec2-delete-vpc-peering-connection ec2-delete-vpn-connection ec2-delete-vpn-connection-route ec2-delete-vpn-gateway ec2-deregister ec2-describe-account-attributes ec2-describe-addresses ec2-describe-availability-zones ec2-describe-bundle-tasks ec2-describe-classic-link-instances ec2-describe-conversion-tasks ec2-describe-customer-gateways ec2-describe-dhcp-options ec2-describe-export-tasks ec2-describe-group ec2-describe-image-attribute ec2-describe-images ec2-describe-instance-attribute ec2-describe-instance-status ec2-describe-instances ec2-describe-internet-gateways ec2-describe-keypairs ec2-describe-licenses ec2-describe-network-acls ec2-describe-network-interface-attribute ec2-describe-network-interfaces ec2-describe-placement-groups ec2-describe-prefix-lists ec2-describe-regions ec2-describe-reserved-instances ec2-describe-reserved-instances-listings ec2-describe-reserved-instances-modifications ec2-describe-reserved-instances-offerings ec2-describe-route-tables ec2-describe-snapshot-attribute ec2-describe-snapshots ec2-describe-spot-datafeed-subscription ec2-describe-spot-instance-requests ec2-describe-spot-price-history ec2-describe-subnets ec2-describe-tags ec2-describe-volume-attribute ec2-describe-volume-status ec2-describe-volumes ec2-describe-vpc-attribute ec2-describe-vpc-classic-link ec2-describe-vpc-endpoint-services ec2-describe-vpc-endpoints ec2-describe-vpc-peering-connections ec2-describe-vpcs ec2-describe-vpn-connections ec2-describe-vpn-gateways ec2-detach-classic-link-vpc ec2-detach-internet-gateway ec2-detach-network-interface ec2-detach-volume ec2-detach-vpn-gateway ec2-disable-vgw-route-propagation ec2-disable-vpc-classic-link ec2-disassociate-address ec2-disassociate-route-table ec2-enable-vgw-route-propagation ec2-enable-volume-io ec2-enable-vpc-classic-link ec2-fingerprint-key ec2-get-console-output ec2-get-password ec2-import-instance ec2-import-keypair ec2-import-volume ec2-migrate-image ec2-modify-image-attribute ec2-modify-instance-attribute ec2-modify-network-interface-attribute ec2-modify-reserved-instances ec2-modify-snapshot-attribute ec2-modify-subnet-attribute ec2-modify-volume-attribute ec2-modify-vpc-attribute ec2-modify-vpc-endpoint ec2-monitor-instances ec2-purchase-reserved-instances-offering ec2-reboot-instances ec2-register ec2-reject-vpc-peering-connection ec2-release-address ec2-replace-network-acl-association ec2-replace-network-acl-entry ec2-replace-route ec2-replace-route-table-association ec2-report-instance-status ec2-request-spot-instances ec2-reset-image-attribute ec2-reset-instance-attribute ec2-reset-network-interface-attribute ec2-reset-snapshot-attribute ec2-resume-import ec2-revoke ec2-run-instances ec2-start-instances ec2-stop-instances ec2-terminate-instances ec2-unassign-private-ip-addresses ec2-unmonitor-instances ec2-upload-disk-image ec2-version ec2actlic ec2addcgw ec2adddopt ec2addgrp ec2addigw ec2addixt ec2addkey ec2addnacl ec2addnae ec2addnic ec2addpcx ec2addpgrp ec2addrt ec2addrtb ec2addsds ec2addsnap ec2addsubnet ec2addtag ec2addvgw ec2addvol ec2addvpc ec2addvpn ec2allocaddr ec2apcx ec2apip ec2assocaddr ec2assocdopt ec2assocrtb ec2attachcl ec2attigw ec2attnic ec2attvgw ec2attvol ec2auth ec2bundle ec2caril ec2cbun ec2cct ec2cim ec2cpi ec2cpimg ec2cpsnap ec2crril ec2csir ec2cvcr ec2cve ec2cxt ec2daa ec2daddr ec2datt ec2daz ec2dbun ec2dcgw ec2dcli ec2dct ec2ddi ec2ddopt ec2deactlic ec2delcgw ec2deldopt ec2delgrp ec2deligw ec2delkey ec2delnacl ec2delnae ec2delnic ec2delpcx ec2delpgrp ec2delrt ec2delrtb ec2delsds ec2delsnap ec2delsubnet ec2deltag ec2delvgw ec2delvol ec2delvpc ec2delvpce ec2delvpn ec2dereg ec2detachcl ec2detigw ec2detnic ec2detvgw ec2detvol ec2dgrp ec2diatt ec2digw ec2dim ec2dimatt ec2din ec2dinatt ec2dins ec2disablecl ec2disaddr ec2disrtb ec2dkey ec2dlic ec2dnacl ec2dnic ec2dnicatt ec2dpcx ec2dpgrp ec2dpl ec2dre ec2dri ec2dril ec2drim ec2drio ec2drp ec2drtb ec2dsds ec2dsir ec2dsnap ec2dsnapatt ec2dsph ec2dsubnet ec2dtag ec2dva ec2dvcl ec2dvcr ec2dve ec2dves ec2dvgw ec2dvol ec2dvolatt ec2dvpc ec2dvpn ec2dvs ec2dxt ec2enablecl ec2erp ec2evio ec2fp ec2gcons ec2gpass ec2ii ec2iin ec2ikey ec2iv ec2ivol ec2kill ec2matt ec2miatt ec2mim ec2mimatt ec2min ec2minatt ec2mnicatt ec2mri ec2msnapatt ec2msubnetatt ec2mva ec2mve ec2mvolatt ec2prio ec2ratt ec2reboot ec2reg ec2reladdr ec2rep ec2repnaclassoc ec2repnae ec2reprt ec2reprtbassoc ec2revoke ec2riatt ec2rim ec2rimatt ec2rinatt ec2rnicatt ec2rpcx ec2rsi ec2rsnapatt ec2run ec2start ec2stop ec2tag ec2udi ec2umin ec2upip ec2ver
 ecasound(2.9.3):ecaconvert ecafixdc ecalength ecamonitor ecanormalize ecaplay ecasignalview ecasound libecasound-config libecasoundc-config
-eccodes(2.25.0):bufr_compare bufr_compare_dir bufr_copy bufr_count bufr_dump bufr_filter bufr_get bufr_index_build bufr_ls bufr_set codes_bufr_filter codes_count codes_info codes_parser codes_split_file grib2ppm grib_compare grib_copy grib_count grib_dump grib_filter grib_get grib_get_data grib_histogram grib_index_build grib_ls grib_merge grib_set grib_to_netcdf gts_compare gts_copy gts_count gts_dump gts_filter gts_get gts_ls metar_compare metar_copy metar_dump metar_filter metar_get metar_ls tigge_check
+eccodes(2.26.0):bufr_compare bufr_compare_dir bufr_copy bufr_count bufr_dump bufr_filter bufr_get bufr_index_build bufr_ls bufr_set codes_bufr_filter codes_count codes_info codes_parser codes_split_file grib2ppm grib_compare grib_copy grib_count grib_dump grib_filter grib_get grib_get_data grib_histogram grib_index_build grib_ls grib_merge grib_set grib_to_netcdf gts_compare gts_copy gts_count gts_dump gts_filter gts_get gts_ls metar_compare metar_copy metar_dump metar_filter metar_get metar_ls tigge_check
 ecflow-ui(5.8.4):ecflow_client ecflow_ui ecflow_ui.x
 echoprint-codegen(4.12_2):echoprint-codegen
 ecl(21.2.1_2):ecl ecl-config
@@ -1510,7 +1511,7 @@ flarectl(0.39.0):flarectl
 flash(2.7.2):flash
 flashrom(1.2):flashrom
 flatbuffers(2.0.6):flatc
-flatcc(0.6.0):flatcc
+flatcc(0.6.1):flatcc
 flawfinder(2.0.19_1):flawfinder
 fleet-cli(0.3.9):fleet
 fleetctl(1.0.0):fleetctl
@@ -1705,7 +1706,7 @@ geoip(1.6.12):geoiplookup geoiplookup6
 geoipupdate(4.9.0):geoipupdate
 geomview(1.9.5_2):anytooff anytoucd bdy bez2mesh clip geomview math2oogl offconsol oogl2rib oogl2vrml oogl2vrml2 polymerge remotegv togeomview ucdtooff vrml2oogl
 geos(3.10.2):geos-config geosop
-geoserver(2.20.4):geoserver
+geoserver(2.21.0):geoserver
 geph2(0.22.5):geph-client
 geph4(4.4.20):geph4-client
 gerbil-scheme(0.17):gxc gxi gxi-script gxpkg gxprof gxtags
@@ -1941,6 +1942,7 @@ goffice(0.10.52):
 gofish(0.15.1):gofish
 gofumpt(0.3.1):gofumpt
 gojq(0.12.7):gojq
+gokart(0.4.0):gokart
 golang-migrate(4.15.2):migrate
 golangci-lint(1.46.2):golangci-lint
 gollum(0.6.0):gollum
@@ -2180,7 +2182,7 @@ hexcurse(1.60.0):hexcurse
 hexedit(1.6):hexedit
 hexgui(0.9.3_1):hexgui
 hexo(6.2.0):hexo
-hexyl(0.10.0):hexyl
+hexyl(0.10.0_1):hexyl
 hey(0.1.4):hey
 hfstospell(0.5.3):hfst-ospell hfst-ospell-office
 hfsutils(3.2.6):hvol
@@ -2321,7 +2323,7 @@ imgproxy(3.5.1):imgproxy
 imgur-screenshot(2.0.0):imgur-screenshot imgur-screenshot.sh
 imlib2(1.9.0):imlib2_bumpmap imlib2_colorspace imlib2_conv imlib2_grab imlib2_load imlib2_poly imlib2_show imlib2_test imlib2_view
 immortal(0.24.4):immortal immortalctl immortaldir
-immudb(1.2.4):immuadmin immuclient immudb
+immudb(1.3.0):immuadmin immuclient immudb
 imposm3(0.11.1):imposm
 inadyn(2.9.1):inadyn
 include-what-you-use(0.17):fix_includes.py include-what-you-use iwyu_tool.py
@@ -2442,7 +2444,7 @@ jerryscript(2.4.0):jerry
 jetty(9.4.45.v20220203):jetty
 jetty-runner(9.4.46.v20220331):jetty-runner
 jflex(1.8.2_1):jflex
-jfrog-cli(2.16.4):jf jfrog
+jfrog-cli(2.17.0):jf jfrog
 jhead(3.06.0.1):jhead
 jhiccup(2.0.10):jHiccup jHiccupLogProcessor jHiccupPlotter
 jhipster(7.8.1):jhipster
@@ -2535,7 +2537,7 @@ kaitai-struct-compiler(0.9):kaitai-struct-compiler
 kakoune(2021.11.08):kak
 kalker(1.1.0):kalker
 kallisto(0.48.0):kallisto
-kamel(1.9.1):kamel
+kamel(1.9.2):kamel
 kanif(1.2.2):kaget kanif kaput kash
 kapacitor(1.6.1):kapacitor kapacitord
 karchive(5.94.0):
@@ -2771,7 +2773,7 @@ libcroco(0.6.13_1):croco-0.6-config csslint-0.6
 libcsv(3.0.3):
 libcue(2.2.1):
 libcuefile(r475):
-libcython(0.29.29):
+libcython(0.29.30):
 libdaemon(0.14):
 libdap(3.20.9):dap-config dap-config-pkgconfig getdap getdap4
 libdazzle(3.44.0):dazzle-list-counters
@@ -3061,7 +3063,7 @@ libtins(4.4):
 libtomcrypt(1.18.2):
 libtommath(1.2.0_3):
 libtool(2.4.7):glibtool glibtoolize
-libtorch(1.11.0):
+libtorch(1.11.0_1):
 libtorrent-rakshasa(0.13.8):
 libtorrent-rasterbar(2.0.6):
 libtpms(0.9.4):
@@ -3474,7 +3476,7 @@ mktorrent(1.1_1):mktorrent
 mkvalidator(0.6.0):mkvalidator
 mkvdts2ac3(1.6.0_3):mkvdts2ac3
 mkvtomp4(2.0_2):mkvtomp4 mkvtomp4.py
-mkvtoolnix(67.0.0):mkvextract mkvinfo mkvmerge mkvpropedit
+mkvtoolnix(68.0.0):mkvextract mkvinfo mkvmerge mkvpropedit
 mlkit(4.6.1):kittester mlkit mlkit-mllex mlkit-mlyacc rp2ps
 mlogger(1.2.0):mlogger
 mlpack(3.4.2_5):mlpack_adaboost mlpack_approx_kfn mlpack_bayesian_linear_regression mlpack_cf mlpack_dbscan mlpack_decision_stump mlpack_decision_tree mlpack_det mlpack_emst mlpack_fastmks mlpack_gmm_generate mlpack_gmm_probability mlpack_gmm_train mlpack_hmm_generate mlpack_hmm_loglik mlpack_hmm_train mlpack_hmm_viterbi mlpack_hoeffding_tree mlpack_image_converter mlpack_kde mlpack_kernel_pca mlpack_kfn mlpack_kmeans mlpack_knn mlpack_krann mlpack_lars mlpack_linear_regression mlpack_linear_svm mlpack_lmnn mlpack_local_coordinate_coding mlpack_logistic_regression mlpack_lsh mlpack_mean_shift mlpack_nbc mlpack_nca mlpack_nmf mlpack_pca mlpack_perceptron mlpack_preprocess_binarize mlpack_preprocess_describe mlpack_preprocess_imputer mlpack_preprocess_one_hot_encoding mlpack_preprocess_scale mlpack_preprocess_split mlpack_radical mlpack_random_forest mlpack_range_search mlpack_softmax_regression mlpack_sparse_coding
@@ -3513,7 +3515,7 @@ mongo-cxx-driver(3.6.7):
 mongo-orchestration(0.7.0_1):mongo-orchestration
 mongocli(1.25.0):mongocli
 mongodb-atlas-cli(1.1.0):atlas
-mongoose(7.6):mongoose
+mongoose(7.7):mongoose
 mongosh(1.4.2):mongosh
 mongrel2(1.13.0):m2sh mongrel2 procer
 mongroup(0.4.1):mongroup
@@ -3646,7 +3648,7 @@ narwhal(0.3.2):js json narwhal sea tusk
 nasm(2.15.05):ldrdf nasm ndisasm rdf2bin rdf2com rdf2ihx rdf2ith rdf2srec rdfdump rdflib rdx
 natalie(0.7.0_1):natalie
 nativefier(47.1.3):nativefier
-nats-server(2.8.2):nats-server
+nats-server(2.8.3):nats-server
 nats-streaming-server(0.24.6):nats-streaming-server
 naturaldocs(2.2):naturaldocs
 nauty(2.7r3):NRswitchg addedgeg amtog assembleg biplabg catg complg converseg copyg countg cubhamg deledgeg delptg directg dreadnaut dretodot dretog edgetransg genbg genbgL geng gengL genquarticg genrang genspecialg gentourng gentreeg hamheuristic labelg linegraphg listg multig newedgeg pickg planarg ranlabg shortg showg subdivideg twohamg underlyingg vcolg watercluster2
@@ -3711,7 +3713,7 @@ never(2.1.8_1):never
 newlisp(10.7.5):newlisp newlisp-10.7.5 newlispdoc
 newman(5.3.2):newman
 newrelic-cli(0.49.0):newrelic
-newrelic-infra-agent(1.24.3):newrelic-infra newrelic-infra-ctl newrelic-infra-service
+newrelic-infra-agent(1.25.0):newrelic-infra newrelic-infra-ctl newrelic-infra-service
 newsboat(2.27):newsboat podboat
 newt(0.52.21_2):whiptail
 nexus(3.38.1-01):nexus
@@ -3793,7 +3795,7 @@ nuget(6.1.0):nuget
 num-utils(0.5):average bound interval normalize numgrep numprocess numsum random range round
 numcpp(2.7.0):
 numdiff(5.9.0):ndselect numdiff
-numpy(1.22.3_1):f2py f2py3 f2py3.10 f2py3.9
+numpy(1.22.4):f2py f2py3 f2py3.10 f2py3.9
 numpy@1.16(1.16.6_1):f2py2 f2py2.7
 nushell(0.61.0):nu nu_plugin_example nu_plugin_gstat nu_plugin_inc nu_plugin_query
 nut(2.7.4_2):al175 apcsmart apcsmart-old apcupsd-ups bcmxcp bcmxcp_usb belkin belkinunv bestfcom bestfortress bestuferrups bestups blazer_ser blazer_usb clone clone-outlet dummy-ups etapro everups gamatronic genericups isbmex ivtscd liebert liebert-esp2 macosx-ups masterguard metasys mge-shut mge-utalk microdowell nutdrv_atcl_usb nutdrv_qx oldmge-shut oneac optiups powercom powerpanel rhino richcomm_usb riello_ser riello_usb safenet skel solis tripplite tripplite_usb tripplitesu upsc upscmd upscode2 upslog upsrw upssched-cmd usbhid-ups victronups
@@ -3839,12 +3841,12 @@ ode(0.16.2):ode-config
 odin(2022-05):odin
 odo(0.2.2):odo
 odo-dev(2.5.1):odo
-odpi(4.3.0):
+odpi(4.4.0):
 odt2txt(0.5):odt2txt
 offlineimap(8.0.0_1):offlineimap
 oggz(1.1.1):oggz oggz-chop oggz-codecs oggz-comment oggz-diff oggz-dump oggz-info oggz-known-codecs oggz-merge oggz-rip oggz-scan oggz-sort oggz-validate
 ogmtools(1.5):ogmcat ogmdemux ogminfo ogmmerge ogmsplit
-oh-my-posh(7.88.1):oh-my-posh
+oh-my-posh(7.90.2):oh-my-posh
 oha(0.5.1):oha
 ohcount(4.0.0):ohcount
 oil(0.10.1):oil oil.ovm osh
@@ -3943,6 +3945,7 @@ openssl@1.1(1.1.1o):c_rehash openssl
 openssl@3(3.0.3):c_rehash openssl
 openstackclient(5.8.0_1):openstack
 opensubdiv(3.4.4):far_perf far_regression hbr_baseline hbr_regression osd_regression stringify
+opentelemetry-cpp(1.4.0):
 opentracing-cpp(1.6.0):
 opentsdb(2.4.0):start-tsdb.sh tsdb
 openttd(12.2):openttd
@@ -3993,7 +3996,7 @@ otf2(3.0):otf2-config otf2-estimator otf2-marker otf2-print otf2-snapshots
 otf2bdf(3.1):otf2bdf
 ots(0.2.0):ots
 ott(0.32):ott
-overdrive(2.3.0):overdrive
+overdrive(2.3.1):overdrive
 overmind(2.2.2):overmind
 owamp(3.4-10):owampd owfetch owping owstats owtvec owup powstream
 owfs(3.2p4):owdir owexist owexternal owftpd owget owhttpd owmon owpresent owread owserver owtap owusbprobe owwrite
@@ -4114,8 +4117,8 @@ perl-build(1.33):perl-build plenv-install plenv-uninstall
 perl@5.18(5.18.4_1):a2p c2ph config_data corelist cpan cpan2dist cpanp cpanp-run-perl enc2xs find2perl h2ph h2xs instmodsh json_pp libnetcfg perl5.18.4 perlbug perldoc perlivp piconv pl2pm pod2html pod2latex pod2man pod2text pod2usage podchecker podselect prove psed ptar ptardiff ptargrep shasum splain xsubpp zipdetails
 perltidy(20220217):perltidy
 peru(1.3.0_1):peru
-petsc(3.17.0):
-petsc-complex(3.17.0):
+petsc(3.17.1):
+petsc-complex(3.17.1):
 pev(0.81_1):ofs2rva pedis pehash peldd pepack peres pescan pesec pestr readpe rva2ofs
 pex(1.20140409_3):pex
 pfetch(0.6.0):pfetch
@@ -4148,7 +4151,7 @@ phpbrew(1.27.0):phpbrew
 phplint(4.2.0-20200308):phpl
 phpmd(2.12.0):phpmd
 phpmyadmin(5.2.0):
-phpstan(1.6.9):phpstan
+phpstan(1.7.0):phpstan
 phpunit(9.5.20):phpunit
 physfs(3.0.2):test_physfs
 pianobar(2020.11.28_2):pianobar
@@ -4773,7 +4776,7 @@ sdlpop(1.22):prince
 sdns(1.2.1):sdns
 seal(4.0.0):
 search-that-hash(0.2.8_2):search-that-hash sth
-seaweedfs(3.04):weed
+seaweedfs(3.05):weed
 sec(2.9.1):sec
 seexpr(3.0.1):asciiCalc2 asciiGraph2 imageSynth2 imageSynthPaint3d2
 selecta(0.0.7):selecta
@@ -5129,7 +5132,7 @@ swaks(20201014.0):swaks
 swfmill(0.3.6):swfmill
 swftools(0.9.2_1):as3compile font2swf png2swf swfbbox swfc swfcombine swfdump swfextract swfrender swfstrings wav2swf
 swi-prolog(8.4.2):swipl swipl-ld
-swift(5.6):sil-func-extractor sil-llvm-gen sil-nm sil-opt sourcekit-lsp sourcekitd-repl sourcekitd-test swift swift-api-checker.py swift-api-digester swift-api-dump.py swift-api-extract swift-ast-script swift-build swift-build-sdk-interfaces swift-build-tool swift-def-to-yaml-converter swift-demangle swift-dependency-tool swift-driver swift-frontend swift-help swift-ide-test swift-indent swift-llvm-opt swift-package swift-package-collection swift-refactor swift-reflection-dump swift-run swift-serialize-diagnostics swift-stdlib-tool swift-symbolgraph-extract swift-test swiftc
+swift(5.6.1):sil-func-extractor sil-llvm-gen sil-nm sil-opt sourcekit-lsp sourcekitd-repl sourcekitd-test swift swift-api-checker.py swift-api-digester swift-api-dump.py swift-api-extract swift-ast-script swift-build swift-build-sdk-interfaces swift-build-tool swift-def-to-yaml-converter swift-demangle swift-dependency-tool swift-driver swift-frontend swift-help swift-ide-test swift-indent swift-llvm-opt swift-package swift-package-collection swift-refactor swift-reflection-dump swift-run swift-serialize-diagnostics swift-stdlib-tool swift-symbolgraph-extract swift-test swiftc
 swift-format(0.50500.0):swift-format
 swift-protobuf(1.19.0):protoc-gen-swift
 swift-sh(2.3.1):swift-sh swift-sh-edit
@@ -5213,7 +5216,7 @@ tee-clc(14.135.0):tf
 teem(1.11.0):gprobe ilk miter mrender nrrdSanity overrgb puller tend unu vprobe
 teensy_loader_cli(2.2):teensy_loader_cli
 tektoncd-cli(0.23.1):tkn
-teku(22.5.0):teku
+teku(22.5.1):teku
 teleconsole(0.4.0):teleconsole
 telegraf(1.22.4):telegraf
 telegram-cli(1.3.1_4):telegram
@@ -5258,7 +5261,7 @@ terrascan(1.15.1):terrascan
 tesseract(5.1.0):tesseract
 tesseract-lang(4.1.0):
 testdisk(7.1):fidentify photorec testdisk
-testkube(1.1.12):kubectl-testkube
+testkube(1.2.3):kubectl-testkube
 testssl(3.0.7):testssl.sh
 texapp(0.6.11):texapp
 texi2html(5.0):texi2html
@@ -5358,7 +5361,7 @@ toot(0.28.0_1):toot
 topgit(0.19.13):tg
 topgrade(9.0.0):topgrade
 tor(0.4.7.7):tor tor-gencert tor-print-ed-signing-cert tor-resolve torify
-torchvision(0.12.0_1):
+torchvision(0.12.0_2):
 torsocks(2.3.0):torsocks
 tox(3.25.0):tox tox-quickstart
 tpl(1.6.1):
@@ -5671,7 +5674,7 @@ webhook(2.8.0):webhook
 webify(1.5.0):webify
 webkit2png(0.7):webkit2png
 webp(1.2.2):cwebp dwebp gif2webp img2webp webpinfo webpmux
-webp-pixbuf-loader(0.0.4):
+webp-pixbuf-loader(0.0.5):
 webpack(5.72.1):webpack webpack-cli
 websocat(1.10.1):websocat
 websocketd(0.4.1):websocketd
@@ -5683,7 +5686,7 @@ wego(2.1):wego
 weighttp(0.4):weighttp
 wellington(1.0.5):wt
 wemux(3.2.0):wemux
-werf(1.2.104):werf
+werf(1.2.105):werf
 west(0.13.1):west
 wgcf(2.2.14):wgcf
 wget(1.21.3):wget
@@ -5789,7 +5792,7 @@ xdpyinfo(1.3.3):xdpyinfo
 xerces-c(3.2.3):CreateDOMDocument DOMCount DOMPrint EnumVal PParse PSVIWriter Redirect SAX2Count SAX2Print SAXCount SAXPrint SCMPrint SEnumVal StdInParse XInclude
 xfig(3.2.8b_2):xfig
 xgboost(1.6.1):xgboost
-xh(0.16.0):xh xhs
+xh(0.16.1):xh xhs
 xhyve(0.2.0):xhyve
 xidel(0.9.8):xidel
 xinput(1.6.3):xinput
@@ -5819,6 +5822,7 @@ xorgrgb(1.0.6):showrgb
 xorriso(1.5.4):osirrox xorrecord xorriso xorriso-tcltk xorrisofs
 xpa(2.1.20):xpaaccess xpaget xpainfo xpamb xpans xpaset
 xpdf(4.04):pdfdetach pdffonts pdfimages pdfinfo pdftohtml pdftopng pdftoppm pdftops pdftotext xpdf
+xpipe(1.0):xpipe
 xplanet(1.3.1_4):xplanet
 xplr(0.18.0):xplr
 xqilla(2.3.4):xqilla
@@ -5842,7 +5846,7 @@ xxhash(0.8.1):xxh128sum xxh32sum xxh64sum xxhsum
 xz(5.2.5):lzcat lzcmp lzdiff lzegrep lzfgrep lzgrep lzless lzma lzmadec lzmainfo lzmore unlzma unxz xz xzcat xzcmp xzdec xzdiff xzegrep xzfgrep xzgrep xzless xzmore
 yacas(1.9.1):yacas
 yadm(3.2.1):yadm
-yaegi(0.11.3):yaegi
+yaegi(0.12.0):yaegi
 yaf(2.12.2):airdaemon filedaemon getFlowKeyHash yaf yafMeta2Pcap yafcollect yafscii
 yafc(1.3.7_4):yafc
 yajl(2.1.0):json_reformat json_verify
