@@ -54,7 +54,7 @@ module Homebrew
     def update!(update_existing: false, install_missing: false, max_downloads: nil)
       downloads = 0
       disabled_formulae = []
-      Formula.each do |f|
+      Formula.all.each do |f|
         break if max_downloads.present? && downloads > max_downloads.to_i
         next if f.tap?
 
