@@ -28,7 +28,9 @@ homebrew_command_not_found_handle() {
         return 127
     fi
 
-    local txt="$(brew which-formula --explain $cmd 2>/dev/null)"
+    if [ "$cmd" != "-h" ] && [ "$cmd" != "--help" ] && [ "$cmd" != "--usage" ] && [ "$cmd" != "-?" ]; then
+        local txt="$(brew which-formula --explain $cmd 2>/dev/null)"
+    fi
 
     if [ -z "$txt" ]; then
         [ -n "$BASH_VERSION" ] && \
