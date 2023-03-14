@@ -9,7 +9,7 @@ module Homebrew
     module_function
 
     def matches(cmd)
-      File.readlines(LIST_PATH).map(&:chomp).select { |line| line.include?(cmd) }
+      File.read(LIST_PATH).lines.select { |line| line.include?(cmd) }.map(&:chomp)
     end
 
     # Test if we have to reject the given formula, i.e. not suggest it.
