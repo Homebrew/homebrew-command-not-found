@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 require "formula"
+require "formulary"
+require "tap"
 
 module Homebrew
   # ExecutablesDB represents a DB associating formulae to the binaries they
@@ -54,40 +56,45 @@ module Homebrew
     def update!(update_existing: false, install_missing: false, max_downloads: nil)
       downloads = 0
       disabled_formulae = []
-      Formula.all.each do |f|
-        break if max_downloads.present? && downloads > max_downloads.to_i
-        next if f.tap?
 
-        name = f.full_name
+      Tap.each do |tap|
+        tap.formula_files_by_name.each do |name, path|
+          f = Formulary.load_formula_from_path(name, path)
 
-        if f.disabled?
-          disabled_formulae << name
-          next
-        end
+          break if max_downloads.present? && downloads > max_downloads.to_i
+          next if f.tap?
 
-        update_formula = missing_formula?(f) || (update_existing && outdated_formula?(f))
+          name = f.full_name
 
-        # Install unbottled formulae if they should be added/updated
-        if !f.bottled? && install_missing && update_formula
-          downloads += 1
-          ohai "Installing #{f}"
-          system HOMEBREW_BREW_FILE, "install", "--formula", f.to_s
-        end
+          if f.disabled?
+            disabled_formulae << name
+            next
+          end
 
-        # We don't need to worry about updating outdated versions unless update_existing is true
-        if f.latest_version_installed?
-          update_installed_formula f
-        elsif f.bottled? && update_formula
-          downloads += 1
-          update_bottled_formula f
-        end
+          update_formula = missing_formula?(f) || (update_existing && outdated_formula?(f))
 
-        # renamed formulae
-        mv f.oldname, name if !f.oldname.nil? && @exes[f.oldname]
+          # Install unbottled formulae if they should be added/updated
+          if !f.bottled? && install_missing && update_formula
+            downloads += 1
+            ohai "Installing #{f}"
+            system HOMEBREW_BREW_FILE, "install", "--formula", f.to_s
+          end
 
-        # aliased formulae
-        f.aliases.each do |a|
-          mv a, name if @exes[a]
+          # We don't need to worry about updating outdated versions unless update_existing is true
+          if f.latest_version_installed?
+            update_installed_formula f
+          elsif f.bottled? && update_formula
+            downloads += 1
+            update_bottled_formula f
+          end
+
+          # renamed formulae
+          mv f.oldname, name if !f.oldname.nil? && @exes[f.oldname]
+
+          # aliased formulae
+          f.aliases.each do |a|
+            mv a, name if @exes[a]
+          end
         end
       end
 
