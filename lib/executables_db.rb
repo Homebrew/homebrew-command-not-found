@@ -53,10 +53,12 @@ module Homebrew
 
     # update the DB with the installed formulae
     # @see #save!
-    def update!(update_existing: false, install_missing: false, max_downloads: nil)
+    def update!(update_existing: false, install_missing: false, max_downloads: nil, eval_all: false)
       downloads = 0
       disabled_formulae = []
 
+      # Evaluate only the core tap by default.
+      taps = eval_all ? Tap.each.to_a : [CoreTap.instance]
       Tap.each do |tap|
         tap.formula_files_by_name.each do |name, path|
           f = Formulary.load_formula_from_path(name, path)
