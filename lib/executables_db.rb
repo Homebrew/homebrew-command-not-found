@@ -59,7 +59,7 @@ module Homebrew
 
       # Evaluate only the core tap by default.
       taps = eval_all ? Tap.each.to_a : [CoreTap.instance]
-      Tap.each do |tap|
+      taps.each do |tap|
         tap.formula_files_by_name.each do |name, path|
           f = Formulary.load_formula_from_path(name, path)
 

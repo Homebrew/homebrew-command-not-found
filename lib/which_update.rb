@@ -48,7 +48,8 @@ module Homebrew
                          max_downloads: nil, eval_all: false)
       source ||= default_source
       db = ExecutablesDB.new source
-      db.update!(update_existing: update_existing, install_missing: install_missing, max_downloads: max_downloads, eval_all: eval_all)
+      db.update!(update_existing: update_existing, install_missing: install_missing,
+                 max_downloads: max_downloads, eval_all: eval_all)
       db.save!
       return if !commit || !db.changed?
 
