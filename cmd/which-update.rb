@@ -20,6 +20,8 @@ module Homebrew
              description: "Update database entries with outdated formula versions."
       switch "--install-missing",
              description: "Install and update formulae that are missing from the database and don't have bottles."
+      switch "--eval-all",
+             description: "Evaluate all installed taps, rather than just the core tap."
       flag   "--max-downloads=",
              description: "Specify a maximum number of formulae to download and update."
       conflicts "--stats", "--commit"
@@ -39,7 +41,8 @@ module Homebrew
       Homebrew::WhichUpdate.update_and_save! source: args.named.first, commit: args.commit?,
                                              update_existing: args.update_existing?,
                                              install_missing: args.install_missing?,
-                                             max_downloads: args.max_downloads
+                                             max_downloads: args.max_downloads,
+                                             eval_all: args.eval_all?
     end
   end
 end
