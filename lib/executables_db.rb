@@ -61,7 +61,7 @@ module Homebrew
       taps = eval_all ? Tap.each.to_a : [CoreTap.instance]
       taps.each do |tap|
         tap.formula_files_by_name.each do |name, path|
-          f = Formulary.load_formula_from_path(name, path)
+          f = Formulary.load_formula_from_path(name, path, flags: [], ignore_errors: false)
 
           break if max_downloads.present? && downloads > max_downloads.to_i
           next if f.tap?
