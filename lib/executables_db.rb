@@ -64,7 +64,6 @@ module Homebrew
           f = Formulary.load_formula_from_path(name, path, flags: [], ignore_errors: false)
 
           break if max_downloads.present? && downloads > max_downloads.to_i
-          next if f.tap?
 
           name = f.full_name
 
