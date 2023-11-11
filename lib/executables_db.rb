@@ -60,11 +60,10 @@ module Homebrew
       # Evaluate only the core tap by default.
       taps = eval_all ? Tap.each.to_a : [CoreTap.instance]
       taps.each do |tap|
-        tap.formula_files_by_name.each do |name, path|
-          f = Formulary.load_formula_from_path(name, path)
+        tap.formula_files_by_name.each_key do |name|
+          f = Formulary.factory("#{tap}/#{name}")
 
           break if max_downloads.present? && downloads > max_downloads.to_i
-          next if f.tap?
 
           name = f.full_name
 
@@ -91,7 +90,9 @@ module Homebrew
           end
 
           # renamed formulae
-          mv f.oldname, name if !f.oldname.nil? && @exes[f.oldname]
+          f.oldnames.each do |oldname|
+            mv oldname, name if @exes[oldname]
+          end
 
           # aliased formulae
           f.aliases.each do |a|
