@@ -2,7 +2,7 @@ a2ps(4.15.5):a2ps a2ps-lpr-wrapper card composeglyphs fixps lp2 ogonkify pdiff
 a52dec(0.8.0):a52dec extract_a52
 aalib(1.4rc5_2):aafire aainfo aalib-config aasavefont aatest
 aamath(0.3):aamath
-aarch64-elf-binutils(2.41):aarch64-elf-addr2line aarch64-elf-c++filt aarch64-elf-elfedit aarch64-elf-gprof aarch64-elf-size aarch64-elf-strings
+aarch64-elf-binutils(2.41_1):aarch64-elf-addr2line aarch64-elf-c++filt aarch64-elf-elfedit aarch64-elf-gprof aarch64-elf-size aarch64-elf-strings
 aarch64-elf-gcc(13.2.0):aarch64-elf-c++ aarch64-elf-cpp aarch64-elf-gcc aarch64-elf-gcc-ar aarch64-elf-gcc-nm aarch64-elf-gcc-ranlib aarch64-elf-gcov aarch64-elf-gcov-dump aarch64-elf-gcov-tool aarch64-elf-lto-dump
 aarch64-elf-gdb(14.1):aarch64-elf-gdb aarch64-elf-gdb-add-index
 aardvark_shell_utils(1.0):filebase fileext realpath
@@ -100,7 +100,7 @@ alpscore(2.3.1):
 alure(1.2_1):alurecdplay alureplay alurestream
 amass(4.2.0):amass
 amazon-ecs-cli(1.21.0):ecs-cli
-amber(1.4.1):amber
+amber(1.4.1_1):amber
 amdatu-bootstrap(9_2):amdatu-bootstrap
 amfora(1.9.2):amfora
 ammonite-repl(2.5.11):amm
@@ -198,8 +198,8 @@ aria2(1.37.0):aria2c
 aribb24(1.0.4):
 arjun(2.2.2):arjun
 arkade(0.10.17):ark arkade
-arm-linux-gnueabihf-binutils(2.41):arm-linux-gnueabihf-addr2line arm-linux-gnueabihf-c++filt arm-linux-gnueabihf-dwp arm-linux-gnueabihf-elfedit arm-linux-gnueabihf-gprof arm-linux-gnueabihf-size arm-linux-gnueabihf-strings
-arm-none-eabi-binutils(2.41):arm-none-eabi-addr2line arm-none-eabi-c++filt arm-none-eabi-elfedit arm-none-eabi-gprof arm-none-eabi-size arm-none-eabi-strings
+arm-linux-gnueabihf-binutils(2.41_1):arm-linux-gnueabihf-addr2line arm-linux-gnueabihf-c++filt arm-linux-gnueabihf-dwp arm-linux-gnueabihf-elfedit arm-linux-gnueabihf-gprof arm-linux-gnueabihf-size arm-linux-gnueabihf-strings
+arm-none-eabi-binutils(2.41_1):arm-none-eabi-addr2line arm-none-eabi-c++filt arm-none-eabi-elfedit arm-none-eabi-gprof arm-none-eabi-size arm-none-eabi-strings
 arm-none-eabi-gcc(13.2.0):arm-none-eabi-c++ arm-none-eabi-cpp arm-none-eabi-gcc arm-none-eabi-gcc-ar arm-none-eabi-gcc-nm arm-none-eabi-gcc-ranlib arm-none-eabi-gcov arm-none-eabi-gcov-dump arm-none-eabi-gcov-tool arm-none-eabi-lto-dump
 arm-none-eabi-gdb(14.1):arm-none-eabi-gdb arm-none-eabi-gdb-add-index
 armadillo(12.6.6):
@@ -261,7 +261,7 @@ atomicparsley(20221229.172126.d813aa6):AtomicParsley
 atomist-cli(1.8.0_1):@atomist atomist
 atool(0.39.0):acat adiff als apack arepack atool aunpack
 ats2-postiats(0.4.2_1):myatscc patscc patsopt
-atuin(17.0.1):atuin
+atuin(17.1.0):atuin
 aubio(0.4.9_3):aubio aubiocut aubiomfcc aubionotes aubioonset aubiopitch aubioquiet aubiotrack
 audacious(4.3.1):audacious
 audiofile(0.3.6_1):sfconvert sfinfo
@@ -318,7 +318,7 @@ aws-shell(0.2.2_4):aws-shell aws-shell-mkindex
 aws-sso-cli(1.14.2):aws-sso
 aws-sso-util(4.32.0_3):aws-sso-util
 aws-vault(7.2.0):aws-vault
-aws2-wrap(1.3.1):aws2-wrap
+aws2-wrap(1.4.0):aws2-wrap
 awscli(2.15.0):aws aws_completer
 awscli-local(0.21.1):awslocal awslocal.bat
 awscli@1(1.31.10):aws aws_completer
@@ -445,7 +445,7 @@ bind(9.18.20):arpaname ddns-confgen delv dig dnssec-cds dnssec-dsfromkey dnssec-
 bindgen(0.69.1):bindgen
 bingrep(0.11.0):bingrep
 binkd(1.0.4):
-binutils(2.41):addr2line ar c++filt coffdump dlltool dllwrap elfedit gaddr2line gar gc++filt gcoffdump gdlltool gdllwrap gelfedit gnm gobjcopy gobjdump granlib greadelf gsize gsrconv gstrings gstrip gsysdump gwindmc gwindres nm objcopy objdump ranlib readelf size srconv strings strip sysdump windmc windres
+binutils(2.41_1):addr2line ar c++filt coffdump dlltool dllwrap elfedit gaddr2line gar gc++filt gcoffdump gdlltool gdllwrap gelfedit gnm gobjcopy gobjdump granlib greadelf gsize gsrconv gstrings gstrip gsysdump gwindmc gwindres nm objcopy objdump ranlib readelf size srconv strings strip sysdump windmc windres
 binwalk(2.3.4):binwalk
 bioawk(1.0):bioawk
 biodiff(1.1.0):biodiff git-biodiff
@@ -645,6 +645,7 @@ cargo-make(0.37.4):cargo-make makers
 cargo-nextest(0.9.64):cargo-nextest
 cargo-outdated(0.14.0):cargo-outdated
 cargo-release(0.25.0):cargo-release
+cargo-sweep(0.7.0):cargo-sweep
 cargo-udeps(0.1.44):cargo-udeps
 cargo-watch(8.4.1):cargo-watch
 cargo-zigbuild(0.18.1):cargo-zigbuild
@@ -693,7 +694,7 @@ cdebug(0.0.14):cdebug
 cdecl(2.5):c++decl cdecl
 cdi(2.3.0):cdi
 cdk(5.0-20230201):cdk5-config
-cdk8s(2.198.6):cdk8s
+cdk8s(2.198.7):cdk8s
 cdktf(0.19.2):cdktf
 cdlabelgen(4.3.0):cdlabelgen
 cdo(2.3.0):cdo
@@ -782,6 +783,7 @@ chicken(5.3.0_1):chicken chicken-do chicken-install chicken-profile chicken-stat
 chinadns-c(1.3.2):chinadns
 chipmunk(7.0.3):
 chisel(2.0.1):
+chisel-tunnel(1.9.1):chisel
 chkrootkit(0.58):check_wtmpx chkdirs chklastlog chkproc chkrootkit chkutmp chkwtmp ifpromisc strings-static
 chmlib(0.40):chm_http enum_chmLib enumdir_chmLib extract_chmLib test_chmLib
 chocolate-doom(3.0.1):chocolate-doom chocolate-doom-setup chocolate-heretic chocolate-heretic-setup chocolate-hexen chocolate-hexen-setup chocolate-server chocolate-strife chocolate-strife-setup
@@ -926,7 +928,7 @@ coin3d(4.0.2):coin-config
 cointop(1.6.10):cointop
 coinutils(2.11.10):
 colfer(1.8.1):colf
-colima(0.6.6):colima
+colima(0.6.7):colima
 collada-dom(2.5.0_7):
 collectd(5.12.0_7):collectd collectd-nagios collectd-tg collectdctl collectdmon
 colmap(3.8_1):colmap
@@ -1052,9 +1054,9 @@ crunchy-cli(3.1.1):crunchy-cli
 cryptol(3.0.0):check-exercises cryptol cryptol-html
 cryptominisat(5.11.15_1):cryptominisat5 cryptominisat5_simple
 cryptopp(8.9.0):
-crystal(1.10.1):crystal shards
-crystal-icr(0.9.0_2):icr
-crystalline(0.11.0):crystalline
+crystal(1.10.1_1):crystal shards
+crystal-icr(0.9.0_3):icr
+crystalline(0.11.0_1):crystalline
 crytic-compile(0.3.5_1):crytic-compile
 cscope(15.9):cscope ocs
 csfml(2.5.2_1):
@@ -1242,6 +1244,7 @@ digitemp(3.7.2):digitemp_DS2490 digitemp_DS9097 digitemp_DS9097U
 dirac(1.0.2):BMPtoRGB RGBtoBMP RGBtoUYVY RGBtoYUV411 RGBtoYUV420 RGBtoYUV422 RGBtoYUV444 UYVYtoRGB UYVYtoYUV422 YUV411toRGB YUV420Down2x2 YUV420ItoYUV422I YUV420pt75filter YUV420toRGB YUV420toYUV422 YUV422ItoYUV420I YUV422toRGB YUV422toUYVY YUV422toYUV420 YUV444toRGB create_dirac_testfile.pl dirac_decoder dirac_encoder dirac_instrumentation
 direnv(2.33.0):direnv
 direvent(5.3):direvent
+direwolf(1.7):aclients appserver atest decode_aprs direwolf dwespeak.sh gen_packets kissutil ll2utm log2gpx telem-balloon.pl telem-bits.pl telem-data.pl telem-data91.pl telem-eqns.pl telem-parm.pl telem-seq.sh telem-unit.pl telem-volts.py text2tt tnctest tt2text ttcalc utm2ll
 dirt(1.1_1):dirt
 discount(2.2.7d):makepage markdown mkd2html theme
 diskonaut(0.11.0):diskonaut
@@ -1511,21 +1514,21 @@ epstool(3.09):epstool
 epubcheck(5.1.0):epubcheck
 eralchemy(1.2.10_7):eralchemy
 erdtree(3.1.2):erd
-erg(0.6.26):erg
+erg(0.6.27):erg
 erigon(2.55.1):capcli caplin caplin-regression devnet downloader erigon evm hack integration observer pics rpcdaemon rpctest sentinel sentry state tooling txpool verkle
 erlang(26.0.2):ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
 erlang@23(23.3.4.19):ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
 erlang@24(24.3.4.14):ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
 erlang@25(25.3.2.7):ct_run dialyzer epmd erl erlc escript run_erl to_erl typer
 erofs-utils(1.7.1):dump.erofs fsck.erofs mkfs.erofs
-esbuild(0.19.8):esbuild
+esbuild(0.19.9):esbuild
 eslint(8.55.0):eslint
 esniper(2.35.0):esniper
 espeak(1.48.04_1):espeak
 espflash(2.1.0):espflash
 esphome(2023.11.6):esphome
 esptool(4.6.2_3):esp_rfc2217_server.py espefuse.py espsecure.py esptool.py
-etcd(3.5.10):etcd etcdctl etcdutl
+etcd(3.5.11):etcd etcdctl etcdutl
 etcd-cpp-apiv3(0.15.3_10):
 ethereum(1.13.5):abidump abigen bootnode clef devp2p ethkey evm faucet geth p2psim rlpdump
 etl(1.5.1):ETL-config
@@ -1535,7 +1538,7 @@ euler-py(1.4.0_2):euler
 eureka(2.0.0):eureka
 eva(0.3.1):eva
 evernote-backup(1.9.3):evernote-backup
-evernote2md(0.19.0):evernote2md
+evernote2md(0.20.0):evernote2md
 evince(45.0_1):evince evince-previewer evince-thumbnailer
 evtx(0.8.1):evtx_dump
 ex-vi(050325):edit ex vedit vi view
@@ -1796,7 +1799,7 @@ fstrm(0.6.1):fstrm_capture fstrm_dump fstrm_replay
 fsw(1.3.9):fsw fswatch-run fswatch-run-bash fswatch-run-zsh
 fswatch(1.17.1):fswatch
 ftgl(2.1.3-rc5):
-fuc(1.1.9):cpz rmz
+fuc(1.1.10):cpz rmz
 fuego(1.1_9):fuego fuego_test
 fuego-firestore(0.34.0):fuego
 func-e(1.1.4):func-e
@@ -1976,7 +1979,7 @@ git-imerge(1.2.0_1):git-imerge
 git-integration(0.4):git-integration
 git-interactive-rebase-tool(2.3.0_1):interactive-rebase-tool
 git-lfs(3.4.0):git-lfs
-git-machete(3.21.1):git-machete
+git-machete(3.22.0):git-machete
 git-mediate(1.0.9):git-mediate
 git-multipush(2.3):git-multipush
 git-now(0.1.1.0):git-now
@@ -2049,7 +2052,7 @@ glbinding@2(2.1.4):glmeta
 gleam(0.32.4):gleam
 glew(2.2.0_1):glewinfo visualinfo
 glfw(3.3.8):
-glib(2.78.2):gdbus gdbus-codegen gio gio-querymodules glib-compile-resources glib-compile-schemas glib-genmarshal glib-gettextize glib-mkenums gobject-query gresource gsettings gtester gtester-report
+glib(2.78.3):gdbus gdbus-codegen gio gio-querymodules glib-compile-resources glib-compile-schemas glib-genmarshal glib-gettextize glib-mkenums gobject-query gresource gsettings gtester gtester-report
 glib-networking(2.78.0):
 glib-openssl(2.50.8_3):
 glibmm(2.78.0):
@@ -2179,7 +2182,7 @@ gossip(0.8.2):gossip
 gost(2.11.5_1):gost
 gostatic(2.36):gostatic
 gosu(1.17.5):gosu
-got(0.94):got gotadmin gotwebd tog
+got(0.95):got gotadmin gotwebd tog
 gotags(1.4.1):gotags
 gotests(1.6.0):gotests
 gotestsum(1.11.0):gotestsum
@@ -2414,7 +2417,7 @@ historian(0.0.2):hist
 hive(3.1.3):beeline hive hive-config.sh hiveserver2 hplsql init-hive-dfs.sh metatool schematool
 hivemind(1.1.0):hivemind
 hivex(1.3.23):hivexget hivexml hivexsh
-hledger(1.32):hledger hledger-ui hledger-web
+hledger(1.32.1):hledger hledger-ui hledger-web
 hlint(3.6.1):hlint
 hmmer(3.4):alimask hmmalign hmmbuild hmmconvert hmmemit hmmfetch hmmlogo hmmpgmd hmmpgmd_shard hmmpress hmmscan hmmsearch hmmsim hmmstat jackhmmer makehmmerdb nhmmer nhmmscan phmmer
 hoedown(3.0.7):hoedown
@@ -2496,7 +2499,7 @@ i2p(2.3.0):eepget i2prouter
 i2pd(2.49.0_1):i2pd
 i2util(1.2_1):aespasswd pfstore
 i386-elf-gdb(14.1):i386-elf-gdb i386-elf-gdb-add-index
-i686-elf-binutils(2.41):i686-elf-addr2line i686-elf-ar i686-elf-as i686-elf-c++filt i686-elf-elfedit i686-elf-gprof i686-elf-ld i686-elf-nm i686-elf-objcopy i686-elf-objdump i686-elf-ranlib i686-elf-readelf i686-elf-size i686-elf-strings i686-elf-strip
+i686-elf-binutils(2.41_1):i686-elf-addr2line i686-elf-ar i686-elf-as i686-elf-c++filt i686-elf-elfedit i686-elf-gprof i686-elf-ld i686-elf-nm i686-elf-objcopy i686-elf-objdump i686-elf-ranlib i686-elf-readelf i686-elf-size i686-elf-strings i686-elf-strip
 i686-elf-gcc(13.2.0):i686-elf-c++ i686-elf-cpp i686-elf-gcc i686-elf-gcc-ar i686-elf-gcc-nm i686-elf-gcc-ranlib i686-elf-gcov i686-elf-gcov-dump i686-elf-gcov-tool i686-elf-lto-dump
 iam-policy-json-to-terraform(1.8.2):iam-policy-json-to-terraform
 iamy(2.4.0):iamy
@@ -2658,7 +2661,7 @@ jasper(4.1.1):imgcmp imginfo jasper jiv
 java-service-wrapper(3.5.54):
 javacc(7.0.13):javacc jjdoc jjtree
 jbake(2.6.7):jbake
-jbang(0.113.0):jbang
+jbang(0.114.0):jbang
 jbig2dec(0.20):jbig2dec
 jbig2enc(0.29_3):jbig2 pdf.py
 jbigkit(2.1):jbgtopbm jbgtopbm85 pbmtojbg pbmtojbg85
@@ -2772,7 +2775,7 @@ juman(7.01):juman
 jumanpp(1.02):jumanpp mkdarts_jumanpp
 jump(0.51.0):jump
 jupp(3.1jupp41):jmacs joe jpico jstar jupp rjoe termidx
-jupyter-r(1.3.2_1):
+jupyter-r(1.3.2_2):
 jupyterlab(4.0.9_2):jlpm jupyter jupyter-console jupyter-dejavu jupyter-events jupyter-execute jupyter-kernel jupyter-kernelspec jupyter-lab jupyter-labextension jupyter-labhub jupyter-migrate jupyter-nbconvert jupyter-run jupyter-server jupyter-troubleshoot jupyter-trust
 just(1.16.0):just
 jvgrep(5.8.10):jvgrep
@@ -2789,7 +2792,7 @@ kafka(3.6.1):connect-distributed connect-mirror-maker connect-plugin-path connec
 kahip(3.16):dspac edge_list_to_metis_graph edge_partitioning evaluator global_multisection graph2binary graph2binary_external graphchecker interface_test kaffpa kaffpaE label_propagation node_ordering node_separator parhip partition_to_vertex_separator readbgf toolbox
 kaitai-struct-compiler(0.10):kaitai-struct-compiler
 kakoune(2023.08.05):kak
-kalign(3.3.5):kalign
+kalign(3.4.0):kalign
 kalker(2.0.4):kalker
 kallisto(0.50.1):kallisto
 kamel(2.1.0):kamel
@@ -2848,7 +2851,7 @@ kona(20211225):k
 kondo(0.7):kondo
 kopia(0.15.0):kopia
 kops(1.28.1):kops
-kor(0.3.1):kor
+kor(0.3.2):kor
 kore(4.2.3):kodev kore
 kosli-cli(2.6.16):kosli
 kotlin(1.9.21):kapt kotlin kotlin-dce-js kotlinc kotlinc-js kotlinc-jvm
@@ -3305,7 +3308,7 @@ libsamplerate(0.2.2):
 libsass(3.6.5):
 libsbol(2.3.2_2):
 libscrypt(1.22):
-libsecret(0.21.1):secret-tool
+libsecret(0.21.2):secret-tool
 libserdes(8.0.0):
 libserialport(0.1.1):
 libshout(2.4.6_1):shout
@@ -3652,7 +3655,7 @@ mariadb@11.0(11.0.4):aria_chk aria_dump_log aria_ftdump aria_pack aria_read_log 
 mariadb@11.1(11.1.3):aria_chk aria_dump_log aria_ftdump aria_pack aria_read_log aria_s3_copy innochecksum mariabackup mariadb mariadb-access mariadb-admin mariadb-backup mariadb-binlog mariadb-check mariadb-client-test mariadb-config mariadb-conv mariadb-convert-table-format mariadb-dump mariadb-dumpslow mariadb-find-rows mariadb-fix-extensions mariadb-hotcopy mariadb-import mariadb-install-db mariadb-ldb mariadb-plugin mariadb-secure-installation mariadb-setpermission mariadb-show mariadb-slap mariadb-test mariadb-tzinfo-to-sql mariadb-upgrade mariadb-waitpid mariadb_config mariadbd mariadbd-multi mariadbd-safe mariadbd-safe-helper mbstream msql2mysql my_print_defaults myisam_ftdump myisamchk myisamlog myisampack myrocks_hotbackup mysql mysql.server mysql_client_test mysql_config mysql_convert_table_format mysql_find_rows mysql_fix_extensions mysql_install_db mysql_ldb mysql_plugin mysql_secure_installation mysql_setpermission mysql_tzinfo_to_sql mysql_upgrade mysql_waitpid mysqlaccess mysqladmin mysqlbinlog mysqlcheck mysqld mysqld_multi mysqld_safe mysqld_safe_helper mysqldump mysqldumpslow mysqlhotcopy mysqlimport mysqlshow mysqlslap mysqltest mytop perror rcmysql replace resolve_stack_dump resolveip sst_dump wsrep_sst_backup wsrep_sst_mariabackup wsrep_sst_mysqldump wsrep_sst_rsync wsrep_sst_rsync_wan
 markdown(1.0.1):markdown
 markdown-toc(1.2.0):markdown-toc
-markdownlint-cli(0.37.0):markdownlint
+markdownlint-cli(0.38.0):markdownlint
 markdownlint-cli2(0.11.0):markdownlint-cli2 markdownlint-cli2-config markdownlint-cli2-fix
 marked(11.0.1):marked
 marksman(2023-12-07):marksman
@@ -3711,7 +3714,7 @@ mecab-unidic(2.1.2):
 mecab-unidic-extended(2.1.2):
 media-info(23.11):mediainfo
 mediaconch(23.10):mediaconch
-mediamtx(1.3.1):mediamtx
+mediamtx(1.4.0):mediamtx
 mednafen(1.29.0_3):mednafen
 medusa(0.1.2):medusa
 meek(0.38.0):meek-client meek-server
@@ -3727,7 +3730,7 @@ memray(1.11.0):memray memray3.12
 memtester(4.6.0):memtester
 menhir(20230608):menhir
 mentat(1.0.5):mentat
-mercurial(6.6):chg hg
+mercurial(6.6.1):chg hg
 mercury(22.01.8):c2init canonical_grade info_to_mdb mcov mdb mdemangle mdice mdprof mdprof_cgi mdprof_create_feedback mdprof_dump mdprof_report_feedback mdprof_test mercury mercury_compile mercury_config mercury_profile mercury_update_interface mfiltercc mfilterjavac mgnuc mkfifo_using_mknod mkinit ml mmake mmc mprof mprof_merge_runs mslice mtags mtc mtc_diff mtc_union prepare_install_dir vpath_find
 mergelog(4.5):mergelog zmergelog
 mesa(22.3.6_1):
@@ -3786,7 +3789,7 @@ minimal-racket(8.10):racket raco
 minimap2(2.26):minimap2
 minimodem(0.24):minimodem
 minio(20231202105133):minio
-minio-mc(20231202112410):mc
+minio-mc(20231207221317):mc
 minipro(0.6):minipro
 minisat(2.2.1):minisat minisat_core
 minised(1.16):minised
@@ -3924,7 +3927,7 @@ mrbayes(3.2.7_3):mb
 mrboom(5.3):mrboom
 mrtg(2.17.10):cfgmaker indexmaker mrtg mrtg-traffic-sum rateup
 mruby(3.2.0):mirb mrbc mruby mruby-config mruby-strip
-msc-generator(8.3.2):msc-gen
+msc-generator(8.4.2):msc-gen
 mscgen(0.20_4):mscgen
 msdl(1.2.7-r2):msdl
 msgpack(6.0.0):
@@ -4007,7 +4010,7 @@ nats-streaming-server(0.25.6):nats-streaming-server
 naturaldocs(2.3):naturaldocs
 nauty(2.8.8):NRswitchg addedgeg addptg amtog ancestorg assembleg biplabg catg complg converseg copyg countg cubhamg deledgeg delptg dimacs2g directg dreadnaut dretodot dretog edgetransg genbg genbgL geng gengL genposetg genquarticg genrang genspecialg gentourng gentreeg hamheuristic labelg linegraphg listg multig nbrhoodg newedgeg pickg planarg productg ranlabg shortg showg subdivideg twohamg underlyingg vcolg watercluster2
 nave(3.5.1):nave
-navi(2.22.1):navi
+navi(2.23.0):navi
 nb(7.9.0):bookmark nb
 nbdime(4.0.1):git-nbdiffdriver git-nbdifftool git-nbmergedriver git-nbmergetool hg-nbdiff hg-nbdiffweb hg-nbmerge hg-nbmergeweb nbdiff nbdiff-web nbdime nbmerge nbmerge-web nbshow
 nbimg(1.2.1):nbimg
@@ -4119,7 +4122,7 @@ node_exporter(1.7.0):node_exporter node_exporter_brew_services
 nodebrew(1.2.0):nodebrew
 nodeenv(1.8.0):nodeenv
 nodenv(1.4.1):nodenv
-noir(0.11.0):noir
+noir(0.11.0_1):noir
 nomad(1.6.2):nomad
 nomino(1.3.3):nomino
 nopoll(0.4.8.b429):
@@ -4291,7 +4294,7 @@ opendht(3.1.4):dhtchat dhtnode dhtscanner
 openexr(3.2.1):exr2aces exrenvmap exrheader exrinfo exrmakepreview exrmaketiled exrmultipart exrmultiview exrstdattr
 openexr@2(2.5.8):exr2aces exrenvmap exrheader exrmakepreview exrmaketiled exrmultipart exrmultiview exrstdattr
 openfast(3.5.1):openfast
-openfga(1.3.9):openfga
+openfga(1.3.10):openfga
 openfortivpn(1.21.0):openfortivpn
 openfpgaloader(0.11.0):openFPGALoader
 openfst(1.8.2):farcompilestrings farconvert farcreate farencode farequal farextract farinfo farisomorphic farprintstrings fstarcsort fstclosure fstcompile fstcompose fstcompress fstconcat fstconnect fstconvert fstdeterminize fstdifference fstdisambiguate fstdraw fstencode fstepsnormalize fstequal fstequivalent fstinfo fstintersect fstinvert fstisomorphic fstlinear fstloglinearapply fstmap fstminimize fstprint fstproject fstprune fstpush fstrandgen fstrelabel fstreplace fstreverse fstreweight fstrmepsilon fstshortestdistance fstshortestpath fstspecial fstsymbols fstsynchronize fsttopsort fstunion mpdtcompose mpdtexpand mpdtinfo mpdtreverse pdtcompose pdtexpand pdtinfo pdtreplace pdtreverse pdtshortestpath
@@ -4555,7 +4558,7 @@ phoon(20140814):phoon
 phoronix-test-suite(10.8.4):phoronix-test-suite
 php(8.3.0):pear peardev pecl phar phar.phar php php-cgi php-config php-fpm phpdbg phpize
 php-code-sniffer(3.8.0):phpcbf phpcs
-php-cs-fixer(3.41.0):php-cs-fixer
+php-cs-fixer(3.41.1):php-cs-fixer
 php@8.1(8.1.26):pear peardev pecl phar phar.phar php php-cgi php-config php-fpm phpdbg phpize
 php@8.2(8.2.13):pear peardev pecl phar phar.phar php php-cgi php-config php-fpm phpdbg phpize
 phpbrew(2.2.0):phpbrew
@@ -4653,7 +4656,7 @@ pngquant(3.0.2):pngquant
 pnpm(8.12.0):pnpm pnpx
 po4a(0.69_1):msguntypot po4a po4a-display-man po4a-display-pod po4a-gettextize po4a-normalize po4a-translate po4a-updatepo
 poac(0.6.0_4):poac
-pocketbase(0.19.4):pocketbase
+pocketbase(0.20.0):pocketbase
 pocl(4.0_1):poclcc
 poco(1.12.5p2):arc cpspc f2cpsp
 pocsuite3(2.0.5):poc-console pocsuite
@@ -4709,7 +4712,7 @@ premake(5.0.0-beta2):premake5
 presenterm(0.3.0):presenterm
 prestd(1.4.1):prestd
 prestodb(0.284):presto presto-server
-prettier(3.1.0):prettier
+prettier(3.1.1):prettier
 prettierd(0.25.2):prettierd
 prettyping(1.0.1):prettyping
 primecount(7.9):primecount
@@ -4730,7 +4733,7 @@ proguard(7.4.1):proguard proguardgui retrace
 proj(9.3.1):cct cs2cs geod gie invgeod invproj proj projinfo projsync
 proj@7(7.2.1_1):cct cs2cs geod gie invgeod invproj proj projinfo projsync
 projectm(3.1.12):projectM-unittest projectMSDL
-prometheus(2.48.0):prometheus prometheus_brew_services promtool
+prometheus(2.48.1):prometheus prometheus_brew_services promtool
 prometheus-cpp(1.1.0):
 promtail(2.9.2):promtail
 proof-general(4.5):coqtags
@@ -4839,7 +4842,7 @@ pyspelling(2.9):pyspelling pyspelling3.11
 pystring(1.1.4):
 python-abseil(2.0.0):
 python-anytree(2.12.1):
-python-argcomplete(3.1.6):activate-global-python-argcomplete python-argcomplete-check-easy-install-script register-python-argcomplete
+python-argcomplete(3.2.1):activate-global-python-argcomplete python-argcomplete-check-easy-install-script register-python-argcomplete
 python-asn1crypto(1.5.1):
 python-attrs(23.1.0):
 python-boto3(1.33.0):
@@ -4865,7 +4868,7 @@ python-docopt(0.6.2):
 python-filelock(3.13.1):
 python-flit-core(3.9.0):
 python-gdbm@3.11(3.11.6):
-python-gdbm@3.12(3.12.0):
+python-gdbm@3.12(3.12.1):
 python-hatch-fancy-pypi-readme(23.1.0):hatch-fancy-pypi-readme
 python-hatch-vcs(0.4.0):
 python-hatchling(1.18.0):hatchling hatchling-3.11 hatchling-3.12
@@ -4891,7 +4894,7 @@ python-networkx(3.2.1):
 python-oauthlib(3.2.2):
 python-openapi3(1.8.2):
 python-packaging(23.2_1):
-python-pathspec(0.11.2):
+python-pathspec(0.12.0):
 python-pbr(6.0.0):pbr
 python-platformdirs(4.1.0):
 python-pluggy(1.3.0):
@@ -4914,7 +4917,7 @@ python-tabulate(0.9.0_1):tabulate
 python-termcolor(2.4.0):
 python-tk@3.10(3.10.13):
 python-tk@3.11(3.11.6):
-python-tk@3.12(3.12.0):
+python-tk@3.12(3.12.1):
 python-tk@3.9(3.9.18):
 python-toml(0.10.2_1):
 python-trove-classifiers(2023.11.29):
@@ -4926,7 +4929,7 @@ python-xlsxwriter(3.1.9):vba_extract vba_extract.py
 python-yq(3.2.3):tomlq xq yq
 python@3.10(3.10.13_1):2to3-3.10 idle3.10 pydoc3.10 python3.10 python3.10-config
 python@3.11(3.11.6_1):2to3 2to3-3.11 idle3 idle3.11 pip3 pip3.11 pydoc3 pydoc3.11 python3 python3-config python3.11 python3.11-config wheel3 wheel3.11
-python@3.12(3.12.0_1):2to3-3.12 idle3.12 pydoc3.12 python3.12 python3.12-config
+python@3.12(3.12.1):2to3-3.12 idle3.12 pydoc3.12 python3.12 python3.12-config
 python@3.8(3.8.18_1):2to3-3.8 idle3.8 pydoc3.8 python3.8 python3.8-config
 python@3.9(3.9.18_1):2to3-3.9 idle3.9 pydoc3.9 python3.9 python3.9-config
 pythran(0.14.0_1):pythran pythran-config
@@ -4983,7 +4986,7 @@ quazip(1.4):
 questdb(7.3.7):questdb
 quex(0.71.2_1):quex
 quick-lint-js(2.18.0):quick-lint-js
-quickjs(2021-03-27):qjs qjsc qjscalc
+quickjs(2023-12-09):qjs qjsc qjscalc
 quicktype(23.0.80):quicktype
 quictls(3.1.4-quic1):c_rehash openssl
 quill(3.5.1):
@@ -5019,7 +5022,7 @@ rapidfuzz-cpp(2.2.3):
 rapidjson(1.1.0):
 raptor(2.0.16):rapper
 rargs(0.3.0):rargs
-rarian(0.8.4):rarian-example rarian-sk-config rarian-sk-extract rarian-sk-gen-uuid rarian-sk-get-cl rarian-sk-get-content-list rarian-sk-get-extended-content-list rarian-sk-get-scripts rarian-sk-install rarian-sk-migrate rarian-sk-preinstall rarian-sk-rebuild rarian-sk-update scrollkeeper-config scrollkeeper-extract scrollkeeper-gen-seriesid scrollkeeper-get-cl scrollkeeper-get-content-list scrollkeeper-get-extended-content-list scrollkeeper-get-index-from-docpath scrollkeeper-get-toc-from-docpath scrollkeeper-get-toc-from-id scrollkeeper-install scrollkeeper-preinstall scrollkeeper-rebuilddb scrollkeeper-uninstall scrollkeeper-update
+rarian(0.8.5):rarian-example rarian-sk-config rarian-sk-extract rarian-sk-gen-uuid rarian-sk-get-cl rarian-sk-get-content-list rarian-sk-get-extended-content-list rarian-sk-get-scripts rarian-sk-install rarian-sk-migrate rarian-sk-preinstall rarian-sk-rebuild rarian-sk-update scrollkeeper-config scrollkeeper-extract scrollkeeper-gen-seriesid scrollkeeper-get-cl scrollkeeper-get-content-list scrollkeeper-get-extended-content-list scrollkeeper-get-index-from-docpath scrollkeeper-get-toc-from-docpath scrollkeeper-get-toc-from-id scrollkeeper-install scrollkeeper-preinstall scrollkeeper-rebuilddb scrollkeeper-uninstall scrollkeeper-update
 rasqal(0.9.33):rasqal-config roqet
 ratfor(1.05):ratfor
 rats(2.4):rats
@@ -5076,6 +5079,7 @@ redis@6.2(6.2.14):redis-benchmark redis-check-aof redis-check-rdb redis-cli redi
 redland(1.0.17_1):rdfproc redland-config redland-db-upgrade
 redo(0.42d_2):redo redo-always redo-ifchange redo-ifcreate redo-log redo-ood redo-sources redo-stamp redo-targets redo-unlocked redo-whichdo
 redpen(1.10.4_2):redpen redpen-server redpen-server.war
+redress(1.2.0):redress
 redshift(1.12_1):redshift
 redstore(0.5.4):redstore
 redwax-tool(0.9.3):redwax-tool
@@ -5139,7 +5143,7 @@ ripgrep(14.0.3):rg
 ripgrep-all(0.9.6):rga rga-preproc
 ripmime(1.4.0.10):ripmime
 ripsecrets(0.1.7):ripsecrets
-riscv64-elf-binutils(2.41):riscv64-elf-addr2line riscv64-elf-ar riscv64-elf-as riscv64-elf-c++filt riscv64-elf-elfedit riscv64-elf-gprof riscv64-elf-ld riscv64-elf-nm riscv64-elf-objcopy riscv64-elf-objdump riscv64-elf-ranlib riscv64-elf-readelf riscv64-elf-size riscv64-elf-strings riscv64-elf-strip
+riscv64-elf-binutils(2.41_1):riscv64-elf-addr2line riscv64-elf-ar riscv64-elf-as riscv64-elf-c++filt riscv64-elf-elfedit riscv64-elf-gprof riscv64-elf-ld riscv64-elf-nm riscv64-elf-objcopy riscv64-elf-objdump riscv64-elf-ranlib riscv64-elf-readelf riscv64-elf-size riscv64-elf-strings riscv64-elf-strip
 riscv64-elf-gcc(13.2.0):riscv64-elf-c++ riscv64-elf-cpp riscv64-elf-gcc riscv64-elf-gcc-ar riscv64-elf-gcc-nm riscv64-elf-gcc-ranlib riscv64-elf-gcov riscv64-elf-gcov-dump riscv64-elf-gcov-tool riscv64-elf-lto-dump
 riscv64-elf-gdb(14.1):riscv64-elf-gdb riscv64-elf-gdb-add-index
 risor(1.1.2):risor
@@ -5184,7 +5188,7 @@ rpki-client(8.6_1):rpki-client
 rpl(1.15.5):rpl
 rpm(4.17.0_1):gendiff rpm rpm2archive rpm2cpio rpmbuild rpmdb rpmgraph rpmkeys rpmquery rpmsign rpmspec rpmverify
 rpm2cpio(1.4):rpm2cpio
-rqlite(8.0.1):rqbench rqlite rqlited
+rqlite(8.0.2):rqbench rqlite rqlited
 rrdtool(1.8.0):rrdcached rrdcgi rrdcreate rrdinfo rrdtool rrdupdate
 rsc_2fa(1.2.0):2fa
 rslint(0.3.2):rslint
@@ -5711,7 +5715,7 @@ streamlink(6.4.2):streamlink
 streamripper(1.64.6_2):streamripper
 streamvbyte(1.0.0):
 stress(1.0.7):stress
-stress-ng(0.17.02):stress-ng
+stress-ng(0.17.03):stress-ng
 strip-nondeterminism(1.13.1):strip-nondeterminism
 strongswan(5.9.13):charon-cmd ipsec pki swanctl
 structurizr-cli(1.35.0):structurizr-cli
@@ -5821,7 +5825,7 @@ tbb(2021.11.0):
 tbls(1.72.0):tbls
 tbox(1.7.5):
 tcc(0.9.27_1):tcc
-tccutil(1.2.13):tccutil
+tccutil(1.4.0):tccutil
 tcl-tk(8.6.13_5):critcl dtplite mkdoc nns nnsd nnslog page pt tcldocstrip tclsh tclsh8.6 wish wish8.6
 tclap(1.2.5):
 tcpdump(4.99.4):tcpdump tcpdump.4.99.4
@@ -6095,7 +6099,7 @@ txt2tags(3.9):txt2tags
 tygo(0.2.13):tygo
 typedb(2.23.0):typedb
 typescript(5.3.3):tsc tsserver
-typescript-language-server(4.1.3):typescript-language-server
+typescript-language-server(4.2.0):typescript-language-server
 typespeed(0.6.5):typespeed
 typewritten(1.5.1):
 typical(0.9.7):typical
@@ -6146,7 +6150,7 @@ unisonlang(M5j):ucm
 unittest(0.50-62):
 unittest-cpp(2.0.0):
 uniutils(2.28):ExplicateUTF8 unidesc unifuzz unihist uniname unireverse unisurrogate utf8lookup
-universal-ctags(p6.0.20231203.0):ctags optscript readtags
+universal-ctags(p6.0.20231210.0):ctags optscript readtags
 unixodbc(2.3.12):dltest isql iusql odbc_config odbcinst slencheck
 unnethack(5.3.2):unnethack
 unoconv(0.9.0_3):unoconv
@@ -6461,10 +6465,10 @@ x11vnc(0.9.16_1):Xdummy x11vnc
 x264(r3108):x264
 x265(3.5):x265
 x3270(4.3ga4):c3270 pr3287 prtodir s3270 tcl3270 x3270if
-x86_64-elf-binutils(2.41):x86_64-elf-addr2line x86_64-elf-ar x86_64-elf-as x86_64-elf-c++filt x86_64-elf-elfedit x86_64-elf-gprof x86_64-elf-ld x86_64-elf-nm x86_64-elf-objcopy x86_64-elf-objdump x86_64-elf-ranlib x86_64-elf-readelf x86_64-elf-size x86_64-elf-strings x86_64-elf-strip
+x86_64-elf-binutils(2.41_1):x86_64-elf-addr2line x86_64-elf-ar x86_64-elf-as x86_64-elf-c++filt x86_64-elf-elfedit x86_64-elf-gprof x86_64-elf-ld x86_64-elf-nm x86_64-elf-objcopy x86_64-elf-objdump x86_64-elf-ranlib x86_64-elf-readelf x86_64-elf-size x86_64-elf-strings x86_64-elf-strip
 x86_64-elf-gcc(13.2.0):x86_64-elf-c++ x86_64-elf-cpp x86_64-elf-gcc x86_64-elf-gcc-ar x86_64-elf-gcc-nm x86_64-elf-gcc-ranlib x86_64-elf-gcov x86_64-elf-gcov-dump x86_64-elf-gcov-tool x86_64-elf-lto-dump
 x86_64-elf-gdb(14.1):x86_64-elf-gdb x86_64-elf-gdb-add-index
-x86_64-linux-gnu-binutils(2.41):x86_64-linux-gnu-addr2line x86_64-linux-gnu-ar x86_64-linux-gnu-as x86_64-linux-gnu-c++filt x86_64-linux-gnu-dwp x86_64-linux-gnu-elfedit x86_64-linux-gnu-gprof x86_64-linux-gnu-ld x86_64-linux-gnu-ld.gold x86_64-linux-gnu-nm x86_64-linux-gnu-objcopy x86_64-linux-gnu-objdump x86_64-linux-gnu-ranlib x86_64-linux-gnu-readelf x86_64-linux-gnu-size x86_64-linux-gnu-strings x86_64-linux-gnu-strip
+x86_64-linux-gnu-binutils(2.41_1):x86_64-linux-gnu-addr2line x86_64-linux-gnu-ar x86_64-linux-gnu-as x86_64-linux-gnu-c++filt x86_64-linux-gnu-dwp x86_64-linux-gnu-elfedit x86_64-linux-gnu-gprof x86_64-linux-gnu-ld x86_64-linux-gnu-ld.gold x86_64-linux-gnu-nm x86_64-linux-gnu-objcopy x86_64-linux-gnu-objdump x86_64-linux-gnu-ranlib x86_64-linux-gnu-readelf x86_64-linux-gnu-size x86_64-linux-gnu-strings x86_64-linux-gnu-strip
 xa(2.4.0):file65 ldo65 printcbm reloc65 uncpk xa
 xapian(1.4.24):copydatabase quest simpleexpand simpleindex simplesearch xapian-check xapian-compact xapian-config xapian-delve xapian-metadata xapian-pos xapian-progsrv xapian-replicate xapian-replicate-server xapian-tcpsrv
 xaric(0.13.9):xaric
@@ -6612,7 +6616,7 @@ yubikey-agent(0.1.6):yubikey-agent
 yuicompressor(2.4.8_1):yuicompressor
 yydecode(0.2.10):yydecode
 yyjson(0.8.0):
-z(1.9):
+z(1.12):
 z.lua(1.8.16):
 z3(4.12.4):qprofdiff z3
 z80asm(1.8):z80asm
