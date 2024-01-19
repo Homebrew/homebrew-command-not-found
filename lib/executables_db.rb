@@ -11,7 +11,7 @@ module Homebrew
     attr_accessor :exes
     attr_reader :changes
 
-    DB_LINE_REGEX = /^(?<name>.*?)(?:\((?<version>.*)\))?:(?<exes_line>.*)?$/.freeze
+    DB_LINE_REGEX = /^(?<name>.*?)(?:\((?<version>.*)\))?:(?<exes_line>.*)?$/
 
     # initialize a new DB with the given filename. The file will be used to
     # populate the DB if it exists. It'll be created or overridden when saving the
