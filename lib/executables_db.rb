@@ -61,7 +61,7 @@ module Homebrew
       taps = eval_all ? Tap.each.to_a : [CoreTap.instance]
       taps.each do |tap|
         tap.formula_files_by_name.each_key do |name|
-          f = Formulary.factory("#{tap}/#{name}")
+          f = Formulary.factory(p("#{tap}/#{name}"))
 
           break if max_downloads.present? && downloads > max_downloads.to_i
 

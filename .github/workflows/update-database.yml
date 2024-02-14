@@ -1,5 +1,6 @@
 name: Scheduled database updates
 on:
+  pull_request:
   push:
     branches:
       - master
@@ -22,16 +23,18 @@ jobs:
       - name: Set up Homebrew
         id: set-up-homebrew
         uses: Homebrew/actions/setup-homebrew@master
+        # with:
+        #   core: true
 
       - name: Configure Git user
         uses: Homebrew/actions/git-user-config@master
         with:
           username: BrewTestBot
 
-      - name: Set up commit signing
-        uses: Homebrew/actions/setup-commit-signing@master
-        with:
-          signing_key: ${{ secrets.BREWTESTBOT_GPG_SIGNING_SUBKEY }}
+      # - name: Set up commit signing
+      #   uses: Homebrew/actions/setup-commit-signing@master
+      #   with:
+      #     signing_key: ${{ secrets.BREWTESTBOT_GPG_SIGNING_SUBKEY }}
 
       - name: Check out repository
         uses: actions/checkout@main
@@ -55,8 +58,8 @@ jobs:
         working-directory: repo
         run: brew which-update --stats executables.txt
 
-      - name: Push commits
-        uses: Homebrew/actions/git-try-push@master
-        with:
-          token: ${{ secrets.HOMEBREW_GITHUB_PUBLIC_REPO_TOKEN }}
-          directory: repo
+      # - name: Push commits
+      #   uses: Homebrew/actions/git-try-push@master
+      #   with:
+      #     token: ${{ secrets.HOMEBREW_GITHUB_PUBLIC_REPO_TOKEN }}
+      #     directory: repo
