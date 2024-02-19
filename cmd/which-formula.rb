@@ -9,10 +9,10 @@ module Homebrew
   def which_formula_args
     Homebrew::CLI::Parser.new do
       description <<~EOS
-        Prints the formula(e) which provides the given command.
+        Show which formula(e) provides the given command.
       EOS
       switch "--explain",
-             description: "Output explanation of how to get 'cmd' by installing one of the providing formulae."
+             description: "Output explanation of how to get <command> by installing one of the providing formulae."
       named_args :command, min: 1
     end
   end

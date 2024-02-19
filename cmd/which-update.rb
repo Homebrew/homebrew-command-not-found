@@ -9,7 +9,7 @@ module Homebrew
   def which_update_args
     Homebrew::CLI::Parser.new do
       description <<~EOS
-        Database update for `brew which-formula`
+        Database update for `brew which-formula`.
       EOS
       switch "--stats",
              description: "Print statistics about the database contents (number of commands and formulae, " \
