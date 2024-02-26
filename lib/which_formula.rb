@@ -49,13 +49,13 @@ module Homebrew
     def which_formula(cmd, explain: false)
       cmd = cmd.downcase
 
-      formulae = (matches cmd).map do |m|
+      formulae = (matches cmd).filter_map do |m|
         formula, cmds_text = m.split(":", 2)
         next if formula.nil? || cmds_text.nil?
 
         cmds = cmds_text.split
         formula if !cmds.nil? && cmds.include?(cmd)
-      end.compact
+      end
 
       return if formulae.blank?
 
