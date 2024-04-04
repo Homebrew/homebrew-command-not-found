@@ -12,7 +12,9 @@ jobs:
       id: set-up-homebrew
       uses: Homebrew/actions/setup-homebrew@master
 
-    - run: brew style homebrew/command-not-found
+    - run: brew test-bot --only-cleanup-before
+
+    - run: brew test-bot --only-tap-syntax
 
     - run: brew install bash fish
 
