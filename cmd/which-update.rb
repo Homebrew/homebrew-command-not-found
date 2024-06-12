@@ -11,18 +11,18 @@ module Homebrew
           Database update for `brew which-formula`.
         EOS
         switch "--stats",
-              description: "Print statistics about the database contents (number of commands and formulae, " \
+               description: "Print statistics about the database contents (number of commands and formulae, " \
                             "list of missing formulae)."
         switch "--commit",
-              description: "Commit the changes using `git`."
+               description: "Commit the changes using `git`."
         switch "--update-existing",
-              description: "Update database entries with outdated formula versions."
+               description: "Update database entries with outdated formula versions."
         switch "--install-missing",
-              description: "Install and update formulae that are missing from the database and don't have bottles."
+               description: "Install and update formulae that are missing from the database and don't have bottles."
         switch "--eval-all",
-              description: "Evaluate all installed taps, rather than just the core tap."
+               description: "Evaluate all installed taps, rather than just the core tap."
         flag   "--max-downloads=",
-              description: "Specify a maximum number of formulae to download and update."
+               description: "Specify a maximum number of formulae to download and update."
         conflicts "--stats", "--commit"
         conflicts "--stats", "--install-missing"
         conflicts "--stats", "--update-existing"
@@ -34,12 +34,12 @@ module Homebrew
         if args.stats?
           Homebrew::WhichUpdate.stats source: args.named.first
         else
-          Homebrew::WhichUpdate.update_and_save! source: args.named.first,
-                                                 commit: args.commit?,
+          Homebrew::WhichUpdate.update_and_save! source:          args.named.first,
+                                                 commit:          args.commit?,
                                                  update_existing: args.update_existing?,
                                                  install_missing: args.install_missing?,
-                                                 max_downloads: args.max_downloads,
-                                                 eval_all: args.eval_all?
+                                                 max_downloads:   args.max_downloads,
+                                                 eval_all:        args.eval_all?
         end
       end
     end
