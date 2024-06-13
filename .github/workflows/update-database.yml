@@ -1,8 +1,6 @@
 name: Scheduled database updates
 on:
   push:
-    branches:
-      - master
     paths:
       - .github/workflows/update-database.yml
   schedule:
@@ -45,7 +43,7 @@ jobs:
         env:
           HOMEBREW_GPG_PASSPHRASE: ${{ secrets.BREWTESTBOT_GPG_SIGNING_SUBKEY_PASSPHRASE }}
         run: |
-          set -euo pipefail
+          set -eo pipefail
 
           if [[ -n "${{ github.event.inputs.max-downloads }}" ]]
           then
@@ -62,6 +60,7 @@ jobs:
 
       - name: Push commits
         uses: Homebrew/actions/git-try-push@master
+        if: github.ref == 'refs/heads/master'
         with:
           token: ${{ secrets.HOMEBREW_GITHUB_PUBLIC_REPO_TOKEN }}
           directory: repo
