@@ -20,11 +20,13 @@ jobs:
 
     - name: Validate shell syntax
       run: |
+        set -xeuo pipefail
+
         bash -n handler.sh
         fish -n handler.fish
         zsh -n handler.sh
 
     - name: Run tests
-      run: |
-        export CONTINUOUS_INTEGRATION=1
-        rake test
+      run: rake test
+      env:
+        HOMEBREW_COMMAND_NOT_FOUND_CI: 1
