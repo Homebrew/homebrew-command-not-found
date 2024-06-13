@@ -49,7 +49,7 @@ jobs:
           then
             MAX_DOWNLOADS_ARGS="--max-downloads ${{ github.event.inputs.max-downloads }}"
           fi
-          brew which-update --commit --update-existing --install-missing $MAX_DOWNLOADS_ARGS executables.txt
+          brew which-update --commit --update-existing --install-missing "$MAX_DOWNLOADS_ARGS" executables.txt
 
       - name: Output database stats
         working-directory: repo
