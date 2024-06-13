@@ -45,11 +45,16 @@ jobs:
         env:
           HOMEBREW_GPG_PASSPHRASE: ${{ secrets.BREWTESTBOT_GPG_SIGNING_SUBKEY_PASSPHRASE }}
         run: |
+          set -euo pipefail
+
           if [[ -n "${{ github.event.inputs.max-downloads }}" ]]
           then
             MAX_DOWNLOADS_ARGS="--max-downloads ${{ github.event.inputs.max-downloads }}"
           fi
-          brew which-update --commit --update-existing --install-missing "$MAX_DOWNLOADS_ARGS" executables.txt
+
+          # Need to intentionally leave MAX_DOWNLOADS_ARGS unquoted.
+          # shellcheck disable=SC2086
+          brew which-update --commit --update-existing --install-missing $MAX_DOWNLOADS_ARGS executables.txt
 
       - name: Output database stats
         working-directory: repo
