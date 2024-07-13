@@ -42,12 +42,13 @@ jobs:
         working-directory: repo
         env:
           HOMEBREW_GPG_PASSPHRASE: ${{ secrets.BREWTESTBOT_GPG_SIGNING_SUBKEY_PASSPHRASE }}
+          MAX_DOWNLOADS: ${{ github.event.inputs.max-downloads }}
         run: |
           set -eo pipefail
 
-          if [[ -n "${{ github.event.inputs.max-downloads }}" ]]
+          if [[ -n "$MAX_DOWNLOADS" ]]
           then
-            MAX_DOWNLOADS_ARGS="--max-downloads ${{ github.event.inputs.max-downloads }}"
+            MAX_DOWNLOADS_ARGS="--max-downloads $MAX_DOWNLOADS"
           fi
 
           # Need to intentionally leave MAX_DOWNLOADS_ARGS unquoted.
