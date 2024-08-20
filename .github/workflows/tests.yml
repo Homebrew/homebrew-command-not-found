@@ -16,6 +16,8 @@ jobs:
 
     - run: brew test-bot --only-tap-syntax
 
+    - run: brew typecheck homebrew/command-not-found
+
     - run: brew install bash fish
 
     - name: Validate shell syntax
