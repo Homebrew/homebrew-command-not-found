@@ -15,6 +15,8 @@ jobs:
     - run: brew test-bot --only-cleanup-before
 
     - run: brew test-bot --only-tap-syntax
+      env:
+        HOMEBREW_DEBUG: 1
 
     - run: brew install bash fish
 
