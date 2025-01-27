@@ -3,8 +3,6 @@
 This project reproduces Ubuntu’s `command-not-found` for Homebrew users on
 macOS.
 
-[![GitHub Actions](https://github.com/Homebrew/homebrew-command-not-found/workflows/GitHub%20Actions%20CI/badge.svg)](https://github.com/Homebrew/homebrew-command-not-found/actions)
-
 On Ubuntu, when you try to use a command that doesn’t exist locally but is
 available through a package, Bash will suggest you a command to install it.
 Using this script, you can replicate this feature on macOS:
