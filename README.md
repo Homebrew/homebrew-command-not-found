@@ -32,16 +32,16 @@ First, tap this repository:
 brew tap homebrew/command-not-found
 ```
 
-* **Bash and Zsh**: Add the following line to your `~/.bash_profile` (bash) or `~/.zshrc` (zsh):
+* **Bash and Zsh**: Add the following line to your `${HOME}/.bash_profile` (bash) or `${HOME}/.zshrc` (zsh):
 
     ```bash
     HB_CNF_HANDLER="$(brew --repository)/Library/Taps/homebrew/homebrew-command-not-found/handler.sh"
     if [ -f "$HB_CNF_HANDLER" ]; then
-	source "$HB_CNF_HANDLER";
+ source "$HB_CNF_HANDLER";
     fi
     ```
 
-* **Fish**: Add the following line to your `~/.config/fish/config.fish`:
+* **Fish**: Add the following line to your `${HOME}/.config/fish/config.fish`:
 
     ```fish
     set HB_CNF_HANDLER (brew --repository)"/Library/Taps/homebrew/homebrew-command-not-found/handler.fish"
