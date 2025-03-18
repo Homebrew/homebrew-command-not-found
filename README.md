@@ -42,9 +42,9 @@ brew tap homebrew/command-not-found
 * **Fish**: Add the following line to your `~/.config/fish/config.fish`:
 
     ```fish
-    set HB_CNF_HANDLER (brew --repository)"/Library/Taps/homebrew/homebrew-command-not-found/handler.fish"
-    if test -f $HB_CNF_HANDLER
-       source $HB_CNF_HANDLER
+    set -l __hb_cnf_handler (brew --repository)"/Library/Taps/homebrew/homebrew-command-not-found/handler.fish"
+    if test -f $__hb_cnf_handler
+       source $__hb_cnf_handler
     end
     ```
 
