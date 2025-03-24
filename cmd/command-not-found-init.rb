@@ -45,7 +45,7 @@ module Homebrew
             # To enable homebrew-command-not-found
             # Add the following lines to ~/.#{shell}rc
 
-            HB_CNF_HANDLER="$(brew --prefix)/Homebrew/Library/Taps/homebrew/homebrew-command-not-found/handler.sh"
+            HB_CNF_HANDLER="$(brew --repository)/Library/Taps/homebrew/homebrew-command-not-found/handler.sh"
             if [ -f "$HB_CNF_HANDLER" ]; then
               source "$HB_CNF_HANDLER";
             fi
@@ -55,7 +55,7 @@ module Homebrew
             # To enable homebrew-command-not-found
             # Add the following line to ~/.config/fish/config.fish
 
-            set HB_CNF_HANDLER (brew --prefix)"/Homebrew/Library/Taps/homebrew/homebrew-command-not-found/handler.fish"
+            set HB_CNF_HANDLER (brew --repository)"/Library/Taps/homebrew/homebrew-command-not-found/handler.fish"
             if test -f $HB_CNF_HANDLER
               source $HB_CNF_HANDLER
             end
