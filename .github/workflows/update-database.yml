@@ -19,15 +19,15 @@ jobs:
     steps:
       - name: Set up Homebrew
         id: set-up-homebrew
-        uses: Homebrew/actions/setup-homebrew@master
+        uses: Homebrew/actions/setup-homebrew@main
 
       - name: Configure Git user
-        uses: Homebrew/actions/git-user-config@master
+        uses: Homebrew/actions/git-user-config@main
         with:
           username: BrewTestBot
 
       - name: Set up commit signing
-        uses: Homebrew/actions/setup-commit-signing@master
+        uses: Homebrew/actions/setup-commit-signing@main
         with:
           ssh: true
           signing_key: ${{ secrets.BREWTESTBOT_SSH_SIGNING_KEY }}
@@ -61,7 +61,7 @@ jobs:
         run: brew which-update --stats executables.txt
 
       - name: Push commits
-        uses: Homebrew/actions/git-try-push@master
+        uses: Homebrew/actions/git-try-push@main
         if: github.ref == 'refs/heads/master'
         with:
           token: ${{ secrets.HOMEBREW_GITHUB_PUBLIC_REPO_TOKEN }}
