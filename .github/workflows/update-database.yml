@@ -36,7 +36,7 @@ jobs:
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
           fetch-depth: 0
-          ref: master
+          ref: main
           path: repo
           persist-credentials: false
 
@@ -62,7 +62,7 @@ jobs:
 
       - name: Push commits
         uses: Homebrew/actions/git-try-push@main
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/main'
         with:
           token: ${{ secrets.HOMEBREW_GITHUB_PUBLIC_REPO_TOKEN }}
           directory: repo
