@@ -16,6 +16,8 @@ jobs:
   update-database:
     if: startsWith( github.repository, 'Homebrew/' )
     runs-on: macos-latest
+    permissions:
+      packages: write
     steps:
       - name: Set up Homebrew
         id: set-up-homebrew
@@ -59,6 +61,21 @@ jobs:
       - name: Output database stats
         working-directory: repo
         run: brew which-update --stats executables.txt
+
+      - name: Install oras for pushing to GitHub Packages
+        if: github.ref == 'refs/heads/main'
+        run: brew install oras
+
+      - name: Log in to GitHub Packages
+        if: github.ref == 'refs/heads/main'
+        run: echo "${{ secrets.GITHUB_TOKEN }}" | oras login ghcr.io --username ${{ github.actor }} --password-stdin
+
+      - name: Push to GitHub Packages
+        if: github.ref == 'refs/heads/main'
+        run: |
+          oras push --artifact-type application/vnd.homebrew.command-not-found.executables \
+            ghcr.io/homebrew/command-not-found/executables:latest \
+            executables.txt:text/plain
 
       - name: Push commits
         uses: Homebrew/actions/git-try-push@main
