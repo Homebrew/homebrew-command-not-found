@@ -77,6 +77,17 @@ jobs:
             ghcr.io/homebrew/command-not-found/executables:latest \
             executables.txt:text/plain
 
+      - name: Check upload
+        if: github.ref == 'refs/heads/main'
+        run: |
+          sha256sum executables.txt > executables.txt.sha256
+          rm -f executables.txt
+          oras pull ghcr.io/homebrew/command-not-found/executables:latest
+          if ! sha256sum --status --check executables.txt.sha256; then
+            echo "Uploaded file does not match expected checksum!"
+            exit 1
+          fi
+
       - name: Push commits
         uses: Homebrew/actions/git-try-push@main
         if: github.ref == 'refs/heads/main'
