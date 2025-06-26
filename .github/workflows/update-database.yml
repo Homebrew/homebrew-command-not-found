@@ -77,9 +77,35 @@ jobs:
             ghcr.io/homebrew/command-not-found/executables:latest \
             executables.txt:text/plain
 
+      - name: Check upload
+        if: github.ref == 'refs/heads/main'
+        run: |
+          sha256sum executables.txt > executables.txt.sha256
+          rm -f executables.txt
+          oras pull ghcr.io/homebrew/command-not-found/executables:latest
+          if ! sha256sum --status --check executables.txt.sha256; then
+            echo "Uploaded file does not match expected checksum!"
+            exit 1
+          fi
+
       - name: Push commits
         uses: Homebrew/actions/git-try-push@main
         if: github.ref == 'refs/heads/main'
         with:
           token: ${{ secrets.HOMEBREW_GITHUB_PUBLIC_REPO_TOKEN }}
           directory: repo
+
+  delete-old-versions:
+    needs: update-database
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    permissions:
+      packages: write
+    steps:
+      - name: Delete old versions from GitHub Packages
+        uses: actions/delete-package-versions@e5bc658cc4c965c472efe991f8beea3981499c55 # v5.0.0
+        with:
+          package-name: command-not-found/executables
+          package-type: container
+          min-versions-to-keep: 0
+          delete-only-untagged-versions: true
