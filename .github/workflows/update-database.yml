@@ -29,6 +29,7 @@ jobs:
           username: BrewTestBot
 
       - name: Set up commit signing
+        if: github.ref == 'refs/heads/main'
         uses: Homebrew/actions/setup-commit-signing@main
         with:
           ssh: true
