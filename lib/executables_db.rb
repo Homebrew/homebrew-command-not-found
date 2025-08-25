@@ -4,11 +4,14 @@
 require "formula"
 require "formulary"
 require "tap"
+require "utils/output"
 
 module Homebrew
   # ExecutablesDB represents a DB associating formulae to the binaries they
   # provide.
   class ExecutablesDB
+    include Utils::Output::Mixin
+
     attr_accessor :exes
     attr_reader :changes
 

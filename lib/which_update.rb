@@ -2,6 +2,7 @@
 # frozen_string_literal: true
 
 require_relative "../lib/executables_db"
+require "utils/output"
 
 module Homebrew
   module WhichUpdate
@@ -15,7 +16,7 @@ module Homebrew
         if pwd != tap_path
           relpath = source.relative_path_from(pwd)
           shown_path = (relpath.to_s.length > source.to_s.length) ? source : relpath
-          ohai "Using executables list from '#{shown_path}'"
+          Utils::Output.ohai "Using executables list from '#{shown_path}'"
         end
         source.to_s
       end
@@ -23,7 +24,7 @@ module Homebrew
 
     def stats(source: nil)
       source ||= default_source
-      opoo "The DB file doesn't exist." unless File.exist? source
+      Utils::Output.opoo "The DB file doesn't exist." unless File.exist? source
       db = ExecutablesDB.new source
 
       formulae = db.formula_names
