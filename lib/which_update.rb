@@ -1,4 +1,4 @@
-# typed: true
+# typed: strict
 # frozen_string_literal: true
 
 require_relative "../lib/executables_db"
@@ -8,8 +8,9 @@ module Homebrew
   module WhichUpdate
     module_function
 
+    sig { returns(String) }
     def default_source
-      @default_source ||= begin
+      @default_source ||= T.let(begin
         pwd = Pathname.pwd
         tap_path = Tap.fetch("homebrew", "command-not-found").path
         source = tap_path/"executables.txt"
@@ -19,9 +20,10 @@ module Homebrew
           Utils::Output.ohai "Using executables list from '#{shown_path}'"
         end
         source.to_s
-      end
+      end, T.nilable(String))
     end
 
+    sig { params(source: T.nilable(String)).void }
     def stats(source: nil)
       source ||= default_source
       Utils::Output.opoo "The DB file doesn't exist." unless File.exist? source
@@ -46,6 +48,16 @@ module Homebrew
       nil
     end
 
+    sig {
+      params(
+        source:          T.nilable(String),
+        commit:          T::Boolean,
+        update_existing: T::Boolean,
+        install_missing: T::Boolean,
+        max_downloads:   T.nilable(Integer),
+        eval_all:        T::Boolean,
+      ).void
+    }
     def update_and_save!(source: nil, commit: false, update_existing: false, install_missing: false,
                          max_downloads: nil, eval_all: false)
       source ||= default_source
@@ -59,16 +71,19 @@ module Homebrew
       safe_system "git", "-C", db.root.to_s, "commit", "-m", msg, source
     end
 
+    sig { params(els: T::Array[String], verb: String).returns(String) }
     def english_list(els, verb)
-      msg = els.slice(0, 3).join(", ")
+      msg = ""
+      msg << els.slice(0, 3)&.join(", ")
       msg << " and #{els.length - 3} more" if msg.length < 40 && els.length > 3
       "#{verb.capitalize} #{msg}"
     end
 
+    sig { params(changes: T::Hash[Symbol, T::Set[String]]).returns(String) }
     def git_commit_message(changes)
       msg = []
       [:add, :update, :remove, :version_bump].each do |action|
-        names = changes[action]
+        names = changes.fetch(action)
         next if names.empty?
 
         action = "bump version for" if action == :version_bump

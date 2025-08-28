@@ -1,19 +1,21 @@
-# typed: true
+# typed: strict
 # frozen_string_literal: true
 
 require "formula"
 
 module Homebrew
   module WhichFormula
-    LIST_PATH = File.expand_path("#{File.dirname(__FILE__)}/../executables.txt").freeze
+    LIST_PATH = T.let(File.expand_path("#{File.dirname(__FILE__)}/../executables.txt").freeze, String)
 
     module_function
 
+    sig { params(cmd: String).returns(T::Array[String]) }
     def matches(cmd)
       File.readlines(LIST_PATH).select { |line| line.include?(cmd) }.map(&:chomp)
     end
 
     # Test if we have to reject the given formula, i.e. not suggest it.
+    sig { params(name: String).returns(T::Boolean) }
     def reject_formula?(name)
       f = begin
         Formula[name]
@@ -25,6 +27,7 @@ module Homebrew
 
     # Output explanation of how to get 'cmd' by installing one of the providing
     # formulae.
+    sig { params(cmd: String, formulae: T::Array[String]).void }
     def explain_formulae_install(cmd, formulae)
       formulae.reject! { |f| reject_formula? f }
 
@@ -47,6 +50,7 @@ module Homebrew
     # if 'explain' is false, print all formulae that can be installed to get the
     # given command. If it's true, print them in human-readable form with an help
     # text.
+    sig { params(cmd: String, explain: T::Boolean).void }
     def which_formula(cmd, explain: false)
       cmd = cmd.downcase
 

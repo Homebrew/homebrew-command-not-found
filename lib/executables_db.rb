@@ -21,6 +21,7 @@ module Homebrew
     # populate the DB if it exists. It'll be created or overridden when saving the
     # DB.
     # @see #save!
+    sig { params(filename: String).void }
     def initialize(filename)
       @filename = filename
       @exes = {}
@@ -43,20 +44,31 @@ module Homebrew
       end
     end
 
+    sig { returns(T::Array[String]) }
     def formula_names
       @exes.keys
     end
 
+    sig { returns(Pathname) }
     def root
       @root ||= Pathname.new(@filename).parent
     end
 
+    sig { returns(T::Boolean) }
     def changed?
       @changes.any? { |_, v| !v.empty? }
     end
 
     # update the DB with the installed formulae
     # @see #save!
+    sig {
+      params(
+        update_existing: T::Boolean,
+        install_missing: T::Boolean,
+        max_downloads:   T.nilable(Integer),
+        eval_all:        T::Boolean,
+      ).void
+    }
     def update!(update_existing: false, install_missing: false, max_downloads: nil, eval_all: false)
       downloads = 0
       disabled_formulae = []
@@ -114,6 +126,7 @@ module Homebrew
     end
 
     # save the DB in the underlying file
+    sig { void }
     def save!
       ordered_db = @exes.map do |formula, data|
         version, exs = data
@@ -130,6 +143,7 @@ module Homebrew
 
     private
 
+    sig { params(old: String, new: String).void }
     def mv(old, new)
       unless @exes[new]
         @exes[new] = @exes[old]
@@ -140,16 +154,19 @@ module Homebrew
       puts "Moving #{old} => #{new}"
     end
 
+    sig { params(formula: Formula).returns(T::Boolean) }
     def missing_formula?(formula)
       !@exes.key? formula.full_name
     end
 
+    sig { params(formula: Formula).returns(T::Boolean) }
     def outdated_formula?(formula)
       current_version = @exes[formula.full_name][0]
       formula.pkg_version.to_s != current_version
     end
 
-    def update_formula_binaries_from_prefix(formula, prefix = nil)
+    sig { params(formula: Formula, prefix: Pathname).void }
+    def update_formula_binaries_from_prefix(formula, prefix = T.unsafe(nil))
       prefix ||= formula.prefix
 
       binaries = Set.new
@@ -161,6 +178,7 @@ module Homebrew
       update_formula_binaries(formula, binaries)
     end
 
+    sig { params(formula: Formula, binaries: T::Set[String]).void }
     def update_formula_binaries(formula, binaries)
       name = formula.full_name
       version = formula.pkg_version
@@ -178,16 +196,20 @@ module Homebrew
     end
 
     # update the binaries of {formula}, assuming it's installed
+    sig { params(formula: Formula).void }
     def update_installed_formula(formula)
       update_formula_binaries_from_prefix formula
     end
 
     # Add a formula's binaries from its bottle
+    sig { params(formula: Formula).void }
     def update_bottled_formula(formula)
-      formula.bottle.fetch
-      path = formula.bottle.resource.cached_download.to_s
+      return unless (formula_bottle = formula.bottle)
+
+      formula_bottle.fetch
+      path = formula_bottle.resource.cached_download.to_s
       content = Utils.popen_read("tar", "tzvf", path, "*/bin/*", "*/sbin/*")
-      binaries = []
+      binaries = Set.new
       prefix = formula.prefix.relative_path_from(HOMEBREW_CELLAR).to_s
       binpath_re = %r{^#{prefix}/s?bin/}
       content.each_line do |line|

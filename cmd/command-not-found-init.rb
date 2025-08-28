@@ -1,4 +1,4 @@
-# typed: true
+# typed: strict
 # frozen_string_literal: true
 
 require "abstract_command"
@@ -15,6 +15,7 @@ module Homebrew
         named_args :none
       end
 
+      sig { override.void }
       def run
         if $stdout.tty?
           help
@@ -23,10 +24,12 @@ module Homebrew
         end
       end
 
+      sig { returns(T.nilable(Symbol)) }
       def shell
         Utils::Shell.parent || Utils::Shell.preferred
       end
 
+      sig { void }
       def init
         case shell
         when :bash, :zsh
@@ -38,6 +41,7 @@ module Homebrew
         end
       end
 
+      sig { void }
       def help
         case shell
         when :bash, :zsh
