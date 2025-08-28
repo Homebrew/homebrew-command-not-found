@@ -32,7 +32,7 @@ module Homebrew
       formulae = db.formula_names
       core = Formula.core_names
 
-      cmds_count = db.exes.values.reduce(0) { |s, exs| s + exs.size }
+      cmds_count = db.exes.values.reduce(0) { |s, exs| s + exs.binaries.size }
 
       core_percentage = ((formulae & core).size * 1000 / core.size.to_f).round / 10.0
 
@@ -79,11 +79,11 @@ module Homebrew
       "#{verb.capitalize} #{msg}"
     end
 
-    sig { params(changes: T::Hash[Symbol, T::Set[String]]).returns(String) }
+    sig { params(changes: ExecutablesDB::Changes).returns(String) }
     def git_commit_message(changes)
       msg = []
-      [:add, :update, :remove, :version_bump].each do |action|
-        names = changes.fetch(action)
+      ExecutablesDB::Changes::TYPES.each do |action|
+        names = changes.send(action)
         next if names.empty?
 
         action = "bump version for" if action == :version_bump
