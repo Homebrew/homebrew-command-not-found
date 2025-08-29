@@ -29,7 +29,7 @@ module Homebrew
     end
 
     class Changes
-      TYPES = %i[add remove update version_bump].freeze
+      TYPES = [:add, :remove, :update, :version_bump].freeze
 
       sig { returns(T::Set[String]) }
       attr_accessor :add, :remove, :update, :version_bump
