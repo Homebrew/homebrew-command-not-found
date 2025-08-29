@@ -1,4 +1,4 @@
-# typed: true
+# typed: strict
 # frozen_string_literal: true
 
 require "abstract_command"
@@ -31,6 +31,7 @@ module Homebrew
         named_args :database, max: 1
       end
 
+      sig { override.void }
       def run
         if args.stats?
           Homebrew::WhichUpdate.stats source: args.named.first
@@ -39,7 +40,7 @@ module Homebrew
                                                  commit:          args.commit?,
                                                  update_existing: args.update_existing?,
                                                  install_missing: args.install_missing?,
-                                                 max_downloads:   args.max_downloads,
+                                                 max_downloads:   args.max_downloads&.to_i,
                                                  eval_all:        args.eval_all?
         end
       end

@@ -1,4 +1,4 @@
-# typed: true
+# typed: strict
 # frozen_string_literal: true
 
 require "abstract_command"
@@ -16,6 +16,7 @@ module Homebrew
         named_args :command, min: 1
       end
 
+      sig { override.void }
       def run
         # NOTE: It probably doesn't make sense to use that on multiple commands since
         # each one might print multiple formulae

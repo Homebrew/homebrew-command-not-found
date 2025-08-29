@@ -21,6 +21,6 @@ class Homebrew::Cmd::WhichUpdateCmd::Args < Homebrew::CLI::Args
   sig { returns(T::Boolean) }
   def eval_all?; end
 
-  sig { params(max_downloads: T.nilable(Integer)).returns(T::Boolean) }
-  def max_downloads(max_downloads = nil); end
+  sig { returns(T.nilable(Integer)) }
+  def max_downloads; end
 end
