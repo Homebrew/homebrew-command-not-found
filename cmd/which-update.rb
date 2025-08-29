@@ -40,7 +40,7 @@ module Homebrew
                                                  commit:          args.commit?,
                                                  update_existing: args.update_existing?,
                                                  install_missing: args.install_missing?,
-                                                 max_downloads:   args.max_downloads,
+                                                 max_downloads:   args.max_downloads&.to_i,
                                                  eval_all:        args.eval_all?
         end
       end
