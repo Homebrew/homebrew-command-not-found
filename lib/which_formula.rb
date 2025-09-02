@@ -2,16 +2,39 @@
 # frozen_string_literal: true
 
 require "formula"
+require "api"
+require "utils/curl"
 
 module Homebrew
   module WhichFormula
-    LIST_PATH = T.let(File.expand_path("#{File.dirname(__FILE__)}/../executables.txt").freeze, String)
+    ENDPOINT = "internal/executables.txt"
+    DATABASE_FILE = T.let((Homebrew::API::HOMEBREW_CACHE_API/ENDPOINT).freeze, Pathname)
 
     module_function
 
+    sig { params(skip_update: T::Boolean).void }
+    def download_and_cache_executables_file!(skip_update: false)
+      if DATABASE_FILE.exist? && !DATABASE_FILE.empty? &&
+         (skip_update || (Time.now - Homebrew::EnvConfig.api_auto_update_secs.to_i) < DATABASE_FILE.mtime)
+        return
+      end
+
+      url = "#{Homebrew::EnvConfig.api_domain}/#{ENDPOINT}"
+
+      args = Utils::Curl.curl_args + %W[
+        --compressed
+        --speed-limit #{ENV.fetch("HOMEBREW_CURL_SPEED_LIMIT")}
+        --speed-time #{ENV.fetch("HOMEBREW_CURL_SPEED_TIME")}
+      ]
+      args.prepend("--time-cond", DATABASE_FILE.to_s) if DATABASE_FILE.exist? && !DATABASE_FILE.empty?
+
+      Utils::Curl.curl_download(*args, url, to: DATABASE_FILE)
+      FileUtils.touch(DATABASE_FILE, mtime: Time.now)
+    end
+
     sig { params(cmd: String).returns(T::Array[String]) }
     def matches(cmd)
-      File.readlines(LIST_PATH).select { |line| line.include?(cmd) }.map(&:chomp)
+      DATABASE_FILE.readlines.select { |line| line.include?(cmd) }.map(&:chomp)
     end
 
     # Test if we have to reject the given formula, i.e. not suggest it.
@@ -50,8 +73,10 @@ module Homebrew
     # if 'explain' is false, print all formulae that can be installed to get the
     # given command. If it's true, print them in human-readable form with an help
     # text.
-    sig { params(cmd: String, explain: T::Boolean).void }
-    def which_formula(cmd, explain: false)
+    sig { params(cmd: String, explain: T::Boolean, skip_update: T::Boolean).void }
+    def which_formula(cmd, explain: false, skip_update: false)
+      download_and_cache_executables_file!(skip_update: skip_update)
+
       cmd = cmd.downcase
 
       formulae = (matches cmd).filter_map do |m|
