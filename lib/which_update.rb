@@ -73,7 +73,7 @@ module Homebrew
 
     sig { params(els: T::Array[String], verb: String).returns(String) }
     def english_list(els, verb)
-      msg = ""
+      msg = +""
       msg << els.slice(0, 3)&.join(", ")
       msg << " and #{els.length - 3} more" if msg.length < 40 && els.length > 3
       "#{verb.capitalize} #{msg}"
