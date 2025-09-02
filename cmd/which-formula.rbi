@@ -8,4 +8,7 @@ end
 class Homebrew::Cmd::WhichFormulaCmd::Args < Homebrew::CLI::Args
   sig { returns(T::Boolean) }
   def explain?; end
+
+  sig { returns(T::Boolean) }
+  def skip_update?; end
 end
