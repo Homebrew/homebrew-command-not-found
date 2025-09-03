@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - .github/workflows/update-database.yml
+  pull_request:
   schedule:
     # Once every day at midnight UTC
     - cron: "0 0 * * *"
