@@ -1,6 +1,8 @@
 name: Scheduled database updates
 on:
   push:
+    branches:
+      - main
     paths:
       - .github/workflows/update-database.yml
   pull_request:
