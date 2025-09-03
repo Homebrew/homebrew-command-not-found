@@ -3,7 +3,6 @@ on:
   push:
     paths:
       - .github/workflows/update-database.yml
-  pull_request:
   schedule:
     # Once every day at midnight UTC
     - cron: "0 0 * * *"
@@ -24,6 +23,18 @@ jobs:
         id: set-up-homebrew
         uses: Homebrew/actions/setup-homebrew@main
 
+      - name: Configure Git user
+        uses: Homebrew/actions/git-user-config@main
+        with:
+          username: BrewTestBot
+
+      - name: Set up commit signing
+        if: github.ref == 'refs/heads/main'
+        uses: Homebrew/actions/setup-commit-signing@main
+        with:
+          ssh: true
+          signing_key: ${{ secrets.BREWTESTBOT_SSH_SIGNING_KEY }}
+
       - name: Check out repository
         uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
         with:
@@ -31,12 +42,6 @@ jobs:
           ref: main
           path: repo
           persist-credentials: false
-
-      - name: Install oras for interacting with GitHub Packages
-        run: brew install oras
-
-      - name: Pull executables.txt from GitHub Packages
-        run: oras pull ghcr.io/homebrew/command-not-found/executables:latest
 
       - name: Update database
         working-directory: repo
@@ -52,11 +57,15 @@ jobs:
 
           # Need to intentionally leave MAX_DOWNLOADS_ARGS unquoted.
           # shellcheck disable=SC2086
-          brew which-update --update-existing --install-missing $MAX_DOWNLOADS_ARGS executables.txt
+          brew which-update --commit --update-existing --install-missing $MAX_DOWNLOADS_ARGS executables.txt
 
       - name: Output database stats
         working-directory: repo
         run: brew which-update --stats executables.txt
+
+      - name: Install oras for pushing to GitHub Packages
+        if: github.ref == 'refs/heads/main'
+        run: brew install oras
 
       - name: Log in to GitHub Packages
         if: github.ref == 'refs/heads/main'
@@ -76,6 +85,13 @@ jobs:
           rm -f executables.txt
           oras pull ghcr.io/homebrew/command-not-found/executables:latest
           shasum --algorithm=256 --check executables.txt.sha256
+
+      - name: Push commits
+        uses: Homebrew/actions/git-try-push@main
+        if: github.ref == 'refs/heads/main'
+        with:
+          token: ${{ secrets.HOMEBREW_GITHUB_PUBLIC_REPO_TOKEN }}
+          directory: repo
 
   delete-old-versions:
     needs: update-database
