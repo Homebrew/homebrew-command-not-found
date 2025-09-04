@@ -69,6 +69,12 @@ jobs:
           oras pull ghcr.io/homebrew/command-not-found/executables:latest
           shasum --algorithm=256 --check executables.txt.sha256
 
+      - name: Upload database artifact
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: executables-database
+          path: executables.txt
+
   delete-old-versions:
     needs: update-database
     runs-on: ubuntu-latest
