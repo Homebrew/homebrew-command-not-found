@@ -24,6 +24,8 @@ module Homebrew
                description: "Evaluate all installed taps, rather than just the core tap."
         flag   "--max-downloads=",
                description: "Specify a maximum number of formulae to download and update."
+        flag   "--summary-file=",
+               description: "Output a summary of the changes to a file."
         conflicts "--stats", "--commit"
         conflicts "--stats", "--install-missing"
         conflicts "--stats", "--update-existing"
@@ -41,7 +43,8 @@ module Homebrew
                                                  update_existing: args.update_existing?,
                                                  install_missing: args.install_missing?,
                                                  max_downloads:   args.max_downloads&.to_i,
-                                                 eval_all:        args.eval_all?
+                                                 eval_all:        args.eval_all?,
+                                                 summary_file:    args.summary_file
         end
       end
     end

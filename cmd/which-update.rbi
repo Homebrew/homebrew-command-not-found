@@ -23,4 +23,7 @@ class Homebrew::Cmd::WhichUpdateCmd::Args < Homebrew::CLI::Args
 
   sig { returns(T.nilable(Integer)) }
   def max_downloads; end
+
+  sig { returns(T.nilable(String)) }
+  def summary_file; end
 end
