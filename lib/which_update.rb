@@ -56,15 +56,24 @@ module Homebrew
         install_missing: T::Boolean,
         max_downloads:   T.nilable(Integer),
         eval_all:        T::Boolean,
+        summary_file:    T.nilable(String),
       ).void
     }
     def update_and_save!(source: nil, commit: false, update_existing: false, install_missing: false,
-                         max_downloads: nil, eval_all: false)
+                         max_downloads: nil, eval_all: false, summary_file: nil)
       source ||= default_source
       db = ExecutablesDB.new source
       db.update!(update_existing:, install_missing:,
                  max_downloads:, eval_all:)
       db.save!
+
+      if summary_file
+        msg = summary_file_message(db.changes)
+        File.open(summary_file, "a") do |file|
+          file.puts(msg)
+        end
+      end
+
       return if !commit || !db.changed?
 
       msg = git_commit_message(db.changes)
@@ -92,6 +101,40 @@ module Homebrew
       end
 
       msg.join
+    end
+
+    sig { params(action: Symbol).returns(String) }
+    def past_tense_verb_for_action(action)
+      case action
+      when :add then "Added"
+      when :remove then "Removed"
+      when :update then "Updated"
+      when :version_bump then "Bumped version for"
+      else action.to_s.capitalize
+      end
+    end
+
+    sig { params(changes: ExecutablesDB::Changes).returns(String) }
+    def summary_file_message(changes)
+      msg = []
+      ExecutablesDB::Changes::TYPES.each do |action|
+        names = changes.send(action)
+        next if names.empty?
+
+        msg << "### #{past_tense_verb_for_action(action)}"
+        msg << ""
+        names.to_a.sort.each do |name|
+          msg << "- [`#{name}`](https://formulae.brew.sh/formula/#{name})"
+        end
+      end
+
+      msg << "No changes" if msg.empty?
+
+      <<~MESSAGE
+        ## Database Update Summary
+
+        #{msg.join("\n")}
+      MESSAGE
     end
   end
 end
