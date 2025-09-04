@@ -26,14 +26,6 @@ jobs:
         id: set-up-homebrew
         uses: Homebrew/actions/setup-homebrew@main
 
-      - name: Check out repository
-        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
-        with:
-          fetch-depth: 0
-          ref: main
-          path: repo
-          persist-credentials: false
-
       - name: Install oras for interacting with GitHub Packages
         run: brew install oras
 
@@ -41,7 +33,6 @@ jobs:
         run: oras pull ghcr.io/homebrew/command-not-found/executables:latest
 
       - name: Update database
-        working-directory: repo
         env:
           MAX_DOWNLOADS: ${{ github.event.inputs.max-downloads }}
         run: |
@@ -57,7 +48,6 @@ jobs:
           brew which-update --update-existing --install-missing $MAX_DOWNLOADS_ARGS executables.txt --summary-file=$GITHUB_STEP_SUMMARY
 
       - name: Output database stats
-        working-directory: repo
         run: brew which-update --stats executables.txt
 
       - name: Log in to GitHub Packages
@@ -78,6 +68,12 @@ jobs:
           rm -f executables.txt
           oras pull ghcr.io/homebrew/command-not-found/executables:latest
           shasum --algorithm=256 --check executables.txt.sha256
+
+      - name: Upload database artifact
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: executables-database
+          path: executables.txt
 
   delete-old-versions:
     needs: update-database
