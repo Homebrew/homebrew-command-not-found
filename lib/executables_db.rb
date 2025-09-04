@@ -145,6 +145,8 @@ module Homebrew
 
       removed = (@exes.keys - Formula.full_names) | disabled_formulae
       removed.each do |name|
+        next unless @exes.key?(name)
+
         @exes.delete name
         @changes.remove << name
       end
