@@ -64,6 +64,7 @@ module Homebrew
       return unless File.file? @filename
 
       File.new(@filename).each do |line|
+        puts line
         matches = line.match DB_LINE_REGEX
         next unless matches
 

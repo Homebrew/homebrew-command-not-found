@@ -41,11 +41,15 @@ jobs:
         run: oras pull ghcr.io/homebrew/command-not-found/executables:latest
 
       - name: Update database
-        working-directory: repo
         env:
           MAX_DOWNLOADS: ${{ github.event.inputs.max-downloads }}
         run: |
           set -eo pipefail
+
+          # Debugging output
+          pwd
+          ls -l
+          shasum -a 256 executables.txt
 
           if [[ -n "$MAX_DOWNLOADS" ]]
           then
