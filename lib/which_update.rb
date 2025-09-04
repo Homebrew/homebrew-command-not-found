@@ -103,17 +103,6 @@ module Homebrew
       msg.join
     end
 
-    sig { params(action: Symbol).returns(String) }
-    def past_tense_verb_for_action(action)
-      case action
-      when :add then "Added"
-      when :remove then "Removed"
-      when :update then "Updated"
-      when :version_bump then "Bumped version for"
-      else action.to_s.capitalize
-      end
-    end
-
     sig { params(changes: ExecutablesDB::Changes).returns(String) }
     def summary_file_message(changes)
       msg = []
@@ -121,7 +110,8 @@ module Homebrew
         names = changes.send(action)
         next if names.empty?
 
-        msg << "### #{past_tense_verb_for_action(action)}"
+        action_heading = action.to_s.split("_").map(&:capitalize).join(" ")
+        msg << "### #{action_heading}"
         msg << ""
         names.to_a.sort.each do |name|
           msg << "- [`#{name}`](https://formulae.brew.sh/formula/#{name})"
