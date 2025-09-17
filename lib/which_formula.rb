@@ -26,7 +26,7 @@ module Homebrew
         retries = Homebrew::EnvConfig.curl_retries.to_i
       else
         max_time = 10 # seconds
-        retries = 1  # do not retry by default
+        retries = 1 # do not retry by default
       end
 
       args = Utils::Curl.curl_args(max_time:, retries:)
