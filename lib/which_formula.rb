@@ -21,7 +21,16 @@ module Homebrew
 
       url = "#{Homebrew::EnvConfig.api_domain}/#{ENDPOINT}"
 
-      args = Utils::Curl.curl_args + %W[
+      if ENV.fetch("CI", false)
+        max_time = nil # allow more time in CI
+        retries = Homebrew::EnvConfig.curl_retries.to_i
+      else
+        max_time = 10 # seconds
+        retries = 1 # do not retry by default
+      end
+
+      args = Utils::Curl.curl_args(max_time:, retries:)
+      args += %W[
         --compressed
         --speed-limit #{ENV.fetch("HOMEBREW_CURL_SPEED_LIMIT")}
         --speed-time #{ENV.fetch("HOMEBREW_CURL_SPEED_TIME")}
