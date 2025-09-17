@@ -9,8 +9,14 @@ module Homebrew
   module WhichFormula
     ENDPOINT = "internal/executables.txt"
     DATABASE_FILE = T.let((Homebrew::API::HOMEBREW_CACHE_API/ENDPOINT).freeze, Pathname)
+    CURL_MAX_TIMEOUT = 10 # in seconds
 
     module_function
+
+    sig { returns(T::Boolean) }
+    def in_ci?
+      ENV["HOMEBREW_COMMAND_NOT_FOUND_CI"].present? || ENV["CI"].present?
+    end
 
     sig { params(skip_update: T::Boolean).void }
     def download_and_cache_executables_file!(skip_update: false)
@@ -21,7 +27,15 @@ module Homebrew
 
       url = "#{Homebrew::EnvConfig.api_domain}/#{ENDPOINT}"
 
-      args = Utils::Curl.curl_args + %W[
+      curl_max_time = CURL_MAX_TIMEOUT
+      curl_retries = 1 # do not retry by default
+      if in_ci?
+        curl_max_time = nil # no max time in CI
+        curl_retries = Homebrew::EnvConfig.curl_retries.to_i
+      end
+
+      args = Utils::Curl.curl_args(max_time: curl_max_time, retries: curl_retries)
+      args += %W[
         --compressed
         --speed-limit #{ENV.fetch("HOMEBREW_CURL_SPEED_LIMIT")}
         --speed-time #{ENV.fetch("HOMEBREW_CURL_SPEED_TIME")}
