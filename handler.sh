@@ -9,6 +9,11 @@
 # Version: 0.2.0
 #
 
+# The user needs to migrate to the Homebrew/brew handler
+echo "Warning: Homebrew's command-not-found integration is out of date."
+echo "Please update your shell configuration to the new instructions printed by:"
+echo "  brew command-not-found-init"
+
 if ! command -v brew >/dev/null; then return; fi
 
 homebrew_command_not_found_handle() {
