@@ -1,8 +1,3 @@
-# The user needs to migrate to the Homebrew/brew handler
-echo "Warning: Homebrew's command-not-found integration is out of date."
-echo "Please update your shell configuration to the new instructions printed by:"
-echo "  brew command-not-found-init"
-
 function fish_command_not_found
     set -l cmd $argv[1]
     set -l txt
